@@ -1,0 +1,52 @@
+---
+layout: post
+title: mickey
+homepage: https://github.com/vincentchan/mickey
+demo: https://vincentchan.github.io/mickey
+date: 2015-07-24 04:55:37
+licence_link: https://github.com/vincentchan/mickey/blob/master/LICENSE.md
+---
+# Mickey
+
+Mickey is a minimal one-column, responsive theme for [Jekyll](http://jekyllrb.com).
+
+It's inspired by [Hyde](http://hyde.getpoole.com), [Medium](http://medium.com), and [Squarespace](http://squarespace.com).
+
+![Mickey screenshots](/assets/images/demo.png)
+
+See Mickey in action with [the demo site](http://vincentchan.github.io/mickey) or [my personal blog](http://aneverendingdream.com).
+
+## Contents
+
+- [Installation](#installation)
+- [Options](#options)
+  - [Post front matter](#post-front-matter)
+  - [Identity](#identity)
+  - [Typography](#typography)
+  - [Images](#images)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
+
+## Installation
+
+Mickey requires [Jekyll](http://jekyllrb.com/) 2.x. and [Gulp](http://gulpjs.com/) for workflow automation.
+
+Make sure to run `gem update jekyll` if you aren’t on the latest version or `gem install jekyll` if this is your first time installing it.
+
+If you want to use Mickey, please follow these steps:
+
+1. Fork the [Mickey](https://github.com/vincentchan/mickey) repo.
+2. Clone the repo you just forked and rename it.
+3. Run `npm install` to install the dependencies for the theme contained in `package.json`
+4. Update `_config.yml` with your own info and replace demo posts and pages with your own. Full details below.
+
+## Options
+
+Mickey includes some customizable options:
+
+### Post front matter
+
+By default, we use the following:
+
+```

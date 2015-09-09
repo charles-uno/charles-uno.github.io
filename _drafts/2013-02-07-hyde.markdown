@@ -1,0 +1,43 @@
+---
+layout: post
+title: hyde
+homepage: https://github.com/poole/hyde
+demo: http://hyde.getpoole.com
+date: 2013-02-07 07:01:38
+licence_link: https://github.com/poole/hyde/blob/master/LICENSE.md
+---
+# Hyde
+
+Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+
+![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+
+
+## Contents
+
+- [Usage](#usage)
+- [Options](#options)
+  - [Sidebar menu](#sidebar-menu)
+  - [Sticky sidebar content](#sticky-sidebar-content)
+  - [Themes](#themes)
+  - [Reverse layout](#reverse-layout)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
+
+
+## Usage
+
+Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+
+
+## Options
+
+Hyde includes some customizable options, typically applied via classes on the `<body>` element.
+
+
+### Sidebar menu
+
+Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+
+```

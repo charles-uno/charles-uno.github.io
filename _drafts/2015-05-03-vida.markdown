@@ -1,0 +1,9 @@
+---
+layout: post
+title: vida
+homepage: https://github.com/syaning/vida
+demo: http://syaningv.com/vida/
+date: 2015-05-03 02:02:39
+licence_link: https://github.com/syaning/vida/blob/master/LICENSE
+---
+vida

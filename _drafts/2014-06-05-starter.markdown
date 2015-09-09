@@ -1,0 +1,31 @@
+---
+layout: post
+title: starter
+homepage: https://github.com/maptime/starter
+demo: http://maptime.github.io/starter/
+date: 2014-06-05 17:54:03
+licence_link: https://github.com/maptime/starter/blob/gh-pages/LICENSE.md
+---
+## Maptime Starter site
+
+Hosting your own Maptime chapter website? **Starter** is a simple Jekyll theme that's designed to be forked and tweaked to suit your needs. [Jekyll](http://jekyllrb.com/) is a blog-aware, static site generator for personal, project, or organization sites—and it's the software that will generate your Maptime chapter's site.
+
+
+### Getting started
+
+* If we've finished onboarding your new chapter into the Maptime organization, then should already have *Starter* cloned into the `gh-pages` branch of your chapter repo and have been given you privileges to push to it.  Please skip ahead and begin to customize your site.  
+
+* Not yet in the Maptime fold?  Fill out [this form](http://maptime.io/start/#start-form) and we'll get you set up!
+
+In either case, once your repository has been cloned in to the Maptime organization, your site will be hosted at `http://maptime.io/<chapter>` where `chapter` is the name of your chapter's repository.
+
+
+### Customizing your site
+
+Once you have access to your chapter's repository, you're free to customize the site, including its settings. The site's configuration file is [`_config.yml`](_config.yml) file, which is a [YAML](http://en.wikipedia.org/wiki/YAML) file. Here's a rundown of the configuration options:
+
+
+#### Top-level configuration
+
+| Name | Required | Value | Description |
+| 

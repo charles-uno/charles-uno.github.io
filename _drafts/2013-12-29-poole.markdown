@@ -1,0 +1,12 @@
+---
+layout: post
+title: poole
+homepage: https://github.com/poole/poole
+demo: http://getpoole.com
+date: 2013-12-29 23:39:18
+licence_link: https://github.com/poole/poole/blob/master/LICENSE.md
+---
+# Poole
+
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+

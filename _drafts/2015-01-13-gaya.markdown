@@ -1,0 +1,32 @@
+---
+layout: post
+title: gaya
+homepage: https://github.com/gayanvirajith/gaya
+demo: http://gayan.me/gaya/
+date: 2015-01-13 17:15:59
+licence_link: https://github.com/gayanvirajith/gaya/blob/master/LICENSE.md
+---
+# Gaya Jekyll Theme
+
+
+
+Modern responsive theme made for jekyll blogging platform. 
+
+Gaya is a simple theme build from ground up with the focus of performance. 
+
+The theme itself quickly adapts to the users device, so it looks great on 
+
+smartphones, tablets, desktops or even the large monitors.
+
+
+
+- Ability to change theme color at any time with any color.
+
+- Easy customizable menu navigation.
+
+- SEO Friendly
+
+- Embed image, YouTube/Vimeo video or SoundCloud audio to your post.
+
+
+

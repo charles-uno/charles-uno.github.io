@@ -1,0 +1,16 @@
+---
+layout: post
+title: asyncjs.github.com
+homepage: https://github.com/asyncjs/asyncjs.github.com
+demo: http://asyncjs.com
+date: 2012-04-06 16:17:27
+---
+Async Website
+=============
+
+Welcome to the repository for the Async website. The site a [Jekyll][#jekyll]
+website hosted by [GitHub pages][#gh-pages]. This just means this repository
+contains templates and assets that are converted into a static HTML site each
+time a commit is pushed to GitHub.
+
+Running the server locally

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Thinny
+homepage: https://github.com/camporez/Thinny
+demo: http://camporez.com
+date: 2014-01-25 15:14:28
+licence_link: https://github.com/camporez/Thinny/blob/master/LICENSE
+---
+#Thinny - The Infinite's Nymphet
+
+

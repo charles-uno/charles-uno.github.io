@@ -1,0 +1,29 @@
+---
+layout: post
+title: shiori
+homepage: https://github.com/ellekasai/shiori
+demo: http://ellekasai.github.io/shiori
+date: 2014-09-07 05:49:29
+---
+# :ribbon: Hi! I'm Shiori, a Bootstrap-based Jekyll Theme. :ribbon:
+
+![](https://cloud.githubusercontent.com/assets/992008/3955483/2b9a77ae-2702-11e4-9f28-6afb051271de.png)
+
+## :ribbon: Live Demo :ribbon:
+
+### [You can view the live demo of myself here](http://ellekasai.github.io/shiori).
+
+## :ribbon: Screenshots :ribbon:
+
+### Desktop/Tablet
+
+![](http://cl.ly/image/3a2M1D3E3b3d/screenshot%202014-08-30%20at%206.51.34%20PM.png)
+
+## :ribbon: Color Schemes :ribbon:
+
+I wear different colors (based on [Flat UI Colors](http://flatuicolors.com/)):
+
+### Dark
+
+![](http://cl.ly/image/3d3T3b3E0b45/screenshot%202014-08-30%20at%206.48.56%20PM.png)
+
