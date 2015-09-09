@@ -73,3 +73,54 @@ To encrypt the token and add it to the `.travis.yml` file in your cloned reposit
 . Verify the script added the `secure` global environment variable to `.travis.yml`:
 +
 [source, yaml]
+----
+env:
+  global:
+    secure: [YOUR-ENCRYPTED-TOKEN]
+----
++
+. Commit all changes, and push to GitHub.
+
+  $ git push
+
+=== {counter:directions}. Verify the Configuration
+
+To verify if you have configured the repository correctly, open https://travis-ci.org and verify that Travis starts, and subsequently finishes processing the job.
+
+Travis should place the built site into the _gh-pages_ branch upon completion.
+
+== Summary
+
+If you can load the `[username].github.io/jekyll-asciidoc-quickstart/index.html/` home page, you have successfully completed basic configuration.
+
+Start writing blog posts and enjoy the AsciiDoc difference, regardless of what device you choose: computer, tablet, or mobile.
+
+= Details
+
+== GitHub Pages and AsciiDoc
+
+GitHub Pages does not (yet) whitelist the jekyll-asciidoc plug-in, so you can not write `.adoc` posts and have them instantly publish like Markdown posts do.
+
+Unlike some "fork and write" repositories that exist for Markdown blogs, you need to initially configure this repository fork with a computer to publish using AsciiDoc.
+
+=== How We Work Around The Limitation
+
+For this repository, the https://travis-ci.org/[Travis CI] Continuous Integration (CI) server emulates GitHub Pages staging automation, and pushes your blog live upon committing any change to the repository.
+
+After initially configuring the repository, you can use Git command-line on your computer, or even a Git client on your tablet or smartphone to write, commit, and automatically publish blog posts.
+
+=== Help Get AsciiDoc Whitelisted for GitHub Pages
+
+You can help change the lack of native AsciiDoc support by creating a support case through http://github.com/support.
+
+Tell the GitHub team that you want the choice to write in AsciiDoc, and have it handled the same way Markdown is when pushed to your GitHub Page.
+
+Your voice counts: make it heard!
+
+== Repository Structure
+
+The repository requires the following structure to work correctly:
+
+* **master**, for markup sources and configuration. This branch can be named anything you choose, however **master** is a general standard used in Jekyll blogs.
+* **gh-pages**, for the generated static content produced by Travis CI. This branch is the username.github.io GitHub Pages domain, which is created automatically for you when the Travis CI job runs.
+

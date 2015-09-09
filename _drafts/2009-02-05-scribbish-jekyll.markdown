@@ -23,3 +23,10 @@ Use it as-is, or copy it to make new themes.
 [6]: http://github.com/vilcans/scribbish-jekyll/
 [7]: http://quotedprintable.com/pages/scribbish
 
+---
+Licensed under MIT
+
+Original Scribbish typo theme Copyright 2006 Jeffrey Hardy (packagethief)
+
+Port to Jekyll Copyright 2009 Martin Vilcans
+

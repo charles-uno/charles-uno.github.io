@@ -58,3 +58,40 @@ The file name must start with the date in the above format, and then a slug for 
 The post file itself should look contain [YAML front-matter](http://jekyllrb.com/docs/frontmatter/) in the following form:
 
 ```
+---
+layout: layout
+title: Post title here.
+---
+```
+
+The body of the post should follow and should be in Markdown format.
+
+The posts can be added to repo with the following git command:
+
+```
+git add 2012-06-28-a-new-post.md 
+git commit -m "added post."
+```
+
+
+### Deploy to GitHub pages
+
+To deploy to GitHub pages, you simply need to push the repo to a [specially named repo](https://help.github.com/articles/user-organization-and-project-pages) on GitHub.
+
+
+```
+
+```
+
+### Using your own domain
+
+If you are planning on using your own domain name with GitHub pages, then add the domain name
+to the CNAME file. 
+
+## Notes
+
+Up and Jekyll Bootstrap include a Rakefile for handling some tasks such as creating new posts. I decided to omit
+those from this release, primarily because getting all the dependencies working properly is a bit tricky, and they
+aren't needed to get up and running. A similar mechanism maybe re-introduced in a future release.
+
+

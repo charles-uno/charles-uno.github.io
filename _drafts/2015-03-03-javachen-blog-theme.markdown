@@ -2,7 +2,6 @@
 layout: post
 title: javachen-blog-theme
 homepage: https://github.com/javachen/javachen-blog-theme
-demo: http://
 
 date: 2015-03-03 06:28:46
 licence_link: https://github.com/javachen/javachen-blog-theme/blob/master/LICENSE

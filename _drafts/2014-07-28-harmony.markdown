@@ -116,3 +116,17 @@ Please submit as an [issue](https://github.com/web-create/harmony/issues/new),
 I am happy to response back.
 
 Version history
+---------------
+
+| Version no. | Description  | Date |
+| --- | --- | --- |
+| 1.0 | Initial release | 9th September 2014 |
+| 1.0.1 | v1.0.1 with minor bug fix | 9th September 2014 |
+| 1.0.2 | v1.0.2 Optimize for Google | 24th October 2014 |
+
+
+## License
+
+Free / Open sourced under the 
+[MIT](https://github.com/web-create/harmony/blob/master/LICENSE.md).
+

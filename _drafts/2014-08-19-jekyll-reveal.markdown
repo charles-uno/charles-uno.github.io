@@ -29,3 +29,44 @@ $EDITOR _slides/prism-bloopers.md
 ```
 
 ```md
+---
+title: Prism Bloopers
+---
+
+# Surveillance Lols!
+
+---
+
+![](http://cdn3.vox-cdn.com/assets/4717906/VpmftGR__2_.gif)
+
+haha we have fun here
+
+---
+
+## but seriously
+```
+
+**Important**: Edit [`_config.yml`](_config.yml) to reflect wherever you'll be pushing this to.
+
+Push to your new gh-pages repo
+
+```
+git commit -m 'prism bloopers'
+git add origin git@github.com:NationalSecurityAgency/slides.git
+git push origin gh-pages
+```
+
+Visit your new slides
+
+```
+https://nationalsecurityagency.github.io/slides/prism-bloopers/
+```
+
+## License
+
+[MIT](LICENSE.md)
+
+## Credit
+
+Thanks to [mdo](https://github.com/mdo) & [hakimel](https://github.com/hakimel) for all of their work creating great tools for internet people.
+

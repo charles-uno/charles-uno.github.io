@@ -38,3 +38,47 @@ values are set in `_config.yml`.
 
 Example:
 ```yml
+---
+title: Test slide 2
+description: Show slide numbers
+reveal:
+  theme: moon
+  slideNumber: true
+---
+```
+
+Available options:
+
+| Option                    | Description                                                                                                                                                                         | Default |
+| ------------------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| -------:|
+| theme                     | The theme to use for the slide (any theme in the directory `/reveal.js/css/theme/`)                                                                                                   | default |
+| controls                  | Display controls in the bottom right corner                                                                                                                                         | true    |
+| progress                  | Display a presentation progress bar                                                                                                                                                 | true    |
+| slideNumber               | Display the page number of the current slide                                                                                                                                        | false   |
+| history                   | Push each slide change to the browser history                                                                                                                                       | false   |
+| keyboard                  | Enable keyboard shortcuts for navigation                                                                                                                                            | true    |
+| overview                  | Enable the slide overview mode                                                                                                                                                      | true    |
+| center                    | Vertical centering of slides                                                                                                                                                        | true    |
+| touch                     | Enables touch navigation on devices with touch input                                                                                                                                | true    |
+| loop                      | Loop the presentation                                                                                                                                                               | false   |
+| rtl                       | Change the presentation direction to be RTL                                                                                                                                         | false   |
+| fragments                 | Turns fragments on and off globally                                                                                                                                                 | true    |
+| embedded                  | Flags if the presentation is running in an embedded mode, Flags if the presentation is running in an embedded mode,                                                                 | false   |
+| autoSlide                 | Number of milliseconds between automatically proceeding to the next slide, disabled when set to 0, this value can be overwritten by using a data-autoslide attribute on your slides | 0       |
+| autoSlideStoppable        | Stop auto-sliding after user input                                                                                                                                                  | true    |
+| mouseWheel                | Enable slide navigation via mouse wheel                                                                                                                                             | false   |
+| hideAddressBar            | Hides the address bar on mobile devices                                                                                                                                             | true    |
+| previewLinks              | Opens links in an iframe preview overlay                                                                                                                                            | false   |
+| transition                | Transition style (default/cube/page/concave/zoom/linear/fade/none)                                                                                                                  | default |
+| transitionSpeed           | Transition speed (default/fast/slow)                                                                                                                                                | default |
+| backgroundTransition      | Transition style for full page slide backgrounds (default/none/slide/concave/convex/zoom)                                                                                           | default |
+| viewDistance              | Number of slides away from the current that are visible                                                                                                                             | 3       |
+| parallaxBackgroundImage   | Parallax background image                                                                                                                                                           |         |
+| parallaxBackgroundSize    | Parallax background size                                                                                                                                                            |         |
+
+License
+=======
+Licensend under the MIT License
+
+(C) Jens Nazarenus, 2014
+

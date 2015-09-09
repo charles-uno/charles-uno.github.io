@@ -26,3 +26,13 @@ I put this calendar together for a client site, so my initial goal was to make i
 <strong>Past Events</strong>
 ```<div id="calendar-past"></div>```
 
+---
+
+##### To Do
+
+
+- [ ] Template (underscore templates).
+- [ ] Improve styling
+- [ ] Styleguide
+- [ ] Fix multi-day events
+

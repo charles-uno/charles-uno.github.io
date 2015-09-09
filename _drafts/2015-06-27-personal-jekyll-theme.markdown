@@ -186,3 +186,14 @@ Set the value to the image file that you want to display in the 404 page
 
 Jekyll is expecting new posts to show up as a file under _/posts with a file name "YYYY-MM-DD-title.markup". Also your file's content should start like this:
 ```
+---
+layout: post
+title: <Post's title>
+category: <Post's category>
+---
+```
+After this header you can start writing your post using Markdown.
+
+## Wiki
+Don't forget to list your { Personal } blog in the [wiki](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D)
+

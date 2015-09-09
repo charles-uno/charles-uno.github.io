@@ -41,4 +41,12 @@ To create a new post, just:
 
 ... where yyyy-mm-dd is a date (e.g., 2012-08-31) and url-friendly-title is, well, a URL-friendly title.  Then inside that post, be sure to add at least the minimal [YAML front matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) (see the _posts folder for an example):
 
-    
+    ---
+    layout: post
+    title: "My Second Post"
+    ---
+
+   	It was a dark and stormy night...
+
+Enjoy.
+

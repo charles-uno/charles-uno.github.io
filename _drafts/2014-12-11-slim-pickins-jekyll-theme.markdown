@@ -148,3 +148,34 @@ These tasks have been bundled into custom build and deploy tasks
     * Example:
 
 ```
+---
+Title: Example Post
+Description: Some Yaml Frontmatter to show what's what.
+Keywords: Example, Zim, this is only a test
+---
+```
+
+## Basic Use
+For now it's best to start fresh or install the them and then transfer over any old files (posts, images, etc) from your old site.
+
+* Git clone this repo, cd into the directory and run `bundle install --binstubs --path=vendor` to install the required dependencies.
+* Edit your config.yml file
+  * Change the title and description at a minimum.
+* Update your navigation 
+  * edit the `_data/nav.yml` file as needed
+* Update your social links
+  * edit the `_data/socials.yml` file as needed
+
+## Deploying
+I use S3 to host my site and the [s3_website](https://github.com/laurilehmijoki/s3_website) plugin to deploy, if you don't do both of these, delete the `s3_website.yml` file and edit the deploy raketask to fit your needs.
+
+If you plan on using S3 make sure you edit the configs:
+
+* FIRST - add the s3_website.yml file to your gitignore so your credentials don't end up on the web.
+* s3_website.yml
+  * add your `s3_id`. `s3_secret`, and `s3_bucket`
+* Update the Rakefile notify task to use your url
+  * replace `site = "www.YOUR-URL.com"` with your actual url.
+
+## MISC.
+The blog posts included are duplicated from my actual blog and are the documentation of how I created this theme. From starting with a fresh Jekyll installation to the final product.
