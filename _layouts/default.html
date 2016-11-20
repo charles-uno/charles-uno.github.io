@@ -12,9 +12,54 @@ layout: compress
 
     <title>{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
+        <!--Twitter card and OpenGraph-->
+        {% if page.title == "Home" %}
+        <meta name="twitter:card" content="summary">
+        {% elsif page.id %}
+        <meta name="twitter:card" content="summary_large_image">
+        {% endif %}
+        <meta name="twitter:site" content="@charles_uno">
+        <meta name="twitter:creator" content="@charles_uno">
+        <meta name="og:site_name" content="charles.uno">
+        <!-- Title -->
+        {% if page.title == "Home" %}
+            <meta name="twitter:title" content="{{ site.name }}">
+            <meta property="og:title"  content="{{ site.name }}">
+        {% elsif page.title %}
+            <meta name="twitter:title" content="{{ page.title }}">
+            <meta property="og:title"  content="{{ page.title }}">
+        {% else %}
+            <meta name="twitter:title" content="{{ site.name }}">
+            <meta property="og:title"  content="{{ site.name }}">
+        {% endif %}
+        <!-- url -->
+        {% if page.url %}
+            <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        {% endif %}
+        <!-- Description -->
+        {% if page.description %}
+            <meta name="twitter:description" content="{{ page.description }}">
+            <meta property="og:description"  content="{{ page.description }}">
+        {% else %}
+            <meta name="twitter:description" content="{{ site.description }}">
+            <meta property="og:description"  content="{{ site.description }}">
+        {% endif %}
+        <!-- Image -->
+        {% if page.thumb %}
+            <meta name="twitter:image" content="{{ site.url }}/{{ page.thumb }}">
+            <meta property="og:image"  content="{{ site.url }}/{{ page.thumb }}">
+        {% endif %}
+        <!-- OpenGraph Type -->
+        {% if page.id %} <!-- Post -->
+            <meta property="og:type" content="article">
+            <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+        {% endif %}
+
+
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Roboto|Playball" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo" rel="stylesheet">
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     <!--[if lte IE 8]>
@@ -24,24 +69,33 @@ layout: compress
   </head>
   <body>
     <header>
+
       <a href="{{ site.baseurl }}/">
-        <h1 id="logo">{{ site.name }}</h1>
+        <span class="logo">
+          <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+        </span>
       </a>
-      <nav role="navigation">
-        <ul>
-          <li><a href="{{ '/authors' | prepend: site.baseurl }}">Authors</a></li>
-          &bull;
-          <li><a href="{{ '/demos' | prepend: site.baseurl }}">Demos</a></li>
-          &bull;
-          <li><a href="{{ '/contributing' | prepend: site.baseurl }}">Contributing</a></li>
-          &bull;
-          <li><a href="{{ site.github }}" target="_blank">GitHub</a></li>
-          &bull;
-          <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
-        </ul>
+
+
+      <nav class="sort-nav">
+        <a href="" onclick="sort('alphabetical'); return false;">alphabetical</a>
+        <span class="bullet">&bull;</span>
+        <a href="" onclick="sort('latest'); return false;">latest</a>
+        <span class="bullet">&bull;</span>
+        <!--
+        <a href="" onclick="sort('popularity'); return false;">Popularity</a>
+        &bull;
+        -->
+        <a href="" onclick="sort('shuffle'); return false;">shuffle</a>
       </nav>
     </header>
-    {{ content }}
+
+    <div class="pad"></div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
     {% include piwik_analytics.html %}
   </body>

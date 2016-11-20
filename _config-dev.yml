@@ -1,8 +1,9 @@
-name: Jekyll Themes
-description: A directory of the best-looking themes for Jekyll blogs
-url: 'http://themes.jekyllrc.org'
+name: char1es
+htmlname: <span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>
+description: ''
+url: 'http://charles.uno'
 baseurl: ''
-github: 'https://github.com/jekyllrc/jekyllthemes'
+github: 'https://github.com/chizarlicious'
 permalink: /:title/
 markdown: rdiscount
 cdn: ''

@@ -1,12 +1,41 @@
+
+
+
+
+
+// $mono-font: 'Playball', cursive;
+// $serif-font: 'Playball', serif;
+$sans-font: 'Roboto', sans-serif;
+$logo-font: 'Cambo', serif;
+
+$text-color: #000000;
+$link-color: #0000ff;
+
+.sort-nav { padding-bottom: 10px; padding-top: 5px; }
+
+body { border: 0; padding: 0; }
+
+header { position: fixed; width:100%; top: 0px; height: 200px; }
+
+div.pad { height: 200px; }
+
+div.content { data-role: "main"; border-top: 200px; }
+
+// .bullet { letter-spacing: 10px; }
+
 a, a:hover, a:focus { text-decoration: none; }
+
 button, textarea, a:focus { outline: none; }
+
 li { padding: 5px 0; }
+
 main { margin: 25px 0; }
+
 hr { border-top-color: #ccc; }
 
 body {
   background: #eee;
-  font-family: 'Roboto', sans-serif;
+  font-family: $sans-font;
 }
 
 .page { padding: 25px 15% }

@@ -1,6 +1,7 @@
 header {
   box-shadow: 0 0 1px 1px #000;
   background-color: #383838;
+//  background-image: radial-gradient(#4A4949 15%, rgb(56, 56, 56) 35%);
   background-image: radial-gradient(#4A4949 15%, rgb(56, 56, 56) 35%);
   background-size: 3px 3px;
   text-align: center;
@@ -11,11 +12,31 @@ header {
 }
 
 #logo {
-  font-family: 'Playball', cursive;
+  font-family: $logo-font;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
   font-size: 2.8em;
+
+  background-color: #ff00ff;
+
+  // Narrow the h1 element so that our link is only as wide as the text. 
+  display: inline-block;
+
+}
+
+span.logo {
+  margin-right: auto;
+  margin-left: auto;
+
+
+  // Let's get cute with the title. Have the L be a one, in a different color, and flip the colors on hover.
+  .title-base { color: $text-color; }
+  .title-accent { color: $link-color; }
+  &:hover {
+    .title-base { color: $link-color; }
+    .title-accent { color: $text-color; }
+  }
 }
 
 nav ul {

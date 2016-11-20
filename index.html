@@ -3,16 +3,6 @@ layout: default
 ---
 
 <main class="index">
-  <nav class="sort-nav">
-    <span onclick="sort('alphabetical')">Alphabetical</span>
-    &bull;
-    <span onclick="sort('latest')">Latest</span>
-    &bull;
-    <span onclick="sort('popularity')">Popularity</span>
-    &bull;
-    <span onclick="sort('shuffle')">Shuffle</span>
-  </nav>
-
   <ul id="index-list">
     {% for post in site.posts %}
     <li>
