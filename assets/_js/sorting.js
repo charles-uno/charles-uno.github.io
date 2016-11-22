@@ -11,7 +11,7 @@ function sort(method) {
 
     html += '<li>' +
               '<a href="' + themes[i].url + '">' +
-                '<img src="' + transparentImage + '"' +
+                '<img class="thumb" src="' + transparentImage + '"' +
                       'data-echo="'+ themes[i].thumbnail +'">' +
                 '<div>' + themes[i].title + '</div>' +
               '</a>' +

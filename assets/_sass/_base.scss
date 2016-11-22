@@ -1,25 +1,19 @@
 
-
-
-
-
 // $mono-font: 'Playball', cursive;
 // $serif-font: 'Playball', serif;
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 
+$sort-font: 'Baloo Bhaina', cursive;
+
 $text-color: #000000;
 $link-color: #0000ff;
 
-.sort-nav { padding-bottom: 10px; padding-top: 5px; }
+$head-height: 90px;
 
-body { border: 0; padding: 0; }
+$logo-size: 80px;
 
-header { position: fixed; width:100%; top: 0px; height: 200px; }
-
-div.pad { height: 200px; }
-
-div.content { data-role: "main"; border-top: 200px; }
+div.content { padding-top: $head-height; margin-right: auto; margin-left: auto; width: 100%; background-color: #0000ff; }
 
 // .bullet { letter-spacing: 10px; }
 
@@ -36,6 +30,8 @@ hr { border-top-color: #ccc; }
 body {
   background: #eee;
   font-family: $sans-font;
+  border: 0;
+  padding: 0;
 }
 
 .page { padding: 25px 15% }

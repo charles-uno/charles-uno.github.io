@@ -59,7 +59,7 @@ layout: compress
 
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Baloo+Bhaina" rel="stylesheet">
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     <!--[if lte IE 8]>
@@ -68,33 +68,39 @@ layout: compress
     <![endif]-->
   </head>
   <body>
-    <header>
-
-      <a href="{{ site.baseurl }}/">
-        <span class="logo">
-          <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-        </span>
-      </a>
-
-
-      <nav class="sort-nav">
-        <a href="" onclick="sort('alphabetical'); return false;">alphabetical</a>
-        <span class="bullet">&bull;</span>
-        <a href="" onclick="sort('latest'); return false;">latest</a>
-        <span class="bullet">&bull;</span>
-        <!--
-        <a href="" onclick="sort('popularity'); return false;">Popularity</a>
-        &bull;
-        -->
-        <a href="" onclick="sort('shuffle'); return false;">shuffle</a>
-      </nav>
-    </header>
-
-    <div class="pad"></div>
 
     <div class="content">
       {{ content }}
     </div>
+
+    <header>
+      <span class="logo">
+      <a class="logo" href="{{ site.baseurl }}/">
+          <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+      </a>
+      </span>
+
+      {% if page.title %}
+      {% else %}
+        <div class="sort-nav">
+        <span class="sort-nav">
+            <a class="sort-nav" href="" onclick="sort('alphabetical'); return false;">alphabetical</a>
+        </span>
+        </div>
+        <div class="sort-nav">
+        <span class="sort-nav">
+            <a class="sort-nav" href="" onclick="sort('latest'); return false;">latest</a>
+        </span>
+        </div>
+        <div class="sort-nav">
+        <span class="sort-nav">
+            <a class="sort-nav" href="" onclick="sort('shuffle'); return false;">shuffle</a>
+        </span>
+        </div>
+      {% endif %}
+    </header>
+
+
 
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
     {% include piwik_analytics.html %}
