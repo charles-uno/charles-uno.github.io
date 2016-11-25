@@ -59,7 +59,7 @@ layout: compress
 
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Baloo+Bhaina" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
 
     <!--[if lte IE 8]>
@@ -74,29 +74,39 @@ layout: compress
     </div>
 
     <header>
-      <span class="logo">
-      <a class="logo" href="{{ site.baseurl }}/">
-          <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-      </a>
-      </span>
-
       {% if page.title %}
+      <table class="head">
+        <tr>
+          <td class="head-full">
+            <a class="logo" href="{{ site.baseurl }}/">
+              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+            </a>
+          </td>
+        </tr>
+      </table>
       {% else %}
-        <div class="sort-nav">
-        <span class="sort-nav">
-            <a class="sort-nav" href="" onclick="sort('alphabetical'); return false;">alphabetical</a>
-        </span>
-        </div>
-        <div class="sort-nav">
-        <span class="sort-nav">
-            <a class="sort-nav" href="" onclick="sort('latest'); return false;">latest</a>
-        </span>
-        </div>
-        <div class="sort-nav">
-        <span class="sort-nav">
-            <a class="sort-nav" href="" onclick="sort('shuffle'); return false;">shuffle</a>
-        </span>
-        </div>
+      <table class="head">
+        <tr>
+          <td rowspan=3 class="head-left">
+            <a class="logo" href="{{ site.baseurl }}/">
+              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+            </a>
+          </td>
+          <td class="head-right">
+            <a class="head-sort" href="" onclick="sort('alphabetical'); return false;">by name</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="head-right">
+            <a class="head-sort" href="" onclick="sort('latest'); return false;">by date</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="head-right">
+            <a class="head-sort" href="" onclick="sort('shuffle'); return false;">shuffle</a>
+          </td>
+        </tr>
+      </table>
       {% endif %}
     </header>
 

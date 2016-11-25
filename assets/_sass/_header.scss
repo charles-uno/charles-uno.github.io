@@ -10,12 +10,15 @@ header {
     display: table;
 }
 
-header span.logo {
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #ff00ff;
-}
+table.head { width: 100%; }
+
+table.head tr td { vertical-align: middle; padding: 0px 10px; }
+
+td.head-full { text-align: left; height: 90px; }
+
+td.head-left { text-align: left; height: 90px; }
+
+td.head-right { text-align: right; height: 30px; }
 
 a.logo {
     // Let's get cute with the title. Have the L be a one, in a different color, and flip the colors on hover.
@@ -25,6 +28,9 @@ a.logo {
         .title-base { color: $link-color; }
         .title-accent { color: $text-color; }
   }
+
+    background-color: #ffff00;
+
 }
 
 #logo {
@@ -36,56 +42,15 @@ a.logo {
     font-size: $logo-size;
     // Narrow the h1 element so that our link is only as wide as the text.
     display: inline-block;
-    background-color: #ffff00;
 }
 
-/*
-div.sort-nav-1 {
-    height: 30px;
-    width: 100%;
-    display: block;
-    background-color: #ff0000;
-}
-*/
-
-div.sort-nav {
-    height: 30px;
-    width: 100%;
-    display: table;
-    background-color: #ff0000;
-}
-
-span.sort-nav {
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #ffff00;
-    text-align: right;
-}
-
-
-a.sort-nav {
+a.head-sort {
     font-family: $sort-font;
-    font-size: 12px;
-    background-color: #0000ff;
+    font-size: 18px;
+    font-weight: bold;
+    color: $link-color;
+    &:hover { color: $text-color; }
 
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+    background-color: #ffff00;
 
-    display: inline block;
-
-}
-
-
-
-
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline-block;
 }

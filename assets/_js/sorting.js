@@ -9,13 +9,24 @@ function sort(method) {
   for(var i = 0; i < themes.length; i++) {
     if(!themes[i]) { continue; }
 
+//    html += '<li>' +
+//              '<a href="' + themes[i].url + '">' +
+//                '<img class="thumb" src="' + transparentImage + '"' +
+//                      'data-echo="'+ themes[i].thumbnail +'">' +
+//                '<div>' + themes[i].title + '</div>' +
+//              '</a>' +
+//            '</li>';
+
     html += '<li>' +
-              '<a href="' + themes[i].url + '">' +
-                '<img class="thumb" src="' + transparentImage + '"' +
-                      'data-echo="'+ themes[i].thumbnail +'">' +
-                '<div>' + themes[i].title + '</div>' +
+              '<a href="' + themes[i].url + 'class="post-list-link">' +
+                '<div class="post-list-info">' +
+                  '<h2 class="post-list-title">' + themes[i].title + '</h2>' +
+                  '<span class="post-list-meta">' + themes[i].date + '</span>' +
+                '</div>' +
               '</a>' +
+              '<img src="' + themes[i].thumbnail + '" class="post-list-thumb" />' +
             '</li>';
+
   }
 
   indexList.innerHTML = html;

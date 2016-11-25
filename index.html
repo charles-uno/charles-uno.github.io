@@ -5,13 +5,27 @@ layout: default
 <main class="index">
   <ul id="index-list">
     {% for post in site.posts %}
+
+  <!--
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ site.baseurl }}/assets/transparent.png"
+        <img class="thumb" src="{{ site.baseurl }}/assets/transparent.png"
              data-echo="{{ site.cdn }}/thumbnails/{{ post.thumbnail }}">
         <div>{{ post.title }}</div>
       </a>
     </li>
+    -->
+
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-link">
+        <div class="post-list-info">
+          <h2 class="post-list-title">{{ post.title }}</h2>
+          <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </div>
+      </a>
+      <img src="{{ post.thumb }}" class="post-list-thumb" />
+    </li>
+
     {% endfor %}
   </ul>
 </main>

@@ -3,11 +3,13 @@
 // $serif-font: 'Playball', serif;
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
+$mono-font: 'Cutive Mono', monospace;
 
-$sort-font: 'Baloo Bhaina', cursive;
+// $sort-font: 'Baloo Bhaina', cursive;
+$sort-font: $mono-font;
 
 $text-color: #000000;
-$link-color: #0000ff;
+$link-color: #ff00ff;
 
 $head-height: 90px;
 
