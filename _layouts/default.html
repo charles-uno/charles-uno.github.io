@@ -3,8 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html>
-  <head>
+<html><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,128 +11,99 @@ layout: compress
 
     <title>{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
-        <!--Twitter card and OpenGraph-->
-        {% if page.title == "Home" %}
+    <!--Twitter card and OpenGraph-->
+    {% if page.title == "Home" %}
         <meta name="twitter:card" content="summary">
-        {% elsif page.id %}
+    {% elsif page.id %}
         <meta name="twitter:card" content="summary_large_image">
-        {% endif %}
-        <meta name="twitter:site" content="@charles_uno">
-        <meta name="twitter:creator" content="@charles_uno">
-        <meta name="og:site_name" content="charles.uno">
-        <!-- Title -->
-        {% if page.title == "Home" %}
-            <meta name="twitter:title" content="{{ site.name }}">
-            <meta property="og:title"  content="{{ site.name }}">
-        {% elsif page.title %}
-            <meta name="twitter:title" content="{{ page.title }}">
-            <meta property="og:title"  content="{{ page.title }}">
-        {% else %}
-            <meta name="twitter:title" content="{{ site.name }}">
-            <meta property="og:title"  content="{{ site.name }}">
-        {% endif %}
-        <!-- url -->
-        {% if page.url %}
-            <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-            <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-        {% endif %}
-        <!-- Description -->
-        {% if page.description %}
-            <meta name="twitter:description" content="{{ page.description }}">
-            <meta property="og:description"  content="{{ page.description }}">
-        {% else %}
-            <meta name="twitter:description" content="{{ site.description }}">
-            <meta property="og:description"  content="{{ site.description }}">
-        {% endif %}
-        <!-- Image -->
-        {% if page.thumb %}
-            <meta name="twitter:image" content="{{ site.url }}/{{ page.thumb }}">
-            <meta property="og:image"  content="{{ site.url }}/{{ page.thumb }}">
-        {% endif %}
-        <!-- OpenGraph Type -->
-        {% if page.id %} <!-- Post -->
-            <meta property="og:type" content="article">
-            <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-        {% endif %}
-
+    {% endif %}
+    <meta name="twitter:site" content="@charles_uno">
+    <meta name="twitter:creator" content="@charles_uno">
+    <meta name="og:site_name" content="charles.uno">
+    <!-- Title -->
+    {% if page.title == "Home" %}
+        <meta name="twitter:title" content="{{ site.name }}">
+        <meta property="og:title"  content="{{ site.name }}">
+    {% elsif page.title %}
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta property="og:title"  content="{{ page.title }}">
+    {% else %}
+        <meta name="twitter:title" content="{{ site.name }}">
+        <meta property="og:title"  content="{{ site.name }}">
+    {% endif %}
+    <!-- url -->
+    {% if page.url %}
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    <!-- Description -->
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta property="og:description"  content="{{ page.description }}">
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description }}">
+        <meta property="og:description"  content="{{ site.description }}">
+    {% endif %}
+    <!-- Image -->
+    {% if page.thumb %}
+        <meta name="twitter:image" content="{{ site.url }}/{{ page.thumb }}">
+        <meta property="og:image"  content="{{ site.url }}/{{ page.thumb }}">
+    {% endif %}
+    <!-- OpenGraph Type -->
+    {% if page.id %} <!-- Post -->
+        <meta property="og:type" content="article">
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
 
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
 
+    <!-- Autocard handling -->
+    <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
+
     <!--[if lte IE 8]>
-      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head><body>
+    <!-- Autocard handling -->
+    <div style="position:absolute; z-index:999;" id="cardPopup"></div>
 
     <div class="content">
-      {{ content }}
+        {{ content }}
     </div>
 
-      {% if page.title %}
-      <table class="head">
-        <tr>
-          <td class="head-left">
-              <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ page.title }}'); return false;"></a>
-          </td>
-
-          <td class="head-center">
-            <a class="logo" href="{{ site.baseurl }}/">
-              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-            </a>
-          </td>
-
-          <td class="head-right">
-              <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ page.title }}'); return false;"></a>
-          </td>
-        </tr>
-      </table>
-      {% else %}
-      <table class="head">
-        <tr>
-          <td class="head-left">
-<!--            <a class="head-sort" href="" onclick="sort('alphabetical'); return false;">by name</a> -->
-            <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
-          </td>
-
-          <td class="head-center">
-            <a class="logo" href="" onclick="sort('shuffle'); return false;">
-              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-            </a>
-          </td>
-
-          <td class="head-right">
-<!--            <a class="head-sort" href="" onclick="sort('latest'); return false;">by date</a> -->
-            <a class="glyphicon glyphicon-chevron-down" href="" onclick="sort('latest'); return false;"></a>
-          </td>
-
-
-<!--          <td rowspan=3 class="head-left">
-            <a class="logo" href="" onclick="sort('shuffle'); return false;">
-              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-            </a>
-          </td>
-          <td class="head-sort">
-            <a class="head-sort" href="" onclick="sort('alphabetical'); return false;">by name</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="head-sort">
-            <a class="head-sort" href="" onclick="sort('latest'); return false;">by date</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="head-sort">
-            <a class="head-sort" href="" onclick="sort('shuffle'); return false;">shuffle</a>
-          </td>
-        </tr> -->
-      </table>
-      {% endif %}
-
+    {% if page.title %}
+        <table class="head"><tr>
+            <td class="head-left">
+                <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ page.title }}'); return false;"></a>
+            </td>
+            <td class="head-center">
+                <a class="logo" href="{{ site.baseurl }}/">
+                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+                </a>
+            </td>
+            <td class="head-right">
+                <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ page.title }}'); return false;"></a>
+            </td>
+        </tr></table>
+    {% else %}
+        <table class="head"><tr>
+            <td class="head-left">
+                <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
+            </td>
+            <td class="head-center">
+                <a class="logo" href="" onclick="sort('shuffle'); return false;">
+                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+                </a>
+            </td>
+            <td class="head-right">
+                <a class="glyphicon glyphicon-chevron-down" href="" onclick="sort('latest'); return false;"></a>
+            </td>
+      </tr></table>
+    {% endif %}
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
     {% include piwik_analytics.html %}
-  </body>
-</html>
+</body></html>

@@ -3,29 +3,17 @@ layout: default
 ---
 
 <main class="index">
-  <ul id="index-list">
-    {% for post in site.posts %}
-
-  <!--
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img class="thumb" src="{{ site.baseurl }}/assets/transparent.png"
-             data-echo="{{ site.cdn }}/thumbnails/{{ post.thumbnail }}">
-        <div>{{ post.title }}</div>
-      </a>
-    </li>
-    -->
-
-    <li class="index-item">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
-        <div class="index-cell">
-          <span class="index-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-          <h2 class="index-name">{{ post.title }}</h2>
-        </div>
-      </a>
-      <img src="{{ post.thumb }}" class="index-thumb" />
-    </li>
-
-    {% endfor %}
-  </ul>
+    <ul id="index-list">
+        {% for post in site.posts %}
+            <li class="index-item">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
+                    <div class="index-cell">
+                        <span class="index-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                        <h2 class="index-name">{{ post.title }}</h2>
+                    </div>
+                </a>
+                <img src="{{ post.thumb }}" class="index-thumb" />
+            </li>
+        {% endfor %}
+    </ul>
 </main>
