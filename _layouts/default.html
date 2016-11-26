@@ -69,6 +69,41 @@ layout: compress
     <!-- Autocard handling -->
     <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
 
+    <!-- Getting some bad behavior from usual onmouseenter, etc bindings. Let's try working from a fancier example. -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+var e = 0;
+var o = 0;
+var x = 0;
+$(document).ready(function(){
+    $("div.watcher").mouseenter(function(){
+        $(".enter-tally").text(e += 1);
+
+        shufflelogo();
+
+    });
+    $("div.watcher").mouseover(function(){
+        $(".over-tally").text(o += 1);
+    });
+    $("div.watcher").mouseout(function(){
+        $(".exit-tally").text(x += 1);
+
+        restorelogo();
+
+    });
+
+    $("a.logo").mouseenter( function(){ shufflelogo(); } );
+    $("a.logo").mouseout( function(){ restorelogo(); } );
+
+
+
+});
+</script>
+
+
+
+
     <!--[if lte IE 8]>
         <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -81,9 +116,13 @@ layout: compress
         {{ content }}
     </div>
 
+<div class="watcher">
+    <div class="enter-tally"></div>
+    <div class="over-tally"></div>
+    <div class="exit-tally"></div>
+</div>
 
     <br><div id="test" onmouseover="test1()" onmouseout="test2()">TEST</div>
-
 
     {% if page.title %}
         <table class="head"><tr>
@@ -105,7 +144,8 @@ layout: compress
                 <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
             </td>
             <td class="head-center">
-                <a class="logo" href="" onclick="sort('shuffle'); return false;" onmouseenter="shufflelogo()" onmouseout="restorelogo()">
+                <a class="logo" href="" onclick="sort('shuffle'); return false;">
+<!--                <a class="logo" href="" onclick="sort('shuffle'); return false;" onmouseenter="shufflelogo()" onmouseout="restorelogo()"> -->
                     <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
                 </a>
             </td>

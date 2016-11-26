@@ -2,37 +2,6 @@ var transparentImage = '{{ site.baseurl }}/assets/transparent.png';
 var indexList = document.getElementById('index-list');
 if(indexList) { sort('loadOrder'); }
 
-
-function shufflelogo() {
-    var logo = document.getElementById('logo');
-    var i, html;
-    var letters = [
-        '<span class="title-base">c</span>',
-        '<span class="title-base">h</span>',
-        '<span class="title-base">a</span>',
-        '<span class="title-base">r</span>',
-        '<span class="title-accent">1</span>',
-        '<span class="title-base">e</span>',
-        '<span class="title-base">s</span>'
-    ];
-    html = '';
-    while ( letters.length !== 0 ) {
-        i = Math.floor(Math.random() * letters.length);
-        html += letters[i];
-        letters.splice(i, 1);
-    }
-    logo.innerHTML = html;
-}
-
-function restorelogo() {
-    var logo = document.getElementById('logo');
-    logo.innerHTML = '<span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>';
-}
-
-
-
-
-
 function sort(method) {
   this[method]();
   var html = '';
@@ -91,6 +60,46 @@ function alphabetical() {
     return 0;
   });
 }
+
+
+function shufflelogo() {
+    var logo = document.getElementById('logo');
+    var i, html;
+    var letters = [
+        '<span class="title-base">c</span>',
+        '<span class="title-base">h</span>',
+        '<span class="title-base">a</span>',
+        '<span class="title-base">r</span>',
+        '<span class="title-accent">1</span>',
+        '<span class="title-base">e</span>',
+        '<span class="title-base">s</span>'
+    ];
+    html = '';
+    while ( letters.length !== 0 ) {
+        i = Math.floor(Math.random() * letters.length);
+        html += letters[i];
+        letters.splice(i, 1);
+    }
+    logo.innerHTML = html;
+}
+
+function restorelogo() {
+    var logo = document.getElementById('logo');
+    logo.innerHTML = '<span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>';
+}
+
+
+
+function test1() {
+    var obj = document.getElementById('test');
+    obj.innerHTML = "SHUFFLED";
+}
+
+function test2() {
+    var obj = document.getElementById('test');
+    obj.innerHTML = "RESTORED";
+}
+
 
 
 function reversealphabetical() {
