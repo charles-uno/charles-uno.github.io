@@ -1,4 +1,5 @@
-header {
+
+table.head {
     box-shadow: 0 0 1px 1px #000;
     background-color: #383838;
     background-image: radial-gradient(#4A4949 15%, rgb(56, 56, 56) 35%);
@@ -7,30 +8,25 @@ header {
     width:100%;
     top: 0px;
     height: $head-height;
-    display: table;
 }
-
-table.head { width: 100%; }
 
 table.head tr td { vertical-align: middle; padding: 0px 10px; }
 
-td.head-full { text-align: left; height: 90px; width: 100%; }
+td.head-full { text-align: left; height: $head-height; width: 100%; }
 
-td.head-left { text-align: left; height: 90px; width: 60%; }
+td.head-left { text-align: left; height: $head-height; }
 
-td.head-right { text-align: right; height: 30px; width: 40%; }
+td.head-right { text-align: right; height: $head-height-third; }
 
 a.logo {
-    // Let's get cute with the title. Have the L be a one, in a different color, and flip the colors on hover.
+    // Let's get cute with the title. Have the L be a one, in a different color,
+    // and flip the colors on hover.
     .title-base { color: $text-color; }
     .title-accent { color: $link-color; }
     &:hover {
         .title-base { color: $link-color; }
         .title-accent { color: $text-color; }
-  }
-
-    background-color: #ffff00;
-
+    }
 }
 
 #logo {
@@ -50,7 +46,4 @@ a.head-sort {
     font-weight: bold;
     color: $link-color;
     &:hover { color: $text-color; }
-
-    background-color: #ffff00;
-
 }

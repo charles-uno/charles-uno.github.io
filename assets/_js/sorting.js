@@ -19,9 +19,9 @@ function sort(method) {
 
     html += '<li class="index-item">' +
               '<a href="' + themes[i].url + '" class="index-link">' +
-                '<div class="index-info">' +
-                  '<h2 class="index-name">' + themes[i].title + '</h2>' +
+                '<div class="index-cell">' +
                   '<span class="index-date">' + themes[i].date + '</span>' +
+                  '<h2 class="index-name">' + themes[i].title + '</h2>' +
                 '</div>' +
               '</a>' +
               '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +

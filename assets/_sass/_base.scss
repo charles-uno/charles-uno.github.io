@@ -1,21 +1,29 @@
 
 // $mono-font: 'Playball', cursive;
 // $serif-font: 'Playball', serif;
+
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
-// $sort-font: 'Baloo Bhaina', cursive;
 $sort-font: $mono-font;
 
 $text-color: #000000;
 $link-color: #ff00ff;
 
+$back-color: #dddddd;
+
+$name-color: #000000;
+$date-color: #333333;
+$tile-color: #dddddd;
+
+$name-size: 20px;
+$date-size: 14px;
+
 $head-height: 90px;
+$head-height-third: 30px;
 
 $logo-size: 80px;
-
-div.content { padding-top: $head-height; margin-right: auto; margin-left: auto; width: 100%; background-color: #0000ff; }
 
 // .bullet { letter-spacing: 10px; }
 
@@ -23,17 +31,17 @@ a, a:hover, a:focus { text-decoration: none; }
 
 button, textarea, a:focus { outline: none; }
 
-li { padding: 5px 0; }
+// li { padding: 5px 0; }
 
-main { margin: 25px 0; }
+// main { margin: 25px 0; }
 
-hr { border-top-color: #ccc; }
+// hr { border-top-color: #ccc; }
 
 body {
-  background: #eee;
-  font-family: $sans-font;
-  border: 0;
-  padding: 0;
+    background: #eee;
+    font-family: $sans-font;
+    border: 0;
+    padding: 0;
 }
 
-.page { padding: 25px 15% }
+// .page { padding: 25px 15% }

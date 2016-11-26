@@ -1,85 +1,70 @@
 
-.index { text-align: center; }
+div.content { padding-top: $head-height; width: 100%; background-color: $back-color; }
 
-//  ul { margin: 0; padding: 0; }
+.index { text-align: center; margin: 0; padding: 0; }
 
-//  li {
-//    display: inline-block;
-//    text-align: center;
-//    vertical-align: top;
-//    box-shadow: 0 0 1px 1px #ccc;
-//    background: #fff;
-//    margin: 10px 2%;
-//    padding: 5px 2%;
-//    width: 94%;
-//    @media (min-width: 600px) {
-//      width: 46%;
-//      margin: 5px 0.5%;
-//      padding: 10px 1%;
-//    }
-//    @media (min-width: 800px) { width: 23%; }
-//  }
-
-//  img {
-//    width: 100%;
-//    margin-bottom: 5px;
-//  }
-
-//  a { color: #333; }
-//  a:hover { opacity: 0.7; }
-
-//  &.authors {
-//    text-align: left;
-//    padding: 0 10%;
-//  }
-//}
-
-#index-list { margin: 0; padding: 0; }
+#index-list {
+    margin: 0;
+    padding: 5px 2%;
+    width: 100%;
+}
 
 .index-item {
     display: inline-block;
     text-align: center;
-    vertical-align: top;
-    box-shadow: 0 0 1px 1px #ccc;
-    background: #fff;
-    margin: 10px 2%;
-    padding: 5px 2%;
-    width: 94%;
-    @media (min-width: 600px) {
-      width: 46%;
-      margin: 5px 0.5%;
-      padding: 10px 1%;
-    }
-    @media (min-width: 800px) { width: 23%; }
-
     position: relative;
-
+    margin: 4px 0.5%;
+    background: none;
+    // Thumbnails take up 96% of the width. That can be divided between 1, 2, 3,
+    // or 4 thumbnails, depending on the width of the viewer.
+    width: 95%;
+    @media (min-width: 300px) { width: 47%; }
+    @media (min-width: 600px) { width: 31%; }
+    @media (min-width: 900px) { width: 23%; }
+//    box-shadow: 0 0 1px 1px #ccc;
 }
 
 .index-link {
-//    background: rgba($text-color, .5);
-    background: none;
-    bottom: 0;
     left: 0;
-    position: absolute;
-    right: 0;
     top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
 }
 
-.index-info {
-    position: absolute;
-    .index-name { background-color: #ff0000; }
-    .index-date { background-color: #00ff00; }
+.index-cell {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    // Dull the image tiles to make the text legible. On hover, sharpen the
+    // images, and shove the text to where it's invisible.
+    background-color: rgba($tile-color, 0.5);
     &:hover {
-        .index-name { background-color: #00ff00; }
-        .index-date { background-color: #ff0000; }
-        opacity: 0.7;
+        background: none;
+        .index-name { top: 1000%; }
+        .index-date { top: 1000%; }
     }
+}
+
+.index-name { top: 33%; color: $name-color; font-size: $name-size; }
+
+.index-date { top: 66%; color: $date-color; font-size: $date-size; }
+
+.index-date, .index-name {
+    display: inline-block;
+    text-transform: lowercase;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .index-thumb {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 5px;
 }
