@@ -27,7 +27,7 @@ a, a:hover, a:focus { text-decoration: none; }
 button, textarea, a:focus { outline: none; }
 
 body {
-    background: #eee;
+    background-color: $back-color;
     font-family: $sans-font;
     border: 0;
     padding: 0;
