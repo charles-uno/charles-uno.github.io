@@ -14,11 +14,11 @@ table.head { width: 100%; }
 
 table.head tr td { vertical-align: middle; padding: 0px 10px; }
 
-td.head-full { text-align: left; height: 90px; }
+td.head-full { text-align: left; height: 90px; width: 100%; }
 
-td.head-left { text-align: left; height: 90px; }
+td.head-left { text-align: left; height: 90px; width: 60%; }
 
-td.head-right { text-align: right; height: 30px; }
+td.head-right { text-align: right; height: 30px; width: 40%; }
 
 a.logo {
     // Let's get cute with the title. Have the L be a one, in a different color, and flip the colors on hover.

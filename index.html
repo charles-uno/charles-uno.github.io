@@ -16,14 +16,14 @@ layout: default
     </li>
     -->
 
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-link">
-        <div class="post-list-info">
-          <h2 class="post-list-title">{{ post.title }}</h2>
-          <span class="post-list-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <li class="index-item">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
+        <div class="index-info">
+          <h2 class="index-name">{{ post.title }}</h2>
+          <span class="index-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         </div>
       </a>
-      <img src="{{ post.thumb }}" class="post-list-thumb" />
+      <img src="{{ post.thumb }}" class="index-thumb" />
     </li>
 
     {% endfor %}
