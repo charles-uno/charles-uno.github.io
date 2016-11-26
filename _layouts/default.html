@@ -76,35 +76,60 @@ layout: compress
       {% if page.title %}
       <table class="head">
         <tr>
-          <td class="head-full">
+          <td class="head-left">
+              <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ page.title }}'); return false;"></a>
+          </td>
+
+          <td class="head-center">
             <a class="logo" href="{{ site.baseurl }}/">
               <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
             </a>
+          </td>
+
+          <td class="head-right">
+              <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ page.title }}'); return false;"></a>
           </td>
         </tr>
       </table>
       {% else %}
       <table class="head">
         <tr>
-          <td rowspan=3 class="head-left">
-            <a class="logo" href="{{ site.baseurl }}/">
+          <td class="head-left">
+<!--            <a class="head-sort" href="" onclick="sort('alphabetical'); return false;">by name</a> -->
+            <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
+          </td>
+
+          <td class="head-center">
+            <a class="logo" href="" onclick="sort('shuffle'); return false;">
               <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
             </a>
           </td>
+
           <td class="head-right">
+<!--            <a class="head-sort" href="" onclick="sort('latest'); return false;">by date</a> -->
+            <a class="glyphicon glyphicon-chevron-down" href="" onclick="sort('latest'); return false;"></a>
+          </td>
+
+
+<!--          <td rowspan=3 class="head-left">
+            <a class="logo" href="" onclick="sort('shuffle'); return false;">
+              <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
+            </a>
+          </td>
+          <td class="head-sort">
             <a class="head-sort" href="" onclick="sort('alphabetical'); return false;">by name</a>
           </td>
         </tr>
         <tr>
-          <td class="head-right">
+          <td class="head-sort">
             <a class="head-sort" href="" onclick="sort('latest'); return false;">by date</a>
           </td>
         </tr>
         <tr>
-          <td class="head-right">
+          <td class="head-sort">
             <a class="head-sort" href="" onclick="sort('shuffle'); return false;">shuffle</a>
           </td>
-        </tr>
+        </tr> -->
       </table>
       {% endif %}
 
