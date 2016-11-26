@@ -25,10 +25,10 @@ a.logo {
     // and flip the colors on hover.
     .title-base { color: $text-color; }
     .title-accent { color: $link-color; }
-    &:hover {
-        .title-base { color: $link-color; }
-        .title-accent { color: $text-color; }
-    }
+//    &:hover {
+//        .title-base { color: $link-color; }
+//        .title-accent { color: $text-color; }
+//    }
 }
 
 #logo {

@@ -2,21 +2,42 @@ var transparentImage = '{{ site.baseurl }}/assets/transparent.png';
 var indexList = document.getElementById('index-list');
 if(indexList) { sort('loadOrder'); }
 
+
+function shufflelogo() {
+    var logo = document.getElementById('logo');
+    var i, html;
+    var letters = [
+        '<span class="title-base">c</span>',
+        '<span class="title-base">h</span>',
+        '<span class="title-base">a</span>',
+        '<span class="title-base">r</span>',
+        '<span class="title-accent">1</span>',
+        '<span class="title-base">e</span>',
+        '<span class="title-base">s</span>'
+    ];
+    html = '';
+    while ( letters.length !== 0 ) {
+        i = Math.floor(Math.random() * letters.length);
+        html += letters[i];
+        letters.splice(i, 1);
+    }
+    logo.innerHTML = html;
+}
+
+function restorelogo() {
+    var logo = document.getElementById('logo');
+    logo.innerHTML = '<span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>';
+}
+
+
+
+
+
 function sort(method) {
   this[method]();
   var html = '';
-
   for(var i = 0; i < themes.length; i++) {
     if(!themes[i]) { continue; }
-
-//    html += '<li>' +
-//              '<a href="' + themes[i].url + '">' +
-//                '<img class="thumb" src="' + transparentImage + '"' +
-//                      'data-echo="'+ themes[i].thumbnail +'">' +
-//                '<div>' + themes[i].title + '</div>' +
-//              '</a>' +
-//            '</li>';
-
     html += '<li class="index-item">' +
               '<a href="' + themes[i].url + '" class="index-link">' +
                 '<div class="index-cell">' +
@@ -26,9 +47,7 @@ function sort(method) {
               '</a>' +
               '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +
             '</li>';
-
   }
-
   indexList.innerHTML = html;
   echo.render();
   saveOrder();
@@ -72,6 +91,7 @@ function alphabetical() {
     return 0;
   });
 }
+
 
 function reversealphabetical() {
   themes.sort(function(a, b){
