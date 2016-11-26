@@ -93,8 +93,8 @@ $(document).ready(function(){
 
     });
 
-    $("span.logo").mouseenter( function(){ shufflelogo(); } );
-    $("span.logo").mouseout( function(){ restorelogo(); } );
+    $("div.logo").mouseenter( function(){ shufflelogo(); } );
+    $("div.logo").mouseout( function(){ restorelogo(); } );
 
 
 
@@ -146,12 +146,12 @@ $(document).ready(function(){
             <td class="head-center">
                 <a class="logo" href="" onclick="sort('shuffle'); return false;">
 
-                    <span class="logo">
+                    <div class="logo">
 
 <!--                <a class="logo" href="" onclick="sort('shuffle'); return false;" onmouseenter="shufflelogo()" onmouseout="restorelogo()"> -->
                     <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
 
-                    </span>
+                    </div>
 
                 </a>
             </td>
