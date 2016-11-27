@@ -2,13 +2,13 @@
 layout: post
 title: "Data vs Democracy"
 date: 2016-11-19
-thumb: "/assets/images/shakshuka/thumb.png"
+thumb: "/thumbnails/flag.png"
 description: ""
 ---
 
-From 1930 to 1970, more or less, America's federal government was a well-oiled machine. 
+From 1930 to 1970, more or less, America's federal government was a well-oiled machine.
 
-Legislators would meet in smoke-filled rooms to find common ground across party lines. 
+Legislators would meet in smoke-filled rooms to find common ground across party lines.
 
 That's how we got Social Security, Medicare, Voting Rights,
 Glass-Steagal, and so on. The Interstate Highway Act, among the most
@@ -19,7 +19,7 @@ Part of that was that the country was united by existential terror
 
 but the unity broke down before the terror went away
 
-The 9/11 attacks united us for only a year. Same for the recession. 
+The 9/11 attacks united us for only a year. Same for the recession.
 
 
 
@@ -46,12 +46,12 @@ they pass, but also on how they do their jobs day-to-day. Today's
 representatives have little opportunity to find common ground behind
 closed doors; in fact, those who appear too willing to compromise may
 find themselves
-[out of a job](http://talkingpointsmemo.com/livewire/jerry-brown-tea-party-threatens-primary-challenger). 
+[out of a job](http://talkingpointsmemo.com/livewire/jerry-brown-tea-party-threatens-primary-challenger).
 
 <!--
-Pork-barrel spending, once a powerful [tool for seeking compromise](http://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/), remains near record lows since a 2011 moratorium[^2]. 
+Pork-barrel spending, once a powerful [tool for seeking compromise](http://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/), remains near record lows since a 2011 moratorium[^2].
 
-[^2]: [Pork-barrel](https://en.wikipedia.org/wiki/Pork_barrel) spending refers to softening a legislator's stance on a bill by offering something that's important to the voters they represent. For example, in 1964, an Arizona senator agreed to break the filibuster of the Civil Rights Act in exchange for federal funding for the Central Arizona Water Project. 
+[^2]: [Pork-barrel](https://en.wikipedia.org/wiki/Pork_barrel) spending refers to softening a legislator's stance on a bill by offering something that's important to the voters they represent. For example, in 1964, an Arizona senator agreed to break the filibuster of the Civil Rights Act in exchange for federal funding for the Central Arizona Water Project.
 -->
 
 We saw this in the 2010 Republican primaries, where
@@ -76,7 +76,7 @@ repeatedly to repeal the signature accomplishment of the sitting
 president. It's
 [possible, though unlikely](http://www.factcheck.org/2016/11/could-electoral-college-elect-clinton/),
 that we could even see a presidential election being decided by
-[faithless electors](https://www.change.org/p/electoral-college-electors-electoral-college-make-hillary-clinton-president-on-december-19). 
+[faithless electors](https://www.change.org/p/electoral-college-electors-electoral-college-make-hillary-clinton-president-on-december-19).
 
 In a sense, the representative nature of our democracy is breaking down,
 giving way to a direct democracy. The problem is, direct democracy
@@ -107,7 +107,7 @@ complaints that her racial justice positions
 and also that she did too little to court
 [blue-collar whites](http://www.vanityfair.com/news/2016/03/hillary-clinton-michigan-loss),
 who are wary of identity politics. In the end, too much of her base was
-turned off by the idea of compromise, and she lost. 
+turned off by the idea of compromise, and she lost.
 
 <!-- http://www.washingtonexaminer.com/bill-clintons-lonely-one-man-effort-to-win-white-working-class-voters/article/2607228 -->
 
@@ -135,14 +135,14 @@ voter base -- a personality-focused campaign may help distract from the
 disparate policy priorities of LGBT voters, young voters, and voters of
 color[^2].
 
-[^2]: One might naively imagine that people of color and LGBT people, both historically-marginalized groups, would easily find common ground. The reality is more complicated. For example, only [40% of Black Protestants approve of same-sex marriage](http://www.pewforum.org/2016/05/12/changing-attitudes-on-gay-marriage/), compared to nearly 60% of the population overall. 
+[^2]: One might naively imagine that people of color and LGBT people, both historically-marginalized groups, would easily find common ground. The reality is more complicated. For example, only [40% of Black Protestants approve of same-sex marriage](http://www.pewforum.org/2016/05/12/changing-attitudes-on-gay-marriage/), compared to nearly 60% of the population overall.
 
 Republican voter turnout, on the other hand, seems almost ambivalent to
 the nominee. In 2004, GWB was a divisive incumbent with an unpopular war
 hanging over him. In 2008, McCain was a cantankerous maverick with a
 reputation for bipartisanship. In 2012, Romney was a moderate elite with
 an unconventional faith. In 2016, Trump was a salacious TV star with no
-experience in government. Each got almost the same number of votes. 
+experience in government. Each got almost the same number of votes.
 
 | Year | Democrat Votes      | Republican Votes  |
 |:----:|:-------------------:|:-----------------:|
@@ -181,7 +181,7 @@ More and more people are realizing how messy our political system is, and they w
 As voters becoming increasingly aware of the
 archaic rules, messy conventions
 
-Want to clean up the mess. Draw sharp lines. Figure out the actual rules. 
+Want to clean up the mess. Draw sharp lines. Figure out the actual rules.
 
 
 ---
@@ -196,7 +196,7 @@ Want to clean up the mess. Draw sharp lines. Figure out the actual rules.
 
 How does negative campaigning fit into this?
 
-Hunger for more information. 
+Hunger for more information.
 
 ***
 
@@ -215,5 +215,3 @@ process, we can look to a figure from FiveThirtyEight's Craig Fehrman:
 
 ![State houses tend to track with the US House](/assets/images/election2016/fehrman538.png)
 *Source: [FiveThirtyEight](http://fivethirtyeight.com/features/all-politics-is-national/)*
-
-
