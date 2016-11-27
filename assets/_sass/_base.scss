@@ -26,13 +26,7 @@ $arrow-size: 25px;
 $name-size: 20px;
 $date-size: 16px;
 
-//#test { text-align: center; font-size: 40px; background-color: #0000ff; color: #ffff00; }
-
-//.watcher { padding: 20px; background-color: #ff00ff; }
-
-//#enter-tally, #over-tally, #exit-tally, #logo-height, #logo-width { display: inline-block; border: 10px; background-color: #aaaaaa; height: 50px; width: 50px; }
-
-a, a:hover, a:focus { text-decoration: none; }
+a, a:hover, a:focus { color: $link-color; text-decoration: none; }
 
 button, textarea, a:focus { outline: none; }
 
