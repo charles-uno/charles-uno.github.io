@@ -59,15 +59,14 @@ a.head-sort {
     &:hover { color: $text-color; }
 }
 
-.fa { font-size: $sort-size; }
+.fa { font-size: $sort-size; vertical-align: middle; }
 
-.glyphicon { font-size: $arrow-size; }
+.glyphicon { font-size: $arrow-size; vertical-align: bottom; }
 
 .glyphicon, .fa {
     display: inline-block;
     margin: 0;
     padding: 0;
-    vertical-align: bottom;
     color: $link-color;
     &:visited { color: $link-color; }
     &:hover { color: $text-color; }
