@@ -8,19 +8,31 @@ table.head {
     width:100%;
     top: 0px;
     height: $head-height;
+
+    margin: 0;
+    padding: 0;
+
+    border-collapse: collapse;
+
 }
 
-table.head tr td { vertical-align: middle; padding: 0px 10px; }
+table.head tr td { vertical-align: middle; margin: 0px; border-collapse: collapse; height: 100%; padding: 0px 10px; }
 
-td.head-left { text-align: left; height: $head-height; width: 25%; }
+td.head-left { text-align: left; width: auto; background-color: #00ff00; }
 
-td.head-center { text-align: center; height: $head-height; width: 50%; }
+td.head-center { text-align: center; width: $head-width; background-color: #ff0000; }
 
-td.head-right { text-align: right; height: $head-height; width: 25%; }
+td.head-right { text-align: right; width: auto; background-color: #00ff00; }
 
 // td.head-sort { text-align: right; height: $head-height-third; }
 
 a.logo {
+    height: 100%;
+
+    width: 100%;
+
+    border-collapse: collapse;
+
     // Let's get cute with the title. Have the L be a one, in a different color,
     // and flip the colors on hover.
     .title-base { color: $text-color; }
@@ -31,7 +43,7 @@ a.logo {
     }
 }
 
-div.logo { background-color: #ffff00; display: inline-block; }
+//div.logo { background-color: #00ff00; display: inline-block; }
 
 
 #logo {
@@ -41,8 +53,14 @@ div.logo { background-color: #ffff00; display: inline-block; }
     margin: 0;
     padding: 0;
     font-size: $logo-size;
-    // Narrow the h1 element so that our link is only as wide as the text.
-    display: inline-block;
+//    // Narrow the h1 element so that our link is only as wide as the text.
+//    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: #ffff00;
 }
 
 a.head-sort {

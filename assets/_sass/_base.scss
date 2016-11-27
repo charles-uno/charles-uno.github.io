@@ -15,6 +15,7 @@ $date-color: #333333;
 $tile-color: #dddddd;
 
 $head-height: 40px;
+$head-width: 300px;
 
 $logo-size: 35px;
 $sort-size: 10px;
@@ -26,7 +27,7 @@ $date-size: 14px;
 
 .watcher { padding: 20px; background-color: #ff00ff; }
 
-.enter-tally, .over-tally, .exit-tally { display: inline-block; border: 10px; background-color: #aaaaaa; height: 50px; width: 50px; }
+#enter-tally, #over-tally, #exit-tally, #logo-height, #logo-width { display: inline-block; border: 10px; background-color: #aaaaaa; height: 50px; width: 50px; }
 
 
 a, a:hover, a:focus { text-decoration: none; }

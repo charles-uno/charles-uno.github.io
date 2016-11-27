@@ -1,5 +1,8 @@
 var transparentImage = '{{ site.baseurl }}/assets/transparent.png';
 var indexList = document.getElementById('index-list');
+
+var logoIsFixed = 0;
+
 if(indexList) { sort('loadOrder'); }
 
 function sort(method) {
@@ -62,6 +65,32 @@ function alphabetical() {
 }
 
 
+
+
+function fixlogosize() {
+    var logo = document.getElementById('logo');
+    var cell = document.getElementById('logo-cell');
+    var link = document.getElementById('logo-link');
+    var div = document.getElementById('logo-div');
+    var width = logo.clientWidth;
+
+    // debug
+    var wdiv = document.getElementById('logo-width');
+    wdiv.innerHTML = width;
+
+    if (logoIsFixed == 0) {
+        logoIsFixed = 1;
+        cell.style.width = width + "px";
+        link.style.width = "100%";
+        div.style.width = "100%";
+        logo.style.width = "100%";
+        logo.style.display = "inline";
+        div.style.display = "inline";
+        link.style.display = "inline";
+    }
+}
+
+
 function shufflelogo() {
     var logo = document.getElementById('logo');
     var i, html;
@@ -74,6 +103,9 @@ function shufflelogo() {
         '<span class="title-base">e</span>',
         '<span class="title-base">s</span>'
     ];
+
+//    fixlogosize();
+
     html = '';
     while ( letters.length !== 0 ) {
         i = Math.floor(Math.random() * letters.length);
@@ -85,6 +117,7 @@ function shufflelogo() {
 
 function restorelogo() {
     var logo = document.getElementById('logo');
+//    fixlogosize();
     logo.innerHTML = '<span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>';
 }
 

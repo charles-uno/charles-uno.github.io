@@ -78,23 +78,23 @@ var o = 0;
 var x = 0;
 $(document).ready(function(){
     $("div.watcher").mouseenter(function(){
-        $(".enter-tally").text(e += 1);
+        $("#enter-tally").text(e += 1);
 
         shufflelogo();
 
     });
     $("div.watcher").mouseover(function(){
-        $(".over-tally").text(o += 1);
+        $("#over-tally").text(o += 1);
     });
-    $("div.watcher").mouseout(function(){
-        $(".exit-tally").text(x += 1);
+    $("div.watcher").mouseleave(function(){
+        $("#exit-tally").text(x += 1);
 
         restorelogo();
 
     });
 
-    $("div.logo").mouseenter( function(){ shufflelogo(); } );
-    $("div.logo").mouseout( function(){ restorelogo(); } );
+    $("a.logo").mouseenter( function(){ shufflelogo(); } );
+    $("a.logo").mouseleave( function(){ restorelogo(); } );
 
 
 
@@ -117,9 +117,10 @@ $(document).ready(function(){
     </div>
 
 <div class="watcher">
-    <div class="enter-tally"></div>
-    <div class="over-tally"></div>
-    <div class="exit-tally"></div>
+    <div id="enter-tally"></div>
+    <div id="over-tally"></div>
+    <div id="exit-tally"></div>
+    <div id="logo-width"></div>
 </div>
 
     <br><div id="test" onmouseover="test1()" onmouseout="test2()">TEST</div>
@@ -143,15 +144,15 @@ $(document).ready(function(){
             <td class="head-left">
                 <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
             </td>
-            <td class="head-center">
-                <a class="logo" href="" onclick="sort('shuffle'); return false;">
+            <td class="head-center" id="logo-cell">
+                <a class="logo" id="logo-link" href="" onclick="sort('shuffle'); return false;">
 
-                    <div class="logo">
+<!--                    <div class="logo" id="logo-div"> -->
 
 <!--                <a class="logo" href="" onclick="sort('shuffle'); return false;" onmouseenter="shufflelogo()" onmouseout="restorelogo()"> -->
                     <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
 
-                    </div>
+<!--                    </div> -->
 
                 </a>
             </td>
