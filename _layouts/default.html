@@ -66,34 +66,6 @@ layout: compress
     <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
 
-    <!-- Autocard handling -->
-    <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
-
-    <!-- Getting some bad behavior from usual onmouseenter, etc bindings. Let's try working from a fancier example. -->
-<!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-var e = 0;
-var o = 0;
-var x = 0;
-$(document).ready(function(){
-    $("div.watcher").mouseenter(function(){
-        $("#enter-tally").text(e += 1);
-        shufflelogo();
-    });
-    $("div.watcher").mouseover(function(){
-        $("#over-tally").text(o += 1);
-    });
-    $("div.watcher").mouseleave(function(){
-        $("#exit-tally").text(x += 1);
-        restorelogo();
-    });
-    $("#logo-shuffler").mouseenter( function(){ shufflelogo(); } );
-    $("#logo-shuffler").mouseleave( function(){ restorelogo(); } );
-});
-</script>
--->
-
     <!--[if lte IE 8]>
         <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -106,17 +78,6 @@ $(document).ready(function(){
     <div class="content">
         {{ content }}
     </div>
-
-<!--
-<div class="watcher">
-    <div id="enter-tally"></div>
-    <div id="over-tally"></div>
-    <div id="exit-tally"></div>
-    <div id="logo-width"></div>
-</div>
-
-    <br><div id="test" onmouseover="test1()" onmouseout="test2()">TEST</div>
--->
 
     <!-- We draw the header last so that it renders on top of the content. -->
     <table class="head"><tr>
@@ -149,7 +110,7 @@ $(document).ready(function(){
 
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
 
-
-
+    <!-- Autocard handling -->
+    <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
 
 </body></html>
