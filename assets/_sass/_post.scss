@@ -11,14 +11,14 @@ div.post {
 }
 
 header, article, footer {
-    display: inline-block;
+    display: block;
 }
 
 img { max-width: 100%; }
 
 div.pdf {
     margin: 0px auto;
-    width: 460px; height: 588px;
+    width: 460px; height: 590px;
     overflow: hidden;
 }
 
