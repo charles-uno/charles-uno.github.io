@@ -57,6 +57,7 @@ div.content {
 .index-date { top: 90%; color: $date-color; font-size: $date-size; white-space: nowrap; }
 
 .index-date, .index-name {
+    line-height: 1;
     display: inline-block;
     font-weight: bold;
     text-transform: lowercase;
