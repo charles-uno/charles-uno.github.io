@@ -54,7 +54,7 @@ div.content {
 
 .index-name { top: 45%; color: $name-color; font-size: $name-size; }
 
-.index-date { top: 90%; color: $date-color; font-size: $date-size; }
+.index-date { top: 90%; color: $date-color; font-size: $date-size; white-space: nowrap; }
 
 .index-date, .index-name {
     display: inline-block;
