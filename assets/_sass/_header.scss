@@ -13,13 +13,13 @@ table.head {
     border-collapse: collapse;
 }
 
-table.head tr td { vertical-align: middle; margin: 0px; height: 100%; padding: 0px 10px; }
+table.head tr td { margin: 0px; height: 100%; padding: 0px 10px; }
 
-td.head-left { text-align: left; width: auto; }
+td.head-left { text-align: left; width: 40%; vertical-align: middle; }
 
-td.head-center { text-align: center; width: 100px; }
+td.head-center { text-align: center; width: 20%; vertical-align: bottom; }
 
-td.head-right { text-align: right; width: auto; }
+td.head-right { text-align: right; width: 40%; vertical-align: middle; }
 
 // td.head-sort { text-align: right; height: $head-height-third; }
 
