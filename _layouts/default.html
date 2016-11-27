@@ -95,15 +95,15 @@ layout: compress
             </td>
         {% else %}
             <td class="head-left">
-                <a class="glyphicon glyphicon-chevron-up" href="" onclick="restorelogo(); sort('alphabetical'); return false;"></a>
+                <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); restorelogo(); return false;"></a>
             </td>
             <td class="head-center" id="logo-cell">
-                <a class="logo" href="" onclick="shufflelogo(); sort('shuffle'); return false;">
+                <a class="logo" href="" onclick="sort('shuffle'); shufflelogo(); return false;">
                     <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
                 </a>
             </td>
             <td class="head-right">
-                <a class="glyphicon glyphicon-chevron-down" href="" onclick="restorelogo(); sort('latest'); return false;"></a>
+                <a class="glyphicon glyphicon-chevron-down" href="" onclick="sort('latest'); restorelogo(); return false;"></a>
             </td>
         {% endif %}
     </tr></table>
