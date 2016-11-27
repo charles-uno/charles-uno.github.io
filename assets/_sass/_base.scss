@@ -5,30 +5,32 @@ $mono-font: 'Cutive Mono', monospace;
 
 $sort-font: $mono-font;
 
-$text-color: #000000;
-$link-color: #ff00ff;
+$text-color: #0d1321;
+$link-color: #82b3ac;
 
-$back-color: #dddddd;
+$head-color: #4b6564;
 
-$name-color: #000000;
-$date-color: #333333;
-$tile-color: #dddddd;
+$back-color: #ceb5a7;
+$shadow-color: #a17c6b;
+
+$tile-color: $text-color;
+$name-color: $back-color;
+$date-color: $shadow-color;
 
 $head-height: 40px;
-$head-width: 300px;
+$head-width: 100px;
 
 $logo-size: 35px;
 $sort-size: 10px;
 $arrow-size: 25px;
 $name-size: 20px;
-$date-size: 14px;
+$date-size: 16px;
 
-#test { text-align: center; font-size: 40px; background-color: #0000ff; color: #ffff00; }
+//#test { text-align: center; font-size: 40px; background-color: #0000ff; color: #ffff00; }
 
-.watcher { padding: 20px; background-color: #ff00ff; }
+//.watcher { padding: 20px; background-color: #ff00ff; }
 
-#enter-tally, #over-tally, #exit-tally, #logo-height, #logo-width { display: inline-block; border: 10px; background-color: #aaaaaa; height: 50px; width: 50px; }
-
+//#enter-tally, #over-tally, #exit-tally, #logo-height, #logo-width { display: inline-block; border: 10px; background-color: #aaaaaa; height: 50px; width: 50px; }
 
 a, a:hover, a:focus { text-decoration: none; }
 

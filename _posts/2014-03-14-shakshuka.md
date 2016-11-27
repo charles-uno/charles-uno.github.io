@@ -3,7 +3,7 @@ layout: post
 title: "Shakshuka"
 date: 2014-03-14
 thumb: "/thumbnails/shakshuka.png"
-description: TEST DESCRIPTION
+description: Placeholder description. 
 ---
 
 The following is loosely based on [this recipe](http://www.davidlebovitz.com/2013/02/shakshuka-recipe-eggs).

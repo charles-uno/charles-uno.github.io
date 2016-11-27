@@ -70,7 +70,7 @@ layout: compress
     <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
 
     <!-- Getting some bad behavior from usual onmouseenter, etc bindings. Let's try working from a fancier example. -->
-
+<!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 var e = 0;
@@ -79,36 +79,27 @@ var x = 0;
 $(document).ready(function(){
     $("div.watcher").mouseenter(function(){
         $("#enter-tally").text(e += 1);
-
         shufflelogo();
-
     });
     $("div.watcher").mouseover(function(){
         $("#over-tally").text(o += 1);
     });
     $("div.watcher").mouseleave(function(){
         $("#exit-tally").text(x += 1);
-
         restorelogo();
-
     });
-
-    $("a.logo").mouseenter( function(){ shufflelogo(); } );
-    $("a.logo").mouseleave( function(){ restorelogo(); } );
-
-
-
+    $("#logo-shuffler").mouseenter( function(){ shufflelogo(); } );
+    $("#logo-shuffler").mouseleave( function(){ restorelogo(); } );
 });
 </script>
-
-
-
+-->
 
     <!--[if lte IE 8]>
         <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head><body>
+
     <!-- Autocard handling -->
     <div style="position:absolute; z-index:999;" id="cardPopup"></div>
 
@@ -116,6 +107,7 @@ $(document).ready(function(){
         {{ content }}
     </div>
 
+<!--
 <div class="watcher">
     <div id="enter-tally"></div>
     <div id="over-tally"></div>
@@ -124,9 +116,11 @@ $(document).ready(function(){
 </div>
 
     <br><div id="test" onmouseover="test1()" onmouseout="test2()">TEST</div>
+-->
 
-    {% if page.title %}
-        <table class="head"><tr>
+    <!-- We draw the header last so that it renders on top of the content. -->
+    <table class="head"><tr>
+        {% if page.title %}
             <td class="head-left">
                 <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ page.title }}'); return false;"></a>
             </td>
@@ -138,29 +132,24 @@ $(document).ready(function(){
             <td class="head-right">
                 <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ page.title }}'); return false;"></a>
             </td>
-        </tr></table>
-    {% else %}
-        <table class="head"><tr>
+        {% else %}
             <td class="head-left">
-                <a class="glyphicon glyphicon-chevron-up" href="" onclick="sort('alphabetical'); return false;"></a>
+                <a class="glyphicon glyphicon-chevron-up" href="" onclick="restorelogo(); sort('alphabetical'); return false;"></a>
             </td>
             <td class="head-center" id="logo-cell">
-                <a class="logo" id="logo-link" href="" onclick="sort('shuffle'); return false;">
-
-<!--                    <div class="logo" id="logo-div"> -->
-
-<!--                <a class="logo" href="" onclick="sort('shuffle'); return false;" onmouseenter="shufflelogo()" onmouseout="restorelogo()"> -->
+                <a class="logo" href="" onclick="shufflelogo(); sort('shuffle'); return false;">
                     <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-
-<!--                    </div> -->
-
                 </a>
             </td>
             <td class="head-right">
-                <a class="glyphicon glyphicon-chevron-down" href="" onclick="sort('latest'); return false;"></a>
+                <a class="glyphicon glyphicon-chevron-down" href="" onclick="restorelogo(); sort('latest'); return false;"></a>
             </td>
-      </tr></table>
-    {% endif %}
+        {% endif %}
+    </tr></table>
 
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
+
+
+
+
 </body></html>

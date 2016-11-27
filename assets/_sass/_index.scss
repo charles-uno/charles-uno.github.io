@@ -44,7 +44,7 @@ div.content {
     padding: 5%;
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
-    background-color: rgba($tile-color, 0.5);
+    background-color: rgba($tile-color, 0.7);
     &:hover {
         background: none;
         .index-name { top: 1000%; }
@@ -52,12 +52,13 @@ div.content {
     }
 }
 
-.index-name { top: 33%; color: $name-color; font-size: $name-size; }
+.index-name { top: 45%; color: $name-color; font-size: $name-size; }
 
-.index-date { top: 66%; color: $date-color; font-size: $date-size; }
+.index-date { top: 90%; color: $date-color; font-size: $date-size; }
 
 .index-date, .index-name {
     display: inline-block;
+    font-weight: bold;
     text-transform: lowercase;
     padding: 0;
     margin: 0;

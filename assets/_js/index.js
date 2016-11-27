@@ -4,7 +4,7 @@ var themes = [
     {% for theme in site.posts %}
         {
             "title": "{{ theme.title }}",
-            "date": "{{ theme.date | date: "%-d %B %Y" }}",
+            "date": "{{ theme.date | date: "%Y—%m—%-d" }}",
             "thumbnail": "{{ theme.thumb }}",
             "author": "{{ theme.author }}",
             "url": "{{ site.baseurl }}{{ theme.url }}",
