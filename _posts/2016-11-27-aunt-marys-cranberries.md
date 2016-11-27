@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Aunt Mary's Cranberries"
-date: 2016-11-24
-thumb: "/thumbnails/placeholder.png"
+date: 2016-11-27
+thumb: "/thumbnails/aunt-marys-cranberries.png"
 description: Placeholder description.
 author: charles
 ---
