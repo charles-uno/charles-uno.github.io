@@ -59,9 +59,12 @@ a.head-sort {
     &:hover { color: $text-color; }
 }
 
-.glyphicon {
+.fa { font-size: $sort-size; }
+
+.glyphicon { font-size: $arrow-size; }
+
+.glyphicon, .fa {
     display: inline-block;
-    font-size: $arrow-size;
     margin: 0;
     padding: 0;
     vertical-align: bottom;
