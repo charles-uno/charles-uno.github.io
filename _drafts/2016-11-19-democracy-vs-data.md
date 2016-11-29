@@ -2,9 +2,38 @@
 layout: post
 title: "Data vs Democracy"
 date: 2016-11-19
-thumb: "/thumbnails/flag.png"
+thumb: "/thumbnails/map.png"
 description: ""
 ---
+
+After the Civil War, the federal government languished for half a century. There was [little common ground](https://www.washingtonpost.com/news/monkey-cage/wp/2014/01/16/our-politics-may-be-polarized-but-thats-nothing-new/) to be found between representatives from the northern states and those from the would-be Confederacy. Johnson, Grant, Hayes, Garfield, Arthur, Cleveland, Harrison, McKinley... there were no legislative triumphs for these [forgotten presidents](http://www.aprilsmith.org/lesson-9-the-forgotten-presidents.html) to sign into law.
+
+Congress found its feet just before the onset of WWI. It then went on a five-decade rampage, churning out landmark reforms left and right: [Income Tax](https://en.wikipedia.org/wiki/Revenue_Act_of_1913), the [Federal Reserve Act](https://en.wikipedia.org/wiki/Federal_Reserve_Act), the [19th Amendment](https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution), [Social Security](https://en.wikipedia.org/wiki/Social_Security_Act), [FLSA](https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act), [FLSA](https://en.wikipedia.org/wiki/Federal_Aid_Highway_Act_of_1956), [Civil Rights](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), [Voting Rights](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), [Medicare](https://en.wikipedia.org/wiki/Social_Security_Amendments_of_1965), and so on.
+
+In recent decades, [we've seen polarization and gridlock return](http://www.pewresearch.org/fact-tank/2014/06/12/polarized-politics-in-congress-began-in-the-1970s-and-has-been-getting-worse-ever-since/). No legislation of the past forty years holds a candle to the New Deal and Great Society. The [ACA](https://en.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act) probably comes closest -- but unlike those mentioned above, it was passed along party lines.
+
+What happened?
+
+
+
+
+
+
+
+What happened to the democracy that our parents and grandparents grew up with?
+
+
+
+
+
+
+
+
+
+
+
+Partisan disagreements were eclipsed by the Great Depression, then by WWII.
+
 
 From 1930 to 1970, more or less, America's federal government was a well-oiled machine.
 
