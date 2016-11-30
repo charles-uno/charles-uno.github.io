@@ -18,7 +18,7 @@ $name-color: $back-color;
 $date-color: $shadow-color;
 
 $head-height: 40px;
-// Head width is a little bit arbitrary. It'll get stretched to fit. 
+// Head width is a little bit arbitrary. It'll get stretched to fit.
 $head-width: 100px;
 
 $logo-size: 35px;
@@ -41,5 +41,17 @@ body {
     border: 0;
     padding: 0;
 }
+
+
+div.content {
+    table {
+        margin-left: auto; margin-right:auto;
+        background-color: #ffff00;
+    }
+    th, td { padding: 5px; }
+
+}
+
+
 
 blockquote { background-color: $shadow-color; }

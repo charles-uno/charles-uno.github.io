@@ -9,10 +9,10 @@ author: charles
 
 This recipe assumes a large food processor. If yours is more modestly sized, it may be better to do half at a time.
 
-Slice **one large navel orange** and remove any seeds. Combine in a food processor with **250ml (1 cup) sugar**. Blend briefly to mix.
+Slice **one large navel orange** and remove any seeds. Combine in a food processor with **250ml sugar** (1 cup). Blend briefly to mix.
 
-Add **1l (4 cups, about a pound) raw cranberries**. Pulse until the desired consistency is reached. The bigger the pieces, the more crunch there will be!
+Add **1l raw cranberries** (4 cups, about a pound). Pulse until the desired consistency is reached. The bigger the pieces, the more crunch there will be!
 
 ![Aunt Mary's Cranberry Relish](/assets/images/aunt-marys-cranberries/finished.png)
 
-Let the relish sit overnight in the fridge. The sugar will draw juice out of the berries, improving both the color and the flavor. 
+Let the relish sit overnight in the fridge. The sugar will draw juice out of the berries, improving both the color and the flavor.
