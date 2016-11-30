@@ -15,52 +15,6 @@ layout: compress
         <link rel="canonical" href="{{ page.redirect }}" />
     {% endif %}
 
-    <title>{{ site.name }}{% if page.title %} | {{ page.title }}{% endif %}</title>
-
-    <!--Twitter card and OpenGraph-->
-    {% if page.title == "Home" %}
-        <meta name="twitter:card" content="summary">
-    {% elsif page.id %}
-        <meta name="twitter:card" content="summary_large_image">
-    {% endif %}
-    <meta name="twitter:site" content="@charles_uno">
-    <meta name="twitter:creator" content="@charles_uno">
-    <meta name="og:site_name" content="charles.uno">
-    <!-- Title -->
-    {% if page.title == "Home" %}
-        <meta name="twitter:title" content="{{ site.name }}">
-        <meta property="og:title"  content="{{ site.name }}">
-    {% elsif page.title %}
-        <meta name="twitter:title" content="{{ page.title }}">
-        <meta property="og:title"  content="{{ page.title }}">
-    {% else %}
-        <meta name="twitter:title" content="{{ site.name }}">
-        <meta property="og:title"  content="{{ site.name }}">
-    {% endif %}
-    <!-- url -->
-    {% if page.url %}
-        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    {% endif %}
-    <!-- Description -->
-    {% if page.description %}
-        <meta name="twitter:description" content="{{ page.description }}">
-        <meta property="og:description"  content="{{ page.description }}">
-    {% else %}
-        <meta name="twitter:description" content="{{ site.description }}">
-        <meta property="og:description"  content="{{ site.description }}">
-    {% endif %}
-    <!-- Image -->
-    {% if page.thumb %}
-        <meta name="twitter:image" content="{{ site.url }}/{{ page.thumb }}">
-        <meta property="og:image"  content="{{ site.url }}/{{ page.thumb }}">
-    {% endif %}
-    <!-- OpenGraph Type -->
-    {% if page.id %} <!-- Post -->
-        <meta property="og:type" content="article">
-        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    {% endif %}
-
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <!-- Support for icons better than the defaults -->
@@ -72,6 +26,9 @@ layout: compress
         <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Jekyll-seo-tag -->
+    {% seo %}
 </head><body>
 
     <!-- Autocard handling -->
