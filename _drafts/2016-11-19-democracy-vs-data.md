@@ -2,7 +2,7 @@
 layout: post
 title: "Data vs Democracy"
 date: 2016-11-19
-thumb: "/thumbnails/map.png"
+image: "/thumbnails/map.png"
 description: ""
 ---
 

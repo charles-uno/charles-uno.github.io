@@ -2,7 +2,7 @@
 layout: post
 title: "Roasted Cauliflower"
 date: 2016-11-27
-thumb: "/thumbnails/roasted-cauliflower.png"
+image: "/thumbnails/roasted-cauliflower.png"
 description: Steam your pores, not your vegetables.
 author: charles
 ---
