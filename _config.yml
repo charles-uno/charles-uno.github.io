@@ -1,9 +1,25 @@
 name: char1es
+title: char1es
 htmlname: <span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>
-description: ''
+description: "Charles McEachern's blog"
 url: 'http://charles.uno'
 baseurl: ''
 github: 'https://github.com/chizarlicious'
+author:
+    twitter: charles_uno
+twitter:
+  username: charles_uno
+facebook:
+    publisher: https://www.facebook.com/charles.a.mceachern
+logo: null
+social:
+  name: Charles McEachern
+  links:
+    - https://twitter.com/charles_uno
+    - https://www.facebook.com/charles.a.mceachern
+    - https://www.linkedin.com/in/charlesmceachern
+    - https://plus.google.com/+CharlesMcEachern
+    - https://github.com/chizarlicious
 permalink: /:title/
 markdown: kramdown
 cdn: ''
