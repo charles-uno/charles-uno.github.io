@@ -2,7 +2,7 @@
 layout: post
 title: "Shakshuka"
 date: 2014-03-14
-thumb: "/thumbnails/shakshuka.png"
+image: "/thumbnails/shakshuka.png"
 description: Placeholder description.
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Aunt Mary's Cranberries"
 date: 2016-11-27
-thumb: "/thumbnails/aunt-marys-cranberries.png"
+image: "/thumbnails/aunt-marys-cranberries.png"
 description: A simple side filled with fresh fruit flavor.
 author: charles
 ---
