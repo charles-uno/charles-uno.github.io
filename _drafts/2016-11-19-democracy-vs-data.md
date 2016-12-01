@@ -12,9 +12,11 @@ In contrast, the past [five decades](http://www.pewresearch.org/fact-tank/2014/0
 
 What happened to the system that my parents and grandparents grew up with?
 
-Television happened -- then cable, then 24-hour news networks, then Facebook. Recent decades have seen Americans' data access revolutionized time and time again, 
+Television happened -- then cable, then the 24-hour news cycle, then content aggregators, then social media. Our data consumption has grown exponentially in the past half-century, and it's brought us way too close to the [sausage-making](http://www.washingtonpost.com/wp-dyn/content/article/2005/04/16/AR2005041600154.html) process.
 
+---
 
+By today's standards, mid-century Americans had little access to their representatives. The internet didn't exist. Television channels only went up to 13. Long-distance phone calls were expensive. This gave parties and politicians a lot of freedom. Presidential candidates were chosen by party insiders, not primary voters. Senators could meet behind closed doors to find common ground -- and leverage [pork-barrel spending](http://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/) to move things along.
 
 
 

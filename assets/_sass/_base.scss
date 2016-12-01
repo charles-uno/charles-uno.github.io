@@ -43,6 +43,15 @@ body {
 }
 
 
+hr {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: $text-color;
+    background-color: $text-color;
+}
+
 div.content {
     table {
         margin-left: auto; margin-right:auto;
