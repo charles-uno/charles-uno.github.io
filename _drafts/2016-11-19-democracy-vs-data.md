@@ -8,9 +8,18 @@ description: ""
 
 For the bulk of the 20th century, bipartisan majorities in Congress were churning out landmark domestic reforms left and right: [income tax](https://en.wikipedia.org/wiki/Revenue_Act_of_1913), the [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve_Act), [women's suffrage](https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution), [Social Security](https://en.wikipedia.org/wiki/Social_Security_Act), [minimum wage](https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act), the [interstate highway](https://en.wikipedia.org/wiki/Federal_Aid_Highway_Act_of_1956) system, [Civil Rights](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), [Voting Rights](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), [Medicare](https://en.wikipedia.org/wiki/Social_Security_Amendments_of_1965), and so on.
 
-In contrast, the past [five decades](http://www.pewresearch.org/fact-tank/2014/06/12/polarized-politics-in-congress-began-in-the-1970s-and-has-been-getting-worse-ever-since/) have seen Congress polarized to the point of uselessness. The ACA is probably the "biggest" piece of legislation within my lifetime; it was passed along party lines, and doesn't hold a candle to the triumphs listed above. What happened to the system that my parents and grandparents grew up with?
+In contrast, the past [five decades](http://www.pewresearch.org/fact-tank/2014/06/12/polarized-politics-in-congress-began-in-the-1970s-and-has-been-getting-worse-ever-since/) have seen Congress polarized to the point of uselessness. The ACA is probably the "biggest" piece of legislation within my lifetime; it was passed along party lines, and doesn't hold a candle to the triumphs listed above.
 
-Television happened -- then cable, then 24-hour news networks, then Facebook. Recent decades have seen Americans' data access revolutionized time and time again, and those revolutions have not been kind to the political establishment.
+What happened to the system that my parents and grandparents grew up with?
+
+Television happened -- then cable, then 24-hour news networks, then Facebook. Recent decades have seen Americans' data access revolutionized time and time again, 
+
+
+
+
+
+
+and those revolutions have not been kind to the political establishment.
 
 By today's standards, mid-century data access was unthinkably slow. The internet didn't exist, of course. Most homes owned (black and white) televisions, but channels [only went up to 13](https://en.wikipedia.org/wiki/All-Channel_Receiver_Act).
 
