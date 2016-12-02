@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Data vs Democracy"
-date: 2016-11-19
+date: 2016-12-01
 image: "/thumbnails/map.png"
 description: ""
 ---
 
 For the bulk of the 20th century, bipartisan majorities in Congress were churning out landmark domestic reforms left and right: [income tax](https://en.wikipedia.org/wiki/Revenue_Act_of_1913), the [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve_Act), [women's suffrage](https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution), [Social Security](https://en.wikipedia.org/wiki/Social_Security_Act), [minimum wage](https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act), the [interstate highway](https://en.wikipedia.org/wiki/Federal_Aid_Highway_Act_of_1956) system, [Civil Rights](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), [Voting Rights](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), [Medicare](https://en.wikipedia.org/wiki/Social_Security_Amendments_of_1965), and so on. In contrast, the past [five decades](http://www.pewresearch.org/fact-tank/2014/06/12/polarized-politics-in-congress-began-in-the-1970s-and-has-been-getting-worse-ever-since/) have seen Congress polarized to the point of uselessness. The ACA is probably the "biggest" piece of legislation within my lifetime; it was passed along party lines, and doesn't hold a candle to the triumphs listed above. What happened to the high-functioning democracy my parents and grandparents grew up with?
 
+
+<!-- Blockquote test -->
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus lacus lacus, a egestas mauris varius semper. Quisque blandit aliquet arcu at efficitur. Aenean in orci nisi. Sed euismod vehicula enim, fermentum egestas nulla ultricies sed. Quisque elementum gravida aliquet. Sed porta lobortis felis non convallis. Duis sodales magna vitae nisl efficitur varius. Donec in dictum lectus. Maecenas eget mauris sed tellus ullamcorper sollicitudin. Fusce finibus arcu ac fringilla tincidunt. Proin diam quam, placerat eget porta sit amet, scelerisque id risus. Nulla facilisi. Fusce a orci dolor. Nullam sed ipsum bibendum, tempus ligula a, vulputate ligula.
 
@@ -29,11 +31,18 @@ There's a trope of blaming bad outcomes on low-information voters, but recent de
 
 In a sense, the representative nature of our democracy is breaking down, giving way to a direct democracy. The problem is, direct democracy doesn't work. Despite having strong opinions, the public doesn't have the time, interest, or expertise to run the country.
 
-For example, consider a pair of [2016 San Francisco ballot measures](https://ballotpedia.org/San_Francisco_City_and_County,_California_ballot_measures), Prop J and Prop K. Prop J, which passed easily, proposed to set aside $150M per year for homelessness; Prop K, a sales tax to fund the measure, was soundly defeated. As the saying goes, "if you're explaining, you're losing." It's easy to rally support for simple, good-sounding policies. But when it comes to the nuts and bolts of making it work, it's a lot easier to poison a proposal than it is to convince a non-expert of its value.
+For example, consider a pair of [2016 San Francisco ballot measures](https://ballotpedia.org/San_Francisco_City_and_County,_California_ballot_measures), Prop J and Prop K. Prop J, which passed easily, proposed to set aside $150M per year for homelessness; Prop K, a sales tax to fund the measure, was soundly defeated. Similarly, a majority of Americans want to keep the ACA's [preexisting conditions clause](http://kff.org/health-reform/press-release/after-the-election-the-public-remains-sharply-divided-on-future-of-the-affordable-care-act/), but not the individual mandate that [makes it work](http://www.rwjf.org/content/dam/farm/reports/issue_briefs/2012/rwjf72098). As the saying goes, "if you're explaining, you're losing." It's easy to rally support for simple, good-sounding policies. But when it comes to the nuts and bolts of making it work, it's a lot easier to poison a proposal than it is to convince a non-expert of its value.
+
+---
+
+
+
+
+
+
 
 And let's be clear: as far as government is concerned, voters are not experts. Voting patterns don't follow taxes, crime, unemployment, or student achievement; they follow [presidential popularity](http://fivethirtyeight.com/features/all-politics-is-national/). This is the case at not only the federal level, but also in state legislatures, and been throughout living memory.  
 
----
 
 
 
