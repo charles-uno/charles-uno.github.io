@@ -3,19 +3,38 @@ $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
-$sort-font: $mono-font;
 
-$text-color: #0d1321;
-$link-color: #82b3ac;
+//$text-color: #000;
+//$link-color: #b9c6ae;
 
-$head-color: #4b6564;
+//$paper-color: #fff;
+//$shadow-color: #ccc;
+//$back-color: #222;
 
-$back-color: #ceb5a7;
-$shadow-color: #a17c6b;
+//$tile-color: $text-color;
+//$name-color: $back-color;
+//$date-color: $shadow-color;
 
-$tile-color: $text-color;
-$name-color: $back-color;
-$date-color: $shadow-color;
+$back-back-color: #567;
+
+$head-back-color-1: #069;
+$head-back-color-2: #027;
+$head-text-color-1: #000;
+$head-text-color-2: #fff;
+
+$body-back-color: #fff;
+$body-back-accent: #ddf;
+$body-text-color: #000;
+$body-text-accent: #069;
+
+$tile-back-color: #fff;
+$tile-back-accent: #ddd;
+$tile-text-color: #000;
+$tile-text-accent: #08a;
+
+
+
+
 
 $head-height: 40px;
 // Head width is a little bit arbitrary. It'll get stretched to fit.
@@ -29,42 +48,14 @@ $arrow-size: 25px;
 $name-size: 20px;
 $date-size: 16px;
 
-a, a:focus, a:visited { color: $head-color; text-decoration: none; }
-
-a:hover { color: $text-color; text-decoration: none; }
-
-button, textarea, a:focus { outline: none; }
+// button, textarea, a:focus { outline: none; }
 
 body {
-    background-color: $back-color;
+    background-color: $back-back-color;
     font-family: $sans-font;
     border: 0;
     padding: 0;
+    padding-bottom:25px;
 }
 
-
-hr {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    color: $text-color;
-    background-color: $text-color;
-}
-
-div.content {
-    table {
-        margin-left: auto; margin-right:auto;
-        background-color: #ffff00;
-    }
-    th, td { padding: 5px; }
-
-}
-
-.post-share {
-
-  li { display: inline-block; }
-
-}
-
-blockquote { background-color: $shadow-color; }
+a, a:focus, a:visited, a:hover { text-decoration: none; }

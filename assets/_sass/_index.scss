@@ -18,11 +18,8 @@ div.content {
     position: relative;
     margin: 4px 0.5%;
     background: none;
-
 //    border-radius: 5px;
 //    overflow: hidden;
-
-
     // Thumbnails take up 96% of the width. That can be divided between
     // 1, 2, 3, or 4 thumbnails, depending on the width of the viewer.
     width: 95%;
@@ -49,7 +46,7 @@ div.content {
     padding: 5%;
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
-    background-color: rgba($tile-color, 0.7);
+    background-color: rgba($tile-back-color, 0.7);
     &:hover {
         background: none;
         .index-name { top: 1000%; }
@@ -57,9 +54,9 @@ div.content {
     }
 }
 
-.index-name { top: 45%; color: $name-color; font-size: $name-size; }
+.index-name { top: 45%; color: $tile-text-color; font-size: $name-size; }
 
-.index-date { top: 90%; color: $date-color; font-size: $date-size; white-space: nowrap; }
+.index-date { top: 90%; color: $tile-text-accent; font-size: $date-size; white-space: nowrap; }
 
 .index-date, .index-name {
     line-height: 1;

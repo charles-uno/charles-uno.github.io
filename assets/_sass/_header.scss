@@ -1,9 +1,10 @@
 
 table.head {
 //    box-shadow: 0 0 1px 1px #000;
-    background-color: $head-color;
+//    background-color: $head-color;
+    background-image: radial-gradient($head-back-color-1, $head-back-color-2);
 //    background-image: radial-gradient(#4A4949 15%, rgb(56, 56, 56) 35%);
-//    background-size: 3px 3px;
+    background-size: 3.5px 3.5px;
     position: fixed;
     width:100%;
     top: 0px;
@@ -28,11 +29,11 @@ a.logo {
     width: 100%;
     // Let's get cute with the title. Have the L be a one, in a different color,
     // and flip the colors on hover.
-    .title-base { color: $text-color; }
-    .title-accent { color: $link-color; }
+    .title-base { color: $head-text-color-1; }
+    .title-accent { color: $head-text-color-2; }
     &:hover {
-        .title-base { color: $link-color; }
-        .title-accent { color: $text-color; }
+        .title-base { color: $head-text-color-2; }
+        .title-accent { color: $head-text-color-1; }
     }
 }
 
@@ -51,14 +52,6 @@ a.logo {
     width: 100%;
 }
 
-a.head-sort {
-    font-family: $sort-font;
-    font-size: $sort-size;
-    font-weight: bold;
-    color: $link-color;
-    &:hover { color: $text-color; }
-}
-
 .fa { font-size: $sort-size; vertical-align: middle; }
 
 .glyphicon { font-size: $arrow-size; vertical-align: bottom; }
@@ -67,7 +60,7 @@ a.head-sort {
     display: inline-block;
     margin: 0;
     padding: 0;
-    color: $link-color;
-    &:visited { color: $link-color; }
-    &:hover { color: $text-color; }
+    color: $head-text-color-2;
+    &:visited { color: $head-text-color-2; }
+    &:hover { color: $head-text-color-1; }
 }

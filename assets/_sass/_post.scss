@@ -1,19 +1,39 @@
 
-.post {
-    text-align: justify;
-    width: 100%;
-}
 
-div.post {
+main.post {
+    text-align: justify;
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0px 2%;
+    margin-bottom: 20px;
+    padding: 0 2%;
+    background-color: $body-back-color;
+    h1 { padding-top: 10px; }
+
+    a, a:focus, a:visited { color: $body-text-accent; }
+    a:hover { color: $body-text-color; }
+
 
 }
 
 header, article, footer {
     display: block;
+    table {
+        margin-left: auto; margin-right:auto;
+        background-color: $body-back-accent;
+    }
+    th, td { padding: 5px; }
+    .rrssb-buttons { li { display: inline-block; } }
+    blockquote { background-color: $body-back-accent; }
+}
+
+hr {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: $body-text-color;
+    background-color: $body-text-color;
 }
 
 img { max-width: 100%; }
