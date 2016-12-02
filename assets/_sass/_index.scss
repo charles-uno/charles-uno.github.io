@@ -16,17 +16,20 @@ div.content {
     display: inline-block;
     text-align: center;
     position: relative;
-    margin: 4px 0.5%;
+//    margin: 4px 0.5%;
+    margin: 0;
     background: none;
 //    border-radius: 5px;
 //    overflow: hidden;
     // Thumbnails take up 96% of the width. That can be divided between
     // 1, 2, 3, or 4 thumbnails, depending on the width of the viewer.
-    width: 95%;
-    @media (min-width: 300px) { width: 47%; }
-    @media (min-width: 600px) { width: 31%; }
-    @media (min-width: 900px) { width: 23%; }
-//    box-shadow: 0 0 1px 1px #ccc;
+    width: 96%;
+    @media (min-width: 300px) { width: 48%; }
+    @media (min-width: 600px) { width: 32%; }
+    @media (min-width: 900px) { width: 24%; }
+
+    padding: 10px;
+    //    box-shadow: 0 0 1px 1px #ccc;
 }
 
 .index-link {
