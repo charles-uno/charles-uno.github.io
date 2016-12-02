@@ -28,7 +28,7 @@ div.content {
     @media (min-width: 600px) { width: 32%; }
     @media (min-width: 900px) { width: 24%; }
 
-    padding: 10px;
+//    padding: 10px;
     //    box-shadow: 0 0 1px 1px #ccc;
 }
 
@@ -46,7 +46,9 @@ div.content {
     top: 0;
     height: 100%;
     width: 100%;
-    padding: 5%;
+
+    margin: 10px;
+    padding: 0;
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
     background-color: rgba($tile-back-color, 0.7);
