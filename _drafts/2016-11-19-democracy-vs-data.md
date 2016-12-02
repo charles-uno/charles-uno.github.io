@@ -21,6 +21,22 @@ By today's standards, mid-century Americans had little access to their represent
 
 
 
+
+***
+
+
+
+
+***
+
+
+
+
+***
+
+
+
+
 and those revolutions have not been kind to the political establishment.
 
 By today's standards, mid-century data access was unthinkably slow. The internet didn't exist, of course. Most homes owned (black and white) televisions, but channels [only went up to 13](https://en.wikipedia.org/wiki/All-Channel_Receiver_Act).
@@ -45,10 +61,6 @@ Presidential debates were not broadcast on TV until 1960,
 
 
 
-
-
-
-***
 
 
 
