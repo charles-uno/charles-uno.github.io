@@ -16,7 +16,17 @@ Television happened -- then cable, then the 24-hour news cycle, then content agg
 
 ---
 
-By today's standards, mid-century Americans had little access to their representatives. The internet didn't exist. Television channels only went up to 13. Long-distance phone calls were expensive. This gave parties and politicians a lot of freedom. Presidential candidates were chosen by party insiders, not primary voters. Senators could meet behind closed doors to find common ground -- and leverage [pork-barrel spending](http://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/) to move things along.
+By today's standards, mid-century Americans had little access to their representatives. The internet didn't exist. Television channels [only went up to 13](https://en.wikipedia.org/wiki/All-Channel_Receiver_Act). Long-distance phone calls were expensive. This gave parties and politicians a lot of freedom. Presidential candidates were [chosen by party insiders, not primary voters](http://www.museum.tv/eotv/presidential.htm). Senators could meet in smoke-filled rooms to find common ground -- and leverage [pork-barrel spending](http://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/) to move things along. Poor supervision left the government susceptible to [corruption and nepotism](https://en.wikipedia.org/wiki/Spoils_system)... but it also gave elected officials elbow room to do their jobs.
+
+Now, information access is fast. The internet lets us keep track of every word of every promise made on the campaign trail. Obsessive news networks allow us to not only judge our elected officials on the bills they pass, but also on how they do their jobs day-to-day. Today's representatives have little opportunity to negotiate behind closed doors -- attempts to do so are [lambasted by the press](https://www.theguardian.com/commentisfree/2016/may/04/ttip-tpp-trade-deals-secrecy-greenpeace-leak). The public wants to see everything right away; premature opinions take root; representatives are pressured to take uncompromising stances. In fact, politicians who appear too willing to compromise may find themselves [out of a job](http://talkingpointsmemo.com/livewire/jerry-brown-tea-party-threatens-primary-challenger).
+
+We saw this in the 2010 Republican primaries, where [Tea Party](https://en.wikipedia.org/wiki/Electoral_history_of_the_Tea_Party_movement) candidates displaced establishment Republicans in eight states. The Tea Party faction promised to take a hard line against President Obama's agenda -- regardless of what that agenda might be. We saw the same sentiment again in the 2016 primaries when Bernie Sanders and Ted Cruz were runners-up for the Democratic and Republican presidential nominations. Both men are known for taking principled stands -- that is, [refusing to compromise](http://time.com/4250238/bernie-sanders-ted-cruz-partisan-senators/).
+
+There's a trope of blaming bad outcomes on low-information voters, but recent decades have shown us that high-information voters cause problems as well, by micromanaging their representatives, and even pressuring them to act in bad faith. The desire to "win" at democracy leads to stunts like shutting down the government, refusing to consider executive appointments, and voting repeatedly to repeal the signature accomplishment of the sitting president. It's [possible, though unlikely](http://www.factcheck.org/2016/11/could-electoral-college-elect-clinton/), that we could even see a presidential election being decided by [faithless electors](https://www.change.org/p/electoral-college-electors-electoral-college-make-hillary-clinton-president-on-december-19).
+
+In a sense, the representative nature of our democracy is breaking down, giving way to a direct democracy. The problem is, direct democracy doesn't work. Despite having strong opinions, the public doesn't have the time, interest, or expertise to run the country.
+
+For example, consider a pair of [2016 San Francisco ballot measures](https://ballotpedia.org/San_Francisco_City_and_County,_California_ballot_measures), Prop J and Prop K. Prop J, which passed easily, proposed to set aside $150M per year for homelessness; Prop K, a sales tax to fund the measure, was soundly defeated. As the saying goes, "if you're explaining, you're losing." It's easy to rally support for simple, good-sounding policies. But when it comes to the nuts and bolts of making it work, it's a lot easier to poison a proposal than it is to convince a non-expert of its value.
 
 
 
@@ -24,45 +34,7 @@ By today's standards, mid-century Americans had little access to their represent
 
 ***
 
-
-
-
 ***
-
-
-
-
-***
-
-
-
-
-and those revolutions have not been kind to the political establishment.
-
-By today's standards, mid-century data access was unthinkably slow. The internet didn't exist, of course. Most homes owned (black and white) televisions, but channels [only went up to 13](https://en.wikipedia.org/wiki/All-Channel_Receiver_Act).
-
-
-
-
-
-
-Up until 1960, presidential debates were not broadcast on TV
-
-
-
-
-Presidential debates were not broadcast on TV until 1960,
-
-
-
-
-
-
-
-
-
-
-
 
 
 Historically, American democracy has worked because information access
