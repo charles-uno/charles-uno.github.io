@@ -1,4 +1,7 @@
 
+$half-thumb-gap: 10px;
+
+
 div.content {
     padding-top: $head-height;
     width: 100%;
@@ -47,7 +50,7 @@ div.content {
     height: 100%;
     width: 100%;
 
-    margin: 10px;
+    margin: $half-thumb-gap;
     padding: 0;
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
@@ -78,5 +81,6 @@ div.content {
 .index-thumb {
     height: 100%;
     width: 100%;
+    margin: $half-thumb-gap;
     object-fit: cover;
 }
