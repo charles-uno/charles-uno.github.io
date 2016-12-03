@@ -9,7 +9,7 @@ main.post {
     padding: 20px;
     background-color: $paper-color;
     h1 { margin: 0; border: 0; padding: 0; }
-    span.post-date { display: block; text-align: right; color: #ddf; }
+    span.post-date { display: block; text-align: right; color: $shadow-color; }
     a, a:focus, a:visited { color: $bold-color-2; }
     a:hover { color: $text-color; }
 }
@@ -49,9 +49,3 @@ hr {
 }
 
 img { max-width: 100%; }
-
-div.pdf {
-    margin: 0px auto;
-    width: 460px; height: 590px;
-    overflow: hidden;
-}
