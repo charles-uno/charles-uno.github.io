@@ -17,8 +17,7 @@ function sort(method) {
                 '<a href="' + themes[i].url + '" class="index-link">' +
                     '<div class="index-cell">' +
                       '<span class="index-date">' + themes[i].date + '</span>' +
-                      '<h2 class="index-name">' + themes[i].title + ' ' +
-                        themes[i].hash + '</h2>' +
+                      '<h2 class="index-name">' + themes[i].title + '</h2>' +
                     '</div>' +
                   '</a>' +
                   '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +
