@@ -6,14 +6,14 @@ main.post {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    padding: 0 2%;
+    padding: 20px;
     background-color: $body-back-color;
-    h1 { padding-top: $half-thumb-gap; }
+    h1 { margin: 0; border: 0; padding: 0; }
+
+    span.post-date { display: block; text-align: right; color: #ddf; }
 
     a, a:focus, a:visited { color: $body-text-accent; }
     a:hover { color: $body-text-color; }
-
-
 }
 
 header, article, footer {
@@ -24,8 +24,26 @@ header, article, footer {
     }
     th, td { padding: 5px; }
     .rrssb-buttons { li { display: inline-block; } }
-    blockquote { background-color: $body-back-accent; }
+    blockquote {
+        background-color: $body-back-accent; margin: 0; border: 0; padding: 10px;
+        p { margin: 0; padding: 0; border: 0; }
+    }
 }
+
+
+footer {
+    width: 100%;
+    text-align: center;
+
+    padding-top: 25px;
+
+    letter-spacing: 5px;
+
+    .fa { font-size: 30px; }
+}
+
+img + em { font-size: 10px; font-style: normal; }
+
 
 hr {
     width: 10px;

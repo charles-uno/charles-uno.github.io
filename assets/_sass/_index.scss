@@ -12,6 +12,9 @@ div.content {
     margin: 0 auto;
     padding: $half-thumb-gap 2%;
     max-width: 1200px;
+
+    background-color: $body-back-color;
+
 }
 
 .index-item {
@@ -62,14 +65,6 @@ div.content {
         .index-date { top: 1000%; }
     }
 
-
-}
-
-
-.index-wrap {
-
-    height: 100%;
-    width: 100%;
 
 }
 

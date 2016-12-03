@@ -12,6 +12,25 @@ table.head {
     margin: 0;
     padding: 0;
     border-collapse: collapse;
+
+
+    .fa { font-size: $sort-size; vertical-align: middle; }
+
+    .glyphicon { font-size: $arrow-size; vertical-align: bottom; }
+
+    .glyphicon, .fa {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+//        color: $head-text-color-1;
+//        &:visited { color: $head-text-color-1; }
+//        &:hover { color: $head-text-color-2; }
+    }
+
+    a, a:visited { color: $head-text-color-1; }
+    a:hover { color: $head-text-color-2; }
+
+
 }
 
 table.head tr td { margin: 0px; height: 100%; padding: 0px 10px; }
@@ -29,10 +48,10 @@ a.logo {
     width: 100%;
     // Let's get cute with the title. Have the L be a one, in a different color,
     // and flip the colors on hover.
-    .title-base { color: $head-text-color-1; }
+//    .title-base { color: $head-text-color-1; }
     .title-accent { color: $head-text-color-2; }
     &:hover {
-        .title-base { color: $head-text-color-2; }
+//        .title-base { color: $head-text-color-2; }
         .title-accent { color: $head-text-color-1; }
     }
 }
@@ -50,17 +69,4 @@ a.logo {
 //    display: inline-block;
     height: 100%;
     width: 100%;
-}
-
-.fa { font-size: $sort-size; vertical-align: middle; }
-
-.glyphicon { font-size: $arrow-size; vertical-align: bottom; }
-
-.glyphicon, .fa {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    color: $head-text-color-1;
-    &:visited { color: $head-text-color-1; }
-    &:hover { color: $head-text-color-2; }
 }

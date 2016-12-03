@@ -15,7 +15,7 @@ $mono-font: 'Cutive Mono', monospace;
 //$name-color: $back-color;
 //$date-color: $shadow-color;
 
-$back-back-color: #fff;
+$back-back-color: #ddf;
 
 $head-back-color-1: #07a;
 $head-back-color-2: #059;
@@ -43,11 +43,16 @@ $logo-size: 35px;
 
 $sort-size: 25px;
 
+$share-size: 25px;
+
 $arrow-size: 25px;
 $name-size: 20px;
 $date-size: 16px;
 
 // button, textarea, a:focus { outline: none; }
+
+// p { margin: 0; padding: 0; border: 0; }
+
 
 body {
     background-color: $back-back-color;
