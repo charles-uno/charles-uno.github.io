@@ -6,13 +6,19 @@ layout: default
     <ul id="index-list">
         {% for post in site.posts %}
             <li class="index-item">
+
+                <div class="index-wrap">
+
                 <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
                     <div class="index-cell">
-                        <span class="index-date">{{ post.date | date: "%-d %B %Y" }}</span>
+                        <span class="index-date">{{ post.date }}</span>
                         <h2 class="index-name">{{ post.title }}</h2>
                     </div>
                 </a>
+
+                </div>
                 <img src="{{ post.image }}" class="index-thumb" />
+
             </li>
         {% endfor %}
     </ul>

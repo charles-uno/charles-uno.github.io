@@ -1,5 +1,4 @@
 
-$half-thumb-gap: 10px;
 
 
 div.content {
@@ -10,9 +9,9 @@ div.content {
 .index { text-align: center; margin: 0; padding: 0; }
 
 #index-list {
-    margin: 0;
-    padding: 5px 2%;
-    width: 100%;
+    margin: 0 auto;
+    padding: $half-thumb-gap 2%;
+    max-width: 1200px;
 }
 
 .index-item {
@@ -31,7 +30,8 @@ div.content {
     @media (min-width: 600px) { width: 32%; }
     @media (min-width: 900px) { width: 24%; }
 
-//    padding: 10px;
+    padding: $half-thumb-gap;
+
     //    box-shadow: 0 0 1px 1px #ccc;
 }
 
@@ -42,6 +42,9 @@ div.content {
     width: 100%;
     position: absolute;
     overflow: hidden;
+
+    padding: $half-thumb-gap;
+
 }
 
 .index-cell {
@@ -50,8 +53,6 @@ div.content {
     height: 100%;
     width: 100%;
 
-    margin: $half-thumb-gap;
-    padding: 0;
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
     background-color: rgba($tile-back-color, 0.7);
@@ -60,6 +61,16 @@ div.content {
         .index-name { top: 1000%; }
         .index-date { top: 1000%; }
     }
+
+
+}
+
+
+.index-wrap {
+
+    height: 100%;
+    width: 100%;
+
 }
 
 .index-name { top: 45%; color: $tile-text-color; font-size: $name-size; }
@@ -81,6 +92,6 @@ div.content {
 .index-thumb {
     height: 100%;
     width: 100%;
-    margin: $half-thumb-gap;
+//    margin: $half-thumb-gap;
     object-fit: cover;
 }

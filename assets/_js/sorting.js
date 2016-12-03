@@ -17,12 +17,14 @@ function sort(method) {
     for(var i = 0; i < themes.length; i++) {
         if(!themes[i]) { continue; }
             html += '<li class="index-item">' +
+                '<div class="index-wrap">' +
                 '<a href="' + themes[i].url + '" class="index-link">' +
                     '<div class="index-cell">' +
                       '<span class="index-date">' + themes[i].date + '</span>' +
                       '<h2 class="index-name">' + themes[i].title + '</h2>' +
                     '</div>' +
                   '</a>' +
+                  '</div>' +
                   '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +
                 '</li>';
     }

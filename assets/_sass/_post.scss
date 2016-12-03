@@ -8,7 +8,7 @@ main.post {
     margin-bottom: 20px;
     padding: 0 2%;
     background-color: $body-back-color;
-    h1 { padding-top: 10px; }
+    h1 { padding-top: $half-thumb-gap; }
 
     a, a:focus, a:visited { color: $body-text-accent; }
     a:hover { color: $body-text-color; }
