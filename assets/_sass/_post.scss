@@ -14,7 +14,16 @@ main.post {
     a:hover { color: $text-color; }
 }
 
-header, article, footer {
+header {
+    display: block;
+    margin-top: 25px;
+}
+
+span.post-date { border: 0; padding: 0; margin-top: 0px; margin-bottom: -10px; }
+
+h1#post { margin: 0; padding: 0; border: 0; }
+
+article {
     display: block;
     table {
         margin-left: auto; margin-right:auto;
@@ -29,7 +38,7 @@ header, article, footer {
 }
 
 footer {
-    width: 100%;
+    display: block;
     text-align: center;
     padding-top: 25px;
     letter-spacing: 5px;
