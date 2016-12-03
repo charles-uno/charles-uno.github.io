@@ -38,6 +38,9 @@ layout: compress
         {{ content }}
     </div>
 
+    <!-- Put the copyright below the content, in the off-color space -->
+    <div class="copy">&copy; {{ site.social.name }} 2016</div>
+
     <!-- We draw the header last so that it renders on top of the content. -->
     <table class="head"><tr>
         {% if page.title %}

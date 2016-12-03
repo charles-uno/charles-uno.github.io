@@ -3,35 +3,16 @@ $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
+$bold-color-1: #07a;
+$bold-color-2: #059;
+$bold-color-3: #038;
 
-//$text-color: #000;
-//$link-color: #b9c6ae;
+$paper-color: #fff;
+$shadow-color: #bcf;
+$text-color: #000;
 
-//$paper-color: #fff;
-//$shadow-color: #ccc;
-//$back-color: #222;
 
-//$tile-color: $text-color;
-//$name-color: $back-color;
-//$date-color: $shadow-color;
 
-$back-back-color: #ddf;
-
-$head-back-color-1: #07a;
-$head-back-color-2: #059;
-$head-back-color-3: #038;
-$head-text-color-1: #000;
-$head-text-color-2: #fff;
-
-$body-back-color: #fff;
-$body-back-accent: #ddf;
-$body-text-color: #000;
-$body-text-accent: #059;
-
-$tile-back-color: #000;
-$tile-back-accent: #ff0;
-$tile-text-color: #fff;
-$tile-text-accent: #059;
 
 $half-thumb-gap: 5px;
 
@@ -53,9 +34,8 @@ $date-size: 16px;
 
 // p { margin: 0; padding: 0; border: 0; }
 
-
 body {
-    background-color: $back-back-color;
+    background-color: $shadow-color;
     font-family: $sans-font;
     border: 0;
     padding: 0;
@@ -63,3 +43,9 @@ body {
 }
 
 a, a:focus, a:visited, a:hover { text-decoration: none; }
+
+div.copy {
+    color: #fff;
+    display: block;
+    text-align: center;
+}

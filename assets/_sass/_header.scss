@@ -1,10 +1,7 @@
 
 table.head {
-//    box-shadow: 0 0 1px 1px #000;
-//    background-color: $head-color;
-    background-image: radial-gradient($head-back-color-1, $head-back-color-3);
-//    background-image: radial-gradient(#4A4949 15%, rgb(56, 56, 56) 35%);
-    background-size: 3.5px 3.5px;
+    background-image: radial-gradient($bold-color-1, $bold-color-3);
+    background-size: 4px 4px;
     position: fixed;
     width:100%;
     top: 0px;
@@ -12,51 +9,34 @@ table.head {
     margin: 0;
     padding: 0;
     border-collapse: collapse;
-
-
     .fa { font-size: $sort-size; vertical-align: middle; }
-
     .glyphicon { font-size: $arrow-size; vertical-align: bottom; }
-
     .glyphicon, .fa {
         display: inline-block;
         margin: 0;
         padding: 0;
-//        color: $head-text-color-1;
-//        &:visited { color: $head-text-color-1; }
-//        &:hover { color: $head-text-color-2; }
     }
-
-    a, a:visited { color: $head-text-color-1; }
-    a:hover { color: $head-text-color-2; }
-
-
+    a, a:visited { color: $paper-color; }
+    a:hover { color: $text-color; }
 }
 
 table.head tr td { margin: 0px; height: 100%; padding: 0px 10px; }
 
-td.head-left { text-align: left; width: 40%; vertical-align: middle; }
+td.head-left { text-align: left; width: 45%; vertical-align: middle; }
 
-td.head-center { text-align: center; width: 20%; vertical-align: bottom; }
+td.head-center { text-align: center; width: 10%; vertical-align: bottom; }
 
-td.head-right { text-align: right; width: 40%; vertical-align: middle; }
-
-// td.head-sort { text-align: right; height: $head-height-third; }
+td.head-right { text-align: right; width: 45%; vertical-align: middle; }
 
 a.logo {
     height: 100%;
     width: 100%;
-    // Let's get cute with the title. Have the L be a one, in a different color,
-    // and flip the colors on hover.
-//    .title-base { color: $head-text-color-1; }
-    .title-accent { color: $head-text-color-2; }
+    // The L in the title is flipped from the other letters.
+    .title-accent { color: $paper-color; }
     &:hover {
-//        .title-base { color: $head-text-color-2; }
-        .title-accent { color: $head-text-color-1; }
+        .title-accent { color: $text-color; }
     }
 }
-
-//div.logo { background-color: #00ff00; display: inline-block; }
 
 #logo {
     font-family: $logo-font;
@@ -65,8 +45,6 @@ a.logo {
     margin: 0;
     padding: 0;
     font-size: $logo-size;
-//    // Narrow the h1 element so that our link is only as wide as the text.
-//    display: inline-block;
     height: 100%;
     width: 100%;
 }

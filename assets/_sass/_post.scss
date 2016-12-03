@@ -7,51 +7,45 @@ main.post {
     margin-left: auto;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: $body-back-color;
+    background-color: $paper-color;
     h1 { margin: 0; border: 0; padding: 0; }
-
     span.post-date { display: block; text-align: right; color: #ddf; }
-
-    a, a:focus, a:visited { color: $body-text-accent; }
-    a:hover { color: $body-text-color; }
+    a, a:focus, a:visited { color: $bold-color-2; }
+    a:hover { color: $text-color; }
 }
 
 header, article, footer {
     display: block;
     table {
         margin-left: auto; margin-right:auto;
-        background-color: $body-back-accent;
+        background-color: $shadow-color;
     }
     th, td { padding: 5px; }
     .rrssb-buttons { li { display: inline-block; } }
     blockquote {
-        background-color: $body-back-accent; margin: 0; border: 0; padding: 10px;
+        background-color: $shadow-color; margin: 0; border: 0; padding: 10px;
         p { margin: 0; padding: 0; border: 0; }
     }
 }
 
-
 footer {
     width: 100%;
     text-align: center;
-
     padding-top: 25px;
-
     letter-spacing: 5px;
-
     .fa { font-size: 30px; }
 }
 
 img + em { font-size: 10px; font-style: normal; }
 
-
+// What if horizontal rules, instead of being lines, were dots?
 hr {
     width: 10px;
     height: 10px;
     border-radius: 5px;
     overflow: hidden;
-    color: $body-text-color;
-    background-color: $body-text-color;
+    color: $text-color;
+    background-color: $text-color;
 }
 
 img { max-width: 100%; }
@@ -61,5 +55,3 @@ div.pdf {
     width: 460px; height: 590px;
     overflow: hidden;
 }
-
-iframe.pdf { width: 100%; height: 100%; }

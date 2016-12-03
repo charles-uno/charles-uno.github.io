@@ -12,30 +12,22 @@ div.content {
     margin: 0 auto;
     padding: $half-thumb-gap 2%;
     max-width: 1200px;
-
-    background-color: $body-back-color;
-
+    background-color: $paper-color;
 }
 
 .index-item {
     display: inline-block;
     text-align: center;
     position: relative;
-//    margin: 4px 0.5%;
     margin: 0;
     background: none;
-//    border-radius: 5px;
-//    overflow: hidden;
     // Thumbnails take up 96% of the width. That can be divided between
     // 1, 2, 3, or 4 thumbnails, depending on the width of the viewer.
     width: 96%;
     @media (min-width: 300px) { width: 48%; }
     @media (min-width: 600px) { width: 32%; }
     @media (min-width: 900px) { width: 24%; }
-
     padding: $half-thumb-gap;
-
-    //    box-shadow: 0 0 1px 1px #ccc;
 }
 
 .index-link {
@@ -45,9 +37,7 @@ div.content {
     width: 100%;
     position: absolute;
     overflow: hidden;
-
     padding: $half-thumb-gap;
-
 }
 
 .index-cell {
@@ -55,22 +45,19 @@ div.content {
     top: 0;
     height: 100%;
     width: 100%;
-
     // Dull the image tiles to make the text legible. On hover, sharpen the
     // images, and shove the text to where it's invisible.
-    background-color: rgba($tile-back-color, 0.7);
+    background-color: rgba($text-color, 0.7);
     &:hover {
         background: none;
         .index-name { top: 1000%; }
         .index-date { top: 1000%; }
     }
-
-
 }
 
-.index-name { top: 45%; color: $tile-text-color; font-size: $name-size; }
+.index-name { top: 45%; color: $paper-color; font-size: $name-size; }
 
-.index-date { top: 90%; color: $tile-text-accent; font-size: $date-size; white-space: nowrap; }
+.index-date { top: 90%; color: $bold-color-2; font-size: $date-size; white-space: nowrap; }
 
 .index-date, .index-name {
     line-height: 1;
@@ -84,9 +71,4 @@ div.content {
     transform: translate(-50%, -50%);
 }
 
-.index-thumb {
-    height: 100%;
-    width: 100%;
-//    margin: $half-thumb-gap;
-    object-fit: cover;
-}
+.index-thumb { height: 100%; width: 100%; object-fit: cover; }
