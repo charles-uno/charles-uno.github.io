@@ -1,13 +1,10 @@
 var transparentImage = '{{ site.baseurl }}/assets/transparent.png';
 var indexList = document.getElementById('index-list');
 
-
 // If clicked repeatedly, the sorts toggle forward and backward. The name toggle
 // starts flipped, because forward sorting by name is the default.
 var nameToggle = -1;
 var dateToggle = 1;
-
-//var logoIsFixed = 0;
 
 if(indexList) { sort('loadOrder'); }
 
@@ -17,38 +14,19 @@ function sort(method) {
     for(var i = 0; i < themes.length; i++) {
         if(!themes[i]) { continue; }
             html += '<li class="index-item">' +
-                '<div class="index-wrap">' +
                 '<a href="' + themes[i].url + '" class="index-link">' +
                     '<div class="index-cell">' +
                       '<span class="index-date">' + themes[i].date + '</span>' +
-                      '<h2 class="index-name">' + themes[i].title + '</h2>' +
+                      '<h2 class="index-name">' + themes[i].title + ' ' +
+                        themes[i].hash + '</h2>' +
                     '</div>' +
                   '</a>' +
-                  '</div>' +
                   '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +
                 '</li>';
     }
     indexList.innerHTML = html;
     echo.render();
     saveOrder();
-
-    // Not really clear what's going wrong here... these changes get reversed right away.
-    /*
-    if (method == 'alphabetical') {
-        flipNameToggle();
-        resetDateToggle();
-        resetLogo();
-    } else if (method == 'latest') {
-        resetNameToggle();
-        flipDateToggle();
-        resetLogo();
-    } else if (method == 'shuffle') {
-        resetNameToggle();
-        resetDateToggle();
-        shuffleLogo();
-    }
-    // Else, for a fresh page, do nothing.
-    */
 }
 
 function saveOrder() {
@@ -130,7 +108,6 @@ function flipNameToggle() {
     resetDateToggle();
 }
 
-
 function flipDateToggle() {
     var cell = document.getElementById('date-cell');
     if (dateToggle == 1) {
@@ -159,72 +136,3 @@ function resetDateToggle() {
     cell.innerHTML = '<a class="fa fa-sort-numeric-asc" aria-hidden="true" href="" onclick="sort(\'latest\'); flipDateToggle(); return false;"></a>';
     dateToggle = 1;
 }
-
-
-
-
-
-/*
-function fixlogosize() {
-    var logo = document.getElementById('logo');
-    var cell = document.getElementById('logo-cell');
-    var link = document.getElementById('logo-link');
-    var div = document.getElementById('logo-div');
-    var width = logo.clientWidth;
-
-    // debug
-    var wdiv = document.getElementById('logo-width');
-    wdiv.innerHTML = width;
-
-    if (logoIsFixed == 0) {
-        logoIsFixed = 1;
-        cell.style.width = width + "px";
-        link.style.width = "100%";
-        div.style.width = "100%";
-        logo.style.width = "100%";
-        logo.style.display = "inline";
-        div.style.display = "inline";
-        link.style.display = "inline";
-    }
-}
-*/
-
-/*
-function test1() {
-    var obj = document.getElementById('test');
-    obj.innerHTML = "SHUFFLED";
-}
-
-function test2() {
-    var obj = document.getElementById('test');
-    obj.innerHTML = "RESTORED";
-}
-*/
-
-/*
-function reversealphabetical() {
-  themes.sort(function(a, b){
-    var titleA = a.title.toLowerCase();
-    var titleB = b.title.toLowerCase();
-    if(titleA > titleB) return -1;
-    if(titleA < titleB) return 1;
-    return 0;
-  });
-}
-*/
-
-/*
-function reverselatest() {
-  themes.sort(function(a, b){
-    if(a.date > b.date) return 1;
-    if(a.date < b.date) return -1;
-    return 0;
-  });
-}
-
-function popularity() {
-  themes.sort(function(a, b){
-    return b.stars - a.stars;
-  });
-}
-*/
