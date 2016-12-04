@@ -6,7 +6,7 @@ main.post {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: $paper-color;
     h1 { margin: 0; border: 0; padding: 0; }
     span.post-date { display: block; text-align: right; color: $shadow-color; }
@@ -16,7 +16,7 @@ main.post {
 
 header {
     display: block;
-    margin-top: 25px;
+    margin: $half-thumb-gap;
 }
 
 span.post-date { border: 0; padding: 0; margin-top: 0px; margin-bottom: -10px; }
@@ -25,6 +25,7 @@ h1#post { margin: 0; padding: 0; border: 0; }
 
 article {
     display: block;
+    margin: $half-thumb-gap;
     table {
         margin-left: auto; margin-right:auto;
         background-color: $shadow-color;
@@ -40,7 +41,8 @@ article {
 footer {
     display: block;
     text-align: center;
-    padding-top: 25px;
+    margin: $half-thumb-gap;
+//    padding-top: 25px;
     letter-spacing: 5px;
     .fa { font-size: 30px; }
 }
