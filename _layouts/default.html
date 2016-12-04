@@ -44,8 +44,9 @@ layout: compress
     <!-- We draw the header last so that it renders on top of the content. -->
     <table class="head"><tr>
         {% if page.title %}
+            {% assign arrow-title = page.title | replace: "'", "\\'"  %}
             <td class="head-left">
-                <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ page.title }}'); return false;"></a>
+                <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ arrow-title }}'); return false;"></a>
             </td>
             <td class="head-center">
                 <a class="logo" href="{{ site.baseurl }}/">
@@ -53,7 +54,7 @@ layout: compress
                 </a>
             </td>
             <td class="head-right">
-                <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ page.title }}'); return false;"></a>
+                <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ arrow-title }}'); return false;"></a>
             </td>
         {% else %}
             <td class="head-left" id="name-cell">
