@@ -2,7 +2,7 @@
 layout: post
 title: "Banana Bread French Toast"
 date: 2016-04-25
-image: "/thumbnails/bbft.png"
+image: "/thumbnails/banana-bread-french-toast.png"
 description: Placeholder description.
 author: charles
 ---
