@@ -19,14 +19,34 @@ layout: default
 
     <footer>
 
-        <!-- Let's try out social media symbols from Travelogue. -->
-
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
         </a>
+
+        <!--
+        <a href="https://plus.google.com/share?url={{ share-url }}" title="Google+" class="popup">
+            <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+        </a>
+        -->
+
         <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup" class="popup">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>
+
+        <a href="http://pinterest.com/pin/create/button/?url={{ share-url }}&amp;media={{ share-thumb }}&amp;description={{ share-excerpt }}" class="popup">
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+        </a>
+
+        <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
+            <i class="fa fa-reddit-square" aria-hidden="true"></i>
+        </a>
+
+        <!--
+        <a href="http://tumblr.com/share/link?url={{ share-url }}&amp;name={{ share-title }}&amp;description={{ share-excerpt }}" class="popup">
+            <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+        </a>
+        -->
+
         <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
             <i class="fa fa-twitter-square" aria-hidden="true"></i>
         </a>

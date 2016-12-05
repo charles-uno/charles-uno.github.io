@@ -36,11 +36,7 @@ article {
         background-color: $shadow-color; margin: 0; border: 0; padding: 10px;
         p { margin: 0; padding: 0; border: 0; }
     }
-
     img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; }
-
-
-
 }
 
 footer {
@@ -48,7 +44,7 @@ footer {
     text-align: center;
     margin: $half-thumb-gap;
 //    padding-top: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     .fa { font-size: 30px; }
 }
 
