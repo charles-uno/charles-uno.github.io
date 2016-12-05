@@ -173,3 +173,7 @@ Leia controls the government. She sits on the [Provisional Senate](http://starwa
 Luke controls the people. He forms the enforcement arm of the New Republic, the [New Jedi Order](http://starwars.wikia.com/wiki/New_Jedi_Order). He creates a new Jedi religion, for which he is the lone prophet. He spends the rest of his life conscripting Force-gifted children into that religion, and training them to be violent enforcers of Skywalker rule.
 
 Episodes I, II, and III are likely a propaganda piece manufactured during the Skywalker era. Similarly to Episodes IV, V, and VI they seem to have been created from historical footage. Unlike Episodes IV, V, and VI, however, they feature extensive digital tampering. They systematically cast the despotic Jedi in a positive light (to promote acceptance of the New Jedi Order), and demonize Palpatine for overthrowing their brutal reign.
+
+<!-- Manually insert HR before footnotes. -->
+
+---

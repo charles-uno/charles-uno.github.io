@@ -19,6 +19,10 @@ layout: default
 
     <footer>
 
+        {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
+        {% assign share-title = page.title | url_encode %}
+        {% assign share-excerpt = page.description | url_encode %}
+
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
         </a>

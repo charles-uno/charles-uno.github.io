@@ -36,6 +36,7 @@ article {
         background-color: $shadow-color; margin: 0; border: 0; padding: 10px;
         p { margin: 0; padding: 0; border: 0; }
     }
+    img { max-width: 100%; display: block; }
     img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; }
 }
 
@@ -48,7 +49,6 @@ footer {
     .fa { font-size: 30px; }
 }
 
-
 // What if horizontal rules, instead of being lines, were dots?
 hr {
     width: 10px;
@@ -58,5 +58,3 @@ hr {
     color: $text-color;
     background-color: $text-color;
 }
-
-img { max-width: 100%; }
