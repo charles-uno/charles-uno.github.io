@@ -44,7 +44,7 @@ Public interest in politics skyrockets during presidential campaigns, but data c
 
 > The way you undo a smear is that you tell a more convincing story about yourself than the one your enemies are telling. You look straight into the camera, straight into America’s living rooms, and say, "You know me. You know what I’m really like."
 
-Hillary Clinton's 2016 campaign put forward dozens of detailed [policy proposals](https://www.hillaryclinton.com/issues/). She garnered endorsements from media outlets [across the political spectrum](http://www.azcentral.com/story/opinion/editorial/2016/09/27/hillary-clinton-endorsement/91198668/). She was by far the [more truthful](http://www.politifact.com/truth-o-meter/lists/people/comparing-hillary-clinton-donald-trump-truth-o-met/) candidate. In comparison, Donald Trump [didn't run on a policy platform](http://fivethirtyeight.com/features/trump-ideology/); he ran on the force of his personality. He held rallies, picked fights on Twitter, and dominated the media coverage. And he won.
+In the 2016 election, Hillary Clinton put forward dozens of detailed [policy proposals](https://www.hillaryclinton.com/issues/), while Donald Trump's plan remained [unclear](http://fivethirtyeight.com/features/trump-ideology/). Media outlets [across the political spectrum](http://www.azcentral.com/story/opinion/editorial/2016/09/27/hillary-clinton-endorsement/91198668/) endorsed Clinton over Trump. Her public statements were [more truthful](http://www.politifact.com/truth-o-meter/lists/people/comparing-hillary-clinton-donald-trump-truth-o-met/) than his by far. More than any candidate in history, Trump ran on the force of his personality; he held rallies, picked fights on Twitter, and dominated the media coverage. And he won.
 
 If we're surprised that the charismatic candidate beat the policy-focused candidate, we shouldn't be; it's been the case throughout the modern era. Obama's campaigns were built on his powerful oratory skills. GWB ran as the candidate you'd like to [have a beer with](https://www.washingtonpost.com/blogs/she-the-people/post/gops-primary-problem-would-you-want-to-have-a-beer-with-any-of-these-guys/2012/03/01/gIQAg95wkR_blog.html). In the past four decades, 1988 is the only presidential election in which the winner (GHWB) could reasonably be described as "smart but boring" -- and even then his opponent was more so.
 
@@ -56,8 +56,7 @@ If we're surprised that the charismatic candidate beat the policy-focused candid
 
 Americans have a lot of access to our elected officials. We have a lot of power over them.
 
-But there's a poor understanding of
-
+Data access is good for X, Y, and Z, but we haven't figured out how to reconcile it with politics. 
 
 
 
