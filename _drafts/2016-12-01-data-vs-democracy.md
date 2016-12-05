@@ -56,9 +56,9 @@ If we're surprised that the charismatic candidate beat the policy-focused candid
 
 Americans have a lot of access to our elected officials. We have a lot of power over them.
 
-Data access is good for X, Y, and Z, but we haven't figured out how to reconcile it with politics. 
+Data access is good for X, Y, and Z, but we haven't figured out how to reconcile it with politics.
 
-
+http://www.bbc.com/news/blogs-trending-38156985
 
 <!--
 In fact, in the modern era, it's actually the Democrats who seem to be most reliant in the charisma of their presidential candidates. JFK, Carter, Bill Clinton, and Obama were famously charismatic, and inspired

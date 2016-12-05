@@ -37,7 +37,7 @@ article {
         p { margin: 0; padding: 0; border: 0; }
     }
     img { max-width: 100%; display: block; }
-    img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; }
+    img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; padding: 3px $half-thumb-gap; }
 }
 
 footer {
