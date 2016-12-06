@@ -1,5 +1,4 @@
 
-
 div.full-head {
     width: 100%;
     background-color: #0f0;
@@ -12,18 +11,26 @@ div.full-head {
 }
 
 div.head {
+
+    background-image: radial-gradient($bold-color-1, $bold-color-3);
+    background-size: 4px 4px;
+
+
     width: 100%;
-    max-width: $full-width;
-    background-color: #ff0;
+    max-width: $content-width;
     height: $head-height;
     margin: 0 auto;
     padding: $pad;
     display: flex;
     justify-content: space-between;
-//    span.logo { float: left; }
-//    span.head-glyph { float: right; }
-}
+    span.logo { margin: $pad; }
+    span.head-glyph { margin: $pad; font-size: $sort-size; vertical-align: middle; }
 
+    a, a:visited { color: $text-color; }
+    a:hover { color: $paper-color; }
+
+
+}
 
 div.full-main {
     width: 100%;
@@ -36,7 +43,7 @@ div.full-main {
 
 div.main {
     width: 100%;
-    max-width: $full-width;
+    max-width: $content-width;
     background-color: #f00;
     margin: 0 auto;
     padding: $pad;
@@ -46,12 +53,15 @@ div.main {
 
 
 
+
+
+
+
+
 table.head {
 
     z-index: 900;
 
-    background-image: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 4px 4px;
     position: fixed;
     width:100%;
     top: $head-height;
@@ -59,7 +69,6 @@ table.head {
     margin: 0;
     padding: 0;
     border-collapse: collapse;
-    .fa { font-size: $sort-size; vertical-align: middle; }
     .glyphicon { font-size: $arrow-size; vertical-align: bottom; }
     .glyphicon, .fa {
         display: inline-block;

@@ -10,13 +10,12 @@ div.content {
 
 #index-list {
 
-    z-index: inherit;
+    text-align: center;
 
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     border: 0;
 //    padding: $half-thumb-gap 2%;
-    max-width: 1500px;
     background-color: $paper-color;
 }
 

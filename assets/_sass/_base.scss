@@ -3,13 +3,9 @@ $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
+$content-width: 800px;
 
-
-$full-width: 800px;
-
-$pad: 10px;
-
-
+$pad: 5px;
 
 $bold-color-1: #07a;
 $bold-color-2: #059;
@@ -19,14 +15,14 @@ $paper-color: #fff;
 $shadow-color: #bcf;
 $text-color: #000;
 
-
-
-
 $half-thumb-gap: 5px;
 
-$head-height: 40px;
+$head-height: 50px;
 // Head width is a little bit arbitrary. It'll get stretched to fit.
 $head-width: 100px;
+
+$glyph-size: 25px;
+
 
 $logo-size: 35px;
 
