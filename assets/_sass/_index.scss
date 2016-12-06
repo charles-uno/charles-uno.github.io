@@ -9,6 +9,9 @@ div.content {
 .index { text-align: center; margin: 0; padding: 0; }
 
 #index-list {
+
+    z-index: inherit;
+
     margin: 0 auto;
     padding: 0;
     border: 0;

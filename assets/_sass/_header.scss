@@ -1,10 +1,60 @@
 
+
+div.full-head {
+    width: 100%;
+    background-color: #0f0;
+    border: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+}
+
+div.head {
+    width: 100%;
+    max-width: $full-width;
+    background-color: #ff0;
+    height: $head-height;
+    margin: 0 auto;
+    padding: $pad;
+    display: flex;
+    justify-content: space-between;
+//    span.logo { float: left; }
+//    span.head-glyph { float: right; }
+}
+
+
+div.full-main {
+    width: 100%;
+    background-color: #0ff;
+    border: 0;
+    padding-top: $head-height;
+    display: block;
+    text-align: center;
+}
+
+div.main {
+    width: 100%;
+    max-width: $full-width;
+    background-color: #f00;
+    margin: 0 auto;
+    padding: $pad;
+    text-align: justify;
+}
+
+
+
+
 table.head {
+
+    z-index: 900;
+
     background-image: radial-gradient($bold-color-1, $bold-color-3);
     background-size: 4px 4px;
     position: fixed;
     width:100%;
-    top: 0px;
+    top: $head-height;
     height: $head-height;
     margin: 0;
     padding: 0;

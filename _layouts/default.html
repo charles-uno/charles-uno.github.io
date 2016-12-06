@@ -1,5 +1,4 @@
 ---
-layout: compress
 ---
 
 <!DOCTYPE html>
@@ -39,47 +38,20 @@ layout: compress
     <!-- Autocard handling -->
     <div style="position:absolute; z-index:999;" id="cardPopup"></div>
 
-    <div class="content">
+    <div class="full-main">
         {{ content }}
     </div>
 
     <!-- Put the copyright below the content, in the off-color space -->
     <div class="copy">&copy; {{ site.social.name }} 2016</div>
 
+    <a class="card">Murder of Crows</a>
+
     <!-- We draw the header last so that it renders on top of the content. -->
-    <table class="head"><tr>
-        {% if page.title %}
-            {% assign arrow-title = page.title | replace: "'", "\\'"  %}
-            <td class="head-left">
-                <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ arrow-title }}'); return false;"></a>
-            </td>
-            <td class="head-center">
-                <a class="logo" href="{{ site.baseurl }}/">
-                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-                </a>
-            </td>
-            <td class="head-right">
-                <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ arrow-title }}'); return false;"></a>
-            </td>
-        {% else %}
-            <td class="head-left" id="name-cell">
-                <!-- Start with the descending icon because the default sort is ascending name. -->
-                <a class="fa fa-sort-alpha-desc" aria-hidden="true" href="" onclick="sort('alphabetical'); flipNameToggle(); return false;"></a>
-            </td>
-            <td class="head-center" id="logo-cell">
-                <a class="logo" href="" onclick="sort('shuffle'); shuffleLogo(); return false;">
-                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-                </a>
-            </td>
-            <td class="head-right" id="date-cell">
-                <a class="fa fa-sort-numeric-asc" aria-hidden="true" href="" onclick="sort('latest'); flipDateToggle(); return false;"></a>
-            </td>
-        {% endif %}
-    </tr></table>
+    <div class="full-head">
+        {% include head.html %}
+    </div>
 
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
-
-    <!-- Autocard handling -->
-    <script type="text/javascript" src="{{ '/assets/autocard.js' | prepend: site.baseurl }}"></script>
 
 </body></html>

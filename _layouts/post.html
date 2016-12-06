@@ -2,58 +2,14 @@
 layout: default
 ---
 
-<main class="post">
+<div class="main">
     <header>
-        {% if page.date %}
-            <span class="post-date">
-                {{ page.date | date: "%-d %B %Y" }}
-            </span>
-        {% endif %}
-
-        <h1 id="post">{{ page.title | remove: "\" }}</h1>
-
+        {{ page.title }}
     </header>
     <article>
         {{ content }}
     </article>
-
     <footer>
-
-        {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
-        {% assign share-title = page.title | url_encode %}
-        {% assign share-excerpt = page.description | url_encode %}
-
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        </a>
-
-        <!--
-        <a href="https://plus.google.com/share?url={{ share-url }}" title="Google+" class="popup">
-            <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-        </a>
-        -->
-
-        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup" class="popup">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-
-        <a href="http://pinterest.com/pin/create/button/?url={{ share-url }}&amp;media={{ share-thumb }}&amp;description={{ share-excerpt }}" class="popup">
-            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
-        </a>
-
-        <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
-            <i class="fa fa-reddit-square" aria-hidden="true"></i>
-        </a>
-
-        <!--
-        <a href="http://tumblr.com/share/link?url={{ share-url }}&amp;name={{ share-title }}&amp;description={{ share-excerpt }}" class="popup">
-            <i class="fa fa-tumblr-square" aria-hidden="true"></i>
-        </a>
-        -->
-
-        <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-        </a>
-
+        {{ page.date | date: "%-d %B %Y" }}
     </footer>
-</main>
+</div>

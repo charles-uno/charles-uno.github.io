@@ -12,12 +12,15 @@ main.post {
     span.post-date { display: block; text-align: right; color: $shadow-color; }
     a, a:focus, a:visited { color: $bold-color-2; }
     a:hover { color: $text-color; }
+
+    header {
+        display: block;
+        margin: $half-thumb-gap;
+    }
+
+
 }
 
-header {
-    display: block;
-    margin: $half-thumb-gap;
-}
 
 span.post-date { border: 0; padding: 0; margin-top: 0px; margin-bottom: -10px; }
 

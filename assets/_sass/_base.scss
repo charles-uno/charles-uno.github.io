@@ -3,6 +3,14 @@ $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
+
+
+$full-width: 800px;
+
+$pad: 10px;
+
+
+
 $bold-color-1: #07a;
 $bold-color-2: #059;
 $bold-color-3: #038;
@@ -39,7 +47,12 @@ body {
     font-family: $sans-font;
     border: 0;
     padding: 0;
-    padding-bottom:25px;
+//    padding-bottom:25px;
+    width: 100%;
+    text-align: center;
+
+    display: block;
+
 }
 
 a, a:focus, a:visited, a:hover { text-decoration: none; }
