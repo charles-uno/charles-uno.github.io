@@ -1,14 +1,14 @@
-echo.init({ offset: 500, throttle: 50 });
+// echo.init({ offset: 500, throttle: 50 });
 
-var themes = [
-    {% for theme in site.posts %}
+var posts = [
+    {% for post in site.posts %}
         {
-            "title": "{{ theme.title }}",
-            "hash": "{{ theme.title | remove: ' ' | strip_newlines | downcase | md5 }}",
-            "date": "{{ theme.date | date: "%Y—%m—%-d" }}",
-            "thumbnail": "{{ theme.image }}",
-            "author": "{{ theme.author }}",
-            "url": "{{ site.baseurl }}{{ theme.url }}",
+            "title": "{{ post.title }}",
+            "hash": "{{ post.title | remove: ' ' | strip_newlines | downcase | md5 }}",
+            "date": "{{ post.date | date: "%Y—%m—%-d" }}",
+            "thumbnail": "{{ post.image }}",
+            "author": "{{ post.author }}",
+            "url": "{{ site.baseurl }}{{ post.url }}",
         }{% unless forloop.last %},{% endunless %}
     {% endfor %}
 ];

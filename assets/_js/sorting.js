@@ -11,51 +11,51 @@ if(indexList) { sort('loadOrder'); }
 function sort(method) {
     this[method]();
     var html = '';
-    for(var i = 0; i < themes.length; i++) {
-        if(!themes[i]) { continue; }
+    for(var i = 0; i < posts.length; i++) {
+        if(!posts[i]) { continue; }
             html += '<li class="index-item">' +
-                '<a href="' + themes[i].url + '" class="index-link">' +
+                '<a href="' + posts[i].url + '" class="index-link">' +
                     '<div class="index-cell">' +
-                      '<span class="index-date">' + themes[i].date + '</span>' +
-                      '<h2 class="index-name">' + themes[i].title + '</h2>' +
+                      '<span class="index-date">' + posts[i].date + '</span>' +
+                      '<h2 class="index-name">' + posts[i].title + '</h2>' +
                     '</div>' +
                   '</a>' +
-                  '<img src="' + themes[i].thumbnail + '" class="index-thumb" />' +
+                  '<img src="' + posts[i].thumbnail + '" class="index-thumb" />' +
                 '</li>';
     }
     indexList.innerHTML = html;
-    echo.render();
+//    echo.render();
     saveOrder();
 }
 
 function saveOrder() {
-    var themeTitles = themes.map(function(theme) { return theme.title; });
-    sessionStorage.setItem('order', JSON.stringify(themeTitles));
+    var postTitles = posts.map(function(post) { return post.title; });
+    sessionStorage.setItem('order', JSON.stringify(postTitles));
 }
 
 function loadOrder() {
     var newOrder = [];
-    var themeTitles = JSON.parse(sessionStorage.getItem('order'));
-    if(!themeTitles) { shuffle(); return; }
-    themes.forEach(function(theme) {
-        newOrder[themeTitles.indexOf(theme.title)] = theme;
+    var postTitles = JSON.parse(sessionStorage.getItem('order'));
+    if(!postTitles) { shuffle(); return; }
+    posts.forEach(function(post) {
+        newOrder[postTitles.indexOf(post.title)] = post;
     });
-    themes = newOrder;
+    posts = newOrder;
 }
 
 function shuffle() {
-    var currentIndex = themes.length, temporaryValue, randomIndex;
+    var currentIndex = posts.length, temporaryValue, randomIndex;
     while (0 !== currentIndex) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
-        temporaryValue = themes[currentIndex];
-        themes[currentIndex] = themes[randomIndex];
-        themes[randomIndex] = temporaryValue;
+        temporaryValue = posts[currentIndex];
+        posts[currentIndex] = posts[randomIndex];
+        posts[randomIndex] = temporaryValue;
     }
 }
 
 function alphabetical() {
-    themes.sort(function(a, b){
+    posts.sort(function(a, b){
         var titleA = a.title.toLowerCase();
         var titleB = b.title.toLowerCase();
         if(titleA < titleB) return -nameToggle;
@@ -65,7 +65,7 @@ function alphabetical() {
 }
 
 function latest() {
-    themes.sort(function(a, b){
+    posts.sort(function(a, b){
         if(a.date < b.date) return dateToggle;
         if(a.date > b.date) return -dateToggle;
         return 0;

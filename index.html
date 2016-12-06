@@ -8,7 +8,7 @@ layout: default
             <li class="index-item">
                 <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
                     <div class="index-cell">
-                        <span class="index-date">{{ post.date }}</span>
+                        <span class="index-date">{{ post.date | date: "%Y—%m—%-d" }}</span>
                         <h2 class="index-name">{{ post.title }}</h2>
                     </div>
                 </a>
