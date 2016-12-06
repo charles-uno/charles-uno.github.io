@@ -1,6 +1,7 @@
-<div class="head">
     <span class="logo">
-        {% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}
+        <a href="/" id="logo">
+            {% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}
+        </a>
     </span>
     {% if page.title %}
         {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
@@ -38,7 +39,6 @@
             </a>
         </span>
     {% endif %}
-</div>
 
 
 

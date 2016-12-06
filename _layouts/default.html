@@ -39,7 +39,9 @@
     <div style="position:absolute; z-index:999;" id="cardPopup"></div>
 
     <div class="full-main">
-        {{ content }}
+        <div class="main">
+            {{ content }}
+        </div>
     </div>
 
     <!-- Put the copyright below the content, in the off-color space -->
@@ -49,7 +51,9 @@
 
     <!-- We draw the header last so that it renders on top of the content. -->
     <div class="full-head">
-        {% include head.html %}
+        <div class="head">
+            {% include head.html %}
+        </div>
     </div>
 
     <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
