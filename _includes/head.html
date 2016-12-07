@@ -1,5 +1,5 @@
 <span class="logo">
-    <a href="/" id="logo">
+    <a href="/" class="logo">
         {% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}
     </a>
 </span>
@@ -35,43 +35,7 @@
     </span>
     <span class="head-glyph">
         <a href="" onclick="sort('shuffle'); return false;">
-            <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i>
+            <i class="fa fa-random fa-rotate-90" aria-hidden="true"></i>
         </a>
     </span>
 {% endif %}
-
-
-
-
-
-
-<!--
-    <table class="head"><tr>
-        {% if page.title %}
-            {% assign arrow-title = page.title | replace: "'", "\\'"  %}
-            <td class="head-left">
-                <a href="" class="glyphicon glyphicon-chevron-left" onclick="previous('{{ arrow-title }}'); return false;"></a>
-            </td>
-            <td class="head-center">
-                <a class="logo" href="{{ site.baseurl }}/">
-                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-                </a>
-            </td>
-            <td class="head-right">
-                <a href="" class="glyphicon glyphicon-chevron-right" onclick="next('{{ arrow-title }}'); return false;"></a>
-            </td>
-        {% else %}
-            <td class="head-left" id="name-cell">
-                <a class="fa fa-sort-alpha-desc" aria-hidden="true" href="" onclick="sort('alphabetical'); flipNameToggle(); return false;"></a>
-            </td>
-            <td class="head-center" id="logo-cell">
-                <a class="logo" href="" onclick="sort('shuffle'); shuffleLogo(); return false;">
-                    <h1 id="logo">{% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}</h1>
-                </a>
-            </td>
-            <td class="head-right" id="date-cell">
-                <a class="fa fa-sort-numeric-asc" aria-hidden="true" href="" onclick="sort('latest'); flipDateToggle(); return false;"></a>
-            </td>
-        {% endif %}
-    </tr></table>
--->

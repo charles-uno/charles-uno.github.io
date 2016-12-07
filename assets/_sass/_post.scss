@@ -1,5 +1,5 @@
 
-
+/*
 main.post {
     text-align: justify;
     max-width: 600px;
@@ -20,35 +20,38 @@ main.post {
 
 
 }
+*/
 
-
-span.post-date { border: 0; padding: 0; margin-top: 0px; margin-bottom: -10px; }
+.post-date { border: 0; padding: 0; margin-top: 0px; }
 
 h1#post { margin: 0; padding: 0; border: 0; }
 
 article {
+
+    font-size: $text-size;
+
+
     display: block;
-    margin: $half-thumb-gap;
+    margin: $pad;
     table {
         margin-left: auto; margin-right:auto;
         background-color: $shadow-color;
     }
-    th, td { padding: 5px; }
+    th, td { padding: $pad; }
     blockquote {
-        background-color: $shadow-color; margin: 0; border: 0; padding: 10px;
+        background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
         p { margin: 0; padding: 0; border: 0; }
     }
-    img { max-width: 100%; display: block; }
-    img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; padding: 3px $half-thumb-gap; }
+    img + em { font-size: 10px; font-style: normal; background-color: $shadow-color; display: block; padding: 3px $pad; }
 }
 
 footer {
     display: block;
     text-align: center;
-    margin: $half-thumb-gap;
+    margin: $pad;
 //    padding-top: 25px;
     letter-spacing: 3px;
-    .fa { font-size: 30px; }
+//    .fa { font-size: 30px; }
 }
 
 // What if horizontal rules, instead of being lines, were dots?

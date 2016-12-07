@@ -1,61 +1,57 @@
 
+
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
-$content-width: 800px;
-
+$content-width: 600px;
 $pad: 5px;
-
-$bold-color-1: #07a;
-$bold-color-2: #059;
-$bold-color-3: #038;
 
 $paper-color: #fff;
 $shadow-color: #bcf;
 $text-color: #000;
 
-$half-thumb-gap: 5px;
+$head-height: 80px;
 
-$head-height: 50px;
-// Head width is a little bit arbitrary. It'll get stretched to fit.
-$head-width: 100px;
-
-$glyph-size: 25px;
-
-
-$logo-size: 35px;
-
-$sort-size: 25px;
-
-$share-size: 25px;
-
-$arrow-size: 25px;
+$logo-size: 70px;
+$glyph-size: 60px;
 $name-size: 20px;
 $date-size: 16px;
 
-// button, textarea, a:focus { outline: none; }
+$text-size: 16px;
 
-// p { margin: 0; padding: 0; border: 0; }
+$bold-color-1: #07a;
+$bold-color-2: #059;
+$bold-color-3: #038;
 
-body {
+
+
+html, body {
     background-color: $shadow-color;
     font-family: $sans-font;
     border: 0;
     padding: 0;
 //    padding-bottom:25px;
     width: 100%;
-    text-align: center;
-
-    display: block;
-
+//    text-align: center;
+//    display: block;
 }
+
+img {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    display: block;
+}
+
 
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
-div.copy {
-    color: #fff;
+
+.copy {
     display: block;
     text-align: center;
-    margin: $half-thumb-gap;
+    margin: $pad;
+    padding: $pad;
+    color: $paper-color;
 }

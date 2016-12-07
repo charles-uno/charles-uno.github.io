@@ -2,58 +2,52 @@
 ---
 
 <!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description }}">
-
-    <!-- Redirect support -->
-    {% if page.redirect %}
-        <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
-        <link rel="canonical" href="{{ page.redirect }}" />
-    {% endif %}
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-
-    <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <!-- Support for icons better than the defaults -->
-    <script src="https://use.fontawesome.com/2d2ca51921.js"></script>
-    <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
-    <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
-
-    <!--[if lte IE 8]>
-        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Jekyll-seo-tag -->
-    {% seo %}
-</head><body>
-
-    <!-- Autocard handling -->
-    <div style="position:absolute; z-index:999;" id="cardPopup"></div>
-
-    <div class="full-main">
-        <div class="main">
-            {{ content }}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ site.description }}">
+        <!-- Icon handling -->
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+        <!-- Make sure Google doesn't double-count index.html -->
+        <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
+        <!-- We don't use the glyphs, but apparently we rely on some incidental CSS here -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <!-- Font Awesome glyphs -->
+        <script src="https://use.fontawesome.com/2d2ca51921.js"></script>
+        <!-- Google fonts -->
+        <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
+        <!-- Import CSS -->
+        <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
+        <!-- Jekyll SEO for Facebook and Twitter sharing -->
+        {% seo %}
+        <!--[if lte IE 8]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- A full-width div lets the narrower div get centered -->
+        <div class="full-main">
+            <div class="main">
+                {{ content }}
+            </div>
         </div>
-    </div>
-
-    <!-- Put the copyright below the content, in the off-color space -->
-    <div class="copy">&copy; {{ site.social.name }} 2016</div>
-
-    <!-- We draw the header last so that it renders on top of the content. -->
-    <div class="full-head">
-        <div class="head">
-            {% include head.html %}
+        <!-- Copyright goes below, in the off-color space -->
+        <div class="copy">&copy; {{ site.social.name }} 2016</div>
+        <!-- Header is drawn last so it renders on top -->
+        <div class="full-head">
+            <div class="head">
+                {% include head.html %}
+            </div>
         </div>
-    </div>
-
-    <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
-
-</body></html>
+        <!-- Autocard handling -->
+        <div style="position:absolute; z-index:999;" id="cardPopup"></div>
+        <!-- Import Javascript -->
+        <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
+    </body>
+</html>
