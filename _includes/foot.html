@@ -1,20 +1,48 @@
 {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
 {% assign share-title = page.title | url_encode %}
 {% assign share-excerpt = page.description | url_encode %}
-<span></span>
-<span class="foot-glyph">
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-    </a>
-</span>
-<span class="foot-glyph">
-    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup" class="popup">
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-    </a>
-</span>
-<span class="foot-glyph">
-    <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-    </a>
-</span>
-<span></span>
+
+<table>
+    <tr>
+        <td>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
+                <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-lg"></i>
+                </span>
+            </a>
+        </td>
+        <td>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
+                <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-lg"></i>
+                </span>
+            </a>
+        </td>
+        <td>
+            <a href="http://pinterest.com/pin/create/button/?url={{ share-url }}&amp;media={{ share-thumb }}&amp;description={{ share-excerpt }}" class="popup">
+                <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-pinterest-p fa-stack-1x fa-lg"></i>
+                </span>
+            </a>
+        </td>
+        <td>
+            <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
+                <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-lg"></i>
+                </span>
+            </a>
+        </td>
+        <td>
+            <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
+                <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-lg"></i>
+                </span>
+            </a>
+        </td>
+    </tr>
+</table>

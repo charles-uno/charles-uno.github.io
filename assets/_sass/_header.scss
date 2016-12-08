@@ -1,11 +1,12 @@
 
-div.full-head { position: fixed; top: 0px; background-color: #f00; }
+div.full-head { position: fixed; top: 0px; }
 
-div.full-main { background-color: #0f0; height: 100%; }
+div.full-main { height: 100%; }
 
-div.full-foot { position: fixed; bottom: 0px; background-color: #00f; }
+div.full-foot { position: fixed; bottom: 0px; }
 
 div.full-head, div.full-main, div.full-foot {
+    background-color: $shadow-color;
     width: 100%;
     border: 0;
     padding: 0;
@@ -14,19 +15,24 @@ div.full-head, div.full-main, div.full-foot {
     text-align: center;
 }
 
-span.logo { font-size: $logo-size; }
-
-span.head-glyph { font-size: $head-glyph-size; }
-
 span.foot-glyph { font-size: $foot-glyph-size; }
 
-div.head { height: $head-height; }
+.fa-stack { vertical-align: middle; }
 
-div.foot { height: $foot-height; }
+div.head {
+    height: $head-height;
+    .fa-stack { font-size: $head-glyph-size; }
+}
+
+div.foot {
+    height: $foot-height;
+    table, tr { width: 100% }
+    table, tr, td { border: 0; margin: 0; padding: 0; text-align: center; height: 100%; }
+    .fa-stack { font-size: $foot-glyph-size; }
+}
 
 div.head, div.foot {
-
-    span.logo, span.head-glyph, span.foot-glyph { margin: $pad; background-color: #ff0; }
+    a { margin: $pad; }
 
     background-image: radial-gradient($bold-color-1, $bold-color-3);
     background-size: 4px 4px;
@@ -40,6 +46,14 @@ div.head, div.foot {
     line-height: 0;
     a, a:visited { color: $text-color; }
     a:hover { color: $paper-color; }
+    .fa-stack {
+        .fa-stack-2x { color: $paper-color; }
+        .fa-stack-1x { color: $text-color; }
+        &:hover {
+            .fa-stack-2x { color: $text-color; }
+            .fa-stack-1x { color: $paper-color; }
+        }
+    }
 }
 
 div.main {
@@ -53,9 +67,12 @@ div.main {
     margin: 0 auto;
     text-align: justify;
     header, article, footer { border: 0; margin: 0; padding: $pad; }
+    height: 100%;
 }
 
-a.logo {
+#logo {
+    font-size: $logo-size;
+
     // The L in the title is flipped from the other letters.
     .title-accent { color: $paper-color; }
     &:hover {

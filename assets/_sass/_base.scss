@@ -11,13 +11,12 @@ $paper-color: #fff;
 $shadow-color: #bcf;
 $text-color: #000;
 
-$head-height: 80px;
-$logo-size: 70px;
-$head-glyph-size: 60px;
+$head-glyph-size: 20px;
+$head-height: 2*$head-glyph-size + 4*$pad;
+$logo-size: 50px;
 
-$foot-height: 40px;
-$foot-glyph-size: 20px;
-
+$foot-glyph-size: 15px;
+$foot-height: 2*$foot-glyph-size + 2*$pad;
 
 $name-size: 20px;
 $date-size: 16px;
@@ -28,17 +27,18 @@ $bold-color-1: #07a;
 $bold-color-2: #059;
 $bold-color-3: #038;
 
-
-
 html, body {
     background-color: $shadow-color;
     font-family: $sans-font;
     border: 0;
     padding: 0;
-//    padding-bottom:25px;
+    margin: 0;
+
     width: 100%;
-//    text-align: center;
-//    display: block;
+    min-height: 100%;
+
+
+//    min-height: 1000vh;
 }
 
 img {

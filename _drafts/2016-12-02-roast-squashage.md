@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Roast Squashage"
-date: 2016-12-02
 image: "/thumbnails/placeholder-05.png"
 description: ""
 ---

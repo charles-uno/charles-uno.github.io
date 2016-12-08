@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Data vs Democracy"
-date: 2016-12-01
 image: "/thumbnails/map.png"
 description: "Technology lets us micromanage our elected officials, and we're preventing them from doing their jobs."
 ---
