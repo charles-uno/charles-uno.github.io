@@ -1,0 +1,20 @@
+{% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
+{% assign share-title = page.title | url_encode %}
+{% assign share-excerpt = page.description | url_encode %}
+<span></span>
+<span class="foot-glyph">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </a>
+</span>
+<span class="foot-glyph">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup" class="popup">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </a>
+</span>
+<span class="foot-glyph">
+    <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+    </a>
+</span>
+<span></span>

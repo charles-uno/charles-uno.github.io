@@ -1,68 +1,58 @@
 
-div.full-head {
+div.full-head { position: fixed; top: 0px; background-color: #f00; }
+
+div.full-main { background-color: #0f0; height: 100%; }
+
+div.full-foot { position: fixed; bottom: 0px; background-color: #00f; }
+
+div.full-head, div.full-main, div.full-foot {
     width: 100%;
-    background-color: #0f0;
     border: 0;
     padding: 0;
     margin: 0;
     display: block;
     text-align: center;
-    position: fixed;
-    top: 0px;
 }
 
-div.head {
+span.logo { font-size: $logo-size; }
+
+span.head-glyph { font-size: $head-glyph-size; }
+
+span.foot-glyph { font-size: $foot-glyph-size; }
+
+div.head { height: $head-height; }
+
+div.foot { height: $foot-height; }
+
+div.head, div.foot {
+
+    span.logo, span.head-glyph, span.foot-glyph { margin: $pad; background-color: #ff0; }
 
     background-image: radial-gradient($bold-color-1, $bold-color-3);
     background-size: 4px 4px;
 
-
     width: 100%;
     max-width: $content-width;
-    height: $head-height;
     margin: 0 auto;
     padding: $pad;
     display: flex;
     justify-content: space-between;
-    span.logo { margin: $pad; background-color: #ff0; }
-    span.head-glyph {
-        margin: $pad;
-        font-size: $glyph-size;
-
-        line-height: 0;
-
-        background-color: #ff0;
-
-//      top: 50%;
-//      transform: translate(0, -50%);
-
-//        vertical-align: middle;
-    }
+    line-height: 0;
     a, a:visited { color: $text-color; }
     a:hover { color: $paper-color; }
-
-
-}
-
-div.full-main {
-    width: 100%;
-    background-color: $shadow-color;
-    border: 0;
-    padding-top: $head-height;
-    display: block;
-    text-align: center;
 }
 
 div.main {
+    padding-top: $head-height + $pad;
+    padding-bottom: $foot-height + $pad;
+    padding-left: $pad;
+    padding-right: $pad;
     width: 100%;
     max-width: $content-width;
     background-color: $paper-color;
     margin: 0 auto;
-    padding: $pad;
     text-align: justify;
-
     header, article, footer { border: 0; margin: 0; padding: $pad; }
-
 }
 
 a.logo {
@@ -71,15 +61,10 @@ a.logo {
     &:hover {
         .title-accent { color: $text-color; }
     }
-
     letter-spacing: -3px;
-
     font-family: $logo-font;
     font-weight: 400;
     line-height: 1;
     margin: 0;
     padding: 0;
-    font-size: $logo-size;
-//    height: 100%;
-//    width: 100%;
 }
