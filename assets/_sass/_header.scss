@@ -1,12 +1,25 @@
 
-div.full-head { position: fixed; top: 0px; }
+div.full-head {
+    position: fixed;
+    top: 0px;
+    background-image: radial-gradient($bold-color-1, $bold-color-3);
+    background-size: 4px 4px;
+}
 
-div.full-main { height: 100%; }
+div.full-main {
+    height: 100%;
+    background-color: $shadow-color;
+}
 
-div.full-foot { position: fixed; bottom: 0px; }
+div.full-foot {
+    position: fixed;
+    bottom: 0px;
+    background-image: radial-gradient($bold-color-1, $bold-color-3);
+    background-size: 4px 4px;
+}
 
 div.full-head, div.full-main, div.full-foot {
-    background-color: $shadow-color;
+//    background-color: $shadow-color;
     width: 100%;
     border: 0;
     padding: 0;
@@ -34,8 +47,8 @@ div.foot {
 div.head, div.foot {
     a { margin: $pad; }
 
-    background-image: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 4px 4px;
+//    background-image: radial-gradient($bold-color-1, $bold-color-3);
+//    background-size: 4px 4px;
 
     width: 100%;
     max-width: $content-width;
