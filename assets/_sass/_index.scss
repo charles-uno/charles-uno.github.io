@@ -43,9 +43,10 @@
     background-color: rgba($text-color, 0.7);
     &:hover {
         background: none;
-        span.index-name { top: 1000%; }
-        span.index-date { top: 1000%; }
+        .index-name { top: 1000px; }
+        .index-date { top: 1000px; }
     }
+    overflow: hidden;
 }
 
 .index-name {
