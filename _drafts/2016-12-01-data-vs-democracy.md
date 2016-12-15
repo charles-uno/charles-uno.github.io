@@ -39,7 +39,7 @@ As the saying goes, "if you're explaining, you're losing." It's easy to rally su
 
 ---
 
-Public interest in politics skyrockets during presidential campaigns. Scandals and gaffes -- regardless of their newsworthiness or even [validity](https://en.wikipedia.org/wiki/Swift_Vets_and_POWs_for_Truth) -- expand to fill the 24-hour news cycle. All other considerations are eclipsed by a candidate's ability to appear "genuine" on camera. As Doug Muder [wrote during the Democratic primaries](https://weeklysift.com/2016/02/01/undecided-with-8-days-to-go/):
+Public over-involvement in politics peaks during presidential elections. Scandals and gaffes -- regardless of their newsworthiness or even [validity](https://en.wikipedia.org/wiki/Swift_Vets_and_POWs_for_Truth) -- expand to fill the 24-hour news cycle. All other considerations are eclipsed by a candidate's ability to appear "genuine" on camera. As Doug Muder [wrote during the Democratic primaries](https://weeklysift.com/2016/02/01/undecided-with-8-days-to-go/):
 
 > The way you undo a smear is that you tell a more convincing story about yourself than the one your enemies are telling. You look straight into the camera, straight into America’s living rooms, and say, "You know me. You know what I’m really like."
 
@@ -49,9 +49,23 @@ If we're surprised that the charismatic candidate beat the policy-focused candid
 
 ---
 
+Advances in information technology are not the whole story, of course. America has an unprecedented diversity of voting blocs[^3], but our first-past-the-post voting system suppresses third-party candidates. Our massive population[^4] makes presidential campaigns [billion-dollar](https://www.opensecrets.org/overview/cost.php) ordeals, forcing political parties into the pockets of wealthy donors.
+
+[^3]: Most [high-scoring](https://en.wikipedia.org/wiki/Democracy_Index) democracies are over 90% racially homogeneous. The US, in comparison, is only 63% non-Hispanic white.
+
+[^4]: The US population is 4x the size of Germany, 9x the size of Canada, and over 60x the size of Norway.
+
 ---
 
 ---
+
+---
+
+But I think it's valuable to talk about the effects of data access on our democracy because it puts everyone on the same side (or at least, it puts everyone into the same [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma)).
+
+Democrat and Republican, rich and poor, urban and rural... we are all part of the problem. And it's in all of our interests to figure out a solution.
+
+We all like having access to data. We all want the government to be functional. 
 
 Americans have a lot of access to our elected officials. We have a lot of power over them.
 
