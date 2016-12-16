@@ -49,11 +49,16 @@ If we're surprised that the charismatic candidate beat the policy-focused candid
 
 ---
 
-Advances in information technology are not the whole story, of course. America has an unprecedented diversity of voting blocs[^3], but our first-past-the-post voting system suppresses third-party candidates. Our massive population[^4] makes presidential campaigns [billion-dollar](https://www.opensecrets.org/overview/cost.php) ordeals, forcing political parties into the pockets of wealthy donors.
+Advances in information technology are not the whole story, of course. America has an unprecedented diversity of voting blocs[^3], but our first-past-the-post voting system suppresses third-party candidates. Our massive population[^4] makes presidential campaigns [billion-dollar](https://www.opensecrets.org/overview/cost.php) ordeals, forcing political parties into the pockets of wealthy donors. But I think it's valuable to focus on our democracy's data-driven dysfunction because there is nobody to scapegoat. 
 
 [^3]: Most [high-scoring](https://en.wikipedia.org/wiki/Democracy_Index) democracies are over 90% racially homogeneous. The US, in comparison, is only 63% non-Hispanic white.
 
 [^4]: The US population is 4x the size of Germany, 9x the size of Canada, and over 60x the size of Norway.
+
+Billionaires aren't forcing us to tune in to 24-hour political coverage. Immigrants aren't to blame for grassroots political insurgencies. It's not the media's fault that [half of Facebook users](http://www.pewinternet.org/2015/01/09/frequency-of-social-media-use-2/) log on multiple times every day. Democrat and Republican, rich and poor, urban and rural, we are all part of the problem. And I don't know what the solution looks like, but we'll all need to be a part of that as well. 
+
+
+<!--
 
 ---
 
@@ -72,6 +77,8 @@ Americans have a lot of access to our elected officials. We have a lot of power 
 Data access is good for X, Y, and Z, but we haven't figured out how to reconcile it with politics.
 
 http://www.bbc.com/news/blogs-trending-38156985
+
+-->
 
 <!--
 In fact, in the modern era, it's actually the Democrats who seem to be most reliant in the charisma of their presidential candidates. JFK, Carter, Bill Clinton, and Obama were famously charismatic, and inspired
