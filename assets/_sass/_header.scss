@@ -53,7 +53,7 @@ div.head, div.foot {
     width: 100%;
     max-width: $content-width;
     margin: 0 auto;
-    padding: $pad;
+    padding: 0 2*$pad;
     display: flex;
     justify-content: space-between;
     line-height: 0;
@@ -70,10 +70,10 @@ div.head, div.foot {
 }
 
 div.main {
-    padding-top: $head-height + $pad;
-    padding-bottom: $foot-height + $pad;
-    padding-left: $pad;
-    padding-right: $pad;
+    padding-top: $head-height + 2*$pad;
+    padding-bottom: $foot-height + 2*$pad;
+    padding-left: 2*$pad;
+    padding-right: 2*$pad;
     width: 100%;
     max-width: $content-width;
     background-color: $paper-color;

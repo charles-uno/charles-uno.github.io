@@ -92,3 +92,23 @@ function shuffleLogo() {
     }
     logo.innerHTML = html;
 }
+
+function resetLogo() {
+    var logo = document.getElementById('logo');
+    var i, html;
+    var letters = [
+        '<span class="title-base">c</span>',
+        '<span class="title-base">h</span>',
+        '<span class="title-base">a</span>',
+        '<span class="title-base">r</span>',
+        '<span class="title-accent">1</span>',
+        '<span class="title-base">e</span>',
+        '<span class="title-base">s</span>'
+    ];
+    html = '';
+    while ( letters.length !== 0 ) {
+        html += letters[0];
+        letters.splice(0, 1);
+    }
+    logo.innerHTML = html;
+}

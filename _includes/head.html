@@ -16,16 +16,16 @@
         </span>
     </a>
 {% else %}
-    <a href="" onclick="sort('alphabetical'); return false;">
+    <a href="" onclick="sort('alphabetical'); resetLogo(); return false;">
         <span class="fa-stack">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-sort-alpha-asc fa-stack-1x fa-lg"></i>
         </span>
     </a>
-    <a href="" id="logo" onclick="sort('shuffle'); return false;">
+    <a href="" id="logo" onclick="sort('shuffle'); shuffleLogo(); return false;">
         {% if site.htmlname %}{{ site.htmlname }}{% else %}{{ site.name }}{% endif %}
     </a>
-    <a href="" onclick="sort('latest'); return false;">
+    <a href="" onclick="sort('latest'); resetLogo(); return false;">
         <span class="fa-stack">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-sort-numeric-asc fa-stack-1x fa-lg"></i>
