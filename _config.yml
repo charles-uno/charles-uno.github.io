@@ -1,7 +1,7 @@
 name: Charles McEachern
 title: char1es
-htmlname: <span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>
-description: "A portfolio of recipes, essays, and projects."
+htmltitle: <span class="title-base">char</span><span class="title-accent">1</span><span class="title-base">es</span>
+description: "food, games, science, and politics"
 url: 'http://charles.uno'
 baseurl: ''
 github: 'https://github.com/chizarlicious'

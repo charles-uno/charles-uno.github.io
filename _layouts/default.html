@@ -24,7 +24,13 @@
         <!-- Import CSS -->
         <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
         <!-- Jekyll SEO for Facebook and Twitter sharing -->
-        {% seo %}
+        {% seo title=false %}
+        <!-- Page title (I don't like the SEO defaults) -->
+        {% if page.title %}
+            <title>{{ page.title }} | {{ site.title }}</title>
+        {% else %}
+            <title>{{ site.title }} | {{ site.description }}</title>
+        {% endif %}
         <!--[if lte IE 8]>
             <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -49,7 +55,6 @@
                 {% include foot.html %}
             </div>
         </div>
-
 
         <!-- Autocard handling -->
         <div style="position:absolute; z-index:999;" id="cardPopup"></div>

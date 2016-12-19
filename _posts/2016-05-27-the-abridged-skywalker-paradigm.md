@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The (Abridged) Skywalker Paradigm"
-date: 2016-05-27
 image: "/thumbnails/the-abridged-skywalker-paradigm.png"
 description: "I'm not trying to tell you about the plot holes in Star Wars -- I'm telling you there are NO plot holes in Star Wars."
 author: charles
