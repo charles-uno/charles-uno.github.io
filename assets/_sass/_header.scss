@@ -45,7 +45,6 @@ div.foot {
 }
 
 div.head, div.foot {
-    a { margin: $pad; }
 
 //    background-image: radial-gradient($bold-color-1, $bold-color-3);
 //    background-size: 4px 4px;
@@ -53,7 +52,7 @@ div.head, div.foot {
     width: 100%;
     max-width: $content-width;
     margin: 0 auto;
-    padding: 0 2*$pad;
+    padding: $pad;
     display: flex;
     justify-content: space-between;
     line-height: 0;
@@ -70,10 +69,10 @@ div.head, div.foot {
 }
 
 div.main {
-    padding-top: $head-height + 2*$pad;
-    padding-bottom: $foot-height + 2*$pad;
-    padding-left: 2*$pad;
-    padding-right: 2*$pad;
+    padding-top: $head-height + $pad;
+    padding-bottom: $foot-height + $pad;
+    padding-left: $half-pad;
+    padding-right: $half-pad;
     width: 100%;
     max-width: $content-width;
     background-color: $paper-color;
@@ -87,8 +86,10 @@ div.main {
     font-size: $logo-size;
 
     // The L in the title is flipped from the other letters.
+    .title-base { color: $text-color; }
     .title-accent { color: $paper-color; }
     &:hover {
+        .title-base { color: $paper-color; }
         .title-accent { color: $text-color; }
     }
     letter-spacing: -3px;

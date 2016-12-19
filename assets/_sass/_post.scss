@@ -1,9 +1,9 @@
 
-.post-date { border: 0; padding: 0; margin-top: 0px; }
-
 header {
-
     .post-date {
+        border: 0;
+        padding: 0;
+        margin: 0;
         display: block;
         text-align: center;
         letter-spacing: 3px;
@@ -19,21 +19,30 @@ header {
 article {
     font-size: $text-size;
     display: block;
-    margin: $pad;
+    margin: $half-pad;
+    a {
+        color: $bold-color-2;
+        &:hover { color: $text-color; }
+    }
     table {
         margin-left: auto; margin-right:auto;
         background-color: $shadow-color;
     }
-    th, td { padding: $pad; }
+    th, td { padding: $half-pad; }
     blockquote {
-        background-color: $shadow-color; margin: 0; border: 0; padding: 2*$pad;
+        background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
         p { margin: 0; padding: 0; border: 0; }
     }
+
+    img { width: 100%; padding: $pad; background-color: $shadow-color; }
+
     img + em {
+        text-align: center;
         font-size: 10px;
         font-style: normal;
         background-color: $shadow-color;
-        display: block; padding: 3px $pad;
+        display: block;
+        padding: 0 $pad $pad $pad;
     }
 }
 
