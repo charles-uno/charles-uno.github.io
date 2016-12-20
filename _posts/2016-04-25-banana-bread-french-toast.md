@@ -21,10 +21,7 @@ Add **125 ml mini dark chocolate chips**[^2] (1/2 c). Then spoon the batter into
 
 Slice the loaf (or whatever is left of it) as thin as you can without having it fall apart. Mix **3 eggs**, **75 ml plain yogurt** (1/3 c), and **cinnamon** to taste. Dip each slice in the egg mixture, coating both sides, then fry in a buttered skillet until golden brown. 
 
-![Banana bread french toast](/assets/images/bbft/final.jpg)
-*One slice is typical. Two slices is ambitious. Three slices is madness.*
-
 Banana bread french toast is decadent on its own; syrup is not necessary (though a dribble never hurt anybody). It's best with fresh fruit and/or peanut butter. 
 
-<!-- hr before footnotes -->
----
+![Banana bread french toast](/assets/images/bbft/final.jpg)
+*One slice is typical. Two slices is ambitious. Three slices is madness.*
