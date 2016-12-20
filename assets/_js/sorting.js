@@ -2,7 +2,7 @@ var indexList = document.getElementById('index-list');
 
 // If clicked repeatedly, the sorts toggle forward and backward. The
 // name toggle starts flipped; forward sorting by name is the default.
-var nameToggle = -1;
+var nameToggle = 1;
 var dateToggle = 1;
 
 if(indexList) { sort('loadOrder'); }
