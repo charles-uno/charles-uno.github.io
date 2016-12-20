@@ -2,25 +2,35 @@
 layout: post
 title: "Banana Bread French Toast"
 image: "/thumbnails/banana-bread-french-toast.png"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+description: "A decadent treat for Saturday morning or Sunday night."
 author: charles
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet euismod ultricies. Pellentesque finibus eleifend erat, eget ultrices quam. Nullam interdum, nunc non bibendum ultricies, dui tellus feugiat ipsum, eget vehicula eros lorem nec erat. Cras tincidunt dolor quis rutrum molestie. Duis cursus nulla sollicitudin tellus bibendum elementum. Donec a mauris id purus condimentum commodo tincidunt in purus. Vivamus id ex eu enim vehicula convallis. In id consequat nisi, in tempus metus. Proin blandit ac est eu venenatis. Maecenas aliquet magna sed mauris finibus congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc accumsan a sapien ut pellentesque. Praesent volutpat sodales interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Combine **150 ml brown sugar** (2/3 c), **75 ml softened butter** (1/3 c, or 2/3 stick), **1 egg**, and **5 ml vanilla** (1 t). Add **4 overripe bananas**[^1].
 
-![](/assets/images/bbft/ingredients.jpg)
-*ingredients*
+[^1]: Optionally, bananas can be swapped out for 400 ml (14 oz) cooked/canned sweet potato or squash. 
 
-Proin ullamcorper nisi eu nibh congue accumsan. Suspendisse id nisl orci. Quisque enim arcu, finibus id pretium non, auctor ut ipsum. Etiam id faucibus enim, eget sollicitudin ex. Vestibulum tincidunt leo eget sapien venenatis tempus. In varius non massa eget ullamcorper. Cras quis pellentesque ex. Vivamus vel est facilisis tortor ornare vestibulum.
+In a separate bowl, mix **250 ml whole wheat flour** (1 c) with **5 ml salt** (1 t) and **5 ml baking soda** (1 t). 
 
-Aliquam at orci tempor enim facilisis interdum. Integer malesuada mi diam, id fermentum enim porttitor quis. Ut vehicula felis augue, ut hendrerit mi vestibulum vel. Mauris ullamcorper ultrices augue id congue. Mauris non lorem feugiat dolor vulputate mattis sit amet ac tellus. Curabitur ut leo lectus. Donec porttitor neque tortor, vitae mattis diam condimentum blandit. Donec pulvinar faucibus dictum. Quisque sit amet luctus mauris. Sed hendrerit feugiat convallis. Fusce et pulvinar orci, ut mollis augue. In hac habitasse platea dictumst.
+Gradually mix the dry ingredients into the wet ingredients. The mixture should have about the consistency of mixed-up yogurt; if it's too soupy, you may need to add a bit more flour. 
 
-![](/assets/images/bbft/loaf.jpg)
-*loaf*
+Add **125 ml mini dark chocolate chips**[^2] (1/2 c). 
 
-Pellentesque hendrerit nisl eu dolor commodo imperdiet porttitor id justo. Proin sem enim, porta sed odio a, gravida faucibus turpis. Nullam dapibus commodo accumsan. Donec posuere ipsum vel lectus sagittis bibendum. Etiam vitae eleifend sem. Curabitur non velit nibh. Curabitur quis quam pellentesque eros gravida pharetra. Proin posuere bibendum arcu vitae fringilla. Nam placerat nisi sagittis eleifend auctor.
+[^2]: Chopped nuts and dried cranberries are suitable substitutes for chocolate chips. 
 
-![](/assets/images/bbft/final.jpg)
-*final*
+Spoon the batter into a buttered loaf pan[^3] and bake at 190C (375F) until a toothpick inserted into the center comes out clean, about 45 minutes. Allow to cool, then carefully remove it from the pan. The loaf can be stored at room temperature for a few days; keep a towel over it to prevent it from going stale. 
 
-In consequat porttitor lectus, dapibus interdum orci tincidunt a. Phasellus et lacus et tortor pellentesque finibus. Suspendisse potenti. Vivamus pulvinar nisi vitae urna interdum, vel gravida metus mollis. Donec a pharetra dui, ut rhoncus sem. Nunc varius ac ante quis commodo. Vivamus sed lobortis leo. Phasellus id euismod augue. Maecenas tempor nisi vel porttitor rhoncus.
+[^3]: Bake time is closer to 25 minutes for muffins, or 15 minutes for mini muffins. Muffins aren't much use for making french toast, but they're great for snacking and sharing. 
+
+![Banana bread loaf](/assets/images/bbft/loaf.jpg)
+*The ends of the loaf make for unsightly french toast, so you should probably just eat them.*
+
+Slice the loaf (or whatever is left of it) as thin as you can without having it fall apart. Mix **3 eggs**, **75 ml plain yogurt** (1/3 c), and **cinnamon** to taste. Dip each slice in the egg mixture, coating both sides, then fry in a buttered skillet until golden brown. 
+
+![Banana bread french toast](/assets/images/bbft/final.jpg)
+*Banana bread french toast is best enjoyed with *
+
+Banana bread french toast is decadent on its own; syrup is not necessary (though a dribble never hurt anybody). It's best with fresh fruit and/or peanut butter. 
+
+<!-- hr before footnotes -->
+---
