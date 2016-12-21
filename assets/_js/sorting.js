@@ -24,6 +24,9 @@ function sort(method) {
     }
     indexList.innerHTML = html;
     saveOrder();
+    // Multiple clicks on the name/date sort will reverse the order. Toggles are reset whenever a different sort is applied.  
+    if (method == 'alphabetical') {nameToggle *= -1;} else {nameToggle = 1;}
+    if (method == 'latest') {dateToggle *= -1;} else {dateToggle = 1;}
 }
 
 function saveOrder() {
@@ -60,7 +63,6 @@ function alphabetical() {
         if(titleA > titleB) return nameToggle;
         return 0;
     });
-    nameToggle *= -1;
 }
 
 function latest() {
@@ -69,7 +71,6 @@ function latest() {
         if(a.date > b.date) return -dateToggle;
         return 0;
     });
-    dateToggle *= -1;
 }
 
 function shuffleLogo() {
