@@ -8,25 +8,67 @@ author: charles
 
 In the Pokémon universe, each trainer carries a team of pocket monsters with them at all times. When two trainers make eye contact, they are honor-bound to battle. Battles cannot end until one trainer's entire team is knocked unconscious. The winner earns both money and social status.
 
-Pokémon battles are not just a matter of scratching and biting (though there is plenty of that). Monsters are also attuned with the natural elements, creating a multidimensional game of rock-paper-scissors: lightning-type attacks are strong against water-type Pokémon, water-type attacks are strong against fire-type Pokémon, and so on.
+Pokémon battles are not just a matter of scratching and biting (though there is plenty of that). Monsters are also attuned with the natural elements, creating a multidimensional game of rock-paper-scissors: Lightning attacks are super effective against Water pokémon, Water attacks are super effective against Fire pokémon, and so on.
 
 This premise is (evidently) compelling. Seven generations of Pokémon handheld games have been released; each has been a top seller. The franchise has also made successful forays into console games, television, movies, trading cards, and mobile apps.
 
 But just because Pokémon is successful doesn't mean every part of it is perfect, or even good. In particular, the type interaction matrix -- the chart that lists the elemental types, as well as which are strong and weak against others -- is a mess:
 
-- There are way too many types! The first generation of games had 17, and 3 more have been added since then to improve balance. The interactions aren't even symmetrical[^1] -- that means there are 400 attack-defense combinations to know, some of which are not intuitive (Psychic is weak to Bug, Dragon is weak to Fairy, Poison is resistant to Fighting, etc).
-- Types are thematically inconsistent. Fire and Ice are elements, so attacks like Fire Blast and Blizzard are intuitive. On the other hand, the Bug and Dragon types describe the shape of the pokémon's body. What does it mean for Pin Missile to be a Bug attack? How is Dragon Claw (Dragon) qualitatively different from Slash (Normal)?
-- The Fighting type makes no sense with the rest of the game. Pokémon are stylized cartoon animals. Fighting-type pokémon are stylized cartoon people -- most of them even wear clothing! 
+- There are way too many types! The first generation of games had 17, and 3 more have been added since then to improve balance. The interactions aren't even symmetrical[^1] -- that means there are 400 attack-defense combinations to know, some of which are not intuitive (Bug is super effective against Psychic, Fairy is super effective against Dragon, Fighting is not very effective against Poison, etc).
 
-[^1]: Some interactions are symmetrical; water-type Pokémon are resistant to fire-type attacks, and fire-type Pokémon are weak to water-type attacks. But not all of them are. For example, bug-type pokémon are resistant to fighting-type attacks, but fighting-type Pokémon are also resistant to bug-type attacks. 
+
+
+- Several types step on each other's toes in terms of flavor: Dark, Ghost, Poison, and Psychic all fill the role of a "spooky" type. 
+
+
+
+- Types are thematically inconsistent. Elemental attacks can be as straightforward as breathing a beam of fire, ice, or lightning. But some types correspond to the shape of the pokémon's body, rather than an elemental power. What does it mean for Pin Missile to be a Bug attack? How is Dragon Claw (Dragon) qualitatively different from Slash (Normal)?
+
+
+- Some types are... bad. 
+
+The Fighting type makes no sense with the rest of the game. Pokémon are stylized cartoon animals. Fighting-type pokémon are stylized cartoon people -- most of them even wear clothing! 
+
+Steel is also problematic. The idea is sound, but the execution has been poor. Beyond Steelix and Skarmory, Steel-type pokémon tend to be bizarre legendaries or...
+
+Klink: gears that evolve into more gears
+Bronzor: gong that evolves into a bell
+Magnemite, Magneton, Magnezone: Magnet that evolves into more magnets
+Durant, Scizor, Foretress, Wormadam, Escavalier: Bugs wearing armor
+
+
+
+[^1]: Some interactions are symmetrical: Water attacks are super effective against Fire pokémon, and Fire attacks are not very effective against Water pokémon. Others are not: Bug attacks are not very effective against Fighting pokémon, and Fighting attacks are also not very effective against Bug pokémon. 
 
 [Fighting is not even a popular type](https://www.reddit.com/r/pokemon/comments/330y6l/most_popular_pokemon_types_as_voted_by_you/)
 
 
 
 
-- Some types share the same flavor space. Psychic, dark, ghost (and sometimes poison) are all "spooky." Water and ice are pretty similar -- grass+poison, bug+poison, rock+ground, ghost+poison
+Some types share the same flavor space. Psychic, dark, ghost (and sometimes poison) are all "spooky." Water and ice are pretty similar -- grass+poison, bug+poison, rock+ground, ghost+poison
 
+
+Gogoat
+
+Ninjask
+
+Galvantula
+
+Krookodile
+
+Dwebble
+
+Kangaskhan
+
+Scolipede
+
+Spheal
+
+Swinub
+
+Tyrunt
+
+Phanpy
 
 
 
