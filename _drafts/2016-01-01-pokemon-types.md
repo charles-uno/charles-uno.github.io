@@ -10,37 +10,87 @@ In the Pokémon universe, each trainer carries a team of pocket monsters with th
 
 Pokémon battles are not just a matter of scratching and biting (though there is plenty of that). Monsters are also attuned with the natural elements, creating a multidimensional game of rock-paper-scissors: Lightning attacks are super effective against Water pokémon, Water attacks are super effective against Fire pokémon, and so on.
 
-This premise is (evidently) compelling. Seven generations of Pokémon handheld games have been released; each has been a top seller. The franchise has also made successful forays into console games, television, movies, trading cards, and mobile apps.
-
-But just because Pokémon is successful doesn't mean every part of it is perfect, or even good. In particular, the type interaction matrix -- the chart that lists the elemental types, as well as which are strong and weak against others -- is a mess:
+This premise is (evidently) compelling. Seven generations of Pokémon handheld games have been released; each has been a top seller. The franchise has also made successful forays into console games, television, movies, trading cards, and mobile apps. But just because Pokémon is successful doesn't mean every part of it is perfect, or even good. In particular, the type interaction matrix -- the chart that lists the elemental types, as well as which are strong and weak against others -- is a mess:
 
 - There are way too many types! The first generation of games had 17, and 3 more have been added since then to improve balance. The interactions aren't even symmetrical[^1] -- that means there are 400 attack-defense combinations to know, some of which are not intuitive (Bug is super effective against Psychic, Fairy is super effective against Dragon, Fighting is not very effective against Poison, etc).
-
-
-
-- Several types step on each other's toes in terms of flavor: Dark, Ghost, Poison, and Psychic all fill the role of a "spooky" type. 
-
-
-
 - Types are thematically inconsistent. Elemental attacks can be as straightforward as breathing a beam of fire, ice, or lightning. But some types correspond to the shape of the pokémon's body, rather than an elemental power. What does it mean for Pin Missile to be a Bug attack? How is Dragon Claw (Dragon) qualitatively different from Slash (Normal)?
+- Some types are... bad. Whereas most pokémon are stylized cartoon animals, Fighting-type pokémon are stylized cartoon people -- [most of them](http://bulbapedia.bulbagarden.net/wiki/Fighting_(type)) even wear clothing! Steel is also problematic; beyond [Steelix](http://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)) and [Skarmory](http://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)), Steel-type pokémon are pretty much all bizarre legendaries, armored bugs, and/or living inanimate objects à la Beauty and the Beast.
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Sawk" src="/assets/images/pokemon/sawk.png">
+        <em>Rather than a cartoon animal, this pokémon is a cartoon person.</em>
+    </td>
+    <td>
+        <img alt="Klink" src="/assets/images/pokemon/klink.png">
+        <em>Rather than a cartoon animal, this pokémon is an inanimate object.</em>
+    </td>
+    <td>
+        <img alt="Dialga" src="/assets/images/pokemon/dialga.png">
+        <em>Rather than a cartoon animal, this pokémon is ???</em>
+    </td>
+</tr></table>
+
+[^1]: Some interactions are symmetrical: Water attacks are super effective against Fire pokémon, and Fire attacks are not very effective against Water pokémon. Others are not: Bug attacks are not very effective against Fighting pokémon, and Fighting attacks are also not very effective against Bug pokémon.
 
 
-- Some types are... bad. 
+# Fire
 
-The Fighting type makes no sense with the rest of the game. Pokémon are stylized cartoon animals. Fighting-type pokémon are stylized cartoon people -- most of them even wear clothing! 
+<table class="thirds"><tr>
+    <td>
+        <img alt="Magcargo" src="/assets/images/pokemon/magcargo.png">
+        <em>Magcargo</em>
+    </td>
+    <td>
+        <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
+        <em>Ponyta</em>
+    </td>
+    <td>
+        <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
+        <em>Charizard</em>
+    </td>
+</tr></table>
 
-Steel is also problematic. The idea is sound, but the execution has been poor. Beyond Steelix and Skarmory, Steel-type pokémon tend to be bizarre legendaries or...
+# Water
 
-Klink: gears that evolve into more gears
-Bronzor: gong that evolves into a bell
-Magnemite, Magneton, Magnezone: Magnet that evolves into more magnets
-Durant, Scizor, Foretress, Wormadam, Escavalier: Bugs wearing armor
+<table class="thirds"><tr>
+    <td>
+        <img alt="Spheal" src="/assets/images/pokemon/spheal.png">
+        <em>Spheal</em>
+    </td>
+    <td>
+        <img alt="Lanturn" src="/assets/images/pokemon/lanturn.png">
+        <em>Lanturn</em>
+    </td>
+    <td>
+        <img alt="Tentacruel" src="/assets/images/pokemon/tentacruel.png">
+        <em>Tentacrual</em>
+    </td>
+</tr></table>
+
+# Plant
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Tropius" src="/assets/images/pokemon/tropius.png">
+        <em>Tropius</em>
+    </td>
+    <td>
+        <img alt="Gogoat" src="/assets/images/pokemon/gogoat.png">
+        <em>Gogoat</em>
+    </td>
+    <td>
+        <img alt="Exeggutor" src="/assets/images/pokemon/exeggutor.png">
+        <em>Exeggutor</em>
+    </td>
+</tr></table>
 
 
 
-[^1]: Some interactions are symmetrical: Water attacks are super effective against Fire pokémon, and Fire attacks are not very effective against Water pokémon. Others are not: Bug attacks are not very effective against Fighting pokémon, and Fighting attacks are also not very effective against Bug pokémon. 
+Several types step on each other's toes in terms of flavor: Dark, Ghost, Poison, and Psychic all fill the role of a "spooky" type.
 
-[Fighting is not even a popular type](https://www.reddit.com/r/pokemon/comments/330y6l/most_popular_pokemon_types_as_voted_by_you/)
+
+Bulbapedia uses official artwork from Ken Sugimori, under [fair use](https://en.wikipedia.org/wiki/Fair_use).
 
 
 
@@ -98,7 +148,7 @@ The crux of any Pokemon game is battling.
 
 Rock-paper-scissors where some types are good against others.
 
-In hindsight, that matrix is a mess. 
+In hindsight, that matrix is a mess.
 
 
 

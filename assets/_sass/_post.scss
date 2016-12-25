@@ -27,8 +27,27 @@ article {
     table {
         margin-left: auto; margin-right:auto;
         background-color: $shadow-color;
+        padding: $half-pad;
     }
     th, td { padding: $half-pad; }
+
+    table.thirds {
+        background-color: $paper-color;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: $pad;
+        padding: 0;
+        td {
+            width: 33.33%;
+            height: 100%;
+            vertical-align: top;
+            padding: 0;
+            background-color: $shadow-color;
+        }
+
+    }
+
+
     blockquote {
         background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
         p { margin: 0; padding: 0; border: 0; }
@@ -37,7 +56,7 @@ article {
     img { width: 100%; padding: $pad; background-color: $shadow-color; }
 
     img + em {
-        text-align: center;
+        text-align: justify;
         font-size: 10px;
         font-style: normal;
         background-color: $shadow-color;
