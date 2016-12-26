@@ -33,21 +33,112 @@ This premise is (evidently) compelling. Seven generations of Pokémon handheld g
 
 [^1]: Some interactions are symmetrical: Water attacks are super effective against Fire pokémon, and Fire attacks are not very effective against Water pokémon. Others are not: Bug attacks are not very effective against Fighting pokémon, and Fighting attacks are also not very effective against Bug pokémon.
 
+---
+
+Stone + Fire -- Camerupt
+Fire + Wind -- Charizard
+Wind + Water -- Pelipper
+Water + Lightning -- Lanturn
+Lightning + Shadow -- Blitzle
+Shadow + Plant -- Exeggutor
+Plant + Stone -- Torterra
+
+
+
+---
+
 
 # Fire
 
 <table class="thirds"><tr>
     <td>
-        <img alt="Magcargo" src="/assets/images/pokemon/magcargo.png">
-        <em>Magcargo</em>
-    </td>
-    <td>
         <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-        <em>Ponyta</em>
+        <em>Ponyta (Fire)</em>
     </td>
     <td>
         <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-        <em>Charizard</em>
+        <em>Charizard (Fire + Wind)</em>
+    </td>
+    <td>
+        <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
+        <em>Torkoal (Fire)</em>
+    </td>
+</tr></table>
+
+
+# Wind
+
+Rebranded from Flying.
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Toucannon" src="/assets/images/pokemon/toucannon.png">
+        <em>Toucannon (Wind)</em>
+    </td>
+    <td>
+        <img alt="Tropius" src="/assets/images/pokemon/tropius.png">
+        <em>Tropius (Wind + Plant)</em>
+    </td>
+    <td>
+        <img alt="Butterfree" src="/assets/images/pokemon/butterfree.png">
+        <em>Butterfree (Wind)</em>
+    </td>
+</tr></table>
+
+# Plant
+
+Rebranded from Plant.
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Tropius" src="/assets/images/pokemon/gogoat.png">
+        <em>Gogoat (Plant)</em>
+    </td>
+    <td>
+        <img alt="Exeggutor" src="/assets/images/pokemon/exeggutor.png">
+        <em>Exeggutor (Plant + Shadow)</em>
+    </td>
+    <td>
+        <img alt="Parasect" src="/assets/images/pokemon/parasect.png">
+        <em>Parasect (Plant)</em>
+    </td>
+</tr></table>
+
+# Shadow
+
+Psychic, dark, ghost, and poison are all consolidated into a single "spooky" type.
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Arbok" src="/assets/images/pokemon/arbok.png">
+        <em>Arbok (Shadow)</em>
+    </td>
+    <td>
+        <img alt="Blitzle" src="/assets/images/pokemon/blitzle.png">
+        <em>Blitzle (Shadow + Lightning)</em>
+    </td>
+    <td>
+        <img alt="Gengar" src="/assets/images/pokemon/gengar.png">
+        <em>Gengar (Shadow)</em>
+    </td>
+</tr></table>
+
+# Lightning
+
+Rebranded from Electric
+
+<table class="thirds"><tr>
+    <td>
+        <img alt="Pikachu" src="/assets/images/pokemon/pikachu.png">
+        <em>Pikachu</em>
+    </td>
+    <td>
+        <img alt="Lanturn" src="/assets/images/pokemon/lanturn.png">
+        <em>Galvantula (Lightning + Water)</em>
+    </td>
+    <td>
+        <img alt="Galvantula" src="/assets/images/pokemon/galvantula.png">
+        <em>Galvantula</em>
     </td>
 </tr></table>
 
@@ -56,71 +147,61 @@ This premise is (evidently) compelling. Seven generations of Pokémon handheld g
 <table class="thirds"><tr>
     <td>
         <img alt="Spheal" src="/assets/images/pokemon/spheal.png">
-        <em>Spheal</em>
+        <em>Spheal (Water)</em>
     </td>
     <td>
-        <img alt="Lanturn" src="/assets/images/pokemon/lanturn.png">
-        <em>Lanturn</em>
+        <img alt="Omanyte" src="/assets/images/pokemon/omanyte.png">
+        <em>Omanyte (Water + Stone)</em>
     </td>
     <td>
-        <img alt="Tentacruel" src="/assets/images/pokemon/tentacruel.png">
-        <em>Tentacrual</em>
+        <img alt="Corphish" src="/assets/images/pokemon/corphish.png">
+        <em>Corphish (Water)</em>
     </td>
 </tr></table>
 
-# Plant
+# Earth
+
+Rock and ground. Fossils!
 
 <table class="thirds"><tr>
     <td>
-        <img alt="Tropius" src="/assets/images/pokemon/tropius.png">
-        <em>Tropius</em>
+        <img alt="Tyrunt" src="/assets/images/pokemon/tyrunt.png">
+        <em>Tyrunt (Stone)</em>
     </td>
     <td>
-        <img alt="Gogoat" src="/assets/images/pokemon/gogoat.png">
-        <em>Gogoat</em>
+        <img alt="Camerupt" src="/assets/images/pokemon/camerupt.png">
+        <em>Camerupt (Stone + Fire)</em>
     </td>
     <td>
-        <img alt="Exeggutor" src="/assets/images/pokemon/exeggutor.png">
-        <em>Exeggutor</em>
+        <img alt="Dwebble" src="/assets/images/pokemon/dwebble.png">
+        <em>Dwebble (Stone)</em>
     </td>
 </tr></table>
 
+# Heart
 
+Heart doesn't tend to get mixed with other types. But there are some, like Kecleon, that can change type.
 
-Several types step on each other's toes in terms of flavor: Dark, Ghost, Poison, and Psychic all fill the role of a "spooky" type.
+<table class="thirds"><tr>
+    <td>
+        <img alt="Kangaskhan" src="/assets/images/pokemon/kangaskhan.png">
+        <em>Kangaskhan (Heart)</em>
+    </td>
+    <td>
+        <img alt="Kecleon" src="/assets/images/pokemon/kecleon.png">
+        <em>Kecleon (Heart)</em>
+    </td>
+    <td>
+        <img alt="Omanyte" src="/assets/images/pokemon/omanyte.png">
+        <em>Omanyte (Heart)</em>
+    </td>
+</tr></table>
 
+---
 
 Bulbapedia uses official artwork from Ken Sugimori, under [fair use](https://en.wikipedia.org/wiki/Fair_use).
 
-
-
-
-Some types share the same flavor space. Psychic, dark, ghost (and sometimes poison) are all "spooky." Water and ice are pretty similar -- grass+poison, bug+poison, rock+ground, ghost+poison
-
-
-Gogoat
-
-Ninjask
-
-Galvantula
-
-Krookodile
-
-Dwebble
-
-Kangaskhan
-
-Scolipede
-
-Spheal
-
-Swinub
-
-Tyrunt
-
-Phanpy
-
-
+---
 
 fire > plant > water
 
@@ -132,16 +213,6 @@ fire > shadow > wind
 
 shadow > plant > stone > heart
 
-
-
-STONE -> EARTH. Then brown is a good color.
-for the turtle with a garden on its back
-
-Froakie... frog becomes a ninja. water+shadow
-
-Charmander
-
-
 > If we could go back in time and rebuild the Pokemon interaction matrix, what might we do differently?
 
 The crux of any Pokemon game is battling.
@@ -149,55 +220,3 @@ The crux of any Pokemon game is battling.
 Rock-paper-scissors where some types are good against others.
 
 In hindsight, that matrix is a mess.
-
-
-
-Pokemon is a pop culture phenomenon (primarily a video game but also made television series, movies, playing cards, toys, and so on) in which you capture monsters and battle them for sport and profit. Five generations of Pokemon games have been released for Gameboy and each has been a top selling game; the popularity of the franchise has ingrained Pokemon into our pop culture lexicon.
-
-And that's great - the game has broad appeal, high replay value, and is more fun when played with friends. However it's doubtless that the core of the Pokemon game is battling Pokemon. And the type system by which that happens is, in hindsight, inelegant.
-
-Each Pokemon has one or two elemental types inherent to its species. Additionally, each Pokemon can learn up to four attacks, each of which has an elemental type. Pokemon need not learn attacks of their own type, though they receive a bonus for doing so.
-
-These types are crucial to making Pokemon battles interesting. For example Charizard is a fire- and-flying type Pokemon. Suppose my Charizard knows Fire Blast, Wing Attack, Scratch, and Bubblebeam. It will receive an attack bonus every time it uses Fire Blast or Wing Attack, but no bonus for the other two. Furthermore, Fire Blast will be super effective (double damage) against an ice-type Pokemon, but not very effective (half damage) against a rock-type Pokemon. On the other hand Bubblebeam, a water-type attack, will give Charizard no bonus by itself but will be super effective against a rock-type Pokemon.
-
-The idea of having types interacting with each other adds significant depth to battles, but we see awkwardness in the types themselves.
-
-The first issue is grammatical. I do not think it's unreasonable to expect that all elemental types be nouns (as most of them are). Some of the problem types even suggest an obvious choice; flying may as well be air or wind and electric could be lightning or electricity. There are a few more offenders, though I'll touch on those later as I look at other issues.
-
-
-
-
-There are too many types. In total there are seventeen Pokemon types (initially there were only fifteen but dark and steel were added for balance reasons after the first generation of games). That means that in order to keep the game at a manageable level of complexity, on average a type will have no interaction with about two thirds of the other types. With fewer types we could have a less sparse interaction matrix. Some types have strong flavor overlap with one another; for example rock and ground or bug and grass. And some types are just bad from a creative standpoint.
-
-For example, bug and dragon aren't elements; they're kinds of animal. The type itself constrains what the Pokemon can look like. Furthermore, Charizard and Gyarados show pretty clearly that a Pokemon can look like a dragon without being dragon-type. There are plenty of Pokemon shaped vaguely like a lizard, a fish, a bird, and so on without needing lizard, fish, or bird types. But in practice the existence of a bug type means that if any Pokemon wants to be bug-shaped it must be saddled with that type, depriving it of a spot that could have a real element. Particularly given the near-nonexistence of bug- or dragon-type attacks it seems to me that these types might as well not exist.
-
-Similarly, the fighting type is awkward because it mandates that a Pokemon of that type be a close human analog. Fighting-type attacks are generally kicks and punches, so fighting-type Pokemon must have feet and fists.
-
-The normal type is Pokemon that have no elemental proclivity. It's also the type that goes along with early attacks like Tackle and Scratch. It's basically the boring type that you encounter early on in the game then move past. I would advocate merging the fighting and normal types, perhaps call the new type strength or muscle. This seems fine thematically; it was never obvious how a punch could be super effective against something resistant to tackling.
-
-The psychic, ghost, and dark types all feed on the same general theme of creepiness; they certainly don't need three distinct types. Psychic has a decent lexicon of moves but ghost has few. Dark moves tend to just correspond to fighting dirty (stealing their items, sucker punching, fake crying) which is thematically questionable. Perhaps one new type (shadow? darkness?) could replace the three together.
-
-Of course merging types throws off game balance in a significant way, so the entire type interaction chart would need some reworking. But that's fine, because it's got issues too.
-
-Some existing types are pretty noninteractive. Only ice- and dragon-type attacks are super effective against dragon-type Pokemon, and dragon-type attacks are super effective against nothing else. Electric, a common Pokemon type, is weak against only ground, a pretty rare attack type. Dark-types also rarely have to worry about weaknesses; rather than having to weigh the pros and cons of having a Pokemon of that type, it's more a matter of using one as soon as you can find it.
-
-No types are mutually weak to one another. It's an option for an interesting game dynamic that simply doesn't exist. One might expect, for example, that water would be super effective against electricity and vice versa; when you drop a toaster in the aquarium it's bad for the fish of course (electricity super effective against water) but it's also bad for the toaster... and your home wiring (water super effective against electricity). The closest Pokemon comes to that is having dragon-type be super effective against dragons, but you already know how I feel about that type.
-
-We would perhaps expect the type setup would be inelegant if it were carried through from the first generation of games, before the Pokemon franchise was swimming in money. But it wasn't. After the first generation the steel and dark types were added to address balance issues. Some other weaknesses and resistances were modified as well. It seems to me that makes criticism reasonable.
-
-Chart from Bulbapedia
-
-Note that the follow-up to this post can be found HERE.
-
-
----
-
-(I should note, before I get into it, that most of the information here and all of the images are from Bulbapedia.)
-
-Let me quickly summarize my argument from last time: Pokemon is awesome. The specific type interactions featured in the game are not; there are too many types, relatively too few interactions between them, and some of the individual types are terrible.
-
-So, I'd like to walk you through how I would rework the types. They'll never actually be changed, of course; the hundreds of existing Pokemon are too much historical baggage to discard in a reboot. We'll instead be exploring how I would have built them in the first place.
-
-For each type I'll give a few sample moves and list a few Pokemon that I would want to include in a game to show off that type. I'll also sketch out strengths and weaknesses. Note that I say "sketch" because this is a thought experiment -- based on symmetry and old matchups rather than actual playtesting and focus groups.
-
-I'll also discuss my choices of starters. Players have always had the choice between three Pokemon at the beginning of the game -- for example, in the first generation the options were Bulbasaur, Charmander, and Squirtle. Each subsequent generation has introduced a new set of starters, but they keep to the same pattern. The choices are always between Plant, Fire, and Water. The starters always evolve twice. And they always start out cute and end up badass; these are the faces of the game, and so shouldn't be a bucket of rotten eggs, a candle, or a washing machine.
