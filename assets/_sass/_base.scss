@@ -4,20 +4,22 @@ $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
 
-$content-width: 800px;
+$content-width: 600px;
+$wrap-width: 800px;
 $pad: 10px;
 $half-pad: 5px;
+$side-pad: 15px;
 
 $paper-color: #fff;
 $shadow-color: #bcf;
 $text-color: #000;
 
 $head-glyph-size: 20px;
-$head-height: 2*$head-glyph-size + 2*$pad;
+$head-height: 2*$head-glyph-size + 2*$half-pad;
 $logo-size: 50px;
 
 $foot-glyph-size: 15px;
-$foot-height: 2*$foot-glyph-size + 2*$pad;
+$foot-height: 2*$foot-glyph-size + 2*$half-pad;
 
 $name-size: 24px;
 $date-size: 18px;

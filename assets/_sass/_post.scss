@@ -19,7 +19,10 @@ header {
 article {
     font-size: $text-size;
     display: block;
-    margin: $half-pad;
+    margin: 0;
+    padding: 0;
+//    margin: $half-pad;
+
     a {
         color: $bold-color-2;
         &:hover { color: $text-color; }
@@ -34,15 +37,24 @@ article {
     table.thirds {
         background-color: $paper-color;
         width: 100%;
-        border-collapse: separate;
-        border-spacing: $pad;
+//        border-collapse: separate;
+//        border-spacing: $pad;
+
+        border-collapse: collapse;
+        border-style: hidden;
+
         padding: 0;
+        margin: 0;
+
         td {
             width: 33.33%;
             height: 100%;
             vertical-align: top;
             padding: 0;
             background-color: $shadow-color;
+
+            border: $pad solid $paper-color;
+
         }
 
     }

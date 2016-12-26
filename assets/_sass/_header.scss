@@ -44,6 +44,30 @@ div.foot {
     .fa-stack { font-size: $foot-glyph-size; }
 }
 
+div.wrap-head, div.wrap-main, div.wrap-foot {
+    padding: 0 $side-pad;
+    border: 0;
+    margin: 0 auto;
+    max-width: $wrap-width;
+}
+
+div.wrap-main { background-color: $paper-color; }
+
+
+/*
+div.head, div.main, div.foot {
+    border-right: $pad solid transparent;
+    border-left: $pad solid transparent;
+
+    // If we are on a screen large enough to show the full width, let's
+    // put a thicker border on there for legibility.
+    @media (min-width: $content-width) {
+        border-right: $side-pad solid transparent;
+        border-left: $side-pad solid transparent;
+    }
+}
+*/
+
 div.head, div.foot {
 
 //    background-image: radial-gradient($bold-color-1, $bold-color-3);
@@ -52,7 +76,8 @@ div.head, div.foot {
     width: 100%;
     max-width: $content-width;
     margin: 0 auto;
-    padding: $pad;
+    padding: $half-pad;
+//    padding: $pad;
     display: flex;
     justify-content: space-between;
     line-height: 0;
@@ -71,14 +96,17 @@ div.head, div.foot {
 div.main {
     padding-top: $head-height + $pad;
     padding-bottom: $foot-height + $pad;
-    padding-left: $half-pad;
-    padding-right: $half-pad;
+    padding-left: 0;
+    padding-right: 0;
+//    padding-left: $half-pad;
+//    padding-right: $half-pad;
+
     width: 100%;
     max-width: $content-width;
     background-color: $paper-color;
     margin: 0 auto;
     text-align: justify;
-    header, article, footer { border: 0; margin: 0; padding: $pad; }
+    header, article, footer { border: 0; margin: 0; padding: 0; }
     min-height: 100%;
 }
 
