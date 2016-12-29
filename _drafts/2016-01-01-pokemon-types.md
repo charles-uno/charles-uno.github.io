@@ -14,6 +14,18 @@ This premise is (evidently) compelling. Seven generations of Pokémon handheld g
 
 - There are way too many types! The first generation of games had 15, and 3 more have been added since then to improve balance. The interactions aren't even symmetrical[^1] -- that means there are over 300 attack-defense combinations to know, some of which are not intuitive (Bug is super effective against Psychic, Fairy is super effective against Dragon, Fighting is not very effective against Poison, etc).
 - Types are thematically inconsistent. Elemental attacks can be as straightforward as breathing a beam of fire, ice, or lightning. But some types correspond to the shape of the pokémon's body, rather than an elemental power. What does it mean for Pin Missile to be a Bug attack? How is Dragon Claw (Dragon) qualitatively different from Slash (Normal)?
+
+
+Steelix is a big tail made out of metal. Its attack Iron Tail is super effective against Rock pokémon.
+
+Steelix is made of steel. And it's pretty much all tail. When it uses Iron Tail, its attack is super effective against Rock... but when it uses Slam
+
+
+
+ a big steel tail. But for some reason Iron Tail
+
+
+
 - Some types are... bad. Whereas most pokémon are stylized cartoon animals, Fighting-type pokémon are stylized cartoon people -- [most of them](http://bulbapedia.bulbagarden.net/wiki/Fighting_(type)) even wear clothing! Steel is also problematic; beyond [Steelix](http://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)) and [Skarmory](http://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)), Steel-type pokémon are pretty much all bizarre legendaries, armored bugs, and/or living inanimate objects à la Beauty and the Beast.
 
 <table class="thirds"><tr>
@@ -36,6 +48,18 @@ This premise is (evidently) compelling. Seven generations of Pokémon handheld g
 Suppose we could go back in time and reinvent the pokémon type interaction matrix. How might we do it better?
 
 ---
+
+First, fewer types.
+
+- Clear flavor. Consolidate Dark, Psychic, Ghost, Poison into a single "spooky" type.
+- Symmetric interactions.
+
+
+
+
+
+
+
 
 Fewer types. Clear flavor. Not so specific.
 
