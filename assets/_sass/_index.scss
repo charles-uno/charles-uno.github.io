@@ -1,8 +1,11 @@
 
 #index-list {
+    // List items have a half-pad built in. In order to make the edges
+    // of the list items flush with the edges of the content box, we
+    // need to subtract off the outer padding.
+    margin: -$half-pad;
     border: 0;
     line-height: 0;
-    margin: 0;
     padding: 0;
     text-align: center;
     background-color: $paper-color;

@@ -14,18 +14,6 @@ This premise is (evidently) compelling. Seven generations of Pokémon handheld g
 
 - There are way too many types! The first generation of games had 15, and 3 more have been added since then to improve balance. The interactions aren't even symmetrical[^1] -- that means there are over 300 attack-defense combinations to know, some of which are not intuitive (Bug is super effective against Psychic, Fairy is super effective against Dragon, Fighting is not very effective against Poison, etc).
 - Types are thematically inconsistent. Elemental attacks can be as straightforward as breathing a beam of fire, ice, or lightning. But some types correspond to the shape of the pokémon's body, rather than an elemental power. What does it mean for Pin Missile to be a Bug attack? How is Dragon Claw (Dragon) qualitatively different from Slash (Normal)?
-
-
-Steelix is a big tail made out of metal. Its attack Iron Tail is super effective against Rock pokémon.
-
-Steelix is made of steel. And it's pretty much all tail. When it uses Iron Tail, its attack is super effective against Rock... but when it uses Slam
-
-
-
- a big steel tail. But for some reason Iron Tail
-
-
-
 - Some types are... bad. Whereas most pokémon are stylized cartoon animals, Fighting-type pokémon are stylized cartoon people -- [most of them](http://bulbapedia.bulbagarden.net/wiki/Fighting_(type)) even wear clothing! Steel is also problematic; beyond [Steelix](http://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)) and [Skarmory](http://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)), Steel-type pokémon are pretty much all bizarre legendaries, armored bugs, and/or living inanimate objects à la Beauty and the Beast.
 
 <table class="thirds"><tr>
@@ -49,21 +37,16 @@ Suppose we could go back in time and reinvent the pokémon type interaction matr
 
 ---
 
-First, fewer types.
+First, fewer types. Clear flavor. Consolidate Dark, Psychic, Ghost, Poison into a single "spooky" type.
 
-- Clear flavor. Consolidate Dark, Psychic, Ghost, Poison into a single "spooky" type.
-- Symmetric interactions.
-
+---
 
 
+Second, define strengths and weaknesses in terms of cycles à la rock-paper-scissors, rather than one-of interactions. (Also symmetry.)
+
+---
 
 
-
-
-
-Fewer types. Clear flavor. Not so specific.
-
-Defined strengths and weaknesses in terms of cycles à la rock-paper-scissors, rather than one-of interactions. (Also symmetry.)
 
 
 
@@ -82,91 +65,6 @@ Defined strengths and weaknesses in terms of cycles à la rock-paper-scissors, r
             <em>Torkoal (Fire)</em>
         </td>
     </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-
 </table>
 
 

@@ -1,9 +1,24 @@
 
-div.full-head {
+// Full-width boxes are used to anchor the header and footer at the top
+// and bottom of the window.
+
+div.full-head { top: 0px; }
+
+div.full-foot { bottom: 0px; }
+
+div.full-head, div.full-foot {
     position: fixed;
-    top: 0px;
-    background-image: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 4px 4px;
+    background: radial-gradient($bold-color-1, $bold-color-3);
+
+/*
+    background: red; // For browsers that do not support gradients
+    background: -webkit-radial-gradient(red, yellow, green); // Safari 5.1 to 6.0
+    background: -o-radial-gradient(red, yellow, green); // For Opera 11.6 to 12.0
+    background: -moz-radial-gradient(red, yellow, green); // For Firefox 3.6 to 15
+    background: radial-gradient(red, yellow, green); // Standard syntax
+*/
+
+    background-size: 3px 3px;
 }
 
 div.full-main {
@@ -11,26 +26,16 @@ div.full-main {
     background-color: $shadow-color;
 }
 
-div.full-foot {
-    position: fixed;
-    bottom: 0px;
-    background-image: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 4px 4px;
-}
-
 div.full-head, div.full-main, div.full-foot {
-//    background-color: $shadow-color;
     width: 100%;
     border: 0;
     padding: 0;
     margin: 0;
     display: block;
-    text-align: center;
 }
 
-span.foot-glyph { font-size: $foot-glyph-size; }
-
-.fa-stack { vertical-align: middle; }
+// The header and footer have fixed heights. The objects within them are
+// spaced uniformly in the horizontal direction.
 
 div.head {
     height: $head-height;
@@ -39,51 +44,22 @@ div.head {
 
 div.foot {
     height: $foot-height;
-    table, tr { width: 100% }
-    table, tr, td { border: 0; margin: 0; padding: 0; text-align: center; height: 100%; }
     .fa-stack { font-size: $foot-glyph-size; }
 }
 
-div.wrap-head, div.wrap-main, div.wrap-foot {
-    padding: 0 $side-pad;
-    border: 0;
-    margin: 0 auto;
-    max-width: $wrap-width;
-}
-
-div.wrap-main { background-color: $paper-color; }
-
-
-/*
-div.head, div.main, div.foot {
-    border-right: $pad solid transparent;
-    border-left: $pad solid transparent;
-
-    // If we are on a screen large enough to show the full width, let's
-    // put a thicker border on there for legibility.
-    @media (min-width: $content-width) {
-        border-right: $side-pad solid transparent;
-        border-left: $side-pad solid transparent;
-    }
-}
-*/
-
 div.head, div.foot {
-
-//    background-image: radial-gradient($bold-color-1, $bold-color-3);
-//    background-size: 4px 4px;
-
     width: 100%;
     max-width: $content-width;
     margin: 0 auto;
-    padding: $half-pad;
-//    padding: $pad;
+    padding: $half-pad $side-pad;
     display: flex;
     justify-content: space-between;
     line-height: 0;
     a, a:visited { color: $text-color; }
     a:hover { color: $paper-color; }
     .fa-stack {
+        vertical-align: middle;
+        // Flip the colors on hover.
         .fa-stack-2x { color: $paper-color; }
         .fa-stack-1x { color: $text-color; }
         &:hover {
@@ -93,27 +69,10 @@ div.head, div.foot {
     }
 }
 
-div.main {
-    padding-top: $head-height + $pad;
-    padding-bottom: $foot-height + $pad;
-    padding-left: 0;
-    padding-right: 0;
-//    padding-left: $half-pad;
-//    padding-right: $half-pad;
-
-    width: 100%;
-    max-width: $content-width;
-    background-color: $paper-color;
-    margin: 0 auto;
-    text-align: justify;
-    header, article, footer { border: 0; margin: 0; padding: 0; }
-    min-height: 100%;
-}
+// The logo! Flip the colors on hover.
 
 #logo {
     font-size: $logo-size;
-
-    // The L in the title is flipped from the other letters.
     .title-base { color: $text-color; }
     .title-accent { color: $paper-color; }
     &:hover {
@@ -126,4 +85,64 @@ div.main {
     line-height: 1;
     margin: 0;
     padding: 0;
+    // Shift the baseline up just a little bit.
+    margin-top: -0.05*$logo-size;
+
+}
+
+// A table-style box is wrapped around the contents. This allows us to
+// flank the contents with a pair of sidebars. The content width is
+// fixed (though it'll squish if necessary, since it acts like a table
+// cell) and the sidebars expand to fill any remaining space.
+
+div.wrap-main {
+    display: table;
+    width: 100%;
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.main, div.left-flank-main, div.right-flank-main {
+    display: table-cell;
+}
+
+div.left-flank-main {
+    // In case of no gradient support
+    background: $shadow-color;
+    // For Safari 5.1 to 6.0
+    background: -webkit-linear-gradient(left, $shadow-color, $paper-color);
+    // For Opera 11.1 to 12.0
+    background: -o-linear-gradient(right, $shadow-color, $paper-color);
+    // For Firefox 3.6 to 15
+    background: -moz-linear-gradient(right, $shadow-color, $paper-color);
+    // Standard syntax
+    background: linear-gradient(to right, $shadow-color, $paper-color);
+}
+
+div.right-flank-main {
+    // In case of no gradient support
+    background: $shadow-color;
+    // For Safari 5.1 to 6.0
+    background: -webkit-linear-gradient(right, $shadow-color, $paper-color);
+    // For Opera 11.1 to 12.0
+    background: -o-linear-gradient(left, $shadow-color, $paper-color);
+    // For Firefox 3.6 to 15
+    background: -moz-linear-gradient(left, $shadow-color, $paper-color);
+    // Standard syntax
+    background: linear-gradient(to left, $shadow-color, $paper-color);
+}
+
+div.main {
+    background: $paper-color;
+    width: $content-width;
+    padding-top: $head-height + $pad;
+    padding-bottom: $foot-height + $pad;
+    padding-left: $side-pad;
+    padding-right: $side-pad;
+    text-align: justify;
+    header, article, footer {
+        border: 0; margin: 0; padding: 0;
+    }
+    min-height: 100%;
 }
