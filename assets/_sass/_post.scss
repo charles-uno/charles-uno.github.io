@@ -35,35 +35,11 @@ article {
     }
     th, td { padding: $half-pad; }
 
-    table.thirds {
-        background-color: $paper-color;
-        width: 100%;
-//        border-collapse: separate;
-//        border-spacing: $pad;
-
-        border-collapse: collapse;
-        border-style: hidden;
-
-        padding: 0;
-        margin: 0;
-
-        td {
-            width: 33.33%;
-            height: 100%;
-            vertical-align: top;
-            padding: 0;
-            background-color: $shadow-color;
-
-            border: $pad solid $paper-color;
-
-        }
-
-    }
-
+    p, li { margin: $pad 0; }
 
     blockquote {
         background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
-        p { margin: 0; padding: 0; border: 0; }
+        p { margin: $pad 0; padding: 0; border: 0; }
     }
 
     img { width: 100%; padding: $pad; background-color: $shadow-color; }

@@ -5,8 +5,31 @@ image: "/thumbnails/map.png"
 description: ""
 ---
 
-The outcome of the 2016 presidential election has given rise to renewed[^1]calls to abolish the electoral college. Donald Trump won the election despite losing the popular vote 46% to 48%, leaving supporters of Hillary Clinton feeling like they'd been cheated by an archaic technicality.
+The outcome of the 2016 presidential election has led to renewed calls to abolish the electoral college. Donald Trump won the presidency despite losing the popular vote [46% to 48%](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016), leaving supporters of Hillary Clinton feeling like they'd been cheated by an archaic technicality.
 
+In a democracy, it's problematic when a large chunk of the population does not feel represented. 
+
+
+
+
+Democracy only works as long as everyone believes that it works. So PV/EV splits are bad.
+
+But let's also talk about why the EV is important in modern-day America.
+
+
+
+
+A sizable, consistent, bipartisan majority of Americans would prefer to see the Electoral College replaced by a national popular vote.
+
+such calls are dangerous
+
+people are not thinking through the consequences
+
+we can do better with a tweak
+
+
+
+In Congress, hundreds of attempts
 
 
 
@@ -27,7 +50,7 @@ https://fee.org/articles/the-accidental-genius-of-the-electoral-college/
 
 
 
-The canonical justification for the Electoral College is to prevent the urban majority from eclipsing rural interests. Urban centers are home to [four out of five](https://www.census.gov/geo/reference/ua/uafaq.html) Americans; in principle, a presidential candidate could win the popular vote despite ignoring rural communities. Personally, I do not find this angle to be compelling. There are plenty of other ways to split the country 80-20 -- should we also triple[^2] the vote weight of Latinos (18% of the population), senior citizens (17% of eligible voters), or the religiously unaffiliated [(22% of the population)](https://en.wikipedia.org/wiki/Religion_in_the_United_States)?
+The canonical justification for the Electoral College is to prevent the urban majority from eclipsing rural interests. Urban centers are home to [four out of five](https://www.census.gov/geo/reference/ua/uafaq.html) Americans; in principle, a presidential candidate could win the popular vote despite ignoring rural communities. Personally, I do not find this angle to be compelling. There are plenty of other ways to split the country 80-20 -- should we also triple[^2] the vote weight of Latinos, senior citizens, or the [religiously unaffiliated](https://en.wikipedia.org/wiki/Religion_in_the_United_States)?
 
 
 
