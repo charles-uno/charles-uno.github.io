@@ -49,31 +49,29 @@ Let's tidy up our lexicon as well. Flying becomes Wind. Electric becomes Lightni
 
 This leaves us with the following eight types:
 
-
-
 <div class="tiles">
     <div class="tile">
         <img alt="Fire" src="/assets/images/pokemon/ponyta.png">
         <em>Fire</em>
     </div>
     <div class="tile">
-        <img alt="Heart" src="/assets/images/pokemon/klink.png">
+        <img alt="Heart" src="/assets/images/pokemon/kangaskhan.png">
         <em>Heart</em>
     </div>
     <div class="tile">
-        <img alt="Lightning" src="/assets/images/pokemon/pikachu.png">
+        <img alt="Lightning" src="/assets/images/pokemon/galvantula.png">
         <em>Lightning</em>
     </div>
     <div class="tile">
-        <img alt="Plant" src="/assets/images/pokemon/turtwig.png">
+        <img alt="Plant" src="/assets/images/pokemon/sawsbuck.png">
         <em>Plant</em>
     </div>
     <div class="tile">
-        <img alt="Shadow" src="/assets/images/pokemon/girafarig.png">
+        <img alt="Shadow" src="/assets/images/pokemon/arbok.png">
         <em>Shadow</em>
     </div>
     <div class="tile">
-        <img alt="Stone" src="/assets/images/pokemon/tyrunt.png">
+        <img alt="Stone" src="/assets/images/pokemon/dwebble.png">
         <em>Stone</em>
     </div>
     <div class="tile">
@@ -81,29 +79,10 @@ This leaves us with the following eight types:
         <em>Water</em>
     </div>
     <div class="tile">
-        <img alt="Wind" src="/assets/images/pokemon/toucannon.png">
+        <img alt="Wind" src="/assets/images/pokemon/doduo.png">
         <em>Wind</em>
     </div>
 </div>
-
-
-
-
-- Fire
-- Heart
-- Lightning
-- Plant
-- Shadow
-- Stone
-- Water
-- Wind
-
-
----
-
-First, fewer types. Clear flavor. Consolidate Dark, Psychic, Ghost, Poison into a single "spooky" type.
-
----
 
 
 Second, define strengths and weaknesses in terms of cycles à la rock-paper-scissors, rather than one-of interactions. (Also symmetry.)
@@ -111,217 +90,53 @@ Second, define strengths and weaknesses in terms of cycles à la rock-paper-scis
 ---
 
 
+- Stone + Fire -- Camerupt
+- Fire + Wind -- Charizard
+- Wind + Water -- Pelipper
+- Water + Lightning -- Lanturn
+- Lightning + Shadow -- Blitzle
+- Shadow + Plant -- Exeggutor
+- Plant + Stone -- Torterra
+
 
 <div class="tiles">
     <div class="tile">
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
+        <img alt="Fire" src="/assets/images/pokemon/camerupt.png">
+        <em>Fire</em>
     </div>
     <div class="tile">
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
+        <img alt="Heart" src="/assets/images/pokemon/charizard.png">
+        <em>Heart</em>
     </div>
     <div class="tile">
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
+        <img alt="Lightning" src="/assets/images/pokemon/pelipper.png">
+        <em>Lightning</em>
     </div>
     <div class="tile">
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
+        <img alt="Plant" src="/assets/images/pokemon/lanturn.png">
+        <em>Plant</em>
     </div>
     <div class="tile">
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
+        <img alt="Shadow" src="/assets/images/pokemon/blitzle.png">
+        <em>Shadow</em>
+    </div>
+    <div class="tile">
+        <img alt="Stone" src="/assets/images/pokemon/exeggutor.png">
+        <em>Stone</em>
+    </div>
+    <div class="tile">
+        <img alt="Water" src="/assets/images/pokemon/torterra.png">
+        <em>Water</em>
+    </div>
+    <div class="tile">
+        <img alt="Wind" src="/assets/images/pokemon/kecleon.png">
+        <em>Wind</em>
     </div>
 </div>
 
-
-
-<table class="thirds">
-    <tr>
-        <td>
-            <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-            <em>Ponyta (Fire)</em>
-        </td>
-        <td>
-            <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-            <em>Charizard (Fire + Wind)</em>
-        </td>
-        <td>
-            <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-            <em>Torkoal (Fire)</em>
-        </td>
-    </tr>
-</table>
-
-
 ---
 
-Stone + Fire -- Camerupt
-Fire + Wind -- Charizard
-Wind + Water -- Pelipper
-Water + Lightning -- Lanturn
-Lightning + Shadow -- Blitzle
-Shadow + Plant -- Exeggutor
-Plant + Stone -- Torterra
-
-
-
----
-
-
-# Fire
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Ponyta" src="/assets/images/pokemon/ponyta.png">
-        <em>Ponyta (Fire)</em>
-    </td>
-    <td>
-        <img alt="Charizard" src="/assets/images/pokemon/charizard.png">
-        <em>Charizard (Fire + Wind)</em>
-    </td>
-    <td>
-        <img alt="Torkoal" src="/assets/images/pokemon/torkoal.png">
-        <em>Torkoal (Fire)</em>
-    </td>
-</tr></table>
-
-
-# Wind
-
-Rebranded from Flying.
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Toucannon" src="/assets/images/pokemon/toucannon.png">
-        <em>Toucannon (Wind)</em>
-    </td>
-    <td>
-        <img alt="Tropius" src="/assets/images/pokemon/tropius.png">
-        <em>Tropius (Wind + Plant)</em>
-    </td>
-    <td>
-        <img alt="Butterfree" src="/assets/images/pokemon/butterfree.png">
-        <em>Butterfree (Wind)</em>
-    </td>
-</tr></table>
-
-# Plant
-
-Rebranded from Plant.
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Tropius" src="/assets/images/pokemon/gogoat.png">
-        <em>Gogoat (Plant)</em>
-    </td>
-    <td>
-        <img alt="Exeggutor" src="/assets/images/pokemon/exeggutor.png">
-        <em>Exeggutor (Plant + Shadow)</em>
-    </td>
-    <td>
-        <img alt="Parasect" src="/assets/images/pokemon/parasect.png">
-        <em>Parasect (Plant)</em>
-    </td>
-</tr></table>
-
-# Shadow
-
-Psychic, dark, ghost, and poison are all consolidated into a single "spooky" type.
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Arbok" src="/assets/images/pokemon/arbok.png">
-        <em>Arbok (Shadow)</em>
-    </td>
-    <td>
-        <img alt="Blitzle" src="/assets/images/pokemon/blitzle.png">
-        <em>Blitzle (Shadow + Lightning)</em>
-    </td>
-    <td>
-        <img alt="Gengar" src="/assets/images/pokemon/ponyta.png">
-        <em>Gengar (Shadow)</em>
-    </td>
-</tr></table>
-
-# Lightning
-
-Rebranded from Electric
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Pikachu" src="/assets/images/pokemon/pikachu.png">
-        <em>Pikachu</em>
-    </td>
-    <td>
-        <img alt="Lanturn" src="/assets/images/pokemon/lanturn.png">
-        <em>Galvantula (Lightning + Water)</em>
-    </td>
-    <td>
-        <img alt="Galvantula" src="/assets/images/pokemon/galvantula.png">
-        <em>Galvantula</em>
-    </td>
-</tr></table>
-
-# Water
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Spheal" src="/assets/images/pokemon/spheal.png">
-        <em>Spheal (Water)</em>
-    </td>
-    <td>
-        <img alt="Omanyte" src="/assets/images/pokemon/omanyte.png">
-        <em>Omanyte (Water + Stone)</em>
-    </td>
-    <td>
-        <img alt="Corphish" src="/assets/images/pokemon/corphish.png">
-        <em>Corphish (Water)</em>
-    </td>
-</tr></table>
-
-# Earth
-
-Rock and ground. Fossils!
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Tyrunt" src="/assets/images/pokemon/tyrunt.png">
-        <em>Tyrunt (Stone)</em>
-    </td>
-    <td>
-        <img alt="Camerupt" src="/assets/images/pokemon/camerupt.png">
-        <em>Camerupt (Stone + Fire)</em>
-    </td>
-    <td>
-        <img alt="Dwebble" src="/assets/images/pokemon/dwebble.png">
-        <em>Dwebble (Stone)</em>
-    </td>
-</tr></table>
-
-# Heart
-
-Heart doesn't tend to get mixed with other types. But there are some, like Kecleon, that can change type.
-
-<table class="thirds"><tr>
-    <td>
-        <img alt="Kangaskhan" src="/assets/images/pokemon/kangaskhan.png">
-        <em>Kangaskhan (Heart)</em>
-    </td>
-    <td>
-        <img alt="Kecleon" src="/assets/images/pokemon/kecleon.png">
-        <em>Kecleon (Heart)</em>
-    </td>
-    <td>
-        <img alt="Omanyte" src="/assets/images/pokemon/omanyte.png">
-        <em>Omanyte (Heart)</em>
-    </td>
-</tr></table>
-
----
-
-Bulbapedia uses official artwork from Ken Sugimori, under [fair use](https://en.wikipedia.org/wiki/Fair_use).
+Fossils!
 
 ---
 
@@ -335,10 +150,6 @@ fire > shadow > wind
 
 shadow > plant > stone > heart
 
-> If we could go back in time and rebuild the Pokemon interaction matrix, what might we do differently?
 
-The crux of any Pokemon game is battling.
-
-Rock-paper-scissors where some types are good against others.
-
-In hindsight, that matrix is a mess.
+<!-- hr before the footnotes -->
+---
