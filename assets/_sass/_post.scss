@@ -52,6 +52,35 @@ article {
         display: block;
         padding: 0 $pad $pad $pad;
     }
+
+
+    .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        margin: -$half-pad;
+        border: 0;
+        line-height: 0;
+        padding: 0;
+        text-align: center;
+        background-color: $paper-color;
+        .tile {
+            background-color: $shadow-color;
+            float: left;
+            clear: none;
+            display: inline-block;
+            border: $half-pad solid $paper-color;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            @media (min-width: 300px) { width: 50%; }
+            @media (min-width: 450px) { width: 33.33%; }
+            @media (min-width: 600px) { width: 25%; }
+            em { line-height: 1; }
+        }
+    }
+
 }
 
 // What if horizontal rules, instead of being lines, were dots?
