@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rock Paper Pokémon"
-image: "/thumbnails/placeholder-08.png"
+image: "/thumbnails/rock-paper-pokemon.png"
 description: Placeholder description.
 author: charles
 ---
@@ -157,7 +157,7 @@ Now that we've got our types, we need to map out how they interact with one anot
 
 The resulting chart looks like this:
 
-![Reworked Pokémon Type Interaction Graph](/assets/images/pokemon/gyarados.png)
+![Reworked Pokémon Type Interaction Graph](/assets/images/pokemon/type_graph.png)
 *Reworked Pokémon Type Interaction Graph*
 
 
