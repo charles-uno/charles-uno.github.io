@@ -112,7 +112,7 @@ Under the new paradigm, there would perhaps be fewer dual-typed pokémon. [Bulba
     </span>
 </span>
 
-In particular, many pokémon undergo significant changes when they evolve, for example gaining stone armor or a set of wings. These changes are often associated with the addition of a new type.
+[Charmeleon](http://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)) grows wings when it becomes [Charizard](http://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)). [Slugma](http://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)) gains a stony carapace when it turns into [Magcargo](http://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)). Having a pokémon gain a second type when it evolves is a tried-and-true way to make the new form more exciting! 
 
 ---
 
