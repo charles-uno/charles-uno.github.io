@@ -35,7 +35,9 @@ article {
     }
     th, td { padding: $half-pad; }
 
-    p, li { margin: $text-size 0; }
+    p { margin: $text-size 0; }
+    li { margin: 0.5*$text-size 0; }
+
 
     blockquote {
         background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
@@ -46,7 +48,7 @@ article {
 
     img + em {
         text-align: justify;
-        font-size: 10px;
+        font-size: $caption-size;
         font-style: normal;
         background-color: $shadow-color;
         display: block;
@@ -61,7 +63,7 @@ article {
         justify-content: center;
         margin: -$half-pad;
         border: 0;
-        line-height: 0;
+//        line-height: 0;
         padding: 0;
         text-align: center;
         background-color: $paper-color;
@@ -71,12 +73,18 @@ article {
             clear: none;
             display: inline-block;
             border: $half-pad solid $paper-color;
-            padding: 0;
             margin: 0;
             width: 100%;
             @media (min-width: 300px) { width: 50%; }
             @media (min-width: 600px) { width: 33.33%; }
-            em { line-height: 1; }
+//            em { line-height: 1; }
+
+            font-size: $caption-size;
+
+            padding: $pad;
+            img { padding: 0; }
+            img + em { padding: $pad 0 0 0; }
+
         }
     }
 
