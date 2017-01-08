@@ -112,7 +112,7 @@ Under the new paradigm, there would perhaps be fewer dual-typed pokémon. [Bulba
     </span>
 </span>
 
-[Charmeleon](http://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)) grows wings when it becomes [Charizard](http://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)). [Slugma](http://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)) gains a stony carapace when it turns into [Magcargo](http://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)). Having a pokémon gain a second type when it evolves is a tried-and-true way to make the new form more exciting! 
+[Charmeleon](http://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon)) grows wings when it becomes [Charizard](http://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)). [Slugma](http://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)) gains a stony carapace when it turns into [Magcargo](http://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)). Having a pokémon gain a second type when it evolves is a tried-and-true way to make the new form more exciting!
 
 ---
 
@@ -154,6 +154,12 @@ Now that we've got our types, we need to map out how they interact with one anot
 <p>Heart outshines Shadow</p>
     </span>
 </div>
+
+The resulting chart looks like this:
+
+![Reworked Pokémon Type Interaction Graph](/assets/images/pokemon/gyarados.png)
+*Reworked Pokémon Type Interaction Graph*
+
 
 
 Many of the above interactions line up with the originals, but the system itself has undergone two big changes. First, each of the new interactions is symmetrical; Water beats Fire, regardless of which side is attacking[^3]. Second, under the new model, each type has two good matchups and two bad matchups.
