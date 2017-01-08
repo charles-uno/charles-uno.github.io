@@ -2,7 +2,7 @@
 layout: post
 title: "Rock Paper Pokémon"
 image: "/thumbnails/rock-paper-pokemon.png"
-description: Placeholder description.
+description: "Placeholder description."
 author: charles
 ---
 
