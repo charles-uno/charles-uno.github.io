@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Shakshuka"
-author: charles
 image: "/thumbnails/shakshuka.png"
 description: "This spicy egg and tomato dish is perfect for brunch, dinner, or brunch-for-dinner."
 ---
