@@ -7,7 +7,6 @@ var posts = [
             "hash": "{{ post.title | remove: ' ' | strip_newlines | downcase | md5 }}",
             "date": "{{ post.date | date: "%Y—%m—%d" }}",
             "thumbnail": "{{ post.image }}",
-            "author": "{{ post.author }}",
             "url": "{{ site.baseurl }}{{ post.url }}",
         }{% unless forloop.last %},{% endunless %}
     {% endfor %}

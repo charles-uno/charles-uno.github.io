@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Data vs Democracy"
-author: charles
 image: "/thumbnails/dukakis.png"
 description: "Our data consumption has grown exponentially in the past half-century, and it's brought us way too close to the sausage-making process."
 ---
