@@ -20,7 +20,7 @@ line_width = 2
 
 # Type names and corresponding colors. Order matters -- they are laid
 # out clockwise from the top. In order to try to get the colors to look
-# nice together, the sum of the color channels is uniform. 
+# nice together, the sum of the color channels is uniform.
 names_colors = (
     ('Heart', '#ff4444'),
     ('Fire', '#ff8800'),
@@ -46,7 +46,7 @@ def main():
     cycle(ax, 'Wind', 'Heart', 'Lightning')
     cycle(ax, 'Shadow', 'Plant', 'Rock', 'Heart')
 
-    plt.savefig('type_graph.png', transparent=True)
+#    plt.savefig('type_graph.png', transparent=True)
 
     return plt.show()
 
