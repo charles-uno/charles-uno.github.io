@@ -97,6 +97,11 @@ div.wrap-main {
 
 div.main, div.left-flank-main, div.right-flank-main {
     display: table-cell;
+    min-height: 100%;
+    position: relative;
+
+    padding-bottom: 50px;
+
 }
 
 div.left-flank-main {
@@ -129,12 +134,11 @@ div.main {
     background: $paper-color;
     width: $content-width;
     padding-top: $head-height + $pad;
-    padding-bottom: $foot-height + $pad;
+//    padding-bottom: $foot-height + $pad;
     padding-left: $side-pad;
     padding-right: $side-pad;
     text-align: justify;
     header, article, footer {
         border: 0; margin: 0; padding: 0;
     }
-    min-height: 100%;
 }

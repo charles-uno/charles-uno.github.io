@@ -61,5 +61,14 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
     text-align: center;
     margin: $pad;
     padding: $pad;
-    color: $paper-color;
+    color: $text-color;
+    font-size: $caption-size;
+
+    display: block;
+    width: 100%;
+
+    height: $caption-size + 2*$pad;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0px;
 }
