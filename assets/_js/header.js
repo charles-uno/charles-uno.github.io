@@ -100,7 +100,6 @@ function showShare(){
 }
 
 
-
 function hideShare(){
     var head = document.getElementById('head');
     head.innerHTML =
