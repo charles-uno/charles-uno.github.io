@@ -107,7 +107,7 @@ function hideShare(){
     '<a id="logo" href="{{ site.baseurl }}/">' +
         '{% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}' +
     '</a>' +
-    '<a href="" onclick="showShare(); return false;" onmouseover="ShowShare();">' +
+    '<a href="" onclick="showShare(); return false;" onmouseover="showShare();">' +
         '<span class="fa-stack">' +
             '<i class="fa fa-square fa-stack-2x"></i>' +
             '<i class="fa fa-share-alt fa-stack-1x fa-lg"></i>' +
