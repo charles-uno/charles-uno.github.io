@@ -3,6 +3,7 @@ layout: post
 title: "Rock Paper Pokémon"
 image: "/thumbnails/rock-paper-pokemon.png"
 description: "Rock beats Ice. Bug beats Psychic. Fairy beats Dragon. What might the Pokémon type system look like if it hadn't jumped the shark?"
+updated: 2017-01-09
 ---
 
 In the Pokémon universe, each trainer carries a team of pocket monsters with them at all times. When two trainers make eye contact, they are honor-bound to battle. The battle cannot end until one trainer wins, by knocking the other trainer's entire team unconscious. The winner earns both money and social status.
@@ -38,8 +39,11 @@ But just because Pokémon is successful doesn't mean every part of it is perfect
     </span>
 </span>
 
+[As the saying goes](http://quoteinvestigator.com/2011/05/13/einstein-simple/), everything should be as simple as possible, but no simpler[^5]. Type interactions add a layer of excitement and skill to Pokémon battling; getting that to work requires a baseline of complexity, and that's fine. But we're way above that baseline. The type system is an unwieldy kludge. The large number of interactions poses a steep and unnecessary learning curve for new players.
 
-Suppose we could go back in time and rework the pokémon type interaction matrix. What might we change?
+[^5]: Mark Rosewater, head designer for *Magic: the Gathering*, has written extensively about the importance of simplicity (and the dangers of complexity) in game design. In particular, he took up the topic in [2002](http://magic.wizards.com/en/articles/archive/making-magic/keeping-it-simple-2002-05-20), [2009](http://magic.wizards.com/en/articles/archive/making-magic/magic-lessons-2009-06-22) ([twice](http://magic.wizards.com/en/articles/archive/decisions-decisions-part-ii-2009-08-10)), and [2011](http://magic.wizards.com/en/articles/archive/making-magic/new-world-order-2011-12-05) when rules tweaks led to a concern among some players that the game was being "dumbed down."
+
+So let's try a thought experiment. Suppose we could go back in time and rework the Pokémon type interaction system. How might we simplify it, while preserving the game's flavor?
 
 ---
 
@@ -115,7 +119,7 @@ Under this paradigm, there would perhaps be fewer dual-typed pokémon. [Bulbasau
 
 ---
 
-Now that we've got our types, we need to map out how they interact with one another. Rather than choosing interactions one at a time (as seems to have been the approach in the original games) let's express our type interactions in terms of a handful of cycles, each in the style of Rock Paper Scissors (or [Rock Paper Scissors Lizard Spock](http://www.samkass.com/theories/RPSSL.html)).
+After reworking the types, it's time to rework their interactions. Rather than choosing them one at a time, and hoping things line up in the end, let's frame type advantage in terms of a handful of cycles, each in the style of Rock Paper Scissors (or [Rock Paper Scissors Lizard Spock](http://www.samkass.com/theories/RPSSL.html)).
 
 <div class="tiles">
     <span class="tile">
@@ -146,12 +150,12 @@ Now that we've got our types, we need to map out how they interact with one anot
     </span>
 </div>
 
-When graphed, those sixteen rules look like this:
+Judging the interactions one by one, this system looks a lot like the old one -- most interactions are intuitive, and a few feel a bit forced for the sake of balance. The differences become evident when we take a step back and look at the system as a whole:
 
 ![Reworked Pokémon Type Interaction Graph](/assets/images/pokemon/type_graph.png)
 *Reworked Pokémon Type Interaction Graph*
 
-Many of the above interactions line up with the originals, but the system itself has undergone two big changes. First, each of the new interactions is symmetrical; Water beats Fire, regardless of which side is attacking[^3]. Second, under the new model, each type has two good matchups and two bad matchups.
+There are two big changes. First, each of the new interactions is symmetrical; Water beats Fire, regardless of which side is attacking[^3]. Second, under the new model, each type has two good matchups and two bad matchups.
 
 [^3]: As far as symmetry is concerned, some type interactions make more sense than others. When you drop a toaster into the bathtub, whatever's in the water gets fried... but it also does a number on the wiring! That's a level of realism that we have sacrificed in exchange for simplicity.
 

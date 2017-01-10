@@ -2,9 +2,9 @@
 // Full-width boxes are used to anchor the header and footer at the top
 // and bottom of the window.
 
-div.full-head { top: 0px; box-shadow: 0 $half-pad $pad rgba($text-color, 0.2); }
+div.full-head { top: 0px; box-shadow: 0 $half-pad $pad $shadow-color; }
 
-div.full-foot { bottom: 0px; box-shadow: 0 -1*$half-pad $pad rgba($text-color, 0.2); }
+div.full-foot { bottom: 0px; box-shadow: 0 -1*$half-pad $pad $shadow-color; }
 
 div.full-head, div.full-foot {
     position: fixed;
