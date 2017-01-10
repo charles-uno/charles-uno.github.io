@@ -6,6 +6,7 @@ url: 'http://charles.uno'
 baseurl: ''
 github: 'https://github.com/chizarlicious'
 author:
+    name: Charles McEachern
     twitter: charles_uno
 twitter:
   username: charles_uno
