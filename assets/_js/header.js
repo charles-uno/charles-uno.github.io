@@ -23,7 +23,7 @@ function showSort(){
             '<i class="fa fa-random fa-stack-1x fa-lg fa-rotate-90"></i>' +
         '</span>' +
     '</a>' +
-    '<a href="" onclick="hideSort(); return false;">' +
+    '<a ontouchstart="hideSort(); return false;">' +
         '<span class="fa-stack">' +
             '<i class="fa fa-square fa-stack-2x"></i>' +
             '<i class="fa fa-sort fa-stack-1x fa-lg"></i>' +
@@ -40,7 +40,7 @@ function hideSort(){
     '<a href="" id="logo" onclick="return false;">' +
         '{% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}' +
     '</a>' +
-    '<a href="" onclick="showSort(); return false;" onmouseover="showSort();">' +
+    '<a ontouchstart="showSort(); return false;" onmouseover="showSort();">' +
         '<span class="fa-stack">' +
             '<i class="fa fa-square fa-stack-2x"></i>' +
             '<i class="fa fa-sort fa-stack-1x fa-lg"></i>' +
@@ -91,7 +91,7 @@ function showShare(){
                 '<i class="fa fa-twitter fa-stack-1x fa-lg"></i>' +
             '</span>' +
         '</a>' +
-        '<a href="" onclick="hideShare(); return false;">' +
+        '<a ontouchstart="hideShare(); return false;">' +
             '<span class="fa-stack">' +
                 '<i class="fa fa-square fa-stack-2x"></i>' +
                 '<i class="fa fa-share-alt fa-stack-1x fa-lg"></i>' +
@@ -106,7 +106,7 @@ function hideShare(){
     '<a id="logo" href="{{ site.baseurl }}/">' +
         '{% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}' +
     '</a>' +
-    '<a href="" onclick="showShare(); return false;" onmouseover="showShare();">' +
+    '<a onclick="showShare(); return false;" onmouseover="showShare();">' +
         '<span class="fa-stack">' +
             '<i class="fa fa-square fa-stack-2x"></i>' +
             '<i class="fa fa-share-alt fa-stack-1x fa-lg"></i>' +
