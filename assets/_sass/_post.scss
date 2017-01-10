@@ -4,10 +4,9 @@ header {
     .post-date {
         border: 0;
         padding: 0;
-        margin: 0;
+        margin: $pad;
         display: block;
         text-align: center;
-        letter-spacing: 3px;
     }
     .post-name {
         font-size: 24px;

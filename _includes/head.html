@@ -4,6 +4,22 @@ The existence of page.title is used to distinguish the blog homepage from a cont
 -->
 {% if page.title %}
     {% assign arrow-title = page.title | replace: "'", "\\'"  %}
+
+    <a id="logo" href="{{ site.baseurl }}/">
+        {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+    </a>
+
+
+    <a href="" onclick="showShare(); return false;" onmouseover="showShare();">
+        <span class="fa-stack">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-share-alt fa-stack-1x fa-lg"></i>
+        </span>
+    </a>
+
+
+
+<!--
     <a href="" onclick="previous('{{ arrow-title }}'); return false;">
         <span class="fa-stack">
             <i class="fa fa-square fa-stack-2x"></i>
@@ -19,7 +35,18 @@ The existence of page.title is used to distinguish the blog homepage from a cont
             <i class="fa fa-chevron-right fa-stack-1x fa-lg"></i>
         </span>
     </a>
+-->
 {% else %}
+    <a href="" id="logo" onclick="return false;">
+        {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+    </a>
+    <a href="" onclick="showSort(); return false;" onmouseover="showSort();">
+        <span class="fa-stack">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-sort fa-stack-1x fa-lg"></i>
+        </span>
+    </a>
+<!--
     <a href="" onclick="sort('alphabetical'); resetLogo(); return false;">
         <span class="fa-stack">
             <i class="fa fa-square fa-stack-2x"></i>
@@ -35,4 +62,5 @@ The existence of page.title is used to distinguish the blog homepage from a cont
             <i class="fa fa-sort-numeric-asc fa-stack-1x fa-lg"></i>
         </span>
     </a>
+-->
 {% endif %}

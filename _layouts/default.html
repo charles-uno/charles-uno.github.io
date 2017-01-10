@@ -49,17 +49,25 @@
 
         </div>
 
-        <div class="full-head">
-            <div class="head">
+{% if page.title %}
+    {% assign restore-header = "hideShare();"  %}
+{% else %}
+    {% assign restore-header = "hideSort();"  %}
+{% endif %}
+
+        <div class="full-head" onmouseout="{{ restore-header }}">
+            <div class="head" id="head">
                 {% include head.html %}
             </div>
         </div>
 
+{% comment %}
         <div class="full-foot">
-            <div class="foot">
+            <div class="foot" id="foot">
                 {% include foot.html %}
             </div>
         </div>
+{% endcomment %}
 
         <!-- Autocard handling -->
         <div style="position:absolute; z-index:999;" id="cardPopup"></div>
