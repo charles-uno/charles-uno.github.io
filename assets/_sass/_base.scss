@@ -59,7 +59,7 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
 .copy {
     display: block;
     text-align: center;
-    margin: $pad;
+    margin: 0;
     padding: $pad;
     color: $text-color;
     font-size: $caption-size;
