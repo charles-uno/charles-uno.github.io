@@ -19,7 +19,7 @@ Tags:
 
 {% for tag in tags %}
     <span class="tag">
-        <a href="{{ site.baseurl }}#{{ tag }}">{{ tag }}</a>
+        <a href="{{ site.baseurl }}#{{ tag }}" onclick="sort('asis')">{{ tag }}</a>
     </span>
 {% endfor %}
 

@@ -7,28 +7,49 @@ var dateToggle = 1;
 
 if(indexList) { sort('loadOrder'); }
 
+
+
+function getTag() {
+    var url;
+    var tag = '';
+    url = window.location.href;
+    console.log(url);
+    if( url.split('#').length > 1 ) { tag = url.split('#')[1]; }
+    console.log(tag);
+    return tag;
+}
+
+
+
+
 function sort(method) {
     this[method]();
     var html = '';
 
+    var tag = getTag();
 
-//    var fudge = document.getElementById('fudge');
-
-//    fudge.innerHTML = 'this is the output div!';
-
-
+    console.log('TAG:' + tag);
 
     for(var i = 0; i < posts.length; i++) {
+
+        console.log('LOOKING AT:' + posts[i].title);
+
+        console.log(posts[i].tags);
+
         if(!posts[i]) { continue; }
-            html += '<li class="index-item">' +
-                '<a href="' + posts[i].url + '" class="index-link">' +
-                    '<div class="index-cell">' +
-                      '<span class="index-date">' + posts[i].date + '</span>' +
-                      '<h2 class="index-name">' + posts[i].title + '</h2>' +
-                    '</div>' +
-                  '</a>' +
-                  '<img src="' + posts[i].thumbnail + '" class="index-thumb" />' +
-                '</li>';
+
+        if( posts[i].tags.indexOf(tag) < 0 ) { continue; }
+
+
+        html += '<li class="index-item">' +
+            '<a href="' + posts[i].url + '" class="index-link">' +
+                '<div class="index-cell">' +
+                  '<span class="index-date">' + posts[i].date + '</span>' +
+                  '<h2 class="index-name">' + posts[i].title + '</h2>' +
+                '</div>' +
+              '</a>' +
+              '<img src="' + posts[i].thumbnail + '" class="index-thumb" />' +
+            '</li>';
     }
     indexList.innerHTML = html;
     saveOrder();
@@ -80,6 +101,10 @@ function latest() {
         return 0;
     });
 }
+
+function asis() { return 0; }
+
+
 
 function shuffleLogo() {
     var logo = document.getElementById('logo');
