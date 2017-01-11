@@ -10,6 +10,14 @@ if(indexList) { sort('loadOrder'); }
 function sort(method) {
     this[method]();
     var html = '';
+
+
+//    var fudge = document.getElementById('fudge');
+
+//    fudge.innerHTML = 'this is the output div!';
+
+
+
     for(var i = 0; i < posts.length; i++) {
         if(!posts[i]) { continue; }
             html += '<li class="index-item">' +
@@ -24,7 +32,7 @@ function sort(method) {
     }
     indexList.innerHTML = html;
     saveOrder();
-    // Multiple clicks on the name/date sort will reverse the order. Toggles are reset whenever a different sort is applied.  
+    // Multiple clicks on the name/date sort will reverse the order. Toggles are reset whenever a different sort is applied.
     if (method == 'alphabetical') {nameToggle *= -1;} else {nameToggle = 1;}
     if (method == 'latest') {dateToggle *= -1;} else {dateToggle = 1;}
 }

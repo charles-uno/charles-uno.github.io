@@ -72,3 +72,16 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
     position: absolute;
     bottom: 0px;
 }
+
+*, *:before, *:after { box-sizing: border-box; }
+
+
+.fudge { display: block; padding: $pad; }
+
+.tags { padding: $pad; display: block; }
+
+.tag {
+    margin: $half-pad;
+    padding: $half-pad;
+    background-color: $shadow-color;
+}

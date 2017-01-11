@@ -15,14 +15,14 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
         <!-- Make sure Google doesn't double-count index.html -->
         <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
-        <!-- We don't use the glyphs, but apparently we rely on some incidental CSS here -->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
         <!-- Font Awesome glyphs -->
         <script src="https://use.fontawesome.com/2d2ca51921.js"></script>
         <!-- Google fonts -->
         <link href="//fonts.googleapis.com/css?family=Roboto|Cambo|Cutive+Mono" rel="stylesheet">
         <!-- Import CSS -->
         <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
+
+
         <!-- Jekyll SEO for Facebook and Twitter sharing -->
         {% seo title=false %}
         <!-- Page title (I don't like the SEO defaults) -->
