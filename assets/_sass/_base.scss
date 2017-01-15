@@ -45,6 +45,9 @@ html, body {
     width: 100%;
 }
 
+// Eliminate whitespace between tiles.
+#index-list { font-size: 0px; }
+
 img {
     margin-right: auto;
     margin-left: auto;

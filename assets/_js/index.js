@@ -8,10 +8,12 @@ var posts = [
             "date": "{{ post.date | date: "%Y—%m—%d" }}",
             "thumbnail": "{{ post.image }}",
             "url": "{{ site.baseurl }}{{ post.url }}",
+/*
             "tags":[{% for tag in post.tags %}
                     "{{ tag }}"
                     {% unless forloop.last %},{% endunless %}
                 {% endfor %}],
+*/
             "share-url":"{{ page.url | prepend: site.baseurl | prepend: site.url }}",
             "share-title":"{{ page.title | url_encode }}",
             "share-excerpt":"{{ page.description | url_encode }}"

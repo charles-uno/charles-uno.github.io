@@ -1,3 +1,7 @@
+
+
+// #####################################################################
+
 var indexList = document.getElementById('index-list');
 
 // If clicked repeatedly, the sorts toggle forward and backward. The
@@ -5,42 +9,38 @@ var indexList = document.getElementById('index-list');
 var nameToggle = 1;
 var dateToggle = 1;
 
-if(indexList) { sort('loadOrder'); }
+// if(indexList) { sort('loadOrder'); }
+
+// #####################################################################
 
 
 
-function getTag() {
-    var url;
-    var tag = '';
-    url = window.location.href;
-    console.log(url);
-    if( url.split('#').length > 1 ) { tag = url.split('#')[1]; }
-    console.log(tag);
-    return tag;
-}
 
 
 
+
+
+
+
+
+
+// #####################################################################
 
 function sort(method) {
     this[method]();
     var html = '';
-
-    var tag = getTag();
-
-    console.log('TAG:' + tag);
+    html += '<li class="index-item">' +
+    '<a href="" class="index-link">' +
+        '<div class="index-cell">' +
+          '<span class="index-date">TODAY</span>' +
+          '<h2 class="index-name">TITLE</h2>' +
+        '</div>' +
+      '</a>' +
+      '<img src="/thumbnails/broth.png" class="index-thumb" />' +
+    '</li>';
 
     for(var i = 0; i < posts.length; i++) {
-
-        console.log('LOOKING AT:' + posts[i].title);
-
-        console.log(posts[i].tags);
-
         if(!posts[i]) { continue; }
-
-        if( posts[i].tags.indexOf(tag) < 0 ) { continue; }
-
-
         html += '<li class="index-item">' +
             '<a href="' + posts[i].url + '" class="index-link">' +
                 '<div class="index-cell">' +
@@ -53,15 +53,20 @@ function sort(method) {
     }
     indexList.innerHTML = html;
     saveOrder();
-    // Multiple clicks on the name/date sort will reverse the order. Toggles are reset whenever a different sort is applied.
+    // Multiple clicks on the name/date sort will reverse the order.
+    // Toggles are reset whenever a different sort is applied.
     if (method == 'alphabetical') {nameToggle *= -1;} else {nameToggle = 1;}
     if (method == 'latest') {dateToggle *= -1;} else {dateToggle = 1;}
 }
+
+// =====================================================================
 
 function saveOrder() {
     var postTitles = posts.map(function(post) { return post.title; });
     sessionStorage.setItem('order', JSON.stringify(postTitles));
 }
+
+// ---------------------------------------------------------------------
 
 function loadOrder() {
     var newOrder = [];
@@ -72,6 +77,8 @@ function loadOrder() {
     });
     posts = newOrder;
 }
+
+// =====================================================================
 
 function shuffle() {
     var currentIndex = posts.length, temporaryValue, randomIndex;
@@ -84,6 +91,8 @@ function shuffle() {
     }
 }
 
+// ---------------------------------------------------------------------
+
 function alphabetical() {
     posts.sort(function(a, b){
         var titleA = a.title.toLowerCase();
@@ -94,6 +103,8 @@ function alphabetical() {
     });
 }
 
+// ---------------------------------------------------------------------
+
 function latest() {
     posts.sort(function(a, b){
         if(a.date < b.date) return dateToggle;
@@ -102,9 +113,11 @@ function latest() {
     });
 }
 
+// ---------------------------------------------------------------------
+
 function asis() { return 0; }
 
-
+// =====================================================================
 
 function shuffleLogo() {
     var logo = document.getElementById('logo');
@@ -127,6 +140,8 @@ function shuffleLogo() {
     logo.innerHTML = html;
 }
 
+// ---------------------------------------------------------------------
+
 function resetLogo() {
     var logo = document.getElementById('logo');
     var i, html;
@@ -145,4 +160,16 @@ function resetLogo() {
         letters.splice(0, 1);
     }
     logo.innerHTML = html;
+}
+
+// #####################################################################
+
+function getTag() {
+    var url;
+    var tag = '';
+    url = window.location.href;
+    console.log(url);
+    if( url.split('#').length > 1 ) { tag = url.split('#')[1]; }
+    console.log(tag);
+    return tag;
 }

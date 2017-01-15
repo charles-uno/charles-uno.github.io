@@ -1,0 +1,35 @@
+
+
+{% assign arrow-title = page.title | replace: "'", "\\'"  %}
+
+
+
+<a id="logo" href="{{ site.baseurl }}/">
+    {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+</a>
+<a ontouchstart="headPostActive(); return false;" onclick="headPostActive();">
+    <span class="fa-stack">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-share-alt fa-stack-1x fa-lg"></i>
+    </span>
+</a>
+
+
+
+<!--
+    <a href="" onclick="previous('{{ arrow-title }}'); return false;">
+        <span class="fa-stack">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-chevron-left fa-stack-1x fa-lg"></i>
+        </span>
+    </a>
+    <a id="logo" href="{{ site.baseurl }}/">
+        {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+    </a>
+    <a href="" onclick="next('{{ arrow-title }}'); return false;">
+        <span class="fa-stack">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-chevron-right fa-stack-1x fa-lg"></i>
+        </span>
+    </a>
+-->

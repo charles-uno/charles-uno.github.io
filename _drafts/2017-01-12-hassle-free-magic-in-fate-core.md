@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Hassle-Free Magic in Fate Core"
-image: "/thumbnails/placeholder-04.png"
+image: "/thumbnails/fate-dice.png"
 description: ""
 ---
 
-> NOTE: Originally timestamped 2014 January 17. 
+> NOTE: Originally timestamped 2014 January 17.
 
 ---
 
@@ -56,4 +56,3 @@ The hacklable nature of Fate makes it hard to argue that there is a "best" magic
 <hr>
 
 EDIT: It looks like Evil Hat came up with this before we did! They call it <a href="http://evilhat.wikidot.com/aspect-based-naration">Aspect Based Narration</a>. <br><br>
-

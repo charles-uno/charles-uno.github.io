@@ -3,9 +3,6 @@ layout: post
 title: "Aunt Mary's Cranberries"
 image: "/thumbnails/aunt-marys-cranberries.png"
 description: A simple side filled with fresh fruit flavor.
-tags:
-- food
-- tag1
 ---
 
 This recipe assumes a large food processor. If yours is more modestly sized, it may be better to do half at a time.

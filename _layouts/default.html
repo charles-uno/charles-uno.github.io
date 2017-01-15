@@ -52,15 +52,24 @@
             </div>
         </div>
 
+<!--
+The existence of page.title is used to distinguish the blog homepage from a content page.
+-->
+
+
 {% if page.title %}
     {% assign restore-header = "hideShare();"  %}
 {% else %}
     {% assign restore-header = "hideSort();"  %}
 {% endif %}
 
-        <div class="full-head" onmouseleave="{{ restore-header }}">
+        <div class="full-head">
             <div class="head" id="head">
-                {% include head.html %}
+                {% if page.title %}
+                    {% include head-post.html %}
+                {% else %}
+                    {% include head-index.html %}
+                {% endif %}
             </div>
         </div>
 

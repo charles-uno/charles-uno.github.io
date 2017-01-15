@@ -7,7 +7,7 @@ description: ""
 
 The outcome of the 2016 presidential election has led to renewed calls to abolish the electoral college. Donald Trump won the presidency despite losing the popular vote [46% to 48%](https://en.wikipedia.org/wiki/United_States_presidential_election,_2016), leaving supporters of Hillary Clinton feeling like they'd been cheated by an archaic technicality.
 
-In a democracy, it's problematic when a large chunk of the population does not feel represented. 
+In a democracy, it's problematic when a large chunk of the population does not feel represented.
 
 
 

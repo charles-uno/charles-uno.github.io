@@ -3,9 +3,6 @@ layout: post
 title: "Roasted Cauliflower"
 image: "/thumbnails/roasted-cauliflower.png"
 description: Steam your pores, not your vegetables.
-tags:
-- food
-- tag0
 ---
 
 Partition **one large head of cauliflower** (or two small heads) into 3cm (1 inch) florets. In a large bowl, toss with about **50ml olive oil** (3T), until evenly coated. Sprinkle lightly with **salt** and heavily with **black pepper**.
