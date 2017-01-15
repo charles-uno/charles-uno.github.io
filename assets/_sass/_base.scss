@@ -48,6 +48,17 @@ html, body {
 // Eliminate whitespace between tiles.
 #index-list { font-size: 0px; }
 
+
+div.warn {
+    background-color: pink;
+    display: block;
+    padding: $pad;
+    margin: 0 $pad;
+    text-align: center;
+}
+
+
+
 img {
     margin-right: auto;
     margin-left: auto;

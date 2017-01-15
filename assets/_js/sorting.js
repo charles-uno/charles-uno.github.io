@@ -13,16 +13,53 @@ var dateToggle = 1;
 
 // #####################################################################
 
+function filter() {
+    var html = '';
+    var input, words;
+
+    input = document.getElementById("index-filter");
+    words = input.value.toLowerCase().split(" ");
+
+    console.log(words);
+
+    for(var i = 0; i < posts.length; i++) {
+        if(!posts[i]) { continue; }
+        if( !wordsInPost( words, posts[i].words ) ) { continue; }
+        html += '<li class="index-item">' +
+            '<a href="' + posts[i].url + '" class="index-link">' +
+                '<div class="index-cell">' +
+                  '<span class="index-date">' + posts[i].date + '</span>' +
+                  '<h2 class="index-name">' + posts[i].title + '</h2>' +
+                '</div>' +
+              '</a>' +
+              '<img src="' + posts[i].thumbnail + '" class="index-thumb" />' +
+            '</li>';
+    }
+    indexList.innerHTML = html;
+}
+
+// ---------------------------------------------------------------------
+
+function wordsInPost(words, post) {
+
+    console.log(post);
+
+    for(var i = 0; i < words.length; i++) {
+
+        console.log( words[i] );
+
+        if ( post.indexOf( words[i] ) < 0 ) {
+            console.log('NOPE');
+            return false;
+        } else {
+            console.log('YUP');
+        }
 
 
 
-
-
-
-
-
-
-
+    }
+    return true;
+}
 
 // #####################################################################
 

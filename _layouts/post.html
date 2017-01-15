@@ -7,12 +7,20 @@ layout: default
 
 {% assign words = "" | split: "|" %}
 
-{% assign raw_words = content
+{% capture content_plus %}{{ page.title }} {{ page.description }} {{ page.content }}{% endcapture %}
+
+{% assign raw_words = content_plus
     | strip_html
     | downcase
     | replace: "\n", " "
+    | replace: "é", "e"
     | remove: "."
+    | remove: "↩"
     | remove: ","
+    | remove: "?"
+    | remove: "…"
+    | remove: "!"
+    | remove: "-"
     | remove: ":"
     | remove: ";"
     | remove: "("
@@ -45,7 +53,7 @@ layout: default
 </header>
 <article>
 
-{{ words | join: "|" }}
+{{ words | join: " " }}
 
 <hr>
 
