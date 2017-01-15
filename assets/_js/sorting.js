@@ -41,22 +41,8 @@ function filter() {
 // ---------------------------------------------------------------------
 
 function wordsInPost(words, post) {
-
-    console.log(post);
-
     for(var i = 0; i < words.length; i++) {
-
-        console.log( words[i] );
-
-        if ( post.indexOf( words[i] ) < 0 ) {
-            console.log('NOPE');
-            return false;
-        } else {
-            console.log('YUP');
-        }
-
-
-
+        if ( post.indexOf( words[i] ) < 0 ) { return false; }
     }
     return true;
 }

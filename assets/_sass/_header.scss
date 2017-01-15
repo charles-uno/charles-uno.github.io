@@ -6,6 +6,7 @@
 #index-filter {
     border: 0;
     margin: $half-pad;
+    width: 100%;
 }
 
 
@@ -109,7 +110,7 @@ div.main, div.left-flank-main, div.right-flank-main {
     display: table-cell;
     min-height: 100%;
     position: relative;
-
+    // Leave room for the copyright
     padding-bottom: 50px;
 
 }

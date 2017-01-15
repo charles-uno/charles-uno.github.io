@@ -67,6 +67,7 @@ function headPostDefault() {
 
 function headIndexActive() {
     var head = document.getElementById('head')
+    var input;
     defaultIndexHead = head.innerHTML;
     head.innerHTML =
         '<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter..">' +
@@ -76,11 +77,19 @@ function headIndexActive() {
                 '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
             '</span>' +
         '</a>';
+
+    document.getElementById('index-filter').select();
+    document.getElementById('index-filter').focus();
+
 }
 
 // ---------------------------------------------------------------------
 
 function headIndexDefault() {
+
+    document.getElementById("index-filter").value = "";
+    filter();
+
     document.getElementById('head').innerHTML = defaultIndexHead;
 }
 
