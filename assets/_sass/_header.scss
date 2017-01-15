@@ -74,7 +74,9 @@ div.head {
 #index-filter {
     border: 0;
     margin: $half-pad;
+    padding: 5px;
     width: 100%;
+    font-size: $caption-size;
 }
 
 // A table-style box is wrapped around the contents. This allows us to
@@ -87,7 +89,7 @@ div.wrap-main {
     width: 100%;
     height: 100%;
     border: 0;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -98,6 +100,19 @@ div.main, div.left-flank-main, div.right-flank-main {
     // Leave room for the copyright
     padding-bottom: 50px;
 
+}
+
+div.main {
+    background: $paper-color;
+    width: $content-width;
+    padding-top: $head-height + $pad;
+//    padding-bottom: $foot-height + $pad;
+    padding-left: $side-pad;
+    padding-right: $side-pad;
+    text-align: justify;
+    header, article, footer {
+        border: 0; margin: 0; padding: 0;
+    }
 }
 
 div.left-flank-main {
@@ -126,18 +141,6 @@ div.right-flank-main {
     background: linear-gradient(to left, $shadow-color, $paper-color);
 }
 
-div.main {
-    background: $paper-color;
-    width: $content-width;
-    padding-top: $head-height + $pad;
-//    padding-bottom: $foot-height + $pad;
-    padding-left: $side-pad;
-    padding-right: $side-pad;
-    text-align: justify;
-    header, article, footer {
-        border: 0; margin: 0; padding: 0;
-    }
-}
 
 /*
 

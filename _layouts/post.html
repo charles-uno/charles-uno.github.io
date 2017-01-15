@@ -7,9 +7,9 @@ layout: default
         {{ page.title }}
     </span>
     <span class="post-date">
-        Published {{ page.date | date: "%Y—%m—%d" }}
+        <span class="nowrap">Published {{ page.date | date: "%Y—%m—%d" }}</span>
         {% if page.updated %}
-            / Updated {{ page.updated | date: "%Y—%m—%d" }}
+            <span class="nowrap"> / Updated {{ page.updated | date: "%Y—%m—%d" }}</span>
         {% endif %}
     </span>
 </header>

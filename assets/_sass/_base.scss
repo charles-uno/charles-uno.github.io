@@ -42,13 +42,17 @@ html, body {
     padding: 0;
     margin: 0;
     width: 100%;
+    font-size: 0;
+    line-height: 0;
 }
 
 div.warn {
+    font-size: $text-size;
+    line-height: 1;
     background-color: pink;
     display: block;
     padding: $pad;
-    margin: 0 $pad;
+    margin: $pad 0;
     text-align: center;
 }
 
@@ -63,6 +67,8 @@ img {
 
 p, span, div, table { color: $text-color; }
 
+.nowrap { white-space: nowrap; }
+
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
 .copy {
@@ -73,12 +79,13 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
     padding: $pad;
     color: $text-color;
     font-size: $caption-size;
-    display: block;
-    width: 100%;
+    line-height: 1;
     height: $caption-size + 2*$pad;
     vertical-align: middle;
     position: absolute;
+    width: 100%;
     bottom: 0px;
+    right: 0px;
 }
 
 // Not sure exactly what this does, but it's important. It was present

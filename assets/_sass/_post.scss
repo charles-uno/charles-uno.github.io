@@ -2,6 +2,8 @@
 header {
     padding: $pad;
     .post-date {
+        font-size: 18px;
+        line-height: 1;
         border: 0;
         padding: 0;
         margin: $pad;
@@ -10,6 +12,7 @@ header {
     }
     .post-name {
         font-size: 24px;
+        line-height: 1;
         display: block;
         text-align: center;
         font-weight: bold;
@@ -18,10 +21,10 @@ header {
 
 article {
     font-size: $text-size;
+    line-height: 1.2;
     display: block;
     margin: 0;
     padding: 0;
-//    margin: $half-pad;
     a {
         color: $bold-color-2;
         &:hover { color: $text-color; }
