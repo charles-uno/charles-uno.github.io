@@ -52,11 +52,15 @@ function headPostActive() {
                 '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
             '</span>' +
         '</a>';
+    indexHeadIsActive = false;
+    postHeadIsActive = true;
 }
 
 // ---------------------------------------------------------------------
 
 function headPostDefault() {
+    indexHeadIsActive = false;
+    postHeadIsActive = false;
     document.getElementById('head').innerHTML = defaultPostHead;
 }
 
@@ -74,6 +78,8 @@ function headIndexActive() {
                 '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
             '</span>' +
         '</a>';
+    indexHeadIsActive = true;
+    postHeadIsActive = false;
     // Don't make people click on the search bar.
     document.getElementById('index-filter').select();
     document.getElementById('index-filter').focus();
@@ -82,6 +88,8 @@ function headIndexActive() {
 // ---------------------------------------------------------------------
 
 function headIndexDefault() {
+    indexHeadIsActive = false;
+    postHeadIsActive = false;
     // When we hide the search bar, clear the filter.
     document.getElementById("index-filter").value = "";
     filter();
