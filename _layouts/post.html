@@ -2,44 +2,6 @@
 layout: default
 ---
 
-
-
-
-{% assign words = "" | split: "|" %}
-
-{% capture content_plus %}{{ page.title }} {{ page.description }} {{ page.content }}{% endcapture %}
-
-{% assign raw_words = content_plus
-    | strip_html
-    | downcase
-    | replace: "\n", " "
-    | replace: "é", "e"
-    | remove: "."
-    | remove: "↩"
-    | remove: ","
-    | remove: "?"
-    | remove: "…"
-    | remove: "!"
-    | remove: "-"
-    | remove: ":"
-    | remove: ";"
-    | remove: "("
-    | remove: ")"
-    | split: " "
-%}
-
-{% for word in raw_words %}
-    {% unless words contains word %}
-        {% assign words = words | push: word %}
-    {% endunless %}
-{% endfor %}
-
-
-
-
-
-
-
 <header>
     <span class="post-name">
         {{ page.title }}
@@ -52,15 +14,5 @@ layout: default
     </span>
 </header>
 <article>
-
-{{ words | join: " " }}
-
-<hr>
-
-<hr>
-
-<hr>
-
-
     {{ content }}
 </article>
