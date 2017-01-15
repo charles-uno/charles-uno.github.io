@@ -16,12 +16,11 @@ var dateToggle = 1;
 function filter() {
     var html = '';
     var input, words;
-
     input = document.getElementById("index-filter");
     words = input.value.toLowerCase().split(" ");
-
-    console.log(words);
-
+    // Rather than re-draw the index, skipping some elements, it may be
+    // better to grab each title, look up the post, then conditionally
+    // set that tile to `display:none`.
     for(var i = 0; i < posts.length; i++) {
         if(!posts[i]) { continue; }
         if( !wordsInPost( words, posts[i].words ) ) { continue; }

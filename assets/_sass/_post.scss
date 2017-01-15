@@ -22,7 +22,6 @@ article {
     margin: 0;
     padding: 0;
 //    margin: $half-pad;
-
     a {
         color: $bold-color-2;
         &:hover { color: $text-color; }
@@ -33,20 +32,18 @@ article {
         padding: $half-pad;
     }
     th, td { padding: $half-pad; }
-
     p { margin: $text-size 0; }
     li { margin: 0.5*$text-size 0; }
-
-
     blockquote {
         background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
         p { margin: $pad 0; padding: 0; border: 0; }
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
     }
-
+    // Images fill the width and get a shadow pad. If followed
+    // immediately by italics (within the same paragraph), that's the
+    // caption.
     img { width: 100%; padding: $pad; background-color: $shadow-color; }
-
     img + em {
         text-align: justify;
         font-size: $caption-size;
@@ -55,8 +52,9 @@ article {
         display: block;
         padding: 0 $pad $pad $pad;
     }
-
-
+    // Tiles object, used a bunch in the pokemon post. Instead of
+    // needing to spell the HTML out explicitly, what if this was just
+    // how ordered lists showed up?
     .tiles {
         display: flex;
         flex-wrap: wrap;
@@ -64,7 +62,6 @@ article {
         justify-content: center;
         margin: -$half-pad;
         border: 0;
-//        line-height: 0;
         padding: 0;
         text-align: center;
         background-color: $paper-color;
@@ -78,17 +75,13 @@ article {
             width: 100%;
             @media (min-width: 300px) { width: 50%; }
             @media (min-width: 600px) { width: 33.33%; }
-//            em { line-height: 1; }
-
             font-size: $caption-size;
-
+            // Padding is handled by the tiles, not images and captions.
             padding: $pad;
             img { padding: 0; }
             img + em { padding: $pad 0 0 0; }
-
         }
     }
-
 }
 
 // What if horizontal rules, instead of being lines, were dots?

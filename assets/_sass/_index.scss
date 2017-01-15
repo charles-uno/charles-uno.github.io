@@ -5,10 +5,12 @@
     // need to subtract off the outer padding.
     margin: -$half-pad;
     border: 0;
-    line-height: 0;
     padding: 0;
     text-align: center;
     background-color: $paper-color;
+    // Eliminate whitespace between tiles.
+    font-size: 0px;
+    line-height: 0;
 }
 
 .index-item {

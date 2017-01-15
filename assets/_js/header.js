@@ -8,16 +8,13 @@
 // #####################################################################
 
 var defaultPostHead = "";
-
 var defaultIndexHead = "";
 
 // =====================================================================
 
 function headPostActive() {
     var head = document.getElementById('head')
-
     defaultPostHead = head.innerHTML;
-
     head.innerHTML =
         '<a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">' +
             '<span class="fa-stack">' +
@@ -77,19 +74,17 @@ function headIndexActive() {
                 '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
             '</span>' +
         '</a>';
-
+    // Don't make people click on the search bar.
     document.getElementById('index-filter').select();
     document.getElementById('index-filter').focus();
-
 }
 
 // ---------------------------------------------------------------------
 
 function headIndexDefault() {
-
+    // When we hide the search bar, clear the filter.
     document.getElementById("index-filter").value = "";
     filter();
-
     document.getElementById('head').innerHTML = defaultIndexHead;
 }
 

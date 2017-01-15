@@ -1,5 +1,4 @@
 
-
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Cambo', serif;
 $mono-font: 'Cutive Mono', monospace;
@@ -45,10 +44,6 @@ html, body {
     width: 100%;
 }
 
-// Eliminate whitespace between tiles.
-#index-list { font-size: 0px; }
-
-
 div.warn {
     background-color: pink;
     display: block;
@@ -58,6 +53,8 @@ div.warn {
 }
 
 img {
+    // Images always fill the width of their containers. To change the
+    // width of an image, contain it.
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
@@ -69,31 +66,21 @@ p, span, div, table { color: $text-color; }
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
 .copy {
+    // Copyright blurb at the bottom.
     display: block;
     text-align: center;
     margin: 0;
     padding: $pad;
     color: $text-color;
     font-size: $caption-size;
-
     display: block;
     width: 100%;
-
     height: $caption-size + 2*$pad;
     vertical-align: middle;
     position: absolute;
     bottom: 0px;
 }
 
+// Not sure exactly what this does, but it's important. It was present
+// in some incidental import that we no longer use.
 *, *:before, *:after { box-sizing: border-box; }
-
-
-.fudge { display: block; padding: $pad; }
-
-.tags { padding: $pad; display: block; }
-
-.tag {
-    margin: $half-pad;
-    padding: $half-pad;
-    background-color: $shadow-color;
-}
