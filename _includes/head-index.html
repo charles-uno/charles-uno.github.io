@@ -1,17 +1,16 @@
 
 
 
-<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter..">
 
 
 
     <a href="" id="logo" onclick="return false;">
         {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
     </a>
-    <a onclick="showSort(); return false;" onmouseover="showSort();">
+    <a onclick="headIndexActive(); return false;">
         <span class="fa-stack">
             <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-sort fa-stack-1x fa-lg"></i>
+            <i class="fa fa-search fa-stack-1x fa-lg"></i>
         </span>
     </a>
 <!--

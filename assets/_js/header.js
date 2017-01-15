@@ -1,26 +1,22 @@
 
-
-
-
-
-
+// #####################################################################
 
 {% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
 {% assign share-title = page.title | url_encode %}
 {% assign share-excerpt = page.description | url_encode %}
 
+// #####################################################################
 
+var defaultPostHead = "";
 
+var defaultIndexHead = "";
 
-
-
-var defaultHead = "";
-
+// =====================================================================
 
 function headPostActive() {
     var head = document.getElementById('head')
 
-    defaultHead = head.innerHTML;
+    defaultPostHead = head.innerHTML;
 
     head.innerHTML =
         '<a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">' +
@@ -61,17 +57,34 @@ function headPostActive() {
         '</a>';
 }
 
+// ---------------------------------------------------------------------
+
 function headPostDefault() {
-    document.getElementById('head').innerHTML = defaultHead;
+    document.getElementById('head').innerHTML = defaultPostHead;
 }
 
+// =====================================================================
 
+function headIndexActive() {
+    var head = document.getElementById('head')
+    defaultIndexHead = head.innerHTML;
+    head.innerHTML =
+        '<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter..">' +
+        '<a onclick="headIndexDefault(); return false;">' +
+            '<span class="fa-stack">' +
+                '<i class="fa fa-square fa-stack-2x"></i>' +
+                '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
+            '</span>' +
+        '</a>';
+}
 
+// ---------------------------------------------------------------------
 
+function headIndexDefault() {
+    document.getElementById('head').innerHTML = defaultIndexHead;
+}
 
-
-
-
+// #####################################################################
 
 function showSort(){
     var head = document.getElementById('head');
@@ -102,8 +115,7 @@ function showSort(){
     '</a>';
 }
 
-
-
+// ---------------------------------------------------------------------
 
 function hideSort(){
     var head = document.getElementById('head');
@@ -119,15 +131,7 @@ function hideSort(){
     '</a>';
 }
 
-
-
-
-
-
-{% assign share-url = page.url | prepend: site.baseurl | prepend: site.url %}
-{% assign share-title = page.title | url_encode %}
-{% assign share-excerpt = page.description | url_encode %}
-
+// =====================================================================
 
 function showShare(){
     var head = document.getElementById('head');
@@ -170,6 +174,7 @@ function showShare(){
         '</a>';
 }
 
+// ---------------------------------------------------------------------
 
 function hideShare(){
     var head = document.getElementById('head');
