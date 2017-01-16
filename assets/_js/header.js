@@ -17,39 +17,33 @@ function headPostActive() {
     defaultPostHead = head.innerHTML;
     head.innerHTML =
         '<a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-facebook fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-facebook"></i>' +
             '</span>' +
         '</a>' +
         '<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-linkedin fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-linkedin"></i>' +
             '</span>' +
         '</a>' +
         '<a href="http://pinterest.com/pin/create/button/?url={{ share-url }}&amp;media={{ share-thumb }}&amp;description={{ share-excerpt }}" class="popup">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-pinterest-p fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-pinterest-p"></i>' +
             '</span>' +
         '</a>' +
         '<a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-reddit-alien fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-reddit-alien"></i>' +
             '</span>' +
         '</a>' +
         '<a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-twitter fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-twitter"></i>' +
             '</span>' +
         '</a>' +
         '<a onclick="headPostDefault(); return false;">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-times"></i>' +
             '</span>' +
         '</a>';
     indexHeadIsActive = false;
@@ -71,11 +65,10 @@ function headIndexActive() {
     var input;
     defaultIndexHead = head.innerHTML;
     head.innerHTML =
-        '<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter..">' +
+        '<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter...">' +
         '<a onclick="headIndexDefault(); return false;">' +
-            '<span class="fa-stack">' +
-                '<i class="fa fa-square fa-stack-2x"></i>' +
-                '<i class="fa fa-times fa-stack-1x fa-lg"></i>' +
+            '<span class="glyph-wrapper">' +
+                '<i class="fa fa-times"></i>' +
             '</span>' +
         '</a>';
     indexHeadIsActive = true;

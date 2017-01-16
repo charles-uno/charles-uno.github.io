@@ -1,4 +1,38 @@
 
+
+
+.glyph-wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: $head-glyph-wrap-size;
+    height: $head-glyph-wrap-size;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: $paper-color;
+
+    font-size: $head-glyph-size;
+    color: $text-color;
+    text-align: center;
+    vertical-align: middle;
+
+    // Flip the colors on hover.
+    &:hover {
+        color: $paper-color;
+        background-color: $text-color;
+    }
+
+}
+
+
+
+
+
 // A full-width box is used to anchor the header at the top.
 
 div.full-head {
@@ -33,9 +67,13 @@ div.head {
     padding: $half-pad $side-pad;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+
     line-height: 0;
     a, a:visited { color: $text-color; }
     a:hover { color: $paper-color; }
+    /*
     .fa-stack {
         font-size: $head-glyph-size;
         vertical-align: middle;
@@ -47,6 +85,7 @@ div.head {
             .fa-stack-1x { color: $paper-color; }
         }
     }
+    */
 }
 
 // The logo! Flip the colors on hover.
