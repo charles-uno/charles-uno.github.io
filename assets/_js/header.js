@@ -42,7 +42,7 @@ function headPostActive() {
             '</span>' +
         '</a>' +
         '<a onclick="headPostDefault(); return false;">' +
-            '<span class="glyph-wrapper">' +
+            '<span class="glyph-nowrapper">' +
                 '<i class="fa fa-times"></i>' +
             '</span>' +
         '</a>';
@@ -67,7 +67,7 @@ function headIndexActive() {
     head.innerHTML =
         '<input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter...">' +
         '<a onclick="headIndexDefault(); return false;">' +
-            '<span class="glyph-wrapper">' +
+            '<span class="glyph-nowrapper">' +
                 '<i class="fa fa-times"></i>' +
             '</span>' +
         '</a>';
