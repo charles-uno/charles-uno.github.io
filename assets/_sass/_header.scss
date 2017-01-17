@@ -1,5 +1,7 @@
 
 
+
+
 .glyph-wrapper, .glyph-nowrapper {
     width: $head-glyph-wrap-size;
     height: $head-glyph-wrap-size;
@@ -67,6 +69,17 @@ div.head {
     align-items: center;
     a, a:visited { color: $text-color; }
     a:hover { color: $paper-color; }
+}
+
+div.wrap-head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 // The logo! Flip the colors on hover.

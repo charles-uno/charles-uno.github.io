@@ -1,9 +1,19 @@
 
-<a href="" id="logo" onclick="return false;">
-    {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
-</a>
-<a onclick="headIndexActive(); return false;">
-    <span class="glyph-nowrapper">
-        <i class="fa fa-search"></i>
-    </span>
-</a>
+<div class="wrap-head" id="wrap-head-default">
+    <a href="" id="logo" onclick="return false;">
+        {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+    </a>
+    <a onclick="headActive(); return false;">
+        <span class="glyph-nowrapper">
+            <i class="fa fa-search"></i>
+        </span>
+    </a>
+</div>
+<div class="wrap-head" id="wrap-head-active" style="display: none;">
+    <input type="text" id="index-filter" onkeyup="filter()" placeholder="Filter...">
+    <a onclick="headDefault(); return false;">
+        <span class="glyph-nowrapper">
+            <i class="fa fa-times"></i>
+        </span>
+    </a>
+</div>

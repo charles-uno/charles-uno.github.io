@@ -12,6 +12,23 @@
 
 // #####################################################################
 
+function headActive() {
+    document.getElementById('wrap-head-active').style.display = "";
+    document.getElementById('wrap-head-default').style.display = "none";
+}
+
+
+function headDefault() {
+    document.getElementById('wrap-head-active').style.display = "none";
+    document.getElementById('wrap-head-default').style.display = "";
+}
+
+
+
+
+
+
+
 var indexHeadIsActive = false;
 var postHeadIsActive = false;
 
@@ -27,12 +44,8 @@ document.onkeydown = function(evt) {
         isEscape = (evt.keyCode == 27);
     }
 
-    if (indexHeadIsActive && isEscape) {
-        headIndexDefault();
-    }
-
-    if (postHeadIsActive && isEscape) {
-        headPostDefault();
+    if (isEscape) {
+        headDefault();
     }
 
 };
@@ -80,49 +93,14 @@ var defaultPostHead = "";
 // ---------------------------------------------------------------------
 
 function headPostActive() {
+
+
+
     var head = document.getElementById('head')
+
     defaultPostHead = head.innerHTML;
-    head.innerHTML =
-        '<a href="https://www.facebook.com/sharer/sharer.php?u=' +
-            '{{ share-url }}" title="Facebook" class="popup">' +
-            '<span class="glyph-wrapper">' +
-                '<i class="fa fa-facebook"></i>' +
-            '</span>' +
-        '</a>' +
-        '<a href="http://www.linkedin.com/shareArticle?mini=true' +
-            '&amp;url={{ share-url }}&amp;title={{ share-title }}' +
-            '&amp;summary={{ share-excerpt }}" title="LinkedIn" ' +
-            'class="popup">' +
-            '<span class="glyph-wrapper">' +
-                '<i class="fa fa-linkedin"></i>' +
-            '</span>' +
-        '</a>' +
-        '<a href="http://pinterest.com/pin/create/button/?url=' +
-            '{{ share-url }}&amp;media={{ share-thumb }}&amp;' +
-            'description={{ share-excerpt }}" class="popup">' +
-            '<span class="glyph-wrapper">' +
-                '<i class="fa fa-pinterest-p"></i>' +
-            '</span>' +
-        '</a>' +
-        '<a href="http://www.reddit.com/submit?url={{ share-url }}' +
-            '&amp;title={{ share-title }}" title="Reddit" ' +
-            'class="popup">' +
-            '<span class="glyph-wrapper">' +
-                '<i class="fa fa-reddit-alien"></i>' +
-            '</span>' +
-        '</a>' +
-        '<a href="https://twitter.com/intent/tweet?text=' +
-            '{{ share-title }}&amp;via={{ site.author.twitter }}&amp;' +
-            'url={{ share-url }}" title="Twitter" class="popup">' +
-            '<span class="glyph-wrapper">' +
-                '<i class="fa fa-twitter"></i>' +
-            '</span>' +
-        '</a>' +
-        '<a onclick="headPostDefault(); return false;">' +
-            '<span class="glyph-nowrapper">' +
-                '<i class="fa fa-times"></i>' +
-            '</span>' +
-        '</a>';
+
+
     indexHeadIsActive = false;
     postHeadIsActive = true;
 }
