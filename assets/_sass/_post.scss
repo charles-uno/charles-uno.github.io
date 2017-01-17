@@ -87,6 +87,24 @@ article {
     }
 }
 
+.copy {
+    // Copyright blurb at the bottom.
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: $pad;
+    color: $text-color;
+    font-size: $caption-size;
+    line-height: 1;
+    height: $caption-size + 2*$pad;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    a { color: $bold-color-2; &:hover { color: $text-color; } }
+}
+
 // What if horizontal rules, instead of being lines, were dots?
 hr {
     width: 10px;

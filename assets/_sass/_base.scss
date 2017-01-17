@@ -73,23 +73,6 @@ p, span, div, table { color: $text-color; }
 
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
-.copy {
-    // Copyright blurb at the bottom.
-    display: block;
-    text-align: center;
-    margin: 0;
-    padding: $pad;
-    color: $text-color;
-    font-size: $caption-size;
-    line-height: 1;
-    height: $caption-size + 2*$pad;
-    vertical-align: middle;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    right: 0px;
-}
-
 // Not sure exactly what this does, but it's important. It was present
 // in some incidental import that we no longer use.
 *, *:before, *:after { box-sizing: border-box; }
