@@ -9,8 +9,10 @@ function headActive() {
 // ---------------------------------------------------------------------
 
 function headDefault() {
-    document.getElementById('wrap-head-active').style.display = "none";
-    document.getElementById('wrap-head-default').style.display = "";
+    f = document.getElementById('index-filter');
+    if (f) { f.value = ''; filter(); }
+    document.getElementById('wrap-head-active').style.display = 'none';
+    document.getElementById('wrap-head-default').style.display = '';
 }
 
 // ---------------------------------------------------------------------

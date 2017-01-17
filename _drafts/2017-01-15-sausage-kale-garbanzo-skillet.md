@@ -1,14 +1,15 @@
 ---
 layout: post
 title: "Sausage Kale Garbanzo Skillet"
-image: "/thumbnails/placeholder-08.png"
+image: "/thumbnails/kale-garbanzo-skillet.png"
 description: ""
 ---
 
-Adapted from a recipe card we picked up at the coop. 
+Adapted from a recipe card we picked up at the coop.
 
-Great way to use a TON of kale. 
+Great way to use a TON of kale.
 
-Nice weight for lunch. It fills you up without making you tired. 
+Nice weight for lunch. It fills you up without making you tired.
 
-
+![Kale Garbanzo Skillet](/assets/images/kale-garbanzo-skillet/after.png)
+*Hooray!*

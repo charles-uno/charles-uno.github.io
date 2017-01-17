@@ -14,10 +14,10 @@ $shadow-color: #ddf;
 // $shadow-color: #bcf;
 $text-color: #000;
 
-$head-glyph-size: 20px;
-$head-glyph-wrap-size: 30px;
+$head-glyph-size: 15px;
+$head-glyph-wrap-size: 25px;
 
-$head-height: 2*$head-glyph-size + 2*$half-pad;
+$head-height: $head-glyph-wrap-size + 2*$pad;
 $logo-size: 50px;
 
 $foot-glyph-size: 15px;
