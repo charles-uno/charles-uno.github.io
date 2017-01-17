@@ -1,4 +1,11 @@
 
+{% assign share-url = page.url
+    | prepend: site.baseurl
+    | prepend: site.url
+%}
+{% assign share-title = page.title | url_encode %}
+{% assign share-excerpt = page.description | url_encode %}
+
 <div class="wrap-head" id="wrap-head-default">
     <a id="logo" href="{{ site.baseurl }}/">
         {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
