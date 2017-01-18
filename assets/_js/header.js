@@ -4,6 +4,8 @@
 function headActive() {
     document.getElementById('wrap-head-active').style.display = "";
     document.getElementById('wrap-head-default').style.display = "none";
+    f = document.getElementById('index-filter');
+    if (f) { f.select(); f.focus(); }
 }
 
 // ---------------------------------------------------------------------
