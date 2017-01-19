@@ -2,7 +2,7 @@
 layout: post
 title: "Hassle-Free Magic in Fate Core"
 image: "/thumbnails/fate-dice.png"
-description: "From armor to meteors, arcane lore in Fate Core doesn't have to be a chore. Read on for more!"
+description: "Arcane lore in Fate Core doesn't have to be a chore. Read on for more!"
 ---
 
 Last year[^1] my group moved our campaign away from Pathfinder. We were concerned about complexity -- every new feat or extra attack added an extra layer of bookkeeping. We were also concerned about power level. The GM wasn't really interested in running a game where characters can easily [turn into dragons](http://www.d20pfsrd.com/magic/all-spells/f/form-of-the-dragon-i) or [firebomb an entire battlefield](http://www.d20pfsrd.com/magic/all-spells/m/meteor-swarm).
