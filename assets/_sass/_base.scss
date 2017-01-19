@@ -23,8 +23,8 @@ $logo-size: 50px;
 $foot-glyph-size: 15px;
 $foot-height: 2*$foot-glyph-size + 2*$half-pad;
 
-$name-size: 24px;
-$date-size: 18px;
+$name-size: 20px;
+$date-size: 15px;
 
 $text-size: 16px;
 $caption-size: 12px;
@@ -52,7 +52,8 @@ div.warn {
     font-size: $text-size;
     line-height: 1;
     background-color: pink;
-    display: block;
+//    display: block;
+    display: none;
     padding: $pad;
     margin: $pad 0;
     text-align: center;
