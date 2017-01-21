@@ -5,6 +5,16 @@ var indexList = document.getElementById('index-list');
 
 // #####################################################################
 
+
+
+function nextPost() {
+    window.location.href = "";
+}
+
+
+
+// #####################################################################
+
 function filter() {
     var html = '';
     var input, words;
