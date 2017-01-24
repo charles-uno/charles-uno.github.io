@@ -1,8 +1,15 @@
-The day after Trump was sworn in as president, Women's March protests drew an estimated 3.2M people -- [ten times as many](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/) as the Tea Party protests that followed Obama's inauguration in 2009. The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^1].
+The day after Trump was sworn in as president, [Women's March](https://www.womensmarch.com/) protests drew an estimated 3.2M people -- [ten times as many](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/) as the Tea Party protests that followed Obama's inauguration in 2009. I attended the march at the Minnesota Capitol, which drew about 100k people, and came away conflicted. 
+
+---
+
+
+
+
+The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^1].
 
 [^1]: Comparing crowds in DC isn't quite fair, as Trump faces a home field disadvantage; he earned [only 4%](http://www.nytimes.com/elections/results/district-of-columbia) of the vote there.
 
-I attended the march at the Minnesota Capitol, which drew about 100k people, and came away conflicted. 
+
 
 ---
 
