@@ -9,14 +9,32 @@ The day after Trump was sworn in as president, [Women's March](https://www.women
 
 ---
 
-By and large, I was impressed by the speakers. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights," to massive applause.
+By and large, the speakers were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights," to massive applause.
 
 References to Trump were infrequent. And while he was always the opponent, speeches avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
 
 In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." For every sign about unity or progress, there was another fixated on opposition to the president. I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
 
-I'm concerned that the Democratic Party is about to be faced with an insurgency of hard-liners -- much like the one that hollowed out the Republican establishment and paved the way for Trump in the first place.
+I'm concerned that the Democratic Party is about to be faced with an insurgency of hard-liners -- much like the one that hollowed out the Republican establishment and paved the way for Trump in the first place. Rumblings of just such an insurgency were visible in the Democratic primaries when Bernie accused Hillary and other Democrats of not being "[true progressives](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/)[^1]."
 
+[^1]: In addition to being divisive, Bernie's characterization of Hillary was inaccurate. According to an analysis of her public statements, Senate voting record, and fundraising sources, FiveThirtyEight and OnTheIssues rate Hillary a "[hard core liberal](https://fivethirtyeight.com/datalab/hillary-clinton-was-liberal-hillary-clinton-is-liberal/)," slightly to the left of Obama and significantly to the left of her husband.
+
+---
+
+Ideological purity tests are counterproductive. 
+
+Bernie is working on insurgent primary challengers?
+
+http://www.usatoday.com/story/news/politics/elections/2016/07/15/bernie-sanders-progressive-message/87073052/
+
+
+Certainly, the left needs to organize. In addition to holding the presidency and both houses of Congress, Republicans control 32 state legislatures and 33 governorships. Republicans hold [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states, compared to 4 for the Democrats. Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era. 
+
+
+But the strength of a coalition comes from its size, not its homogeneity. 
+
+
+---
 
 
 ---
@@ -95,9 +113,9 @@ To erode Trump's 46%, it's important to showcase dissent within the GOP.
 
 
 
-The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^1].
+The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^2].
 
-[^1]: Comparing crowds in DC isn't quite fair, as Trump faces a home field disadvantage; he earned [only 4%](http://www.nytimes.com/elections/results/district-of-columbia) of the vote there.
+[^2]: Comparing crowds in DC isn't quite fair, as Trump faces a home field disadvantage; he earned [only 4%](http://www.nytimes.com/elections/results/district-of-columbia) of the vote there.
 
 
 
