@@ -9,7 +9,7 @@ The day after Trump was sworn in as president, [Women's March](https://www.women
 
 ---
 
-By and large, the speakers were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights."
+By and large, the [speakers](https://www.womensmarchmn.com/rally) were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights."
 
 References to Trump were infrequent. And while he was always the opponent, speeches avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
 
