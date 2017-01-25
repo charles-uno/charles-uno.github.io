@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Women's March"
-image: "/thumbnails/placeholder-12.png"
+image: "/thumbnails/womens-march.png"
 description: ""
 ---
 
@@ -9,11 +9,79 @@ The day after Trump was sworn in as president, [Women's March](https://www.women
 
 ---
 
-By and large, the speakers were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights," to massive applause.
+By and large, the speakers were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights."
 
 References to Trump were infrequent. And while he was always the opponent, speeches avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
 
-In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." For every sign about unity or progress, there was another fixated on opposition to the president. I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
+In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
+
+
+
+---
+
+|         | Tor Byorn Yorgensen     | Nock                    |
+|:--------|:------------------------|:------------------------|
+| A fight is brewing | Rolls Physique to create the advantage **Girded Loins** | Rolls Physique to create the advantage **Dragonskin** |
+| Kelp devils attack the boat | Jump into the water and roll Athletics to swim like a **Tor-pedo** | Take to the skies: roll Athletics for the advantage **Flying** |
+| Weapon of choice | His [hammer](https://www.youtube.com/watch?v=t7bdr6fjg-k), rolled with Fight | Fireballs, rolled with **Shoot** |
+
+---
+
+1. ![Blitzle](/assets/images/pokemon/blitzle.png) *Blitzle -- Shadow/Lightning*
+1. ![Magcargo](/assets/images/pokemon/magcargo.png) *Magcargo -- Fire/Rock*
+1. ![Tentacruel](/assets/images/pokemon/tentacruel.png) *Tentacruel -- Water/Shadow*
+1. ![Torterra](/assets/images/pokemon/torterra.png) *Torterra -- Plant/Rock*
+1. ![Heart](/assets/images/pokemon/gyarados.png) *Gyarados -- Water/Wind*
+
+---
+
+1. <p>Fire consumes Plant</p><p>Plant drinks Water</p><p>Water quenches Fire</p>
+1. <p>Lightning ionizes Water</p><p>Water erodes Rock</p><p>Rock grounds Lightning</p>
+1. <p>Fire illuminates Shadow</p><p>Shadow quiets Wind</p><p>Wind suffocates Fire</p>
+1. <p>Wind ambushes Heart</p><p>Heart endures Lightning</p><p>Lightning punctures Wind</p>
+1. <p>Shadow starves Plant</p><p>Plant overgrows Rock</p><p>Rock crushes Heart</p><p>Heart outshines Shadow</p>
+
+---
+
+
+My initial response was to recoil, just as I had recoiled from Bernie as the primaries wore on[^2]
+
+
+[^2]: Initially, I supported Bernie. Later, I supported Hillary, but still wanted Bernie to be a reminder to the presumptive nominee that she couldn't take the wings of the left for granted. Eventually, when it was clear that he had no path to victory, and he engaged in witch hunts and conspiracy theories, I soured on him.
+
+
+
+---
+
+<div class="wide-figure">
+<img class="wide-img" src="/assets/images/womens-march/womens-march-panorama.png">
+<em>CAPTION</em>
+</div>
+
+
+
+
+---
+
+two sides. speakers and signholders. hillary and bernie.
+
+believe in government, two steps forward one step back; and cynical, everything is broken
+
+"stronger together" -- unity
+
+"political revolution" -- violence
+
+are tea party tactics correct? Obama had charisma, a good economy, and no real scandals. Yet the right was able to turn anti-Obama rhetoric into majorities in both houses of Congress, trifectas in 25 states, the presidency, and a bonus SCOTUS seat to boot.
+
+
+Tea party is intellectually bankrupt. Anti-intellectual. No platform -- just opposition. Willing to burn it all to the ground to deny the president victories.
+
+Tea Party Tactics probably mean taking people of color for granted and rallying the angriest elements of the base -- Bernie's core supporters -- young white people.
+
+
+---
+
+
 
 I'm concerned that the Democratic Party is about to be faced with an insurgency of hard-liners -- much like the one that hollowed out the Republican establishment and paved the way for Trump in the first place. Rumblings of just such an insurgency were visible in the Democratic primaries when Bernie accused Hillary and other Democrats of not being "[true progressives](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/)[^1]."
 
@@ -21,17 +89,17 @@ I'm concerned that the Democratic Party is about to be faced with an insurgency 
 
 ---
 
-Ideological purity tests are counterproductive. 
+Ideological purity tests are counterproductive.
 
 Bernie is working on insurgent primary challengers?
 
 http://www.usatoday.com/story/news/politics/elections/2016/07/15/bernie-sanders-progressive-message/87073052/
 
 
-Certainly, the left needs to organize. In addition to holding the presidency and both houses of Congress, Republicans control 32 state legislatures and 33 governorships. Republicans hold [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states, compared to 4 for the Democrats. Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era. 
+Certainly, the left needs to organize. In addition to holding the presidency and both houses of Congress, Republicans control 32 state legislatures and 33 governorships. Republicans hold [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states, compared to 4 for the Democrats. Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.
 
 
-But the strength of a coalition comes from its size, not its homogeneity. 
+But the strength of a coalition comes from its size, not its homogeneity.
 
 
 ---

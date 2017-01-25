@@ -94,6 +94,7 @@
 // A full-width box is used to anchor the header at the top.
 
 div.full-head {
+    z-index: 99;
     top: 0px;
     box-shadow: 0 $half-pad $pad rgba(0, 0, 0, 0.2);
     position: fixed;

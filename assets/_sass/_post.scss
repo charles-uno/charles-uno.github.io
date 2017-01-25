@@ -1,4 +1,36 @@
 
+
+
+
+
+
+.wide-figure {
+    z-index: 9;
+    position: relative;
+    display: block;
+    margin: 0;
+    // If the screen is narrow, don't stick out at all.
+    max-width: 100%;
+    margin-right: 0;
+    left: 0;
+    // If the screen is at least 800px wide, make wide stuff stick out a bit.
+    @media (min-width: 800px) {
+        max-width: 1024px;
+        margin-right: -200px;
+        left: -100px;
+    }
+    // At 1000px, make it stick out a lot!
+    @media (min-width: 1000px) {
+        max-width: 1024px;
+        margin-right: -400px;
+        left: -200px;
+    }
+}
+
+
+
+
+
 header {
     padding: $pad;
     .post-date {
@@ -23,7 +55,7 @@ article {
     font-size: $text-size;
     line-height: 1.5;
     display: block;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     a {
         color: $bold-color-2;
@@ -58,7 +90,7 @@ article {
     // Tiles object, used a bunch in the pokemon post. Instead of
     // needing to spell the HTML out explicitly, what if this was just
     // how ordered lists showed up?
-    .tiles {
+    .tiles, ol {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
@@ -68,7 +100,7 @@ article {
         padding: 0;
         text-align: center;
         background-color: $paper-color;
-        .tile {
+        .tile, li {
             background-color: $shadow-color;
             float: left;
             clear: none;
