@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shakshuka"
-image: "/thumbnails/shakshuka.png"
+image: "/assets/images/shakshuka-thumb.png"
 description: "This spicy egg and tomato dish is perfect for brunch, dinner, or brunch-for-dinner."
 ---
 
@@ -11,7 +11,7 @@ While the peppers are in the oven, throw some **olive oil** and **3 diced onions
 
 After the peppers have steamed for 5-10 minutes, the blackened skin should slide off easily. (If it doesn't, use a knife to scrape it off.) Discard the skin and seeds, chop the peppers, and stir them in with the onions.
 
-![Shakshuka Ingredients](/assets/images/shakshuka/ingredients.jpg)
+![Shakshuka Ingredients](/assets/images/shakshuka-ingredients-16x9.png)
 
 Add **5 cloves minced garlic** (probably about 30 ml or 2 tbs) and **5 ml each of cumin, paprika, caraway, turmeric, cayenne, salt, and black pepper** (1 tsp each). Stir this around until it starts to smell irresistible, just a few minutes, then add **800 ml diced tomatoes** (one 28-oz can). If available, go for the [fire roasted](https://www.muirglen.com/) ones. You may optionally also add bacon, kalamata olives, whole garlic cloves, and/or hot peppers.
 
@@ -19,7 +19,7 @@ Simmer everything together for 20 minutes or so, stirring occasionally, to melt 
 
 Cube **100 ml feta cheese** (1/2 cup) and press those cubes into the sauce. Then use a spoon to create 4 craters in the sauce, and crack **4 eggs** into those craters.
 
-![Finished Shakshuka](/assets/images/shakshuka/finished.jpg)
+![Finished Shakshuka](/assets/images/shakshuka-16x9.png)
 *Optionally, the sauce can be divided into ramekins before baking.*
 
 Put the whole pan into the oven. Bake until the egg whites are just barely set, about 15 minutes. The yolks should still be runny. Serve promptly with crusty bread.

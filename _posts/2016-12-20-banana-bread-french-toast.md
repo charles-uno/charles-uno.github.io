@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Banana Bread French Toast"
-image: "/thumbnails/banana-bread-french-toast.png"
+image: "/assets/images/banana-bread-french-toast-thumb.png"
 description: "A decadent treat for Saturday morning or Sunday night."
 ---
 
@@ -15,12 +15,12 @@ Add **125 ml mini dark chocolate chips**[^2] (1/2 c). Then spoon the batter into
 
 [^3]: Bake time is closer to 25 minutes for muffins, or 15 minutes for mini muffins. Muffins aren't much use for making french toast, but they're great for snacking and sharing.
 
-![Banana bread loaf](/assets/images/bbft/loaf.jpg)
+![Banana bread loaf](/assets/images/banana-bread-loaf-16x9.png)
 *The ends of the loaf make for unsightly french toast, so you should probably just eat them.*
 
 Slice the loaf (or whatever is left of it) as thin as you can without having it fall apart. Mix **3 eggs**, **75 ml plain yogurt** (1/3 c), and **cinnamon** to taste. Dip each slice in the egg mixture, coating both sides, then fry in a buttered skillet until golden brown.
 
 Banana bread french toast is decadent on its own; syrup is not necessary (though a dribble never hurt anybody). It's best with fresh fruit and/or peanut butter.
 
-![Banana bread french toast](/assets/images/bbft/final.jpg)
+![Banana bread french toast](/assets/images/banana-bread-french-toast-16x9.png)
 *One slice is typical. Two slices is ambitious. Three slices is madness.*

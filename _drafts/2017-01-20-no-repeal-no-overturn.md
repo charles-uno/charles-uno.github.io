@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forward not Backward"
-image: "/thumbnails/placeholder-06.png"
+image: "/assets/images/placeholder-06-thumb.png"
 description: ""
 ---
 
@@ -33,13 +33,13 @@ Abortion, campaign finance, and healthcare are way more complicated than the leg
 
 Electoral college. Democrats want to repeal it. Actually, with the exception of right after the 2000 and 2012 election (where the EC allowed Republican candidates to win the presidency despite losing the EV), a [consistent, bipartisan majority](http://www.gallup.com/poll/150245/americans-swap-electoral-college-popular-vote.aspx) of voters would prefer a national popular vote. Over the past two centuries, there have been [over 700 attempts](https://www.archives.gov/federal-register/electoral-college/faq.html#changes) by Congress to eliminate the electoral college.
 
-The electoral college is important because 51 small elections are easier than one big election. Removes the incentive for reliably blue states to rack up huge margins by dropping the voting age to 15, etc. 
+The electoral college is important because 51 small elections are easier than one big election. Removes the incentive for reliably blue states to rack up huge margins by dropping the voting age to 15, etc.
 
 https://fee.org/articles/the-accidental-genius-of-the-electoral-college/
 
-Without the EC, a close election would probably deadlock the country with litigation. 
+Without the EC, a close election would probably deadlock the country with litigation.
 
-In 2000, Florida was very close. The election results were in limbo for a month before SCOTUS killed the recount. 
+In 2000, Florida was very close. The election results were in limbo for a month before SCOTUS killed the recount.
 
 2000 -- national vote within 0.5%
 
@@ -49,7 +49,7 @@ In 2000, Florida was very close. The election results were in limbo for a month 
 
 1884 -- 0.6%
 
-Super-close elections are not actually that common, so 2000 is probably the only example we need. Imagine if we had to recount the whole country instead of just one state. 
+Super-close elections are not actually that common, so 2000 is probably the only example we need. Imagine if we had to recount the whole country instead of just one state.
 
 ---
 

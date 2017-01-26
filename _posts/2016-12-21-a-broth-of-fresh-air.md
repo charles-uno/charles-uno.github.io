@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "A Broth of Fresh Air"
-image: "/thumbnails/broth.png"
+image: "/assets/images/broth-thumb.png"
 description: "If you see snow out your window, this post if for you. If you can't see anything because your window is crusted with ice, read it twice."
 ---
 
 The trick to making it through a long, cold winter is soup. And the trick to delicious soup is homemade broth. This may sound like a lot of work; I promise it's not. Making your own broth is easy and economical. Plus it makes your whole home smell nice!
 
-![Finished broth](/assets/images/broth/broth.png)
+![Finished broth](/assets/images/broth-16x9.png)
 *With a big saucepan, you can make a lot of broth... those are quart jars!*
 
 Before you can make broth, you need to collect some trimmings. The easiest way to do so is to keep a saucepan in the freezer. Any time you use onions or garlic, put the papers and stumps into the saucepan. Do the same with the peels from carrots and sweet potatoes, and the seeds and stems from peppers. Have a few leftover tomato slices after making a sandwich? Throw them into the saucepan. Are those last mushrooms looking sad? Saucepan. Not sure what to do with the tiny stalks in the middle of the celery? Saucepan. [Squash rinds](http://www.epicurious.com/expert-advice/peel-winter-squash-skins-article)? Saucepan.

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Bacon and Brussels Sprout Pilaf"
-image: "/thumbnails/bacon-sprout.png"
+image: "/assets/images/bacon-sprout-thumb.png"
 description: ""
 ---
 
-![](/assets/images/bacon-sprout/bacon-sprout-ingredients.png)
+![](/assets/images/bacon-sprout-ingredients-16x9.png)
 *Hooray!*
 
-![](/assets/images/bacon-sprout/bacon-sprout-finished.png)
+![](/assets/images/bacon-sprout-16x9.png)
 *Hooray!*

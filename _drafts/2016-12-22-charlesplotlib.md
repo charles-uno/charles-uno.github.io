@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "charlesplotlib"
-image: "/thumbnails/placeholder-07.png"
+image: "/assets/images/placeholder-07-thumb.png"
 description: ""
 ---

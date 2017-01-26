@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Autocard Handler"
-image: "/thumbnails/placeholder-09.png"
+image: "/assets/images/placeholder-09-thumb.png"
 description: ""
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Sweet Potato Chili"
-image: "/thumbnails/chili.png"
+image: "/assets/images/sweet-potato-chili-thumb.png"
 description: ""
 ---
 
-(Placeholder)
+![](/assets/images/sweet-potato-chili-16x9.png)
+*caption placeholder*

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Women's March"
-image: "/thumbnails/womens-march.png"
+image: "/assets/images/womens-march-thumb.png"
 description: ""
 ---
 
@@ -27,23 +27,6 @@ In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands 
 
 ---
 
-1. ![Blitzle](/assets/images/pokemon/blitzle.png) *Blitzle -- Shadow/Lightning*
-1. ![Magcargo](/assets/images/pokemon/magcargo.png) *Magcargo -- Fire/Rock*
-1. ![Tentacruel](/assets/images/pokemon/tentacruel.png) *Tentacruel -- Water/Shadow*
-1. ![Torterra](/assets/images/pokemon/torterra.png) *Torterra -- Plant/Rock*
-1. ![Heart](/assets/images/pokemon/gyarados.png) *Gyarados -- Water/Wind*
-
----
-
-1. <p>Fire consumes Plant</p><p>Plant drinks Water</p><p>Water quenches Fire</p>
-1. <p>Lightning ionizes Water</p><p>Water erodes Rock</p><p>Rock grounds Lightning</p>
-1. <p>Fire illuminates Shadow</p><p>Shadow quiets Wind</p><p>Wind suffocates Fire</p>
-1. <p>Wind ambushes Heart</p><p>Heart endures Lightning</p><p>Lightning punctures Wind</p>
-1. <p>Shadow starves Plant</p><p>Plant overgrows Rock</p><p>Rock crushes Heart</p><p>Heart outshines Shadow</p>
-
----
-
-
 My initial response was to recoil, just as I had recoiled from Bernie as the primaries wore on[^2]
 
 
@@ -53,10 +36,8 @@ My initial response was to recoil, just as I had recoiled from Bernie as the pri
 
 ---
 
-<div class="wide-figure">
-<img class="wide-img" src="/assets/images/womens-march/womens-march-panorama.png">
-<em>CAPTION</em>
-</div>
+![](/assets/images/womens-march-16x9.png)
+*CAPTION*
 
 
 
