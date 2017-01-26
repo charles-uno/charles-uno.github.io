@@ -48,7 +48,7 @@ We are left with eight types. An example pokémon is shown below for each:
 2. ![Ponyta](/assets/images/pokemon-ponyta-thumb.png) *Ponyta -- Fire*
 3. ![Galvantula](/assets/images/pokemon-galvantula-thumb.png) *Galvantula -- Lightning*
 4. ![Turtwig](/assets/images/pokemon-turtwig-thumb.png) *Turtwig -- Plant*
-5. ![Toucannon](/assets/images/pokemon-toucannon-thumb.png) *Wind -- Toucannon*
+5. ![Toucannon](/assets/images/pokemon-toucannon-thumb.png) *Toucannon -- Wind*
 6. ![Spheal](/assets/images/pokemon-spheal-thumb.png) *Spheal -- Water*
 7. ![Girafarig](/assets/images/pokemon-girafarig-thumb.png) *Girafarig -- Shadow*
 8. ![Tyrunt](/assets/images/pokemon-tyrunt-thumb.png) *Tyrunt -- Rock*
