@@ -1,53 +1,23 @@
 
-
-
-
-
-
-.wide-figure {
-    z-index: 9;
-    position: relative;
-    display: block;
-    margin: 0;
-    // If the screen is narrow, don't stick out at all.
-    max-width: 100%;
-    margin-right: 0;
-    left: 0;
-    // If the screen is at least 800px wide, make wide stuff stick out a bit.
-    @media (min-width: 800px) {
-        max-width: 1024px;
-        margin-right: -200px;
-        left: -100px;
-    }
-    // At 1000px, make it stick out a lot!
-    @media (min-width: 1000px) {
-        max-width: 1024px;
-        margin-right: -400px;
-        left: -200px;
-    }
-}
-
-
-
-
-
 header {
     padding: $pad;
     .post-date {
-        font-size: 18px;
+        font-size: $post-date-size;
         line-height: 1;
         border: 0;
         padding: 0;
-        margin: $pad;
+        margin: $post-date-size auto;
         display: block;
         text-align: center;
     }
     .post-name {
-        font-size: 24px;
+        font-family: $head-font;
+        font-size: $post-title-size;
         line-height: 1;
         display: block;
         text-align: center;
-        font-weight: bold;
+//        font-weight: bold;
+        margin: $post-title-size auto;
     }
 }
 
@@ -62,24 +32,38 @@ article {
         &:hover { color: $text-color; }
     }
     table {
-        margin-left: auto; margin-right:auto;
+        margin: $text-size auto;
+        thead { border-bottom: $half-pad solid $paper-color; }
+//        margin-left: auto;
+//        margin-right: auto;
         background-color: $shadow-color;
         padding: $half-pad;
     }
     th, td { padding: $half-pad; }
-    p { margin: $text-size 0; }
+    p {
+        margin: $text-size auto;
+        max-width: $text-width;
+    }
     li { margin: 0.5*$text-size 0; }
     blockquote {
-        background-color: $shadow-color; margin: 0; border: 0; padding: $pad;
-        p { margin: $pad 0; padding: 0; border: 0; }
+        background-color: $shadow-color;
+        margin: 0 auto;
+        border: 0;
+        padding: $pad;
+        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
     }
     // Images fill the width and get a shadow pad. If followed
     // immediately by italics (within the same paragraph), that's the
     // caption.
-    img { width: 100%; padding: $pad; background-color: $shadow-color; }
+    img {
+        width: 100%;
+        padding: $pad;
+        background-color: $shadow-color;
+    }
     img + em {
+        width: 100%;
         text-align: justify;
         font-size: $caption-size;
         font-style: normal;
@@ -90,7 +74,7 @@ article {
     // Tiles object, used a bunch in the pokemon post. Instead of
     // needing to spell the HTML out explicitly, what if this was just
     // how ordered lists showed up?
-    .tiles, ol {
+    ol {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
@@ -100,7 +84,7 @@ article {
         padding: 0;
         text-align: center;
         background-color: $paper-color;
-        .tile, li {
+        li {
             background-color: $shadow-color;
             float: left;
             clear: none;
@@ -115,6 +99,24 @@ article {
             padding: $pad;
             img { padding: 0; }
             img + em { padding: $pad 0 0 0; }
+        }
+    }
+    div.footnotes {
+        font-size: $caption-size;
+        ol {
+            display: block;
+            width: 100%;
+            margin: 0;
+            text-align: justify;
+            background-color: $paper-color;
+            li {
+                background-color: $shadow-color;
+                display: block;
+                margin: $pad 0;
+                width: 100%;
+                border: 0;
+                p { max-width: $content-width; margin: 0; }
+            }
         }
     }
 }
@@ -139,10 +141,21 @@ article {
 
 // What if horizontal rules, instead of being lines, were dots?
 hr {
+    color: $shadow-color;
+    border-color: $shadow-color;
+    border: 0;
+    background-color: $shadow-color;
+    height: $half-pad;
+    margin: $text-size auto;
+    width: 100%;
+    max-width: $text-width;
+
+/*
     width: 10px;
     height: 10px;
     border-radius: 5px;
     overflow: hidden;
     color: $text-color;
     background-color: $text-color;
+*/
 }

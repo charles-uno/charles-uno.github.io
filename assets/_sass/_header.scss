@@ -6,7 +6,6 @@
 
     display: none;
 
-
     top: 0;
     position: fixed;
     background: none;
@@ -213,6 +212,10 @@ div.main {
 }
 
 div.left-flank-main {
+
+    background-color: $shadow-color;
+
+/*
     // In case of no gradient support
     background: $shadow-color;
     // For Safari 5.1 to 6.0
@@ -223,9 +226,14 @@ div.left-flank-main {
     background: -moz-linear-gradient(right, $shadow-color, $paper-color);
     // Standard syntax
     background: linear-gradient(to right, $shadow-color, $paper-color);
+*/
 }
 
 div.right-flank-main {
+
+    background-color: $shadow-color;
+
+/*
     // In case of no gradient support
     background: $shadow-color;
     // For Safari 5.1 to 6.0
@@ -236,4 +244,5 @@ div.right-flank-main {
     background: -moz-linear-gradient(left, $shadow-color, $paper-color);
     // Standard syntax
     background: linear-gradient(to left, $shadow-color, $paper-color);
+*/
 }

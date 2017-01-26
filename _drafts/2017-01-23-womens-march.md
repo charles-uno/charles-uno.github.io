@@ -17,23 +17,27 @@ In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands 
 
 ---
 
-The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. 
+The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries.
 
-The speakers have been at this for a while. They believe in democracy -- two steps forward, one step back. They spend a lot of time building coalitions behind their policy proposals, because they believe that we are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). 
+The speakers have been at this for a while. They believe in democracy -- two steps forward, one step back. They spend a lot of time building coalitions behind their policy proposals, because they believe that we are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning).
 
-In comparison, the signholders are new to this game. They're mostly young, mostly white, and mostly angry. They're ready to burn the system down in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a), and start again from scratch. 
+In comparison, the signholders are new to this game. They're mostly young, mostly white, and mostly angry. They're ready to burn the system down in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a), and start again from scratch.
 
-My initial response was to recoil from the signholders. I don't want to see [ideological purity tests](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) to push out establishment Democrats in favor of know-nothing blowhards; those same tactics hollowed out the leadership of the Republican party, making room for Trump. I don't wan to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted. 
+> My initial response was to recoil from the signholders. I don't want to see [ideological purity tests](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) to push out establishment Democrats in favor of know-nothing blowhards; those same tactics hollowed out the leadership of the Republican party, making room for Trump. I don't want to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted.
 
-But maybe I'm wrong. 
+But maybe I'm wrong.
 
 ---
 
-Maybe this is how politics works now. 
 
-Maybe the left is losing because we brought 20th century tactics to a 21st century contest. 
 
-Maybe optimism stopped working [fifty years ago](/data-vs-democracy/) and it took us this long to figure out cynicism. 
+---
+
+Maybe this is how politics works now.
+
+Maybe the left is losing because we brought 20th century tactics to a 21st century contest.
+
+Maybe optimism stopped working [fifty years ago](/data-vs-democracy/) and it took us this long to figure out cynicism.
 
 ---
 
@@ -42,6 +46,16 @@ Maybe optimism stopped working [fifty years ago](/data-vs-democracy/) and it too
 | A fight is brewing | Rolls Physique to create the advantage **Girded Loins** | Rolls Physique to create the advantage **Dragonskin** |
 | Kelp devils attack the boat | Jump into the water and roll Athletics to swim like a **Tor-pedo** | Take to the skies: roll Athletics for the advantage **Flying** |
 | Weapon of choice | His [hammer](https://www.youtube.com/watch?v=t7bdr6fjg-k), rolled with Fight | Fireballs, rolled with **Shoot** |
+
+---
+
+1. ![](/assets/images/womens-march-thumb.png) *CAPTION*
+1. ![](/assets/images/womens-march-thumb.png) *CAPTION*
+1. ![](/assets/images/womens-march-thumb.png) *CAPTION*
+1. ![](/assets/images/womens-march-thumb.png) *CAPTION*
+1. ![](/assets/images/womens-march-thumb.png) *CAPTION*
+
+
 
 ---
 
@@ -180,9 +194,9 @@ To erode Trump's 46%, it's important to showcase dissent within the GOP.
 
 
 
-The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^2].
+The march in DC [outnumbered](https://www.nytimes.com/interactive/2017/01/22/us/politics/womens-march-trump-crowd-estimates.html) the inauguration crowds the day before[^5].
 
-[^2]: Comparing crowds in DC isn't quite fair, as Trump faces a home field disadvantage; he earned [only 4%](http://www.nytimes.com/elections/results/district-of-columbia) of the vote there.
+[^5]: Comparing crowds in DC isn't quite fair, as Trump faces a home field disadvantage; he earned [only 4%](http://www.nytimes.com/elections/results/district-of-columbia) of the vote there.
 
 
 

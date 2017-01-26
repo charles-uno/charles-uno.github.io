@@ -5,13 +5,20 @@ var indexList = document.getElementById('index-list');
 
 // #####################################################################
 
+// Markdown wraps images in paragraph tags (with no class). Let's bump
+// out the width for those tags.
+var pars = document.getElementsByTagName('p');
+for ( var i=0; i < pars.length; i++ ) {
+    if ( pars[i].firstChild.tagName == 'IMG' ) {
+        pars[i].style.maxWidth = '100%';
+    }
+}
 
+// #####################################################################
 
 function nextPost() {
     window.location.href = "";
 }
-
-
 
 // #####################################################################
 

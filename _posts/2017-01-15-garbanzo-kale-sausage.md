@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kale, Sausage, and Garbanzo Skillet"
+title: "Sausage, Kale, and Garbanzo Skillet"
 image: "/assets/images/garbanzo-kale-sausage-thumb.png"
 description: "This recipe is great for lunch the next day! It's pretty healthy, it reheats well, and it fills you up without making you tired."
 ---
