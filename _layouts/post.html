@@ -6,12 +6,14 @@ layout: default
     <span class="post-name">
         {{ page.title }}
     </span>
-    <span class="post-date">
-        <span class="nowrap">Published {{ page.date | date: "%F" }}</span>
-        {% if page.updated %}
-            <span class="nowrap"> / Updated {{ page.updated | date: "%F" }}</span>
-        {% endif %}
-    </span>
+    {% if page.date %}
+        <span class="post-date">
+            <span class="nowrap">Published {{ page.date | date: "%F" }}</span>
+            {% if page.updated %}
+                <span class="nowrap"> / Updated {{ page.updated | date: "%F" }}</span>
+            {% endif %}
+        </span>
+    {% endif %}
 </header>
 <article>
     {{ content }}
