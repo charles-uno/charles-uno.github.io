@@ -17,9 +17,13 @@ By and large, the [speakers](https://www.womensmarchmn.com/rally) were excellent
 
 In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." For every poster about unity or progress, there was another fixated on opposition. I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
 
-![Women's March Minnesota](/assets/images/womens-march-16x9.png)
-
 The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. The speakers showed an optimistic view of democracy: two steps forward, one step back. They were focused on building a broad coalition, due to their belief that people are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). The signholders were comparably new to the political scene; they were mostly young, mostly white, and mostly angry. And they seemed eager to tear down the system in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a).
+
+---
+
+
+
+![Women's March Minnesota](/assets/images/womens-march-16x9.png)
 
 <!--
 The speakers had been at this for a while. They had faith in the democratic system -- two steps forward, one step back. They had spent a lot of time building coalitions behind their policy proposals, due to their belief that we are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning).
@@ -27,7 +31,7 @@ The speakers had been at this for a while. They had faith in the democratic syst
 The signholders were comparatively new to the political scene. They were mostly young, mostly white, and mostly angry. And they were ready to burn the system down in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a), and start again from scratch.
 -->
 
-My initial response was to recoil from the signholders. I don't want to see [ideological purity tests](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) to push out establishment Democrats in favor of know-nothing blowhards -- those same tactics hollowed out the leadership of the Republican party, making room for Trump in the first place. I don't want to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted.
+My initial response was to recoil from the signholders. I don't want to see [ideological purity tests](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) push out establishment Democrats in favor of know-nothing blowhards -- those same tactics hollowed out the leadership of the Republican party, making room for Trump in the first place. I don't want to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted.
 
 ---
 
@@ -35,6 +39,13 @@ But maybe I'm wrong. In the era of social media, maybe cynicism beats optimism. 
 
 Look at the past eight years. Obama was charismatic. He presided over a [strong economy](https://fivethirtyeight.com/features/the-jobs-recovery-may-not-be-flashy-but-its-strong/). He ended the unpopular [Iraq war](http://www.politifact.com/truth-o-meter/promises/obameter/subjects/iraq/). His administration was not involved in any major scandals. And yet Republicans were able to leverage anti-Obama rhetoric into massive electoral gains -- they control both houses of Congress, [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states (compared to 4 for the Democrats), the presidency, and a [bonus SCOTUS seat](https://en.wikipedia.org/wiki/Merrick_Garland_Supreme_Court_nomination) to boot. Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.
 
+---
+
+
+
+white voters have less sway on the left. that might make it more difficult to build a left wing tea party. 
+
+---
 
 
 
