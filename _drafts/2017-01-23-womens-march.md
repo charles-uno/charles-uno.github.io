@@ -19,10 +19,10 @@ The rift between speakers and signholders was reminiscent of the 2016 Democratic
 
 My first instinct was to recoil from any semblance of a left-wing Tea Party. I'm concerned at the prospect of establishment Democrats facing primary challenges from blowhard "outsiders." Rumblings are already visible on social media; Sen Elizabeth Warren (among the most stalwart progressives in the Senate) is [choosing her battles](https://www.facebook.com/senatorelizabethwarren/posts/716640075165155) -- but to many of her commenters, anything short of obstruction is a betrayal. That same sort of [ideological purity test](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) is what hollowed out the leadership of the Republican Party, making room for Trump in the first place.
 
-In particular,
+A Sanders- or Tea-Party-style insurgency would also lay bare the Democratic Party's [racial fault line](http://www.politico.com/magazine/story/2016/06/2016-bernie-sanders-hillary-clinton-democrats-race-racial-divide-213948). Nationally, [about half](https://www.nytimes.com/interactive/2016/11/08/us/politics/election-exit-polls.html) of Democratic voters are people of color, but in the 2016 presidential primaries Sanders won 45% of the vote despite losing Black voters [three-to-one](http://graphics.wsj.com/elections/2016/how-clinton-won/). In a contest with more than two candidates, or in less-diverse parts of the country, it's easy to imagine voters of color being overruled in the primaries then [taken for granted](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) in the general election. 
 
 
-What if Bernie had won the Democratic nomination despite earning only 25% of the black vote? 
+
 
 
 
