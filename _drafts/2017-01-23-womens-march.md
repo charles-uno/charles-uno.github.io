@@ -9,23 +9,23 @@ The day after Trump was sworn in as president, [Women's March](https://www.women
 
 ---
 
-The invited [speakers](https://www.womensmarchmn.com/rally) -- including Rep Betty McCollum, Minneapolis Mayor Betsy Hodges, and State Rep Ilhan Omar -- struck a forward-looking tone. They drummed up support for healthcare access, racial justice, LGBT rights, and female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights." References to Trump were infrequent. And while he was always the opponent, speeches avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
+The invited [speakers](https://www.womensmarchmn.com/rally) -- including Rep Betty McCollum, Minneapolis Mayor Betsy Hodges, and State Rep Ilhan Omar -- struck a forward-looking tone. They drummed up support for healthcare access, racial justice, LGBT rights, and female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights." References to Trump were infrequent, and while he was always the opponent, speakers avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
 
-{% comment %}
+<!--
 By and large, the [speakers](https://www.womensmarchmn.com/rally) were excellent. Rep Betty McCollum, Lt Gov Tina Smith, and Minneapolis Mayor Betsy Hodges drummed up support for healthcare access, racial justice, and LGBT rights. State Rep Ilhan Omar (noted for being the nation's first Somali-American legislator) leveraged her personal story into a powerful, forward-looking pledge to improve female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights." References to Trump were infrequent. And while he was always the opponent, speeches avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
-{% endcomment %}
+-->
 
 In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." For every poster about unity or progress, there was another fixated on opposition. I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
 
 ![Women's March Minnesota](/assets/images/womens-march-16x9.png)
 
-The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. The speakers showed an optimistic view of democracy: two steps forward, one step back. They were focused on building a broad coalition, due to their belief that people are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). The signholders were comparably new to the political scene; they were mostly young, mostly white, and mostly angry. And they were cynically eager to burn the system to the ground in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a).
+The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. The speakers showed an optimistic view of democracy: two steps forward, one step back. They were focused on building a broad coalition, due to their belief that people are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). The signholders were comparably new to the political scene; they were mostly young, mostly white, and mostly angry. And they seemed eager to tear down the system in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a).
 
-{% comment %}
+<!--
 The speakers had been at this for a while. They had faith in the democratic system -- two steps forward, one step back. They had spent a lot of time building coalitions behind their policy proposals, due to their belief that we are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning).
 
 The signholders were comparatively new to the political scene. They were mostly young, mostly white, and mostly angry. And they were ready to burn the system down in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/?utm_term=.9314035ede9a), and start again from scratch.
-{% endcomment %}
+-->
 
 My initial response was to recoil from the signholders. I don't want to see [ideological purity tests](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) to push out establishment Democrats in favor of know-nothing blowhards -- those same tactics hollowed out the leadership of the Republican party, making room for Trump in the first place. I don't want to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted.
 
