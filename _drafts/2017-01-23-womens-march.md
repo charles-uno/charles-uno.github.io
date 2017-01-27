@@ -17,10 +17,7 @@ The rift between speakers and signholders was reminiscent of the 2016 Democratic
 
 My first instinct was to recoil from any semblance of a left-wing Tea Party. I'm concerned at the prospect of establishment Democrats facing primary challenges from blowhard "outsiders." Rumblings are already visible on social media; Sen Elizabeth Warren (among the most stalwart progressives in the Senate) is [choosing her battles](https://www.facebook.com/senatorelizabethwarren/posts/716640075165155) -- but to many of her commenters, anything short of obstruction is a betrayal. That same sort of [ideological purity test](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) is what hollowed out the leadership of the Republican Party, making room for Trump in the first place.
 
-A Sanders- or Tea-Party-style insurgency would also lay bare the Democratic Party's [racial fault line](http://www.politico.com/magazine/story/2016/06/2016-bernie-sanders-hillary-clinton-democrats-race-racial-divide-213948). Nationally, [about half](https://www.nytimes.com/interactive/2016/11/08/us/politics/election-exit-polls.html) of Democratic voters are people of color, but in the 2016 presidential primaries Sanders won 45% of the vote despite losing Black voters [three-to-one](http://graphics.wsj.com/elections/2016/how-clinton-won/). In a contest with more than two candidates, or in less-diverse parts of the country, it's easy to imagine voters of color being overruled in the primaries then [taken for granted](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) in the general election. 
-
-
-
+A Sanders- or Tea-Party-style insurgency would also lay bare the Democratic Party's [racial fault line](http://www.politico.com/magazine/story/2016/06/2016-bernie-sanders-hillary-clinton-democrats-race-racial-divide-213948). Nationally, [about half](https://www.nytimes.com/interactive/2016/11/08/us/politics/election-exit-polls.html) of Democratic voters are people of color, but in the 2016 presidential primaries Sanders won 45% of the vote despite losing Black voters [three-to-one](http://graphics.wsj.com/elections/2016/how-clinton-won/). In a contest with more than two candidates, or in less-diverse parts of the country, it's easy to imagine voters of color being steamrolled in the primaries then [taken for granted](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) in the general election. 
 
 ---
 
@@ -28,21 +25,21 @@ A Sanders- or Tea-Party-style insurgency would also lay bare the Democratic Part
 
 ---
 
-SCRATCH:
+It seems to me that the left should be trying to make its tent bigger, not smaller. 
 
-big tent. pro-gun, pro-pharma, pro-life[^3] democrats.
+The Democratic Party should embrace people who share broad goals (healthcare access, racial justice, LGBT rights, livable wages, etc), even if there are points of disagreement. 
 
-Ideological purity tests are how you build a small tent full of extremists -- who obstruct when they're in the minority and steamroll when they're in the majority.
+Democrats are not homogeneous about [gun control](https://www.washingtonpost.com/news/the-fix/wp/2016/01/08/obamas-hollow-threat-to-pro-gun-democrats/) or [pharmaceutical regulation](http://www.politifact.com/truth-o-meter/statements/2017/jan/18/other-98/viral-image-about-democratic-senators-and-big-phar/). 
 
-I'd much rather have a big tent centered around broad, forward-looking goals: healthcare access, racial justice, livable wages, etc. If that means supporting pro-gun progressives in SD, or pro-pharma progressives in NJ, so be it. I don't need to agree with everyone about everything.
+Democrats were divided over TPP, Obama's complicated (and [now dead](http://www.wsj.com/articles/trump-withdraws-u-s-from-trans-pacific-partnership-1485191020)) Pacific trade agreement. 
 
-The strength of a coalition comes from its size, not its homogeneity.
+In a nation as large as the United States, ideological diversity is inevitable. 
+
+To compete for Senate seats in Louisiana, maybe Democrats need to be comfortable sharing a tent with candidates who buck the party line on [abortion](http://www.theadvocate.com/baton_rouge/news/politics/elections/article_23164d56-b69d-11e6-bf42-d7d1be691328.html)[^3]. 
 
 [^3]: The Women's March [excluded pro-life groups](https://www.aol.com/article/news/2017/01/25/anti-abortion-group-of-banned-womens-march-protesters-showed-up/21662068/). According to the event website, "[access to safe, legal, affordable abortion](https://www.womensmarch.com/principles/)" was an core principle of the march, so endorsing a pro-life presence would have muddled the message. Recall Occupy Wall Street: protests can't be powerful unless they're coherent. However, in practice, the event was more or less a rally for the Democratic Party. Pro-life Democrats exist, and they deserve a place under the tent. (If the DNC only supported across-the-board progressives, it would be unable to compete for Senate seats in conservative states.)
 
-[80% of marchers were in Obama/Clinton states](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/)
-
-[Sen Booker says](http://www.latimes.com/nation/la-na-pol-womens-march-live-cory-booker-women-s-march-is-not-a-1485028604-htmlstory.html) "This is not a Democrat or Republican thing. This is actually something we can all unify around."
+The strength of a coalition comes from its size, not its homogeneity.
 
 ---
 
@@ -51,6 +48,16 @@ But maybe I'm wrong. In the era of social media, maybe cynicism beats optimism. 
 Look at the past eight years. Obama was charismatic. He presided over a [strong economy](https://fivethirtyeight.com/features/the-jobs-recovery-may-not-be-flashy-but-its-strong/). He ended the unpopular [Iraq war](http://www.politifact.com/truth-o-meter/promises/obameter/subjects/iraq/), and caught Osama Bin Laden. His administration was not involved in any major scandals. And yet Republicans were able to leverage anti-Obama rhetoric into massive electoral gains -- they control both houses of Congress, [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states (compared to 4 for the Democrats), the presidency, and a [bonus SCOTUS seat](https://en.wikipedia.org/wiki/Merrick_Garland_Supreme_Court_nomination) to boot.
 
 Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.
+
+---
+
+---
+
+---
+
+[80% of marchers were in Obama/Clinton states](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/)
+
+[Sen Booker says](http://www.latimes.com/nation/la-na-pol-womens-march-live-cory-booker-women-s-march-is-not-a-1485028604-htmlstory.html) "This is not a Democrat or Republican thing. This is actually something we can all unify around."
 
 ---
 
@@ -63,8 +70,6 @@ Such Republican dominance hasn't been seen [since the Civil War](http://www.foxn
 ---
 
 If opposition to Trump is (or appears) partisan, Trump wins in Congress. Rep Lewis's all-Democrat inauguration boycott presents the appearance of a unified GOP.
-
-To erode Trump's 46%, it's important to showcase dissent within the GOP.
 
 ---
 
