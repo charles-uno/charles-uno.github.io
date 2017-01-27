@@ -7,15 +7,13 @@ description: ""
 
 The day after Trump was sworn in as president, [Women's March](https://www.womensmarch.com/) protests drew an estimated 3.2M people -- [ten times as many](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/) as the Tea Party protests that followed Obama's inauguration in 2009. I attended the march at the Minnesota Capitol, which drew about 100k people, and came away conflicted.
 
----
-
 The invited [speakers](https://www.womensmarchmn.com/rally) -- including Rep Betty McCollum, Minneapolis Mayor Betsy Hodges, and State Rep Ilhan Omar -- struck a forward-looking tone. They drummed up support for healthcare access, racial justice, LGBT rights, and female representation in government. Several speakers echoed Hillary's iconic line from Beijing, "women's rights are human rights." References to Trump were infrequent, and while he was always the opponent, speakers avoided sensationalist labels like "enemy," "evil," "fascist," and "Nazi."
 
 In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands and hair, images of Trump with a Hitler-style mustache, and "this pussy grabs back." For every poster about unity or progress, there was another fixated on opposition. I was particularly struck by "Not My President" -- the same slogan [used by the Tea Party](http://www.cafepress.com/rightwingstuff/6166025) against Obama.
 
 The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. The speakers showed an optimistic view of democracy: two steps forward, one step back. They chose their words to appeal widely, due to their belief that people are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). The signholders were comparably new to the political scene; they were mostly young, mostly white, and mostly angry. And they seemed eager to tear down the system in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/).
 
----
+![Women's March Minnesota](/assets/images/womens-march-16x9.png)
 
 My first instinct was to recoil from any semblance of a left-wing Tea Party. I'm concerned at the prospect of establishment Democrats facing primary challenges from blowhard "outsiders." Rumblings are already visible on social media; Sen Elizabeth Warren (among the most stalwart progressives in the Senate) is [choosing her battles](https://www.facebook.com/senatorelizabethwarren/posts/716640075165155) -- but to many of her commenters, anything short of obstruction is a betrayal. That same sort of [ideological purity test](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) is what hollowed out the leadership of the Republican Party, making room for Trump in the first place.
 
@@ -24,36 +22,27 @@ A Sanders- or Tea-Party-style insurgency would also lay bare the Democratic Part
 
 
 
+---
 
+---
 
+---
 
-
-
-
-[electorate is 30% nonwhite](https://www.nytimes.com/interactive/2016/11/08/us/politics/election-exit-polls.html) and that chunk voted for Hillary three-to-one
-
-[Black voters cast 40% of the ballots and Bernie lost them by 50 points.](http://graphics.wsj.com/elections/2016/how-clinton-won/)
-
-[Good article about racial divide in the Democratic party](http://www.politico.com/magazine/story/2016/06/2016-bernie-sanders-hillary-clinton-democrats-race-racial-divide-213948)
-
-![Women's March Minnesota](/assets/images/womens-march-16x9.png)
-
-
+SCRATCH:
 
 big tent. pro-gun, pro-pharma, pro-life[^3] democrats.
 
+Ideological purity tests are how you build a small tent full of extremists -- who obstruct when they're in the minority and steamroll when they're in the majority.
+
+I'd much rather have a big tent centered around broad, forward-looking goals: healthcare access, racial justice, livable wages, etc. If that means supporting pro-gun progressives in SD, or pro-pharma progressives in NJ, so be it. I don't need to agree with everyone about everything.
+
+The strength of a coalition comes from its size, not its homogeneity.
+
 [^3]: The Women's March [excluded pro-life groups](https://www.aol.com/article/news/2017/01/25/anti-abortion-group-of-banned-womens-march-protesters-showed-up/21662068/). According to the event website, "[access to safe, legal, affordable abortion](https://www.womensmarch.com/principles/)" was an core principle of the march, so endorsing a pro-life presence would have muddled the message. Recall Occupy Wall Street: protests can't be powerful unless they're coherent. However, in practice, the event was more or less a rally for the Democratic Party. Pro-life Democrats exist, and they deserve a place under the tent. (If the DNC only supported across-the-board progressives, it would be unable to compete for Senate seats in conservative states.)
-
-
 
 [80% of marchers were in Obama/Clinton states](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/)
 
 [Sen Booker says](http://www.latimes.com/nation/la-na-pol-womens-march-live-cory-booker-women-s-march-is-not-a-1485028604-htmlstory.html) "This is not a Democrat or Republican thing. This is actually something we can all unify around."
-
-
-
-
-I don't want to see organizers concentrate their focus on white millenials, taking [captured](https://fivethirtyeight.com/features/black-voters-are-so-loyal-that-their-issues-get-ignored/) voting blocs for granted.
 
 ---
 
@@ -62,26 +51,6 @@ But maybe I'm wrong. In the era of social media, maybe cynicism beats optimism. 
 Look at the past eight years. Obama was charismatic. He presided over a [strong economy](https://fivethirtyeight.com/features/the-jobs-recovery-may-not-be-flashy-but-its-strong/). He ended the unpopular [Iraq war](http://www.politifact.com/truth-o-meter/promises/obameter/subjects/iraq/), and caught Osama Bin Laden. His administration was not involved in any major scandals. And yet Republicans were able to leverage anti-Obama rhetoric into massive electoral gains -- they control both houses of Congress, [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states (compared to 4 for the Democrats), the presidency, and a [bonus SCOTUS seat](https://en.wikipedia.org/wiki/Merrick_Garland_Supreme_Court_nomination) to boot.
 
 Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.
-
----
-
-white voters have less sway on the left. that might make it more difficult to build a left wing tea party.
-
----
-
-Tea party is intellectually bankrupt. Anti-intellectual. No platform -- just opposition. Willing to burn it all to the ground to deny the president victories.
-
----
-
-the strength of a coalition comes from its size, not its homogeneity.
-
----
-
-Ideological purity tests are how you build a small tent full of extremists -- who obstruct when they're in the minority and steamroll when they're in the majority.
-
-I'd much rather have a big tent centered around broad, forward-looking goals: healthcare access, racial justice, livable wages, etc. If that means supporting pro-gun progressives in SD, or pro-pharma progressives in NJ, so be it. I don't need to agree with everyone about everything.
-
-The strength of a coalition comes from its size, not its homogeneity.
 
 ---
 
