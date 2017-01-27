@@ -41,6 +41,11 @@ To compete for Senate seats in Louisiana, maybe Democrats need to be comfortable
 
 The strength of a coalition comes from its size, not its homogeneity.
 
+Millions of Americans voted for Obama in 2008 and 2012, then Trump in 2016. Is there room under the tent for whom [economic anxiety](https://fivethirtyeight.com/features/stop-saying-trumps-win-had-nothing-to-do-with-economics/) eclipses all other considerations? Such voters could perhaps be reclaimed by economic policy that benefits rural areas as well as urban ones -- and they certainly won't be attracted by self-righteous condemnation of Trump voters. 
+
+Likely that Trump's infrastructure plan will fall short of promises/needs: http://thehill.com/policy/transportation/306847-five-things-to-know-about-trumps-infrastructure-plan
+
+
 ---
 
 But maybe I'm wrong. In the era of social media, maybe cynicism beats optimism. Maybe the left is losing because it's bringing 20th-century strategies to 21st-century elections.
