@@ -51,20 +51,16 @@
             </div>
         </div>
 
-
-
         <div class="uno-mas-layer">
             <div class="uno-mas-wrap">
-                <a href="" onclick="nextPost(); return false;" touchstart="nextPost(); return false;">
+                {% assign arrow-title = page.title | replace: "'", "\\'"  %}
+                <a href="" onclick="unoMas('{{ arrow-title }}'); return false;">
                     <div class="uno-mas">
-                        UNO MAS!
+                        uno mas
                     </div>
                 </a>
             </div>
         </div>
-
-
-
 
         <div class="full-head">
             <div class="head" id="head">

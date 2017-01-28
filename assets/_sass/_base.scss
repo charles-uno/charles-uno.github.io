@@ -19,6 +19,12 @@ $caption-size: 12px;
 // h2-size
 // h3-size
 
+$uno-mas-size: 22px;
+
+$uno-mas-radius: 30px;
+
+
+
 // Colors
 
 $text-color: #222;
@@ -29,7 +35,7 @@ $bold-color-1: #08a;
 $bold-color-2: #069;
 $bold-color-3: #048;
 
-// Maximize contrast on the logo, index tiles, etc. Use the paper color or the shadow color, whichever is brighter. 
+// Maximize contrast on the logo, index tiles, etc. Use the paper color or the shadow color, whichever is brighter.
 $contrast-color: $shadow-color;
 
 // Big-picture layout
@@ -38,7 +44,7 @@ $content-width: 800px;
 $text-width: 500px;
 $pad: 10px;
 $half-pad: 5px;
-// For mobile, make sure there is some breathing room between the edge of the text field and the edge of the window. 
+// For mobile, make sure there is some breathing room between the edge of the text field and the edge of the window.
 $side-pad: 15px;
 
 $head-glyph-size: 15px;
