@@ -24,3 +24,7 @@ Banana bread french toast is decadent on its own; syrup is not necessary (though
 
 ![Banana bread french toast](/assets/images/banana-bread-french-toast-16x9.png)
 *One slice is typical. Two slices is ambitious. Three slices is madness.*
+
+<!-- hr before footnotes -->
+
+---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Women's March"
+title: "Optimism and Cynicism at the Women's March"
 image: "/assets/images/womens-march-thumb.png"
 description: ""
 ---
@@ -27,11 +27,38 @@ Rather than allowing a single faction to hijack the agenda, it seems to me that 
 
 [^9]: A pro-choice Democrat and a pro-life Democrat will perhaps never come to an agreement on abortion policy. But odds are pretty good that they'll be able to find shared ground on education, energy, gun control, infrastructure, immigration, social security...
 
+Almost by definition, if the Democratic Party wants to represent a majority coalition, its message needs to resonate with centrist voters. Millions of Americans voted for Obama in 2008 and 2012, then Trump in 2016, due in part to [economic anxiety](https://fivethirtyeight.com/features/stop-saying-trumps-win-had-nothing-to-do-with-economics/). Such voters could perhaps be reclaimed by economic policies that benefit rural communities as well as urban ones (especially if Trump's infrastructure plan is as [toothless](http://thehill.com/policy/transportation/306847-five-things-to-know-about-trumps-infrastructure-plan) as it seems) -- they certainly won't be won over by [scorn](http://www.slate.com/articles/news_and_politics/politics/2016/11/there_is_no_such_thing_as_a_good_trump_voter.html) or [shaming](https://www.washingtonpost.com/posteverything/wp/2017/01/27/in-venezuela-we-couldnt-stop-chavez-dont-make-the-same-mistakes-we-did/).
+
 ![Don't Tread On Me](/assets/images/womens-march-snake-16x9.png)
 
-It's also possible that I'm completely backwards. In the era of social media, maybe cynicism beats optimism. Maybe the left is losing because it's bringing 20th-century strategies to 21st-century contests.
+It's also possible that my instincts are completely backwards. In the era of social media, maybe cynicism beats optimism. Maybe the left is losing because it's bringing 20th-century strategies to 21st-century contests.
 
 After all, look at the past eight years. Obama was charismatic. He presided over a [strong economy](https://fivethirtyeight.com/features/the-jobs-recovery-may-not-be-flashy-but-its-strong/). He ended the unpopular Iraq war, caught Osama Bin Laden, and was not involved in any major scandals. And yet Republicans were able to leverage anti-Obama rhetoric to make massive electoral gains -- they control both houses of Congress, [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states (compared to 4 for the Democrats), the presidency, and a [bonus SCOTUS seat](https://en.wikipedia.org/wiki/Merrick_Garland_Supreme_Court_nomination) to boot.
+
+The optimistic left and the cynical left are both out in force.
+
+I don't know which camp will come out ahead
+
+I don't know which has a better strategy for the 21st century.
+
+
+
+
+I know which camp I'm in. What I don't know is which will come out on top --
+
+
+
+I know which camp I'm in -- but I don't know which will come out on top, or
+
+
+But I don't know which side will come out on top
+
+
+.. but I don't know which half will win
+
+
+
+
 
 [NEED A SENTENCE OR TWO HERE TO CLOSE IT OUT. "I don't know what the future of politics looks like on the left"]
 
@@ -45,9 +72,6 @@ Such Republican dominance hasn't been seen [since the Civil War](http://www.foxn
 
 ---
 
-Millions of Americans voted for Obama in 2008 and 2012, then Trump in 2016. Is there room under the tent for people who weigh their [economic anxiety](https://fivethirtyeight.com/features/stop-saying-trumps-win-had-nothing-to-do-with-economics/) above all else? Such voters could perhaps be reclaimed by economic policy that benefits rural areas as well as urban ones -- and they certainly won't be attracted by self-righteous condemnation of Trump voters.
-
-Likely that Trump's infrastructure plan will fall short of promises/needs: http://thehill.com/policy/transportation/306847-five-things-to-know-about-trumps-infrastructure-plan
 
 ---
 
