@@ -56,7 +56,11 @@
                 {% assign arrow-title = page.title | replace: "'", "\\'"  %}
                 <a href="" onclick="unoMas('{{ arrow-title }}'); return false;">
                     <div class="uno-mas">
-                        uno mas
+                {% if page.title %}
+                    uno mas
+                {% else %}
+                    uno
+                {% endif %}
                     </div>
                 </a>
             </div>
