@@ -35,32 +35,7 @@ It's also possible that my instincts are completely backwards. In the era of soc
 
 After all, look at the past eight years. Obama was charismatic. He presided over a [strong economy](https://fivethirtyeight.com/features/the-jobs-recovery-may-not-be-flashy-but-its-strong/). He ended the unpopular Iraq war, caught Osama Bin Laden, and was not involved in any major scandals. And yet Republicans were able to leverage anti-Obama rhetoric to make massive electoral gains -- they control both houses of Congress, [trifectas](https://ballotpedia.org/Gubernatorial_and_legislative_party_control_of_state_government) in 25 states (compared to 4 for the Democrats), the presidency, and a [bonus SCOTUS seat](https://en.wikipedia.org/wiki/Merrick_Garland_Supreme_Court_nomination) to boot.
 
-The optimistic left and the cynical left are both out in force.
-
-I don't know which camp will come out ahead
-
-I don't know which has a better strategy for the 21st century.
-
-
-
-
-I know which camp I'm in. What I don't know is which will come out on top --
-
-
-
-I know which camp I'm in -- but I don't know which will come out on top, or
-
-
-But I don't know which side will come out on top
-
-
-.. but I don't know which half will win
-
-
-
-
-
-[NEED A SENTENCE OR TWO HERE TO CLOSE IT OUT. "I don't know what the future of politics looks like on the left"]
+The optimistic left and the cynical left are both out in force. I know which camp I'm in -- but I don't know if my camp can win.
 
 <!-- hr before footnotes -->
 
@@ -69,9 +44,6 @@ But I don't know which side will come out on top
 {% comment %}
 
 Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.
-
----
-
 
 ---
 
