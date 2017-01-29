@@ -88,14 +88,22 @@ box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
 
 .glyph-wrapper {
     font-size: $head-glyph-size;
+
     border-radius: 0.5*$head-glyph-wrap-size;
     overflow: hidden;
-    background-color: $contrast-color;
-    color: $text-color;
+//    background-color: $contrast-color;
+
+    border: 2px solid $contrast-color;
+    color: $contrast-color;
+
+//    color: $text-color;
+
     // Flip the colors on hover.
     &:hover {
-        color: $contrast-color;
-        background-color: $text-color;
+//        color: $contrast-color;
+//        background-color: $text-color;
+        border: 2px solid $text-color;
+        color: $text-color;
     }
 }
 
@@ -104,12 +112,9 @@ box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
 div.full-head {
     z-index: 99;
     top: 0px;
-
--webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
--moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-
-
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
 //    box-shadow: 0 $half-pad $pad rgba(0, 0, 0, 0.2);
     position: fixed;
     background: radial-gradient($bold-color-1, $bold-color-3);
@@ -160,6 +165,17 @@ div.wrap-head {
 
 #logo {
     font-size: $logo-size;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-family: $logo-font;
+//    letter-spacing: 3px;
+    color: $contrast-color;
+    &:hover {
+        color: $text-color;
+    }
+
+/*
     .title-base { color: $text-color; }
     .title-accent { color: $contrast-color; }
     &:hover {
@@ -169,11 +185,9 @@ div.wrap-head {
     letter-spacing: -3px;
     font-family: $logo-font;
     font-weight: 400;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
     // Shift the baseline up just a little bit.
     margin-top: -0.05*$logo-size;
+*/
 }
 
 // Formatting for the filter input box.
@@ -231,9 +245,7 @@ div.main {
 }
 
 div.left-flank-main {
-
     background-color: $shadow-color;
-
 /*
     // In case of no gradient support
     background: $shadow-color;
@@ -249,9 +261,7 @@ div.left-flank-main {
 }
 
 div.right-flank-main {
-
     background-color: $shadow-color;
-
 /*
     // In case of no gradient support
     background: $shadow-color;

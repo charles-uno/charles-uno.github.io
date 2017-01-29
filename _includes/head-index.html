@@ -1,7 +1,12 @@
 
 <div class="wrap-head" id="wrap-head-default">
     <a href="" id="logo" onclick="return false;">
+
+        {{ site.title }}
+
+        {% comment %}
         {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+        {% endcomment %}
     </a>
     <a onclick="headActive(); return false;">
         <span class="glyph-nowrapper">

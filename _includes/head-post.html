@@ -8,7 +8,11 @@
 
 <div class="wrap-head" id="wrap-head-default">
     <a id="logo" href="{{ site.baseurl }}/">
+        {{ site.title }}
+
+        {% comment %}
         {% if site.htmltitle %}{{ site.htmltitle }}{% else %}{{ site.title }}{% endif %}
+        {% endcomment %}
     </a>
     <a ontouchstart="headActive(); return false;" onclick="headActive();">
         <span class="glyph-nowrapper">
