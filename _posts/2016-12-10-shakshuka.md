@@ -3,6 +3,7 @@ layout: post
 title: "Shakshuka"
 image: "/assets/images/shakshuka-thumb.png"
 description: "This spicy egg and tomato dish is perfect for brunch, dinner, or brunch-for-dinner."
+keywords: food, entree, vegetarian, healthy
 ---
 
 Turn on the oven to 200C (400F). Roast **2 red bell peppers** for about 45 minutes, until blackened on the outside. When they come out of the oven, put them immediately into a bowl and cover them with a towel to steam. Leave the oven on.

@@ -3,6 +3,7 @@ layout: post
 title: "Aunt Mary's Cranberries"
 image: "/assets/images/aunt-marys-cranberries-thumb.png"
 description: A simple side filled with fresh fruit flavor.
+keywords: food, fruit, side dish, holidays
 ---
 
 This recipe assumes a large food processor. If yours is more modestly sized, it may be better to do half at a time.

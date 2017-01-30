@@ -9,7 +9,7 @@ var posts = [
             "thumbnail": "{{ post.image }}",
             "url": "{{ site.baseurl }}{{ post.url }}",
             {% assign words = "" | split: "|" %}
-            {% capture content_plus %}{{ post.title }} {{ post.description }} {{ post.content }}{% endcapture %}
+            {% capture content_plus %}{{ post.title }} {{ post.description }} {{ post.content }} {{ post.keywords }}{% endcapture %}
             {% assign raw_words = content_plus
                 | strip_html
                 | downcase
