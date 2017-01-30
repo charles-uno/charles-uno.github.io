@@ -3,6 +3,7 @@ layout: post
 title: "Sausage, Kale, and Garbanzo Skillet"
 image: "/assets/images/garbanzo-kale-sausage-thumb.png"
 description: "This recipe is great for lunch the next day! It's pretty healthy, it reheats well, and it fills you up without making you tired."
+keywords: food, entrees, leftovers, cast iron skillet, healthy
 ---
 
 In a large skillet, start **800 mL garbanzo beans** (28oz, two cans) on high heat with a splash of **olive oil**. Stir intermittently until the beans start to brown, about 5 minutes.

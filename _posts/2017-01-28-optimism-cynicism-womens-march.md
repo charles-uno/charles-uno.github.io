@@ -3,6 +3,7 @@ layout: post
 title: "Optimism and Cynicism at the Women's March"
 image: "/assets/images/womens-march-thumb.png"
 description: "Team Bernie and Team Hillary were both out in force. I know which camp I'm in, but I don't know if my camp can win."
+keywords: politics, tea party, protest, feminism, 2016 election, 2016 primaries, bernie sanders, donald trump, hillary clinton
 ---
 
 The day after Trump was sworn in as president, [Women's March](https://www.womensmarch.com/) protests drew an estimated 3.2M people -- [ten times as many](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/) as the Tea Party protests that followed Obama's inauguration in 2009. I attended the march at the Minnesota Capitol, which drew about 100k people, and came away conflicted.

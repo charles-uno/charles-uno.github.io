@@ -3,6 +3,7 @@ layout: post
 title: "Banana Bread French Toast"
 image: "/assets/images/banana-bread-french-toast-thumb.png"
 description: "A decadent treat for Saturday morning or Sunday night."
+keywords: food, dessert, breakfast, brunch, vegetarian, chocolate, fruit
 ---
 
 Combine **150 ml brown sugar** (2/3 c), **75 ml softened butter** (1/3 c, or 2/3 stick), **1 egg**, and **5 ml vanilla** (1 t). Add **4 overripe bananas**[^1]. In a separate bowl, mix **250 ml whole wheat flour** (1 c) with **5 ml salt** (1 t) and **5 ml baking soda** (1 t). Gradually mix the dry ingredients into the wet ingredients. The mixture should have about the consistency of mixed-up yogurt; if it's too soupy, you may need to add a bit more flour.
