@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 permalink: /debug/
 ---
 
@@ -25,5 +25,5 @@ The following keywords are used in posts.
 {% assign keywords = keywords | sort %}
 
 {% for word in keywords %}
-word
+- {{ word }}
 {% endfor %}
