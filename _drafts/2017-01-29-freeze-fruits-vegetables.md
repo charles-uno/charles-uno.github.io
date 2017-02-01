@@ -16,6 +16,19 @@ With good timing, you can get a *lot* for your money. At the end of the season, 
 
 ![](/assets/images/freeze-strawberries-bags-16x9.png)
 
+---
+
+TODO -- file paths for peppers should be `freeze-peppers*` not `frozen-peppers*` to be consistent with the strawberries. 
+
+![](/assets/images/frozen-peppers-prep-16x9.png)
+
+![](/assets/images/frozen-peppers-16x9.png)
+
+![](/assets/images/frozen-peppers-bag-16x9.png)
+
+---
+
+![](/assets/images/frozen-tomatoes-16x9.png)
 
 
 I particularly like to stock up on ripe (red) jalapeño peppers. Compared to the green ones, they are sweeter and fruitier. Usually can't find them in the store. Very useful in the winter -- spicy tequila, chili, etc.
