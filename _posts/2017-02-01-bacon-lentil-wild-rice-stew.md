@@ -15,7 +15,7 @@ In a large, deep pan, start **600ml of chopped bacon** (a pound) low and slow, r
 ![Ingredients](/assets/images/bacon-lentil-wild-rice-ingredients-16x9.png)
 *The vegetables will cook way down, and the wild rice and lentils will cook way up!*
 
-Pour in **4000ml broth** and **4000ml water** (2 quarts of each)[^1], then stir in **500ml dry wild rice**, **500ml dry red lentils** (2 cups each), and **900ml chopped carrots** and **900ml chopped celery** (3.5 cups each).
+Pour in **4000ml [broth](/broth/)** and **4000ml water** (2 quarts of each)[^1], then stir in **500ml dry wild rice**, **500ml dry red lentils** (2 cups each), and **900ml chopped carrots** and **900ml chopped celery** (3.5 cups each).
 
 Bring to a boil, then reduce the heat. Boil uncovered, stirring once in a while, until the rice and lentils are cooked and the carrots are soft. This should take about an hour.
 
