@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forward not Backward"
-image: "/assets/images/placeholder-06-thumb.png"
+image: "/assets/images/miniature-dwarf-male-thumb.png"
 description: ""
 ---
 
