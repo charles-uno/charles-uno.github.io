@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Forward not Backward"
+title: "Obamacare is not Prohibition"
 image: "/assets/images/miniature-dwarf-male-thumb.png"
-description: ""
+description: "Institutions create expectations. There's no such thing as a clean repeal."
 ---
 
 In 1920, the [Eighteenth Amendment](https://en.wikipedia.org/wiki/Eighteenth_Amendment_to_the_United_States_Constitution) to the US Constitution prohibited the "manufacture, sale, or transportation of intoxicating liquors." More than a decade later, the [Twenty-First Amendment](https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution) ended Prohibition in a single sentence[^1]:
