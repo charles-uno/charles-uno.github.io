@@ -27,6 +27,8 @@ Loss of tax revenue
 
 Proliferation of organized crime
 
+Prohibition didn't create so much of an expectation because it wasn't enforced? 
+
 Abortion, campaign finance, and healthcare are way more complicated than the legality of booze.
 
 ---
@@ -54,6 +56,10 @@ Super-close elections are not actually that common, so 2000 is probably the only
 ---
 
 Obamacare is made up of many interlocking pieces
+
+http://www.thedailybeast.com/articles/2017/01/25/maybe-on-obamacare-republicans-should-just-punt.html
+
+Obamacare created the expectation that the government ensure everyone has healthcare. 
 
 ---
 
@@ -89,7 +95,9 @@ http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)61786-8/abstra
 https://www.amazon.com/Abortion-United-States-Steichen-Calderone/dp/B000H7N1PW
 
 
+Nobody has outlawed abortion, but some states have gotten close. Hard to say what the abortion rate was before roe, but in those states there is evidence that DIY abortion is on the rise. 
 
+https://www.nytimes.com/2016/03/06/opinion/sunday/the-return-of-the-diy-abortion.html
 
 data from 1990-1994, 2010-2014. in both cases, no statistically significant correlation between abortion rate and legality.
 
