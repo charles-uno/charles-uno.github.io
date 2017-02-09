@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Obamacare is not Prohibition"
+title: "The Law of the Land"
 image: "/assets/images/miniature-dwarf-male-thumb.png"
 description: "Institutions create expectations. There's no such thing as a clean repeal."
 ---
