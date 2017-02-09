@@ -13,7 +13,45 @@ In 1920, the [Eighteenth Amendment](https://en.wikipedia.org/wiki/Eighteenth_Ame
 
 There's an undeniable appeal to such crisp, concise finality. It cuts straight to the heart of the issue -- no appendix, no jargon, no mandates, no thresholds. Its meaning is immediately clear to lawmakers and laypeople alike.
 
-Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658).
+Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658) and scrap the Electoral College in favor of a national popular vote. 
+
+In this respect, both sides are wrong. A complete reversal of an earlier policy is both impractical and undemocratic. 
+
+---
+
+From a practical standpoint, none of these issues are as straightforward as they are made out to be. 
+
+Before Citizens United, campaign finance was even messier than it is now. Jan Balan [wrote](http://www.scotusblog.com/2016/09/the-court-after-scalia-campaign-finance-law-wonderland/) on SCOTUSblog
+
+> The current political rallying cry of critics ... is "reverse Citizens United!" This implies that all will be well if only that case is reversed, that there was a reasonable if not idyllic state of campaign finance prior to Citizens United. There was not. The laws struck down in Citizens United were merely the most recent regulatory gimmicks that met an unconstitutional fate, and there are decades of prior cases in the field which created a regulatory regime not contemplated by the original laws.
+
+Some suggestion that the UK may have a [better model](https://www.washingtonpost.com/news/the-fix/wp/2015/05/12/daily-show-takes-on-the-mercifully-short-relatively-cheap-uk-election/) for campaign finance -- their election seasons are short, and far less money is spent. But the analogy is weak. The United States has 5x the population of the UK, spread over 40x the landmass. Plus, unlike the UK, we elect our executive directly (whereas the Prime Minister is chosen by Parliament). 
+
+Obamacare is many interlocking pieces. The preexisting conditions clause is overwhelmingly popular... but it relies on the unpopular individual mandate. 
+
+Repeal is tricky because -- per [Matt Lewis](http://www.thedailybeast.com/articles/2017/01/25/maybe-on-obamacare-republicans-should-just-punt.html), a consistent critic of Obamacare:
+
+> No matter the fate of the Affordable Care Act, former President Barack Obama already accomplished a huge legacy-guaranteeing paradigm shift: It is now understood that it is the federal government’s job to make sure everyone has access to health care insurance. 
+
+
+
+
+
+---
+
+---
+
+---
+
+
+
+
+
+
+
+
+
+
 
 If only it were that simple!
 
@@ -28,6 +66,20 @@ Loss of tax revenue
 Proliferation of organized crime
 
 Prohibition didn't create so much of an expectation because it wasn't enforced? 
+
+We still have weird laws and baggage about booze. 
+
+---
+
+Slavery! 
+
+13th amendment did not abolish slavery in non-rebelling states
+
+13th amendment has an exception -- slavery is still allowed as punishment for a crime. 
+
+a century later, the Civil Rights Movement was clearly still dealing with the same baggage. 
+
+---
 
 Abortion, campaign finance, and healthcare are way more complicated than the legality of booze.
 
@@ -54,21 +106,6 @@ In 2000, Florida was very close. The election results were in limbo for a month 
 Super-close elections are not actually that common, so 2000 is probably the only example we need. Imagine if we had to recount the whole country instead of just one state.
 
 ---
-
-Obamacare is made up of many interlocking pieces
-
-http://www.thedailybeast.com/articles/2017/01/25/maybe-on-obamacare-republicans-should-just-punt.html
-
-Obamacare created the expectation that the government ensure everyone has healthcare. 
-
----
-
-Jan Balan [wrote](http://www.scotusblog.com/2016/09/the-court-after-scalia-campaign-finance-law-wonderland/) on SCOTUSblog
-
-> The current political rallying cry of critics ... is "reverse Citizens United!" This implies that all will be well if only that case is reversed, that there was a reasonable if not idyllic state of campaign finance prior to Citizens United. There was not. The laws struck down in Citizens United were merely the most recent regulatory gimmicks that met an unconstitutional fate, and there are decades of prior cases in the field which created a regulatory regime not contemplated by the original laws.
-
----
-
 
 1967 paper estimating 800k abortions per year in the US:
 
