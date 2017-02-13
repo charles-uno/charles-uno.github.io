@@ -1,34 +1,32 @@
 ---
 layout: post
-title: "Freezing Fruits and Vegetables"
-image: "/assets/images/freeze-strawberries-thumb.png"
+title: "From Farm to Freezer"
+image: "/assets/images/freezer-strawberries-thumb.png"
 description: ""
-keywords: food, fruits, vegetables, freezing, canning, preservation, farmers market, vegetarian
+keywords: food, fruits, vegetables, freezing, canning, preservation, farmers market, vegetarian, healthy
 ---
 
 Stock up on fruits and vegetables at the farmers market.
 
 With good timing, you can get a *lot* for your money. At the end of the season, it's a fire sale on big buckets of tomatoes and peppers.
 
-![](/assets/images/freeze-strawberries-prep-16x9.png)
+![](/assets/images/freezer-strawberries-prep-16x9.png)
 
-![](/assets/images/freeze-strawberries-16x9.png)
+![](/assets/images/freezer-strawberries-16x9.png)
 
-![](/assets/images/freeze-strawberries-bags-16x9.png)
-
----
-
-TODO -- file paths for peppers should be `freeze-peppers*` not `frozen-peppers*` to be consistent with the strawberries. 
-
-![](/assets/images/frozen-peppers-prep-16x9.png)
-
-![](/assets/images/frozen-peppers-16x9.png)
-
-![](/assets/images/frozen-peppers-bag-16x9.png)
+![](/assets/images/freezer-strawberries-bags-16x9.png)
 
 ---
 
-![](/assets/images/frozen-tomatoes-16x9.png)
+![](/assets/images/freezer-peppers-prep-16x9.png)
+
+![](/assets/images/freezer-peppers-16x9.png)
+
+![](/assets/images/freezer-peppers-bag-16x9.png)
+
+---
+
+![](/assets/images/freezer-tomatoes-16x9.png)
 
 
 I particularly like to stock up on ripe (red) jalapeño peppers. Compared to the green ones, they are sweeter and fruitier. Usually can't find them in the store. Very useful in the winter -- spicy tequila, chili, etc.
