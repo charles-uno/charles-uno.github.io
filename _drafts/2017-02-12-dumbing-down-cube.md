@@ -6,11 +6,32 @@ description: ""
 keywords: magic the gathering, cube, game design
 ---
 
-It's 2005, and we're playing Kamigawa-era Standard. I attack you with my <a class="card">Savannah Lions</a>. You block with your <a class="card">Sakura-Tribe Elder</a>, put damage on the stack, then sacrifice the elder -- killing my lions and also getting yourself a land.
+It's 2005, and we're playing Kamigawa-era Standard. I attack you with my <a class="card">Savannah Lions</a>, and you block with your <a class="card">Sakura-Tribe Elder</a>.
+
+If you're a fluent player,
+
+
+, put damage on the stack, then sacrifice the elder -- killing my lions and also getting yourself a land.
+
+> The basic rules don't talk about the steps of combat. Comprehensive rules are over 200 pages.
 
 The *Magic 2010* rules update put an end to those kinds of shenanigans by taking damage off the stack. Since then, when you block my lions with your elder, you have to make a choice. You can kill the lions, or you can get yourself a land, but you can't do both.
 
+<!--
 At the time, this change was decried as "dumbing down the game," but that objection conflates the complexity of a game's strategy with the complexity of its rules. In fact, history's best games -- Backgammon, Chess, Go, Poker, etc -- demonstrate that a game with deep, engaging strategy need not be burdened with layers of bookkeeping.
+-->
+
+I don't remember having strong opinions at the time, but in hindsight I think the rules change was clearly correct. Stacking damage didn't make the game more fun, more interesting, or more skill-intensive.
+
+
+
+
+It was just one more rule that new players had to learn before becoming fluent.
+
+<!-- hoop to jump through -->
+
+
+
 
 ---
 
