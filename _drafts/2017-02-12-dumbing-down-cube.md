@@ -11,6 +11,13 @@ It's 2005, and we're playing Kamigawa-era Standard. I attack you with my <a clas
 If you're a fluent player,
 
 
+
+The elder shows up to fight the lion, throws a punch. Before the punch lands, he bails to plant a garden. But the punch still lands and knocks out the lion. 
+
+
+
+
+
 , put damage on the stack, then sacrifice the elder -- killing my lions and also getting yourself a land.
 
 > The basic rules don't talk about the steps of combat. Comprehensive rules are over 200 pages.

@@ -6,6 +6,29 @@ description: ""
 keywords: food, fruits, vegetables, freezing, canning, preservation, farmers market, vegetarian, healthy
 ---
 
+If you live in a metropolitan area, you're probably not far from a local farmers market. These markets are a great, budget-friendly way to get some extra vegetables into your diet, as well as to support your local farmers. Unlike grocery stores, which ship in produce from Mexico, California, and other regions with year-round growing seasons, local farmers markets (typically) source locally. As a result, different kinds of produce are available at different times of year; asparagus grows in the spring, apples in the fall, etc.
+
+Farmers markets can't be beat in terms of freshness; picked-this-morning snap peas are much sweeter and crunchier than the ones you buy at the store. Not only that, but farmers markets often have unusual varieties of vegetable -- purple cauliflower, dragon carrots, ground cherries, etc -- that groceries don't usually carry.
+
+The downside of farmers markets is seasonal variation. Whereas the grocery has tomatoes year-round, the farmers market only has them for a month or two each year.
+
+
+
+
+
+
+Seasonally-varying produce selection might sound inconvenient, but with a little bit of work it can be a huge
+
+
+
+
+
+
+
+---
+
+
+
 Stock up on fruits and vegetables at the farmers market.
 
 With good timing, you can get a *lot* for your money. At the end of the season, it's a fire sale on big buckets of tomatoes and peppers.
