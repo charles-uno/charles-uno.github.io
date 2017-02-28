@@ -31,22 +31,13 @@ Once you get the hang of freezing, you can try roasting your veggies before you 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
-![](/assets/images/freezer-tomatoes-16x9.png)
+![Roasted tomatoes before being frozen](/assets/images/freezer-tomatoes-16x9.png)
+*Roasted tomatoes have a stronger flavor than fresh ones. They also take up less room in the freezer.*
+
+
+
 
 OPTIONALLY, you can roast the vegetables before you freeze them!
 
