@@ -1,78 +1,52 @@
 ---
 layout: post
 title: "From Farm to Freezer"
-image: "/assets/images/freezer-strawberries-thumb.png"
+image: "/assets/images/freezer-peppers-thumb.png"
 description: ""
 keywords: food, fruits, vegetables, freezing, canning, preservation, farmers market, vegetarian, healthy
 ---
 
 If you live in a metropolitan area, you're probably not far from a local farmers market. These markets are a great, budget-friendly way to get some extra vegetables into your diet, as well as to support your local farmers. Unlike grocery stores, which ship in produce from Mexico, California, and other regions with year-round growing seasons, local farmers markets (typically) source locally. As a result, different kinds of produce are available at different times of year; asparagus grows in the spring, apples in the fall, etc.
 
-Farmers markets can't be beat in terms of freshness; picked-this-morning snap peas are much sweeter and crunchier than the ones you buy at the store. Not only that, but farmers markets often have unusual varieties of vegetable -- purple cauliflower, dragon carrots, ground cherries, etc -- that groceries don't usually carry.
+Seasonal swings in selection can be inconvenient week-to-week, but if you're willing to put in a little bit of time, these swings can also be an opportunity. As the season winds down, farmers are looking to unload surplus tomatoes, peppers, etc. They sell them by the bucket -- five, ten, or even twenty pounds at a time. That's way more than you could reasonably eat before it spoiled, but by freezing those veggies, you can have access to them all winter!
 
-The downside of farmers markets is seasonal variation. Whereas the grocery has tomatoes year-round, the farmers market only has them for a month or two each year.
+![Preparing red jalapeño peppers](/assets/images/freezer-peppers-prep-16x9.png)
+*In Minnesota, the farmers market is the only place to find red (ripe) jalapeño peppers. They're much more flavorful than the green ones. In the dead of winter, they're perfect for chili or jalapeño-infused tequila.*
 
+The eventual goal is to be able to reach into the freezer, grab a handful of whatever you need, and toss it right into your stir-fry, soup, or smoothie. There are two important steps to making that happen.
 
+First, fruits and vegetables should be rinsed and prepared before freezing. Stumps, skins, and seeds are much easier to remove when things are fresh. Anything larger than a strawberry should be halved, sliced, or cubed.
 
+Second, everything should be individually frozen. Freeze your veggies on a cookie sheet, then transfer them to a plastic bag. Otherwise, you'll end up chipping what you need off a single frozen block. When you zip the bag, also be sure to squeeze out as much air as you can, to minimize freezer burn.
 
-
-
-Seasonally-varying produce selection might sound inconvenient, but with a little bit of work it can be a huge
-
-
-
-
-
-
-
----
+![Frozen jalapeño peppers being transferred to a bag](/assets/images/freezer-peppers-bag-16x9.png)
+*Don't forget to label your bags with the date and contents! You don't want to confuse bell peppers with jalapeños.*
 
 
 
-Stock up on fruits and vegetables at the farmers market.
 
-With good timing, you can get a *lot* for your money. At the end of the season, it's a fire sale on big buckets of tomatoes and peppers.
 
-![](/assets/images/freezer-strawberries-prep-16x9.png)
+Once you get the hang of freezing, you can try roasting your veggies before you freeze them.
 
-![](/assets/images/freezer-strawberries-16x9.png)
 
-![](/assets/images/freezer-strawberries-bags-16x9.png)
 
----
 
-![](/assets/images/freezer-peppers-prep-16x9.png)
 
-![](/assets/images/freezer-peppers-16x9.png)
 
-![](/assets/images/freezer-peppers-bag-16x9.png)
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 ![](/assets/images/freezer-tomatoes-16x9.png)
-
-
-I particularly like to stock up on ripe (red) jalapeño peppers. Compared to the green ones, they are sweeter and fruitier. Usually can't find them in the store. Very useful in the winter -- spicy tequila, chili, etc.
-
-Don't worry about cosmetic defects. Freezing breaks the produce down a little bit, so it won't be used for pretty salads. But it'll be great for cooking.
-
-Wash thoroughly, then lay out on the pan. Try not to get excessive water on the pan.
-
-Get rid of stumps, seeds, bruises, whatever. You want to be able to toss it straight into the pan from the freezer. You don't want to thaw out a tomato and *then* try to excise the bruises.
-
-Strawberries -- rinse and remove the stems.
-
-Apples -- quarter and core. Optionally, also remove the skin. It gets a little weird when you freeze it, but if you're just making applesauce or something it won't matter.
-
-Raspberries, currants, etc -- rinse thoroughly, but try not to rupture them. They will freeze better (and come off the pan more cleanly) if they are not covered in juice.
-
-Lay out on a cookie sheet and freeze.
-
-Move from the cookie sheet to a ziplock bag.
-
-Get as much air as you can out of the bag, to minimize freezer burn.
-
-Label the bag! Date and also contents. Bell peppers and hot peppers look a lot alike when they're sliced.
 
 OPTIONALLY, you can roast the vegetables before you freeze them!
 
