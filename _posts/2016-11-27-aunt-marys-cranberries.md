@@ -8,9 +8,9 @@ keywords: food, fruit, side dish, holidays
 
 This recipe assumes a large food processor. If yours is more modestly sized, it may be better to do half at a time.
 
-Slice **one large navel orange** and remove any seeds. Combine in a food processor with **250ml sugar** (1 cup). Blend briefly to mix.
+Slice **one large navel orange** and remove any seeds. Combine in a food processor with **250 mL sugar** (1 c). Blend briefly to mix.
 
-Add **1l raw cranberries** (4 cups, about a pound). Pulse until the desired consistency is reached. The bigger the pieces, the more crunch there will be!
+Add **1 L raw cranberries** (4 c, about a pound). Pulse until the desired consistency is reached. The bigger the pieces, the more crunch there will be!
 
 ![Aunt Mary's Cranberry Relish](/assets/images/aunt-marys-cranberries-16x9.png)
 
