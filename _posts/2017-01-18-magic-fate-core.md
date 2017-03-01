@@ -59,7 +59,3 @@ Of course, framed another way, those strengths could seem like weaknesses. Putti
 The hacklable nature of Fate makes it hard to argue that there is a "best" magic system. Different things resonate with different groups. However, it does bear noting that this system adds the least-possible amount of complexity to the rules: none.
 
 > EDIT: It turns out Evil Hat already came up with this! They call it [Aspect Based Narration](http://evilhat.wikidot.com/aspect-based-naration).
-
-<!-- Pause before footnotes -->
-
----

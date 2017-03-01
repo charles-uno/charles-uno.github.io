@@ -38,10 +38,6 @@ After all, look at the past eight years. Obama was charismatic. He presided over
 
 The optimistic left and the cynical left are both out in force. I know which camp I'm in -- but I don't know if my camp can win.
 
-<!-- hr before footnotes -->
-
----
-
 {% comment %}
 
 Such Republican dominance hasn't been seen [since the Civil War](http://www.foxnews.com/politics/2016/11/18/republicans-build-on-their-dominance-in-state-legislatures.html) era.

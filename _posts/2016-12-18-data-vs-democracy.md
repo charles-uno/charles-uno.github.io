@@ -63,10 +63,6 @@ Advances in information technology are not the whole story, of course. America h
 
 Billionaires aren't forcing us to tune in to 24-hour political coverage. Immigrants aren't to blame for grassroots political insurgencies. It's not the media's fault that [half of Facebook users](http://www.pewinternet.org/2015/01/09/frequency-of-social-media-use-2/) log on multiple times every day. Democrat and Republican, rich and poor, urban and rural, we are all part of the problem. And I don't know what the solution looks like, but we'll all need to be a part of that as well.
 
-<!-- Horizontal rule before the footnotes -->
-
----
-
 <!--
 Pizzagate -- how conspiracy theories spread.
 http://www.bbc.com/news/blogs-trending-38156985

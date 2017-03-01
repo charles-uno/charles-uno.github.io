@@ -27,7 +27,3 @@ Shortly before serving, stir in **1.8 L chopped kale** (7 c). Within about a min
 *The resulting stew is quite thick, since the lentils and wild rice soak up most of the broth as they cook.*
 
 This stew is great for leftovers -- it's dense and it reheats well. It's even pretty healthy!
-
-<!-- hr before footnotes -->
-
----

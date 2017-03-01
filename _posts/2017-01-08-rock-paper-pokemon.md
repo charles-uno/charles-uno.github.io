@@ -84,6 +84,3 @@ There are two big changes. First, each of the new interactions is symmetrical; W
 [^3]: As far as symmetry is concerned, some type interactions make more sense than others. When you drop a toaster into the bathtub, whatever's in the water gets fried... but it also does a number on the wiring! That's a level of realism that we have sacrificed in exchange for simplicity.
 
 [Historically](https://www.buzzfeed.com/rdicker23/the-definitive-ranking-of-pokemon-types-11paq), a few types were good for attacking (super effective against a bunch of different types), a few types were good for defending (resistant to a bunch of different types), and a bunch of types were bad. Here, instead, each type starts with the same potential.
-
-<!-- hr before the footnotes -->
----
