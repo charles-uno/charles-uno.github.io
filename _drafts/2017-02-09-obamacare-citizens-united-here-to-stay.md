@@ -19,12 +19,52 @@ That said, a wonkish solution would likely have been better[^5] than an outright
 
 [^3]: Prohibition was laid out in the Eighteenth Amendment. Enforcement came a year later in the Volstead Act. The 0.5% alcohol threshold in the Volstead Act was unexpectedly low -- many had expected beer (and even wine) to remain legal, as had been the case in local juristictions. Furthermore, the "concurrent power" clause gave the federal enforcers too much responsibility without enough resources, allowing crime organizations to operate lucrative black markets. [Read more...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1470475/)
 
-Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658) and [scrap the Electoral College](http://thehill.com/blogs/floor-action/senate/306121-dem-senator-introducing-bill-to-abolish-electoral-college) in favor of a national popular vote. 
-
-In this respect, both sides are wrong. A complete reversal of an earlier policy is impractical, undemocratic, and ultimately a waste of everyone's time. 
+Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658) and [scrap the Electoral College](http://thehill.com/blogs/floor-action/senate/306121-dem-senator-introducing-bill-to-abolish-electoral-college) in favor of a national popular vote. In this respect, both sides are wrong. A complete reversal of an earlier policy is impractical, undemocratic, and ultimately a waste of everyone's time. 
 
 ---
 
+At its most fundamental level, democracy is about finding a bunch of people who disagree with one another, locking them in a room together, and yelling at them about our problems. 
+
+The results are ugly, because they're not trying to find the perfect solution -- they're trying to kludge together majority approval. 
+
+They can come back later and fix it. 
+
+They do their best to solve those problems without creating new ones. The results are inevitably ugly, because it's not about being right, or finding the perfect solution -- it's about kludging together something that most people find acceptable, then moving on to the next problem. 
+
+
+
+
+In the case of Obamacare, the problem was that healthcare was expensive, 
+
+
+
+
+Because of the open-ended nature of democratic reform, no question is ever truly resolved. It's always possible to come back to it later. But in practice, each successive change is smaller than the last. 
+
+
+The original solution wasn't perfect, but it generally solved a problem. If you repeal it, you have to deal with that problem all over again. 
+
+Majority finds it to be a net win. 
+
+
+
+
+
+- Getting bipartisan support by watering things down. 
+- Writing up something rough and letting the courts sort out the details. 
+
+No question is ever truly settled, but iterating brings convergence. 
+
+
+
+
+
+
+
+
+It's not about being right, or finding the perfect solution, so much as it is about finding a compromise that everyone can live with. 
+
+https://en.wikipedia.org/wiki/Wisdom_of_the_crowd
 
 Each is an imperfect solution to a real problem. Even if the solution is unpopular, there are probably parts that are popular -- for example, preexisting conditions in Obamacare. A clean repeal means we have to solve that old problem all over again. 
 
