@@ -11,9 +11,26 @@ In 1920, the [Eighteenth Amendment](https://en.wikipedia.org/wiki/Eighteenth_Ame
 
 [^1]: The complete text is actually three sentences, but you get the idea. 
 
-There's an undeniable appeal to such crisp, concise finality. It cuts straight to the heart of the issue -- no appendix, no jargon, no mandates, no thresholds. Good or bad[^2], its meaning is immediately clear to lawmakers and laypeople alike.
+There's an undeniable appeal to such crisp, concise finality. It cuts straight to the heart of the issue -- no appendix, no jargon, no mandates, no thresholds. Its meaning is immediately clear to lawmakers and laypeople alike.
 
-[^2]: The merits of the Eighteenth and Twenty-First Amendments are a matter of [ongoing debate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1470475/). Alcoholism (and, relatedly, domestic violence) were widespread in the early 20th century. Prohibition succeeded in changing the norms surrounding alcohol consumption in ways that persisted long after its repeal. However, issues with enforcement also allowed for the rise of powerful organized crime organizations. 
+That said, a wonkish solution would likely have been better[^5] than an outright repeal. Prohibition was an imperfect solution to a very real problem. In the early 20th century, alcoholism was widespread, leading to high levels of cirrhosis, alcoholic psychosis, and domestic violence. Prohibition succeeded in changing some of the destructive cultural norms surrounding alcohol. Until the country was shaken by the onset of the Depression, prohibition was even popular. More than anything else, the problem with prohibition was in its enforcement[^3], around which there was significant room for reform. 
+
+[^5]: It's hard to say what the "correct" level of restriction is for alcohol sale and/or consumption. In the 1920s, we erred on the side of too much restriction -- but it's also possible to have too little. There are [societal costs](http://www.nytimes.com/1989/10/16/opinion/actually-prohibition-was-a-success.html) associated with alcohol, such as [10k deaths per year](https://www.cdc.gov/motorvehiclesafety/impaired_driving/impaired-drv_factsheet.html) due to drunk drivers. 
+
+[^3]: Prohibition was laid out in the Eighteenth Amendment. Enforcement came a year later in the Volstead Act. The 0.5% alcohol threshold in the Volstead Act was unexpectedly low -- many had expected beer (and even wine) to remain legal, as had been the case in local juristictions. Furthermore, the "concurrent power" clause gave the federal enforcers too much responsibility without enough resources, allowing crime organizations to operate lucrative black markets. [Read more...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1470475/)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658) and scrap the Electoral College in favor of a national popular vote. 
