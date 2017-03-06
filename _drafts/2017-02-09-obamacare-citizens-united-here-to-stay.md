@@ -9,11 +9,17 @@ In 1920, the [Eighteenth Amendment](https://en.wikipedia.org/wiki/Eighteenth_Ame
 
 > The eighteenth article of amendment to the Constitution of the United States is hereby repealed.
 
-[^1]: Well, that was the first part of it.
+[^1]: The complete text is actually three sentences, but you get the idea. 
 
 There's an undeniable appeal to such crisp, concise finality. It cuts straight to the heart of the issue -- no appendix, no jargon, no mandates, no thresholds. Its meaning is immediately clear to lawmakers and laypeople alike.
 
 Today's politicians love to talk about their own one-sentence fixes to high-profile issues. Republicans want to [repeal the Affordable Care Act](https://www.tedcruz.org/l/repeal-obamacare/), and appoint justices to the Supreme Court who will [overturn Roe v Wade](http://www.cnbc.com/2016/10/19/trump-ill-appoint-supreme-court-justices-to-overturn-roe-v-wade-abortion-case.html). Democrats want to see a [reversal of Citizens United](http://www.politico.com/story/2016/07/hillary-clinton-citizens-united-225658) and scrap the Electoral College in favor of a national popular vote. 
+
+Was it bad to repeal prohibition?[^2]
+
+[^2]: The merits of the Eighteenth and Twenty-First Amendments are a matter of [ongoing debate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1470475/). Alcoholism (and, relatedly, domestic violence) were widespread in the early 20th century. Prohibition succeeded in changing the norms surrounding alcohol consumption in ways that persisted long after its repeal. However, issues with enforcement also allowed for the rise of powerful organized crime organizations. 
+
+
 
 In this respect, both sides are wrong. A complete reversal of an earlier policy is both impractical and undemocratic. 
 
