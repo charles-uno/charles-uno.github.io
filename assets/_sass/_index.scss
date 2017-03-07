@@ -30,6 +30,21 @@
 //    @media (min-width: 600px) { width: 25%; }
 }
 
+
+
+.index-wrap {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: $shadow-color;
+    padding: 0;
+    position: relative;
+}
+
+
+
+
 .index-link {
     left: 0;
     top: 0;
@@ -39,7 +54,7 @@
     overflow: hidden;
     border: 0;
     margin: 0;
-    padding: $half-pad;
+    padding: 0;
 }
 
 .index-cell {
