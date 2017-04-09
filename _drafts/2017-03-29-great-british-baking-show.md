@@ -20,13 +20,12 @@ Admittedly, our data set isn't great. Signature challenges and showstoppers are 
 
 But even considering the kludgey data, the lack of correlation is surprising. We intuitively expect the worst bakers to be eliminated early in the season. And we expect the best bakers to perform well in the technical challenges. In the first week, those expectations do not line up with the numbers.
 
-In the second week, they do.
+In the second week, they do. 
 
 ![Episode 2: Cream Rises to the Top](/assets/images/gbbo-ep2.png)
 *Caption... and note that the R<sup>2</sup> value doubles if we leave off season 2, which has that bizarre anticorrelation.*
 
 
-8/12 of the top 3 people made it to the finals.
 
 
 ---

@@ -24,9 +24,7 @@ Tags:
 <ul id="index-list">
     {% for post in site.posts %}
         <li class="index-item">
-
             <div class="index-wrap">
-
             <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
                 <div class="index-cell">
                     <span class="index-name">{{ post.title }}</span>
@@ -34,9 +32,7 @@ Tags:
                 </div>
             </a>
             <img src="{{ post.image }}" class="index-thumb" />
-
             </div>
-
         </li>
     {% endfor %}
 </ul>

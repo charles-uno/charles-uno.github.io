@@ -49,14 +49,16 @@ function filter() {
         if(!post) { continue; }
         if( !wordsInPost( words, post.words ) ) { continue; }
         html += '<li class="index-item">' +
-            '<a href="' + post.url + '" class="index-link">' +
-                '<div class="index-cell">' +
-                  '<span class="index-date">' + post.date + '</span>' +
-                  '<h2 class="index-name">' + post.title + '</h2>' +
-                '</div>' +
-              '</a>' +
-              '<img src="' + post.thumbnail + '" class="index-thumb" />' +
-            '</li>';
+            '<div class="index-wrap">' +
+                '<a href="' + post.url + '" class="index-link">' +
+                    '<div class="index-cell">' +
+                        '<span class="index-date">' + post.date + '</span>' +
+                        '<h2 class="index-name">' + post.title + '</h2>' +
+                    '</div>' +
+                '</a>' +
+                '<img src="' + post.thumbnail + '" class="index-thumb" />' +
+            '</div>' +
+        '</li>';
     }
     // If we're not changing anything, skip the flicker.
     if (html != indexList.innerHTML) { indexList.innerHTML = html; }
