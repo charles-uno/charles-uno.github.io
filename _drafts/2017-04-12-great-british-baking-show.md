@@ -9,6 +9,16 @@ TODO: Maybe a better title?
 
 TODO: Maybe better plot titles? 
 
+Maybe use SVG instead of PNG for images? 
+
+TODO: Better color scheme for the dots. Try the seaborn color scheme:
+
+http://seaborn.pydata.org/_images/color_palettes_8_0.png
+
+https://github.com/mwaskom/seaborn/blob/master/seaborn/palettes.py
+
+TODO: Tighten plots to decrease whitespace. 
+
 Episode 1: Flat as a Pancake
 
 Episode 1: Take with a Grain of Salt
