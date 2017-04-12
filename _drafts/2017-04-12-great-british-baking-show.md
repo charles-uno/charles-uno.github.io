@@ -5,6 +5,22 @@ image: "/assets/images/gbbo-thumb.png"
 description: "The Great British Bake Off is not decided by baking skills. Rather, it tests each baker's ability to respond to Paul and Mary."
 ---
 
+TODO: Maybe a better title?
+
+TODO: Maybe better plot titles? 
+
+Episode 1: Flat as a Pancake
+
+Episode 1: Take with a Grain of Salt
+
+Episode 2: The Wheat and the Chaff
+
+Maybe add a dotted line to the plots to indicate that episode 10 is the finals?
+
+Maybe add a dotted line to the plot to show that the leftmost 3 are the top 3 technical bakers? 
+
+---
+
 After watching the first episode of the Great British Bake Off, you might think you have a sense for which bakers are at the top (and bottom) of the pile.
 
 In the first episode of Series 4 (Season 2[^1]), for example, Ruby is reduced to tears after curdling her crème pâtissière in the signature challenge; it's judged to be "awful." Then, in the technical challenge, she botches her angel food cake so badly that she has to start over... then runs out of time. She survives that episode -- Toby gets cut after mixing up salt and sugar -- but it seems like she's in over her head.
