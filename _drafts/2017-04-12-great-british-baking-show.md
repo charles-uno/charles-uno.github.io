@@ -27,7 +27,14 @@ In the second week, on the other hand, a pattern is clear:
 
 If a baker places in the top 3 in the first week's technical challenge, we haven't got a clue whether or not they'll make it to the finals. In the second week -- on average -- 2 of the top 3 technical bakers will make it to the finals.
 
-This suggests that the competition is not decided by the bakers' intrinsic abilities. Creativity, attention to detail, and time management skills would all be apparent from the beginning.
+This suggests that the competition is not decided by the bakers' intrinsic abilities. Creativity, attention to detail, and time management skills would all be apparent from the beginning. But there is one big thing the bakers have in the second episode that they didn't have in the first: experience with Paul and Mary. 
+
+In the first episode, the bakers came in blind[^2]. 
+
+
+
+
+[^2]: CHECK THIS! Probably not literally true. Not sure how auditioning works, and they are probably familiar with the show. But the first episode is the first time they get to see Paul and Mary live-judge dozens of bakes. 
 
 
 
