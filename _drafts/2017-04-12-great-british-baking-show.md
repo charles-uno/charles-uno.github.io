@@ -29,4 +29,5 @@ If a baker places in the top 3 in the first week's technical challenge, we haven
 
 This suggests that the competition is not decided by the bakers' intrinsic abilities. Creativity, attention to detail, and time management skills would all be apparent from the beginning. But there is one big thing the bakers have in the second episode that they didn't have in the first: experience with the judges. 
 
-Over the course of the first episode, the bakers see Paul and Mary give feedback on dozens of bakes. They have the opportunity to learn about the judges' biases -- aesthetic preferences, pet flavors, and the sorts of mistakes that are judged harshly. It seems that successful bakers tend to be those most able to adjust themselves in light of that information. 
+Over the course of the first episode, the bakers see Paul and Mary give feedback on dozens of bakes. They have the opportunity to learn about the judges' biases -- aesthetic preferences, pet flavors, and the sorts of mistakes that are judged harshly. Performance in the competition seems to depend (in large part) on the ability to make use of that information. 
+
