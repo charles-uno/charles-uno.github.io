@@ -31,7 +31,7 @@ In the second week, on the other hand, a pattern is clear:
 
 If a baker places in the top 3 in the first week's technical challenge, we haven't got a clue whether or not they'll make it to the finals. But in the second week -- on average -- 2 of the top 3 technical bakers will make it to the finals.
 
-Performance in the first episode is a proxy for each baker's intrinsic abilities: creativity, attention to detail, and the ability to master new techniques[^2].
+Performance in the first episode is a proxy for each baker's intrinsic strengths: creativity, attention to detail, and the ability to master new techniques[^2].
 
 [^2]: Bakers are given some information about the upcoming challenge a week ahead of time, so they can practice.
 
