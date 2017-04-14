@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Bake Hard or Go Home"
+title: "Tarts and Tactics under the Tent"
 image: "/assets/images/gbbo-thumb.png"
-description: "The Great British Bake Off is not decided by intrinsic baking ability. Rather, it tests each baker's ability to adapt to their surroundings."
----
-
-TODO: Maybe a better title?
-
+description: "The Great British Bake Off is not decided by intrinsic baking ability. Rather, it tests each baker's ability to adapt to their surroundings. Mild spoilers."
 ---
 
 After watching the first episode of the Great British Bake Off, you might think you have a sense for which bakers are at the top (and bottom) of the pile.
@@ -17,7 +13,7 @@ In the first episode of Series 4 (Season 2 in the US[^1]), for example, Ruby is 
 
 Luckily for Ruby, the first episode of each season tells us very little about how that season will progress. If we compare first-episode technical rank against the number of episodes each baker survives, we get [Rexthor](https://xkcd.com/1725/). Some of the first episode's top technical bakers make it all the way to the finals, while others are eliminated early in the season. There's no particular correlation.
 
-![Episode 1: No Particular Correlation](/assets/images/gbbo-ep1.svg)
+![Episode 1: Taking Judgments with a Grain of Salt](/assets/images/gbbo-ep1.svg)
 *Data comes from [Wikipedia](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)). Points are plotted at a slight offset from the lattice points to improve legibility. Series 1 and 2 are omitted due to having a different number of episodes.*
 
 Admittedly, our data set isn't great. Signature challenges and showstoppers are not scored numerically, and the banter between the hosts and judges is dramatically vague. We're comparing technical rank and episode count, ultimately, because those are the numbers we have.
@@ -26,7 +22,7 @@ But even considering the kludgey data, the lack of correlation is surprising. We
 
 In the second week, on the other hand, a pattern is clear:
 
-![Episode 2: Cream Rises to the Top](/assets/images/gbbo-ep2.svg)
+![Episode 2: Separating the Wheat from the Chaff](/assets/images/gbbo-ep2.svg)
 *Scoring well in the second episode's technical challenge is a decent predictor that a baker will make it to the finals. Technical rank in the first episode has no such predictive power.*
 
 Performance in the first episode is a proxy for each baker's intrinsic strengths: creativity, attention to detail, and the ability to master new techniques[^2]. It does not seem that the contest is decided by these strengths. If a baker places in the top 3 in the first week's technical challenge, we haven't got a clue whether or not they'll make it to the finals. 
