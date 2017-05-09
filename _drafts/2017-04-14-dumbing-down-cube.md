@@ -1,10 +1,23 @@
 ---
 layout: post
-title: "Dumbing Down the Cube"
+title: "Halfway to Hearthstone"
 image: "/assets/images/placeholder-07-thumb.png"
 description: ""
 keywords: magic the gathering, cube, game design
 ---
+
+For about six years, I ran an uncommons-only cube.
+
+beating down with bloodbraid elf and moroii
+
+got really excited when they finally printed wedge tri-lands
+
+
+
+
+---
+
+
 
 It's 2005, and we're playing Kamigawa-era Standard. I attack you with my <a class="card">Savannah Lions</a>, and you block with your <a class="card">Sakura-Tribe Elder</a>.
 
@@ -12,11 +25,17 @@ If you're a fluent player,
 
 
 
-The elder shows up to fight the lion, throws a punch. Before the punch lands, he bails to plant a garden. But the punch still lands and knocks out the lion. 
+The elder shows up to fight the lion, throws a punch. Before the punch lands, he bails to plant a garden. But the punch still lands and knocks out the lion.
+
+
+Exposed technical rules. Crunchy vs smooth.
 
 
 
-
+| 1    | 2    | 3    | 4    | +    |
+|:----:|:----:|:----:|:----:|:----:|
+| <a class="card">Loyal Pegasus</a> | <a class="card">Ajani's Pridemate</a> | <a class="card">Wall of Resurgence</a> | <a class="card">False Prophet</a> | <a class="card">Gustcloak Savior</a> |
+| <a class="card">Doomed Traveler</a> | <a class="card">Countless Gears Renegade</a> | <a class="card">Porcelain Legionnaire</a> | <a class="card">Galepowder Mage</a> | <a class="card">Angel of Invention</a> |
 
 , put damage on the stack, then sacrifice the elder -- killing my lions and also getting yourself a land.
 
