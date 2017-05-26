@@ -19,6 +19,14 @@ A 15-land deck will see an average of 3.75 lands by its third draw step; for a 1
 
 Before dealing out hundreds of sample hands to get a feel for each configuration, let's crunch a few numbers. 
 
+Even an aggressive deck generally wants to hit 3 lands on turn 3, and decks with higher curves often want to hit 5 lands on turn 5. Those are decent metrics, and easily crunched out using combinatorics. 
+
+Note that we're assuming all cyclers are free -- a 40-card deck with 4 cyclers is computed as if it were a 36-card deck -- more on that in a moment. 
+
+
+
+
+
 
 
 
