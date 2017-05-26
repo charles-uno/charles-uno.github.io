@@ -11,8 +11,13 @@ In Amonkhet draft, the fastest decks are wildly aggressive. Slower decks have ac
 
 Fewer lands means more spells, and it's spells that win games. Every player knows the frustration of watching a game slip away as they topdeck land after land. Ideally, a deck should play just enough lands to cast its important spells on curve. But the "just enough" threshold is difficult to judge in practice. A 15-land deck will see an average of 3.75 lands by its third draw step; for a 17-land deck, that number is 4.25. That difference adds up over time, but in any given game either deck will generally find 3 to 5 lands in its top 10 cards. 
 
-
 ---
+
+
+
+![](/assets/images/cycling-land-curve.png)
+
+
 
 ---
 
