@@ -19,6 +19,23 @@ header {
 //        font-weight: bold;
         margin: $post-title-size auto;
     }
+
+    .post-description {
+        font-size: $post-description-size;
+        background-color: $shadow-color;
+        margin: $post-date-size auto;
+        border: 0;
+        padding: $pad;
+        line-height: 1.5;
+
+        display: block;
+
+//        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
+//        p:first-child { margin-top: 0; }
+//        p:last-child { margin-bottom: 0; }
+    }
+
+
 }
 
 article {

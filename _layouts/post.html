@@ -6,6 +6,13 @@ layout: default
     <span class="post-name">
         {{ page.title }}
     </span>
+
+    {% if page.description %}
+        <span class="post-description">
+            {{ page.description | markdownify }}
+        </span>
+    {% endif %}
+
     {% if page.date %}
         <span class="post-date">
             <span class="nowrap">Published {{ page.date | date: "%F" }}</span>
