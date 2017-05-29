@@ -9,10 +9,24 @@ var indexList = document.getElementById('index-list');
 // out the width for those tags.
 var pars = document.getElementsByTagName('p');
 for ( var i=0; i < pars.length; i++ ) {
+
     if ( pars[i].firstChild.tagName == 'IMG' ) {
         pars[i].style.maxWidth = '100%';
     }
+    // Make sure this works even if the image is linked.
+    if ( pars[i].firstChild.tagName == 'A' && pars[i].firstChild.firstChild.tagName == 'IMG' ) {
+        pars[i].style.maxWidth = '100%';
+    }
 }
+
+// ---------------------------------------------------------------------
+
+
+
+
+
+
+
 
 // ---------------------------------------------------------------------
 

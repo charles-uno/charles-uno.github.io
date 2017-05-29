@@ -14,34 +14,33 @@ Optimizing your land count is one of those things that's hard to do by feel -- i
 
 [^1]: In a hand-wavey sense, random fluctuations go as \\( \sqrt{ \frac{1}{N} } \\). So after 400 games, you've got an uncertainty of about \\( \sqrt{ \frac{1}{400} } = \frac{1}{20} = 5\% \\). Then you need to play another 400 games with the other deck!
 
-
-
-
-
-
-Luckily, we can
-
-
-
-
-
-
-https://en.wikipedia.org/wiki/Combinatorics
-
-
-
-
-Math[^2]!
-
+Before we break out our shuffling gloves, let's crunch some numbers. We can use [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) to go from land counts to probabilities -- see footnote for more details[^2] -- but first let's quantify exactly what sort of draws we're looking for:
 
 [^2]: The [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) \\( { {n}\choose{k} } = \frac{ n! }{ k! \, (n-k)! }\\) is the number of different ways to choose \\(k\\) elements from a list of length \\(n\\). For example, the number of possible 7-card hands from a 40-card deck is \\( { {40}\choose{7} } = \frac{40!}{7! \, 33!}\\), which comes out to 18.6 million. Going a step further, we can calculate the number of opening hands containing exactly 3 lands and 4 spells: \\( { {23}\choose{4} }{ {17}\choose{3} }\\), or 6.0 million, assuming 23 spells and 17 lands. By dividing the two, we find this deck has about a 33% chance to draw exactly 3 lands in its opening hand.
 
+- Even when playing a very aggressive deck, we want to hit our first 3 land drops. This ensures that we have the resources to remove blockers while continuing to build our board -- either by casting multiple spells per turn or by deploying heavy hitters like <a class="card">Ahn-Crop Crasher</a> and <a class="card">Cartouche of Ambition</a>. A few lands past there is fine, but if we have 7 lands on turn 7 we're definitely flooding. So let's look at how different deck configurations affect our odds of having at *least* 3 lands on turn 3, and at *most* 6 lands on turn 7.
+- For a midrange deck, we want 4 lands on turn 4. We're happy to play <a class="card">Colossapede</a> on curve, then <a class="card">Winged Shepherd</a>, then maybe even <a class="card">Greater Sandwurm</a>... but if we hit 8 lands on turn 8, we're probably running out of gas. So let's also look at the odds of having at least 4 lands on turn 4, and at most 7 lands on turn 8.
+- Finally, let's look at how land count and cycling affect the odds of having at least 5 lands on turn 5, and at most 8 lands on turn 9. This would apply to a deck which has trouble winning without a prompt 5-drop -- <a class="card">Decimator Beetle</a>, <a class="card">Final Reward</a>, <a class="card">Angel of Sanctions</a>, <a class="card">Glyph Keeper</a>, etc.
+
+These odds are shown on the figure below. There's a lot to unpack; let's talk through it.
+
+![](/assets/images/cycling-land-curve.png)
+*Caption*
+
+The plot on the left shows how our odds of hitting aggressive land drops depend on the number of lands in our deck (horizontal axis) and the number of cards with cycling (vertical axis). For example, if we play 17 lands and no cards with cycling, we have a 57% chance of drawing an appropriate number of lands. The plot in the center and the one on the right are analogous, but for midrange and slow decks.
+
+
+
+---
+
+---
+
+---
 
 
 
 
 
-Let's crunch some numbers.
 
 
 
@@ -54,43 +53,8 @@ Let's crunch some numbers.
 difference 15 to 17 is a lot bigger than 17 to 19. diminishing returns.
 
 
-Even an aggressive deck generally wants to hit 3 lands on turn 3, and decks with higher curves often want to hit 5 lands on turn 5. Those are decent metrics, and easily crunched out using combinatorics.
-
 Note that we're assuming all cyclers are free -- a 40-card deck with 4 cyclers is computed as if it were a 36-card deck -- more on that in a moment.
 
-
-
-
-
-
-
-
-http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/
-
-$$a^2 + b^2 = c^2$$
-
-
-
-
-
-
-
-
-
-Luckily,
-
-
-
-
----
-
-
-
-![](/assets/images/cycling-land-curve.png)
-*Caption*
-
-
----
 
 ... cycling effect is significant, but not huge
 
