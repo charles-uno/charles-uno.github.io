@@ -31,6 +31,12 @@ The plot on the left shows how our odds of hitting aggressive land drops depend 
 
 
 
+
+
+
+
+
+
 ---
 
 ---
@@ -38,10 +44,11 @@ The plot on the left shows how our odds of hitting aggressive land drops depend 
 ---
 
 
+With no cyclers, the odds of drawing an appropriate number of lands are best when playing 15 (for a very aggressive deck), 17 (for a midrange deck), 18 (for a slow deck). 
 
+About 1 land for every 2 cards with cycling. 
 
-
-
+Assuming mana screw and mana flood are equally scary to you. If screw (spells getting stuck in your hand) is scarier than flood (running out of spells to cast), you'd of course want to skew high. 
 
 
 
@@ -54,9 +61,6 @@ difference 15 to 17 is a lot bigger than 17 to 19. diminishing returns.
 
 
 Note that we're assuming all cyclers are free -- a 40-card deck with 4 cyclers is computed as if it were a 36-card deck -- more on that in a moment.
-
-
-... cycling effect is significant, but not huge
 
 And it bears noting that the above numbers gloss over a few issues with dumping lands for cyclers.
 
