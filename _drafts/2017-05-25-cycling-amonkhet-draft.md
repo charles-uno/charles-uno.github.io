@@ -22,12 +22,62 @@ Before we break out our shuffling gloves, let's crunch some numbers. We can use 
 - For a midrange deck, we want 4 lands on turn 4. We're happy to play <a class="card">Colossapede</a> on curve, then <a class="card">Winged Shepherd</a>, then maybe even <a class="card">Greater Sandwurm</a>... but if we hit 8 lands on turn 8, we're probably running out of gas. So let's also look at the odds of having at least 4 lands on turn 4, and at most 7 lands on turn 8.
 - Finally, let's look at how land count and cycling affect the odds of having at least 5 lands on turn 5, and at most 8 lands on turn 9. This would apply to a deck which has trouble winning without a prompt 5-drop -- <a class="card">Decimator Beetle</a>, <a class="card">Final Reward</a>, <a class="card">Angel of Sanctions</a>, <a class="card">Glyph Keeper</a>, etc.
 
-These odds are shown on the figure below. There's a lot to unpack; let's talk through it.
+These odds are shown on the figure below. There's a lot of information to unpack; let's talk through it.
 
 ![](/assets/images/cycling-land-curve.png)
 *Caption*
 
-The plot on the left shows how our odds of hitting aggressive land drops depend on the number of lands in our deck (horizontal axis) and the number of cards with cycling (vertical axis). For example, if we play 17 lands and no cards with cycling, we have a 57% chance of drawing an appropriate number of lands. The plot in the center and the one on the right are analogous, but for midrange and slow decks.
+
+---
+
+---
+
+---
+
+The center plot shows the odds that we'll draw a good number of lands for a midrange deck -- at least 4 lands on turn 4, at most 7 lands on turn 8 -- depending on land count and cycling count. With no cyclers, the sweet spot is at 17 lands, as we might expect from the conventional wisdom. With fewer lands than that, the risk of missing land drops outweighs the danger of flooding, and vice versa. Every time we add 2 cards with cycling, our ideal land count drops by 1. With 4 cyclers, the plot suggests our midrange deck can get away with 15 lands; with 8 cyclers, it says we should play just 13!
+
+Let's 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The bottom row of the center plot shows our odds of drawing a good number of lands for a midrange deck -- at least 4 lands by turn 4, no more than 7 lands by turn 8 -- depending on the number of lands in that deck. With 11 lands (and no cyclers), we have only a 30% chance; most of the time, we'll miss a land drop before turn 4. With 19 lands, 
+
+
+
+The plot on the left shows how our land count and cycler count affect the odds of hitting aggressive land drops -- at least 3 lands on turn 3, at most 6 lands on turn 7. The plot in the center shows the odds for a midrange deck, and the one on the right shows them for a slow deck. 
+
+
+For example, looking at the bottom of the center plot, we can see that 
+
+
+
+
+we can see that a midrange deck with no cyclers should play 17 lands to maximize its chance to draw a good number of lands. 
+
+
+
+
+
+
+Overall, we can see that the colors on the left are darker than the colors on the right. This is because any deck that can reliably draw 5 lands on turn 5 will also be vulnerable to flooding!
+
+
+
+
+
 
 
 
@@ -50,13 +100,6 @@ About 1 land for every 2 cards with cycling.
 
 Assuming mana screw and mana flood are equally scary to you. If screw (spells getting stuck in your hand) is scarier than flood (running out of spells to cast), you'd of course want to skew high. 
 
-
-
-
-
-
-
-
 difference 15 to 17 is a lot bigger than 17 to 19. diminishing returns.
 
 
@@ -66,4 +109,11 @@ And it bears noting that the above numbers gloss over a few issues with dumping 
 
 Cyclers make mulligan decisions harder. Swapping out a land for a Desert Cerodon may seem safe... but even in a deck full of two drops, a one-land hand with a Cerodon is a risky keep.
 
+
+
+
 In terms of hitting its first 3 land drops, a 15-land deck with 6 cyclers is about on par with a 17-land deck... but that doesn't mean they're equally likely to curve one-drop into two-drop into three-drop. The bump up from X% (15 lands, no cyclers) to Y% (15 lands, 6 cyclers) means that in Z% of games, the deck will have to cycle at least one card to make its land drops -- potentially disrupting its curve.
+
+
+
+
