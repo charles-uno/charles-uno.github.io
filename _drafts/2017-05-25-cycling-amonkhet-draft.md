@@ -27,14 +27,32 @@ These odds are shown on the figure below. There's a lot of information to unpack
 ![](/assets/images/cycling-land-curve.png)
 *Caption*
 
-
----
-
----
-
----
-
 The center plot shows the odds that we'll draw a good number of lands for a midrange deck -- at least 4 lands on turn 4, at most 7 lands on turn 8 -- depending on land count and cycling count. With no cyclers, the sweet spot is at 17 lands, as we might expect from the conventional wisdom. With fewer lands than that, the risk of missing land drops outweighs the danger of flooding, and vice versa. Every time we add 2 cards with cycling, our ideal land count drops by 1. With 4 cyclers, the plot suggests our midrange deck can get away with 15 lands; with 8 cyclers, it says we should play just 13!
+
+---
+
+---
+
+
+This is *sorta* true, but we need to add a big caveat. 
+
+People often talk about cycling as if it's free.
+
+
+
+
+
+
+This is a good time to 
+
+
+
+
+---
+
+---
+
+---
 
 Let's 
 
