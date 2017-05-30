@@ -10,7 +10,7 @@ In Amonkhet draft, the fastest decks are wildly aggressive. Slower decks have ac
 
 Fewer lands means more spells, and it's spells that win games. We all know the frustration of watching a game slip away while topdecking land after land after land. But a low land count presents a liability as well; missing an early land drop can be backbreaking, especially against an aggressive opponent.
 
-Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to tell the difference between problems with your deck and problems with your luck. If one build draws badly 20% of the time and the other draws badly 25% of the time, it might take you 800 games to see the difference[^1]!
+Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to differentiate between problems with your deck and problems with your luck. If one build draws badly 20% of the time and the other draws badly 25% of the time, it might take you 800 games to see the difference[^1]!
 
 [^1]: In a hand-wavey sense, random fluctuations go as \\( \sqrt{ \frac{1}{N} } \\). So after 400 games, you've got an uncertainty of about \\( \sqrt{ \frac{1}{400} } = \frac{1}{20} = 5\% \\). Then you need to play another 400 games with the other deck!
 
