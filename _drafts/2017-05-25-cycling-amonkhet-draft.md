@@ -22,116 +22,27 @@ Before we break out our shuffling gloves, let's crunch some numbers. We can use 
 - For a midrange deck, we want 4 lands on turn 4. We're happy to play <a class="card">Colossapede</a> on curve, then <a class="card">Winged Shepherd</a>, then maybe even <a class="card">Greater Sandwurm</a>... but if we hit 8 lands on turn 8, we're probably running out of gas. So let's also look at the odds of having at least 4 lands on turn 4, and at most 7 lands on turn 8.
 - Finally, let's look at how land count and cycling affect the odds of having at least 5 lands on turn 5, and at most 8 lands on turn 9. This would apply to a deck which has trouble winning without a prompt 5-drop -- <a class="card">Decimator Beetle</a>, <a class="card">Final Reward</a>, <a class="card">Angel of Sanctions</a>, <a class="card">Glyph Keeper</a>, etc.
 
-These odds are shown on the figure below. There's a lot of information to unpack; let's talk through it.
+In order to include cycling in our analysis, we need to make a quick simplifying assumption. Let's assume we cycle every cycler[^3] as soon as we draw it. This assumption is imperfect -- we'll come back to it later -- but it makes our bookkeeping a lot more manageable. This way, we can simply treat a 40-card deck with 4 cyclers as a 36-card deck.
 
-![](/assets/images/cycling-land-curve.png)
+[^3]: Some premier cards like <a class="card">Cast Out</a> and <a class="card">Curator of Mysteries</a> have the word "cycling" on them... but if we're not willing to cycle them at the first opportunity, they don't count as cyclers.
+
+The resulting probabilities are shown in the figure below. There's a lot of information to unpack; let's talk through it.
+
+![Effects of Land Count and Cycling on Mana Curve Reliability](/assets/images/cycling-land-curve.png)
 *Caption*
 
-The center plot shows the odds that we'll draw a good number of lands for a midrange deck -- at least 4 lands on turn 4, at most 7 lands on turn 8 -- depending on land count and cycling count. With no cyclers, the sweet spot is at 17 lands, as we might expect from the conventional wisdom. With fewer lands than that, the risk of missing land drops outweighs the danger of flooding, and vice versa. Every time we add 2 cards with cycling, our ideal land count drops by 1. With 4 cyclers, the plot suggests our midrange deck can get away with 15 lands; with 8 cyclers, it says we should play just 13!
+The center plot shows the odds that we'll draw a good number of lands for a midrange deck -- at least 4 lands on turn 4, and at most 7 lands on turn 8 -- depending on land count and cycling count. With no cyclers, the sweet spot is at 17 lands, in line with the conventional wisdom. With fewer lands than that, the risk of missing land drops outweighs the danger of flooding, and vice versa. Every time we add 2 cards with cycling, our ideal land count drops by 1. With 4 cyclers, the plot suggests our midrange deck can get away with 15 lands; with 8 cyclers, it says we could play just 13!
+
+We see a similar trend with the plots on the left and the right. If the 3rd land drop is the last one we need to hit reliably, 15 lands is about enough, even without cyclers to smooth out our draws. That may be believable... but 11 lands and 8 cyclers is not.
+
+The issue is, we're running into our simplifying assumption. An 11-land deck with 8 cyclers is 64% to hit its first 3 land drops, similar to a 15-land deck with no cyclers. But that doesn't mean the two are equally likely to curve 1-drop into 2-drop into 3-drop. An 11-land deck with *no* cyclers is only 50% to hit those land drops. The 14% difference comes from games where we have to cycle something -- potentially disrupting our curve -- to find land.
 
 ---
 
 ---
 
+Cycling isn't free. We can find time to cycle <a class="card">Desert Cerodon</a> once in a while... but add too many, and they stop smoothing out the draws. They make them clunky instead.
 
-This is *sorta* true, but we need to add a big caveat. 
+In addition to resources, cycling costs information. There's a big difference between a 2-land hand and a 1-land hand with a Cerodon.
 
-People often talk about cycling as if it's free.
-
-
-
-
-
-
-This is a good time to 
-
-
-
-
----
-
----
-
----
-
-Let's 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The bottom row of the center plot shows our odds of drawing a good number of lands for a midrange deck -- at least 4 lands by turn 4, no more than 7 lands by turn 8 -- depending on the number of lands in that deck. With 11 lands (and no cyclers), we have only a 30% chance; most of the time, we'll miss a land drop before turn 4. With 19 lands, 
-
-
-
-The plot on the left shows how our land count and cycler count affect the odds of hitting aggressive land drops -- at least 3 lands on turn 3, at most 6 lands on turn 7. The plot in the center shows the odds for a midrange deck, and the one on the right shows them for a slow deck. 
-
-
-For example, looking at the bottom of the center plot, we can see that 
-
-
-
-
-we can see that a midrange deck with no cyclers should play 17 lands to maximize its chance to draw a good number of lands. 
-
-
-
-
-
-
-Overall, we can see that the colors on the left are darker than the colors on the right. This is because any deck that can reliably draw 5 lands on turn 5 will also be vulnerable to flooding!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
----
-
----
-
-
-With no cyclers, the odds of drawing an appropriate number of lands are best when playing 15 (for a very aggressive deck), 17 (for a midrange deck), 18 (for a slow deck). 
-
-About 1 land for every 2 cards with cycling. 
-
-Assuming mana screw and mana flood are equally scary to you. If screw (spells getting stuck in your hand) is scarier than flood (running out of spells to cast), you'd of course want to skew high. 
-
-difference 15 to 17 is a lot bigger than 17 to 19. diminishing returns.
-
-
-Note that we're assuming all cyclers are free -- a 40-card deck with 4 cyclers is computed as if it were a 36-card deck -- more on that in a moment.
-
-And it bears noting that the above numbers gloss over a few issues with dumping lands for cyclers.
-
-Cyclers make mulligan decisions harder. Swapping out a land for a Desert Cerodon may seem safe... but even in a deck full of two drops, a one-land hand with a Cerodon is a risky keep.
-
-
-
-
-In terms of hitting its first 3 land drops, a 15-land deck with 6 cyclers is about on par with a 17-land deck... but that doesn't mean they're equally likely to curve one-drop into two-drop into three-drop. The bump up from X% (15 lands, no cyclers) to Y% (15 lands, 6 cyclers) means that in Z% of games, the deck will have to cycle at least one card to make its land drops -- potentially disrupting its curve.
-
-
-
-
+It also bears noting that no deck configuration can eliminate the risk of bad draws -- we must also consider what we want those bad draws to look like. Can have 62% good draws with 15 lands. At 16 lands, you're still at 60%, but your bad draws will mostly be too many lands (where you can still play cards) as opposed to too few (where dead cards get stuck in your hand).

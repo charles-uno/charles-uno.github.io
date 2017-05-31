@@ -2,7 +2,7 @@
 //. written by charles mceachern with help from taylor reece
 //. written fall 2013, revised summer 2015
 
-//. to use this script: 
+//. to use this script:
 
 //. (1) at the top of the page, add the following <div> element:
 //.   <div style="position:absolute; z-index:999;" id="cardPopup"></div>
@@ -43,7 +43,12 @@ function showCard(cardName){
     var t = 5+e.clientY+self.pageYOffset-parentPos.top
     //. move the card popup to there
     getElt("cardPopup").style.left = l+"px";
-    getElt("cardPopup").style.top = t+"px";
+    //. If we're in the bottom half of the window, put the bottom of the card at the mouse instead of the top.
+    if ( e.clientY > window.innerHeight/2 ){
+        getElt("cardPopup").style.top = (t - 280) + "px";
+    } else {
+        getElt("cardPopup").style.top = t + "px";
+    }
   }
   //. create an image of the card inside the div
   getElt("cardPopup").innerHTML = '<img id="cardPopupCard" src="' + imageLink(cardName) + '">';
