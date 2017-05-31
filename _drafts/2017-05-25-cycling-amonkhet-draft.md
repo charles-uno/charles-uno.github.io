@@ -40,7 +40,7 @@ The center plot shows the odds that we'll draw a good number of lands for a midr
 
 We see a similar trend with the plots on the left and the right. If the 3rd land drop is the last one we need to hit reliably, 15 lands is about enough, even without cyclers to smooth out our draws. That may be believable... but 11 lands and 8 cyclers is not.
 
-The issue is, we're running into our simplifying assumption. An 11-land deck with 8 cyclers is 64% to hit its first 3 land drops, similar to a 15-land deck with no cyclers. But that doesn't mean the two are equally likely to curve 1-drop into 2-drop into 3-drop. An 11-land deck with *no* cyclers is only 50% to hit those land drops. The 14% difference comes from games where we have to cycle something -- potentially disrupting our curve -- to find land.
+The issue is, we're running into our simplifying assumption. With an 11-land deck and 8 cyclers, we're 64% to hit our first 3 land drops. A 15-land deck with no cyclers gives us similar odds to hit those land drops. But that doesn't mean those decks are equally likely to curve 1-drop into 2-drop into 3-drop. An 11-land deck with *no* cyclers is only 50% to hit those land drops. The 14% difference comes from games where we have to cycle something -- potentially disrupting our curve -- to find land.
 
 ---
 
