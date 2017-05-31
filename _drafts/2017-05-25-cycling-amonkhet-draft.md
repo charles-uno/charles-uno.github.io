@@ -19,7 +19,7 @@ Before we break out our shuffling gloves, let's crunch some numbers. We can use 
 
 -->
 
-Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to differentiate between problems with your deck and problems with your luck -- so let's crunch some numbers. We can use [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) to go from land counts to probabilities -- see footnote for more details[^2] -- but first let's quantify exactly what sort of draws we're looking for:
+Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to differentiate between problems with your deck and problems with your luck -- so let's crunch some numbers. We can use [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) to go from land counts to probabilities (see footnote for more details[^2]) but first let's quantify exactly what sort of draws we're looking for:
 
 [^2]: The [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) \\( { {n}\choose{k} } = \frac{ n! }{ k! \, (n-k)! }\\) is the number of different ways to choose \\(k\\) elements from a list of length \\(n\\). For example, the number of possible 7-card hands from a 40-card deck is \\( { {40}\choose{7} } = \frac{40!}{7! \, 33!}\\), which comes out to 18.6 million. Going a step further, we can calculate the number of opening hands containing exactly 3 lands and 4 spells: \\( { {23}\choose{4} }{ {17}\choose{3} }\\), or 6.0 million, assuming 23 spells and 17 lands. By dividing the two, we find this deck has about a 33% chance to draw exactly 3 lands in its opening hand.
 
