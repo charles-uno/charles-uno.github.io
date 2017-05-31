@@ -3,7 +3,7 @@ layout: post
 title: "Stirring the Sands"
 image: "/assets/images/placeholder-05-thumb.png"
 description: "How many lands should you play when drafting *Magic: the Gathering* Amonkhet?"
-keywords: magic the gathering, booster draft, game design, games
+keywords: magic the gathering, mtg, booster draft, game design, games, math, combinatorics
 ---
 
 In Amonkhet draft, the fastest decks are wildly aggressive. Slower decks have access to powerful synergies -- embalm, -1/-1 counters, and trial/cartouche shenanigans all offer viable lategame plans that don't rely on opening a bomb rare. The unusually-broad format, combined with the return of cycling, has prompted many to move away from the 17-land conventional wisdom for a draft deck. There are [rumblings](https://www.channelfireball.com/articles/how-to-draft-gb-counters-in-amonkhet/) of people running land counts as low as 14.
@@ -46,8 +46,15 @@ The issue is, we're running into our simplifying assumption. An 11-land deck wit
 
 ---
 
+---
+
 Cycling isn't free. We can find time to cycle <a class="card">Desert Cerodon</a> once in a while... but add too many, and they stop smoothing out the draws. They make them clunky instead.
 
 In addition to resources, cycling costs information. There's a big difference between a 2-land hand and a 1-land hand with a Cerodon.
 
 It also bears noting that no deck configuration can eliminate the risk of bad draws -- we must also consider what we want those bad draws to look like. Can have 62% good draws with 15 lands. At 16 lands, you're still at 60%, but your bad draws will mostly be too many lands (where you can still play cards) as opposed to too few (where dead cards get stuck in your hand).
+
+Drawing extra cards, including looting and rummaging, completely turn these calculations on their head. If we have some <a class="card">Seeker of Insight</a> or <a class="card">Battlefield Scavenger</a>, we can turn anything we want into a cycler!
+
+
+
