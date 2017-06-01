@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Stirring the Sands"
-image: "/assets/images/placeholder-05-thumb.png"
+title: "Deserting the Cerodon"
+image: "/assets/images/desert-cerodon-igor-kieryluk-thumb.png"
 description: "How many lands should you play when drafting *Magic: the Gathering* Amonkhet?"
 keywords: magic the gathering, mtg, booster draft, game design, games, math, combinatorics
 ---
@@ -42,19 +42,18 @@ We see a similar trend with the plots on the left and the right. If the 3rd land
 
 The issue is, we're running into our simplifying assumption. With an 11-land deck and 8 cyclers, we're 64% to hit our first 3 land drops. A 15-land deck with no cyclers gives us similar odds to hit those land drops. But that doesn't mean those decks are equally likely to curve 1-drop into 2-drop into 3-drop. An 11-land deck with *no* cyclers is only 50% to hit those land drops. The 14% difference comes from games where we have to cycle something -- potentially disrupting our curve -- to find land.
 
----
+There's a more subtle caveat we should touch on as well: maximizing the odds of drawing the right number of lands may not be the same as maximizing the odds of winning. Our midrange deck (with no cyclers) will draw a good number of lands about 55% of the time, regardless of whether it plays 15, 16, 17, or 18 lands. To choose between those options, we need to think about what we want the other 45% of games to look like. We might play 16 if we've got a bunch of <a class="card">Naga Vitalist</a>s, <a class="card">Dune Beetle</a>s, and <a class="card">Magma Spray</a>s to help us stabilize after stumbling on lands. If we can handle too many lands better than too few -- maybe we're playing <a class="card">Seeker of Insight</a> or splashing a third color -- we might play 18 instead.
+
+
+
+
+
+
 
 ---
 
 ---
 
-Cycling isn't free. We can find time to cycle <a class="card">Desert Cerodon</a> once in a while... but add too many, and they stop smoothing out the draws. They make them clunky instead.
+---
 
 In addition to resources, cycling costs information. There's a big difference between a 2-land hand and a 1-land hand with a Cerodon.
-
-It also bears noting that no deck configuration can eliminate the risk of bad draws -- we must also consider what we want those bad draws to look like. Can have 62% good draws with 15 lands. At 16 lands, you're still at 60%, but your bad draws will mostly be too many lands (where you can still play cards) as opposed to too few (where dead cards get stuck in your hand).
-
-Drawing extra cards, including looting and rummaging, completely turn these calculations on their head. If we have some <a class="card">Seeker of Insight</a> or <a class="card">Battlefield Scavenger</a>, we can turn anything we want into a cycler!
-
-
-
