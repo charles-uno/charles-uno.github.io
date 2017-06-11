@@ -6,7 +6,7 @@ description: "How many lands should you play when drafting *Magic: the Gathering
 keywords: magic the gathering, mtg, booster draft, game design, games, math, combinatorics
 ---
 
-In Amonkhet draft, the fastest decks are wildly aggressive. Slower decks have access to powerful synergies -- embalm, -1/-1 counters, and trial/cartouche shenanigans all offer viable lategame plans that don't rely on opening a bomb rare. The unusually-broad format, combined with the return of cycling, has prompted many to move away from the 17-land conventional wisdom for a draft deck. There are [rumblings](https://www.channelfireball.com/articles/how-to-draft-gb-counters-in-amonkhet/) of people running land counts as low as 14.
+In Amonkhet draft, the fastest decks are wildly aggressive. Slower decks have access to powerful synergies; embalm, -1/-1 counters, and trial/cartouche shenanigans all offer viable lategame plans that don't rely on opening a bomb rare. The unusually-broad format, combined with the return of cycling, has prompted many to move away from the 17-land conventional wisdom for a draft deck. There are [rumblings](https://www.channelfireball.com/articles/how-to-draft-gb-counters-in-amonkhet/) of people running land counts as low as 14.
 
 Fewer lands means more spells, and it's spells that win games. We all know the frustration of watching a game slip away while topdecking land after land after land. But a low land count presents a liability as well. Missing an early land drop can be backbreaking, especially against an aggressive opponent.
 
@@ -19,7 +19,7 @@ Before we break out our shuffling gloves, let's crunch some numbers. We can use 
 
 -->
 
-Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to differentiate between problems with your deck and problems with your luck -- so let's crunch some numbers. We can use [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) to go from land counts to probabilities (see footnote for more details[^2]) but first let's quantify exactly what sort of draws we're looking for:
+Optimizing your land count is one of those things that's hard to do by feel -- it takes a lot of work to differentiate between problems with your deck and problems with your luck -- so let's crunch some numbers. We can use [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) to go from land counts to probabilities (see footnote[^2] for more details) but first let's quantify exactly what sort of draws we're looking for:
 
 [^2]: The [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) \\( { {n}\choose{k} } = \frac{ n! }{ k! \, (n-k)! }\\) is the number of different ways to choose \\(k\\) elements from a list of length \\(n\\). For example, the number of possible 7-card hands from a 40-card deck is \\( { {40}\choose{7} } = \frac{40!}{7! \, 33!}\\), which comes out to 18.6 million. Going a step further, we can calculate the number of opening hands containing exactly 3 lands and 4 spells: \\( { {23}\choose{4} }{ {17}\choose{3} }\\), or 6.0 million, assuming 23 spells and 17 lands. By dividing the two, we find this deck will draw exactly 3 lands in its opening hand in about a third of all possible games.
 
