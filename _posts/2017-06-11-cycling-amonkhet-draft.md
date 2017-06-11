@@ -34,7 +34,7 @@ In order to include cycling in our analysis, we need to make a quick simplifying
 The resulting probabilities are shown in the figure below. There's a lot of information to unpack; let's talk through it.
 
 ![Effects of Land Count and Cycling on Mana Curve Reliability](/assets/images/cycling-land-curve.png)
-*The above plots show the odds of drawing a "good" number of lands, based on the deck's number of lands and the number of cards with cycling. The left plot applies to an aggressive curve, the center plot to a midrange deck, and the right plot to a slow deck.*
+*The above plots show the odds of drawing a "good" number of lands, based on the deck's number of lands and the number of cards with cycling. The left plot applies to an aggressive curve, the center plot to a midrange deck, and the right plot to a slow deck. See larger version [here](/assets/images/cycling-land-curve.png).*
 
 The center plot shows the odds that we'll draw a "good" number of lands for a midrange deck -- at least 4 lands on turn 4, and at most 7 lands on turn 8 -- depending on land count and cycler count. With no cyclers, the sweet spot is at 17 lands, in line with the conventional wisdom. With fewer lands than that, the risk of missing land drops starts to outweigh the danger of flooding, and vice versa. Every time we add 2 cards with cycling, our ideal land count drops by 1. With 4 cyclers, the plot suggests our midrange deck can get away with 15 lands; with 8 cyclers, it says we could play just 13!
 
