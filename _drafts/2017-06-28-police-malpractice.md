@@ -6,8 +6,6 @@ description: ""
 keywords: 
 ---
 
-
-
 Medical doctor is a life-and-death job. 
 
 - Emergency response
@@ -21,9 +19,12 @@ Sometimes, a doctor messes up and kills someone.
 - How do we weigh the doctor's intentions -- cruelty vs negligence vs being in over their head?
 - Under what circumstances do we punish the doctor personally, rather than (for example) allowing the hospital to absorb the liability?
 
-In general, we allow hospitals to absorb liability. 
+In general, liability is absorbed by hospitals, not individuals
 
 - Litigation is expensive and inefficient
+- It is the responsibility of the institution to make sure its employees are up to their jobs?
+
+
 
 Things that you might imagine would be crimes will cost your medical license
 
