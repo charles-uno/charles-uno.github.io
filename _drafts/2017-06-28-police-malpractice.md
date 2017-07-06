@@ -24,6 +24,10 @@ In general, liability is absorbed by hospitals, not individuals
 - Litigation is expensive and inefficient
 - It is the responsibility of the institution to make sure its employees are up to their jobs?
 
+http://www.nleomf.org/assets/pdfs/reports/Preliminary-2016-EOY-Officer-Fatalities-Report.pdf
+
+3 officers killed during traffic stops in 2016
+
 
 
 Things that you might imagine would be crimes will cost your medical license
