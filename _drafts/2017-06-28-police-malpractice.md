@@ -59,4 +59,6 @@ https://en.wikipedia.org/wiki/Law_enforcement_in_the_United_States
 
 roughly 1M police officers in the US
 
+https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
 
+only ~10 doctors per year in the US have job-related deaths
