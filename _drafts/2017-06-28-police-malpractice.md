@@ -28,3 +28,35 @@ Policing is a dangerous job, but not to the extent you might think. Lower mortal
 Not all interactions need to be life-and-death. Police shouldn't be killing people during traffic stops, just like you shouldn't fear for your life when the doctor is treating your sprained ankle. 
 
 Maybe the gun should be in the trunk, instead of at the hip. 
+
+https://fee.org/articles/by-the-numbers-how-dangerous-is-it-to-be-a-cop/
+
+https://www.forbes.com/sites/jacquelynsmith/2013/08/22/americas-10-deadliest-jobs-2/#2438ddf3424b
+
+Police officers have a mortality rate of 11 per 100k. That's lower than truck drivers, construction workers, pilots, etc.
+
+About half of police deaths are homicides. That's about the same as the murder rate of US cities.
+
+Philando Castile verdict (and police shootings in general)
+- The job of a police officer involves making life-and-death choices. Sometimes they will mess up, and people will die.
+- As much as possible, it would be good to reframe the job so that traffic stops, etc, are NOT viewed as life-and-death. Maybe keep the gun in the trunk.
+- When other life-and-death jobs (for example, doctors) mess up and kill people, we don't throw the individual in jail. We file a malpractice lawsuit. The institution typically absorbs the cost -- they probably shouldn't have put an unqualified person in the position to make that mistake.
+- Malpractice payouts typically include both compensatory and punitive damages. This seems great -- it carries the important admission that what happened was WRONG.
+- But how do you apply this to police? You can't hit their profits, since they're funded by the state. And if you cut their funds, you end up with predatory policing like they talked about in the DOJ Ferguson report.
+
+
+How do nations with government-funded healthcare handle medical malpractice?
+
+https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html
+
+400 doctors commit suicide each year
+
+https://www.statista.com/statistics/186260/total-doctors-of-medicine-in-the-us-since-1949/
+
+roughly 1M doctors in the US
+
+https://en.wikipedia.org/wiki/Law_enforcement_in_the_United_States
+
+roughly 1M police officers in the US
+
+
