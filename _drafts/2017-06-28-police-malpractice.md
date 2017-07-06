@@ -6,11 +6,37 @@ description: ""
 keywords: 
 ---
 
+
+
+Medical doctor is a life-and-death job. 
+
+- Emergency response
+- High-impact choices
+- Frequent use of dangerous tools
+
+Sometimes, a doctor messes up and kills someone. 
+
+- What do we do?
+- How do we judge a reasonable amount of collateral damage?
+- How do we weigh the doctor's intentions -- cruelty vs negligence vs being in over their head?
+- Under what circumstances do we punish the doctor personally, rather than (for example) allowing the hospital to absorb the liability?
+
+In general, we allow hospitals to absorb liability. 
+
+- Litigation is expensive and inefficient
+
+Things that you might imagine would be crimes will cost your medical license
+
+https://www.fsbpt.org/Licensees/EthicalConduct/TenEasyWaystoLoseYourLicense.aspx
+
+Put someone into a coma while removing their wisdom teeth
+
+http://www.medicalpracticeinsider.com/best-practices/4-surefire-ways-lose-your-medical-license
+
+
 We trust doctors with our lives
 
-doctor is a stressful job. high suicide rate. don't recommend their kids go into it. 
-
-sometimes they mess up and people die
+doctor is a stressful job. high suicide rate.
 
 when a doctor messes up and kills someone, we don't generally lock them up. we file a medical malpractice suit. Liability is generally absorbed by the hospital which pays out:
 
