@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Police Malpractice"
+title: "Malpractice"
 image: "/assets/images/placeholder-01-thumb.png"
 description: ""
-keywords: 
+keywords: police, law enforcement, race, killings, medicine, doctors, litigation, court, politics
 ---
 
 Medical doctor is a life-and-death job. 
@@ -93,3 +93,23 @@ roughly 1M police officers in the US
 https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
 
 only ~10 doctors per year in the US have job-related deaths
+
+potential thumbnails...
+
+https://unsplash.com/collections/924965/medicina?photo=6n4wKJUYWMc
+
+https://unsplash.com/collections/924965/medicina?photo=OOsTmJ3zwj4
+
+https://unsplash.com/collections/924965/medicina?photo=OMn6AU26KlY
+
+https://unsplash.com/collections/924965/medicina?photo=BEgkQZTASBI
+
+https://unsplash.com/collections/924965/medicina?photo=tGYrlchfObE
+
+https://unsplash.com/collections/668473/medicin?photo=JuFcQxgCXwA
+
+https://unsplash.com/collections/668473/medicin?photo=nss2eRzQwgw
+
+https://unsplash.com/collections/341200/criminal-law?photo=dkaOdhKSShg
+
+https://unsplash.com/collections/277386/law?photo=Vq__yk6faOI
