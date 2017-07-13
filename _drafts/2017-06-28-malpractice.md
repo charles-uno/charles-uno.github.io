@@ -6,6 +6,26 @@ description: ""
 keywords: police, law enforcement, race, killings, medicine, doctors, litigation, court, politics
 ---
 
+
+When surveyed, most Americans (nearly 75%) say they would prefer to spend their last days in the comfort of their own homes. But in practice, the majority die in hospitals, surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all -- over 100k American lives are lost each year due to medical errors.
+
+
+
+
+
+
+http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals
+
+https://www.economist.com/blogs/graphicdetail/2017/04/daily-chart-20
+
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/&ved=0ahUKEwiPwvC34ILVAhUCxoMKHXjUCk0QFggdMAA&usg=AFQjCNEmrrvjRQ8k_ipv3xML4oj_qaWtkw
+
+https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.apa.org/pi/aging/programs/eol/end-of-life-factsheet.aspx&ved=0ahUKEwiPwvC34ILVAhUCxoMKHXjUCk0QFggoMAE&usg=AFQjCNEfJSxtvyUowMU5t-r_iPkzqlqvzw
+
+
+
+
+
 Medical doctor is a life-and-death job. 
 
 - Emergency response
