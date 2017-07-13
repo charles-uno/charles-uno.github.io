@@ -11,11 +11,45 @@ When surveyed, most Americans say they would prefer to spend their last days in 
 
 And this issue isn't limited to the US; [Canada](http://globalnews.ca/news/3026275/1-in-18-canadian-hospital-patients-experience-harm-from-preventable-errors-study/), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/) all have similar death rates due to medical error. 
 
+and yet, in none of these countries is it common for doctors to face murder or manslaughter charges
+
+seems there's an understanding that doctors regularly face life-and-death situations. emergency response, dangerous tools
+
+don't want them to be afraid to do their jobs
+
+adding the constant threat of criminal charges would likely grow the already absurdly-high suicide rate among doctors
+
+if messing up as a doctor means you go to jail, our brightest medical minds are going to be veterinarians instead. bad outcome. 
+
+
+instead, we typically allow the hospital to absorb liability. in the event of a wrongful death:
+
+- compensatory damages, to help the family recover
+- punitive damages, to make a statement that what happened was wrong
+
+---
+
+medical malpractice system is litigious and wasteful. momentum behind reform in the 90s? 
+
+but it's certainly better than nothing
+
+admission of fault would be a victory for activists like BLM, without throwing pawns under the bus
+
+let's belabor that point: 
+
+Suppose I'm a lousy medical student, with some misconceptions about how guts are supposed to fit together. If you hand me a medical license, hire me as a surgeon, and send me into an operating room, there's a decent chance the patient will die. I'm sure the victim's family would love to charge me with murder -- but I'm really just the tip of the iceberg. 
+
+How could I have known better? I was assessed by experts, and they said I was ready. 
+
+on July x, 2016, officer Yanez panicked after pulling over Philando Castile in Minnesota. He shot a nonviolent, law-abiding man 7 times in front of a child. 
+
+Why was he in that situation? 
+
+Someone higher up the chain told Yanez he was ready for traffic duty. They gave him a gun and a squad car and sent him out into the night. That should never have happened. 
 
 
 
-
-
+---
 
 
 . Comparison to [Japan](http://www.japantimes.co.jp/news/2015/10/05/reference/shortcomings-identified-new-reporting-system-hospital-deaths/#.WWfX8dPytTY) is difficult because they don't study it?
