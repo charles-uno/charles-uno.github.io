@@ -7,10 +7,18 @@ keywords: police, law enforcement, race, killings, medicine, doctors, litigation
 ---
 
 
-When surveyed, most Americans say they would prefer to spend their last days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all -- [over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors. Medical errors are among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, diabetes, etc. 
+When surveyed, most Americans say they would prefer to spend their last days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all. [Over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors (unnecessary surgery, incorrect prescription, etc). Medical errors are among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, diabetes, etc. 
+
+And this issue isn't limited to the US; [Canada](http://globalnews.ca/news/3026275/1-in-18-canadian-hospital-patients-experience-harm-from-preventable-errors-study/), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/) all have similar death rates due to medical error. 
 
 
-Also happens in [Canada](http://www.huffingtonpost.ca/kathleen-finlay/medical-error-deaths_b_8350324.html), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/). Comparison to [Japan](http://www.japantimes.co.jp/news/2015/10/05/reference/shortcomings-identified-new-reporting-system-hospital-deaths/#.WWfX8dPytTY) is difficult because they don't study it?
+
+
+
+
+
+
+. Comparison to [Japan](http://www.japantimes.co.jp/news/2015/10/05/reference/shortcomings-identified-new-reporting-system-hospital-deaths/#.WWfX8dPytTY) is difficult because they don't study it?
 
 http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals
 
