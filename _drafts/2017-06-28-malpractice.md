@@ -13,6 +13,25 @@ Medical errors account for a similar death rate in other wealthy nations -- [Can
 
 To be clear, this is a good thing. It should be very difficult for a doctor, doing their job in good faith, to be convicted of a felony. Doctors are routinely faced with life-and-death decisions; if mistakes opened them up to criminal prosecution, we'd quickly find ourselves with understaffed hospitals. Thousands would go to prison; this would be particularly devastating to rural areas, many of which already face [physician shortages](https://www.federalregister.gov/documents/2016/07/01/2016-15678/lists-of-designated-primary-medical-care-mental-health-and-dental-health-professional-shortage-areas). The suicide rate among doctors is currently [double](https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html) that of the population overall; the constant threat of imprisonment would likely push it even higher. And it's hard to imagine America's best and brightest stepping up to fill all these vacancies -- if doctors are treated like criminals, veterenary medicine suddenly looks much more appealing.
 
+Crucially, protecting doctors from criminal charges is only half the story. The other half is ensuring justice for the victims. When a slip of the surgeon's wrist kills or cripples a single parent, perhaps we're not willing to call the surgeon a murderer -- but we can certainly agree that the family has been wronged. 
+
+
+---
+
+
+
+
+
+
+The accepted solution is for victims to take up a [medical malpractice](https://en.wikipedia.org/wiki/Medical_malpractice_in_the_United_States) lawsuit. 
+
+Needless to say, this solution is not ideal. Malpractice lawsuits are 
+
+
+http://www.nejm.org/doi/full/10.1056/NEJMsa054479
+
+
+http://www.nationallawjournal.com/id=900005457103/Disproving-frivolous-myth
 
 
 
