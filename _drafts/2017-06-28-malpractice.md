@@ -9,20 +9,21 @@ keywords: police, law enforcement, race, killings, medicine, doctors, litigation
 
 When surveyed, most Americans say they would prefer to spend their last days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all. [Over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors (unnecessary surgery, incorrect prescription, etc). Medical errors are among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, diabetes, etc. 
 
-And this issue isn't limited to the US; [Canada](http://globalnews.ca/news/3026275/1-in-18-canadian-hospital-patients-experience-harm-from-preventable-errors-study/), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/) all have similar death rates due to medical error. 
+Medical errors account for a similar death rate in other wealthy nations -- [Canada](http://globalnews.ca/news/3026275/1-in-18-canadian-hospital-patients-experience-harm-from-preventable-errors-study/), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/) for instance. And yet, it's unheard-of for doctors to face criminal charges for murder or manslaughter. 
 
-and yet, in none of these countries is it common for doctors to face murder or manslaughter charges
-
-seems there's an understanding that doctors regularly face life-and-death situations. emergency response, dangerous tools
-
-don't want them to be afraid to do their jobs
-
-adding the constant threat of criminal charges would likely grow the already absurdly-high suicide rate among doctors
-
-if messing up as a doctor means you go to jail, our brightest medical minds are going to be veterinarians instead. bad outcome. 
+To be clear, this is a good thing. It should be very difficult for a doctor, doing their job in good faith, to be convicted of a felony. Doctors are routinely faced with life-and-death decisions; if mistakes opened them up to criminal prosecution, we'd quickly find ourselves with understaffed hospitals. 
 
 
-instead, we typically allow the hospital to absorb liability. in the event of a wrongful death:
+Thousands would go to prison. This would be particularly devastating to rural areas, many of which already face [physician shortages](https://www.federalregister.gov/documents/2016/07/01/2016-15678/lists-of-designated-primary-medical-care-mental-health-and-dental-health-professional-shortage-areas). The suicide rate among doctors is already [horrifying](https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html); the constant threat of imprisonment would likely push it even higher. And it's hard to imagine America's best and brightest stepping up to fill all these vacancies -- if doctors go to prison, veterenary medicine suddenly looks much more appealing.
+
+
+
+
+---
+
+But just because doctors are protected from criminal charges doesn't mean their victims are without recourse. 
+
+we typically allow the hospital to absorb liability. in the event of a wrongful death:
 
 - compensatory damages, to help the family recover
 - punitive damages, to make a statement that what happened was wrong
