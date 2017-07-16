@@ -2,7 +2,7 @@
 layout: post
 title: "Malpractice"
 image: "/assets/images/qtips-thumb.png"
-description: ""
+description: "When a doctor messes up and kills someone, we call it malpractice instead of murder. Might a similar system work for policing?"
 keywords: police, law enforcement, race, killings, medicine, doctors, litigation, court, politics
 ---
 
@@ -16,22 +16,39 @@ Plus, practicality aside, it would be problematic to punish an individual doctor
 
 Crucially, shielding doctors from murder charges is only half the story; the other half is ensuring justice for the victims. When a slip of the surgeon's wrist kills or cripples a parent, perhaps the surgeon isn't a murderer -- but certainly the family has been wronged.
 
-The accepted solution is for victims to take up a [medical malpractice](https://en.wikipedia.org/wiki/Medical_malpractice_in_the_United_States) lawsuit. This is clearly not ideal. For every dollar paid out for malpractice, [54 cents](http://www.nejm.org/doi/full/10.1056/NEJMsa054479) are spent on administrative expenses. The [cost of malpractice insurance](http://doctorly.org/cost-vs-reward-of-opening-a-medical-private-practice/) can make it difficult for doctors to go into private practice. [Most doctors](http://www.nejm.org/doi/full/10.1056/NEJMsa1012370) will be sued for malpractice during their careers, and many of those claims will be frivolous.
+The accepted solution is for victims to take up a [medical malpractice](https://en.wikipedia.org/wiki/Medical_malpractice_in_the_United_States) lawsuit. This is clearly not ideal. For every dollar paid out for malpractice, [54 cents](http://www.nejm.org/doi/full/10.1056/NEJMsa054479) are spent on administrative expenses. The [cost of malpractice insurance](http://doctorly.org/cost-vs-reward-of-opening-a-medical-private-practice/) can make it difficult for doctors to go into private practice. [Most doctors](http://www.nejm.org/doi/full/10.1056/NEJMsa1012370) will be sued for malpractice during their careers, [many of which](https://www.irmi.com/articles/expert-commentary/medical-malpractice-the-high-cost-of-meritless-claims) are frivolous. Despite these flaws, however, the medical malpractice system serves two important functions:
 
-
+- Pay compensatory damages to help the family recover.
+- Pay punitive damages as an admission of wrongdoing.
 
 ---
 
-But despite these flaws, the medical malpractice system
+We accept this system for doctors. Might it work for police officers as well?
+
+Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die[^1]. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
+
+[^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too complicated to handle in a footnote. At present, it's sufficient to acknowledge that a significant number of people in the US are killed by police.
+
+[^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
+
+To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
+
+A civil suit brought against the institution may be less politically polarizing, and thus more winnable. "Mistakes were made" is an easier sell than "it was murder."
+
+Many are uncomfortable with the idea of an officer serving time for a mistake on the job
+
+and yet
+
+- Any ruling in favor of the victim is a moral victory
+- Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive! Settlements for [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) and [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) were $6M each.
 
 
 
 
 
+{% comment %}
 
-- compensatory damages, to help the family recover
-- punitive damages, to make a statement that what happened was wrong
-
+https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States
 
 ---
 
@@ -43,16 +60,6 @@ http://www.nationallawjournal.com/id=900005457103/Disproving-frivolous-myth
 
 ---
 
-medical malpractice system is litigious and wasteful. momentum behind reform in the 90s?
-
-but it's certainly better than nothing
-
-admission of fault would be a victory for activists like BLM, without throwing pawns under the bus
-
-let's belabor that point:
-
-Suppose I'm a lousy medical student, with some misconceptions about how guts are supposed to fit together. If you hand me a medical license, hire me as a surgeon, and send me into an operating room, there's a decent chance the patient will die. I'm sure the victim's family would love to charge me with murder -- but I'm really just the tip of the iceberg.
-
 How could I have known better? I was assessed by experts, and they said I was ready.
 
 in July 2016, officer Yanez panicked after pulling over Philando Castile in Minnesota. He fatally shot a nonviolent, law-abiding man in front of a child.
@@ -60,8 +67,6 @@ in July 2016, officer Yanez panicked after pulling over Philando Castile in Minn
 Why was he in that situation?
 
 Someone higher up the chain told Yanez he was ready for traffic duty. They gave him a gun and a squad car and sent him out into the night. That should never have happened.
-
-
 
 ---
 
@@ -71,23 +76,9 @@ Medical doctor is a life-and-death job.
 - High-impact choices
 - Frequent use of dangerous tools
 
-Sometimes, a doctor messes up and kills someone.
-
-- What do we do?
-- How do we judge a reasonable amount of collateral damage?
-- How do we weigh the doctor's intentions -- cruelty vs negligence vs being in over their head?
-- Under what circumstances do we punish the doctor personally, rather than (for example) allowing the hospital to absorb the liability?
-
-In general, liability is absorbed by hospitals, not individuals
-
-- Litigation is expensive and inefficient
-- It is the responsibility of the institution to make sure its employees are up to their jobs?
-
 http://www.nleomf.org/assets/pdfs/reports/Preliminary-2016-EOY-Officer-Fatalities-Report.pdf
 
 3 officers killed during traffic stops in 2016
-
-
 
 Things that you might imagine would be crimes will cost your medical license
 
@@ -97,12 +88,9 @@ Put someone into a coma while removing their wisdom teeth
 
 http://www.medicalpracticeinsider.com/best-practices/4-surefire-ways-lose-your-medical-license
 
-
 We trust doctors with our lives
 
-Doesn't really make sense to hold police to the same standards as civilians when it comes to use of deadly force. we entrust police, as emergency responders, with deadly force. sometimes it will be misapplied.
-
-in the same way, there's a difference in scrutiny between a doctor prescribing narcotics and a drug dealer dispensing the same drugs.
+Doesn't really make sense to hold police to the same standards as civilians when it comes to use of deadly force. we entrust police, as emergency responders, with deadly force. sometimes it will be misapplied. in the same way, there's a difference in scrutiny between a doctor prescribing narcotics and a drug dealer dispensing the same drugs.
 
 Challenge -- it's hard to punish the police as an institution because they are publicly funded. You can't cut into their profits like you can with a private hospital. Underfunded police departments become predatory; see the DOJ's report on Ferguson. This seems surmountable -- how do countries with public healthcare handle medical malpractice?
 
@@ -116,16 +104,7 @@ https://fee.org/articles/by-the-numbers-how-dangerous-is-it-to-be-a-cop/
 
 https://www.forbes.com/sites/jacquelynsmith/2013/08/22/americas-10-deadliest-jobs-2/#2438ddf3424b
 
-Police officers have a mortality rate of 11 per 100k. That's lower than truck drivers, construction workers, pilots, etc.
-
-About half of police deaths are homicides. That's about the same as the murder rate of US cities.
-
-Philando Castile verdict (and police shootings in general)
-- The job of a police officer involves making life-and-death choices. Sometimes they will mess up, and people will die.
-- As much as possible, it would be good to reframe the job so that traffic stops, etc, are NOT viewed as life-and-death. Maybe keep the gun in the trunk.
-- When other life-and-death jobs (for example, doctors) mess up and kill people, we don't throw the individual in jail. We file a malpractice lawsuit. The institution typically absorbs the cost -- they probably shouldn't have put an unqualified person in the position to make that mistake.
-- Malpractice payouts typically include both compensatory and punitive damages. This seems great -- it carries the important admission that what happened was WRONG.
-- But how do you apply this to police? You can't hit their profits, since they're funded by the state. And if you cut their funds, you end up with predatory policing like they talked about in the DOJ Ferguson report.
+Police officers have a mortality rate of 11 per 100k. That's lower than truck drivers, construction workers, pilots, etc. About half of police deaths are homicides. That's about the same as the murder rate of US cities.
 
 How do nations with government-funded healthcare handle medical malpractice?
 
@@ -144,3 +123,5 @@ roughly 1M police officers in the US
 https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
 
 only ~10 doctors per year in the US have job-related deaths
+
+{% endcomment %}
