@@ -31,7 +31,20 @@ Like doctors, police officers are routinely faced with life-and-death choices. S
 
 [^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
 
-To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
+To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell -- a quicker path to consensus, and thus reform.
+
+
+
+
+
+Police practice includes the use of force, so it makes sense to label misapplication of force as malpractice.
+
+
+
+
+
+
+ Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
 
 A civil suit brought against the institution may be less politically polarizing, and thus more winnable. "Mistakes were made" is an easier sell than "it was murder."
 
