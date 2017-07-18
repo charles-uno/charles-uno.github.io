@@ -31,7 +31,62 @@ Like doctors, police officers are routinely faced with life-and-death choices. S
 
 [^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
 
-To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell -- a quicker path to consensus, and thus reform.
+To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell.
+
+
+
+A police malpractice system wouldn't send individual officers to prison, but it would certainly push reforms.
+
+After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
+
+
+
+
+Police departments complain that body cameras are a waste of money... but what if they bring down the cost of your malpractice insurance?
+
+
+https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs
+
+de-escalation training is also costly
+
+http://www.apmreports.org/story/2017/05/05/police-de-escalation-training
+
+
+If police departments have to budget for malpractice insurance,
+
+
+
+are forced to take out an insurance policy against the cost of malpractice,
+
+
+
+
+
+Reducing that liability will become much more pressing if they're forced to take out an insurance policy against it
+
+
+If that becomes standard, police departments will start carrying malpractice insurance[^3] -- and looking for ways to reduce their liability.
+
+
+
+[^3]: At present, liability insurance is sometimes purchased by [individual officers](http://www.reuters.com/article/us-usa-police-insurance-idUSKCN0WJ2R1).
+
+
+
+
+
+
+
+
+
+
+
+ -- a quicker path to consensus, and thus reform.
+
+
+
+
+
 
 
 
