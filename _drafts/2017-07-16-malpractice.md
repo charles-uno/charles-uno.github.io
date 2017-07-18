@@ -33,17 +33,11 @@ Like doctors, police officers are routinely faced with life-and-death choices. S
 
 To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell.
 
-
-
-A police malpractice system wouldn't send individual officers to prison, but it would certainly push reforms.
+A police malpractice system wouldn't send individual officers to prison, but it would push reforms.
 
 After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
 
-
-
-
 Police departments complain that body cameras are a waste of money... but what if they bring down the cost of your malpractice insurance?
-
 
 https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs
 
