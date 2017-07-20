@@ -31,7 +31,7 @@ Might a similar system work for police officers?
 
 Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die[^1]. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
 
-[^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too complicated to handle in a footnote. At present, it's sufficient to acknowledge that a significant number of people in the US are killed by police.
+[^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too [complicated](https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States) to handle in a footnote. At present, it's sufficient to acknowledge that a significant number of people in the US are killed by police.
 
 [^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night? **-- or maybe talk about how Eric Garner died as a result of a chokehold. NYPD bans chokeholds. Who sent Officer Pantaleo out into the field?**
 
@@ -45,17 +45,12 @@ Police departments have balked at the price of [body cameras](https://apnews.com
 
 ---
 
+
+{% comment %}
+
 **SCRATCH WORK**
 
-
-
-
-
-
-
-A police malpractice system wouldn't send individual officers to prison, but it would push reforms.
-
-After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
+A police malpractice system wouldn't send individual officers to prison, but it would push reform. After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
 
 Police departments complain that body cameras are a waste of money... but what if they bring down the cost of your malpractice insurance?
 
@@ -65,53 +60,13 @@ de-escalation training is also costly
 
 http://www.apmreports.org/story/2017/05/05/police-de-escalation-training
 
-
-If police departments have to budget for malpractice insurance,
-
-
-
-are forced to take out an insurance policy against the cost of malpractice,
-
-
-
-
-
 Reducing that liability will become much more pressing if they're forced to take out an insurance policy against it
-
 
 If that becomes standard, police departments will start carrying malpractice insurance[^3] -- and looking for ways to reduce their liability.
 
-
-
 [^3]: At present, liability insurance is sometimes purchased by [individual officers](http://www.reuters.com/article/us-usa-police-insurance-idUSKCN0WJ2R1).
 
-
-
-
-
-
-
-
-
-
-
- -- a quicker path to consensus, and thus reform.
-
-
-
-
-
-
-
-
-
-
 Police practice includes the use of force, so it makes sense to label misapplication of force as malpractice.
-
-
-
-
-
 
  Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
 
@@ -122,18 +77,7 @@ Many are uncomfortable with the idea of an officer serving time for a mistake on
 and yet
 
 - Any ruling in favor of the victim is a moral victory
-- Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive! Settlements for [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) and [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) were $6M each.
-
-
-
----
-
----
-
----
-
-
-{% comment %}
+- Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive! 
 
 https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States
 
