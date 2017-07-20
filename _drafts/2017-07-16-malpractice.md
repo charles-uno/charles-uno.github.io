@@ -21,22 +21,7 @@ The accepted solution is for victims to take up a [medical malpractice](https://
 - Pay compensatory damages to help the family recover.
 - Pay punitive damages as an admission of wrongdoing.
 
-The high cost of medical malpractice[^7] puts providers under constant pressure to reform. 
-
-
-
-
-[^7]: Malpractice payouts are mediated by the provider's malpractice insurance. This is actually *better* than having the hospital pay directly, since insurance companies specialize in risk assessment. 
-
-
-
-
-Insurance companies specialize in identifying and analyzing risk. 
-
-
-
-
-
+The high cost of medical malpractice puts providers under [constant pressure to improve and reform](http://m.hartfordbusiness.com/article/20140428/PRINTEDITION/304249935/hospitals-battle-medical-malpractice-costs). Hospital workers are increasingly [trained to avoid errors](http://www.philly.com/philly/business/20151122_Medmal_head_here_in_two_lines_of_36_pt.html) -- and studies suggest that these trainings are [effective](https://www.ncbi.nlm.nih.gov/pubmed/27549442). 
 
 ---
 
@@ -124,13 +109,6 @@ and yet
 
 
 Police departments have balked at the price of body cameras and de-escalation training, but those costs are small compared to a wrongful death suit. Eric Garner's death was settled out of court for $6M; Tamir Rice was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their liability.
-
-http://www.philly.com/philly/business/20151122_Medmal_head_here_in_two_lines_of_36_pt.html
-
-http://m.hartfordbusiness.com/article/20140428/PRINTEDITION/304249935/hospitals-battle-medical-malpractice-costs
-
-https://www.ncbi.nlm.nih.gov/pubmed/27549442
-
 
 
 ---
