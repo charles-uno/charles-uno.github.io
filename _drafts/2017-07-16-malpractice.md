@@ -25,15 +25,31 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 ---
 
-We accept this system for doctors. Might it work for police officers as well?
+Might a similar system work for police officers? 
 
 Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die[^1]. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
 
 [^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too complicated to handle in a footnote. At present, it's sufficient to acknowledge that a significant number of people in the US are killed by police.
 
-[^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
+[^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night? **-- or maybe talk about how Eric Garner died as a result of a chokehold. NYPD bans chokeholds. Who sent Officer Pantaleo out into the field?**
 
-To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell.
+To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police officers, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell -- and thus a quicker path to reform.
+
+Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their liability.
+
+---
+
+---
+
+---
+
+**SCRATCH WORK**
+
+
+
+
+
+
 
 A police malpractice system wouldn't send individual officers to prison, but it would push reforms.
 
@@ -106,9 +122,6 @@ and yet
 - Any ruling in favor of the victim is a moral victory
 - Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive! Settlements for [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) and [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) were $6M each.
 
-
-
-Police departments have balked at the price of body cameras and de-escalation training, but those costs are small compared to a wrongful death suit. Eric Garner's death was settled out of court for $6M; Tamir Rice was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their liability.
 
 
 ---
