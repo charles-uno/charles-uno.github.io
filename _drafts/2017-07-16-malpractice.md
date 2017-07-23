@@ -25,6 +25,29 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 ---
 
+
+The medical malpractice system is acceptable.
+
+
+
+
+
+Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die.
+
+Unwilling to ascribe blame to the institution
+
+
+
+
+Like doctors,
+
+
+
+
+
+
+
+
 Might a similar system work for police officers?
 
 Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die[^1]. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
