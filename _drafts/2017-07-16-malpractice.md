@@ -25,6 +25,17 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 ---
 
+Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die. Unlike doctors, however, police are faced with criminal charges afterwards. This is problematic in two ways.
+
+First, a murder charge against an individual officer does nothing to acknowledge the failures of the institution. In the 2016 shooting of Philando Castile, for example, the transcript suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
+
+Second, when the criminal suit inevitably fails, the victim's family is left with nothing. Even in cases like Castile's, where the officer clearly made a mistake, 
+
+
+
+
+
+
 
 The medical malpractice system is acceptable.
 
