@@ -25,43 +25,56 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 ---
 
-Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die. Unlike doctors, however, police are faced with criminal charges afterwards. This is problematic in two ways.
+Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die[^1]. Unlike doctors, however, police may find themselves faced with criminal charges. After the death of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), Officer Wilson testified in front of a grand jury; after the death of [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), Officer Yanez was tried for manslaughter.
 
-First, a murder charge against an individual officer does nothing to acknowledge the failures of the institution. In the 2016 shooting of Philando Castile, for example, the transcript suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
+These trials are sexy -- they drive headlines nationwide. But in terms of serving justice and advancing reforms, a civil "police malpractice" suit may be a better bet.
 
-Second, when the criminal suit inevitably fails, the victim's family is left with nothing. Even in cases like Castile's, where the officer clearly made a mistake, 
+A criminal suit against an officer creates a false choice between guilty ("murderer!") and not guilty ("he deserved it!").
 
-
-
-
+This framing is politically polarizing. May also be unwinnable. gives police the last word. vindicates those who think nothing is wrong, and gives no closure to those who empathize with the victim.
 
 
+A criminal suit against an individual officer glosses over the failures of the institution. In the Castile shooting, for example, the [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
 
-The medical malpractice system is acceptable.
 
-
+for each, how is a civil suit better?
 
 
 
-Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die.
-
-Unwilling to ascribe blame to the institution
+These trials are sexy -- they drive headlines nationwide.
 
 
+criminal suits are sexier. if you have both, the criminal suit will drown out the headlines
 
 
-Like doctors,
+criminal trial headlines drown out civil suit headlines. no momentum from millions of dollars paid out for wrongful deaths.
+
+Furthermore, by trying to send an officer to prison, activists are undermining their own leverage to pursue systemic reform.
+
+
+Equating police killings with murder is politically polarizing, little success in court
+
+[$3M settlement](https://www.usatoday.com/story/news/nation/2017/06/26/philando-castiles-family-settles-suit-city-3-m/427872001/)
+
+activists are setting themselves up for failure
+
+Second, when the criminal suit inevitably fails,
+
+false dichotomy between "murder" and "nothing wrong"
 
 
 
 
+---
 
+---
 
+---
 
 
 Might a similar system work for police officers?
 
-Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die[^1]. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
+Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
 
 [^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too [complicated](https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States) to handle in a footnote. Here, it's sufficient to acknowledge that a significant number of people (about 1k/year) in the US are killed by police.
 
