@@ -36,21 +36,9 @@ This framing is politically polarizing. May also be unwinnable. gives police the
 
 A criminal suit against an individual officer glosses over the failures of the institution. In the Castile shooting, for example, the [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
 
-
 for each, how is a civil suit better?
 
-
-
-These trials are sexy -- they drive headlines nationwide.
-
-
-criminal suits are sexier. if you have both, the criminal suit will drown out the headlines
-
-
-criminal trial headlines drown out civil suit headlines. no momentum from millions of dollars paid out for wrongful deaths.
-
-Furthermore, by trying to send an officer to prison, activists are undermining their own leverage to pursue systemic reform.
-
+criminal suits are sexier. if you have both, the criminal suit will drown out the headlines. no momentum from millions of dollars paid out for wrongful deaths.
 
 Equating police killings with murder is politically polarizing, little success in court
 
