@@ -25,33 +25,39 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 ---
 
-Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die[^1]. Unlike doctors, however, police may find themselves faced with criminal charges. After the death of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), Officer Wilson testified in front of a grand jury; after the death of [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), Officer Yanez was tried for manslaughter.
+Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die[^1]. Unlike doctors, however, police may find themselves faced with criminal charges as a result. After the death of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), Officer Wilson testified in front of a grand jury; after the death of [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), Officer Yanez was tried for manslaughter.
 
 These trials are sexy -- they drive headlines nationwide. But in terms of serving justice and advancing reforms, a civil "police malpractice" suit may be a better bet.
 
-A criminal suit against an officer creates a false choice between guilty ("murderer!") and not guilty ("he deserved it!").
 
-This framing is politically polarizing. May also be unwinnable. gives police the last word. vindicates those who think nothing is wrong, and gives no closure to those who empathize with the victim.
 
+
+
+
+A criminal suit against an officer creates a false choice between guilty ("murderer!") and not guilty ("he deserved it!"). This framing is politically polarizing. It's also tilted heavily in favor of the status quo.
+
+
+- criminal suit creates a false dichotomy between guilty and not guilty
+    - officers are almost never indicted
+    - even a damning transcript may not convince a jury to send an officer to prison
+    - equating police killings with murder is politically polarizing, has had little success in court
+    - tilted in favor of the status quo / perhaps unwinnable for proponents of reform
+- criminal suit blames individual officer for the failures of an institution
+    - who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
+    - calling this officer a murderer oversimplifies what happened
+    - perhaps that's why it hasn't held up in court
+- criminal suit short-circuits momentum from wrongful death payout
+    - no closure to those who empathize with the victim
+    - if you have both, the criminal suit dominates headlines
+    - what final headline is better: "not guilty" or "$3M settlement"?
+    - $6M payout for Eric Garner, Tamir Rice
+    - vincicates those who think nothing is wrong
+
+Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
 
 A criminal suit against an individual officer glosses over the failures of the institution. In the Castile shooting, for example, the [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
 
-for each, how is a civil suit better?
-
-criminal suits are sexier. if you have both, the criminal suit will drown out the headlines. no momentum from millions of dollars paid out for wrongful deaths.
-
-Equating police killings with murder is politically polarizing, little success in court
-
 [$3M settlement](https://www.usatoday.com/story/news/nation/2017/06/26/philando-castiles-family-settles-suit-city-3-m/427872001/)
-
-activists are setting themselves up for failure
-
-Second, when the criminal suit inevitably fails,
-
-false dichotomy between "murder" and "nothing wrong"
-
-
-
 
 ---
 
@@ -87,14 +93,6 @@ Police departments have balked at the price of [body cameras](https://apnews.com
 
 A police malpractice system wouldn't send individual officers to prison, but it would push reform. After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
 
-Police departments complain that body cameras are a waste of money... but what if they bring down the cost of your malpractice insurance?
-
-https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs
-
-de-escalation training is also costly
-
-http://www.apmreports.org/story/2017/05/05/police-de-escalation-training
-
 Reducing that liability will become much more pressing if they're forced to take out an insurance policy against it
 
 If that becomes standard, police departments will start carrying malpractice insurance[^3] -- and looking for ways to reduce their liability.
@@ -103,36 +101,10 @@ If that becomes standard, police departments will start carrying malpractice ins
 
 Police practice includes the use of force, so it makes sense to label misapplication of force as malpractice.
 
- Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
-
-A civil suit brought against the institution may be less politically polarizing, and thus more winnable. "Mistakes were made" is an easier sell than "it was murder."
-
-Many are uncomfortable with the idea of an officer serving time for a mistake on the job
-
-and yet
+Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
 
 - Any ruling in favor of the victim is a moral victory
 - Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive!
-
-https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States
-
----
-
-http://www.nejm.org/doi/full/10.1056/NEJMsa1012370
-
-http://www.nejm.org/doi/full/10.1056/NEJMsa054479
-
-http://www.nationallawjournal.com/id=900005457103/Disproving-frivolous-myth
-
----
-
-How could I have known better? I was assessed by experts, and they said I was ready.
-
-in July 2016, officer Yanez panicked after pulling over Philando Castile in Minnesota. He fatally shot a nonviolent, law-abiding man in front of a child.
-
-Why was he in that situation?
-
-Someone higher up the chain told Yanez he was ready for traffic duty. They gave him a gun and a squad car and sent him out into the night. That should never have happened.
 
 ---
 
@@ -154,8 +126,6 @@ Put someone into a coma while removing their wisdom teeth
 
 http://www.medicalpracticeinsider.com/best-practices/4-surefire-ways-lose-your-medical-license
 
-We trust doctors with our lives
-
 Doesn't really make sense to hold police to the same standards as civilians when it comes to use of deadly force. we entrust police, as emergency responders, with deadly force. sometimes it will be misapplied. in the same way, there's a difference in scrutiny between a doctor prescribing narcotics and a drug dealer dispensing the same drugs.
 
 Challenge -- it's hard to punish the police as an institution because they are publicly funded. You can't cut into their profits like you can with a private hospital. Underfunded police departments become predatory; see the DOJ's report on Ferguson. This seems surmountable -- how do countries with public healthcare handle medical malpractice?
@@ -175,10 +145,6 @@ Police officers have a mortality rate of 11 per 100k. That's lower than truck dr
 How do nations with government-funded healthcare handle medical malpractice?
 
 https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html
-
-400 doctors commit suicide each year
-
-https://www.statista.com/statistics/186260/total-doctors-of-medicine-in-the-us-since-1949/
 
 roughly 1M doctors in the US
 
