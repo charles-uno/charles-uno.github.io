@@ -27,37 +27,88 @@ The high cost of medical malpractice puts providers under [constant pressure to 
 
 Like doctors, police officers routinely encounter life-and-death decisions. Sometimes they make mistakes, and people die[^1]. Unlike doctors, however, police may find themselves faced with criminal charges as a result. After the death of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), Officer Wilson testified in front of a grand jury; after the death of [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), Officer Yanez was tried for manslaughter.
 
+[^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too [complicated](https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States) to handle in a footnote. Here, it's sufficient to acknowledge that a significant number of people (about 1k/year) in the US are killed by police.
+
 These trials are sexy -- they drive headlines nationwide. But in terms of serving justice and advancing reforms, a civil "police malpractice" suit may be a better bet.
 
+In the Castile shooting, for example, the [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) suggests that Officer Yanez panicked. Charging him with manslaughter glosses over the institutional failures that put him in that situation. Who assessed Yanez and decided he was ready for traffic duty? Who gave him a gun and a squad car and sent him out into the night?
+
+In fact, a criminal suit against an individual officer doesn't just neglect the systemic problems that lead to killings -- it actually obscures them. The suit creates a false choice between "guilty" and "not guilty," tilted heavily in favor of acquittal[^4]. A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police, and that confidence isn't likely to be shaken when the climactic headline reads, "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)."
+
+[^4]: The law entrusts police with the use of deadly force, so it's very difficult to prove that mistakes rise to the level of criminal wrongdoing. Police are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [truly damning](https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott) video may not be enough to get a murder charge to stick.
+
+![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
+*In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
+
+There's a lot of gray area between "guilty" and "not guilty." A civil suit can turn those details into headlines. Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M settlement](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) settlement with the city over his wrongful death. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
+
+
+[^9]: Statement said the settlement was insurance money, not taxpayer money... but who do you suppose pays for the insurance?
+
+
+
+- Activists's efforts have largely focused on criminal cases against individual police officers
+- These cases are polarizing
+- Near-certain acquittal makes it easy for people to ignore the need for reform
+- Payouts for wrongful death have largely flown under the radar
+- $6M for Tamir Rice
+- $6M for Eric Garner
+- $3M for Philando Castile
+- "mistakes were made" might be an easier sell than "trusted officer is a murderer"
+- Use of taxpayer dollars to pay for mistakes
+
+Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
 
 
 
 
 
-A criminal suit against an officer creates a false choice between guilty ("murderer!") and not guilty ("he deserved it!"). This framing is politically polarizing. It's also tilted heavily in favor of the status quo.
+
+{% comment %}
 
 
+
+A criminal suit against an individual officer creates a false choice between *guilty* ("murderer!") and *not guilty* ("he deserved it!").
+
+This framing is tilted in favor of the status quo, because it fails to capture any mistakes that fall short of criminal wrongdoing.
+
+criminal trials are sexy, so victim victories in civil trials have largely flown under the radar
+
+By pursuing a criminal case, victims/activists are choosing to focus the headlines on that
+they will almost certainly lose
+
+But that doesn't mean victims are left with nothing.
+
+
+
+If there's a criminal trial, that's where the media focus will be.
+In criminal trials, officers are almost always acquitted.
+When a high-profile trial ends in acquittal, it vindicates those who think nothing is wrong.
+
+By focusing on criminal trials (which almost always end in acquittal), advocates for reform concede all the gray area
+
+A lot of gray area where mistakes were made, but those mistakes fall short of criminal charges.
+
+The officer's near-inevitable acquittal vindicates those who think nothing is wrong -- even if there is something wrong.
+
+Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
+
+- criminal suit blames individual officer for the failures of an institution
+    - who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
+    - calling this officer a murderer oversimplifies what happened
+    - perhaps that's why it hasn't held up in court
 - criminal suit creates a false dichotomy between guilty and not guilty
     - officers are almost never indicted
     - even a damning transcript may not convince a jury to send an officer to prison
     - equating police killings with murder is politically polarizing, has had little success in court
     - tilted in favor of the status quo / perhaps unwinnable for proponents of reform
-- criminal suit blames individual officer for the failures of an institution
-    - who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
-    - calling this officer a murderer oversimplifies what happened
-    - perhaps that's why it hasn't held up in court
 - criminal suit short-circuits momentum from wrongful death payout
+    - concedes the gray area where mistakes were made, but they fell short of a crime
     - no closure to those who empathize with the victim
     - if you have both, the criminal suit dominates headlines
     - what final headline is better: "not guilty" or "$3M settlement"?
     - $6M payout for Eric Garner, Tamir Rice
-    - vincicates those who think nothing is wrong
-
-Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
-
-A criminal suit against an individual officer glosses over the failures of the institution. In the Castile shooting, for example, the [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) suggests Officer Yanez panicked. Who decided he was ready for traffic duty, gave him a gun and a squad car, and sent him out into the night?
-
-[$3M settlement](https://www.usatoday.com/story/news/nation/2017/06/26/philando-castiles-family-settles-suit-city-3-m/427872001/)
+    - vindicates those who think nothing is wrong
 
 ---
 
@@ -70,13 +121,17 @@ Might a similar system work for police officers?
 
 Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
 
-[^1]: It's been noted that police shootings occur in the US [far more often](https://www.theguardian.com/us-news/2015/jun/09/the-counted-police-killings-us-vs-other-countries) than in other wealthy countries. That issue, while important, is far too [complicated](https://en.wikipedia.org/wiki/Police_brutality_in_the_United_States#Cultural_factors_unique_to_the_United_States) to handle in a footnote. Here, it's sufficient to acknowledge that a significant number of people (about 1k/year) in the US are killed by police.
-
 [^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
 
 To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell -- and thus a quicker path to reform.
 
 Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
+
+
+{% endcomment %}
+
+
+
 
 {% comment %}
 
