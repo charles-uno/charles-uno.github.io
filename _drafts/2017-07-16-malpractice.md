@@ -42,8 +42,9 @@ In fact, a criminal suit against an individual officer doesn't just neglect the 
 
 There's a lot of gray area between "guilty" and "not guilty." A civil suit can turn those details into headlines. Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M settlement](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) settlement with the city over his wrongful death. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
 
+[^9]: Statement said the settlement was insurance money, not taxpayer money... but it's taxes that pay for the insurance.
 
-[^9]: Statement said the settlement was insurance money, not taxpayer money... but who do you suppose pays for the insurance?
+
 
 
 
