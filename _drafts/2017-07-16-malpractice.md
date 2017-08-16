@@ -48,7 +48,19 @@ There's a lot of gray area between "guilty" and "not guilty." A civil suit can t
 
 Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death settlement. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M in 2015; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. 
 
-"Police are murderers" is a tough sell, but "police mistakes are wasting your tax dollars"
+
+
+
+Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but the status quo is expensive too.
+
+Publicizing civil settlements lets taxpayers know that body cameras aren't about hurt feelings -- they're about reducing liability. 
+
+
+
+
+Nobody likes to see their tax dollars wasted
+
+"Police are murderers" is a tough sell. "Police mistakes are wasting your tax dollars" may be a quicker path to consensus -- and 
 
 Taxpayers don't have to believe police are murderers to pressure the department to reduce its liability
 
