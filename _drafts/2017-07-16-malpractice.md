@@ -35,16 +35,40 @@ In the Castile shooting, for example, the [transcript](http://www.nationalreview
 
 In fact, a criminal suit against an individual officer doesn't just neglect the systemic problems that lead to killings -- it actually obscures them. The suit creates a false choice between "guilty" and "not guilty," tilted heavily in favor of acquittal[^4]. A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police, and that confidence isn't likely to be shaken when the climactic headline reads, "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)."
 
-[^4]: The law entrusts police with the use of deadly force, so it's very difficult to prove that mistakes rise to the level of criminal wrongdoing. Police are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [truly damning](https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott) video may not be enough to get a murder charge to stick.
-
 ![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
+
+[^4]: The law entrusts police with the use of deadly force, so it's very difficult to prove that mistakes rise to the level of criminal wrongdoing. Police are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [truly damning](https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott) video may not be enough to get a murder charge to stick.
 
 There's a lot of gray area between "guilty" and "not guilty." A civil suit can turn those details into headlines. Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M settlement](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) settlement with the city over his wrongful death. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
 
 [^9]: Statement said the settlement was insurance money, not taxpayer money... but it's taxes that pay for the insurance.
 
 
+
+Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death settlement. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M in 2015; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. 
+
+"Police are murderers" is a tough sell, but "police mistakes are wasting your tax dollars"
+
+Taxpayers don't have to believe police are murderers to pressure the department to reduce its liability
+
+
+
+
+
+If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
+
+
+
+
+
+
+To date, activists have largely rallied behind criminal cases brought against individual police officers. There's reason to question this strategy. Such cases are politically polarizing, and the near-certainty of acquittal makes it easy for people to ignore the need for reform. 
+
+Focusing instead on civil cases 
+
+better path to consensus
+publicize victory
 
 
 
@@ -57,9 +81,6 @@ There's a lot of gray area between "guilty" and "not guilty." A civil suit can t
 - $3M for Philando Castile
 - "mistakes were made" might be an easier sell than "trusted officer is a murderer"
 - Use of taxpayer dollars to pay for mistakes
-
-Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
-
 
 
 
