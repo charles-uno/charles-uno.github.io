@@ -100,6 +100,16 @@ Civil cases over wrongful death
 
 
 
+---
+
+---
+
+---
+
+
+
+**SCRATCH WORK**
+
 
 
 {% comment %}
@@ -148,9 +158,6 @@ Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-
     - $6M payout for Eric Garner, Tamir Rice
     - vindicates those who think nothing is wrong
 
----
-
----
 
 ---
 
@@ -166,23 +173,7 @@ To those who pursued criminal charges after the killings of [Michael Brown](http
 Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
 
 
-{% endcomment %}
 
-
-
-
-{% comment %}
-
-
----
-
----
-
----
-
-
-
-**SCRATCH WORK**
 
 A police malpractice system wouldn't send individual officers to prison, but it would push reform. After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
 
