@@ -141,22 +141,27 @@ The officer's near-inevitable acquittal vindicates those who think nothing is wr
 
 Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
 
-- criminal suit blames individual officer for the failures of an institution
-    - who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
-    - calling this officer a murderer oversimplifies what happened
-    - perhaps that's why it hasn't held up in court
-- criminal suit creates a false dichotomy between guilty and not guilty
-    - officers are almost never indicted
-    - even a damning transcript may not convince a jury to send an officer to prison
-    - equating police killings with murder is politically polarizing, has had little success in court
-    - tilted in favor of the status quo / perhaps unwinnable for proponents of reform
-- criminal suit short-circuits momentum from wrongful death payout
-    - concedes the gray area where mistakes were made, but they fell short of a crime
-    - no closure to those who empathize with the victim
-    - if you have both, the criminal suit dominates headlines
-    - what final headline is better: "not guilty" or "$3M settlement"?
-    - $6M payout for Eric Garner, Tamir Rice
-    - vindicates those who think nothing is wrong
+criminal suit blames individual officer for the failures of an institution
+
+- who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
+- calling this officer a murderer oversimplifies what happened
+- perhaps that's why it hasn't held up in court
+
+criminal suit creates a false dichotomy between guilty and not guilty
+
+- officers are almost never indicted
+- even a damning transcript may not convince a jury to send an officer to prison
+- equating police killings with murder is politically polarizing, has had little success in court
+- tilted in favor of the status quo / perhaps unwinnable for proponents of reform
+
+criminal suit short-circuits momentum from wrongful death payout
+
+- concedes the gray area where mistakes were made, but they fell short of a crime
+- no closure to those who empathize with the victim
+- if you have both, the criminal suit dominates headlines
+- what final headline is better: "not guilty" or "$3M settlement"?
+- $6M payout for Eric Garner, Tamir Rice
+- vindicates those who think nothing is wrong
 
 
 ---
