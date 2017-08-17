@@ -67,7 +67,7 @@ function filter() {
                 '<a href="' + post.url + '" class="index-link">' +
                     '<div class="index-cell">' +
                         '<span class="index-date">' + post.date + '</span>' +
-                        '<h2 class="index-name">' + post.title + '</h2>' +
+//                        '<h2 class="index-name">' + post.title + '</h2>' +
                     '</div>' +
                 '</a>' +
                 '<img src="' + post.thumbnail + '" class="index-thumb" />' +

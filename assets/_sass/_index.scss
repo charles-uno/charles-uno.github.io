@@ -62,18 +62,18 @@
     top: 0;
     height: 100%;
     width: 100%;
-    // On hover, sharpen thumb and shove the text out of the frame.
+    // On hover, sharpen thumb and hide the text.
     background-color: rgba($text-color, 0.7);
     &:hover {
         background: none;
-        .index-name { top: 1000px; }
-        .index-date { top: 1000px; }
+        .index-name { display: none; }
+        .index-date { display: none; }
     }
     overflow: hidden;
 }
 
 .index-name {
-    top: 45%;
+    top: 50%;
     color: $contrast-color;
     font-size: $name-size;
     font-family: $head-font;

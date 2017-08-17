@@ -30,7 +30,7 @@ var posts = [
                 | remove: ")"
                 | split: " "
             %}
-            {% comment %} Skip duplicates {% endcomment %}
+            // Skip duplicates
             {% for word in raw_words %}
                 {% unless words contains word %}
                     {% assign words = words | push: word %}
