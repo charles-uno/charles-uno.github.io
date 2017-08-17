@@ -40,10 +40,28 @@ In fact, a criminal suit against an individual officer doesn't just neglect the 
 ![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
-There's a lot of gray area between "guilty" and "not guilty." A civil suit can turn those details into headlines. Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M settlement](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) settlement with the city over his wrongful death. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
+There's a gray area between "guilty" and "not guilty." A civil suit can turn those details into headlines. Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) wrongful death settlement with the city. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
+
+[^9]: The city of St Anthony released a [statement](http://www.savmn.com/documentcenter/view/568) assuring that the settlement was paid with insurance money, not taxpayer dollars... but the insurance policy is paid for by taxpayers!
 
 
-[^9]: Statement said the settlement was insurance money, not taxpayer money... but who do you suppose pays for the insurance?
+
+
+
+
+
+To date, activists' efforts have largely focused on criminal cases against individual police officers. These cases almost always end in acquittal, which makes it easy for the public to ignore the need for reform.
+
+http://alphanewsmn.com/how-does-castile-settlement-compare-to-other-cases/
+
+- more exposure may not change the settlement size... but the settlement is already worth publicizing.
+
+
+Civil cases over wrongful death
+
+- less confrontational/polarizing
+- more winnable
+- more relevant to taxpayers
 
 
 
@@ -54,6 +72,7 @@ There's a lot of gray area between "guilty" and "not guilty." A civil suit can t
 - $6M for Tamir Rice
 - $6M for Eric Garner
 - $3M for Philando Castile
+- $1.5M for [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown#Brown_family_lawsuit)
 - "mistakes were made" might be an easier sell than "trusted officer is a murderer"
 - Use of taxpayer dollars to pay for mistakes
 
