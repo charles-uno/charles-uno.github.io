@@ -98,3 +98,150 @@ Civil cases over wrongful death
 - "mistakes were made" might be an easier sell than "trusted officer is a murderer"
 - Use of taxpayer dollars to pay for mistakes
 
+
+
+---
+
+---
+
+---
+
+
+
+**SCRATCH WORK**
+
+{% comment %}
+
+
+
+A criminal suit against an individual officer creates a false choice between *guilty* ("murderer!") and *not guilty* ("he deserved it!").
+
+This framing is tilted in favor of the status quo, because it fails to capture any mistakes that fall short of criminal wrongdoing.
+
+criminal trials are sexy, so victim victories in civil trials have largely flown under the radar
+
+By pursuing a criminal case, victims/activists are choosing to focus the headlines on that
+they will almost certainly lose
+
+But that doesn't mean victims are left with nothing.
+
+
+
+If there's a criminal trial, that's where the media focus will be.
+In criminal trials, officers are almost always acquitted.
+When a high-profile trial ends in acquittal, it vindicates those who think nothing is wrong.
+
+By focusing on criminal trials (which almost always end in acquittal), advocates for reform concede all the gray area
+
+A lot of gray area where mistakes were made, but those mistakes fall short of criminal charges.
+
+The officer's near-inevitable acquittal vindicates those who think nothing is wrong -- even if there is something wrong.
+
+Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
+
+criminal suit blames individual officer for the failures of an institution
+
+- who decided Yanez was ready? who gave him a gun and a squad car and sent him out into the night?
+- calling this officer a murderer oversimplifies what happened
+- perhaps that's why it hasn't held up in court
+
+criminal suit creates a false dichotomy between guilty and not guilty
+
+- officers are almost never indicted
+- even a damning transcript may not convince a jury to send an officer to prison
+- equating police killings with murder is politically polarizing, has had little success in court
+- tilted in favor of the status quo / perhaps unwinnable for proponents of reform
+
+criminal suit short-circuits momentum from wrongful death payout
+
+- concedes the gray area where mistakes were made, but they fell short of a crime
+- no closure to those who empathize with the victim
+- if you have both, the criminal suit dominates headlines
+- what final headline is better: "not guilty" or "$3M settlement"?
+- $6M payout for Eric Garner, Tamir Rice
+- vindicates those who think nothing is wrong
+
+
+---
+
+
+Might a similar system work for police officers?
+
+Like doctors, police officers are routinely faced with life-and-death choices. Sometimes they make mistakes, and people die. The nature of the institution makes it hard to restrict blame to a single officer[^2]. And if we treat police like criminals, our best and brightest will go elsewhere -- a downward spiral of ever-worse policing.
+
+[^2]: In July 2016, Officer Yanez fatally shot [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) during a traffic stop. The [transcript](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of the encounter suggests that Yanez panicked. Why was he on traffic duty? Who decided he was ready, gave him a gun and a squad car, and sent him out into the night?
+
+To those who pursued criminal charges after the killings of [Michael Brown](https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown), [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile), [Jamar Clark](https://en.wikipedia.org/wiki/Shooting_of_Jamar_Clark), and others by police, "malpractice" may seem like a steep compromise. But perhaps it's a compromise worth making. Equating police killings with murder is a politically polarizing take, and one that has had little success in court. A civil suit brought against the institution may be an easier sell -- and thus a quicker path to reform.
+
+Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but those costs are small compared to a wrongful death suit. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M. If police departments are made financially liable for their mistakes, they'll work a lot harder to reduce their [liability](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html).
+
+
+
+
+A police malpractice system wouldn't send individual officers to prison, but it would push reform. After the death of [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner) in 2014, New York City paid a $6M settlement to his family. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death was also settled for $6M.
+
+Reducing that liability will become much more pressing if they're forced to take out an insurance policy against it
+
+If that becomes standard, police departments will start carrying malpractice insurance[^3] -- and looking for ways to reduce their liability.
+
+[^3]: At present, liability insurance is sometimes purchased by [individual officers](http://www.reuters.com/article/us-usa-police-insurance-idUSKCN0WJ2R1).
+
+Police practice includes the use of force, so it makes sense to label misapplication of force as malpractice.
+
+Police officers are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [damning recording](http://www.nationalreview.com/corner/448740/philando-castile-verdict-was-miscarriage-justice) of a fatal encounter may not convince a jury to send an officer to prison.
+
+- Any ruling in favor of the victim is a moral victory
+- Verdicts probably drive reform better than protests. On top of the PR, there's economic pressure to reform. Malpractice insurance is expensive!
+
+---
+
+Medical doctor is a life-and-death job.
+
+- Emergency response
+- High-impact choices
+- Frequent use of dangerous tools
+
+http://www.nleomf.org/assets/pdfs/reports/Preliminary-2016-EOY-Officer-Fatalities-Report.pdf
+
+3 officers killed during traffic stops in 2016
+
+Things that you might imagine would be crimes will cost your medical license
+
+https://www.fsbpt.org/Licensees/EthicalConduct/TenEasyWaystoLoseYourLicense.aspx
+
+Put someone into a coma while removing their wisdom teeth
+
+http://www.medicalpracticeinsider.com/best-practices/4-surefire-ways-lose-your-medical-license
+
+Doesn't really make sense to hold police to the same standards as civilians when it comes to use of deadly force. we entrust police, as emergency responders, with deadly force. sometimes it will be misapplied. in the same way, there's a difference in scrutiny between a doctor prescribing narcotics and a drug dealer dispensing the same drugs.
+
+Challenge -- it's hard to punish the police as an institution because they are publicly funded. You can't cut into their profits like you can with a private hospital. Underfunded police departments become predatory; see the DOJ's report on Ferguson. This seems surmountable -- how do countries with public healthcare handle medical malpractice?
+
+Policing is a dangerous job, but not to the extent you might think. Lower mortality rate than truck drivers, fishers, or pilots. Most deaths are car accidents, not homicides.
+
+Not all interactions need to be life-and-death. Police shouldn't be killing people during traffic stops, just like you shouldn't fear for your life when the doctor is treating your sprained ankle.
+
+Maybe the gun should be in the trunk, instead of at the hip.
+
+https://fee.org/articles/by-the-numbers-how-dangerous-is-it-to-be-a-cop/
+
+https://www.forbes.com/sites/jacquelynsmith/2013/08/22/americas-10-deadliest-jobs-2/#2438ddf3424b
+
+Police officers have a mortality rate of 11 per 100k. That's lower than truck drivers, construction workers, pilots, etc. About half of police deaths are homicides. That's about the same as the murder rate of US cities.
+
+How do nations with government-funded healthcare handle medical malpractice?
+
+https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html
+
+roughly 1M doctors in the US
+
+https://en.wikipedia.org/wiki/Law_enforcement_in_the_United_States
+
+roughly 1M police officers in the US
+
+https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
+
+only ~10 doctors per year in the US have job-related deaths
+
+{% endcomment %}
+
