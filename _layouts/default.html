@@ -21,14 +21,8 @@
         <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Fredoka+One:100,400|Cutive+Mono|Cambo|Just+Me+Again+Down+Here" rel="stylesheet">
         <!-- Import CSS -->
         <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
-        <!-- Jekyll SEO for Facebook and Twitter sharing -->
-        {% seo title=false %}
-        <!-- Page title (I don't like the SEO defaults) -->
-        {% if page.title %}
-            <title>{{ page.title }} | {{ site.title }}</title>
-        {% else %}
-            <title>{{ site.title }} | {{ site.description }}</title>
-        {% endif %}
+        <!-- Jekyll SEO for Facebook and Twitter sharing. Also handles title, etc. -->
+        {% seo %}
         <!--[if lte IE 8]>
             <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
