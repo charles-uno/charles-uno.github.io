@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Malpractice"
-image: "/assets/images/qtips-thumb.png"
+title: Badges and Bandages
+image: "/assets/images/fence-thumb.png"
 description: "When a doctor messes up and kills someone, we call it malpractice instead of murder. Might a similar system work for policing?"
 keywords: police, law enforcement, race, killings, medicine, doctors, litigation, court, politics
 ---
 
-When surveyed, most Americans say they would prefer to spend their last days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all. [Over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors -- unnecessary surgery, incorrect prescription, etc -- which puts these errors among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, and diabetes.
+When surveyed, most Americans say they would prefer to spend their final days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all. [Over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors -- unnecessary surgery, incorrect prescription, etc -- which puts these errors among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, and diabetes.
 
 Medical errors account for a similar death rate in other wealthy nations -- [Canada](http://globalnews.ca/news/3026275/1-in-18-canadian-hospital-patients-experience-harm-from-preventable-errors-study/), the [UK](https://www.theguardian.com/society/2015/jul/14/avoidable-deaths-nhs-hospitals-study), and [Germany](http://www.upi.com/17000-die-in-Germany-from-medical-errors/52721267847072/) for instance. And yet, it's unheard-of for doctors to face criminal charges for murder or manslaughter.
 
 To be clear, this is a good thing. It should be very difficult for a doctor, doing their job in good faith, to be convicted of a felony. Doctors are routinely faced with life-and-death decisions; if mistakes opened them up to criminal prosecution, we'd quickly find ourselves with understaffed hospitals. Thousands of doctors would go to prison; this would be particularly devastating to rural areas, many of which already face [physician shortages](https://www.federalregister.gov/documents/2016/07/01/2016-15678/lists-of-designated-primary-medical-care-mental-health-and-dental-health-professional-shortage-areas). The suicide rate among doctors is [double](https://www.nytimes.com/2014/09/05/opinion/why-do-doctors-commit-suicide.html) that of the population overall; the constant threat of a murder charge would likely push it even higher. And it's hard to imagine America's best and brightest stepping up to fill all these vacancies -- if doctors are treated like criminals, veterinary medicine suddenly looks much more appealing.
 
-Plus, practicality aside, it would be problematic to punish an individual doctor for the failure of an institution. Suppose I'm a medical student -- but not a great one. I have some misconceptions about how guts are supposed to fit together. But you give me a medical license anyway, hire me as a surgeon, and put a scalpel in my hand. When I inevitably botch an operation, there's blood on your hands as well as mine.
+Plus, practicality aside, it would be problematic to punish an individual doctor for the failure of an institution. Suppose I'm a medical student... but not a great one. I have some misconceptions about how guts are supposed to fit together. But you give me a medical license anyway, hire me as a surgeon, and put a scalpel in my hand. When I inevitably botch an operation, there's blood on your hands as well as mine.
 
 Crucially, shielding doctors from murder charges is only half the story; the other half is ensuring justice for the victims. When a slip of the surgeon's wrist kills or cripples a single parent, perhaps the surgeon isn't a murderer -- but certainly the children have been wronged.
 
@@ -44,48 +44,38 @@ There's gray area between "guilty" and "not guilty." A civil suit can turn those
 
 [^9]: The city of St Anthony released a [statement](http://www.savmn.com/documentcenter/view/568) assuring that the settlement was paid with insurance money, not taxpayer dollars... but the insurance policy is paid for by taxpayers!
 
-Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training)
+[Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death at the hands of the NYPD was settled out of court for $6M. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death cost taxpayers another $6M. Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training); perhaps advocates should make sure taxpayers understand the [cost](http://alphanewsmn.com/how-does-castile-settlement-compare-to-other-cases/) of the status quo. No need to draw battle lines between "[law and order](https://en.wikipedia.org/wiki/Law_and_order_(politics))" and "systemic racism"; this is about getting [liabilities](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html) under control.
+
+To date, activists' efforts have largely focused on criminal cases against individual police officers. These cases almost always end in acquittal, which makes it easy for the public to ignore the need for reform. Pursuing civil suits instead would allow proponents of reform to avoid the culture clash, while also drawing momentum from multi-million-dollar legal victories.
 
 
 
 
 
 
-, but those costs are small compared to a wrongful death settlement. [Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death was settled out of court for $6M in 2015; [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice) was another $6M.
+{% comment %}
+
+
+---
+
+---
+
+---
 
 
 
+**SCRATCH WORK**
 
-Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training), but the status quo is expensive too.
-
-Publicizing civil settlements lets taxpayers know that body cameras aren't about hurt feelings -- they're about reducing liability.
-
-
-
-
-Nobody likes to see their tax dollars wasted
-
-"Police are murderers" is a tough sell. "Police mistakes are wasting your tax dollars" may be a quicker path to consensus -- and
-
-Taxpayers don't have to believe police are murderers to pressure the department to reduce its liability
-
-
-
-
-To date, activists' efforts have largely focused on criminal cases against individual police officers. These cases almost always end in acquittal, which makes it easy for the public to ignore the need for reform.
 
 http://alphanewsmn.com/how-does-castile-settlement-compare-to-other-cases/
 
 - more exposure may not change the settlement size... but the settlement is already worth publicizing.
-
 
 Civil cases over wrongful death
 
 - less confrontational/polarizing
 - more winnable
 - more relevant to taxpayers
-
-
 
 - Activists's efforts have largely focused on criminal cases against individual police officers
 - These cases are polarizing
@@ -100,18 +90,36 @@ Civil cases over wrongful death
 
 
 
----
-
----
-
----
 
 
 
-**SCRATCH WORK**
+http://www.pewsocialtrends.org/2016/12/15/in-a-recovering-market-homeownership-rates-are-down-sharply-for-blacks-young-adults/
 
-{% comment %}
 
+http://www.jchs.harvard.edu/sites/jchs.harvard.edu/files/jchs-sonhr-2015-ch4.pdf
+
+
+
+The reforms are framed
+
+Skip the mushy stuff and focus on the numbers.
+
+These reforms are an investment.
+
+Police killings waste millions of taxpayer dollars.
+
+Perhaps advocates for reform should point out that the status quo is expensive too.
+
+Publicizing civil settlements lets taxpayers know that body cameras aren't about hurt feelings -- they're about reducing liability.
+
+
+
+
+Nobody likes to see their tax dollars wasted
+
+"Police are murderers" is a tough sell. "Police mistakes are wasting your tax dollars" may be a quicker path to consensus -- and
+
+Taxpayers don't have to believe police are murderers to pressure the department to reduce its liability
 
 
 A criminal suit against an individual officer creates a false choice between *guilty* ("murderer!") and *not guilty* ("he deserved it!").
@@ -244,4 +252,3 @@ https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
 only ~10 doctors per year in the US have job-related deaths
 
 {% endcomment %}
-

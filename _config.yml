@@ -27,6 +27,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - gh-pages
 sass:
   sass_dir: /assets/_sass
   style: :compressed
