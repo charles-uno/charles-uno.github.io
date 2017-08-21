@@ -21,7 +21,9 @@ The accepted solution is for victims to take up a [medical malpractice](https://
 - Compensatory damages are paid to help the family recover.
 - Punitive damages are paid as an admission of wrongdoing.
 
-The high cost of medical malpractice puts providers under [constant pressure to improve and reform](http://m.hartfordbusiness.com/article/20140428/PRINTEDITION/304249935/hospitals-battle-medical-malpractice-costs). Hospital workers are increasingly [trained to avoid errors](http://www.philly.com/philly/business/20151122_Medmal_head_here_in_two_lines_of_36_pt.html) -- and studies suggest that these trainings are [effective](https://www.ncbi.nlm.nih.gov/pubmed/27549442).
+The high cost of malpractice insurance puts providers under [constant pressure to improve and reform](http://m.hartfordbusiness.com/article/20140428/PRINTEDITION/304249935/hospitals-battle-medical-malpractice-costs). Hospital workers are increasingly [trained to avoid errors](http://www.philly.com/philly/business/20151122_Medmal_head_here_in_two_lines_of_36_pt.html), and studies suggest these trainings are [effective](https://www.ncbi.nlm.nih.gov/pubmed/27549442). By getting their liabilities under control, hospitals are driving down their insurance premiums[^8] -- and saving lives in the process. 
+
+[^8]: Malpractice insurance follows the same principle as home insurance. Old wiring can short out and start fires, so houses with old wiring are expensive to insure. Updating the wiring in a house is costly and inconvenient, but worth it in the long run -- it lowers the cost of insurance, and reduces the risk of catastrophe. 
 
 ---
 
