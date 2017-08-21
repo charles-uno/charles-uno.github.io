@@ -46,17 +46,21 @@ There's gray area between "guilty" and "not guilty." A civil suit can turn those
 
 [^9]: The city of St Anthony released a [statement](http://www.savmn.com/documentcenter/view/568) assuring that the settlement was paid with insurance money, not taxpayer dollars... but the insurance policy is paid for by taxpayers!
 
-[Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death at the hands of the NYPD was settled out of court for $6M. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death cost taxpayers another $6M. Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training); perhaps advocates should make sure taxpayers understand the [cost](http://alphanewsmn.com/how-does-castile-settlement-compare-to-other-cases/) of the status quo. No need to draw battle lines between "[law and order](https://en.wikipedia.org/wiki/Law_and_order_(politics))" and "systemic racism"; this is about getting [liabilities](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html) under control.
+[Eric Garner](https://en.wikipedia.org/wiki/Death_of_Eric_Garner)'s death at the hands of the NYPD was settled out of court for $6M. [Tamir Rice](https://en.wikipedia.org/wiki/Shooting_of_Tamir_Rice)'s death cost taxpayers another $6M. Police departments have balked at the price of [body cameras](https://apnews.com/f19d7270535f4202b92de1872278330f/some-police-suspend-body-cameras-or-hold-citing-costs) and [de-escalation training](http://www.apmreports.org/story/2017/05/05/police-de-escalation-training); perhaps advocates should make sure taxpayers understand the [cost](http://alphanewsmn.com/how-does-castile-settlement-compare-to-other-cases/) of the status quo. No need to draw battle lines between "[law and order](https://en.wikipedia.org/wiki/Law_and_order_(politics))" and "systemic racism" -- just like training hospital staff to avoid errors, this is about getting [liabilities](https://www.washingtonpost.com/local/public-safety/for-55-officers-involved-in-fatal-shootings-this-year-it-wasnt-their-first-time/2015/12/22/435cb680-9d04-11e5-a3c5-c77f2cc5a43c_story.html) under control.
 
-To date, activists' efforts have largely focused on criminal cases against individual police officers. These cases almost always end in acquittal, which makes it easy for the public to ignore the need for reform. Pursuing civil suits instead would allow proponents of reform to avoid the culture clash, while also drawing momentum from multi-million-dollar legal victories.
+---
 
-
-
-
+NOTE: Are we just done here? The above seems like a better conclusion than the below. 
 
 
-{% comment %}
+To date, activists' efforts have largely focused on criminal cases against individual police officers. These cases almost always end in acquittal, which makes it easy for the public to ignore the need for reform. Pursuing civil suits instead would allow proponents of reform to sidestep the culture clash, while also drawing momentum from multi-million-dollar legal victories.
 
+
+
+
+
+
+<!--
 
 ---
 
@@ -253,4 +257,4 @@ https://wwwnc.cdc.gov/eid/article/11/7/pdfs/04-1038.pdf
 
 only ~10 doctors per year in the US have job-related deaths
 
-{% endcomment %}
+-->
