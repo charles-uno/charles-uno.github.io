@@ -42,7 +42,7 @@ A criminal suit against an individual officer doesn't just neglect the systemic 
 ![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
-A civil suit can make headlines out of the gray area between "guilty" and "not guilty." Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) wrongful death settlement with the city. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9]!
+A civil suit can make headlines out of the gray area between "guilty" and "not guilty." Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) wrongful death settlement with the city. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9].
 
 [^9]: The city of St Anthony released a [statement](http://www.savmn.com/documentcenter/view/568) assuring that the settlement was paid with insurance money, not taxpayer dollars... but the insurance policy is paid for by taxpayers!
 
