@@ -95,13 +95,13 @@ function getPos(elt) {
 //. given a card name, this function returns a link to search for info on that card
 function searchLink(cardName){
   var linkStart = 'http://magiccards.info/query?q=', linkEnd = '&v=card&s=cname';
-  return linkStart + cardName.replace('&amp;','').replace('//','') + linkEnd;
+  return linkStart + cardName.replace('&amp;','').replace('//','').replace('’','') + linkEnd;
 }
 
 //. given a card name, this function returns a link to that card image on gatherer.
 function imageLink(cardName){
   var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=';
-  return linkStart + cardName.replace('&amp;','//');
+  return linkStart + cardName.replace('&amp;','//').replace('’','\'');
 }
 
 window.onload = initCards;

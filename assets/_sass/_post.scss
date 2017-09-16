@@ -31,7 +31,6 @@ header {
         p { width: 100%; max-width: 100%; margin: 0; padding: 0; border: 0; }
     }
 
-
 }
 
 article {
@@ -67,6 +66,26 @@ article {
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
     }
+
+    .cardlist {
+        width: 100%;
+        tbody, tr { width: 100%; }
+        td { width: 33.3%; height: 100%; vertical-align: top; }
+        .deckname { font-weight: bold; }
+        background-color: $shadow-color;
+        margin: 0 auto;
+        border: 0;
+        padding: $pad;
+        p { width: 100%; max-width: 100%; margin: 0; padding: 0; border: 0; }
+
+//        display: block;
+//        -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+//        -moz-columns: 100px 3; /* Firefox */
+//        columns: 100px 3;
+    }
+
+
+
     // Images fill the width and get a shadow pad. If followed
     // immediately by italics (within the same paragraph), that's the
     // caption.
