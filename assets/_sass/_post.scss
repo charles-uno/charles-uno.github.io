@@ -52,7 +52,7 @@ article {
         padding: $half-pad;
     }
     th, td { padding: $half-pad; }
-    ul, p {
+    ul, p, h1, h2, h3, h4, h5, h6 {
         margin: $text-size auto;
         max-width: $text-width;
     }
