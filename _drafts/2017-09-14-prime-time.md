@@ -65,22 +65,21 @@ Admittedly, it's not quite fair to use this program to compare Matthias' build t
 
 ### What's Negotiable?
 
-Breach -- Maxed out. Dramatic Entrance. 
-Titan, Pact -- Maxed out. Ulvenwald Hydra, Hour of Promise.
-Search, Guide -- Maxed out. Arbor Elf, Joraga Treespeaker, Utopia Sprawl. 
+Most of the deck is set in stone. 
 
-Bolt, Chandra -- Protected. Blank to the program but we keep them. 
+We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough. And we're not about to cut any <a class="card">Summoner's Pact</a>. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> out of the sideboard.
 
-Elder, Farseek -- do we have the right number, and should we be playing Explore instead?
-Oath -- Compare to Cantrip, Wraith
-Lands -- How about 24, 26? Sheltered Thicket probably not worth considering: it's never an untapped land off the top, and late game we're unlikely to cycle it -- we already have Valakut on the table, so Mountain is what we want. 
+In the interest of honest comparison, we also won't touch <a class="card">Lightning Bolt</a> or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
+
+That leaves:
+
+- <a class="card">Oath of Nissa</a> -- Compare to Cantrip, Wraith?
+- <a class="card">Farseek</a> and <a class="card">Sakura-Tribe Elder</a> -- Is 8 the right number of 2-drop ramp spells, and should we be playing Explore?
+- <a class="card">Lands</a> -- How about 24, 26? Sheltered Thicket probably not worth considering: it's never an untapped land off the top, and late game we're unlikely to cycle it -- we already have Valakut on the table, so Mountain is what we want. 
 
 ---
 
 ---
-
-
-and assume it's safe to dedicate only 3 maindeck slots to interaction (the 2 remaining <A class="card">Lightning Bolt</a>s and the <a class="card">Chandra, Torch of Defiance</a>). In that case, is <a class="card">Oath of Nissa</a> the best we can do, and are there any other 
 
 
 ### How Good is Oath?
