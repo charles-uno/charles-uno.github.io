@@ -79,73 +79,31 @@ That leaves:
 
 ### Ramp Spells
 
-The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. 
+The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered to be next. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
 
-As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered next-best. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
-
-First question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
-
-<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping. 
-
-Matthias and Zach both elected to go with the tried-and-true Farseek. But as far as landing Titan on turn 3, Explore is better. Swapping 4 <a class="card">Farseek</a> for 4 <a class="card">Explore</a> in Matthias' build raises the rate of turn-3 Titans from 30% to **37%** on the play (and from 50% to **55%** on the draw).
-
-It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>. 
-
-Second question: is 8 the correct number of 2-cost ramp spells?
+First question: is 8 the correct number of 2-cost ramp spells?
 
 > We test this by looking at a 59-card deck (cutting one copy of <a class="card">Farseek</a>) and a 61-card deck (playing a 5th copy). This lets us punt on the question of which card would be swapped in or out. 
+
 
 
 > farseek59, farseek61
 
 
 
+Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
+
+<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping. 
+
+Matthias and Zach both elected to go with the tried-and-true Farseek. But as far as landing Titan on turn 3, Explore is better. Swapping 4 <a class="card">Farseek</a> for 4 <a class="card">Explore</a> in Matthias' build raises the rate of turn-3 Titans from 30% to **36%** on the play (and from 50% to **55%** on the draw).
+
+It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>. 
+
+### Oath of Nissa
 
 
 
-
-
-
-
- 
-
-
-
-
-
-
-
-The selling point of <a class="card">Farseek</a> is that it ups our Mountain count (for Valakut) while also finding a second green source. The same can't be said for <a class="card">Rampant Growth</a>, <a class="card">Fertile Ground</a>, or <a class="card">Edge of Autumn</a>. There are also
-
-
-We might also consider <a class="card">Khalni Heart Expedition</a>, <a class="card">Ordeal of Nylea</a>, <a class="card">Viridian Emissary</a>.
-
-<a class="card">Viridian Emissary</a> acts like a second <a class="card">Sakura-Tribe Elder</a>,
-
-
-
-
-
-, with the possibility to cheat one out a turn early[^5]. 
-
-[^5]: With enough copies of <a class="card">Simian Spirit Guide</a> in your opening hand, it's technically possible to play Titan on turn 2, or even turn 1, but the odds of doing so are tiny. 
-
-
-
-
-
-### Cantrips
-
-
-If we already have Valakut on the table, we're happy to draw another Mountain. If we don't have Valakut, that means we haven't played Titan, so how exactly have we survived to the late game? (Sheltered Thicket)
-
-
-
-
-
-
-
-### Lands
+---
 
 
 
@@ -158,6 +116,19 @@ Another possibility is <a class="card">Street Wraith</a>. Wraith doesn't dig for
 If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play it in a heartbeat -- but 2 life is a real cost. If we draw multiple copies of Wraith against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper), it may not matter how fast we get Titan on the table. 
 
 
+---
+
+
+
+
+### Lands
+
+
+
+If we already have Valakut on the table, we're happy to draw another Mountain. If we don't have Valakut, that means we haven't played Titan, so how exactly have we survived to the late game? (Sheltered Thicket)
+
+
+
 
 
 
@@ -173,76 +144,18 @@ If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play i
 
 ---
 
-
-
-<a class="card">Farseek</a> is the worst ramp spell in the deck. It can't be played on turn 1 like <a class="card">Search for Tomorrow</a>, and it doesn't soak up damage like <a class="card">Sakura-Tribe Elder</a>.
-
----
 
 Adding cantrips significantly improves the odds of dropping Titan on turn 3; Oath even more so. The effect from Street Wraith is even better, but the loss of life will cost games against aggressive decks. 
 
 Explore is better than Farseek, especially if we play the 26th land, which we should. 
 
 
-
----
----
----
-
-
-
-
-<a class="card">Sakura-Tribe Elder</a> is better than <a class="card">Farseek</a>. Soaking up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) or [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper) is far more important than the ability to grab <a class="card">Cinder Glade</a>. But the deck needs more than 4 2-cost ramp spells, and there just aren't that many options.
-
-The selling point of <a class="card">Farseek</a> is that it ups our Mountain count (for Valakut) while also finding a second green source. The same can't be said for <a class="card">Rampant Growth</a>, <a class="card">Fertile Ground</a>, or <a class="card">Edge of Autumn</a>. There are also
-
-
-We might also consider <a class="card">Khalni Heart Expedition</a>, <a class="card">Ordeal of Nylea</a>, <a class="card">Viridian Emissary</a>.
-
-<a class="card">Viridian Emissary</a> acts like a second <a class="card">Sakura-Tribe Elder</a>,
-
-
-
-
-
-
-But what about <a class="card">Explore</a>?
-
-
-
-
-
-
-
-.
-
-
-
-
-
-
-Explore feels worse. Doesn't always ramp you. If you don't have a land in your hand, or don't draw a second land, it's just a 2-mana cantrip. If you're stuck on 2 lands, you'd always rather have Farseek. Upside is that the additional land may be untapped (allowing you to play Oath or Bolt that same turn) and it can help you find Titan.
-
-Farseek: 30% on the play, 50% on the draw
-
-Explore: 36% on the play, 55% on the draw
-
-
 ---
 
 ---
 
 ---
 
-
-
-### Oath vs Cantrip vs Wraith
-
-
-## Land Count
-
-
--
 
 
 https://magic.wizards.com/en/articles/archive/event-coverage/rookie-year-matthias-hunt-2011-11-19
