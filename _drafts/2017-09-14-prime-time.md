@@ -81,23 +81,23 @@ That leaves:
 
 The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. 
 
-As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered second-best. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
+As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered next-best. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
 
-First question: is 8 the correct number of 2-cost ramp spells?
-
-> Test this by replacing a cantrip. Let's see if slightly-higher reliability of turn-2 ramp makes up for the slightly-lower ability to find Titan in a timely manner. 
-
-> Or should we test this by playing 59/61 cards? Punt on what to replace. 
-
-Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
+First question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
 
 <a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping. 
 
+Matthias and Zach both elected to go with the tried-and-true Farseek. But as far as landing Titan on turn 3, Explore is better. Swapping 4 <a class="card">Farseek</a> for 4 <a class="card">Explore</a> in Matthias' build raises the rate of turn-3 Titans from 30% to **37%** on the play (and from 50% to **55%** on the draw).
+
+It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>. 
+
+Second question: is 8 the correct number of 2-cost ramp spells?
+
+> We test this by looking at a 59-card deck (cutting one copy of <a class="card">Farseek</a>) and a 61-card deck (playing a 5th copy). This lets us punt on the question of which card would be swapped in or out. 
 
 
+> farseek59, farseek61
 
-
-> Farseek is better late game, since we just want another Mountain to trigger Valakut. 
 
 
 
