@@ -67,7 +67,7 @@ Admittedly, it's not quite fair to use this program to compare Matthias' build t
 
 Most of the deck is set in stone. 
 
-We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough because it doesn't give haste. And we're not about to cut any <a class="card">Summoner's Pact</a>. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> out of the sideboard.
+We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough because it doesn't give haste. And we're not about to cut any <a class="card">Summoner's Pact</a>s. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> to deal with <a class="card">Blood Moon</a> out of the sideboard.
 
 In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
 
