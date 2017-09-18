@@ -12,7 +12,7 @@ The deck is [Titan Breach](https://www.mtggoldfish.com/deck/757022#paper), a les
 
 - T1: <a class="card">Stomping Ground</a>, suspend <a class="card">Search for Tomorrow</a>.
 - T2: <a class="card">Mountain</a>, <a class="card">Sakura-Tribe Elder</a>, get a Mountain.
-- T3: Cast Search from exile, get a Mountain. Mountain for turn. Cast <a class="card">Through the Breach</a>, dropping <a class="card">Primeval Titan</a>, searching up 2 <a class="card">Valakut, the Molten Pinnacle</a>. Then attack with Titan, searching up 2 Mountain.
+- T3: Cast Search from exile, get a Mountain. Mountain for turn. Cast <a class="card">Through the Breach</a>, dropping <a class="card">Primeval Titan</a>, searching up 2 <a class="card">Valakut, the Molten Pinnacle</a>. Then attack with Titan, searching up 2 more Mountains, triggering Valakut 4 times.
 
 That's 6 damage from Titan and another 12 from Valakut, which is typically enough to close out the game[^1]. If not, it clears the opposing board, and from now on each land comes with a pair of free <a class="card">Lightning Bolt</a>s attached. It's rare to lose a game after making Titan on turn 3.
 
@@ -61,17 +61,48 @@ To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you
 
 Admittedly, it's not quite fair to compare Matthias' build to Zach's on the basis of how often they drop a Titan on turn 3. As far as the program is concerned, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are basically blank cards, whereas <a class="card">Oath of Nissa</a> has the potential to advance the turn-3-Titan game plan. So let's take up a more interesting question: starting from Matthias' list -- and without throwing away the remaining <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a> -- can we improve the consistency of turn-3 <a class="card">Primeval Titan</a>[^4]?
 
-[^4]: Most games without turn-3 Titan get it on turn 4. Zach's build saw Titan by turn 4 on the play in almost 85% of games. Matthias' build, and all that follow, are closer to 90%.
-
-
-
-
+[^4]: Shooting for Titan on turn 3 isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4. Matthias' build, and the following tweaks, are over 90%.
 
 ### Farseek vs Explore
 
+<a class="card">Farseek</a> is the worst ramp spell in the deck. It can't be played on turn 1 like <a class="card">Search for Tomorrow</a>, and it doesn't soak up damage like <a class="card">Sakura-Tribe Elder</a>.
+
+---
+
+---
+
+---
+
+<a class="card">Sakura-Tribe Elder</a> is better than <a class="card">Farseek</a>. Soaking up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) or [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper) is far more important than the ability to grab <a class="card">Cinder Glade</a>. But the deck needs more than 4 2-cost ramp spells, and there just aren't that many options.
+
+The selling point of <a class="card">Farseek</a> is that it ups our Mountain count (for Valakut) while also finding a second green source. The same can't be said for <a class="card">Rampant Growth</a>, <a class="card">Fertile Ground</a>, or <a class="card">Edge of Autumn</a>. There are also
+
+
+We might also consider <a class="card">Khalni Heart Expedition</a>, <a class="card">Ordeal of Nylea</a>, <a class="card">Viridian Emissary</a>.
+
+<a class="card">Viridian Emissary</a> acts like a second <a class="card">Sakura-Tribe Elder</a>,
+
+
+
+
+
+
+But what about <a class="card">Explore</a>?
+
+
+
+
+
+
+
+.
+
+
+
+
+
 
 Explore feels worse. Doesn't always ramp you. If you don't have a land in your hand, or don't draw a second land, it's just a 2-mana cantrip. If you're stuck on 2 lands, you'd always rather have Farseek. Upside is that the additional land may be untapped (allowing you to play Oath or Bolt that same turn) and it can help you find Titan.
-
 
 Farseek: 30% on the play, 50% on the draw
 
