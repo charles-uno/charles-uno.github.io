@@ -67,22 +67,85 @@ Admittedly, it's not quite fair to use this program to compare Matthias' build t
 
 Most of the deck is set in stone. 
 
-We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough. And we're not about to cut any <a class="card">Summoner's Pact</a>. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> out of the sideboard.
+We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough because it doesn't give haste. And we're not about to cut any <a class="card">Summoner's Pact</a>. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> out of the sideboard.
 
-In the interest of an honest comparison to Matthias' list, we also won't touch <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
+In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
 
 That leaves:
 
-- <a class="card">Oath of Nissa</a> -- Compare to Cantrip, Wraith?
-- <a class="card">Farseek</a> and <a class="card">Sakura-Tribe Elder</a> -- Is 8 the right number of 2-drop ramp spells, and should we be playing Explore?
-- <a class="card">Lands</a> -- How about 24, 26? Sheltered Thicket probably not worth considering: it's never an untapped land off the top, and late game we're unlikely to cycle it -- we already have Valakut on the table, so Mountain is what we want. 
+- <a class="card">Farseek</a> and <a class="card">Sakura-Tribe Elder</a> -- Are we playing the correct number of 2-cost ramp spells, and are these the best ones? 
+- <a class="card">Oath of Nissa</a> -- How much of a benefit are we getting from (essentially) a cantrip? 
+- Lands -- What happens if we try 24 or 26 lands instead of 25? 
 
----
+### Ramp Spells
 
----
+The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. 
+
+As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered second-best, since it finds a second green source. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
+
+First question: do we want to play more than 8 2-cost ramp spells?
+
+> Test this by replacing a cantrip. Let's see if slightly-higher reliability of turn-2 ramp makes up for the slightly-lower ability to find Titan in a timely manner. 
+
+> Or should we test this by playing 61 cards? Punt on what to replace. 
+
+Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
+
+<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can sneak in an extra Oath or Lightning Bolt after ramping. 
 
 
-### How Good is Oath?
+
+
+
+> Farseek is better late game, since we just want another Mountain to trigger Valakut. 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+The selling point of <a class="card">Farseek</a> is that it ups our Mountain count (for Valakut) while also finding a second green source. The same can't be said for <a class="card">Rampant Growth</a>, <a class="card">Fertile Ground</a>, or <a class="card">Edge of Autumn</a>. There are also
+
+
+We might also consider <a class="card">Khalni Heart Expedition</a>, <a class="card">Ordeal of Nylea</a>, <a class="card">Viridian Emissary</a>.
+
+<a class="card">Viridian Emissary</a> acts like a second <a class="card">Sakura-Tribe Elder</a>,
+
+
+
+
+
+, with the possibility to cheat one out a turn early[^5]. 
+
+[^5]: With enough copies of <a class="card">Simian Spirit Guide</a> in your opening hand, it's technically possible to play Titan on turn 2, or even turn 1, but the odds of doing so are tiny. 
+
+
+
+
+
+### Cantrips
+
+
+If we already have Valakut on the table, we're happy to draw another Mountain. If we don't have Valakut, that means we haven't played Titan, so how exactly have we survived to the late game? (Sheltered Thicket)
+
+
+
+
+
+
+
+### Lands
 
 
 
@@ -101,7 +164,16 @@ If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play i
 
 
 
-### Farseek vs Explore
+
+
+
+---
+
+---
+
+---
+
+
 
 <a class="card">Farseek</a> is the worst ramp spell in the deck. It can't be played on turn 1 like <a class="card">Search for Tomorrow</a>, and it doesn't soak up damage like <a class="card">Sakura-Tribe Elder</a>.
 
@@ -113,13 +185,12 @@ Explore is better than Farseek, especially if we play the 26th land, which we sh
 
 
 
-
-
+---
+---
 ---
 
----
 
----
+
 
 <a class="card">Sakura-Tribe Elder</a> is better than <a class="card">Farseek</a>. Soaking up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) or [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper) is far more important than the ability to grab <a class="card">Cinder Glade</a>. But the deck needs more than 4 2-cost ramp spells, and there just aren't that many options.
 
