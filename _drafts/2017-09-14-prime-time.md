@@ -83,7 +83,7 @@ The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by
 
 As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered second-best. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
 
-First question: do we want to play more than 8 2-cost ramp spells?
+First question: is 8 the correct number of 2-cost ramp spells?
 
 > Test this by replacing a cantrip. Let's see if slightly-higher reliability of turn-2 ramp makes up for the slightly-lower ability to find Titan in a timely manner. 
 
