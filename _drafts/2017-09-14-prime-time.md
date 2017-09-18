@@ -55,13 +55,13 @@ The list I played was a bit different. Matthias pulled a pair of <a class="card"
     </tr>
 </table>
 
-To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you can check it out [here](https://github.com/charles-uno/valakut)). The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given game state, it's guaranteed to find the fastest way to get Titan on the table[^4].
+To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you can check it out [here](https://github.com/charles-uno/valakut)). The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest[^4] line to a Titan.
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and there's always a best way to tap lands for mana.
 
-[^4]: Shooting for Titan on turn 3 isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
+[^4]: We're maximizing the odds of turn-3 Titan, but this isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
 
-Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the reliabiliy of the combo. Zach's build is better at playing control, and its combo reliability is a bit lower as a result. Whether that's good or bad depends on the matchup. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better. 
+Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the combo. Zach puts the combo together a bit slower, but it's better at playing control in the meantime, which may be better in some matchups. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better. 
 
 ### What's Negotiable?
 
@@ -69,7 +69,7 @@ Most of the deck is set in stone.
 
 We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough. And we're not about to cut any <a class="card">Summoner's Pact</a>. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> out of the sideboard.
 
-In the interest of honest comparison, we also won't touch <a class="card">Lightning Bolt</a> or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
+In the interest of an honest comparison to Matthias' list, we also won't touch <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
 
 That leaves:
 
