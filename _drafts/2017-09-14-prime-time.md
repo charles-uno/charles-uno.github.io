@@ -8,7 +8,7 @@ description: ""
 
 I'm a newcomer to Modern. A few months ago, I would have called <a class="card">Death's Shadow</a> a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.
 
-[^0]: Matthias Hunt, of of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety. 
+[^0]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety. 
 
 The deck is [Titan Breach](https://www.mtggoldfish.com/deck/757022#paper), a less-played cousin of [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titan-shift#paper). A good draw plays out about like this:
 
@@ -20,9 +20,9 @@ That's 6 damage from Titan and another 12 from Valakut, which is typically enoug
 
 [^1]: Fetch lands (like <a class="card">Wooded Foothills</a>) and shock lands (like <a class="card">Stomping Ground</a>) are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. When played perfectly, his list produces a turn-3 Titan in 22% of games on the play; on the draw, that number is 38%. 
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. When played perfectly, his list produces a turn-3 Titan in **22%** of games on the play; on the draw, that number is 38%. 
 
-The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. With perfect play, Matthias' list (below) makes a turn-3 Titan in 30% of games on the play, and 50% on the draw.
+The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. With perfect play, Matthias' list (below) makes a turn-3 Titan in **30%** of games on the play, and 50% on the draw.
 
 <table class="cardlist">
     <thead>
@@ -60,13 +60,21 @@ To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and there's always a best way to tap lands for mana.
 
 
-[^4]: Shooting for Titan on turn 3 isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4. Matthias' build, and the following tweaks, are over 90%.
+[^4]: Shooting for Titan on turn 3 isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
 
 ### How Good is Oath?
 
 Admittedly, it's not quite fair to compare Matthias' build to Zach's on the basis of how often they drop a Titan on turn 3. The program cares about nothing but getting Titan on the table. As far as it's concerned <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. When we swap them out for <a class="card">Oath of Nissa</a>, which has the potential to help drop a turn-3 Titan, it's no surprise that our numbers get better. 
 
-So let's make an apples-to-apples comparison. Assuming it's safe to drop the deck down to 3 interactive cards (the 2 remaining <A class="card">Lightning Bolt</a>s and the <a class="card">Chandra, Torch of Defiance</a>), is <a class="card">Oath of Nissa</a> the best we can do?
+So let's make an apples-to-apples comparison. Supposing it's safe to drop the deck down to 3 interactive cards (the 2 remaining <A class="card">Lightning Bolt</a>s and the <a class="card">Chandra, Torch of Defiance</a>), is <a class="card">Oath of Nissa</a> the best we can do?
+
+As a control, we can try a cantrip instead: <a class="card">Dissenter's Deliverance</a>, assuming we always cycle it. Our numbers get a bit worse: instead of 30%, we play a turn-3 Titan in **27%** of games. On the draw, we're down from 50% to **`YYY`**. Oath can't find <a class="card">Through the Breach</a>, and sometimes it whiffs, but even so it's clear that digging 3 cards deep is better than blindly drawing the top card at the same cost. 
+
+But what about blindly drawing the top card at no (mana) cost?
+
+Another possibility is <a class="card"Street Wraith</a>. Wraith doesn't dig for Titan as well as Oath, but its lack of a mana cost almost makes it easier on our tempo. The effect is surprisingly large. Swapping Oath for Wraith, we can hit a turn-3 Titan in **`XXX`** of games on the play, and **`YYY`** on the draw. 
+
+If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play it in a heartbeat -- but 2 life is a real cost. If we draw multiple copies of Wraith against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper), it may not matter how fast we get Titan on the table. 
 
 
 
@@ -78,6 +86,16 @@ So let's make an apples-to-apples comparison. Assuming it's safe to drop the dec
 ### Farseek vs Explore
 
 <a class="card">Farseek</a> is the worst ramp spell in the deck. It can't be played on turn 1 like <a class="card">Search for Tomorrow</a>, and it doesn't soak up damage like <a class="card">Sakura-Tribe Elder</a>.
+
+---
+
+Adding cantrips significantly improves the odds of dropping Titan on turn 3; Oath even more so. The effect from Street Wraith is even better, but the loss of life will cost games against aggressive decks. 
+
+Explore is better than Farseek, especially if we play the 26th land, which we should. 
+
+
+
+
 
 ---
 
