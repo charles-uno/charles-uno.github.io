@@ -81,17 +81,17 @@ That leaves:
 
 The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. 
 
-As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered second-best, since it finds a second green source. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
+As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered second-best. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
 
 First question: do we want to play more than 8 2-cost ramp spells?
 
 > Test this by replacing a cantrip. Let's see if slightly-higher reliability of turn-2 ramp makes up for the slightly-lower ability to find Titan in a timely manner. 
 
-> Or should we test this by playing 61 cards? Punt on what to replace. 
+> Or should we test this by playing 59/61 cards? Punt on what to replace. 
 
 Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
 
-<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can sneak in an extra Oath or Lightning Bolt after ramping. 
+<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping. 
 
 
 
