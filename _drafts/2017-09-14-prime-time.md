@@ -59,14 +59,33 @@ To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and there's always a best way to tap lands for mana.
 
-
 [^4]: Shooting for Titan on turn 3 isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
+
+Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the reliabiliy of the combo. Zach's build is better at playing control, and its combo reliability is a bit lower as a result. Whether that's good or bad depends on the matchup. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better. 
+
+### What's Negotiable?
+
+Breach -- Maxed out. Dramatic Entrance. 
+Titan, Pact -- Maxed out. Ulvenwald Hydra, Hour of Promise.
+Search, Guide -- Maxed out. Arbor Elf, Joraga Treespeaker, Utopia Sprawl. 
+
+Bolt, Chandra -- Protected. Blank to the program but we keep them. 
+
+Elder, Farseek -- do we have the right number, and should we be playing Explore instead?
+Oath -- Compare to Cantrip, Wraith
+Lands -- How about 24, 26? Sheltered Thicket probably not worth considering: it's never an untapped land off the top, and late game we're unlikely to cycle it -- we already have Valakut on the table, so Mountain is what we want. 
+
+---
+
+---
+
+
+and assume it's safe to dedicate only 3 maindeck slots to interaction (the 2 remaining <A class="card">Lightning Bolt</a>s and the <a class="card">Chandra, Torch of Defiance</a>). In that case, is <a class="card">Oath of Nissa</a> the best we can do, and are there any other 
+
 
 ### How Good is Oath?
 
-Admittedly, it's not quite fair to compare Matthias' build to Zach's on the basis of how often they drop a Titan on turn 3. The program cares about nothing but getting Titan on the table. As far as it's concerned <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. When we swap them out for <a class="card">Oath of Nissa</a>, which has the potential to help drop a turn-3 Titan, it's no surprise that our numbers get better. 
 
-So let's make an apples-to-apples comparison. Supposing it's safe to drop the deck down to 3 interactive cards (the 2 remaining <A class="card">Lightning Bolt</a>s and the <a class="card">Chandra, Torch of Defiance</a>), is <a class="card">Oath of Nissa</a> the best we can do?
 
 As a control, we can try a cantrip instead: <a class="card">Dissenter's Deliverance</a>, assuming we always cycle it. Our numbers get a bit worse: instead of 30%, we play a turn-3 Titan in **27%** of games. On the draw, we're down from 50% to **`YYY`**. Oath can't find <a class="card">Through the Breach</a>, and sometimes it whiffs, but even so it's clear that digging 3 cards deep is better than blindly drawing the top card at the same cost. 
 
