@@ -8,7 +8,7 @@ description: ""
 
 I'm a newcomer to Modern. A few months ago, I would have called <a class="card">Death's Shadow</a> a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.
 
-[^0]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety. 
+[^0]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety.
 
 The deck is [Titan Breach](https://www.mtggoldfish.com/deck/757022#paper), a less-played cousin of [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titan-shift#paper). A good draw plays out about like this:
 
@@ -20,7 +20,7 @@ That's 6 damage from Titan and another 12 from Valakut, which is typically enoug
 
 [^1]: Fetch lands (like <a class="card">Wooded Foothills</a>) and shock lands (like <a class="card">Stomping Ground</a>) are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. When played perfectly, his list produces a turn-3 Titan in **22%** of games on the play; on the draw, that number is 38%. 
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. When played perfectly, his list produces a turn-3 Titan in **22%** of games on the play; on the draw, that number is 38%.
 
 The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. With perfect play, Matthias' list (below) makes a turn-3 Titan in **30%** of games on the play, and 50% on the draw.
 
@@ -61,29 +61,37 @@ To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you
 
 [^4]: We're maximizing the odds of turn-3 Titan, but this isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
 
-Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the combo. Zach puts the combo together a bit slower, but it's better at playing control in the meantime, which may be better in some matchups. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better. 
+Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the combo. Zach puts the combo together a bit slower, but it's better at playing control in the meantime, which may be better in some matchups. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better.
 
 ### What's Negotiable?
 
-Most of the deck is set in stone. 
+Most of the deck is set in stone.
 
-We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search. We might consider playing more than 4 <a class="card">Through the Breach</a>, but <a class="card">Dramatic Entrance</a> isn't good enough because it doesn't give haste. And we're not about to cut any <a class="card">Summoner's Pact</a>s. We already lose 5% to 10% of games due to not being able to find Titan, plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> to deal with <a class="card">Blood Moon</a> out of the sideboard.
+We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search.
 
-In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis. 
+We always want to have a ramp spell on turn 2, and <a class="card">Sakura-Tribe Elder</a> is clearly the best one. Its ability to soak up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) or [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper) more than makes up for its inability to get dual lands.
+
+We're not about to play fewer than 4 copies of <a class="card">Through the Breach</a>; we'd play more if possible, but without haste <a class="card">Dramatic Entrance</a> doesn't make the cut. And we're not about to cut any <a class="card">Summoner's Pact</a>s. We already lose 5% to 10% of games when we can't find a Titan -- plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> to deal with <a class="card">Blood Moon</a> out of the sideboard.
+
+In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis.
 
 That leaves:
 
-- <a class="card">Farseek</a> and <a class="card">Sakura-Tribe Elder</a> -- Are we playing the correct number of 2-cost ramp spells, and are these the best ones? 
-- <a class="card">Oath of Nissa</a> -- How much of a benefit are we getting from (essentially) a cantrip? 
-- Lands -- What happens if we try 24 or 26 lands instead of 25? 
+- <a class="card">Farseek</a> -- Are we playing the correct number of 2-cost ramp spells, and how does
+
+
+
+Are we playing the correct number of 2-cost ramp spells, and are these the best ones?
+- <a class="card">Oath of Nissa</a> -- How much of a benefit are we getting from (essentially) a cantrip?
+- Lands -- What happens if we try 24 or 26 lands instead of 25?
 
 ### Ramp Spells
 
-The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered to be next. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on. 
+The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered to be next. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on.
 
 First question: is 8 the correct number of 2-cost ramp spells?
 
-> We test this by looking at a 59-card deck (cutting one copy of <a class="card">Farseek</a>) and a 61-card deck (playing a 5th copy). This lets us punt on the question of which card would be swapped in or out. 
+> We test this by looking at a 59-card deck (cutting one copy of <a class="card">Farseek</a>) and a 61-card deck (playing a 5th copy). This lets us punt on the question of which card would be swapped in or out.
 
 
 
@@ -93,11 +101,11 @@ First question: is 8 the correct number of 2-cost ramp spells?
 
 Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
 
-<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping. 
+<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping.
 
 Matthias and Zach both elected to go with the tried-and-true Farseek. But as far as landing Titan on turn 3, Explore is better. Swapping 4 <a class="card">Farseek</a> for 4 <a class="card">Explore</a> in Matthias' build raises the rate of turn-3 Titans from 30% to **36%** on the play (and from 50% to **55%** on the draw).
 
-It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>. 
+It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>.
 
 ### Oath of Nissa
 
@@ -107,13 +115,13 @@ It bears noting -- again -- that this simulation is concerned only with assembli
 
 
 
-As a control, we can try a cantrip instead: <a class="card">Dissenter's Deliverance</a>, assuming we always cycle it. Our numbers get a bit worse: instead of 30%, we play a turn-3 Titan in **27%** of games. On the draw, we're down from 50% to **`YYY`**. Oath can't find <a class="card">Through the Breach</a>, and sometimes it whiffs, but even so it's clear that digging 3 cards deep is better than blindly drawing the top card at the same cost. 
+As a control, we can try a cantrip instead: <a class="card">Dissenter's Deliverance</a>, assuming we always cycle it. Our numbers get a bit worse: instead of 30%, we play a turn-3 Titan in **27%** of games. On the draw, we're down from 50% to **`YYY`**. Oath can't find <a class="card">Through the Breach</a>, and sometimes it whiffs, but even so it's clear that digging 3 cards deep is better than blindly drawing the top card at the same cost.
 
 But what about blindly drawing the top card at no (mana) cost?
 
-Another possibility is <a class="card">Street Wraith</a>. Wraith doesn't dig for Titan as well as Oath, but its lack of a mana cost almost makes it easier on our tempo. The effect is surprisingly large. Swapping Oath for Wraith, we can hit a turn-3 Titan in **`XXX`** of games on the play, and **`YYY`** on the draw. 
+Another possibility is <a class="card">Street Wraith</a>. Wraith doesn't dig for Titan as well as Oath, but its lack of a mana cost almost makes it easier on our tempo. The effect is surprisingly large. Swapping Oath for Wraith, we can hit a turn-3 Titan in **`XXX`** of games on the play, and **`YYY`** on the draw.
 
-If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play it in a heartbeat -- but 2 life is a real cost. If we draw multiple copies of Wraith against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper), it may not matter how fast we get Titan on the table. 
+If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play it in a heartbeat -- but 2 life is a real cost. If we draw multiple copies of Wraith against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper), it may not matter how fast we get Titan on the table.
 
 
 ---
@@ -145,9 +153,9 @@ If we already have Valakut on the table, we're happy to draw another Mountain. I
 ---
 
 
-Adding cantrips significantly improves the odds of dropping Titan on turn 3; Oath even more so. The effect from Street Wraith is even better, but the loss of life will cost games against aggressive decks. 
+Adding cantrips significantly improves the odds of dropping Titan on turn 3; Oath even more so. The effect from Street Wraith is even better, but the loss of life will cost games against aggressive decks.
 
-Explore is better than Farseek, especially if we play the 26th land, which we should. 
+Explore is better than Farseek, especially if we play the 26th land, which we should.
 
 
 ---
