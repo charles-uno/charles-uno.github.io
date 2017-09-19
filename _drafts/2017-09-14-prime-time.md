@@ -140,9 +140,25 @@ If we already have Valakut on the table, we're happy to draw another Mountain. I
 
 
 
+### Discussion of Algorithm
+
+(1) Shuffling is a problem! Was running into the problem where my success odds would go through the roof due to adding a bunch of Street Wraiths. This is because "cycle wraith then fetch" and "fetch then cycle wraith" are two different lines, each shuffled independently. Essentially, every time I shuffled the deck, I was getting extra chances to draw what I needed. Double-dipping on luck. 
+
+Always shuffling in the same way didn't solve the problem. Removing the bottom-most copy of the desired card (and leaving the rest of the deck in tact) made the problem smaller, but didn't get rid of it. Fetching Mountain versus fetching Forest apparently affects the top few cards of the deck pretty often. 
+
+Ultimately I eliminated free deck manipulation. Oath still moves cards from top to bottom, but fetching a Forest pulls a Forest out of thin air. It's technically possible to end up with 5 copies of Stomping Ground on the table, but that's a sub-percent-level effect. 
+
+(2) Oath is really computationally intensive! It can be sequenced a lot of different ways (since it's cheap) and it creates several game states all by itself. Swapping it out for a cantrip made the code run twice as fast, maybe more. 
+
+(3) Some simplifications for the sake of computational time. 
+
+- We track total mana and green mana, but not red. Breach is the only red spell we care about, and it's literally impossible for us to get to 5 mana without a red source. This also makes tapping trivial: tap as much green as necessary, then try to pay for the rest with red. 
+- We don't track mountains for Valakut, since getting Titan on the table is our escape condition. That means Forest is actually the best land in our deck. It provides green, helps Glade be untapped, and comes in untapped itself. If there's a Forest left in our deck, that's always what we fetch with Search / Elder (even though in actual play they typically get Mountain). Fetch lands also never fetch Mountain if there's a Forest left in the deck. 
+- We don't distinguish Heath from Foothills. The issue of running out of Mountains in the deck is a late game problem, and this is an early game simulation.
+- Life is not tracked. Basically we pretend that Stomping Ground is Taiga. 
 
 
-
+- Since deck thinning is no longer a thing, we should always fetch Stomp over Glade. 
 
 
 
