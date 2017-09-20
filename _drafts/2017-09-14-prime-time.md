@@ -15,41 +15,11 @@ The deck is [Titan Breach](https://www.mtggoldfish.com/deck/757022#paper), a les
 - T2: <a class="card">Mountain</a>, <a class="card">Sakura-Tribe Elder</a>, get a Mountain.
 - T3: Cast Search from exile, get a Mountain. Mountain for turn. Cast <a class="card">Through the Breach</a>, dropping <a class="card">Primeval Titan</a>, searching up 2 <a class="card">Valakut, the Molten Pinnacle</a>. Then attack with Titan, searching up 2 more Mountains, triggering Valakut 4 times.
 
-That's 6 damage from Titan and another 12 from Valakut, which is typically enough to close out the game[^1]. If not, it clears the opposing board, and from now on each land comes with a pair of free <a class="card">Lightning Bolt</a>s attached. It's rare to lose a game after making Titan on turn 3; Titan on turn 4 is considerably more "fair."
+That's 6 damage from Titan and another 12 from Valakut, which is typically enough to close out the game[^1]. If not, it clears the opposing board, and from now on each land comes with a pair of free <a class="card">Lightning Bolt</a>s attached. It's rare to lose a game after making Titan on turn 3. Hard-casting Titan on turn 4 is still quite good, but considerably more "fair."
 
 [^1]: Fetch lands (like <a class="card">Wooded Foothills</a>) and shock lands (like <a class="card">Stomping Ground</a>) are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. 
-
-
-
-
-
-
-
-
-
-When played perfectly, his list produces a turn-3 Titan in **9%** of games on the play; on the draw, that number is 16%.
-
-The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. 
-
-
-> NOTE -- old version of Matthias' deck, before Simian Spirit Guide: https://www.mtggoldfish.com/deck/372148#paper
-
-### How good is Oath?
-
-
-
-
-
-
-
-
-
-
-
-
-With perfect play, Matthias' list (below) makes a turn-3 Titan in **13%** of games on the play, and 23% on the draw.
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. 
 
 <table class="cardlist">
     <thead>
@@ -81,6 +51,51 @@ With perfect play, Matthias' list (below) makes a turn-3 Titan in **13%** of gam
         </td>
     </tr>
 </table>
+
+As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck. It's a combo deck, and the combo is <a class="card">Primeval Titan</a>. You don't cut <a class="card">Oath of Nissa</a> from Titan Breach just like you don't cut <a class="card">Serum Visions</a> from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper). 
+
+### How Good is Oath?
+
+Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. 
+
+
+
+
+
+Perhaps the card isn't good
+
+Perhaps cantrips are just hard to evaluate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When played perfectly, his list produces a turn-3 Titan in **9%** of games on the play; on the draw, that number is 16%.
+
+The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. 
+
+
+> NOTE -- old version of Matthias' deck, before Simian Spirit Guide: https://www.mtggoldfish.com/deck/372148#paper
+
+
+
+
+
+
+With perfect play, Matthias' list (below) makes a turn-3 Titan in **13%** of games on the play, and 23% on the draw.
 
 To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you can check it out [here](https://github.com/charles-uno/valakut)). The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest[^4] line to a Titan.
 
