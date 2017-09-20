@@ -62,31 +62,17 @@ Matthias has been a proponent of Oath in this deck since (at least) [early 2016]
 
 There's a difference between a card that *feels* bad and a card that *is* bad (remember <a class="card">Death's Shadow</a>). In order to figure out which category Oath falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
-[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Feedback and pull requests welcome! 
+[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome! 
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and there's always a best way to tap lands for mana.
 
+After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build, with <a class="card">Oath of Nissa</a>, those numbers are **AAA ± BBB** on the play and **CCC ± DDD** on the draw. 
 
-
-
-
-
-
-Zach's build plays 7 interactive cards. Matthias plays only 3. 
-
-
-
+These numbers aren't everything. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. But in terms of getting Titan on the table as fast as possible, it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3. 
 
 > TODO -- Write a readme for the code repo rather than getting into the algorithm here. 
 
 
-
-
-
-
-
-
-To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you can check it out [here](https://github.com/charles-uno/valakut)). 
 ---
 
 ---
