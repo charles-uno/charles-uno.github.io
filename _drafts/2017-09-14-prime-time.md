@@ -56,17 +56,19 @@ As Matthias puts it, this isn't a control deck, and it's not a <a class="card">T
 
 ### How Good is Oath?
 
-Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. 
+Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. My suspicion, honestly, is that Oath hasn't caught on because the card feels *bad*. When my draw for the turn is Oath, I'm annoyed. I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it whiffs[^8]! 
+
+[^8]: In Matthias' build, Oath is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to whiff. 
+
+But there's a difference between a card that *feels* bad and a card that *is* bad. Remember <a class="card">Death's Shadow</a>?
 
 
 
+---
 
+---
 
-Perhaps the card isn't good
-
-Perhaps cantrips are just hard to evaluate
-
-
+---
 
 
 
