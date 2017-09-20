@@ -75,7 +75,18 @@ We're not about to play fewer than 4 copies of <a class="card">Through the Breac
 
 In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis.
 
+But that still leaves us a few juicy questions:
+
+- Is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
+- Is 8 the correct number of 2-cost ramp spells?
+- Is 25 the correct number of lands?
+-
+
+
+
 That leaves:
+
+
 
 - <a class="card">Farseek</a> -- Are we playing the correct number of 2-cost ramp spells, and how does
 
