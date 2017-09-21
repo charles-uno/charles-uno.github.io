@@ -70,7 +70,18 @@ After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW
 
 Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. 
 
-So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to a vanilla cantrip (like the cycling on <a class="card">Dissenter's Deliverance</a>)? How does it compare to <a class="card">Magmatic Insight</a>, <a class="card">Faithless Looting</a>, and <a class="card">Street Wraith</a>? And -- since Oath usually finds a land anyway -- how does it compare to just running an extra 4 lands? The results follow:
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to other cantrips? 
+
+
+
+
+
+
+a cycler like <a class="card">Dissenter's Deliverance</a>, or <a class="card">Magmatic Insight</a>, essentially a double-cycler? How does it compare to <a class="card">Street Wraith</a>
+
+
+
+? And -- since Oath usually finds a land anyway -- how does it compare to just running an extra 4 lands? The results follow:
 
 
 | Slots 57-60                                 | T3 Play | T3 Draw | T4 Play | T4 Draw |
