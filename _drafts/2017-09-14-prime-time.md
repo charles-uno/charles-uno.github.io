@@ -66,7 +66,13 @@ There's a difference between a card that *feels* bad and a card that *is* bad (r
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight. 
 
-After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build (with <a class="card">Oath of Nissa</a>) those numbers are **AAA ± BBB** and **CCC ± DDD**. 
+After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build (with <a class="card">Oath of Nissa</a>) those numbers are **AAA ± BBB** and **CCC ± DDD**. That means -- on average -- Matthias will hit someone with an extra turn-3 Titan about once per 50 games. 
+
+
+
+> NOTE -- Once per 50 games isn't that interesting. It should also make T4 more likely, right? Probably worth showing the plot so we can make Oath sound like a big deal. 
+
+
 
 Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. 
 
