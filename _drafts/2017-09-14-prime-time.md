@@ -64,19 +64,24 @@ There's a difference between a card that *feels* bad and a card that *is* bad (r
 
 [^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome! 
 
-[^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and there's always a best way to tap lands for mana.
+[^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight. 
 
-After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build, with <a class="card">Oath of Nissa</a>, those numbers are **AAA ± BBB** on the play and **CCC ± DDD** on the draw. 
+After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build (with <a class="card">Oath of Nissa</a>) those numbers are **AAA ± BBB** and **CCC ± DDD**. 
 
-For comparison:
+Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. 
 
-| Slots 57-60                        | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:-----------------------------------|--------:|--------:|--------:|--------:|
-| <a class="card">Lightning Bolt</a> (Essentially a blank card) |      9% |     16% |         |         |
-| <a class="card">Oath of Nissa</a>  |       % |       % |         |         |
-| Cantrip (Such as cycling on <a class="card">Dissenter's Deliverance</a>) |   10.5% |   17.5% |         |         |
-| <a class="card">Street Wraith</a> (Essentially like playing a 56 card deck) |   12.8% |   20.4% |         |         |
-| <a class="card">Forest</a>         |   13.1% |   18.7% |         |         |
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to a vanilla cantrip (like the cycling on <a class="card">Dissenter's Deliverance</a>)? How does it compare to <a class="card">Magmatic Insight</a>, <a class="card">Faithless Looting</a>, and <a class="card">Street Wraith</a>? And -- since Oath usually finds a land anyway -- how does it compare to just running an extra 4 lands? The results follow:
+
+
+| Slots 57-60                                 | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:--------------------------------------------|--------:|--------:|--------:|--------:|
+| <a class="card">Lightning Bolt</a>          |      9% |     16% |         |         |
+| <a class="card">Oath of Nissa</a>           |       % |       % |         |         |
+| <a class="card">Dissenter's Deliverance</a> |   10.5% |   17.5% |         |         |
+| <a class="card">Street Wraith</a>           |   12.8% |   20.4% |         |         |
+| 4 additional fetch lands                    |   13.1% |   18.7% |         |         |
+
+
 
 
 > TODO -- Make this into a plot. One for comparisons on Oath. Another one later for Zach vs Matthias vs Charles
@@ -84,8 +89,6 @@ For comparison:
 
 
 
-
-These numbers aren't everything. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. But in terms of getting Titan on the table as fast as possible, Oath makes the deck a bit better. 
 
 
 
