@@ -70,9 +70,13 @@ After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW
 
 For comparison:
 
-| | <a class="card">Lightning Bolt</a> | <a class="card">Oath of Nissa</a> | <a class="card">Cantrip</a> | <a class="card">Street Wraith</a> | <a class="card">Forest</a> |
-|-|-----|-----|-----|-----|-----|
-| | <a class="card">Lightning Bolt</a> | <a class="card">Oath of Nissa</a> | <a class="card">Cantrip</a> | <a class="card">Street Wraith</a> | <a class="card">Forest</a> |
+| Slots 57-60                        | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:-----------------------------------|--------:|--------:|--------:|--------:|
+| <a class="card">Lightning Bolt</a> |      9% |     16% |         |         |
+| <a class="card">Oath of Nissa</a>  |       % |       % |         |         |
+| <a class="card">Cantrip</a>        |   10.5% |   17.5% |         |         |
+| <a class="card">Street Wraith</a>  |   12.8% |   20.4% |         |         |
+| <a class="card">Forest</a>         |   13.1% |   18.7% |         |         |
 
 
 
