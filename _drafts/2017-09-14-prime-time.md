@@ -60,7 +60,7 @@ Matthias has been a proponent of Oath in this deck since (at least) [early 2016]
 
 [^8]: In Matthias' build, Oath is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing. 
 
-There's a difference between a card that *feels* bad and a card that *is* bad (remember <a class="card">Death's Shadow</a>). In order to figure out which category Oath falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
+There's a difference between a card that *feels* bad and a card that *is* bad (remember <a class="card">Death's Shadow</a>). In order to figure out which category Oath falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
 [^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome! 
 
