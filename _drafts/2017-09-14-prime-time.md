@@ -72,10 +72,10 @@ For comparison:
 
 | Slots 57-60                        | T3 Play | T3 Draw | T4 Play | T4 Draw |
 |:-----------------------------------|--------:|--------:|--------:|--------:|
-| <a class="card">Lightning Bolt</a> |      9% |     16% |         |         |
+| <a class="card">Lightning Bolt</a> (Essentially a blank card) |      9% |     16% |         |         |
 | <a class="card">Oath of Nissa</a>  |       % |       % |         |         |
-| <a class="card">Cantrip</a>        |   10.5% |   17.5% |         |         |
-| <a class="card">Street Wraith</a>  |   12.8% |   20.4% |         |         |
+| Cantrip (Such as cycling on <a class="card">Dissenter's Deliverance</a>) |   10.5% |   17.5% |         |         |
+| <a class="card">Street Wraith</a> (Essentially like playing a 56 card deck) |   12.8% |   20.4% |         |         |
 | <a class="card">Forest</a>         |   13.1% |   18.7% |         |         |
 
 
