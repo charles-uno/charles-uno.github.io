@@ -68,7 +68,24 @@ There's a difference between a card that *feels* bad and a card that *is* bad (r
 
 After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build, with <a class="card">Oath of Nissa</a>, those numbers are **AAA ± BBB** on the play and **CCC ± DDD** on the draw. 
 
-These numbers aren't everything. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. But in terms of getting Titan on the table as fast as possible, it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3. 
+For comparison:
+
+| | <a class="card">Lightning Bolt</a> | <a class="card">Oath of Nissa</a> | <a class="card">Cantrip</a> | <a class="card">Street Wraith</a> | <a class="card">Forest</a> |
+|-|-----|-----|-----|-----|-----|
+| | <a class="card">Lightning Bolt</a> | <a class="card">Oath of Nissa</a> | <a class="card">Cantrip</a> | <a class="card">Street Wraith</a> | <a class="card">Forest</a> |
+
+
+
+
+
+
+
+
+These numbers aren't everything. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. But in terms of getting Titan on the table as fast as possible, Oath makes the deck a bit better. 
+
+
+
+it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3. 
 
 > TODO -- Write a readme for the code repo rather than getting into the algorithm here. 
 
