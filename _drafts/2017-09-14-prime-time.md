@@ -19,7 +19,7 @@ That's 6 damage from [[Primeval Titan|Titan]] and another 12 from [[Valakut, the
 
 [^1]: [[Wooded Foothills|Fetch lands]] and [[Stomping Ground|shock lands]] are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of [[Lightning Bolt|Bolt]]s, a [[Chandra, Torch of Defiance|Chandra]], and the [[Woodfall Primus]] to add a set of [[Oath of Nissa]]s.
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cuts a pair of [[Lightning Bolt|Bolt]]s, a [[Chandra, Torch of Defiance|Chandra]], and the [[Woodfall Primus]] to add a set of [[Oath of Nissa]]s.
 
 <table class="cardlist">
     <thead>
