@@ -93,6 +93,11 @@ So let's run some apples-to-apples comparisons. Assuming it's safe to cut intera
 
 *All values cumulative. Values plus-or-minus up to 1%.*
 
+
+> NOTE -- Mention things we thought about trying? Sheltered Thicket...
+
+
+
 A vanilla cantrip (here, the cycling on <a class="card">Dissenter's Deliverance</a>) is a step up from nothing, but worse than Oath across the board. The same is true for <a class="card">Magmatic Insight</a> -- it turns out, discarding lands is detrimental to our game plan. 
 
 <a class="card">Chancellor of the Tangle</a> is comparable to Oath in terms of delivering a turn-3 Titan. It's possible that other tweaks to the build, perhaps another 2-cost ramp spell, could push it a bit higher. But it doesn't do much to help deliver Titan on turn 4. 
