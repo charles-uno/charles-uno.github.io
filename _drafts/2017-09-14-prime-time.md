@@ -5,21 +5,21 @@ image: "/assets/images/prime-time-thumb.png"
 description: ""
 ---
 
-I'm a newcomer to Modern. A few months ago, I would have called <a class="card">Death's Shadow</a> a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.
+I'm a newcomer to Modern. A few months ago, I would have called [[Death's Shadow]] a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.
 
 [^0]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety.
 
 The deck is [Titan Breach](https://www.mtggoldfish.com/deck/757022#paper), a less-played cousin of [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titan-shift#paper). A good draw plays out about like this:
 
-- T1: <a class="card">Stomping Ground</a>, suspend <a class="card">Search for Tomorrow</a>.
-- T2: <a class="card">Mountain</a>, <a class="card">Sakura-Tribe Elder</a>, get a Mountain.
-- T3: Cast Search from exile, get a Mountain. Mountain for turn. Cast <a class="card">Through the Breach</a>, dropping <a class="card">Primeval Titan</a>, searching up 2 <a class="card">Valakut, the Molten Pinnacle</a>. Then attack with Titan, searching up 2 more Mountains, triggering Valakut 4 times.
+- T1: [[Stomping Ground]], suspend [[Search for Tomorrow]].
+- T2: [[Mountain]], [[Sakura-Tribe Elder]], get a [[Mountain]].
+- T3: Cast [[Search for Tomorrow|Search]] from exile, get a [[Mountain]]. [[Cinder Glade|Land]] for turn. Cast [[Through the Breach]], dropping [[Primeval Titan]], searching up 2 [[Valakut, the Molten Pinnacle]]. Then attack with [[Primeval Titan|Titan]], searching up 2 more [[Mountains]], triggering [[Valakut, the Molten Pinnacle|Valakut]] 4 times.
 
-That's 6 damage from Titan and another 12 from Valakut, which is typically enough to close out the game[^1]. If not, it clears the opposing board, and from now on each land comes with a pair of free <a class="card">Lightning Bolt</a>s attached. It's rare to lose a game after making Titan on turn 3. Hard-casting Titan on turn 4 is still quite good, but considerably more "fair."
+That's 6 damage from [[Primeval Titan|Titan]] and another 12 from [[Valakut, the Molten Pinnacle|Valakut]], which is typically enough to close out the game[^1]. If not, it clears the opposing board, and from now on each land comes with a pair of free [[Lightning Bolt]]s attached. It's rare to lose a game after making [[Primeval Titan|Titan]] on turn 3. Hard-casting it on turn 4 is still quite good, but considerably more "fair."
 
-[^1]: Fetch lands (like <a class="card">Wooded Foothills</a>) and shock lands (like <a class="card">Stomping Ground</a>) are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
+[^1]: [[Wooded Foothills|Fetch lands]] and [[Stomping Ground|shock lands]] are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s.
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of [[Lightning Bolt|Bolt]]s, a [[Chandra, Torch of Defiance|Chandra]], and the [[Woodfall Primus]] to add a set of [[Oath of Nissa]]s.
 
 <table class="cardlist">
     <thead>
@@ -52,57 +52,57 @@ Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtgg
     </tr>
 </table>
 
-As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck. It's a combo deck, and the combo is <a class="card">Primeval Titan</a>. You don't cut <a class="card">Oath of Nissa</a> from Titan Breach just like you don't cut <a class="card">Serum Visions</a> from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
+As Matthias puts it, this isn't a control deck, and it's not a [[Through the Breach|Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa||Oath]] from Titan Breach just like you don't cut [[Serum Visions]] from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
 
-### How Good is Oath?
+### How Good is [[Oath of Nissa|Oath]]?
 
-Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing <a class="card">Lightning Bolt</a> usually feels good, but drawing <a class="card">Oath of Nissa</a> often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs[^8]!
+Matthias has been a proponent of [[Oath of Nissa|Oath]] in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing [[Lightning Bolt|Bolt]] usually feels good, but drawing [[Oath of Nissa|Oath]] often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs[^8]!
 
-[^8]: In Matthias' build, Oath is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing.
+[^8]: In Matthias' build, [[Oath of Nissa|Oath]] is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing.
 
-There's a difference between a card that *feels* bad and a card that *is* bad (remember <a class="card">Death's Shadow</a>). In order to figure out which category Oath falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
+There's a difference between a card that *feels* bad and a card that *is* bad (remember [[Death's Shadow|Shadow]]). In order to figure out which category [[Oath of Nissa|Oath]] falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
 [^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome!
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
-After over 100k simulated games, Matthias' build produces turn-3 Titans at a slightly higher rate than Zach's (see table below). On average, Matthias will hit someone with an extra turn-3 Titan about once every 30 games. The turn-4 effect is much more compelling. Zach is about 50-50 to play Titan by turn 4 on the play, and 2-to-1 to get it on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra Titan about every 10 games -- once per FNM!
+After over 100k simulated games, Matthias' build produces turn-3 [[Primeval Titan|Titan]]s at a slightly higher rate than Zach's (see table below). On average, Matthias will hit someone with an extra turn-3 [[Primeval Titan|Titan]] about once every 30 games. The turn-4 effect is much more compelling. Zach is about 50-50 to play [[Primeval Titan|Titan]] by turn 4 on the play, and 2-to-1 to get it on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra [[Primeval Titan|Titan]] about every 10 games -- once per FNM!
 
-These numbers make sense. Oath's effect on our turn-3 numbers is modest because we're unlikely to have a spare mana to cast it. For a turn-4 Titan, we have a lot more wiggle room -- we're much more likely to have enough mana to cast an Oath or two -- so we see a big payoff. 
+These numbers make sense. [[Oath of Nissa|Oath]] has only a modest impact on our turn-3 numbers because we're unlikely to have a spare mana to cast it. For a turn-4 [[Primeval Titan|Titan]], we have more wiggle room. We're much more likely to have enough mana to cast an [[Oath of Nissa|Oath]] or two, so we see a big payoff. 
 
 | Build    |        T3 Play |        T3 Draw |        T4 Play |        T4 Draw |
 |:---------|---------------:|---------------:|---------------:|---------------:|
 | Zach     |    9.4% ± 0.3% |   15.6% ± 0.4% |   50.8% ± 0.7% |   64.5% ± 0.8% |
 | Matthias |   11.6% ± 0.3% |   20.2% ± 0.4% |   64.1% ± 0.8% |   75.0% ± 0.8% |
 
-*Cumulative probability of getting Titan on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus <a class="card">Oath of Nissa</a>).*
+*Cumulative probability of getting [[Primeval Titan|Titan]] on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus [[Oath of Nissa|Oath]]).*
 
-Admittedly, the above comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blanks.
+Admittedly, the above comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have [[Lightning Bolt|Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated|Karn]]. It only cares about getting [[Primeval Titan|Titan]] on the table as fast as possible -- and to that end, [[Lightning Bolt|Bolt]] and [[Woodfall Primus|Primus]] are blanks.
 
-So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, is <a class="card">Oath of Nissa</a> the best we can do? Several other options are compared in the table below. 
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, is [[Oath of Nissa|Oath]] the best we can do? Several other options are compared in the table below. 
 
-| Slots 57-60                                     |      T3 Play |      T3 Draw |      T4 Play |      T4 Draw |
-|:------------------------------------------------|-------------:|-------------:|-------------:|-------------:|
-| <a class="card">Lightning Bolt</a> (Zach)       |  9.4% ± 0.3% | 15.6% ± 0.4% | 50.8% ± 0.7% | 64.5% ± 0.8% |
-| <a class="card">Oath of Nissa</a> (Matthias)    | 11.6% ± 0.3% | 20.2% ± 0.4% | 64.1% ± 0.8% | 75.0% ± 0.8% |
-| <a class="card">Magmatic Insight</a>            | 10.3% ± 0.6% | 20.0% ± 0.9% | 59.5% ± 1.5% | 71.8% ± 1.6% |
-| <a class="card">Dissenter's Deliverance</a>     | 10.4% ± 0.5% | 17.5% ± 0.6% | 58.4% ± 1.1% | 70.0% ± 1.2% |
-| <a class="card">Chancellor of the Tangle</a>    | 11.3% ± 0.5% | 20.8% ± 0.7% | 54.5% ± 1.2% | 66.2% ± 1.3% |
-| <a class="card">Misty Rainforest</a>            | 12.0% ± 0.4% | 19.1% ± 0.5% | 60.4% ± 0.9% | 68.6% ± 1.0% |
-| <a class="card">Street Wraith</a>               | 12.8% ± 0.8% | 20.8% ± 1.0% | 61.2% ± 1.7% | 72.9% ± 1.9% |
+| Slots 57-60                                 |      T3 Play |      T3 Draw |      T4 Play |      T4 Draw |
+|:--------------------------------------------|-------------:|-------------:|-------------:|-------------:|
+| [[Lightning Bolt]] (Zach)                   |  9.4% ± 0.3% | 15.6% ± 0.4% | 50.8% ± 0.7% | 64.5% ± 0.8% |
+| [[Oath of Nissa</a> (Matthias)              | 11.6% ± 0.3% | 20.2% ± 0.4% | 64.1% ± 0.8% | 75.0% ± 0.8% |
+| [[Magmatic Insight</a>                      | 10.3% ± 0.6% | 20.0% ± 0.9% | 59.5% ± 1.5% | 71.8% ± 1.6% |
+| [[Dissenter's Deliverance|vanilla cantrip]] | 10.4% ± 0.5% | 17.5% ± 0.6% | 58.4% ± 1.1% | 70.0% ± 1.2% |
+| [[Chancellor of the Tangle]]                | 11.3% ± 0.5% | 20.8% ± 0.7% | 54.5% ± 1.2% | 66.2% ± 1.3% |
+| [[Misty Rainforest|lands 26-29]]            | 12.0% ± 0.4% | 19.1% ± 0.5% | 60.4% ± 0.9% | 68.6% ± 1.0% |
+| [[Street Wraith]]                           | 12.8% ± 0.8% | 20.8% ± 1.0% | 61.2% ± 1.7% | 72.9% ± 1.9% |
 
 *All values cumulative. Values plus-or-minus up to 1%.*
 
 
-> NOTE -- Mention things we thought about trying? Sheltered Thicket...
+> NOTE -- Mention things we thought about trying? [[Sheltered Thicket]]...
 
 
 
-A vanilla cantrip (here, the cycling on <a class="card">Dissenter's Deliverance</a>) is a step up from nothing, but worse than Oath across the board. The same is true for <a class="card">Magmatic Insight</a> -- it turns out, discarding lands is detrimental to our game plan. 
+A vanilla cantrip (here, the cycling on [[Dissenter's Deliverance]]) is a step up from nothing, but worse than [[Oath of Nissa|Oath]] across the board. The same is true for [[Magmatic Insight|Insight]] -- it turns out, discarding lands is detrimental to our game plan. 
 
-<a class="card">Chancellor of the Tangle</a> is comparable to Oath in terms of delivering a turn-3 Titan. It's possible that other tweaks to the build, perhaps another 2-cost ramp spell, could push it a bit higher. But it doesn't do much to help deliver Titan on turn 4. 
+[[Chancellor of the Tangle|Chancellor]] is comparable to [[Oath of Nissa|Oath]] in terms of delivering a turn-3 [[Primeval Titan|Titan]]. It's possible that other tweaks to the build, perhaps another [[Rampant Growth|2-cost ramp spell]], could push it a bit higher. But it doesn't do much to help deliver [[Primeval Titan|Titan]] on turn 4. 
 
-<a class="card">Street Wraith</a> actually performs better than Oath at getting Titan into play on turn 3, which makes sense -- it only digs one card deep, but we don't have to worry about paying for it. We can also get marginal turn-3 improvements by playing a bunch of extra lands. 
+[[Street Wraith]] actually performs better than Oath at getting [[Primeval Titan|Titan]] into play on turn 3, which makes sense -- it only digs one card deep, but we don't have to worry about paying for it. We can also get marginal turn-3 improvements by playing a bunch of extra lands. 
 
 
 
