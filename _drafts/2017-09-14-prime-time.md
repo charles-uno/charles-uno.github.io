@@ -27,27 +27,27 @@ Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtgg
     </thead>
     <tr>
         <td>
-            4 <a class="card">Primeval Titan</a><br>
-            4 <a class="card">Sakura-Tribe Elder</a><br>
-            4 <a class="card">Simian Spirit Guide</a><br>
+            4 [[Primeval Titan]]<br>
+            4 [[Sakura-Tribe Elder]]<br>
+            4 [[Simian Spirit Guide]]<br>
         </td>
         <td>
-            1 <a class="card">Chandra, Torch of Defiance</a><br>
-            4 <a class="card">Farseek</a><br>
-            2 <a class="card">Lightning Bolt</a><br>
-            4 <a class="card">Oath of Nissa</a><br>
-            4 <a class="card">Search for Tomorrow</a><br>
-            4 <a class="card">Summoner's Pact</a><br>
-            4 <a class="card">Through the Breach</a><br>
+            1 [[Chandra, Torch of Defiance]]<br>
+            4 [[Farseek]]<br>
+            2 [[Lightning Bolt]]<br>
+            4 [[Oath of Nissa]]<br>
+            4 [[Search for Tomorrow]]<br>
+            4 [[Summoner's Pact]]<br>
+            4 [[Through the Breach]]<br>
         </td>
         <td>
-            2 <a class="card">Cinder Glade</a><br>
-            2 <a class="card">Forest</a><br>
-            6 <a class="card">Mountain</a><br>
-            4 <a class="card">Stomping Ground</a><br>
-            4 <a class="card">Valakut, the Molten Pinnacle</a><br>
-            3 <a class="card">Windswept Heath</a><br>
-            4 <a class="card">Wooded Foothills</a><br>
+            2 [[Cinder Glade]]<br>
+            2 [[Forest]]<br>
+            6 [[Mountain]]<br>
+            4 [[Stomping Ground]]<br>
+            4 [[Valakut, the Molten Pinnacle]]<br>
+            3 [[Windswept Heath]]<br>
+            4 [[Wooded Foothills]]<br>
         </td>
     </tr>
 </table>
