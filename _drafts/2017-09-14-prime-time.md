@@ -66,9 +66,7 @@ There's a difference between a card that *feels* bad and a card that *is* bad (r
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
-After over 100k simulated games, Matthias' build produces [[Primeval Titan|Titan]] on turn 3 slightly more often than Zach's (see table below) -- about one extra turn-3 [[Primeval Titan|Titan]] per 30 games. The difference on turn 4 is much more compelling. Zach is about 50-50 to play [[Primeval Titan|Titan]] by turn 4 on the play, and 2-to-1 to get it on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra [[Primeval Titan|Titan]] about every 10 games -- once per FNM!
-
-These numbers make sense. [[Oath of Nissa|Oath]] has only a modest impact on our turn-3 numbers because we're unlikely to have a spare mana to cast it. For a turn-4 [[Primeval Titan|Titan]], we have more wiggle room. We're much more likely to have enough mana to cast an [[Oath of Nissa|Oath]] or two, so we see a big payoff. 
+After over 100k simulated games, [[Oath of Nissa|Oath]]'s effect is clear (see table below). Matthias' build is slightly better at producing [[Primeval Titan|Titan]] on turn 3, and considerably better at having one by turn 4. Zach is about 50-50 to drop [[Primeval Titan|Titan]] by turn 4 on the play, and 2-to-1 to do so on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. 
 
 | Build    |        T3 Play |        T3 Draw |        T4 Play |        T4 Draw |
 |:---------|---------------:|---------------:|---------------:|---------------:|
@@ -76,6 +74,8 @@ These numbers make sense. [[Oath of Nissa|Oath]] has only a modest impact on our
 | Matthias |   11.6% ± 0.3% |   20.2% ± 0.4% |   64.1% ± 0.8% |   75.0% ± 0.8% |
 
 *Cumulative probability of getting [[Primeval Titan|Titan]] on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus [[Oath of Nissa|Oath]]).*
+
+These numbers make sense. [[Oath of Nissa|Oath]] has only a modest impact on our turn-3 numbers because we're unlikely to have a spare mana to cast it. For a turn-4 [[Primeval Titan|Titan]], we have more wiggle room. We're much more likely to have enough mana to cast an [[Oath of Nissa|Oath]] or two, so we see a big payoff. 
 
 Admittedly, the above comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have [[Lightning Bolt|Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated|Karn]]. It only cares about getting [[Primeval Titan|Titan]] on the table as fast as possible -- and to that end, [[Lightning Bolt|Bolt]] and [[Woodfall Primus|Primus]] are blanks.
 
