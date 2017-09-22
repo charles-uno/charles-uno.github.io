@@ -66,9 +66,9 @@ There's a difference between a card that *feels* bad and a card that *is* bad (r
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
-After over 100k simulated games, Matthias' build produces turn-3 Titans at a slightly higher rate than Zach's (see table below). On average, Matthias will hit someone with an extra turn-3 Titan about once every 30 games.
+After over 100k simulated games, Matthias' build produces turn-3 Titans at a slightly higher rate than Zach's (see table below). On average, Matthias will hit someone with an extra turn-3 Titan about once every 30 games. The turn-4 effect is much more compelling. Zach is about 50-50 to play Titan by turn 4 on the play, and 2-to-1 to get it on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra Titan about every 10 games -- once per FNM!
 
-The turn-4 effect is much more compelling. Zach is about 50-50 to play Titan by turn 4 on the play, and 2-to-1 to get it on the draw. Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra Titan about every 10 games -- once per FNM!
+These numbers make sense. Oath's effect on our turn-3 numbers is modest because we're unlikely to have a spare mana to cast it. For a turn-4 Titan, we have a lot more wiggle room -- we're much more likely to have enough mana to cast an Oath or two -- so we see a big payoff. 
 
 | Build    |        T3 Play |        T3 Draw |        T4 Play |        T4 Draw |
 |:---------|---------------:|---------------:|---------------:|---------------:|
@@ -77,9 +77,15 @@ The turn-4 effect is much more compelling. Zach is about 50-50 to play Titan by 
 
 *Cumulative probability of getting Titan on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus <a class="card">Oath of Nissa</a>).*
 
-Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blanks.
+Admittedly, the above comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blanks.
 
-So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to other cantrips?
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, is <a class="card">Oath of Nissa</a> the best we can do?
+
+
+
+
+
+
 
 ---
 
