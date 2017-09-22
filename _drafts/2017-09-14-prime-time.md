@@ -79,43 +79,67 @@ These numbers make sense. Oath's effect on our turn-3 numbers is modest because 
 
 Admittedly, the above comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blanks.
 
-So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, is <a class="card">Oath of Nissa</a> the best we can do?
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, is <a class="card">Oath of Nissa</a> the best we can do? Several other options are compared in the table below. 
 
-
-
-
-
-
-
----
-
----
-
----
-
-
-| Slots 57-60                          |      T3 Play |      T3 Draw |      T4 Play |      T4 Draw |
-|:-------------------------------------|-------------:|-------------:|-------------:|-------------:|
-| <a class="card">Lightning Bolt</a>   |  9.4% ± 0.3% | 15.6% ± 0.4% | 50.8% ± 0.7% | 64.5% ± 0.8% |
-| <a class="card">Magmatic Insight</a> | 10.3% ± 0.6% | 20.0% ± 0.9% | 59.5% ± 1.5%| 71.8% ± 1.6% |
-| <a class="card">Dissenter's Deliverance</a>  | 10.4% ± 0.5% | 17.5% ± 0.6% | 58.4% ± 1.1% | 70.0% ± 1.2% |
-| <a class="card">Chancellor of the Tangle</a> | 11.3% ± 0.5% | 20.8% ± 0.7% | 54.5% ± 1.2% | 66.2% ± 1.3% |
-| <a class="card">Oath of Nissa</a>    | 11.6% ± 0.3% | 20.2% ± 0.4% | 64.1% ± 0.8% | 75.0% ± 0.8% |
-| <a class="card">Misty Rainforest</a> | 12.0% ± 0.4% | 19.1% ± 0.5% | 60.4% ± 0.9% | 68.6% ± 1.0% |
-| <a class="card">Street Wraith</a>    | 12.8% ± 0.8% | 20.8% ± 1.0% | 61.2% ± 1.7% | 72.9% ± 1.9% |
+| Slots 57-60                                     |      T3 Play |      T3 Draw |      T4 Play |      T4 Draw |
+|:------------------------------------------------|-------------:|-------------:|-------------:|-------------:|
+| <a class="card">Lightning Bolt</a> (Zach)       |  9.4% ± 0.3% | 15.6% ± 0.4% | 50.8% ± 0.7% | 64.5% ± 0.8% |
+| <a class="card">Oath of Nissa</a> (Matthias)    | 11.6% ± 0.3% | 20.2% ± 0.4% | 64.1% ± 0.8% | 75.0% ± 0.8% |
+| <a class="card">Magmatic Insight</a>            | 10.3% ± 0.6% | 20.0% ± 0.9% | 59.5% ± 1.5% | 71.8% ± 1.6% |
+| <a class="card">Dissenter's Deliverance</a>     | 10.4% ± 0.5% | 17.5% ± 0.6% | 58.4% ± 1.1% | 70.0% ± 1.2% |
+| <a class="card">Chancellor of the Tangle</a>    | 11.3% ± 0.5% | 20.8% ± 0.7% | 54.5% ± 1.2% | 66.2% ± 1.3% |
+| <a class="card">Misty Rainforest</a>            | 12.0% ± 0.4% | 19.1% ± 0.5% | 60.4% ± 0.9% | 68.6% ± 1.0% |
+| <a class="card">Street Wraith</a>               | 12.8% ± 0.8% | 20.8% ± 1.0% | 61.2% ± 1.7% | 72.9% ± 1.9% |
 
 *All values cumulative. Values plus-or-minus up to 1%.*
 
+A vanilla cantrip (here, the cycling on <a class="card">Dissenter's Deliverance</a>) is a step up from nothing, but worse than Oath across the board. The same is true for <a class="card">Magmatic Insight</a> -- it turns out, discarding lands is detrimental to our game plan. 
+
+<a class="card">Chancellor of the Tangle</a> is comparable to Oath in terms of delivering a turn-3 Titan. It's possible that other tweaks to the build, perhaps another 2-cost ramp spell, could push it a bit higher. But it doesn't do much to help deliver Titan on turn 4. 
+
+<a class="card">Street Wraith</a> actually performs better than Oath at getting Titan into play on turn 3, which makes sense -- it only digs one card deep, but we don't have to worry about paying for it. We can also get marginal turn-3 improvements by playing a bunch of extra lands. 
+
+
+
+> Are those gains small compared to what we get from Oath? The comparison we really care about is with Explore...
 
 
 
 
-a cycler like <a class="card">Dissenter's Deliverance</a>, or <a class="card">Magmatic Insight</a>, essentially a double-cycler? How does it compare to <a class="card">Street Wraith</a>
 
 
 
-? And -- since Oath usually finds a land anyway -- how does it compare to just running an extra 4 lands? The results follow:
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+---
+
+
+
+
+| Build (To Try)                       | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:-------------------------------------|--------:|--------:|--------:|--------:|
+| Explore, 3 Oath→Wraith, 1 Oath→Fetch |       % |       % |       % |       % |
+| Explore, 2 Oath→Wraith, 2 Oath→Fetch |       % |       % |       % |       % |
 
 
 
