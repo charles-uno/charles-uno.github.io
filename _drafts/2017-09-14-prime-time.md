@@ -19,7 +19,7 @@ That's 6 damage from Titan and another 12 from Valakut, which is typically enoug
 
 [^1]: Fetch lands (like <a class="card">Wooded Foothills</a>) and shock lands (like <a class="card">Stomping Ground</a>) are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. 
+Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cut a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s.
 
 <table class="cardlist">
     <thead>
@@ -52,32 +52,53 @@ Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtgg
     </tr>
 </table>
 
-As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck. It's a combo deck, and the combo is <a class="card">Primeval Titan</a>. You don't cut <a class="card">Oath of Nissa</a> from Titan Breach just like you don't cut <a class="card">Serum Visions</a> from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper). 
+As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck. It's a combo deck, and the combo is <a class="card">Primeval Titan</a>. You don't cut <a class="card">Oath of Nissa</a> from Titan Breach just like you don't cut <a class="card">Serum Visions</a> from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
 
 ### How Good is Oath?
 
-Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing <a class="card">Lightning Bolt</a> usually feels good, but drawing <a class="card">Oath of Nissa</a> often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs[^8]! 
+Matthias has been a proponent of Oath in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing <a class="card">Lightning Bolt</a> usually feels good, but drawing <a class="card">Oath of Nissa</a> often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs[^8]!
 
-[^8]: In Matthias' build, Oath is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing. 
+[^8]: In Matthias' build, Oath is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing.
 
 There's a difference between a card that *feels* bad and a card that *is* bad (remember <a class="card">Death's Shadow</a>). In order to figure out which category Oath falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
-[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome! 
+[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome!
 
-[^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight. 
+[^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
-After a few thousand simulated games, Zach's build lands a turn-3 Titan in **WWW ± XXX** of games on the play, and **YYY ± ZZZ** of games on the draw. For Matthias' build (with <a class="card">Oath of Nissa</a>) those numbers are **AAA ± BBB** and **CCC ± DDD**. That means -- on average -- Matthias will hit someone with an extra turn-3 Titan about once per 50 games. 
+After over 100k simulated games, Matthias' build produces turn-3 Titans at a slightly higher rate than Zach's (see table below). On average, Matthias will hit someone with an extra turn-3 Titan about once every 30 games.
+
+The turn-4 effect is much more compelling. Zach is about 50-50 to play Titan by turn 4 on the play, and 2-to-1 to get it on the draw. Matthias is 2-to-1 on the play and 3-to-1 on the draw. That comes out to an extra Titan about every 10 games -- once per FNM!
+
+| Build    |        T3 Play |        T3 Draw |        T4 Play |        T4 Draw |
+|:---------|---------------:|---------------:|---------------:|---------------:|
+| Zach     |    9.4% ± 0.3% |   15.6% ± 0.4% |   50.8% ± 0.7% |   64.5% ± 0.8% |
+| Matthias |   11.6% ± 0.3% |   20.2% ± 0.4% |   64.1% ± 0.8% |   75.0% ± 0.8% |
+
+*Cumulative probability of getting Titan on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus <a class="card">Oath of Nissa</a>).*
+
+Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blanks.
+
+So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to other cantrips?
+
+---
+
+---
+
+---
 
 
+| Slots 57-60                          |      T3 Play |      T3 Draw |      T4 Play |      T4 Draw |
+|:-------------------------------------|-------------:|-------------:|-------------:|-------------:|
+| <a class="card">Lightning Bolt</a>   |  9.4% ± 0.3% | 15.6% ± 0.4% | 50.8% ± 0.7% | 64.5% ± 0.8% |
+| <a class="card">Magmatic Insight</a> | 10.3% ± 0.6% | 20.0% ± 0.9% | 59.5% ± 1.5%| 71.8% ± 1.6% |
+| <a class="card">Dissenter's Deliverance</a>  | 10.4% ± 0.5% | 17.5% ± 0.6% | 58.4% ± 1.1% | 70.0% ± 1.2% |
+| <a class="card">Chancellor of the Tangle</a> | 11.3% ± 0.5% | 20.8% ± 0.7% | 54.5% ± 1.2% | 66.2% ± 1.3% |
+| <a class="card">Oath of Nissa</a>    | 11.6% ± 0.3% | 20.2% ± 0.4% | 64.1% ± 0.8% | 75.0% ± 0.8% |
+| <a class="card">Misty Rainforest</a> | 12.0% ± 0.4% | 19.1% ± 0.5% | 60.4% ± 0.9% | 68.6% ± 1.0% |
+| <a class="card">Street Wraith</a>    | 12.8% ± 0.8% | 20.8% ± 1.0% | 61.2% ± 1.7% | 72.9% ± 1.9% |
 
-> NOTE -- Once per 50 games isn't that interesting. It should also make T4 more likely, right? Probably worth showing the plot so we can make Oath sound like a big deal. 
-
-
-
-Admittedly, this comparison isn't quite fair. The computer can't estimate how often Matthias will lose because he didn't have Bolt for <a class="card">Goblin Electromancer</a> or <a class="card">Karn Liberated</a>. It only cares about getting Titan on the table as fast as possible -- and to that end, <a class="card">Lightning Bolt</a> and <a class="card">Woodfall Primus</a> are blank cards. 
-
-So let's run some apples-to-apples comparisons. Assuming it's safe to cut interactive cards, as Matthias does, how does <a class="card">Oath of Nissa</a> compare to other cantrips? 
-
+*All values cumulative. Values plus-or-minus up to 1%.*
 
 
 
@@ -90,13 +111,52 @@ a cycler like <a class="card">Dissenter's Deliverance</a>, or <a class="card">Ma
 ? And -- since Oath usually finds a land anyway -- how does it compare to just running an extra 4 lands? The results follow:
 
 
-| Slots 57-60                                 | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------------------------|--------:|--------:|--------:|--------:|
-| <a class="card">Lightning Bolt</a>          |      9% |     16% |         |         |
-| <a class="card">Oath of Nissa</a>           |       % |       % |         |         |
-| <a class="card">Dissenter's Deliverance</a> |   10.5% |   17.5% |         |         |
-| <a class="card">Street Wraith</a>           |   12.8% |   20.4% |         |         |
-| 4 additional fetch lands                    |   13.1% |   18.7% |         |         |
+
+
+### Farseek vs Explore
+
+
+
+
+
+
+
+
+
+
+
+| ... Farseek→Explore    |   13.6% |   24.4% |   65.4% |   77.0% |
+
+
+| Build (Overnight)                    | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:-------------------------------------|--------:|--------:|--------:|--------:|
+| Explore, 1x Oath→Fetch               |   13.8% |   24.3% |   65.2% |   76.0% |
+| Explore, 2x Oath→Fetch               |   14.1% |   24.4% |   63.6% |   75.6% |
+| Explore, 1x Oath→Fetch, 1x Oath→Bolt |   12.9% |   22.4% |   61.0% |   73.3% |
+
+
+| Build (Bad)            | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:-----------------------|--------:|--------:|--------:|--------:|
+| Explore, Oath→Wraith   |   15.3% |   24.7% |   61.3% |   74.2% |
+| Explore, Oath→Fetch    |   14.4% |   22.5% |   63.4% |   71.2% |
+| Explore, 2x Oath→Fetch, 2x Oath→Insight |   14.4% |   23.7% |   63.2% |   73.0% |
+| Explore, 2x Oath→Fetch, 2x Oath→Monitor |   10.1% |   18.5% |   57.8% |   73.5% |
+| Explore, 3x Oath→Fetch, 1x Oath→Bolt |   12.3% |   21.0% |   59.9% |   69.8% |
+
+
+
+
+*All values cumulative. Uncertainties no more than 1.0%.*
+
+
+
+
+
+### Fine Tuning
+
+
+> NOTE -- Once per 50 games isn't that interesting. It should also make T4 more likely, right? Probably worth showing the plot so we can make Oath sound like a big deal.
+
 
 
 
@@ -109,9 +169,9 @@ a cycler like <a class="card">Dissenter's Deliverance</a>, or <a class="card">Ma
 
 
 
-it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3. 
+it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3.
 
-> TODO -- Write a readme for the code repo rather than getting into the algorithm here. 
+> TODO -- Write a readme for the code repo rather than getting into the algorithm here.
 
 
 ---
@@ -137,7 +197,7 @@ it's clear that adding Oath significantly increases the odds of Titan hitting th
 
 When played perfectly, his list produces a turn-3 Titan in **9%** of games on the play; on the draw, that number is 16%.
 
-The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck. 
+The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck.
 
 
 > NOTE -- old version of Matthias' deck, before Simian Spirit Guide: https://www.mtggoldfish.com/deck/372148#paper
@@ -245,23 +305,23 @@ If we already have Valakut on the table, we're happy to draw another Mountain. I
 
 ### Discussion of Algorithm
 
-(1) Shuffling is a problem! Was running into the problem where my success odds would go through the roof due to adding a bunch of Street Wraiths. This is because "cycle wraith then fetch" and "fetch then cycle wraith" are two different lines, each shuffled independently. Essentially, every time I shuffled the deck, I was getting extra chances to draw what I needed. Double-dipping on luck. 
+(1) Shuffling is a problem! Was running into the problem where my success odds would go through the roof due to adding a bunch of Street Wraiths. This is because "cycle wraith then fetch" and "fetch then cycle wraith" are two different lines, each shuffled independently. Essentially, every time I shuffled the deck, I was getting extra chances to draw what I needed. Double-dipping on luck.
 
-Always shuffling in the same way didn't solve the problem. Removing the bottom-most copy of the desired card (and leaving the rest of the deck in tact) made the problem smaller, but didn't get rid of it. Fetching Mountain versus fetching Forest apparently affects the top few cards of the deck pretty often. 
+Always shuffling in the same way didn't solve the problem. Removing the bottom-most copy of the desired card (and leaving the rest of the deck in tact) made the problem smaller, but didn't get rid of it. Fetching Mountain versus fetching Forest apparently affects the top few cards of the deck pretty often.
 
-Ultimately I eliminated free deck manipulation. Oath still moves cards from top to bottom, but fetching a Forest pulls a Forest out of thin air. It's technically possible to end up with 5 copies of Stomping Ground on the table, but that's a sub-percent-level effect. 
+Ultimately I eliminated free deck manipulation. Oath still moves cards from top to bottom, but fetching a Forest pulls a Forest out of thin air. It's technically possible to end up with 5 copies of Stomping Ground on the table, but that's a sub-percent-level effect.
 
-(2) Oath is really computationally intensive! It can be sequenced a lot of different ways (since it's cheap) and it creates several game states all by itself. Swapping it out for a cantrip made the code run twice as fast, maybe more. 
+(2) Oath is really computationally intensive! It can be sequenced a lot of different ways (since it's cheap) and it creates several game states all by itself. Swapping it out for a cantrip made the code run twice as fast, maybe more.
 
-(3) Some simplifications for the sake of computational time. 
+(3) Some simplifications for the sake of computational time.
 
-- We track total mana and green mana, but not red. Breach is the only red spell we care about, and it's literally impossible for us to get to 5 mana without a red source. This also makes tapping trivial: tap as much green as necessary, then try to pay for the rest with red. 
-- We don't track mountains for Valakut, since getting Titan on the table is our escape condition. That means Forest is actually the best land in our deck. It provides green, helps Glade be untapped, and comes in untapped itself. If there's a Forest left in our deck, that's always what we fetch with Search / Elder (even though in actual play they typically get Mountain). Fetch lands also never fetch Mountain if there's a Forest left in the deck. 
+- We track total mana and green mana, but not red. Breach is the only red spell we care about, and it's literally impossible for us to get to 5 mana without a red source. This also makes tapping trivial: tap as much green as necessary, then try to pay for the rest with red.
+- We don't track mountains for Valakut, since getting Titan on the table is our escape condition. That means Forest is actually the best land in our deck. It provides green, helps Glade be untapped, and comes in untapped itself. If there's a Forest left in our deck, that's always what we fetch with Search / Elder (even though in actual play they typically get Mountain). Fetch lands also never fetch Mountain if there's a Forest left in the deck.
 - We don't distinguish Heath from Foothills. The issue of running out of Mountains in the deck is a late game problem, and this is an early game simulation.
-- Life is not tracked. Basically we pretend that Stomping Ground is Taiga. 
+- Life is not tracked. Basically we pretend that Stomping Ground is Taiga.
 
 
-- Since deck thinning is no longer a thing, we should always fetch Stomp over Glade. 
+- Since deck thinning is no longer a thing, we should always fetch Stomp over Glade.
 
 
 

@@ -51,7 +51,7 @@ article {
         background-color: $shadow-color;
         padding: $half-pad;
     }
-    th, td { padding: $half-pad; }
+    th, td { padding: $pad; }
     ul, p, h1, h2, h3, h4, h5, h6 {
         margin: $text-size auto;
         max-width: $text-width;
@@ -94,7 +94,7 @@ article {
         padding: $pad;
         background-color: $shadow-color;
     }
-    img + em {
+    img + em, caption {
         width: 100%;
         text-align: justify;
         font-size: $caption-size;
@@ -103,9 +103,6 @@ article {
         display: block;
         padding: 0 $pad $pad $pad;
     }
-
-
-
 
 
     // Tiles object, used a bunch in the pokemon post. Instead of
