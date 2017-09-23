@@ -44,6 +44,18 @@ article {
         &:hover { color: $text-color; }
     }
     table {
+
+        width: 100%;
+        tbody, tr { width: 100%; }
+
+        caption {
+            width: 100%;
+            background-color: $shadow-color;
+            text-align: left;
+            padding: $pad;
+        }
+
+
         margin: $text-size auto;
         thead { border-bottom: $half-pad solid $paper-color; }
 //        margin-left: auto;
@@ -51,6 +63,13 @@ article {
         background-color: $shadow-color;
         padding: $half-pad;
     }
+
+
+
+
+
+
+
     th, td { padding: $pad; }
     ul, p, h1, h2, h3, h4, h5, h6 {
         margin: $text-size auto;
@@ -94,7 +113,7 @@ article {
         padding: $pad;
         background-color: $shadow-color;
     }
-    img + em, caption {
+    img + em {
         width: 100%;
         text-align: justify;
         font-size: $caption-size;

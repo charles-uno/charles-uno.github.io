@@ -17,18 +17,72 @@
 //. also changed to match that of the cursor. when the cursor stops hovering over the card name,
 //. the <div> returns to invisibility.
 
+
+
+function processMacros() {
+    // Look for expressions of the form [[cardname]] and replace them
+    // with <a class="card">cardname</a>.
+    var article = document.getElementsByTagName('article')[0];
+    var html_todo = article.innerHTML, html_done = "";
+    var i = 0;
+    // Keep looping until we have processed all the macros.
+    while ( html_todo.includes('[[') && html_todo.includes(']]') && i < 1000 ) {
+        // Sanity check: if something goes wrong, don't spin forever. 
+        i++;
+        var i0 = html_todo.indexOf('[[');
+        var i1 = html_todo.indexOf(']]');
+        // If the close is before the open, skip this close.
+        if (i0 > i1) {
+            html_done += html_todo.slice(0, i0);
+            html_todo = html_todo.slice(i0);
+            continue;
+        }
+        // If the card name is more than 50 characters long, something
+        // is wrong.
+        if (i1 - i0 > 50) {
+            html_done += html_todo.slice(0, i1 + 2);
+            html_todo = html_todo.slice(i1+2);
+            continue;
+        }
+        // If there are weird characters in the card name, also
+        // something is wrong.
+        var oldtag = html_todo.slice(i0, i1 + 2);
+        if ( oldtag.includes('<') || oldtag.includes('>') || oldtag.includes('\n') ) {
+            html_done += html_todo.slice(0, i1 + 2);
+            html_todo = html_todo.slice(i1+2);
+            continue;
+        }
+        // Replace our shortcut with the actual autocard HTML.
+        var newtag = '<a class="card">' + html_todo.slice(i0 + 2, i1) + '</a>';
+        html_done += html_todo.slice(0, i0) + newtag;
+        html_todo = html_todo.slice(i1 + 2);
+    }
+    article.innerHTML = html_done + html_todo;
+}
+
+
+
+
+
+
 function initCards(){
-  var a = document.getElementsByTagName('a');
-  for(var i=0;i<a.length;i++){
-    //. iterate over all card links
-    if(a[i].className == 'card'){
-      //. tell each card link what to do when the cursor hovers over it
-      a[i].onmouseover = showCardHandler( a[i].innerHTML );
-      //. tell each card link what to do when the cursor stops hovering
-      a[i].onmouseout = hideCardHandler();
-      //. make card names link to card info on magiccards.info
-      a[i].setAttribute( 'href', searchLink( a[i].innerHTML ) );
-}}}
+    processMacros();
+    var cards = document.getElementsByClassName('card');
+    for(var i=0;i<cards.length;i++){
+        // Tolerate <a class="card">cardname:text</a>. Note that pipes
+        // would be prettier, but Markdown thinks they're tables.
+        var name_text = cards[i].innerHTML.split(":");
+        var name = name_text[0], text = name_text[1];
+        if (text == undefined) { text = name; }
+        //. tell each card link what to do when the cursor hovers over it
+        cards[i].onmouseover = showCardHandler(name);
+        //. tell each card link what to do when the cursor stops hovering
+        cards[i].onmouseout = hideCardHandler();
+        //. make card names link to card info on magiccards.info
+        cards[i].setAttribute( 'href', searchLink(name) );
+        cards[i].innerHTML = text;
+    }
+}
 
 //. this is the "closure inside a loop" issue. ideally, we would call showCard(a[i].innerHTML)
 //. directly. however, when the onmouseover event triggers, the variable i is no longer defined.
