@@ -19,12 +19,12 @@ That's 6 damage from [[Primeval Titan:Titan]] and another 12 from [[Valakut, the
 
 [^1]: [[Wooded Foothills:Fetch lands]] and [[Stomping Ground:shock lands]] are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-### Matthias vs Internet
+### Jumping in with Oath Feet
 
-The Titan Breach [netdeck](https://www.mtggoldfish.com/deck/757022#paper) plays a full set of [[Lightning Bolt:Bolt]]s, some [[Chandra, Torch of Defiance:value cards]], and a random [[Woodfall Primus:fatty]] or two for [[Through the Breach:Breach]]. Matthias slims down the interactive suite to make room for [[Oath of Nissa]] (see list below, which I won my PPTQ with). As he puts it, this isn't a control deck, and it's not a [[Through the Breach:Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa:Oath]] from Titan Breach just like you don't cut [[Serum Visions]] from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
+The Titan Breach [netdeck](https://www.mtggoldfish.com/deck/757022#paper) plays a full set of [[Lightning Bolt:Bolt]]s, some [[Chandra, Torch of Defiance:value cards]], and a random [[Woodfall Primus:fatty]] or two for [[Through the Breach:Breach]]. Matthias slims down the interactive suite to make room for [[Oath of Nissa]] (see list below). As he puts it, this isn't a control deck, and it's not a [[Through the Breach:Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa:Oath]] from Titan Breach just like you don't cut [[Serum Visions]] from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
 
 <table class="cardlist">
-    <caption class="deckname">Matthias Hunt's Titan Breach</caption>
+    <caption class="deckname">Matthias' Titan Breach</caption>
     <tr>
         <td>
             1 [[Oracle of Mul Daya]]<br>
@@ -68,8 +68,8 @@ After over 100k simulated games, Matthias' build is slightly better than the net
 | 4 [[Oath of Nissa]] (Matthias)                |   11.5% |   20.4% |   64.3% |   75.6% |
 | 4 [[Dissenter's Deliverance:Cantrip]]         |   10.4% |   17.5% |   58.8% |   69.8% |
 | 4 [[Street Wraith]]                           |   12.3% |   20.6% |   60.8% |   71.9% |
-| 2 [[Misty Rainforest:Fetch]], 2 [[Magmatic Insight]] |   11.4% |   19.6% |   59.7% |   71.6% |
-| 4 [[Misty Rainforest:Lands]]                  |   12.0% |   19.1% |   60.4% |   68.6% |
+| 2 [[Misty Rainforest:Land]], 2 [[Magmatic Insight]] |   11.4% |   19.6% |   59.7% |   71.6% |
+| 4 [[Misty Rainforest:Land]]                   |   12.0% |   19.1% |   60.4% |   68.6% |
 | 4 [[Chancellor of the Tangle]]                |   11.3% |   20.5% |   53.5% |   66.0% |
 | 4 [[Desperate Ritual]]                        |   22.7% |   36.0% |   64.1% |   74.1% |
 
@@ -77,100 +77,80 @@ After over 100k simulated games, Matthias' build is slightly better than the net
 
 The netdeck is about 50-50 to drop a [[Primeval Titan:Titan]] by turn 4 on the play, and 2-to-1 on the draw. Matthias' build is 2-to-1 on the play and 3-to-1 on the draw. That's a big difference -- roughly an extra turn-3 or turn-4 [[Primeval Titan:Titan]] every 7 games. Put another way, about once per FNM, [[Oath of Nissa:Oath]] turns a likely loss into a likely win.
 
-Even though [[Oath of Nissa:Oath]] sometimes whiffs, it's still better across the board than a vanilla cantrip (like the cycling on [[Dissenter's Deliverance]]). It even compares favorably to [[Street Wraith]], which serves as a sort of control[^5]. [[Street Wraith:Wraith]] performs about like playing a bunch of extra lands: it makes the deck marginally more consistent on turn 3, but it can't compete with the benefit [[Oath of Nissa:Oath]] provides on turn 4.
+Even though [[Oath of Nissa:Oath]] sometimes whiffs, it's still better across the board than a vanilla cantrip (like the cycling on [[Dissenter's Deliverance]]). It even compares favorably to [[Street Wraith]], which serves as a sort of control[^5]. Playing [[Street Wraith:Wraith]] or some extra lands make the deck marginally more consistent on turn 3, but they can't compete with the benefit [[Oath of Nissa:Oath]] provides on turn 4.
 
 [^5]: In real life, [[Street Wraith]] makes mulligan choices difficult, and 2 life is a real cost. My simulation doesn't care about those things, so [[Street Wraith:Wraith]] is just like playing a 56-card deck.
 
-[[Desperate Ritual:Ritual]]s can put up better numbers than [[Oath of Nissa:Oath]], but there's a problem with that approach: when we go [[Simian Spirit Guide:Guide]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], we don't win. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we have a bunch of lands on the table.
+[[Desperate Ritual:Ritual]]s can get [[Primeval Titan:Titan]] onto the table faster than [[Oath of Nissa:Oath]], but there's a problem with that approach: when we go [[Simian Spirit Guide:Guide]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], we don't win. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we have a bunch of lands on the table.
 
 The above numbers don't tell the whole story. They can't tell us how often Matthias' build loses because it doesn't have a [[Lightning Bolt:Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated:Karn]]. But, assuming it's safe to drop the interactive suite down to 3 cards, [[Oath of Nissa]] is the card to beat for those last four slots.
 
+### Exploration and Experimentation
 
+Having built this simulation of Titan Breach, I had my own bone to pick with the conventional wisdom: could [[Farseek]][^10] really be better than [[Explore]]?
 
+[^10]: [[Sakura-Tribe Elder]] only searches up basic lands, which in a sense makes it worse than [[Farseek]]. But that's more than made up for by its ability to soak up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) and [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper).
 
+[[Farseek]] is easy to evaluate: it ramps us into a [[Cinder Glade:dual land]], which counts as a [[Mountain]] for [[Valakut, the Molten Pinnacle:Valakut]] as well as giving us another green source in case we need to hard-cast [[Primeval Titan:Titan]]. [[Explore]] is trickier. It's *usually* a ramp spell on turn 2, but sometimes it whiffs. The trade-off is, it *sometimes* helps find a missing [[Through the Breach:Breach]] or [[Primeval Titan:Titan]]. It's also significant that [[Explore]] lets us play the extra land untapped, which *occasionally* lets us squeeze in an extra [[Oath of Nissa:Oath]] or [[Lightning Bolt:Bolt]].
 
+All of the lists aggregated by [MTGGoldfish](https://www.mtggoldfish.com/archetype/modern-titanshift-40829#paper) play [[Farseek]] over [[Explore]]. So does Matthias. But it's not obvious -- to me, at least -- whether it's actually better. So I plugged it into the simulation.
 
+| Farseek vs Explore      | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:------------------------|--------:|--------:|--------:|--------:|
+| [[Farseek]]             |   11.5% |   20.4% |   64.3% |   75.6% |
+| [[Explore]]             |   13.6% |   24.4% |   65.4% |   77.0% |
 
----
+<p class="table-caption">The conventional wisdom prefers [[Farseek]] over [[Explore]]. It turns out, [[Explore]] is slightly better at producing a fast [[Primeval Titan]]. Values plus-or-minus 0.5% or so.</p>
 
----
-
----
-
-
-
-
-### Farseek vs Explore
-
-
-
-
-| With Farseek→Explore      | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------|--------:|--------:|--------:|--------:|
-| 4 Oath                    |   13.6% |   24.4% |   65.4% |   77.0% |
-| 2 Oath, 2 Land            |   14.1% |   24.4% |   63.6% |   75.6% |
-| 2 Oath, 2 Ritual          |   18.6% |   33.5% |   65.5% |   76.9% |
-| 4 Ritual                  |   24.3% |   38.8% |   64.4% |   75.5% |
-| 4 Wraith                  |   15.3% |   24.7% |   61.3% |   74.2% |
-| 2 Land, 2 Wraith          |   13.3% |   25.5% |   61.0% |   74.0% |
-| 2 Land, 2 Insight         |   14.4% |   23.7% |   63.2% |   73.0% |
-
-
-| 3 Oath, 1 Ritual          |   16.8% |   29.0% |   66.9% |   76.2% |
-| 3 Oath, 1 Land            |   13.8% |   24.3% |   65.2% |   76.0% |
-| 1 Oath, 3 Ritual          |   23.3% |   36.7% |   66.9% |   76.9% |
-
-
-| With Farseek→Explore      | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------|--------:|--------:|--------:|--------:|
-| 1 Land, 3 Wraith          |   14.4% |   23.9% |   62.1% |   71.4% |
-| 2 Oath, 1 Land, 1 Ritual  |   17.2% |   29.1% |   64.3% |   76.0% |
-
-
-| Farseek→Explore, Bolt     | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------|--------:|--------:|--------:|--------:|
-| 3 Land, 1 Bolt            |   12.3% |   21.0% |   59.9% |   69.8% |
-| 2 Oath, 1 Land, 1 Bolt    |   12.9% |   22.4% |   61.0% |   73.3% |
-| 1 Land, 2 Ritual, 1 Bolt  |   18.8% |   30.3% |   60.6% |   73.0% |
-
-
-| Farseek→Explore, BAD      | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------|--------:|--------:|--------:|--------:|
-| 4 Land                    |   14.4% |   22.5% |   63.4% |   71.2% |
-| 2 Land, 2 Monitor         |   10.1% |   18.5% |   57.8% |   73.5% |
-
-
-*All values cumulative. Uncertainties no more than 1.0%.*
-
-
-
-
-
-### Fine Tuning
-
-
-> NOTE -- Once per 50 games isn't that interesting. It should also make T4 more likely, right? Probably worth showing the plot so we can make Oath sound like a big deal.
-
-
-
-
-
-> TODO -- Make this into a plot. One for comparisons on Oath. Another one later for Zach vs Matthias vs Charles
-
-
-
-
-
-
-
-it's clear that adding Oath significantly increases the odds of Titan hitting the table on turn 3.
-
-> TODO -- Write a readme for the code repo rather than getting into the algorithm here.
-
+The difference is modest, but [[Explore]] performs better than [[Farseek]] across the board.
 
 ---
 
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+My baseline build is now as follows. ([[Lightning Bolt:Bolt]] is good around here. If your local metagame is full of [Shadow](https://www.mtggoldfish.com/archetype/modern-grixis-death-s-shadow#paper)/[Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper)/[Dredge](https://www.mtggoldfish.com/archetype/modern-dredge-26688#paper), those 3 slots could just as easily be [[Relic of Progenitus]].)
+
+<table class="cardlist">
+    <caption class="deckname">Charles' Titan Breach</caption>
+    <tr>
+        <td>
+            4 [[Primeval Titan]]<br>
+            4 [[Sakura-Tribe Elder]]<br>
+            4 [[Simian Spirit Guide]]<br>
+        </td>
+        <td>
+            4 [[Explore]]<br>
+            3 [[Lightning Bolt]]<br>
+            4 [[Oath of Nissa]]<br>
+            4 [[Search for Tomorrow]]<br>
+            4 [[Summoner's Pact]]<br>
+            4 [[Through the Breach]]<br>
+        </td>
+        <td>
+            2 [[Cinder Glade]]<br>
+            2 [[Forest]]<br>
+            6 [[Mountain]]<br>
+            4 [[Stomping Ground]]<br>
+            4 [[Valakut, the Molten Pinnacle]]<br>
+            3 [[Windswept Heath]]<br>
+            4 [[Wooded Foothills]]<br>
+        </td>
+    </tr>
+</table>
+
+
+
 
 ---
 
@@ -189,133 +169,7 @@ it's clear that adding Oath significantly increases the odds of Titan hitting th
 
 
 
-When played perfectly, his list produces a turn-3 Titan in **9%** of games on the play; on the draw, that number is 16%.
 
-The list I played was a bit different. Matthias pulled a pair of <a class="card">Lightning Bolt</a>s, a <a class="card">Chandra, Torch of Defiance</a>, and the <a class="card">Woodfall Primus</a> to add a set of <a class="card">Oath of Nissa</a>s. As Matthias puts it, this isn't a control deck, and it's not a <a class="card">Through the Breach</a> deck -- it's a <a class="card">Primeval Titan</a> deck.
-
-
-> NOTE -- old version of Matthias' deck, before Simian Spirit Guide: https://www.mtggoldfish.com/deck/372148#paper
-
-
-
-
-
-
-With perfect play, Matthias' list (below) makes a turn-3 Titan in **13%** of games on the play, and 23% on the draw.
-
-To be clear, "perfect play" isn't hyperbolic. I coded up the deck in Python (you can check it out [here](https://github.com/charles-uno/valakut)). The program doesn't know anything about strategy or sequencing -- it just knows the rules. Any time there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest[^4] line to a Titan.
-
-[^4]: We're maximizing the odds of turn-3 Titan, but this isn't an all-or-nothing deal. Zach's build is 85% to have Titan on the table by turn 4 on the play. Matthias' build, and the following tweaks, are over 90%.
-
-Admittedly, it's not quite fair to use this program to compare Matthias' build to Zach's. The program cares only about the combo. Zach puts the combo together a bit slower, but it's better at playing control in the meantime, which may be better in some matchups. So let's instead make an apples-to-apples comparison. Let's start with Matthias' build, and see what tweaks might make it better.
-
-### What's Negotiable?
-
-Most of the deck is set in stone.
-
-We'd love to have <a class="card">Search for Tomorrow</a> in every opening hand, but we're maxed out at 4 copies. We're also maxed out on <a class="card">Simian Spirit Guide</a>, which lets us drop turn-3 Titan even without Search.
-
-We always want to have a ramp spell on turn 2, and <a class="card">Sakura-Tribe Elder</a> is clearly the best one. Its ability to soak up damage against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper) or [Affinity](https://www.mtggoldfish.com/archetype/modern-affinity-8972#paper) more than makes up for its inability to get dual lands.
-
-We're not about to play fewer than 4 copies of <a class="card">Through the Breach</a>; we'd play more if possible, but without haste <a class="card">Dramatic Entrance</a> doesn't make the cut. And we're not about to cut any <a class="card">Summoner's Pact</a>s. We already lose 5% to 10% of games when we can't find a Titan -- plus Pact finds our silver bullet <a class="card">Reclamation Sage</a> to deal with <a class="card">Blood Moon</a> out of the sideboard.
-
-In the interest of an honest comparison to Matthias' list, we also won't touch the <a class="card">Lightning Bolt</a>s or <a class="card">Chandra, Torch of Defiance</a>. Perhaps these aren't the best interactive cards to play, and perhaps 3 isn't the right number of interactive cards, but that's outside the scope of the present analysis.
-
-But that still leaves us a few juicy questions:
-
-- Is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
-- Is 8 the correct number of 2-cost ramp spells?
-- Is 25 the correct number of lands?
--
-
-
-
-That leaves:
-
-
-
-- <a class="card">Farseek</a> -- Are we playing the correct number of 2-cost ramp spells, and how does
-
-
-
-Are we playing the correct number of 2-cost ramp spells, and are these the best ones?
-- <a class="card">Oath of Nissa</a> -- How much of a benefit are we getting from (essentially) a cantrip?
-- Lands -- What happens if we try 24 or 26 lands instead of 25?
-
-### Ramp Spells
-
-The deck wants to play a 2-cost ramp spell on turn 2 every game, supplemented by <a class="card">Search for Tomorrow</a> on turn 1 and/or <a class="card">Simian Spirit Guide</a> on turn 3. As far as those 2-cost ramp spells go, <a class="card">Sakura-Tribe Elder</a> is the best option; its ability to soak up damage more than makes up for only getting basics. <a class="card">Farseek</a> is generally considered to be next. If we want to play 9 or more 2-cost ramp spells, we've also got access to <a class="card">Rampant Growth</a>, <a class="card">Explore</a>, and so on.
-
-First question: is 8 the correct number of 2-cost ramp spells?
-
-> We test this by looking at a 59-card deck (cutting one copy of <a class="card">Farseek</a>) and a 61-card deck (playing a 5th copy). This lets us punt on the question of which card would be swapped in or out.
-
-
-
-> farseek59, farseek61
-
-
-
-Second question: is <a class="card">Farseek</a> actually better than <a class="card">Explore</a>?
-
-<a class="card">Farseek</a> is easy to evaluate. It gets a dual land into play, which counts as a Mountain for Valakut and also provides an extra green source. <a class="card">Explore</a> is trickier. It's *usually* a ramp spell on turn 2, but whiffing on the extra land drop means we just paid 2 mana for a cantrip. The trade-off is, it *sometimes* helps find a missing Breach or Titan. It's also significant that Explore lets us play the extra land untapped, which *sometimes* means we can cast an extra Oath or Lightning Bolt after ramping.
-
-Matthias and Zach both elected to go with the tried-and-true Farseek. But as far as landing Titan on turn 3, Explore is better. Swapping 4 <a class="card">Farseek</a> for 4 <a class="card">Explore</a> in Matthias' build raises the rate of turn-3 Titans from 30% to **36%** on the play (and from 50% to **55%** on the draw).
-
-It bears noting -- again -- that this simulation is concerned only with assembling the combo in the first few turns. In a long game, trying to get in the last few points of damage with Valakut already on the table, we'd prefer to draw <a class="card">Farseek</a> over <a class="card">Explore</a>.
-
-### Oath of Nissa
-
-
-
----
-
-
-
-As a control, we can try a cantrip instead: <a class="card">Dissenter's Deliverance</a>, assuming we always cycle it. Our numbers get a bit worse: instead of 30%, we play a turn-3 Titan in **27%** of games. On the draw, we're down from 50% to **`YYY`**. Oath can't find <a class="card">Through the Breach</a>, and sometimes it whiffs, but even so it's clear that digging 3 cards deep is better than blindly drawing the top card at the same cost.
-
-But what about blindly drawing the top card at no (mana) cost?
-
-Another possibility is <a class="card">Street Wraith</a>. Wraith doesn't dig for Titan as well as Oath, but its lack of a mana cost almost makes it easier on our tempo. The effect is surprisingly large. Swapping Oath for Wraith, we can hit a turn-3 Titan in **`XXX`** of games on the play, and **`YYY`** on the draw.
-
-If the cycling on <a class="card">Street Wraith</a> were truly free, we'd play it in a heartbeat -- but 2 life is a real cost. If we draw multiple copies of Wraith against [Burn](https://www.mtggoldfish.com/archetype/modern-burn-34574#paper), it may not matter how fast we get Titan on the table.
-
-
----
-
-
-
-
-### Lands
-
-
-
-If we already have Valakut on the table, we're happy to draw another Mountain. If we don't have Valakut, that means we haven't played Titan, so how exactly have we survived to the late game? (Sheltered Thicket)
-
-
-
-
-
-
-### Discussion of Algorithm
-
-(1) Shuffling is a problem! Was running into the problem where my success odds would go through the roof due to adding a bunch of Street Wraiths. This is because "cycle wraith then fetch" and "fetch then cycle wraith" are two different lines, each shuffled independently. Essentially, every time I shuffled the deck, I was getting extra chances to draw what I needed. Double-dipping on luck.
-
-Always shuffling in the same way didn't solve the problem. Removing the bottom-most copy of the desired card (and leaving the rest of the deck in tact) made the problem smaller, but didn't get rid of it. Fetching Mountain versus fetching Forest apparently affects the top few cards of the deck pretty often.
-
-Ultimately I eliminated free deck manipulation. Oath still moves cards from top to bottom, but fetching a Forest pulls a Forest out of thin air. It's technically possible to end up with 5 copies of Stomping Ground on the table, but that's a sub-percent-level effect.
-
-(2) Oath is really computationally intensive! It can be sequenced a lot of different ways (since it's cheap) and it creates several game states all by itself. Swapping it out for a cantrip made the code run twice as fast, maybe more.
-
-(3) Some simplifications for the sake of computational time.
-
-- We track total mana and green mana, but not red. Breach is the only red spell we care about, and it's literally impossible for us to get to 5 mana without a red source. This also makes tapping trivial: tap as much green as necessary, then try to pay for the rest with red.
-- We don't track mountains for Valakut, since getting Titan on the table is our escape condition. That means Forest is actually the best land in our deck. It provides green, helps Glade be untapped, and comes in untapped itself. If there's a Forest left in our deck, that's always what we fetch with Search / Elder (even though in actual play they typically get Mountain). Fetch lands also never fetch Mountain if there's a Forest left in the deck.
-- We don't distinguish Heath from Foothills. The issue of running out of Mountains in the deck is a late game problem, and this is an early game simulation.
-- Life is not tracked. Basically we pretend that Stomping Ground is Taiga.
-
-
-- Since deck thinning is no longer a thing, we should always fetch Stomp over Glade.
 
 
 
@@ -326,16 +180,6 @@ Ultimately I eliminated free deck manipulation. Oath still moves cards from top 
 ---
 
 
-Adding cantrips significantly improves the odds of dropping Titan on turn 3; Oath even more so. The effect from Street Wraith is even better, but the loss of life will cost games against aggressive decks.
-
-Explore is better than Farseek, especially if we play the 26th land, which we should.
-
-
----
-
----
-
----
 
 
 
