@@ -19,20 +19,20 @@ That's 6 damage from [[Primeval Titan:Titan]] and another 12 from [[Valakut, the
 
 [^1]: [[Wooded Foothills:Fetch lands]] and [[Stomping Ground:shock lands]] are prevalent in Modern. It's typical for a player to deal themselves at least 2 damage in the first few turns of the game.
 
-Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtggoldfish.com/deck/757022#paper) at SCG Modern IQ Columbia. Compared to Zach's build, Matthias cuts a pair of [[Lightning Bolt:Bolt]]s, a [[Chandra, Torch of Defiance:Chandra]], and the [[Woodfall Primus]] to add a set of [[Oath of Nissa]]s.
+### Matthias vs Internet
+
+The Titan Breach [netdeck](https://www.mtggoldfish.com/deck/757022#paper) plays a full set of [[Lightning Bolt:Bolt]]s, some [[Chandra, Torch of Defiance:value cards]], and a random [[Woodfall Primus:fatty]] or two for [[Through the Breach:Breach]]. Matthias slims down the interactive suite to make room for [[Oath of Nissa]] (see list below, which I won my PPTQ with). As he puts it, this isn't a control deck, and it's not a [[Through the Breach:Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa:Oath]] from Titan Breach just like you don't cut [[Serum Visions]] from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
 
 <table class="cardlist">
-
     <caption class="deckname">Matthias Hunt's Titan Breach</caption>
-
     <tr>
         <td>
+            1 [[Oracle of Mul Daya]]<br>
             4 [[Primeval Titan]]<br>
             4 [[Sakura-Tribe Elder]]<br>
             4 [[Simian Spirit Guide]]<br>
         </td>
         <td>
-            1 [[Chandra, Torch of Defiance]]<br>
             4 [[Farseek]]<br>
             2 [[Lightning Bolt]]<br>
             4 [[Oath of Nissa]]<br>
@@ -52,75 +52,44 @@ Zach Voss recently piloted Titan Breach to a [3rd place finish](https://www.mtgg
     </tr>
 </table>
 
-As Matthias puts it, this isn't a control deck, and it's not a [[Through the Breach:Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa:Oath]] from Titan Breach just like you don't cut [[Serum Visions]] from [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper).
+Matthias has been a proponent of [[Oath of Nissa:Oath]] in Titan Breach since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing [[Lightning Bolt:Bolt]] usually feels good, but drawing [[Oath of Nissa:Oath]] often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs!
 
-### How Good is [[Oath of Nissa:Oath]]?
-
-Matthias has been a proponent of [[Oath of Nissa:Oath]] in this deck since (at least) [early 2016](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), but it hasn't caught on. Honestly, I can see why. Drawing [[Lightning Bolt:Bolt]] usually feels good, but drawing [[Oath of Nissa:Oath]] often feels bad: it doesn't do anything! I have to pay to turn it into a "real" card. It makes my sequencing harder. And sometimes it even whiffs[^8]!
-
-[^8]: In Matthias' build, [[Oath of Nissa:Oath]] is 50% to find only land, 7% to find only creatures, 38% to find both, and 5% to find nothing.
-
-There's a difference between a card that *feels* bad and a card that *is* bad (remember [[Death's Shadow:Shadow]]). In order to figure out which category [[Oath of Nissa:Oath]] falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy or sequencing -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
+But there's a difference between a card that *feels* bad and a card that *is* bad (remember [[Death's Shadow:Shadow]]). In order to figure out which category [[Oath of Nissa:Oath]] falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
 [^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome!
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
-After over 100k simulated games, Matthias' build is slightly better than Zach's at producing [[Primeval Titan:Titan]] on turn 3, and considerably better at having one by turn 4 (see table below). Qualitatively, this makes sense. Turn-3 lines are pretty tight; typically there isn't an extra mana floating around to pay for [[Oath of Nissa:Oath]]. Over 4 turns, there's a lot more wiggle room; we can afford to cast an [[Oath of Nissa:Oath]] or two and dig for whatever we're missing.
+After over 100k simulated games, Matthias' build is slightly better than the netdeck at producing [[Primeval Titan:Titan]] on turn 3, and considerably better at having one by turn 4 (see table below). Qualitatively, this makes sense. Turn-3 lines are pretty tight; typically there isn't an extra mana floating around to pay for [[Oath of Nissa:Oath]]. Over 4 turns, there's a lot more wiggle room; we can afford to cast an [[Oath of Nissa:Oath]] or two and dig for whatever we're missing.
 
-| Build    | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:---------|--------:|--------:|--------:|--------:|
-| Zach     |    9.4% |   15.6% |   50.8% |   64.5% |
-| Matthias |   11.6% |   20.2% |   64.1% |   75.0% |
-
-*Cumulative probability of getting [[Primeval Titan:Titan]] on the table by turn 3 and turn 4 for Zach's build (with 7 interactive cards) and Matthias' build (3 interactive cards plus [[Oath of Nissa:Oath]]).*
-
-[[Oath of Nissa:Oath]] makes a big difference. Zach is about 50-50 to drop [[Primeval Titan:Titan]] by turn 4 on the play, and 2-to-1 to do so on the draw; Matthias is 2-to-1 on the play and 3-to-1 on the draw. That's an extra turn-3 or turn-4 [[Primeval Titan:Titan]] every 8 games or so. In other words, about once per FNM, [[Oath of Nissa:Oath]] turns a likely loss into a likely win.
-
-Admittedly, the comparison isn't quite fair. The simulation can't tell us how often Matthias will lose because he didn't have a [[Lightning Bolt:Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated:Karn]]. It only cares about [[Primeval Titan:Titan]]. As far as it's concerned, [[Lightning Bolt:Bolt]] and [[Woodfall Primus:Primus]] are blanks.
-
-So let's make some apples-to-apples comparisons. Assuming it's safe to drop from 7 interactive cards down to 3, as Matthias has, is [[Oath of Nissa:Oath]] the best we can do?
-
-| Slots 57-60                                 | T3 Play | T3 Draw | T4 Play | T4 Draw |
-|:--------------------------------------------|--------:|--------:|--------:|--------:|
-| 2 [[Lightning Bolt:Bolt]], 1 [[Chandra, Torch of Defiance:Chandra]], 1 [[Woodfall Primus:Primus]] (Zach) |    9.4% |   15.6% |   50.8% |   64.5% |
-| 4 [[Oath of Nissa]] (Matthias) |   11.5% |   20.4% |   64.3% |   75.6% |
-| 4 [[Dissenter's Deliverance:Cantrip]] |   10.4% |   17.5% |   58.8% |   69.8% |
+| Slots 57-60                                   | T3 Play | T3 Draw | T4 Play | T4 Draw |
+|:----------------------------------------------|--------:|--------:|--------:|--------:|
+| 2 [[Lightning Bolt:Bolt]], 1 [[Chandra, Torch of Defiance:Chandra]], 1 [[Woodfall Primus:Primus]] (Netdeck) |    9.4% |   15.6% |   50.8% |   64.5% |
+| 4 [[Oath of Nissa]] (Matthias)                |   11.5% |   20.4% |   64.3% |   75.6% |
+| 4 [[Dissenter's Deliverance:Cantrip]]         |   10.4% |   17.5% |   58.8% |   69.8% |
 | 4 [[Street Wraith]]                           |   12.3% |   20.6% |   60.8% |   71.9% |
-| 4 [[Chancellor of the Tangle]]                |   11.3% |   20.5% |   53.5% |   66.0% |
 | 2 [[Misty Rainforest:Fetch]], 2 [[Magmatic Insight]] |   11.4% |   19.6% |   59.7% |   71.6% |
-| 4 [[Desperate Ritual]] |   22.7% |   36.0% |   64.1% |   74.1% |
-| 1 [[Misty Rainforest:Fetch]], 3 [[Shefet Monitor]] |   9.3% |   16.2% |   57.9% |   69.8% |
+| 4 [[Misty Rainforest:Lands]]                  |   12.0% |   19.1% |   60.4% |   68.6% |
+| 4 [[Chancellor of the Tangle]]                |   11.3% |   20.5% |   53.5% |   66.0% |
+| 4 [[Desperate Ritual]]                        |   22.7% |   36.0% |   64.1% |   74.1% |
+
+<p class="table-caption">The Titan Breach <a href="https://www.mtggoldfish.com/deck/757022#paper">netdeck</a> generally plays about 7 interactive cards. Matthias drops that down to 3 to make room for [[Oath of Nissa]]. The above table shows how that change affects the probability of dropping a [[Primeval Titan:Titan]] on turn 3 or 4. A handful of other plausible configurations are shown for comparison. Values plus-or-minus 0.5% or so.</p>
+
+The netdeck is about 50-50 to drop a [[Primeval Titan:Titan]] by turn 4 on the play, and 2-to-1 on the draw. Matthias' build is 2-to-1 on the play and 3-to-1 on the draw. That's a big difference -- roughly an extra turn-3 or turn-4 [[Primeval Titan:Titan]] every 7 games. Put another way, about once per FNM, [[Oath of Nissa:Oath]] turns a likely loss into a likely win.
+
+Even though [[Oath of Nissa:Oath]] sometimes whiffs, it's still better across the board than a vanilla cantrip (like the cycling on [[Dissenter's Deliverance]]). It even compares favorably to [[Street Wraith]], which serves as a sort of control[^5]. [[Street Wraith:Wraith]] performs about like playing a bunch of extra lands: it makes the deck marginally more consistent on turn 3, but it can't compete with the benefit [[Oath of Nissa:Oath]] provides on turn 4.
+
+[^5]: In real life, [[Street Wraith]] makes mulligan choices difficult, and 2 life is a real cost. My simulation doesn't care about those things, so [[Street Wraith:Wraith]] is just like playing a 56-card deck.
+
+[[Desperate Ritual:Ritual]]s can put up better numbers than [[Oath of Nissa:Oath]], but there's a problem with that approach: when we go [[Simian Spirit Guide:Guide]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], we don't win. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we have a bunch of lands on the table.
+
+The above numbers don't tell the whole story. They can't tell us how often Matthias' build loses because it doesn't have a [[Lightning Bolt:Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated:Karn]]. But, assuming it's safe to drop the interactive suite down to 3 cards, [[Oath of Nissa]] is the card to beat for those last four slots.
 
 
 
 
 
-<caption>All values cumulative. Values plus-or-minus up to 1%.</caption>
 
-The above table lays out a number of different candidates for the last 4 slots in the deck: extra lands, rituals, and cantrips that could plausibly give the deck a leg up.
-
-
-
-| [[Misty Rainforest:lands 26-29]]            |   12.0% |   19.1% |   60.4% |   68.6% |
-| [[Magmatic Insight]]                        |   10.3% |   20.0% |   59.5% |   71.8% |
-
-
-
-
-> NOTE -- Mention things we thought about trying? [[Sheltered Thicket]]...
-
-
-
-A vanilla cantrip (here, the cycling on [[Dissenter's Deliverance]]) is a step up from nothing, but worse than [[Oath of Nissa:Oath]] across the board. The same is true for [[Magmatic Insight:Insight]] -- it turns out, discarding lands is detrimental to our game plan.
-
-[[Chancellor of the Tangle:Chancellor]] is comparable to [[Oath of Nissa:Oath]] in terms of delivering a turn-3 [[Primeval Titan:Titan]]. It's possible that other tweaks to the build, perhaps another [[Rampant Growth:2-cost ramp spell]], could push it a bit higher. But it doesn't do much to help deliver [[Primeval Titan:Titan]] on turn 4.
-
-[[Street Wraith]] actually performs better than Oath at getting [[Primeval Titan:Titan]] into play on turn 3, which makes sense -- it only digs one card deep, but we don't have to worry about paying for it. We can also get marginal turn-3 improvements by playing a bunch of extra lands.
-
-
-
-> Are those gains small compared to what we get from Oath? The comparison we really care about is with Explore...
 
 ---
 
@@ -139,22 +108,22 @@ A vanilla cantrip (here, the cycling on [[Dissenter's Deliverance]]) is a step u
 | With Farseek→Explore      | T3 Play | T3 Draw | T4 Play | T4 Draw |
 |:--------------------------|--------:|--------:|--------:|--------:|
 | 4 Oath                    |   13.6% |   24.4% |   65.4% |   77.0% |
-| 3 Oath, 1 Land            |   13.8% |   24.3% |   65.2% |   76.0% |
 | 2 Oath, 2 Land            |   14.1% |   24.4% |   63.6% |   75.6% |
-| 3 Oath, 1 Ritual          |   17.0% |   28.9% |   67.9% |   76.6% |
-| 2 Oath, 2 Ritual          |   18.6% |   33.7% |   65.9% |   77.2% |
-| 1 Oath, 3 Ritual          |   % |   % |   % |   % |
+| 2 Oath, 2 Ritual          |   18.6% |   33.5% |   65.5% |   76.9% |
 | 4 Ritual                  |   24.3% |   38.8% |   64.4% |   75.5% |
 | 4 Wraith                  |   15.3% |   24.7% |   61.3% |   74.2% |
+| 2 Land, 2 Wraith          |   13.3% |   25.5% |   61.0% |   74.0% |
+| 2 Land, 2 Insight         |   14.4% |   23.7% |   63.2% |   73.0% |
 
 
+| 3 Oath, 1 Ritual          |   16.8% |   29.0% |   66.9% |   76.2% |
+| 3 Oath, 1 Land            |   13.8% |   24.3% |   65.2% |   76.0% |
+| 1 Oath, 3 Ritual          |   23.3% |   36.7% |   66.9% |   76.9% |
 
 
 | With Farseek→Explore      | T3 Play | T3 Draw | T4 Play | T4 Draw |
 |:--------------------------|--------:|--------:|--------:|--------:|
-| 2 Land, 2 Wraith          |   13.3% |   25.5% |   61.0% |   74.0% |
 | 1 Land, 3 Wraith          |   14.4% |   23.9% |   62.1% |   71.4% |
-| 2 Land, 2 Insight         |   14.4% |   23.7% |   63.2% |   73.0% |
 | 2 Oath, 1 Land, 1 Ritual  |   17.2% |   29.1% |   64.3% |   76.0% |
 
 

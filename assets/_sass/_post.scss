@@ -55,8 +55,8 @@ article {
             padding: $pad;
         }
 
-
         margin: $text-size auto;
+        margin-bottom: $half-pad;
         thead { border-bottom: $half-pad solid $paper-color; }
 //        margin-left: auto;
 //        margin-right: auto;
@@ -64,7 +64,20 @@ article {
         padding: $half-pad;
     }
 
+    .table-caption {
 
+//        border-top: $half-pad solid $paper-color;
+
+        width: 100%;
+        max-width: 100%;
+        text-align: justify;
+        font-size: $caption-size;
+        font-style: normal;
+        background-color: $shadow-color;
+        display: block;
+        padding: $pad;
+        margin: 0;
+    }
 
 
 
