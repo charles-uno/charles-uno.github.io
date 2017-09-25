@@ -104,7 +104,7 @@ All of the lists aggregated by [MTGGoldfish](https://www.mtggoldfish.com/archety
 
 <p class="table-caption">The conventional wisdom prefers [[Farseek]] over [[Explore]]. It turns out, [[Explore]] is slightly better at producing a fast [[Primeval Titan]]. T3 (T4) values are plus-or-minus 0.4% (0.8%).</p>
 
-The difference is modest. But -- in terms of getting [[Primeval Titan]] onto the table -- [[Explore]] performs better than [[Farseek]] across the board.
+The difference is modest. But -- in terms of getting [[Primeval Titan]] onto the table -- [[Explore]] performs better than [[Farseek]] on T3 as well as T4.
 
 ---
 
