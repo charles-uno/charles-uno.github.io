@@ -53,6 +53,7 @@ article {
             background-color: $shadow-color;
             text-align: left;
             padding: $pad;
+            border-bottom: $half-pad solid $paper-color;
         }
 
         margin: $text-size auto;
