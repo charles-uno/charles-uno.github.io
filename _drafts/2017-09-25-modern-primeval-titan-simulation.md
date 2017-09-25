@@ -73,7 +73,7 @@ After over 100k simulated games, Matthias' build is slightly better than the net
 | 4 [[Chancellor of the Tangle]]                |   11.3% |   20.5% |   53.5% |   66.0% |
 | 4 [[Desperate Ritual]]                        |   22.7% |   36.0% |   64.1% |   74.1% |
 
-<p class="table-caption">The Titan Breach <a href="https://www.mtggoldfish.com/deck/757022#paper">netdeck</a> generally plays about seven interactive cards. Matthias drops that down to three to make room for [[Oath of Nissa]]. The above table shows how that change affects the probability of dropping a [[Primeval Titan:Titan]] on T3 or T4. A handful of other plausible configurations are shown for comparison. T3 (T4) values are plus-or-minus 0.3% (0.7%).</p>
+<p class="table-caption">The Titan Breach <a href="https://www.mtggoldfish.com/deck/757022#paper">netdeck</a> generally plays about seven interactive cards. Matthias drops that down to three to make room for [[Oath of Nissa]]. The above table shows how that change affects the probability of dropping a [[Primeval Titan:Titan]] on T3 or T4. A handful of other plausible configurations are shown for comparison. T3 (T4) values are plus-or-minus 0.4% (0.8%).</p>
 
 The netdeck is about fifty-fifty to drop a [[Primeval Titan:Titan]] by turn 4 on the play, and two-to-one on the draw. Matthias' build is two-to-one on the play and three-to-one on the draw. That's a big difference -- roughly an extra T3 or T4 [[Primeval Titan:Titan]] every seven games. Put another way, about once per FNM, [[Oath of Nissa:Oath]] turns a likely loss into a likely win.
 
@@ -81,13 +81,13 @@ Even though [[Oath of Nissa:Oath]] sometimes whiffs, it's still better across th
 
 [^5]: In real life, [[Street Wraith]] makes mulligan choices difficult, and two life is a real cost. My simulation doesn't care about those things, so [[Street Wraith:Wraith]] is just like playing a 56-card deck.
 
-[[Desperate Ritual:Ritual]]s can get [[Primeval Titan:Titan]] onto the table faster than [[Oath of Nissa:Oath]], but there's a problem with that approach: when we go [[Desperate Ritual:Ritual]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], we don't win[^11]. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we have a bunch of lands on the table.
+[[Desperate Ritual:Ritual]]s can get [[Primeval Titan:Titan]] onto the table faster than [[Oath of Nissa:Oath]], but there's a problem with that approach: when we go [[Desperate Ritual:Ritual]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], we don't win[^11]. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we've also got a pile of [[Mountain]]s.
 
 [^11]: [Older builds](https://www.mtggoldfish.com/deck/372148#paper) of the deck didn't even play [[Simian Spirit Guide]]. One free mana is good, but [[Simian Spirit Guide:Guide]]-[[Simian Spirit Guide:Guide]]-[[Through the Breach:Breach]] is bad. [[Desperate Ritual]] is much worse than [[Simian Spirit Guide]]; we can't find it with [[Oath of Nissa]], and we can't play it as a blocker to buy ourselves a turn.
 
 The above numbers don't tell the whole story. They can't tell us how often Matthias' build loses because it doesn't have a [[Lightning Bolt:Bolt]] for [[Goblin Electromancer]] or [[Karn Liberated:Karn]]. But, assuming it's safe to drop the interactive suite down to three cards, [[Oath of Nissa]] is the card to beat for those last four slots.
 
-### [[Explore:Explor]]ation and Experimentation
+### [[Exploration]] and Experimentation
 
 Having built this simulation of Titan Breach, I had my own bone to pick with the conventional wisdom: is [[Farseek]][^10] really better than [[Explore]]?
 
@@ -102,7 +102,7 @@ All of the lists aggregated by [MTGGoldfish](https://www.mtggoldfish.com/archety
 | [[Farseek]]             |   11.5% |   20.4% |   64.3% |   75.6% |
 | [[Explore]]             |   13.6% |   24.4% |   65.4% |   77.0% |
 
-<p class="table-caption">The conventional wisdom prefers [[Farseek]] over [[Explore]]. It turns out, [[Explore]] is slightly better at producing a fast [[Primeval Titan]]. T3 (T4) values are plus-or-minus 0.3% (0.7%).</p>
+<p class="table-caption">The conventional wisdom prefers [[Farseek]] over [[Explore]]. It turns out, [[Explore]] is slightly better at producing a fast [[Primeval Titan]]. T3 (T4) values are plus-or-minus 0.4% (0.8%).</p>
 
 The difference is modest. But -- in terms of getting [[Primeval Titan]] onto the table -- [[Explore]] performs better than [[Farseek]] across the board.
 
@@ -115,15 +115,15 @@ At this point, the list looks pretty good. None of the remaining four-ofs seem r
 | Baseline (4 [[Oath of Nissa]], 4 [[Explore]])     |   13.6% |   24.4% |   65.4% |   77.0% |
 | +1 [[Farseek]], -1 [[Oath of Nissa]]              |   13.5% |   23.6% |   63.9% |   75.7% |
 | +1 [[Farseek]], -1 [[Summoner's Pact]]            |   13.2% |   23.6% |   63.7% |   75.5% |
-| +1 [[Farseek]], -1 [[Windswept Heath]]            |   12.9% |   23.3% |   64.9% |   76.2% |
+| +1 [[Farseek]], -1 [[Windswept Heath]]            |   12.9% |   23.2% |   65.3% |   75.8% |
 | +1 [[Windswept Heath]], -1 [[Explore]]            |   13.7% |   23.8% |   65.3% |   76.9% |
-| +1 [[Windswept Heath]], -1 [[Sakura-Tribe Elder]] |   14.9% |   26.1% |   65.2% |   76.8% |
+| +1 [[Windswept Heath]], -1 [[Sakura-Tribe Elder]] |   14.1% |   24.8% |   65.1% |   76.9% |
 | +1 [[Windswept Heath]], -1 [[Oath of Nissa]]      |   14.0% |   24.4% |   65.7% |   77.3% |
-| +1 [[Windswept Heath]], -1 [[Summoner's Pact]]    |   13.6% |   24.0% |   64.5% |   75.2% |
+| +1 [[Windswept Heath]], -1 [[Summoner's Pact]]    |   13.7% |   23.9% |   64.7% |   75.4% |
 
-<p class="table-caption">The above table compares the odds of T3 and T4 [[Primeval Titan:Titan]] as a result of several prospective swaps in the maindeck. T3 (T4) values are plus-or-minus 0.3% (0.7%).</p>
+<p class="table-caption">The above table compares the odds of T3 and T4 [[Primeval Titan:Titan]] as a result of several prospective swaps in the maindeck. T3 (T4) values are plus-or-minus 0.4% (0.8%).</p>
 
-We're only changing one card at a time here, so the effects are small -- mostly right around the threshold of [statistical significance](https://en.wikipedia.org/wiki/Statistical_significance) -- but it looks like a 26th land would be a good idea. Cutting a [[Sakura-Tribe Elder]] gives the best return, but an [[Oath of Nissa:Oath]] is safer if your local metagame is at all aggressive.
+We're only changing one card at a time here, so the effects are small -- mostly right around the threshold of [statistical significance](https://en.wikipedia.org/wiki/Statistical_significance) -- but it looks like a 26th land would be a good idea. That probably means dropping an [[Oath of Nissa:Oath]], though if your local metagame is light on aggro you might go for [[Sakura-Tribe Elder]] instead.
 
 Swapping our 4th [[Oath of Nissa:Oath]] for a 26th land makes us a hair more likely to drop [[Primeval Titan:Titan]] on T3, and doesn't cost us anything on T4. It also makes us slightly less likely to whiff with the remaining [[Oath of Nissa:Oath]]s, and with [[Explore]]. And, perhaps most importantly, the 26th land accommodates for the fact that these simulations *slightly* over-estimate our odds of drawing lands.
 
