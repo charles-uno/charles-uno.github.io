@@ -5,9 +5,9 @@ image: "/assets/images/anger-of-the-gods-noah-bradley-thumb.png"
 description: "Next stop, Bilbao!"
 ---
 
-I'm going to [Bilbao, Spain](https://magic.wizards.com/en/articles/archive/organized-play/2018s-pro-tours-and-2017s-worlds-2017-07-19)!
+I'm going to [Bilbao, Spain](https://magic.wizards.com/en/articles/archive/organized-play/2018s-pro-tours-and-2017s-worlds-2017-07-19) to play in Pro Tour: Rivals of Ixalan!
 
-Below, I talk through my decklist and the matches.. but, honestly, the matches are not that interesting. Titan Breach is a slow, resilient combo deck. Matchups matter a *lot*. If my opponent can go off before T4, I probably lose; otherwise, I probably win. There are plenty of ways to punt games -- for example, by not playing around [[Blood Moon]], especially with [[Summoner's Pact]] -- but, for the most part, games end with "then I played/[[Through the Breach:Breach]]ed a [[Primeval Titan:Titan]]."
+Below, I talk through the decklist I brought to the qualifier, as well as the matches I played... but, honestly, the matches aren't that interesting. Titan Breach is a slow, resilient combo deck. Matchups matter a *lot*. If my opponent can go off before T4, I probably lose; otherwise, I probably win. There are plenty of ways to punt games -- for example, by playing [[Summoner's Pact]] into a [[Blood Moon]] -- but, for the most part, games end with "then I played a [[Primeval Titan:Titan]]."
 
 ### Decklist
 
@@ -55,24 +55,26 @@ In my [previous post](/modern-primeval-titan-simulation), I made a case for [[Oa
 
 My decklist includes a singleton [[Blighted Woodland]]. I don't see anyone else registering this card, but I think it's just *good*. Under normal circumstances, [[Through the Breach:Breach]]ing a [[Primeval Titan:Titan]] is worth 18 damage. [[Blighted Woodland]] bumps that up to 24, provided my opponent isn't going to win before I untap.
 
-I've been waffling for weeks on the last two maindeck slots. I've tried out [[Woodfall Primus]], [[Hornet Queen]], a 27th land, etc. Eventually, I settled on [[Relic of Progenitus]] as a hedge against matchups that don't care about [[Anger of the Gods:Anger]]. I'm not confident that this is correct. I sided [[Relic of Progenitus:Relic]] out almost every match. The only time I drew it, I misplayed it and it cost me the game!
+I've been waffling for weeks on the last two maindeck slots. I've tried out [[Woodfall Primus]], [[Hornet Queen]], [[Emrakul, the Aeons Torn:Emrakul]], a 27th land, etc. Eventually, I settled on [[Relic of Progenitus]] as a hedge against matchups that don't care about [[Anger of the Gods:Anger]]. I'm not confident that this is correct. I sided [[Relic of Progenitus:Relic]] out almost every match. The only time I drew it, I misplayed it and it cost me the game!
 
-The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis on high-impact cards rather than marginal value. Playing a sideboard card probably costs me a turn; if it only slows my opponent down by a turn, I haven't really accomplished anything.
+The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis on narrow-but-impactful cards rather than marginal value. Playing a sideboard card probably costs me a turn; if it only slows my opponent down by a turn, I haven't really accomplished anything.
 
 [^1]: Matthias *hates* losing to Affinity.
 
-- [[Ancient Grudge]] is among the most efficient hate cards ever printed, and [MTGGoldfish](mtggoldfish.com/metagame/modern#paper) thinks Affinity is the most prevalent deck right now.
+- [[Ancient Grudge]] is among the most efficient hate cards in Modern, and [MTGGoldfish](mtggoldfish.com/metagame/modern#paper) thinks Affinity is the most prevalent deck right now.
 - [[Gaea's Revenge]] is an obligatory one-of in any deck with [[Summoner's Pact]]. It clobbers any deck with [[Cryptic Command]]. It's also passable against Eldrazi Tron, Shadow, and other decks that don't care about [[Anger of the Gods:Anger]].
 - [[Grafdigger's Cage]] shuts down [[Collected Company:Company]]/[[Chord of Calling:Chord]] decks. It's also part of the backup plan in case I fail to dodge Storm -- that matchup is *awful*.
 - [[Grim Lavamancer]] made it into the sideboard to deal with Humans, another rough matchup. I haven't had a chance to do much testing with it. There's a decent chance it's bad.
-- [[Obstinate Baloth]] shuts down Burn and trades with [[Thought-Knot Seer]]. Once in a while you can even [[Summoner's Pact:Pact]] for it in response to [[Liliana of the Veil]]!
+- [[Obstinate Baloth]] clobbers Burn and trades with [[Thought-Knot Seer]]. Once in a while you can even [[Summoner's Pact:Pact]] for it in response to [[Liliana of the Veil]]!
 - [[Reclamation Sage]] is the other [[Summoner's Pact:Pact]]-able one-of. It's meant for [[Blood Moon]]. It's also fine against Affinity.
+
+---
 
 ### Round 1: Win 2-1 vs Affinity
 
 **Game 1:** Gabriel wins the roll and dumps six cards onto the board on his first turn. One of them may have been a [[Steel Overseer]]. I lost before taking my third turn.
 
-**Game 2:** He dumps his hand onto the board again -- maybe he's playing extra [[Memnite]]s? I chain T2 [[Explore]] into T3 [[Anger of the Gods:Anger]] into T4 [[Simian Spirit Guide:Guide]]-[[Primeval Titan:Titan]]. He has [[Dispatch]], but then I play another [[Primeval Titan:Titan]] on T5 to seal the deal.
+**Game 2:** He dumps his hand again, but this time it's not enough. I chain T2 [[Explore]] into T3 [[Anger of the Gods:Anger]] into T4 [[Simian Spirit Guide:Guide]]-[[Primeval Titan:Titan]]. He has [[Dispatch]], but then I play another [[Primeval Titan:Titan]] on T5 to seal the deal.
 
 **Game 3:** My notes just say, "T1 [[Search for Tomorrow:Search]], T2 [[Ancient Grudge:Grudge]], T3 [[Anger of the Gods:Anger]], T4 [[Through the Breach:Breach]]."
 
@@ -92,7 +94,7 @@ The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis
 
 **Game 1:** Zach wins the roll, fetches down to 17, and plays a [[Goblin Guide]]. He follows it up with a [[Shrine of Burning Rage]] (pretty bad in this matchup). With the help of his [[Goblin Guide:Guide]], which finds me 3 lands, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T4.
 
-**Game 2:** He has no one-drop, but goes T2 [[Lightning Helix:Helix]] into T3 [[Lightning Helix:Helix]]. It feels like he's conspicuously leaving up [[Atarka's Command]], so I don't bother with [[Obstinate Baloth]]. I [[Through the Breach:Breach]] a [[Primeval Titan]], but he has [[Path to Exile:Path]]. Next turn, I do it again, and he has another [[Path to Exile:Path]]. I [[Simian Spirit Guide:Guide]] into [[Explore]]; I find a land on top for exactly lethal.
+**Game 2:** He has no one-drop, but goes T2 [[Lightning Helix:Helix]] into T3 [[Lightning Helix:Helix]]. It feels like he's conspicuously leaving up [[Atarka's Command]], so I don't bother with [[Obstinate Baloth]]. I [[Through the Breach:Breach]] a [[Primeval Titan]], but he has [[Path to Exile:Path]]. Next turn, I do it again, and he has another [[Path to Exile:Path]]. I [[Simian Spirit Guide:Guide]] into [[Explore]]; the land I pull off the top is exactly lethal.
 
 ### Round 5: Win 2-1 vs Ponza
 
