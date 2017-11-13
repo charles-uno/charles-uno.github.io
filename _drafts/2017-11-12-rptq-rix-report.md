@@ -7,7 +7,7 @@ description: "Next stop, Bilbao!"
 
 I'm going to [Bilbao, Spain](https://magic.wizards.com/en/articles/archive/organized-play/2018s-pro-tours-and-2017s-worlds-2017-07-19)!
 
-Below, I talk through my decklist and the matches I play. Honestly, the matches are not that interesting. Titan Breach is a slow, resilient combo deck, which means matchups matter a *lot*. If my opponent can go off before T4, I probably lose; otherwise, I probably win. There are plenty of ways to punt games -- for example, by not playing around [[Blood Moon]], especially with [[Summoner's Pact]] -- but, for the most part, games end with "then I played/[[Through the Breach:Breach]]ed a [[Primeval Titan:Titan]]."
+Below, I talk through my decklist and the matches.. but, honestly, the matches are not that interesting. Titan Breach is a slow, resilient combo deck. Matchups matter a *lot*. If my opponent can go off before T4, I probably lose; otherwise, I probably win. There are plenty of ways to punt games -- for example, by not playing around [[Blood Moon]], especially with [[Summoner's Pact]] -- but, for the most part, games end with "then I played/[[Through the Breach:Breach]]ed a [[Primeval Titan:Titan]]."
 
 ### Decklist
 
@@ -62,63 +62,45 @@ The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis
 [^1]: Matthias *hates* losing to Affinity.
 
 - [[Ancient Grudge]] is among the most efficient hate cards ever printed, and [MTGGoldfish](mtggoldfish.com/metagame/modern#paper) thinks Affinity is the most prevalent deck right now.
-- [[Gaea's Revenge]] is an obligatory one-of in any deck with [[Summoner's Pact]]. It clobbers any deck with [[Cryptic Command]]. It also comes in against Shadow and Eldrazi Tron -- [[Anger of the Gods:Anger]] is pretty bad in those matchups, and I need to bring *something* in!
+- [[Gaea's Revenge]] is an obligatory one-of in any deck with [[Summoner's Pact]]. It clobbers any deck with [[Cryptic Command]]. It's also passable against Eldrazi Tron, Shadow, and other decks that don't care about [[Anger of the Gods:Anger]].
 - [[Grafdigger's Cage]] shuts down [[Collected Company:Company]]/[[Chord of Calling:Chord]] decks. It's also part of the backup plan in case I fail to dodge Storm -- that matchup is *awful*.
-- [[Grim Lavamancer]] made it into the sideboard to deal with Humans, another rough matchup. I haven't had a chance to do much testing with it. There's a decent chance it's just bad.
-- [[Obstinate Baloth]] shuts down Burn and trades with [[Thought-Knot Seer]]. Once in a while you can even [[Summoner's Pact:Pact]] for it in response to [[Liliana of the Veil]].
+- [[Grim Lavamancer]] made it into the sideboard to deal with Humans, another rough matchup. I haven't had a chance to do much testing with it. There's a decent chance it's bad.
+- [[Obstinate Baloth]] shuts down Burn and trades with [[Thought-Knot Seer]]. Once in a while you can even [[Summoner's Pact:Pact]] for it in response to [[Liliana of the Veil]]!
 - [[Reclamation Sage]] is the other [[Summoner's Pact:Pact]]-able one-of. It's meant for [[Blood Moon]]. It's also fine against Affinity.
-
-
-
-
-
-
-is all about matchups. If my opponent kills me before turn 4, I probably lose. If not, I probably win.
-
-
-
-
-
-
-
-Can't really claim these matches are interesting. The performance of Titan Breach depends largely on its matchups. I have 6 "flex slots" in my deck, and I went all-in based on my guess of the metagame. It paid off.
-
-
-
 
 ### Round 1: Win 2-1 vs Affinity
 
-Game 1: Gabriel wins the roll and dumps six cards onto the board on his first turn. One of them may have been a [[Steel Overseer]]. I lost before taking my third turn.
+**Game 1:** Gabriel wins the roll and dumps six cards onto the board on his first turn. One of them may have been a [[Steel Overseer]]. I lost before taking my third turn.
 
-Game 2: He dumps his hand onto the board again -- maybe he's playing extra [[Memnite]]s? I chain T2 [[Explore]] into T3 [[Anger of the Gods:Anger]] into T4 [[Simian Spirit Guide:Guide]]-[[Primeval Titan:Titan]]. He has [[Dispatch]], but then I play another [[Primeval Titan:Titan]] on T5 to seal the deal.
+**Game 2:** He dumps his hand onto the board again -- maybe he's playing extra [[Memnite]]s? I chain T2 [[Explore]] into T3 [[Anger of the Gods:Anger]] into T4 [[Simian Spirit Guide:Guide]]-[[Primeval Titan:Titan]]. He has [[Dispatch]], but then I play another [[Primeval Titan:Titan]] on T5 to seal the deal.
 
-Game 3: My notes just say, "T1 [[Search for Tomorrow:Search]], T2 [[Ancient Grudge:Grudge]], T3 [[Anger of the Gods:Anger]], T4 [[Through the Breach:Breach]]."
+**Game 3:** My notes just say, "T1 [[Search for Tomorrow:Search]], T2 [[Ancient Grudge:Grudge]], T3 [[Anger of the Gods:Anger]], T4 [[Through the Breach:Breach]]."
 
 ### Round 2: Loss 0-2 vs BW Eldrazi
 
-Game 1: Derek wins the die roll. He plays T2 [[Collective Brutality]] to take my [[Explore]], then T3 [[Thought-Knot Seer:TKS]] into T4 [[Thought-Knot Seer:TKS]]. All I land is a [[Relic of Progenitus]]. I fail to cycle the [[Relic of Progenitus:Relic]], which costs me the game; on my last turn, I have 5 lands, a [[Through the Breach:Breach]] in hand, and a [[Primeval Titan:Titan]] on top of my deck.
+**Game 1:** Derek wins the die roll. He plays T2 [[Collective Brutality]] to take my [[Explore]], then T3 [[Thought-Knot Seer:TKS]] into T4 [[Thought-Knot Seer:TKS]]. All I land is a [[Relic of Progenitus]]. I fail to cycle the [[Relic of Progenitus:Relic]], which costs me the game; on my last turn, I have 5 lands, a [[Through the Breach:Breach]] in hand, and a [[Primeval Titan:Titan]] on top of my deck.
 
-Game 2: This game looks about the same. He strips my hand with double [[Thought-Knot Seer:TKS]], then plays [[Liliana of the Veil]]. I discard my topdecked [[Obstinate Baloth:Baloth]] to [[Liliana of the Veil:Liliana]], which buys me a turn, but he finds [[Reality Smasher:Smasher]] before I find another [[Primeval Titan:Titan]]
+**Game 2:** This game looks about the same. He strips my hand with double [[Thought-Knot Seer:TKS]], then plays [[Liliana of the Veil]]. I discard my topdecked [[Obstinate Baloth:Baloth]] to [[Liliana of the Veil:Liliana]], which buys me a turn, but he finds [[Reality Smasher:Smasher]] before I find another [[Primeval Titan:Titan]]
 
 ### Round 3: Win 2-0 vs Affinity
 
-Game 1: I win the roll. Nick's start is pretty explosive, but I have [[Anger of the Gods:Anger]] on T3 and another [[Anger of the Gods:Anger]] on T4. He's out of cards. Eventually I find a [[Primeval Titan:Titan]].
+**Game 1:** I win the roll. Nick's start is pretty explosive, but I have [[Anger of the Gods:Anger]] on T3 and another [[Anger of the Gods:Anger]] on T4. He's out of cards. Eventually I find a [[Primeval Titan:Titan]].
 
-Game 2: This one is a nail-biter! He knocks me to 1 early on, then I [[Ancient Grudge:Grudge]] his [[Cranial Plating:Plating]] and clear his board with [[Anger of the Gods:Anger]]. I leave an untapped green for the rest of the game, preventing him from activating [[Blinkmoth Nexus:Blinky]]. I resolve a [[Primeval Titan:Titan]], which he answers. I buy a few turns by shooting a [[Vault Skirge]] with my [[Sakura-Tribe Elder:STE]]. In the meantime, he uses [[Inkmoth Nexus:Inky]] to deal me 9 poison. I draw multiple [[Wooded Foothills:fetches]], which I can't crack. On the last possible turn, I find [[Summoner's Pact:Pact]] for [[Primeval Titan:Titan]], which finishes him off.
+**Game 2:** This one is a nail-biter! He knocks me to 1 early on, then I [[Ancient Grudge:Grudge]] his [[Cranial Plating:Plating]] and clear his board with [[Anger of the Gods:Anger]]. I leave an untapped green for the rest of the game, preventing him from activating [[Blinkmoth Nexus:Blinky]]. I resolve a [[Primeval Titan:Titan]], which he answers. I buy a few turns by shooting a [[Vault Skirge]] with my [[Sakura-Tribe Elder:STE]]. In the meantime, he uses [[Inkmoth Nexus:Inky]] to deal me 9 poison. I draw multiple [[Wooded Foothills:fetches]], which I can't crack. On the last possible turn, I find [[Summoner's Pact:Pact]] for [[Primeval Titan:Titan]], which finishes him off.
 
 ### Round 4: Win 2-0 vs Burn
 
-Game 1: Zach wins the roll, fetches down to 17, and plays a [[Goblin Guide]]. He follows it up with a [[Shrine of Burning Rage]] (pretty bad in this matchup). With the help of his [[Goblin Guide:Guide]], which finds me 3 lands, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T4.
+**Game 1:** Zach wins the roll, fetches down to 17, and plays a [[Goblin Guide]]. He follows it up with a [[Shrine of Burning Rage]] (pretty bad in this matchup). With the help of his [[Goblin Guide:Guide]], which finds me 3 lands, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T4.
 
-Game 2: He has no one-drop, but goes T2 [[Lightning Helix:Helix]] into T3 [[Lightning Helix:Helix]]. It feels like he's conspicuously leaving up [[Atarka's Command]], so I don't bother with [[Obstinate Baloth]]. I [[Through the Breach:Breach]] a [[Primeval Titan]], but he has [[Path to Exile:Path]]. Next turn, I do it again, and he has another [[Path to Exile:Path]]. I [[Simian Spirit Guide:Guide]] into [[Explore]]; I find a land on top for exactly lethal.
+**Game 2:** He has no one-drop, but goes T2 [[Lightning Helix:Helix]] into T3 [[Lightning Helix:Helix]]. It feels like he's conspicuously leaving up [[Atarka's Command]], so I don't bother with [[Obstinate Baloth]]. I [[Through the Breach:Breach]] a [[Primeval Titan]], but he has [[Path to Exile:Path]]. Next turn, I do it again, and he has another [[Path to Exile:Path]]. I [[Simian Spirit Guide:Guide]] into [[Explore]]; I find a land on top for exactly lethal.
 
 ### Round 5: Win 2-1 vs Ponza
 
-Game 1: I win the roll and suspend [[Search for Tomorrow:Search]]. Andrew plays [[Arbor Elf]]. On his second turn, he plays [[Utopia Sprawl]] into [[Madcap Experiment]] into [[Platinum Emperion]]. I answer with [[Simian Spirit Guide:Guide]] into [[Through the Breach:Breach]], blowing up his [[Platinum Emperion:Emperion]] and [[Arbor Elf:Elf]]. He doesn't have [[Blood Moon]], so I coast from there.
+**Game 1:** I win the roll and suspend [[Search for Tomorrow:Search]]. Andrew plays [[Arbor Elf]]. On his second turn, he plays [[Utopia Sprawl]] into [[Madcap Experiment]] into [[Platinum Emperion]]. I answer with [[Simian Spirit Guide:Guide]] into [[Through the Breach:Breach]], blowing up his [[Platinum Emperion:Emperion]] and [[Arbor Elf:Elf]]. He doesn't have [[Blood Moon]], so I coast from there.
 
-Game 2: He plays T2 [[Blood Moon]], then blows up my basic [[Forest]] on T3. I had [[Reclamation Sage:Sage]] in hand, but never got to 3 lands.
+**Game 2:** He plays T2 [[Blood Moon]], then blows up my basic [[Forest]] on T3. I have [[Reclamation Sage:Sage]] in hand, but never get to 3 lands.
 
-Game 3: I deliberate for a while about my sideboard choices. Does it make sense to bring in [[Ancient Grudge:Grudge]] or [[Grafdigger's Cage]] against [[Madcap Experiment]]? I think I decided to leave them out, since [[Platinum Emperion:Emperion]] isn't all that scary. It ended up not mattering. He mulled to 4 cards, and I resolved a [[Ruric Thar, the Unbowed:Ruric Thar]].
+**Game 3:** I deliberate for a while about my sideboard choices. Does it make sense to bring in [[Ancient Grudge:Grudge]] or [[Grafdigger's Cage]] against [[Madcap Experiment]]? I think I decide to leave them out, since [[Platinum Emperion:Emperion]] isn't all that scary. It doesn't matter in the end. He mulls to 4 cards, and I resolve a [[Ruric Thar, the Unbowed:Ruric Thar]].
 
 ### Round 6: Intentional Draw vs Storm
 
@@ -132,6 +114,6 @@ Luckily, the table down from us finished quickly; the guy in 9th lost his pair-d
 
 ### Top 8: Win 2-0 vs Affinity
 
-Game 1: Blake (1st seed) chose to play first. By T3, I'm at 15, and his side of the table is [[Inkmoth Nexus:Inky]], [[Blinkmoth Nexus:Blinky]], [[Springleaf Drum:Drum]], [[Ornithopter]], [[Vault Skirge]], [[Steel Overseer:Overseer]], and [[Arcbound Ravager:Ravager]]. Everything (including both lands) has an extra +1/+1 counter from [[Steel Overseer:Overseer]]. On my turn, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I misplay my [[Valakut, the Molten Pinnacle:Valakut]] triggers, allowing him to eat his board and keep a 7/7 [[Arcbound Ravager:Ravager]]. If he had drawn a 0-cost artifact on his next turn, he would have won. But he didn't. He puts the counters on [[Inkmoth Nexus:Inky]] and hits me for 9 poison. Then I untap and play another [[Primeval Titan:Titan]].
+**Game 1:** Blake (1st seed) chose to play first. By T3, I'm at 15, and his side of the table is [[Inkmoth Nexus:Inky]], [[Blinkmoth Nexus:Blinky]], [[Springleaf Drum:Drum]], [[Ornithopter]], [[Vault Skirge]], [[Steel Overseer:Overseer]], and [[Arcbound Ravager:Ravager]]. Everything (including both lands) has an extra +1/+1 counter from [[Steel Overseer:Overseer]]. On my turn, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I misplay my [[Valakut, the Molten Pinnacle:Valakut]] triggers, allowing him to eat his board and keep a 7/7 [[Arcbound Ravager:Ravager]]. If he had drawn a 0-cost artifact on his next turn, he would have won. But he didn't. He puts the counters on [[Inkmoth Nexus:Inky]] and hits me for 9 poison. Then I untap and play another [[Primeval Titan:Titan]].
 
-Game 2: He kept a weak hand with [[Blood Moon]]. He stumbles on lands, so I [[Ancient Grudge:Grudge]] his [[Mox Opal:Mox]]. On T4, I play [[Summoner's Pact:Pact]] then [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I failed to play around [[Blood Moon]] -- I should have grabbed a second basic [[Forest]] -- but luckily for me he doesn't draw a red source. So the [[Blood Moon]] remains in his hand and I [[Breach]] another [[Primeval Titan:Titan]] on the next turn.
+**Game 2:** He kept a weak hand with [[Blood Moon]]. He stumbles on lands, so I [[Ancient Grudge:Grudge]] his [[Mox Opal:Mox]]. On T4, I play [[Summoner's Pact:Pact]] then [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I failed to play around [[Blood Moon]] -- I should have grabbed a second basic [[Forest]] -- but luckily for me he doesn't draw a red source. So the [[Blood Moon]] remains in his hand and I [[Breach]] another [[Primeval Titan:Titan]] on the next turn.
