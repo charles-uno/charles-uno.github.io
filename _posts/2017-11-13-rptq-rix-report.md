@@ -122,11 +122,11 @@ Luckily, the table down from us finished quickly; the guy in 9th lost his pair-d
 
 ---
 
-There were 52 people at the tournament, so there was just one single-elimination round in the top 8. It shook out as follows:
+There were 52 people at the tournament, so there was just one single-elimination round in the top 8. The four invitations shook out as follows:
 
 - (8) Titan Breach beat (1) Affinity
 - (7) Storm beat (2) Eldrazi Tron
 - (3) Dredge beat (6) UR Breach
 - (5) Storm beat (4) BW Eldrazi
 
-All in all, a pretty bad day for the "fair" decks. Not sure what this says about the Modern format, if anything. I guess we'll find out in Spain!
+All in all, a pretty bad day for "fair" decks. Not sure what this says about the Modern format. I guess we'll find out in Spain!
