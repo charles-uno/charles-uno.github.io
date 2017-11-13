@@ -118,4 +118,15 @@ Luckily, the table down from us finished quickly; the guy in 9th lost his pair-d
 
 **Game 1:** Blake (1st seed) chose to play first. By T3, I'm at 15, and his side of the table is [[Inkmoth Nexus:Inky]], [[Blinkmoth Nexus:Blinky]], [[Springleaf Drum:Drum]], [[Ornithopter]], [[Vault Skirge]], [[Steel Overseer:Overseer]], and [[Arcbound Ravager:Ravager]]. Everything (including both lands) has an extra +1/+1 counter from [[Steel Overseer:Overseer]]. On my turn, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I misplay my [[Valakut, the Molten Pinnacle:Valakut]] triggers, allowing him to eat his board and keep a 7/7 [[Arcbound Ravager:Ravager]]. If he had drawn a 0-cost artifact on his next turn, he would have won. But he didn't. He puts the counters on [[Inkmoth Nexus:Inky]] and hits me for 9 poison. Then I untap and play another [[Primeval Titan:Titan]].
 
-**Game 2:** He kept a weak hand with [[Blood Moon]]. He stumbles on lands, so I [[Ancient Grudge:Grudge]] his [[Mox Opal:Mox]]. On T4, I play [[Summoner's Pact:Pact]] then [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I failed to play around [[Blood Moon]] -- I should have grabbed a second basic [[Forest]] -- but luckily for me he doesn't draw a red source. So the [[Blood Moon]] remains in his hand and I [[Breach]] another [[Primeval Titan:Titan]] on the next turn.
+**Game 2:** He keeps a weak hand with [[Blood Moon]]. He stumbles on lands, so I [[Ancient Grudge:Grudge]] his [[Mox Opal:Mox]]. On T4, I play [[Summoner's Pact:Pact]] then [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I failed to play around [[Blood Moon]] -- I should have grabbed a second basic [[Forest]] -- but luckily for me he doesn't draw a red source. So the [[Blood Moon]] remains in his hand and I [[Breach]] another [[Primeval Titan:Titan]] on the next turn.
+
+---
+
+There were 52 people at the tournament, so there was just one single-elimination round in the top 8. It shook out as follows:
+
+- (8) Titan Breach beat (1) Affinity
+- (7) Storm beat (2) Eldrazi Tron
+- (3) Dredge beat (6) UR Breach
+- (5) Storm beat (4) BW Eldrazi
+
+All in all, a pretty bad day for the "fair" decks. Not sure what this says about the Modern format, if anything. I guess we'll find out in Spain!
