@@ -62,7 +62,7 @@ The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis
 [^1]: Matthias *hates* losing to Affinity.
 
 - [[Ancient Grudge]] is among the most efficient hate cards in Modern, and [MTGGoldfish](mtggoldfish.com/metagame/modern#paper) thinks Affinity is the most prevalent deck right now.
-- [[Gaea's Revenge]] is an obligatory one-of in any deck with [[Summoner's Pact]]. It clobbers any deck with [[Cryptic Command]]. It's also passable against Eldrazi Tron, Shadow, and other decks that don't care about [[Anger of the Gods:Anger]].
+- [[Gaea's Revenge]] is an obligatory one-of with [[Summoner's Pact]]. It clobbers any deck with [[Cryptic Command]]. It's also passable against Eldrazi Tron, Shadow, and other decks that don't care about [[Anger of the Gods:Anger]].
 - [[Grafdigger's Cage]] shuts down [[Collected Company:Company]]/[[Chord of Calling:Chord]] decks. It's also part of the backup plan in case I fail to dodge Storm -- that matchup is *awful*.
 - [[Grim Lavamancer]] made it into the sideboard to deal with Humans, another rough matchup. I haven't had a chance to do much testing with it. There's a decent chance it's bad.
 - [[Obstinate Baloth]] clobbers Burn and trades with [[Thought-Knot Seer]]. Once in a while you can even [[Summoner's Pact:Pact]] for it in response to [[Liliana of the Veil]]!
