@@ -8,12 +8,12 @@ keywords: lunch, vegetables, side
 
 
 
-1. 250mL (1c) chopped bacon
-1. 1L (4c) halved brussels sprouts
-1. 1L (4c) cooked brown rice
-1. 100mL (½c) sliced or slivered almonds
-1. 100mL (½c) dried cranberries
-1. black pepper
+- 250mL (1c) chopped bacon
+- 1L (4c) halved brussels sprouts
+- 1L (4c) cooked brown rice
+- 100mL (½c) sliced or slivered almonds
+- 100mL (½c) dried cranberries
+- black pepper
 
 Cook the bacon in a large skillet, low and slow, to render out as much grease as possible. Once the bacon is cooked, remove it from the pan. Leave the grease. 
 
