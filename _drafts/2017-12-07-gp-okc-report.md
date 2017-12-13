@@ -8,66 +8,34 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, desp
 
 I hadn't planned to attend last weekend's GP in Oklahoma City. But, two days before the event, flights got cheap, so I decided to go for it. 
 
-My results were lackluster. I ended up 4-4, despite the fact that the metagame was evidently[^1] friendly. This was frustrating, but not entirely surprising. 
+My results were lackluster. I ended up 4-4, despite the fact that the metagame was evidently[^1] friendly. This was frustrating, but not entirely surprising. I'm still relatively new to Modern. My exposure to the big decks is pretty good, but when I run into something unusual, I don't know what to play around. On top of that, I ran an experimental build. It's something I've been playing with for the past few weeks, and I think it's got potential, but it needs more tuning. 
 
-[^1]: The top 8 included two Valakut decks and three Tron decks (which have similar matchups). 
-
-I'm still relatively new to Modern. My exposure to the big decks is pretty good, but when I run into something unusual, I don't know what to play around. 
-
-On top of that, I ran an experimental build. It's something I've been playing with for the past few weeks, and I think it's got potential, but it needs more tuning. 
+[^1]: The top 8 included two Valakut decks. There were also three Tron decks, which have similar matchups. 
 
 ### Decklist
 
-In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affected our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. 
+In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affected our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. Playing three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] doesn't win. In fact, unless we have another [[Primeval Titan:Titan]], it doesn't even set up a win on the next turn!
 
-Four lands[^2] into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] gives four [[Valakut, the Molten Pinnacle:Valakut]] triggers. Three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] gives at most two; if getting a second [[Valakut, the Molten Pinnacle:Valakut]] on the table is more valuable than the immediate damage, it gives none. 
+[[Blighted Woodland]][^2] solves that issue by essentially letting the first Titan search up the second. If we start the turn with 3 [[Mountain]]s, we end the turn with 4 [[Mountain]]s, 2 [[Valakut, the Molten Pinnacle:Valakut]]s, and a [[Blighted Woodland]]. That's four triggers as soon as we untap, and another two if we make our T4 land drop. 
 
-[^2]: Not counting basic [[Forest]]s. This is why we only play two of them. 
+[^2]: I mentioned Blighted Woodland in my [RPTQ report](/rptq-rix-report/), but I hadn't yet realized how good it was.  
 
-[[Blighted Woodland]] turns that argument on its head[^3]. 
-
-It essentially lets a [[Primeval Titan:Titan]] trigger fetch three lands instead of two. 
-
-
-Fetching [[Blighted Woodland:Woodland]] instead of the fifth [[Mountain]] lets us represent four [[Valakut, the Molten Pinnacle:Valakut]] triggers on untap -- even if our opponent has discard, removal, and/or counterspells. 
+[[Desperate Ritual]] is great for speed, but terrible for resiliency. It can be stranded in my hand by discard effects. It's blanked by [[Thalia, Guardian of Thraben]]. When topdecking, it's a complete brick. 
 
 
 
 
 
-
-It means that we can have the benefit of [[Desperate Ritual:Ritual]]s (consistent T3 [[Primeval Titan:Titan]]s) without the risk. 
-
-[^3]: I mentioned [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/), but I hadn't yet realized its potential. 
-
-I registered a full set of [[Desperate Ritual]]s in OKC
+I registered 4 [[Desperate Ritual]] in OKC, which was perhaps overzealous. The card is great for speed, but terrible for resiliency. It can be stranded in my hand by discard effects. It's blanked by [[Thalia, Guardian of Thraben]]. When topdecking, it's a complete brick. 
 
 
 
 
 
 
-I mentioned Blighted Woodland in my RPTQ report, but I hadn't yet realized its potential. 
+---
 
-
-
-This is where [[Blighted Woodland]] comes in. I mentioned it in my RPTQ report, but 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
