@@ -18,6 +18,15 @@ On top of that, I ran an experimental build. It's something I've been playing wi
 
 ### Decklist
 
+In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how [[Oath of Nissa]] affected the speed and consistency of Titan Breach compared to extra lands, fast mana, and other cantrips. [[Desperate Ritual]] had a huge impact on the probability of  [[Primeval Titan]] on T3, but I dismissed it. 
+
+
+
+
+-- [[Desperate Ritual:Ritual]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]] doesn't win unless we have four lands in play. 
+
+
+
 
 
 
