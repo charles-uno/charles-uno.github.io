@@ -28,6 +28,49 @@ or
 
 The best draws need Search *and* Breach, and there's no good substitute for either. That leaves a lot of slack in our curve. This is why, for example, Oath of Nissa gives the deck such a boost -- it's essentially free. 
 
+
+
+
+
+<table class="cardlist-with-sideboard">
+    <caption class="deckname">Charles' Titan Breach</caption>
+    <tr>
+        <td>
+            4 [[Primeval Titan]]<br>
+            4 [[Sakura-Tribe Elder]]<br>
+            4 [[Simian Spirit Guide]]<br>
+        </td>
+        <td>
+            4 [[Desperate Ritual]]<br>
+            4 [[Explore]]<br>
+            2 [[Chalice of the Void]]<br>
+            4 [[Search for Tomorrow]]<br>
+            4 [[Summoner's Pact]]<br>
+            4 [[Through the Breach]]<br>
+        </td>
+        <td>
+            1 [[Blighted Woodland]]<br>
+            2 [[Forest]]<br>
+            7 [[Mountain]]<br>
+            4 [[Stomping Ground]]<br>
+            4 [[Valakut, the Molten Pinnacle:Valakut]]<br>
+            4 [[Windswept Heath]]<br>
+            4 [[Wooded Foothills]]<br>
+        </td>
+        <td>
+            4 [[Ancient Grudge]]<br>
+            3 [[Anger of the Gods]]<br>
+            2 [[Chalice of the Void]]<br>
+            1 [[Gaea's Revenge]]<br>
+            3 [[Hour of Promise]]<br>
+            1 [[Obstinate Baloth]]<br>
+            1 [[Reclamation Sage]]<br>
+        </td>
+    </tr>
+</table>
+
+
+
 # TODO -- run a few numbers. 
 
 4 Search
