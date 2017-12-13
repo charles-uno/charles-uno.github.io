@@ -14,7 +14,7 @@ My results were lackluster. I ended up 4-4, despite the fact that the metagame w
 
 ### Decklist
 
-In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affected our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. Playing three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] doesn't win. In fact, unless we have another [[Primeval Titan:Titan]], it doesn't even set up a win on the next turn!
+In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affect our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. Playing three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] doesn't win. In fact, unless we have another [[Primeval Titan:Titan]], it doesn't even set up a win on the next turn!
 
 [[Blighted Woodland]][^2] solves that issue by essentially letting the first Titan search up the second. If we start the turn with 3 [[Mountain]]s, we end the turn with 4 [[Mountain]]s, 2 [[Valakut, the Molten Pinnacle:Valakut]]s, and a [[Blighted Woodland]]. That's four triggers as soon as we untap, and another two if we make our T4 land drop. 
 
