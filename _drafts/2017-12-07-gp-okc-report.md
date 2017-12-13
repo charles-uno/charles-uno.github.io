@@ -10,40 +10,11 @@ I hadn't planned to attend last weekend's GP in Oklahoma City. But, two days bef
 
 My results were lackluster. I ended up 4-4, despite the fact that the metagame was evidently[^1] friendly. This was frustrating, but not entirely surprising. 
 
-
-
-I chose to run an experimental configuration that's treated me well recently, but needs more tuning. 
-
-
 [^1]: The top 8 included two Valakut decks and three Tron decks (which have similar matchups). 
 
+I'm still relatively new to Modern. My exposure to the big decks is pretty good, but when I run into something unusual, I don't know what to play around. 
 
-
-
-
-
-
-I ended up 4-4, missing the cut for day two. 
-
-
-More than anything else, I looked at the GP as practice for my upcoming Pro Tour in Bilbao. Modern is a fun format, and Spain is an exciting destination. A Standard PT in Virginia doesn't have nearly the same draw. 
-
-I didn't bring home any prizes (I went 4-4, missing day two), but GP OKC was 
-
-
-
-My results in OKC were... not great. I went 4-4, missing day two. And I can't even blame the metagame -- the tournament finalists were *both* playing [[Valakut, the Molten Pinnacle:Valakut]]. 
-
-
-
-But I still think I came out ahead. I saw some new decks. 
-
-
-
-
-
-OKC was a learning experience. 
-
+On top of that, I ran an experimental build. It's something I've been playing with for the past few weeks, and I think it's got potential, but it needs more tuning. 
 
 ### Decklist
 
