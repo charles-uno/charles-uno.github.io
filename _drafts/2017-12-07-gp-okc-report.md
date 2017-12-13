@@ -1,10 +1,17 @@
 ---
 layout: post
-title: "The Rule of Eight"
+title: "GP OKC Tournament Report"
 image: "/assets/images/placeholder-06-thumb.png"
 description: ""
 keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, desperate ritual, GPOKC
 ---
+
+
+
+
+
+
+
 
 Rule of eight. With four copies of a card, you can't count on drawing one naturally. About 50-50 to have a copy in your top 10 cards. But with eight copies, you're 65% to see at least one copy in your opening seven, and almost 80% to see one in the top ten. 
 
