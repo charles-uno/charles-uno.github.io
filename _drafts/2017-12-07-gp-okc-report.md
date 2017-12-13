@@ -18,12 +18,45 @@ On top of that, I ran an experimental build. It's something I've been playing wi
 
 ### Decklist
 
-In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how [[Oath of Nissa]] affected the speed and consistency of Titan Breach compared to extra lands, fast mana, and other cantrips. [[Desperate Ritual]] had a huge impact on the probability of  [[Primeval Titan]] on T3, but I dismissed it. 
+In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affected our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. 
+
+Four lands[^2] into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] gives four [[Valakut, the Molten Pinnacle:Valakut]] triggers. Three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] gives at most two; if getting a second [[Valakut, the Molten Pinnacle:Valakut]] on the table is more valuable than the immediate damage, it gives none. 
+
+[^2]: Not counting basic [[Forest]]s. This is why we only play two of them. 
+
+[[Blighted Woodland]] turns that argument on its head[^3]. 
+
+It essentially lets a [[Primeval Titan:Titan]] trigger fetch three lands instead of two. 
+
+
+Fetching [[Blighted Woodland:Woodland]] instead of the fifth [[Mountain]] lets us represent four [[Valakut, the Molten Pinnacle:Valakut]] triggers on untap -- even if our opponent has discard, removal, and/or counterspells. 
 
 
 
 
--- [[Desperate Ritual:Ritual]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]] doesn't win unless we have four lands in play. 
+
+
+It means that we can have the benefit of [[Desperate Ritual:Ritual]]s (consistent T3 [[Primeval Titan:Titan]]s) without the risk. 
+
+[^3]: I mentioned [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/), but I hadn't yet realized its potential. 
+
+I registered a full set of [[Desperate Ritual]]s in OKC
+
+
+
+
+
+
+I mentioned Blighted Woodland in my RPTQ report, but I hadn't yet realized its potential. 
+
+
+
+This is where [[Blighted Woodland]] comes in. I mentioned it in my RPTQ report, but 
+
+
+
+
+
 
 
 
