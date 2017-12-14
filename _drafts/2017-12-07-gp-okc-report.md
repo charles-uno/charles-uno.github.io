@@ -104,7 +104,7 @@ At this point, I realize that my Round 1 loss has dropped me into the bracket of
 
 **Game 2:** This time, he plays T1 [[Expedition Map:Map]] into T3 [[Karn Liberated:Karn]]. He eats one of my lands, but I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] at him anyway. I win.
 
-**Game 3:** Nick has another T3 [[World Breaker]] on the play, blowing up my only green source. On his T4, he knocks me to 14, then plays [[Thragtusk]] (taking a damage from his [[Llanowar Wastes]] to do so). My board is 3 [[Mountain]]s and a [[Blighted Woodland]]. I cast [[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], knocking him to 18 and fetching 3 [[Valakut, the Molten Pinnacle:Valakut]]s and a [[Stomping Ground]]If he lets me untap, I have a win on the table... but he doesn't. His swing knocks me to 4, then he plays [[Walking Ballista]] for exactly lethal.
+**Game 3:** Nick has another T3 [[World Breaker]] on the play, blowing up my only green source. On his T4, he knocks me to 14, then plays [[Thragtusk]] (taking a damage from his [[Llanowar Wastes]] to do so). My board is 3 [[Mountain]]s and a [[Blighted Woodland]]. I cast [[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]], knocking him to 18 and fetching 3 [[Valakut, the Molten Pinnacle:Valakut]]s and a [[Stomping Ground]]. If he lets me untap, I have a win on the table... but he doesn't. His swing knocks me to 4, then he plays [[Walking Ballista]] for exactly lethal.
 
 ### Round 6: Loss 1-2 vs Burn
 
@@ -128,8 +128,19 @@ Devin forgot to drop, I guess.
 
 ### Round 9: Win 2-1 vs Five-Color Shadow
 
-**Game 1:** I win the roll and suspend [[Search for Tomorrow:Search]]. Jason plays T1 [[Mishra's Bauble:Bauble]]-[[Thoughtseize]] into T2 [[Mishra's Bauble:Bauble]]-[[Inquisition of Kozilek:IOK]]. On T3, when my opponent plays another [[Inquisition of Kozilek:Inquisition]], I realize I've made a mistake: I only have one green source on the table, so I can't [[Summoner's Pact:Pact]] in response. He then plays some [[Tarmogoyf]]s and [[Death's Shadow:Shadow]]s to finish me off.
+**Game 1:** I win the roll and suspend [[Search for Tomorrow:Search]]. Jason plays T1 [[Mishra's Bauble:Bauble]]-[[Thoughtseize]] into T2 [[Mishra's Bauble:Bauble]]-[[Inquisition of Kozilek:IOK]]. On T3, when my opponent plays another [[Inquisition of Kozilek:IOK]], I realize I've made a mistake: I only have one green source on the table, so I can't [[Summoner's Pact:Pact]] in response. He then plays some [[Tarmogoyf]]s and [[Death's Shadow:Shadow]]s to finish me off.
 
 **Game 2:** I mulligan to five, and get hit right away with [[Inquisition of Kozilek:IOK]], but after that my opponent seems to have a hand full of [[Death's Shadow:Shadow]]s and no way to drop himself below 13 life. By the time he finds a fetch land, I've lined up five [[Mountain]]s and a pair of [[Valakut, the Molten Pinnacle]]s.
 
 **Game 3:** He counters my first haymaker with [[Disdainful Stroke]]. I hard-cast [[Primeval Titan:Titan]], which finds a pair of [[Valakut, the Molten Pinnacle:Valakut]]s before he kills it. He's got lethal on the board and blue mana open. But he can't counter [[Blighted Woodland]]!
+
+---
+
+My loss to Tron was bad luck. I drew well, and I played well, but he was just too fast. It's unlikely that a different build would have done better; I'm maindecking [[Desperate Ritual:Ritual]]s and [[Chalice of the Void:Chalice]]s (which are decent against Tron) over [[Lightning Bolt:Bolt]], [[Anger of the Gods:Anger]], and/or [[Relic of Progenitus:Relic]] (which are bad against Tron). 
+
+My other losses were punts. I was too eager to go all-in. I walked into counterspells that I could have afforded to respect. 
+
+The good news is that I'm learning. Reflecting on my misplays helps me improve. I'll be a stronger player in Spain than I was in OKC. The bad news is that my mistakes make it hard to assess my build. I'm confident that [[Blighted Woodland]] belongs in Titan Breach. As for [[Desperate Ritual]]... I guess I have 7 weeks to figure it out! 
+
+
+
