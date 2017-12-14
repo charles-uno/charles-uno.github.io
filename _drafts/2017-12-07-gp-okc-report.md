@@ -16,17 +16,50 @@ My results were lackluster. I ended up 4-4, despite the fact that the metagame w
 
 In my [first post](/modern-primeval-titan-simulation/), I used numerical modeling to look at how extra lands, cantrips, and fast mana affect our chances of making [[Primeval Titan:Titan]] on T3. [[Desperate Ritual]] had a huge effect, but I dismissed it. Playing three lands into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] doesn't win. In fact, unless we have another [[Primeval Titan:Titan]], it doesn't even set up a win on the next turn!
 
-[[Blighted Woodland]][^2] solves that issue by essentially letting the first Titan search up the second. If we start the turn with 3 [[Mountain]]s, we end the turn with 4 [[Mountain]]s, 2 [[Valakut, the Molten Pinnacle:Valakut]]s, and a [[Blighted Woodland]]. That's four triggers as soon as we untap, and another two if we make our T4 land drop. 
+It turns out, I was missing a piece of the puzzle: [[Blighted Woodland]][^2]. If we cast [[Through the Breach:Breach]] off three lands, we get to end the turn with 4 [[Mountain]]s, 2 [[Valakut, the Molten Pinnacle:Valakut]]s, and a [[Blighted Woodland:Woodland]]. That's four [[Valakut, the Molten Pinnacle:Valakut]] triggers as soon as we untap, and another two if we make our next land drop. 
 
-[^2]: I mentioned Blighted Woodland in my [RPTQ report](/rptq-rix-report/), but I hadn't yet realized how good it was.  
-
-[[Desperate Ritual]] is great for speed, but terrible for resiliency. It can be stranded in my hand by discard effects. It's blanked by [[Thalia, Guardian of Thraben]]. When topdecking, it's a complete brick. 
+I tested 4 [[Desperate Ritual]]s in the maindeck for a few weeks, and the increased velocity was obvious; I goldfished T3 [[Primeval Titan:Titan]]s more often than not. The downsides were harder to quantify. [[Desperate Ritual:Ritual]]s can be stranded by discard. They're blanks against [[Thalia, Guardian of Thraben:Thalia]]. They're bricks when topdecking. It's likely that there's a balance to be struck between speed and resiliency, but I didn't find it in time. Instead, I registered a glass cannon and crossed my fingers:
 
 
 
+<table class="cardlist-with-sideboard">
+    <caption class="deckname">Charles' Titan Breach</caption>
+    <tr>
+        <td>
+            4 [[Primeval Titan]]<br>
+            4 [[Sakura-Tribe Elder]]<br>
+            4 [[Simian Spirit Guide]]<br>
+        </td>
+        <td>
+            4 [[Desperate Ritual]]<br>
+            4 [[Explore]]<br>
+            2 [[Chalice of the Void]]<br>
+            4 [[Search for Tomorrow]]<br>
+            4 [[Summoner's Pact]]<br>
+            4 [[Through the Breach]]<br>
+        </td>
+        <td>
+            1 [[Blighted Woodland]]<br>
+            2 [[Forest]]<br>
+            7 [[Mountain]]<br>
+            4 [[Stomping Ground]]<br>
+            4 [[Valakut, the Molten Pinnacle:Valakut]]<br>
+            4 [[Windswept Heath]]<br>
+            4 [[Wooded Foothills]]<br>
+        </td>
+        <td>
+            4 [[Ancient Grudge]]<br>
+            3 [[Anger of the Gods]]<br>
+            2 [[Chalice of the Void]]<br>
+            1 [[Gaea's Revenge]]<br>
+            3 [[Hour of Promise]]<br>
+            1 [[Obstinate Baloth]]<br>
+            1 [[Reclamation Sage]]<br>
+        </td>
+    </tr>
+</table>
 
 
-I registered 4 [[Desperate Ritual]] in OKC, which was perhaps overzealous. The card is great for speed, but terrible for resiliency. It can be stranded in my hand by discard effects. It's blanked by [[Thalia, Guardian of Thraben]]. When topdecking, it's a complete brick. 
 
 
 
@@ -67,45 +100,6 @@ or
 The best draws need Search *and* Breach, and there's no good substitute for either. That leaves a lot of slack in our curve. This is why, for example, Oath of Nissa gives the deck such a boost -- it's essentially free. 
 
 
-
-
-
-<table class="cardlist-with-sideboard">
-    <caption class="deckname">Charles' Titan Breach</caption>
-    <tr>
-        <td>
-            4 [[Primeval Titan]]<br>
-            4 [[Sakura-Tribe Elder]]<br>
-            4 [[Simian Spirit Guide]]<br>
-        </td>
-        <td>
-            4 [[Desperate Ritual]]<br>
-            4 [[Explore]]<br>
-            2 [[Chalice of the Void]]<br>
-            4 [[Search for Tomorrow]]<br>
-            4 [[Summoner's Pact]]<br>
-            4 [[Through the Breach]]<br>
-        </td>
-        <td>
-            1 [[Blighted Woodland]]<br>
-            2 [[Forest]]<br>
-            7 [[Mountain]]<br>
-            4 [[Stomping Ground]]<br>
-            4 [[Valakut, the Molten Pinnacle:Valakut]]<br>
-            4 [[Windswept Heath]]<br>
-            4 [[Wooded Foothills]]<br>
-        </td>
-        <td>
-            4 [[Ancient Grudge]]<br>
-            3 [[Anger of the Gods]]<br>
-            2 [[Chalice of the Void]]<br>
-            1 [[Gaea's Revenge]]<br>
-            3 [[Hour of Promise]]<br>
-            1 [[Obstinate Baloth]]<br>
-            1 [[Reclamation Sage]]<br>
-        </td>
-    </tr>
-</table>
 
 
 
