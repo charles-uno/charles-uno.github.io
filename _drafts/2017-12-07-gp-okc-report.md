@@ -61,16 +61,9 @@ I tested 4 [[Desperate Ritual]]s in the maindeck for a few weeks, and the increa
 
 ### Round 1: Loss 0-2 vs Bant Eldrazi
 
-**Game 1:**
+**Game 1:** I win the roll and play T1 [[Search for Tomorrow:Search]] into T2 [[Sakura-Tribe Elder:STE]], but I don't find a [[Through the Breach:Breach]] or [[Desperate Ritual:Ritual]] in time to make T3 [[Primeval Titan:Titan]]. Jeff plays T3 [[Thought-Knot Seer:TKS]] to strip the [[Primeval Titan:Titan]] out of my hand, then follows it up with T4 [[Reality Smasher:Smasher]] into T5 [[Drowner of Hope:Drowner]] (shutting down my hope of ever attacking).
 
-T3 TKS
-T4 Smasher
-
-**Game 2:**
-
-Walk into a Negate
-next turn pay for Pact
-Breach again on T5, but at that point he has Displacer + Drowner
+**Game 2:** He plays T1 [[Noble Heirarch:Heirarch]] into T2 [[Noble Heirarch:Heirarch]]. I figure he's ramping into something big on T3 and -- like a dummy -- I try to race him by jamming main phase [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]]. He blows me out with [[Negate]]. I spend T4 paying for [[Summoner's Pact:Pact]]. I cast another [[Through the Breach:Breach]] on T5, but at that point it's too late; he's got [[Eldrazi Displacer:Displacer]], [[Drowner of Hope:Drowner]], and open mana.
 
 ### Round 2: Loss 1-2 vs Bogles
 
@@ -136,11 +129,8 @@ Devin forgot to drop, I guess.
 
 ---
 
-My loss to Tron was bad luck. I drew well, and I played well, but he was just too fast. It's unlikely that a different build would have done better; I'm maindecking [[Desperate Ritual:Ritual]]s and [[Chalice of the Void:Chalice]]s (which are decent against Tron) over [[Lightning Bolt:Bolt]], [[Anger of the Gods:Anger]], and/or [[Relic of Progenitus:Relic]] (which are bad against Tron). 
+My loss to Tron was bad luck. I drew well, and I played well, but he was just too fast. It's unlikely that a different build would have done better; I'm maindecking [[Desperate Ritual:Ritual]]s and [[Chalice of the Void:Chalice]]s (which are decent against Tron) over [[Lightning Bolt:Bolt]], [[Anger of the Gods:Anger]], and/or [[Relic of Progenitus:Relic]] (which are bad against Tron).
 
-My other losses were punts. I was too eager to go all-in. I walked into counterspells that I could have afforded to respect. 
+My other losses were punts. I was too eager to go all-in. I walked into counterspells that I could have afforded to respect.
 
-The good news is that I'm learning. Reflecting on my misplays helps me improve. I'll be a stronger player in Spain than I was in OKC. The bad news is that my mistakes make it hard to assess my build. I'm confident that [[Blighted Woodland]] belongs in Titan Breach. As for [[Desperate Ritual]]... I guess I have 7 weeks to figure it out! 
-
-
-
+The good news is that I'm learning. Reflecting on my misplays helps me improve. I'll be a stronger player in Spain than I was in OKC. The bad news is that my mistakes make it hard to assess my build. I'm confident that [[Blighted Woodland]] belongs in Titan Breach. As for [[Desperate Ritual]]... I guess I have 7 weeks to figure it out!
