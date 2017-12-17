@@ -18,7 +18,7 @@ In my [first post](/modern-primeval-titan-simulation/), I used numerical modelin
 
 Off four [[Mountain:Mountains]], we can fetch two [[Valakut, the Molten Pinnacle:Valakuts]] when [[Primeval Titan:Titan]] enters, then two more [[Mountain:Mountains]] on attack. That's four triggers immediately, and another two for every future land drop. But if we only start with three [[Mountain:Mountains]], we end up either down a [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or down a [[Mountain]] (no triggers right away).
 
-It turns out, I was missing a piece of the puzzle: [[Blighted Woodland]][^2]. If we cast [[Through the Breach:Breach]] off three lands, we get to end the turn with 4 [[Mountain]]s, 2 [[Valakut, the Molten Pinnacle:Valakut]]s, and a [[Blighted Woodland:Woodland]]. That's four triggers as soon as we untap, and two for each following land drop.
+It turns out, I was missing a piece of the puzzle: [[Blighted Woodland]][^2]. If we cast [[Through the Breach:Breach]] off three lands, we get to end the turn with 4 [[Mountain:Mountains]], 2 [[Valakut, the Molten Pinnacle:Valakuts]], and a [[Blighted Woodland:Woodland]]. That's four triggers as soon as we untap, and two for each following land drop.
 
 [^2]: I played [[Blighted Woodland]] at the RPTQ, and touched on it in my [report](/rptq-rix-report/), but hadn't yet realized its importance.
 
@@ -107,7 +107,7 @@ At this point, I realize that my Round 1 loss has dropped me into the bracket of
 
 **Game 1:** Derek wins the roll. I keep an awkward seven that includes [[Simian Spirit Guide:SSG]] and [[Chalice of the Void:Chalice]]. He opens on [[Goblin Guide]]. I (incorrectly) wait until T2, then go [[Simian Spirit Guide:SSG]]-[[Desperate Ritual:Ritual]]-[[Chalice of the Void:Chalice]]. He's upset by it, but I've given up too much tempo, and I lose.
 
-**Game 2:** I play a ramp spell, but then miss a land drop, so [[Obstinate Baloth:Baloth]] doesn't hit the table until T4. Luckily, Derek has over-boarded. After I fetch, he hits my [[Windswept Heath]] with [[Surgical Extraction]]. He then complains that his hand is full of [[Ancient Grudge]]s (for the [[Chalice of the Void:Chalice]]s, which I have boarded out). I find enough lands to play [[Primeval Titan:Titan]], and narrowly win the race.
+**Game 2:** I play a ramp spell, but then miss a land drop, so [[Obstinate Baloth:Baloth]] doesn't hit the table until T4. Luckily, Derek has over-boarded. After I fetch, he hits my [[Windswept Heath]] with [[Surgical Extraction]]. He then complains that his hand is full of [[Ancient Grudge:Grudges]] (for the [[Chalice of the Void:Chalices]], which I have boarded out). I find enough lands to play [[Primeval Titan:Titan]], and narrowly win the race.
 
 **Game 3:** My seven is terrible. My six is four lands and double-[[Explore]], which I strongly consider keeping. My five has two lands, [[Sakura-Tribe Elder:STE]], and [[Obstinate Baloth:Baloth]], which seems great! Unfortunately, I never draw another land. I curve T2 [[Sakura-Tribe Elder:STE]] into T3 [[Anger of the Gods:Anger]] into T4 [[Search for Tomorrow:Search]]. [[Obstinate Baloth:Baloth]] hits the table on T5, but at that point it's too late.
 
