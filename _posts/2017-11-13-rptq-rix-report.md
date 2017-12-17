@@ -3,6 +3,7 @@ layout: post
 title: RPTQ RIX Tournament Report
 image: "/assets/images/anger-of-the-gods-noah-bradley-thumb.png"
 description: "Next stop, Bilbao!"
+keywords: magic the gathering, modern, mtg, primeval titan, valakut, games
 ---
 
 I'm going to [Bilbao, Spain](https://magic.wizards.com/en/articles/archive/organized-play/2018s-pro-tours-and-2017s-worlds-2017-07-19) to play in Pro Tour: Rivals of Ixalan!
@@ -108,7 +109,7 @@ The sideboard is largely a holdover from Matthias'[^1] build. It has an emphasis
 
 Going into the final round of Swiss, I'm in 8th place with 12 points. I'm paired against Jason, one of my testing partners. However, we can't safely draw into the top 8. The guy in 9th also had 12 points; if he wins his match, he'll leapfrog us.
 
-Jason plays Storm, a terrible matchup for me. He wins the roll and takes the first game. Things are looking grim. 
+Jason plays Storm, a terrible matchup for me. He wins the roll and takes the first game. Things are looking grim.
 
 Luckily, the table down from us finishes quickly; the guy in 9th loses his pair-down to Infect. At that point, it's clear that Jason and I can intentionally draw into the top 8.
 
@@ -116,7 +117,7 @@ Luckily, the table down from us finishes quickly; the guy in 9th loses his pair-
 
 **Game 1:** Blake (1st seed) chooses to play first. By T3, I'm at 15, and his side of the table is [[Inkmoth Nexus:Inky]], [[Blinkmoth Nexus:Blinky]], [[Springleaf Drum:Drum]], [[Ornithopter]], [[Vault Skirge]], [[Steel Overseer:Overseer]], and [[Arcbound Ravager:Ravager]]. Everything (including both[^2] lands) has an extra +1/+1 counter from [[Steel Overseer:Overseer]]. On my turn, I [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I misplay my [[Valakut, the Molten Pinnacle:Valakut]] triggers, allowing him to eat his board and keep a 7/7 [[Arcbound Ravager:Ravager]]. If he draws a 0-cost artifact on his next turn, he wins. But he doesn't. He puts the counters on [[Inkmoth Nexus:Inky]] and hits me for 9 poison. Then I untap and play another [[Primeval Titan:Titan]].
 
-[^2]: If Blake had hit me with [[Inkmoth Nexus:Inky]] instead of putting a counter on [[Blinkmoth Nexus:Blinky]], my mis-allocation of [[Valakut, the Molten Pinnacle:Valakut]] triggers would have cost me the game. 
+[^2]: If Blake had hit me with [[Inkmoth Nexus:Inky]] instead of putting a counter on [[Blinkmoth Nexus:Blinky]], my mis-allocation of [[Valakut, the Molten Pinnacle:Valakut]] triggers would have cost me the game.
 
 **Game 2:** He keeps a weak hand with [[Blood Moon]]. He stumbles on lands, so I [[Ancient Grudge:Grudge]] his [[Mox Opal:Mox]]. On T4, I play [[Summoner's Pact:Pact]] then [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. I failed to play around [[Blood Moon]] -- I should have grabbed a second basic [[Forest]] -- but luckily for me he doesn't draw a red source. So the [[Blood Moon]] remains in his hand and I [[Breach]] another [[Primeval Titan:Titan]] on the next turn.
 

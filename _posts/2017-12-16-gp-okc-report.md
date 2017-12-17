@@ -2,7 +2,7 @@
 layout: post
 title: "GP OKC Tournament Report"
 image: "/assets/images/desperate-ritual-wayne-reynolds-thumb.png"
-description: ""
+description: "Taking an experimental Titan Breach list to OKC for a test drive."
 keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, desperate ritual, GPOKC
 ---
 
