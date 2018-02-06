@@ -32,7 +32,7 @@ This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-p
 
 A consistent concern I've had with Titan Breach is that eight copies of [[Primeval Titan]] (counting [[Summoner's Pact]]) isn't enough. The deck typically can't win without [[Primeval Titan:Titan]], and sometimes it takes more than one. For the PT, I decided to add another pair of haymakers: [[Woodfall Primus]] and [[Hornet Queen]]. 
 
-Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It can also blow up problematic enchantments like [[Blood Moon]] and [[Runed Halo]].
+Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW Control, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It can also blow up problematic enchantments like [[Blood Moon]] and [[Runed Halo]].
 
 [^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back. 
 
