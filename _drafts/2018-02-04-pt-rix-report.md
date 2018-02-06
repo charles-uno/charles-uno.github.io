@@ -34,21 +34,7 @@ Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts th
 
 A maindeck answer to [[Blood Moon]] gives me an excuse to play only a single basic [[Forest]], making room for a seventh [[Mountain]]. Drawing a [[Forest]] almost always feels awful, since it doesn't count for [[Valakut, the Molten Pinnacle:Valakut]], and running out of [[Mountain:Mountains]] is a very real concern when games go long (such as against blue-based control decks).
 
-There are four "flex" slots in the main deck. 
-
----
-
----
-
----
-
-I considered:
-
-- [[Anger of the Gods]]. Great against Affinity, Humans, Company, and Dredge. This is what I ran at the RPTQ. 
-- [[Chalice of the Void]]. Great against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. 
-- [[Thragtusk:Miscellaneous]] [[Gaea's Revenge:extra]] [[Tireless Tracker:threats]]. Good against blue midrange, black midrange, and anyone else trying to make the game go long. 
-
-The creatures come in most often, but ultimately I don't want to be playing a game of incremental value. I settle on [[Chalice of the Void:Chalice]]. It's a slam dunk against a handful of decks, and [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] on the play has the potential to kneecap just about anyone. 
+There are four "flex" slots in the main deck. At the RPTQ, I ran [[Anger of the Gods]] because I expected to see a lot of Affinity and Company. At the PT, I ran [[Chalice of the Void]] instead. [[Chalice of the Void:Chalice]] is a slam dunk against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. Plus, on the play, [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] has the potential to kneecap just about anyone. 
 
 <table class="cardlist-with-sideboard">
     <caption class="deckname">Charles' Titan Breach (PT RIX)</caption>
@@ -98,7 +84,7 @@ The rest is [[Summoner's Pact:Pactable]] role-players. [[Obstinate Baloth]] can 
 
 [^0]: The stock list of Lantern plays a single [[Maelstrom Pulse]] in the 75 as the only answer to a resolved [[Ruric Thar, the Unbowed:Ruric Thar]]. They can't just hold the spells in their hands, since that turns off their [[Ensnaring Bridge]].
 
-As an aside, I also did a bunch of testing with [[Leyline of Sanctity]], but came away unimpressed. The decks that care about it have plenty of answers post-board, and it's not relevant often enough to earn a spot in the main.
+As an aside, I also did a bunch of testing with [[Leyline of Sanctity]], but came away unimpressed. The decks that care about it have plenty of answers post-board, and it's irrelevant too often to earn a spot in the main.
 
 ![The Vizcaya Bridge](/assets/images/pt-rix-getxo-16x9.png)
 *The [Vizkaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge) in Getxo, the world's first transporter bridge. Note the hanging cable car which shuttles back and forth at street level.*
