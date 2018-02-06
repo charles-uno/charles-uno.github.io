@@ -86,9 +86,9 @@ The creatures come in most often, but ultimately I don't want to be playing a ga
     </tr>
 </table>
 
-The sideboard should look pretty familiar. I max out on [[Ancient Grudge]] because it's about the highest-impact card available to me. It's great against Lantern. And I *hate* losing to Affinity.
+The sideboard should look pretty familiar: a lot of cards that are *really* good to see in an opening hand. [[Ancient Grudge]] feels downright unfair against Affinity and Lantern. [[Anger of the Gods]] is pretty much my only hope to beat Humans, a deck that's been gaining popularity[^4]. 
 
-[[Anger of the Gods]] crushes Company, and is my only hope against Humans.
+[^4]: Humans was the most-played deck at the event, and [most Humans players made Day 2](https://magic.wizards.com/en/events/coverage/ptrix/day-two-metagame-breakdown-2018-02-03). Luckily, I was never paired against it. 
 
 The rest is [[Summoner's Pact:Pactable]] role-players. [[Obstinate Baloth]] can be fetched in response to a [[Liliana of the Veil:Liliana]] activation. [[Thragtusk]] is big enough to trade with [[Gurmag Angler]] and [[Reality Smasher]]. [[Tireless Tracker]] can out-grind just about anything. And then there's [[Ruric Thar, the Unbowed:Ruric Thar]]; he's a miscellaneous must-answer threat in a handful of different matchups, and Lantern scoops to him[^0].
 
