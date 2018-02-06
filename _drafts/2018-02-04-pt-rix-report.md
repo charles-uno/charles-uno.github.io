@@ -10,6 +10,10 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRI
 
 **SCRATCH**
 
+
+217 / 463
+
+
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda)*
 
@@ -22,7 +26,7 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRI
 
 ## Decklist
 
-For the Modern portion of PT RIX, I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn. 
+For the Modern portion of [PT RIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix), I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn. 
 
 This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-primeval-titan-simulation/) in September, as well as the [Regional Pro Tour Qualifier in November](/rptq-rix-report/), but I've made a few tweaks in the meantime. 
 
@@ -100,19 +104,25 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 ### Round 1: Loss 0-2 vs WB Vampires
 
-I'm matched up against Trent, who sat to my right during the draft. I'm not sure if his deck is better than mine, but he definitely draws better. Game 1 I stumble, and game 2 I flood, while he curves [[Radiant Destiny]] into [[Call to the Feast]].
+**Game 1:** I'm matched up against Trent, who sat to my right during the draft. I'm not sure if his deck is better than mine, but he definitely draws better. I stumble on lands while he curves [[Radiant Destiny]] into [[Call to the Feast]].
+
+**Game 2:** I draw a lot of lands and auras, but not enough creatures. Trent's [[Pious Interdiction]] on my double-enchanted [[Exultant Skymarcher]] is backbreaking. 
 
 0-1
 
-### Round 2: Win 2-0 vs URB Pirates
+### Round 2: Win 2-0 vs UBR Pirates
 
-My match against Kazuyuki also isn't very interesting. He plays a few [[Daring Buccaneer:Daring Buccaneers]] and [[Fathom Fleet Boarder:Fathom Fleet Boarders]], but then draws a bunch of lands in a row while I draw nothing but gas.
+**Game 1:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out. 
+
+**Game 2:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out. 
 
 1-1
 
 ### Round 3: Loss 0-2 vs UB Ascend
 
-Tyler and I both got to play these games, at least, but they aren't particularly close. He shuts down my board with [[Gleaming Barrier]] and [[Sailor of Means]], bounces my enchanted creatures, and works around my removal with [[Pirate's Cutlass]]. The games go long, since I chip away with lifelinkers, but my path to victory vanishes pretty quickly.
+**Game 1:** Tyler shuts down my board with [[Gleaming Barrier]] and [[Sailor of Means]], bounces my enchanted creatures, and works around my removal with [[Pirate's Cutlass]]. The games go long, since I chip away with lifelinkers, but my path to victory vanishes pretty quickly.
+
+**Game 2:** This game goes about the same. 
 
 > This match is a rude awakening for me. In my grinding online (about twenty drafts) the best decks I saw were always about tribal interactions. I was completely unprepared for Ascend. 
 
@@ -134,7 +144,7 @@ Tyler and I both got to play these games, at least, but they aren't particularly
 
 **Game 1:** Zhijan wins the roll and plays T3 [[Thought-Knot Seer:TKS]], but my topdeck lets me [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 anyway.
 
-**Game 2:** He plays [[Chalice of the Void:Chalice]] on zero to shut down my [[Summoner's Pact:Pacts]], then another T3 [[Thought-Knot Seer:TKS]], backed up by [[Basilisk Collar:Collar]]-[[Endbringer]]. I get [[Gaea's Revenge]] on the table, but it's not enough to deal with his [[Ulamog, the Ceaseless Hunger:Ulamog]].
+**Game 2:** He plays [[Chalice of the Void:Chalice]] on zero to shut down my [[Summoner's Pact:Pacts]], then another T3 [[Thought-Knot Seer:TKS]], backed up by [[Basilisk Collar:Collar]]-[[Endbringer]]. I get [[Gaea's Revenge]] on the table, but it's quickly outclassed by [[Ulamog, the Ceaseless Hunger:Ulamog]].
 
 **Game 3:** Zhijan plays yet another T3 [[Thought-Knot Seer:TKS]], this time into T4 [[Reality Smasher:Smasher]]. He uses [[Warping Wail]] to sneak an Eldrazi Scion in there too, forcing my [[Primeval Titan:Titan]] to block [[Reality Smasher:Smasher]] (rather than [[Thought-Knot Seer:TKS]]) and taking me to 1. But he can't actually get rid of the [[Primeval Titan:Titan]], so I wrap things up as soon as I untap.
 
@@ -211,11 +221,11 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 ### Round 12: Loss 0-2 vs Affinity
 
-**Game 1:** I win the roll against Niels, play [[Sakura-Tribe Elder:Steve]] on two, and topdeck [[Simian Spirit Guide:SSG]] on T3 to [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]]. I've drawn [[Blighted Woodland:Woodland]] and [[Valakut, the Molten Pinnacle:Valakut]] naturally, so I search up two more [[Valakut, the Molten Pinnacle:Valakut:Valakuts]] and a pair of Mountains. This sets me up to win on my upkeep by popping [[Blighted Woodland:Woodland]] for 18 damage (my attack had already knocked him to 13). Unfortunately, Niels topdecks a zero-cost artifact, plays [[Arcbound Ravager:Ravager]], and eats his board to hit me for 10 poison exactly.
+**Game 1:** I win the roll against Niels, play [[Sakura-Tribe Elder:Steve]] on two, and topdeck [[Simian Spirit Guide:SSG]] on T3 to [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]]. I've drawn [[Blighted Woodland:Woodland]] and [[Valakut, the Molten Pinnacle:Valakut]] naturally, so I search up two more [[Valakut, the Molten Pinnacle:Valakut:Valakuts]] and a pair of [[Stomping Ground:Stomping Grounds]]. This sets me up to win on my upkeep by popping [[Blighted Woodland:Woodland]] for eighteen damage (my attack had already knocked him to thirteen). Unfortunately, Niels topdecks a zero-cost artifact, plays [[Arcbound Ravager:Ravager]], and eats his board to hit me for ten poison exactly.
 
-> There's nothing I could have done to meaningfully disrupt his T3 win. I couldn't [[Summoner's Pact:Pact]] for [[Hornet Queen]], since I didn't have double-green to pay for it. And if I got extra mountains (instead of [[Valakut, the Molten Pinnacle:Valakuts]]) to kill his [[Signal Pest:Pest]] and [[Ornithopter]], he would just poison me over two turns while I paid for [[Summoner's Pact:Pact]].
+> Niels goldfished faster than I did, and there's nothing I could have done to race him. I couldn't [[Summoner's Pact:Pact]] for [[Hornet Queen]], since I didn't have double-green to pay for it. And if I got extra [[Mountain:Mountains]] (instead of [[Valakut, the Molten Pinnacle:Valakuts]]) to kill his [[Signal Pest:Pest]] and [[Ornithopter]], he would just poison me over two turns while I paid for [[Summoner's Pact:Pact]].
 >
-> But I still think I could have won this game.
+> But I still think I punted this game.
 >
 > If I have mana up, I doubt Niels would have gone for the T3 kill, opening himself up to an 8-for-1 [[Lightning Bolt]]. With only four lands on the table, I wasn't broadcasting a win on my T4.
 >
@@ -241,7 +251,7 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 **Game 2:** Leon again knocks me to 4 before I land a [[Primeval Titan:Titan]], but then I blow up a pair of [[Thought-Knot Seer:TKSs]] and drop a [[Hornet Queen]].
 
-> Probably ten times this weekend, my opponents could have topdecked [[Walking Ballista]] for the win. Lucky for me, none of them ever did.
+> Probably ten times this weekend, my opponents could have topdecked [[Walking Ballista]] for the win. Lucky for me, none of them ever did!
 
 ### Round 15: Loss 1-2 vs UW Control
 
@@ -253,8 +263,8 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 **Game 3:** He plays [[Spreading Seas]] on my [[Stomping Ground]] and leaves up double [[Field of Ruin]]. I pact for [[Gaea's Revenge]] to knock him down to six. He then blows up my green sources.
 
-> I know. It's real bad. This loss wasn't even tilting -- it just made me realize how exhausted I was.
-
+> I know. It's real bad. This loss wasn't even tilting. It just made me realize how exhausted I was.
+>
 > Also, I wonder if I'm supposed to be siding out the [[Summoner's Pact:Pacts]] against UW, and leaving in the [[Chalice of the Void:Chalices]]? [[Summoner's Pact:Pact]] helps me steal games early sometimes, but for the most part it's a liability... I only play 6 green sources, after all.
 
 7-7-1
