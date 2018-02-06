@@ -22,17 +22,27 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRI
 
 ## Decklist
 
-It's very difficult for this deck to win without [[Primeval Titan]], and sometimes it takes two of them. One of my consistent impressions in playtesting was that eight (counting [[Summoner's Pact]]) was not enough. [[Woodfall Primus]] and [[Hornet Queen]] seem to be the next best [[Summoner's Pact:Pactable]] haymakers. 
+For the Modern portion of PT RIX, I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn. 
 
-Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It's also a maindeck answer to [[Blood Moon]] and [[Runed Halo]].
+This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-primeval-titan-simulation/) in September, as well as the [Regional Pro Tour Qualifier in November](/rptq-rix-report/), but I've made a few tweaks in the meantime. 
+
+A consistent concern I've had with Titan Breach is that eight copies of [[Primeval Titan]] (counting [[Summoner's Pact]]) isn't enough. The deck typically can't win without [[Primeval Titan:Titan]], and sometimes it takes more than one. For the PT, I decided to add another pair of haymakers: [[Woodfall Primus]] and [[Hornet Queen]]. 
+
+Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It can also blow up problematic enchantments like [[Blood Moon]] and [[Runed Halo]].
 
 [^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back. 
 
-An answer to [[Blood Moon]] makes me feel good about swapping the second [[Forest]] for a [[Cinder Glade]]. Drawing a [[Forest]] almost always feels awful. [[Cinder Glade]] doesn't help suspend [[Search for Tomorrow]] on T1, but it's nice to be able to fetch a painless dual in the mid game.
+A maindeck answer to [[Blood Moon]] gives me an excuse to play only a single basic [[Forest]], making room for a seventh [[Mountain]]. Drawing a [[Forest]] almost always feels awful, since it doesn't count for [[Valakut, the Molten Pinnacle:Valakut]], and running out of [[Mountain:Mountains]] is a very real concern when games go long (such as against blue-based control decks).
 
-In my [first post on this topic](/modern-primeval-titan-simulation/), compare [[Explore]] to [[Farseek]] using computer models; [[Explore]] is slightly better. I discuss [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/); I would never cut it from Titan Breach.
+There are four "flex" slots in the main deck. 
 
-That leaves four flex slots in the main. I considered, basically:
+---
+
+---
+
+---
+
+I considered:
 
 - [[Anger of the Gods]]. Great against Affinity, Humans, Company, and Dredge. This is what I ran at the RPTQ. 
 - [[Chalice of the Void]]. Great against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. 
