@@ -120,6 +120,8 @@ Tyler and I both got to play these games, at least, but they aren't particularly
 
 > This match is a rude awakening for me. In my grinding online (about twenty drafts) the best decks I saw were always about tribal interactions. I was completely unprepared for Ascend. 
 
+1-2
+
 ---
 
 ### Round 4: Win 2-1 vs Naya Burn
