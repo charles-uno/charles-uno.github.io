@@ -22,17 +22,15 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRI
 
 ## Decklist
 
-It's very difficult for this deck to win without [[Primeval Titan]], and sometimes it takes two of them. One of my consistent impressions in playtesting was that eight (counting [[Summoner's Pact]]) was not enough. [[Woodfall Primus]] and [[Hornet Queen]] seem to be the next best [[Summoner's Pact:Pactable]] haymakers.
+It's very difficult for this deck to win without [[Primeval Titan]], and sometimes it takes two of them. One of my consistent impressions in playtesting was that eight (counting [[Summoner's Pact]]) was not enough. [[Woodfall Primus]] and [[Hornet Queen]] seem to be the next best [[Summoner's Pact:Pactable]] haymakers. 
 
-Most decks in the format ultimately want to win by attacking, and [[Hornet Queen]] does a pretty good job of shutting that down. She's great against Humans, Affinity, Shadow, and BG, and still passable against UW, Eldrazi Tron, Infect, and Burn.
-
-The more conventional one-off, [[Woodfall Primus]], is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It's also a maindeck answer to [[Blood Moon]] and [[Runed Halo]].
+Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It's also a maindeck answer to [[Blood Moon]] and [[Runed Halo]].
 
 [^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back. 
 
 An answer to [[Blood Moon]] makes me feel good about swapping the second [[Forest]] for a [[Cinder Glade]]. Drawing a [[Forest]] almost always feels awful. [[Cinder Glade]] doesn't help suspend [[Search for Tomorrow]] on T1, but it's nice to be able to fetch a painless dual in the mid game.
 
-I discuss [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/). I would never cut it from Titan Breach.
+In my [first post on this topic](/modern-primeval-titan-simulation/), compare [[Explore]] to [[Farseek]] using computer models; [[Explore]] is slightly better. I discuss [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/); I would never cut it from Titan Breach.
 
 That leaves four flex slots in the main. I considered, basically:
 
@@ -41,10 +39,6 @@ That leaves four flex slots in the main. I considered, basically:
 - [[Thragtusk:Miscellaneous]] [[Gaea's Revenge:extra]] [[Tireless Tracker:threats]]. Good against blue midrange, black midrange, and anyone else trying to make the game go long. 
 
 The creatures come in most often, but ultimately I don't want to be playing a game of incremental value. I settle on [[Chalice of the Void:Chalice]]. It's a slam dunk against a handful of decks, and [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] on the play has the potential to kneecap just about anyone. 
-
-
-**NOTE** -- Discuss chalice coming out against Burn. 
-
 
 <table class="cardlist-with-sideboard">
     <caption class="deckname">Charles' Titan Breach (PT RIX)</caption>
@@ -86,7 +80,7 @@ The creatures come in most often, but ultimately I don't want to be playing a ga
     </tr>
 </table>
 
-The sideboard should look pretty familiar: a lot of cards that are *really* good to see in an opening hand. [[Ancient Grudge]] feels downright unfair against Affinity and Lantern. [[Anger of the Gods]] is pretty much my only hope to beat Humans, a deck that's been gaining popularity[^4]. 
+The sideboard should look pretty familiar: a lot of cards that are *really* good to see in an opening hand. [[Ancient Grudge]] feels downright unfair against Affinity and Lantern. [[Anger of the Gods]] is pretty much my only hope to beat Humans[^4]. 
 
 [^4]: Humans was the most-played deck at the event, and [most Humans players made Day 2](https://magic.wizards.com/en/events/coverage/ptrix/day-two-metagame-breakdown-2018-02-03). Luckily, I was never paired against it. 
 
@@ -101,22 +95,20 @@ As an aside, I also did a bunch of testing with [[Leyline of Sanctity]], but cam
 
 ## Day 1
 
-Draft is bumpy. GU is open, but I have had poor results with that deck. I force vampires, my usual, even though it seems like my neighbor is in the same deck. I also pick up a handful of green cards, including 2 [[Atzocan Seer]], but no payoffs to make green worth playing.
+My draft is bumpy. GU Merfolk is clearly open, but I've had poor results with that deck. I force WB Vampires, my usual, even though it seems like I'm fighting with my neighbor. I also pick up a pair of [[Atzocan Seer]], and a few other miscellaneous green cards, but nothing worth ramping into. 
 
-The speed of the draft is an issue for me. At least twice, I made the wrong pick due to time constraints.
-
-My deck ends up mediocre. I have plenty of playables, good removal, and a splashed [[Huatli:Huatli, Warrior Poet:Huatli]], but a shaky curve.
+My deck ends up mediocre. I have plenty of playables, good removal, and a splashed [[Huatli, Warrior Poet:Huatli]]... but my curve is shaky.
 
 ![Day 1 Draft Deck](/assets/images/pt-rix-day-1-draft.png)
 *Day 1 draft deck.*
 
 ### Round 1: Loss 0-2 vs WB Vampires
 
-I'm matched up against Trent, who sat to my right during the draft. I'm not sure if his deck is better than mine, but he definitely draws better. I stumble on lands game 1, then flood out game 2, while he curves [[Radiant Destiny]] into [[Call to the Feast]].
+I'm matched up against Trent, who sat to my right during the draft. I'm not sure if his deck is better than mine, but he definitely draws better. Game 1 I stumble, and game 2 I flood, while he curves [[Radiant Destiny]] into [[Call to the Feast]].
 
 0-1
 
-### Round 1: Win 2-0 vs URB Pirates
+### Round 2: Win 2-0 vs URB Pirates
 
 My match against Kazuyuki also isn't very interesting. He plays a few [[Daring Buccaneer:Daring Buccaneers]] and [[Fathom Fleet Boarder:Fathom Fleet Boarders]], but then draws a bunch of lands in a row while I draw nothing but gas.
 
@@ -124,9 +116,9 @@ My match against Kazuyuki also isn't very interesting. He plays a few [[Daring B
 
 ### Round 3: Loss 0-2 vs UB Ascend
 
-Tyler and I both got to play these games, at least, but they weren't particularly close. He shuts down my board with [[Gleaming Barrier]] and [[Sailor of Means]], bounces my enchanted creatures, and works around my removal with [[Pirate's Cutlass]]. The games go long, since I chip away with lifelinkers, but my path to victory vanishes pretty quickly.
+Tyler and I both got to play these games, at least, but they aren't particularly close. He shuts down my board with [[Gleaming Barrier]] and [[Sailor of Means]], bounces my enchanted creatures, and works around my removal with [[Pirate's Cutlass]]. The games go long, since I chip away with lifelinkers, but my path to victory vanishes pretty quickly.
 
-> This match is a rude awakening for me. I'd done some grinding online, maybe twenty drafts, but I'd never run into a good Ascend deck before. This blew out of the water my experience that the format was only as deep as the tribal interactions.
+> This match is a rude awakening for me. In my grinding online (about twenty drafts) the best decks I saw were always about tribal interactions. I was completely unprepared for Ascend. 
 
 ---
 
@@ -142,7 +134,7 @@ Tyler and I both got to play these games, at least, but they weren't particularl
 
 ### Round 5: Win 2-1 vs Eldrazi Tron
 
-**Game 1:** Zhijan wins the roll and plays T3 [[Thought-Knot Seer:TKS]], but my topdeck lets me [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] anyway.
+**Game 1:** Zhijan wins the roll and plays T3 [[Thought-Knot Seer:TKS]], but my topdeck lets me [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 anyway.
 
 **Game 2:** He plays [[Chalice of the Void:Chalice]] on zero to shut down my [[Summoner's Pact:Pacts]], then another T3 [[Thought-Knot Seer:TKS]], backed up by [[Basilisk Collar:Collar]]-[[Endbringer]]. I get [[Gaea's Revenge]] on the table, but it's not enough to deal with his [[Ulamog, the Ceaseless Hunger:Ulamog]].
 
@@ -158,17 +150,15 @@ Tyler and I both got to play these games, at least, but they weren't particularl
 
 **Game 3:** Dom plays triple [[Thought-Knot Seer:TKS]] to keep me off [[Primeval Titan:Titan]], and [[Ghost Quarter]] keeps [[Valakut, the Molten Pinnacle:Valakut]] stuck in my hand. He floods a bit, though, and I find [[Gaea's Revenge]] to chew through his team.
 
-4-2
-
-> Locked for Day 2!
+4-2, and locked for Day 2!
 
 ### Round 7: Win 2-1 vs UW Control
 
-**Game 1:** I win the roll and ramp a bit. Huachao taps out for [[Gideon of the Trials:Gideon]] on T3, which gives me an opening to cast [[Chalice of the Void:Chalice]] -- but I put it on 1 instead of 2. He proceeds to keep me off green with [[Spreading Seas]] and [[Field of Ruin]].
+**Game 1:** I win the roll and ramp a bit. Huachao taps out for [[Gideon of the Trials:Gideon]] on T3, which gives me an opening to cast [[Chalice of the Void:Chalice]] -- but I put it on 1 instead of 2. Oops. He proceeds to keep me off green with [[Spreading Seas]] and [[Field of Ruin]].
 
 **Game 2:** Huachao stumbles on lands and I punish him for it.
 
-**Game 3:** He uses [[Mistbind Clique:Clique]] to keep me off [[Primeval Titan:Titan]], but it draws me into [[Gaea's Revenge]]. He has me on a clock, and uses [[Runed Halo]] to shut down my attacks, but eventually I use [[Through the Breach:Breach]] to eat a counterspell, throw [[Ruric Thar, the Unbowed:Ruric Thar]] under another one, and resolve [[Reclamation Sage]] to blow up the [[Runed Halo]]. Huachao has three turns to find a [[Cryptic Command]] and win the race, but he doesn't.
+**Game 3:** He uses [[Mistbind Clique:Clique]] to get rid of my [[Primeval Titan:Titan]], but it draws me into [[Gaea's Revenge]]. He has me on a clock, and uses [[Runed Halo]] to shut down my attacks, but eventually I use [[Through the Breach:Breach]] to eat a counterspell, throw [[Ruric Thar, the Unbowed:Ruric Thar]] under another one, and resolve [[Reclamation Sage]] to blow up the [[Runed Halo]]. Huachao has three turns to find a [[Cryptic Command]] and win the race, but he doesn't.
 
 5-2
 
@@ -184,11 +174,9 @@ Tyler and I both got to play these games, at least, but they weren't particularl
 
 5-3
 
-> A bad note to end on, but overall a very good day!
-
 ## Day 2
 
-The draft, it seemed, went great. I went WB again, but this time it was open. I ended up light on removal, but my curve and synergies were good.
+The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. My deck ends up a bit light on removal, but my curve and synergies are good. I open [[Vraska, Relic Seeker:Vraska]] in pack 3 (passing [[Walk the Plank]]), then pick up a late [[Jade Guardian]] to hold my auras. 
 
 ![Day 2 Draft Deck](/assets/images/pt-rix-day-2-draft.png)
 *Day 2 draft deck.*
@@ -207,7 +195,7 @@ The draft, it seemed, went great. I went WB again, but this time it was open. I 
 
 ### Round 10: Loss 0-2 vs WUB Ascend
 
-**Game 1:** [Luis](https://magic.wizards.com/en/events/coverage/ptrix/finals-salvatto-thompson-2018-02-04) has a nutty WUB Ascend deck with 3 [[Sailor of Means]], 2 [[Deadeye Brawler]], and 5 [[Waterknot]]. I go wide on tokens and manage to get him down to 5, but he puts a [[Waterknot]] on all my creatures that matter and then eventually he plays a [[Zetalpa, Primal Dawn:Zetalpa]] of his own to close out the game.
+**Game 1:** [Luis](https://magic.wizards.com/en/events/coverage/ptrix/finals-salvatto-thompson-2018-02-04) has a nutty deck with 3 [[Sailor of Means]], 2 [[Deadeye Brawler]], and 5 [[Waterknot]]. I go wide on tokens and manage to get him down to 5, but he puts a [[Waterknot]] on all my creatures that matter and then eventually he plays a [[Zetalpa, Primal Dawn:Zetalpa]] of his own to close out the game.
 
 **Game 2:** I have an aggressive start (at this point I'm 5-for-5 on drawing [[Mavren Fein, Dusk Apostle:Mavren Fein]]) but he stabilizes and ultimately rides [[Air Elemental]] to victory.
 
@@ -235,7 +223,7 @@ The draft, it seemed, went great. I went WB again, but this time it was open. I 
 >
 > So I was supposed to wait, leave mana up on his turn, and use [[Simian Spirit Guide:SSG]] to crack [[Blighted Woodland:Woodland]] on his end step. Then on my T4, I can [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]] for 24.
 
-**Game 2:** I keep a hand with 2 lands, 2 [[Ancient Grudge:Grudges]], [[Anger of the Gods:Anger]], [[Summoner's Pact:Pact]], and [[Sakura-Tribe Elder:Steve]]. I draw zero lands in the next five turns, while Niels plays double [[Arcbound Ravager:Ravager]].
+**Game 2:** My seven looks great: 2 lands, 2 [[Ancient Grudge:Grudges]], [[Anger of the Gods:Anger]], [[Summoner's Pact:Pact]], and [[Sakura-Tribe Elder:Steve]]. I draw zero lands in the next five turns, while Niels shrugs off my removal with double [[Arcbound Ravager:Ravager]].
 
 5-6-1
 
@@ -255,9 +243,9 @@ The draft, it seemed, went great. I went WB again, but this time it was open. I 
 
 **Game 2:** Leon again knocks me to 4 before I land a [[Primeval Titan:Titan]], but then I blow up a pair of [[Thought-Knot Seer:TKSs]] and drop a [[Hornet Queen]].
 
-> Probably ten times this weekend, my opponents could have topdecked [[Walking Ballista]] for the win. None of them ever did.
+> Probably ten times this weekend, my opponents could have topdecked [[Walking Ballista]] for the win. Lucky for me, none of them ever did.
 
-### Round 15: Loss 1-2 to UW Control
+### Round 15: Loss 1-2 vs UW Control
 
 **Game 1:** Eugen drops a quick [[Runed Halo]], then goes after my green sources. I punch him for six with a [[Through the Breach:Breached]] [[Primeval Titan:Titan]], then continue chipping away with [[Simian Spirit Guide::SSG]] and [[Hornet Queen]] (though her tokens get [[Detention Sphere:detained]]). I use [[Valakut, the Molten Pinnacle:Valakut]] triggers to blow up his [[Celestial Colonnade:Colonnade]], but draw my last [[Mountain]] at an inopportune moment[^15].
 
@@ -273,7 +261,7 @@ The draft, it seemed, went great. I went WB again, but this time it was open. I 
 
 7-7-1
 
-### Round 16: Loss 0-2 to Jeskai Geist
+### Round 16: Loss 0-2 vs Jeskai Geist
 
 **Game 1:** Sean wins the roll and has [[Logic Knot]] for my [[Explore]], then curves T3 [[Geist of Saint Traft:Geist]] into T4 [[Lightning Bolt:Bolt]]-[[Snapcaster Mage:Snap]]-[[Lightning Bolt:Bolt]]. I bait out a [[Spell Queller]] with [[Summoner's Pact:Pact]] to resolve [[Primeval Titan:Titan]], then use my land drop to shoot his [[Spell Queller:Queller]], but at that point it's too late. He suicides [[Geist of Saint Traft:Geist]] into my [[Primeval Titan:Titan]] and burns me out.
 
