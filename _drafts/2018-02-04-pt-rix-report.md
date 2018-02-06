@@ -83,7 +83,7 @@ The creatures come in most often, but ultimately I don't want to be playing a ga
             1 [[Gaea's Revenge]]<br>
             1 [[Obstinate Baloth]]<br>
             1 [[Reclamation Sage]]<br>
-            1 [[Ruric Thar:Ruric Thar]]<br>
+            1 [[Ruric Thar, the Unbowed:Ruric Thar]]<br>
             1 [[Thragtusk]]<br>
             2 [[Tireless Tracker]]<br>
         </td>
