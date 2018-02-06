@@ -22,17 +22,29 @@ keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRI
 
 ## Decklist
 
-It's very difficult for this deck to win without [[Primeval Titan]], and sometimes it takes two of them. One of my consistent impressions in playtesting was that eight was not enough. [[Woodfall Primus]] and [[Hornet Queen]] seem to be the next best [[Summoner's Pact:Pactable]] haymakers.
+It's very difficult for this deck to win without [[Primeval Titan]], and sometimes it takes two of them. One of my consistent impressions in playtesting was that eight (counting [[Summoner's Pact]]) was not enough. [[Woodfall Primus]] and [[Hornet Queen]] seem to be the next best [[Summoner's Pact:Pactable]] haymakers.
 
 Most decks in the format ultimately want to win by attacking, and [[Hornet Queen]] does a pretty good job of shutting that down. She's great against Humans, Affinity, Shadow, and BG, and still passable against UW, Eldrazi Tron, Infect, and Burn.
 
-The more conventional one-off, [[Woodfall Primus]], is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]]. It's also a maindeck answer to [[Blood Moon]] and [[Runed Halo]].
+The more conventional one-off, [[Woodfall Primus]], is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It's also a maindeck answer to [[Blood Moon]] and [[Runed Halo]].
+
+[^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back. 
 
 An answer to [[Blood Moon]] makes me feel good about swapping the second [[Forest]] for a [[Cinder Glade]]. Drawing a [[Forest]] almost always feels awful. [[Cinder Glade]] doesn't help suspend [[Search for Tomorrow]] on T1, but it's nice to be able to fetch a painless dual in the mid game.
 
 I discuss [[Blighted Woodland]] in my [RPTQ report](/rptq-rix-report/). I would never cut it from Titan Breach.
 
-That leaves four flex slots in the main. I considered running back [[Anger of the Gods]], and have been bringing in [[Tireless Tracker]] a lot, but ultimately went with [[Chalice of the Void]] as a hedge against Storm; it's also great against Lantern, Shadow, and a bunch of fringe decks.
+That leaves four flex slots in the main. I considered, basically:
+
+- [[Anger of the Gods]]. Great against Affinity, Humans, Company, and Dredge. This is what I ran at the RPTQ. 
+- [[Chalice of the Void]]. Great against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. 
+- [[Thragtusk:Miscellaneous]] [[Gaea's Revenge:extra]] [[Tireless Tracker:threats]]. Good against blue midrange, black midrange, and anyone else trying to make the game go long. 
+
+The creatures come in most often, but ultimately I don't want to be playing a game of incremental value. I settle on [[Chalice of the Void:Chalice]]. It's a slam dunk against a handful of decks, and [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] on the play has the potential to kneecap just about anyone. 
+
+
+**NOTE** -- Discuss chalice coming out against Burn. 
+
 
 <table class="cardlist-with-sideboard">
     <caption class="deckname">Charles' Titan Breach (PT RIX)</caption>
