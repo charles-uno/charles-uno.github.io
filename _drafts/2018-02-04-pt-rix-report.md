@@ -3,28 +3,19 @@ layout: post
 title: "PT RIX Tournament Report"
 image: "/assets/images/pt-rix-thumb.png"
 description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
-keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRIX
+keywords: magic the gathering, modern, mtg, games, bilbao, spain
 ---
 
-
-
-
-
-## Bilbao!
-
-**SCRATCH**
-
+Last weekend, while Minneapolis hosted the Super Bowl, I was in Spain playing [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix)! I won a [preliminary qualifier](/modern-primeval-titan-simulation/) in September, then the [regional qualifier](/rptq-rix-report/) in November, but even after months of practice it didn't quite feel real until I got there.
 
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda)*
-
-
 
 ## Decklist
 
 For the Modern portion of [PT RIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix), I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn.
 
-This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-primeval-titan-simulation/) in September, as well as the [Regional Pro Tour Qualifier](/rptq-rix-report/) in November, but I've made a few tweaks in the meantime.
+This is the same deck I played at the [PPTQ](/modern-primeval-titan-simulation/) and [RPTQ](/rptq-rix-report/), but I've made a few tweaks in the meantime.
 
 A consistent concern I've had with Titan Breach is that eight copies of [[Primeval Titan]] (counting [[Summoner's Pact]]) isn't enough. The deck typically can't win without [[Primeval Titan:Titan]], and sometimes it takes more than one. For the Pro Tour, I decided to add another pair of [[Summoner's Pact:Pactable]] haymakers: [[Woodfall Primus]] and [[Hornet Queen]].
 
@@ -131,7 +122,11 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1**: I win the roll and keep an iffy six. Brandon gets stuck on one land, though, so my T5 [[Through the Breach:Breach]] is good enough.
 
+**Sideboard:** -4 [[Chalice of the Void]], -1 [[Woodfall Primus]], +3 [[Anger of the Gods]], +1 [[Obstinate Baloth]], +1 [[Thragtusk]].
+
 **Game 2:** This time, I get punished for my bad mulligan choice. I keep a hand with [[Obstinate Baloth:Baloth]] and [[Thragtusk]] but no ramp spells, and get run over too fast to play either.
+
+**Sideboard:** -3 [[Anger of the Gods]], +3 [[Chalice of the Void]]. I find that [[Anger of the Gods:Anger]] and [[Chalice of the Void:Chalice]] are both mediocre against Burn. I prefer [[Chalice of the Void:Chalice]] on the play and [[Anger of the Gods:Anger]] on the draw.
 
 **Game 3:** Brandon mulls to five and gets stuck on one land again.
 
@@ -140,6 +135,8 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 ### Round 5: Win 2-1 vs Eldrazi Tron
 
 **Game 1:** Zhijan wins the roll and plays T3 [[Thought-Knot Seer:TKS]], but my topdeck lets me [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 anyway.
+
+**Sideboard:** -4 [[Chalice of the Void]], +1 [[Gaea's Revenge]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
 
 **Game 2:** He plays [[Chalice of the Void:Chalice]] on zero to shut down my [[Summoner's Pact:Pacts]], then another T3 [[Thought-Knot Seer:TKS]], backed up by [[Basilisk Collar:Collar]]-[[Endbringer]]. I get [[Gaea's Revenge]] on the table, but it's quickly outclassed by [[Ulamog, the Ceaseless Hunger:Ulamog]].
 
@@ -151,6 +148,8 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1:** Dominic wins the roll and makes T3 [[Thought-Knot Seer:TKS]] into a bunch of [[Reality Smasher:Smashers]]. It ends badly.
 
+**Sideboard:** -4 [[Chalice of the Void]], +1 [[Gaea's Revenge]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
+
 **Game 2:** He makes T3 [[Reality Smasher:Smasher]]. I answer with T4 [[Through the Breach:Breach]] for 24.
 
 **Game 3:** Dom plays triple [[Thought-Knot Seer:TKS]] to keep me off [[Primeval Titan:Titan]], and [[Ghost Quarter]] keeps [[Valakut, the Molten Pinnacle:Valakut]] stuck in my hand. He floods a bit, though, and I find [[Gaea's Revenge]] to chew through his team.
@@ -161,6 +160,8 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1:** I win the roll and ramp a bit. Huachao taps out for [[Gideon of the Trials:Gideon]] on T3, which gives me an opening to cast [[Chalice of the Void:Chalice]] -- but I put it on 1 instead of 2. Oops. He proceeds to keep me off green with [[Spreading Seas]] and [[Field of Ruin]].
 
+**Sideboard:** -4 [[Chalice of the Void]], -2 [[Simian Spirit Guide]], +1 [[Gaea's Revenge]], +1 [[Reclamation Sage]], +1 [[Ruric Thar, the Unbowed:Ruric Thar]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
+
 **Game 2:** Huachao stumbles on lands and I punish him for it.
 
 **Game 3:** He uses [[Mistbind Clique:Clique]] to get rid of my [[Primeval Titan:Titan]], but it draws me into [[Gaea's Revenge]]. He has me on a clock, and uses [[Runed Halo]] to shut down my attacks, but eventually I use [[Through the Breach:Breach]] to eat a counterspell, throw [[Ruric Thar, the Unbowed:Ruric Thar]] under another one, and resolve [[Reclamation Sage]] to blow up the [[Runed Halo]]. Huachao has three turns to find a [[Cryptic Command]] and win the race, but he doesn't.
@@ -170,6 +171,8 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 ### Round 8: Loss 0-2 vs Abzan
 
 **Game 1:** I win the roll and keep a top-heavy seven. Konstantinos [[Thoughtseize:Thoughtseizes]] my [[Explore]], then plays T2 [[Grim Flayer:Flayer]] into T3 [[Liliana of the Veil:Liliana]]. I discard [[Summoner's Pact]] to [[Liliana of the Veil:Liliana]]; he plays [[Tarmogoyf]]. Then I draw and play [[Primeval Titan:Titan]]. [[Liliana of the Veil:Liliana]] eats the [[Primeval Titan:Titan]], then he plays a new [[Liliana of the Veil:Liliana]] to drop me to one card; I discard [[Summoner's Pact:Pact]], keeping [[Woodfall Primus:Primus]]. Then he plays another [[Tarmogoyf]], putting me dead through a blocker. I draw [[Through the Breach:Breach]] and scoop.
+
+**Sideboard:** -4 [[Chalice of the Void]], -4 [[Through the Breach]], +2 [[Anger of the Gods]], +1 [[Gaea's Revenge]], +1 [[Obstinate Baloth]], +1 [[Ruric Thar, the Unbowed:Ruric Thar]], +1 [[Thragtusk]], +2 [[Tireless Tracker]]. I take out [[Through the Breach:Breach]] against discard-based decks, as it can easily become stranded in my hand.
 
 > Discarding the [[Summoner's Pact:Pact]] instead of the [[Woodfall Primus:Primus]] was sloppy. [[Woodfall Primus:Primus]] would maybe have gotten there, but with two active [[Valakut, the Molten Pinnacle:Valakut]] I really want a second [[Primeval Titan:Titan]] to close out the game. The [[Through the Breach:Breach]] just added insult to injury -- it would have won on the spot.
 >
@@ -234,6 +237,8 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 >
 > So I was supposed to wait, leave mana up on his turn, and use [[Simian Spirit Guide:SSG]] to crack [[Blighted Woodland:Woodland]] on his end step. Then on my T4, I can [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]] for 24.
 
+**Sideboard:** -4 [[Chalice of the Void]], -4 [[Simian Spirit Guide]], -1 [[Through the Breach]], +4 [[Ancient Grudge]], +4 [[Anger of the Gods]], +1 [[Reclamation Sage]].
+
 **Game 2:** My seven looks great: 2 lands, 2 [[Ancient Grudge:Grudges]], [[Anger of the Gods:Anger]], [[Summoner's Pact:Pact]], and [[Sakura-Tribe Elder:Steve]]. I draw zero lands in the next five turns, while Niels shrugs off my removal with double [[Arcbound Ravager:Ravager]].
 
 5-6-1
@@ -241,6 +246,8 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 ### Round 13: Win 2-1 vs Scapeshift
 
 **Game 1:** I take the play, and it seems like Pang Ming draws poorly. I cast [[Primeval Titan:Titan]] on T4. He double-[[Lightning Bolt:Bolts]] it on his next turn, but I make a land drop and [[Sakura-Tribe Elder:Steve]] to seal the deal.
+
+**Sideboard:** -4 [[Chalice of the Void]], +1 [[Obstinate Baloth]], +1 [[Ruric Thar, the Unbowed:Ruric Thar]], +1 [[Thragtusk]], +1 [[Tireless Tracker]]. None of these cards are much good against Scapeshift, but [[Chalice of the Void:Chalice]] does literally nothing. Luckily, my opponent is probably thinking the same thing about his [[Anger of the Gods]] and [[Lightning Bolt]].
 
 **Game 2:** I buy a turn with [[Thragtusk]], but he takes it back with [[Beast Within]]. He [[Lightning Bolt:Bolts]] me for style points, then casts [[Scapeshift]] for 36.
 
@@ -252,6 +259,8 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 **Game 1:** I mull to 5 on the draw again, but luckily it's against Eldrazi Tron. Leon makes T2 Matter Reshaper into T3 [[Thought-Knot Seer:TKS]] into T4 [[Endbringer]], knocking me to 4. But I drew a [[Valakut, the Molten Pinnacle:Valakut]] naturally, so my T4 [[Primeval Titan:Titan]] kills his [[Endbringer]] and shuts down his attack. He plays [[Chalice of the Void:Chalice]] for 0; I respond with [[Summoner's Pact:Pact]] for a second [[Primeval Titan:Titan]]; he scoops.
 
+**Sideboard:** -4 [[Chalice of the Void]], +1 [[Gaea's Revenge]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
+
 **Game 2:** Leon again knocks me to 4 before I land a [[Primeval Titan:Titan]], but then I blow up a pair of [[Thought-Knot Seer:TKSs]] and drop a [[Hornet Queen]].
 
 > Probably ten times this weekend, my opponents could have topdecked [[Walking Ballista]] for the win. Lucky for me, none of them ever did!
@@ -262,19 +271,21 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 [^15]: I can only use [[Wooded Foothills]] to blow up a [[Celestial Colonnade:Colonnade]] if there are [[Mountain:Mountains]] left in my deck.
 
+**Sideboard:** -4 [[Chalice of the Void]], -2 [[Simian Spirit Guide]], +1 [[Gaea's Revenge]], +1 [[Reclamation Sage]], +1 [[Ruric Thar, the Unbowed:Ruric Thar]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
+
 **Game 2:** He mulls, plays [[Runed Halo]], then misses his third land drop. I play [[Through the Breach:Breach]] on his end step, which he counters, then main phase [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]] a [[Woodfall Primus]] to blow up both his lands.
 
 **Game 3:** He plays [[Spreading Seas]] on my [[Stomping Ground]] and leaves up double [[Field of Ruin]]. I pact for [[Gaea's Revenge]] to knock him down to six. He then blows up my green sources.
 
 > I know. It's real bad. This loss wasn't even tilting. It just made me realize how exhausted I was.
->
-> Also, I wonder if I'm supposed to be siding out the [[Summoner's Pact:Pacts]] against UW, and leaving in the [[Chalice of the Void:Chalices]]? [[Summoner's Pact:Pact]] helps me steal games early sometimes, but for the most part it's a liability... I only play 6 green sources, after all.
 
 7-7-1
 
 ### Round 16: Loss 0-2 vs Jeskai Geist
 
 **Game 1:** Sean wins the roll and has [[Logic Knot]] for my [[Explore]], then curves T3 [[Geist of Saint Traft:Geist]] into T4 [[Lightning Bolt:Bolt]]-[[Snapcaster Mage:Snap]]-[[Lightning Bolt:Bolt]]. I bait out a [[Spell Queller]] with [[Summoner's Pact:Pact]] to resolve [[Primeval Titan:Titan]], then use my land drop to shoot his [[Spell Queller:Queller]], but at that point it's too late. He suicides [[Geist of Saint Traft:Geist]] into my [[Primeval Titan:Titan]] and burns me out.
+
+**Sideboard:** -4 [[Chalice of the Void]], -1 [[Forest]], -4 [[Simian Spirit Guide]], +4 [[Anger of the Gods]], +1 [[Gaea's Revenge]], +1 [[Ruric Thar, the Unbowed:Ruric Thar]], +1 [[Thragtusk]], +2 [[Tireless Tracker]].
 
 **Game 2:** No [[Geist of Saint Traft:Geist]] this time, but Sean starts beating down with [[Spell Queller:Queller]] (snagging nothing) into [[Lightning Helix:Helix]]-[[Snapcaster Mage:Snap]]-[[Lightning Helix:Helix]]. I draw a pair of [[Valakut, the Molten Pinnacle:Valakuts]] naturally, and knock him to ten with [[Gaea's Revenge]], but I'm not exactly winning the race. It seems like he's going to flash something in on my end step to ensure a lethal attack. I leave up [[Through the Breach:Breach]] instead of casting [[Anger of the Gods:Anger]] in case it's a [[Spell Queller:Queller]]. He casts [[Snapcaster Mage:Snap]], and I try to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. Unfortunately, he has [[Disdainful Stroke]].
 
@@ -292,4 +303,4 @@ Perhaps I could do better with more practice, but honestly I don't plan to. I'm 
 [^7]: Especially [Matthias](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), who put the deck in my hands in the first place!
 
 ![The Day 2 Crew!](/assets/images/pt-rix-team-16x9.png)
-*Greg, Sam, Tyler (round 3), me, and Kai.*
+*Greg, Sam, Tyler (round 3 opponent), me, and Kai.*
