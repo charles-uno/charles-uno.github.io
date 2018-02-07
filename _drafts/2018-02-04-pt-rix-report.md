@@ -6,39 +6,35 @@ description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
 keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, PTRIX
 ---
 
+
+
+
+
 ## Bilbao!
 
 **SCRATCH**
 
 
-217 / 463
-
-
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda)*
 
-![](/assets/images/pt-rix-san-sebastian-16x9.png)
 
-![The Guggenheim Museum](/assets/images/pt-rix-guggenheim-16x9.png)
-*The Guggenheim Museum in downtown Bilbao.*
-
-![](/assets/images/pt-rix-benches-16x9.png)
 
 ## Decklist
 
-For the Modern portion of [PT RIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix), I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn. 
+For the Modern portion of [PT RIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix), I played Titan Breach. The deck is straightforward: get some extra lands with [[Search for Tomorrow]] and [[Sakura-Tribe Elder]], then use [[Through the Breach]] to sneak [[Primeval Titan]] onto the table. [[Primeval Titan:Titan]] gets even more lands, including [[Valakut, the Molten Pinnacle]]. It's possible for the deck to win as early as the third turn.
 
-This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-primeval-titan-simulation/) in September, as well as the [Regional Pro Tour Qualifier in November](/rptq-rix-report/), but I've made a few tweaks in the meantime. 
+This is the same deck I played at the [Preliminary Pro Tour Qualifier](/modern-primeval-titan-simulation/) in September, as well as the [Regional Pro Tour Qualifier](/rptq-rix-report/) in November, but I've made a few tweaks in the meantime.
 
-A consistent concern I've had with Titan Breach is that eight copies of [[Primeval Titan]] (counting [[Summoner's Pact]]) isn't enough. The deck typically can't win without [[Primeval Titan:Titan]], and sometimes it takes more than one. For the PT, I decided to add another pair of haymakers: [[Woodfall Primus]] and [[Hornet Queen]]. 
+A consistent concern I've had with Titan Breach is that eight copies of [[Primeval Titan]] (counting [[Summoner's Pact]]) isn't enough. The deck typically can't win without [[Primeval Titan:Titan]], and sometimes it takes more than one. For the Pro Tour, I decided to add another pair of [[Summoner's Pact:Pactable]] haymakers: [[Woodfall Primus]] and [[Hornet Queen]].
 
 Most decks in the format want to win by attacking, and [[Hornet Queen]] shuts that down. She's great against Humans, Affinity, Shadow, and Abzan, and still passable against UW Control, Eldrazi Tron, Infect, and Burn. [[Woodfall Primus]] is a slam dunk against Tron and Scapeshift, but honestly no deck wants to get hit by [[Rain of Salt]][^2]. It can also blow up problematic enchantments like [[Blood Moon]] and [[Runed Halo]].
 
-[^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back. 
+[^2]: When you [[Through the Breach:Breach]] a [[Woodfall Primus]], you get to blow up one land when it comes into play, then another at end of turn when you sacrifice it and it persists back.
 
 A maindeck answer to [[Blood Moon]] gives me an excuse to play only a single basic [[Forest]], making room for a seventh [[Mountain]]. Drawing a [[Forest]] almost always feels awful, since it doesn't count for [[Valakut, the Molten Pinnacle:Valakut]], and running out of [[Mountain:Mountains]] is a very real concern when games go long (such as against blue-based control decks).
 
-There are four "flex" slots in the main deck. At the RPTQ, I ran [[Anger of the Gods]] because I expected to see a lot of Affinity and Company. At the PT, I ran [[Chalice of the Void]] instead. [[Chalice of the Void:Chalice]] is a slam dunk against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. Plus, on the play, [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] has the potential to kneecap just about anyone. 
+There are four "flex" slots in the main deck. At the RPTQ, I ran [[Anger of the Gods]] because I expected to see a lot of Affinity and Company. At the PT, I ran [[Chalice of the Void]] instead. [[Chalice of the Void:Chalice]] is a slam dunk against Shadow and Lantern, and my only hope against Storm, Infect, and Bogles. Plus, on the play, [[Simian Spirit Guide:SSG]]-[[Chalice of the Void:Chalice]] has the potential to kneecap just about anyone.
 
 <table class="cardlist-with-sideboard">
     <caption class="deckname">Charles' Titan Breach (PT RIX)</caption>
@@ -80,9 +76,9 @@ There are four "flex" slots in the main deck. At the RPTQ, I ran [[Anger of the 
     </tr>
 </table>
 
-The sideboard should look pretty familiar: a lot of cards that are *really* good to see in an opening hand. [[Ancient Grudge]] feels downright unfair against Affinity and Lantern. [[Anger of the Gods]] is pretty much my only hope to beat Humans[^4]. 
+The sideboard should look pretty familiar: a lot of cards that are *really* good to see in an opening hand. [[Ancient Grudge]] feels downright unfair against Affinity and Lantern. [[Anger of the Gods]] is pretty much my only hope to beat Humans[^4].
 
-[^4]: Humans was the most-played deck at the event, and [most Humans players made Day 2](https://magic.wizards.com/en/events/coverage/ptrix/day-two-metagame-breakdown-2018-02-03). Luckily, I was never paired against it. 
+[^4]: Humans was the most-played deck at the event, and [most Humans players made Day 2](https://magic.wizards.com/en/events/coverage/ptrix/day-two-metagame-breakdown-2018-02-03). Luckily, I was never paired against it.
 
 The rest is [[Summoner's Pact:Pactable]] role-players. [[Obstinate Baloth]] can be fetched in response to a [[Liliana of the Veil:Liliana]] activation. [[Thragtusk]] is big enough to trade with [[Gurmag Angler]] and [[Reality Smasher]]. [[Tireless Tracker]] can out-grind just about anything. And then there's [[Ruric Thar, the Unbowed:Ruric Thar]]; he's a miscellaneous must-answer threat in a handful of different matchups, and Lantern scoops to him[^0].
 
@@ -90,31 +86,31 @@ The rest is [[Summoner's Pact:Pactable]] role-players. [[Obstinate Baloth]] can 
 
 As an aside, I also did a bunch of testing with [[Leyline of Sanctity]], but came away unimpressed. The decks that care about it have plenty of answers post-board, and it's irrelevant too often to earn a spot in the main.
 
-![The Vizcaya Bridge](/assets/images/pt-rix-getxo-16x9.png)
-*The [Vizkaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge) in Getxo, the world's first transporter bridge. Note the hanging cable car which shuttles back and forth at street level.*
+![Wine Cellar in Rioja](/assets/images/pt-rix-cellar-16x9.png)
+*Wine aging in the centuries-old caverns beneath a winery in Rioja.*
 
 ## Day 1
 
-My draft is bumpy. GU Merfolk is clearly open, but I've had poor results with that deck. I force WB Vampires, my usual, even though it seems like I'm fighting with my neighbor. I also pick up a pair of [[Atzocan Seer]], and a few other miscellaneous green cards, but nothing worth ramping into. 
+My draft is bumpy. GU Merfolk is clearly open, but I've had poor results with that deck. I force WB Vampires, my usual, even though it seems like I'm fighting with my neighbor. I also pick up a pair of [[Atzocan Seer]], and a few other miscellaneous green cards, but nothing worth ramping into.
 
 My deck ends up mediocre. I have plenty of playables, good removal, and a splashed [[Huatli, Warrior Poet:Huatli]]... but my curve is shaky.
 
 ![Day 1 Draft Deck](/assets/images/pt-rix-day-1-draft.png)
-*Day 1 draft deck.*
+*Day 1 draft deck. In principle, I could side in the green cards to cheese people with T4 [[Huatli, Warrior Poet:Huatli]], but I was never gutsy enough to try it out.*
 
 ### Round 1: Loss 0-2 vs WB Vampires
 
 **Game 1:** I'm matched up against Trent, who sat to my right during the draft. I'm not sure if his deck is better than mine, but he definitely draws better. I stumble on lands while he curves [[Radiant Destiny]] into [[Call to the Feast]].
 
-**Game 2:** I draw a lot of lands and auras, but not enough creatures. Trent's [[Pious Interdiction]] on my double-enchanted [[Exultant Skymarcher]] is backbreaking. 
+**Game 2:** I draw a lot of lands and auras, but not enough creatures. Trent's [[Pious Interdiction]] on my double-enchanted [[Exultant Skymarcher]] is backbreaking.
 
 0-1
 
 ### Round 2: Win 2-0 vs UBR Pirates
 
-**Game 1:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out. 
+**Game 1:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out.
 
-**Game 2:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out. 
+**Game 2:** Kazuyuki plays T3 [[Fathom Fleet Boarder]], which I hit with [[Baffling End]], then floods out.
 
 1-1
 
@@ -122,13 +118,14 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1:** Tyler shuts down my board with [[Gleaming Barrier]] and [[Sailor of Means]], bounces my enchanted creatures, and works around my removal with [[Pirate's Cutlass]]. The games go long, since I chip away with lifelinkers, but my path to victory vanishes pretty quickly.
 
-**Game 2:** This game goes about the same. 
+**Game 2:** This game goes about the same.
 
-> This match is a rude awakening for me. In my grinding online (about twenty drafts) the best decks I saw were always about tribal interactions. I was completely unprepared for Ascend. 
+> This match is a rude awakening for me. In my grinding online (about twenty drafts) the best decks I saw were always about tribal interactions. I was completely unprepared for Ascend.
 
-1-2
+1-2, now on to Modern!
 
----
+![The Vizcaya Bridge](/assets/images/pt-rix-getxo-16x9.png)
+*The [Vizkaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge) in Getxo, the world's first transporter bridge. Note the hanging cable car which shuttles back and forth at street level.*
 
 ### Round 4: Win 2-1 vs Naya Burn
 
@@ -182,12 +179,15 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 5-3
 
+![Outdoor Climbing Wall in Getxo](/assets/images/pt-rix-climbing-16x9.png)
+*The housing we saw is all high-density apartments. Nobody has a yard. But there are tons of nice parks and playgrounds, like this outdoor climbing wall in Getxo.*
+
 ## Day 2
 
-The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. My deck ends up a bit light on removal, but my curve and synergies are good. I open [[Vraska, Relic Seeker:Vraska]] in pack 3 (passing [[Walk the Plank]]), then pick up a late [[Jade Guardian]] to hold my auras. 
+The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. My deck ends up a bit light on removal, but my curve and synergies are good. I open [[Vraska, Relic Seeker:Vraska]] in pack 3 (passing [[Walk the Plank]]), then pick up a late [[Jade Guardian]] to hold my auras.
 
 ![Day 2 Draft Deck](/assets/images/pt-rix-day-2-draft.png)
-*Day 2 draft deck.*
+*Day 2 draft deck. I played what I know: WB Vampires with a splashed planeswalker.*
 
 ### Round 9: Draw 1-1-1 vs BRg Pirates
 
@@ -218,6 +218,9 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 > Greg points out that if I had sequenced my lands correctly, I would have shuffled away [[Zetalpa, Primal Dawn:Zetalpa]]. This makes me feel better, but doesn't make the play any less wrong.
 
 5-5-1
+
+![San Sebastian](/assets/images/pt-rix-san-sebastian-16x9.png)
+*A stormy day in San Sebastián, a coastal town near Bilbao.*
 
 ### Round 12: Loss 0-2 vs Affinity
 
@@ -275,21 +278,18 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 **Game 2:** No [[Geist of Saint Traft:Geist]] this time, but Sean starts beating down with [[Spell Queller:Queller]] (snagging nothing) into [[Lightning Helix:Helix]]-[[Snapcaster Mage:Snap]]-[[Lightning Helix:Helix]]. I draw a pair of [[Valakut, the Molten Pinnacle:Valakuts]] naturally, and knock him to ten with [[Gaea's Revenge]], but I'm not exactly winning the race. It seems like he's going to flash something in on my end step to ensure a lethal attack. I leave up [[Through the Breach:Breach]] instead of casting [[Anger of the Gods:Anger]] in case it's a [[Spell Queller:Queller]]. He casts [[Snapcaster Mage:Snap]], and I try to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]]. Unfortunately, he has [[Disdainful Stroke]].
 
----
+7-8-1
+
+![The Guggenheim Museum](/assets/images/pt-rix-guggenheim-16x9.png)
+*The Guggenheim Museum in downtown Bilbao.*
 
 ## RIX are for Kids
 
-**SCRATCH**
+At 7-8-1, I placed [217th](https://magic.wizards.com/en/events/coverage/ptrix/final-standings-2018-02-04) out of 463 competitors. My drafts were a bloodbath; I was unfamiliar with a powerful archetype, and I got run over by it. My Modern matchups were lucky -- not a single one was unfavorable -- and I punted several relevant games due to fatigue.
 
-Bilbao was a blast, and I'm proud to have made Day 2, but I doubt I'll ever play another Pro Tour.
+Perhaps I could do better with more practice, but honestly I don't plan to. I'm proud to have made Day 2, and grateful to the folks who helped me get there[^7], but as far as competitive *Magic* is concerned, Bilbao was my victory lap.
 
-My drafts were a bloodbath, and I went 6-4 in Modern despite fantastic luck -- I didn't hit a single unfavorable matchup. To do better, I would need to practice significantly more, and honestly there are other things I would rather do with my weeknights.
+[^7]: Especially [Matthias](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), who put the deck in my hands in the first place!
 
 ![The Day 2 Crew!](/assets/images/pt-rix-team-16x9.png)
 *Greg, Sam, Tyler (round 3), me, and Kai.*
-
-I'm already qualified for the next RPTQ, and it seems like a shame to skip it
-
-I'm off *Magic*, at least for a while.
-
-dominated my leisure time since I spiked the PPTQ in [September](/modern-primeval-titan-simulation)
