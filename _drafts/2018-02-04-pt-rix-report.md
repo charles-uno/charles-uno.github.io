@@ -12,8 +12,8 @@ We spent two weeks in Basque Country leading up to the tournament -- mostly Bilb
 
 The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket. 
 
-![Steak](/assets/images/pt-rix-steak-16x9.png)
-*This steak came out on an inch-thick piece of hot iron. It continued to sizzle through half the meal.*
+![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
+*View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda). We took the [funicular](https://en.wikipedia.org/wiki/Artxanda_Funicular) up the mountain, then wandered down on foot.*
 
 The transit in Bilbao was great, but we spent most of our days walking. The population of Bilbao is similar to that of Minneapolis, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of Bilbao to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crepe, or a museum.
 
@@ -23,8 +23,8 @@ We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town)
 
 Our two weeks in Spain were a welcome break from work and winter. Then, before I knew it, it was time to sling some cardboard. 
 
-![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
-*View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda). We took the [funicular](https://en.wikipedia.org/wiki/Artxanda_Funicular) up the mountain, then wandered down on foot.*
+![Steak](/assets/images/pt-rix-steak-16x9.png)
+*This steak came out on an inch-thick piece of hot iron. It continued to sizzle through half the meal.*
 
 ## Decklist
 
@@ -292,7 +292,9 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 **Game 3:** He plays [[Spreading Seas]] on my [[Stomping Ground]] and leaves up double [[Field of Ruin]]. I pact for [[Gaea's Revenge]] to knock him down to six. He then blows up my green sources.
 
-> I know. It's real bad. This loss wasn't even tilting. It just made me realize how exhausted I was.
+> I know. It's real bad. He wasn't even putting pressure on me -- I could have just waited to draw [[Gaea's Revenge]] naturally.
+>
+> This loss wasn't even tilting. It just made me realize how exhausted I was.
 
 7-7-1
 
