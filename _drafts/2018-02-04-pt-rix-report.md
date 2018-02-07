@@ -12,6 +12,9 @@ We spent two weeks in Basque Country leading up to the tournament -- mostly Bilb
 
 The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket. 
 
+![Steak](/assets/images/pt-rix-steak-16x9.png)
+*This steak came out on an inch-thick piece of hot iron. It continued to sizzle through half the meal.*
+
 The transit in Bilbao was great, but we spent most of our days walking. The population of Bilbao is similar to that of Minneapolis, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of Bilbao to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crepe, or a museum.
 
 [^5]: [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis): 3k people/km<sup>2</sup>. [Bilbao](https://en.wikipedia.org/wiki/Bilbao): 22k people/km<sup>2</sup>.
