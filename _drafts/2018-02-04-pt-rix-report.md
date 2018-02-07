@@ -282,7 +282,7 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 ### Round 15: Loss 1-2 vs UW Control
 
-**Game 1:** Eugen drops a quick [[Runed Halo]], then goes after my green sources. I punch him for six with a [[Through the Breach:Breached]] [[Primeval Titan:Titan]], then continue chipping away with [[Simian Spirit Guide::SSG]] and [[Hornet Queen]] (though her tokens get [[Detention Sphere:detained]]). I use [[Valakut, the Molten Pinnacle:Valakut]] triggers to blow up his [[Celestial Colonnade:Colonnade]], but draw my last [[Mountain]] at an inopportune moment[^15].
+**Game 1:** Eugen drops a quick [[Runed Halo]], then goes after my green sources. I punch him for six with a [[Through the Breach:Breached]] [[Primeval Titan:Titan]], then continue chipping away with [[Simian Spirit Guide::SSG]] and [[Hornet Queen]] (though her tokens get [[Detention Sphere:detained]]). I use [[Valakut, the Molten Pinnacle:Valakut]] triggers to blow up his [[Celestial Colonnade:Colonnades]], but draw my last [[Mountain]] at an inopportune moment[^15].
 
 [^15]: I can only use [[Wooded Foothills]] to blow up a [[Celestial Colonnade:Colonnade]] if there are [[Mountain:Mountains]] left in my deck.
 
