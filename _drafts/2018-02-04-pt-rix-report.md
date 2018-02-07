@@ -6,7 +6,24 @@ description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
 keywords: magic the gathering, modern, mtg, games, bilbao, spain
 ---
 
-Last weekend, while Minneapolis hosted the Super Bowl, I was in Spain playing [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix)! I won a [preliminary qualifier](/modern-primeval-titan-simulation/) in September, then the [regional qualifier](/rptq-rix-report/) in November, but even after months of practice it didn't quite feel real until I got there.
+By unexpectedly winning a [preliminary qualifier](/modern-primeval-titan-simulation/) in September, then the [regional qualifier](/rptq-rix-report/) in November, I earned an invitation to [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix). So while Minneapolis girded its loins for the Super Bowl, Kara and I headed to Spain. 
+
+We spent two weeks in Basque Country leading up to the tournament -- mostly Bilbao, plus short trips to Haro, Getxo, and San Sebastián. 
+
+The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket. 
+
+The transit in Bilbao was great, but we spent most of our days walking. Bilbao had a similar population to Minneapolis, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of Bilbao to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crepe, or a museum.
+
+[^5]: [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis): 3k people/km<sup>2</sup>. [Bilbao](https://en.wikipedia.org/wiki/Bilbao): 22k people/km<sup>2</sup>.
+
+
+
+
+We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town), which takes everything we love about Bilbao and turns it up to eleven. 
+
+
+
+
 
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda)*
