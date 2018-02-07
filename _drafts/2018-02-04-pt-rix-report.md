@@ -137,11 +137,11 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1**: I win the roll and keep an iffy six. Brandon gets stuck on one land, though, so my T5 [[Through the Breach:Breach]] is good enough.
 
-**Sideboard:** -4 [[Chalice of the Void]], -1 [[Woodfall Primus]], +3 [[Anger of the Gods]], +1 [[Obstinate Baloth]], +1 [[Thragtusk]].
+**Sideboard:** -4 [[Chalice of the Void]], -1 [[Woodfall Primus]], +3 [[Anger of the Gods]], +1 [[Obstinate Baloth]], +1 [[Thragtusk]]. It seems weird that [[Chalice of the Void]] would come out against Burn -- the whole deck is one-drops and two-drops -- but after a lot of playtesting I found it to be mediocre. I don't want to spend a turn playing [[Chalice of the Void:Chalice]] on one when they've already got [[Goblin Guide]] on the table, and on two it's just too slow. It's passable on the play, but on the draw I prefer [[Anger of the Gods]]. Notably, I usually bring in [[Reclamation Sage]] in against Burn, but I figured I was unlikely to see [[Blood Moon]] in the same deck as [[Wild Nacatl]]. 
 
 **Game 2:** This time, I get punished for my bad mulligan choice. I keep a hand with [[Obstinate Baloth:Baloth]] and [[Thragtusk]] but no ramp spells, and get run over too fast to play either.
 
-**Sideboard:** -3 [[Anger of the Gods]], +3 [[Chalice of the Void]]. I find that [[Anger of the Gods:Anger]] and [[Chalice of the Void:Chalice]] are both mediocre against Burn. I prefer [[Chalice of the Void:Chalice]] on the play and [[Anger of the Gods:Anger]] on the draw.
+**Sideboard:** -3 [[Anger of the Gods]], +3 [[Chalice of the Void]]. 
 
 **Game 3:** Brandon mulls to five and gets stuck on one land again.
 
