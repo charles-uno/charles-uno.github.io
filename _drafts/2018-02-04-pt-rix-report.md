@@ -15,7 +15,7 @@ The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese,
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda). We took the [funicular](https://en.wikipedia.org/wiki/Artxanda_Funicular) up the mountain, then wandered down on foot.*
 
-The transit in Bilbao was great, but we spent most of our days walking. Bilbao is similar to Minneapolis population-wise, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of town to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crepe, or a museum.
+The transit in Bilbao was great, but we spent most of our days walking. Bilbao is similar to Minneapolis population-wise, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of town to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crêpe, or a museum.
 
 [^5]: [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis): 3k people/km<sup>2</sup>. [Bilbao](https://en.wikipedia.org/wiki/Bilbao): 22k people/km<sup>2</sup>.
 
