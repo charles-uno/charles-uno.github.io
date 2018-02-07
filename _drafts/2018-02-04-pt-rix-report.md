@@ -248,7 +248,7 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 >
 > But I still think I punted this game.
 >
-> If I have mana up, I doubt Niels would have gone for the T3 kill, opening himself up to an 8-for-1 [[Lightning Bolt]]. With only four lands on the table, I wasn't broadcasting a win on my T4.
+> If I had mana up, I doubt Niels would have gone for the T3 kill, opening himself up to an 8-for-1 [[Lightning Bolt]]. With only four lands on the table, I wasn't broadcasting a win on my T4.
 >
 > So I was supposed to wait, leave mana up on his turn, and use [[Simian Spirit Guide:SSG]] to crack [[Blighted Woodland:Woodland]] on his end step. Then on my T4, I can [[Summoner's Pact:Pact]]-[[Through the Breach:Breach]] for 24.
 
