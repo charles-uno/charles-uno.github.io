@@ -19,7 +19,7 @@ The transit in Bilbao was great, but we spent most of our days walking. Bilbao i
 
 [^5]: [Minneapolis](https://en.wikipedia.org/wiki/Minneapolis): 3k people/km<sup>2</sup>. [Bilbao](https://en.wikipedia.org/wiki/Bilbao): 22k people/km<sup>2</sup>.
 
-We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town) (Old Town), a neighborhood that exaggerated everything novel about Bilbao. The narrow cobblestone streets -- open to foot traffic only -- were lined with hole-in-the-wall shops and restaurants. Once in a while, we would turn a corner to find a beautiful plaza or an ancient church. And, between the graffiti and the hairstyles, there was a just a hint of an 80s cyberpunk vibe.
+We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town), a neighborhood that exaggerated everything novel about Bilbao. The narrow cobblestone streets -- open to foot traffic only -- were lined with hole-in-the-wall shops and restaurants. Once in a while, we would turn a corner to find a beautiful plaza or an ancient church. And, between the graffiti and the hairstyles, there was a just a hint of an 80s cyberpunk vibe.
 
 Our two weeks in Spain were a welcome break from work and winter. Then, before I knew it, it was time to sling some cardboard. 
 
