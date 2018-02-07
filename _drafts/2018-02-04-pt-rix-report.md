@@ -311,9 +311,9 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 ![The Guggenheim Museum](/assets/images/pt-rix-guggenheim-16x9.png)
 *The Guggenheim Museum in downtown Bilbao.*
 
-## RIX are for Kids
+## Teaching an Old Dog New RIX
 
-At 7-8-1, I placed [217th](https://magic.wizards.com/en/events/coverage/ptrix/final-standings-2018-02-04) out of 463 competitors. My drafts were a bloodbath; I was unfamiliar with a powerful archetype, and I got run over by it. My Modern matchups were lucky -- not a single one was unfavorable -- and I punted several relevant games due to fatigue.
+At 7-8-1, I placed [217th](https://magic.wizards.com/en/events/coverage/ptrix/final-standings-2018-02-04) out of 463 competitors. My drafts were a bloodbath; I was unfamiliar with a powerful archetype, and I got run over by it. My Modern pairings were lucky -- not a single matchup was unfavorable -- and I punted several relevant games due to fatigue.
 
 Perhaps I could do better with more practice, but honestly I don't plan to. I'm proud to have made Day 2, and grateful to the folks who helped me get there[^7], but as far as competitive *Magic* is concerned, Bilbao was my victory lap.
 
