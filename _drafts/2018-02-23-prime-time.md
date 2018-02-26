@@ -53,9 +53,19 @@ We'll use the list below as a starting point for our calculations. On the play, 
     </tr>
 </table>
 
-The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it belongs in Titan Breach. 
+The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it belongs in Titan Breach.
 
-
+```
+pt                   :  27.0%  ±   0.6%  ;  50.3%  ±   0.8%  ;  38.6%  ±   0.5%
+pt-breach            :  17.8%  ±   0.7%  ;  34.2%  ±   1.0%  ;  25.9%  ±   0.6%
+pt-cantrip           :  32.9%  ±   0.8%  ;  55.3%  ±   1.0%  ;  44.2%  ±   0.7%
+pt-farseek           :  27.1%  ±   0.7%  ;  46.7%  ±   1.0%  ;  37.0%  ±   0.6%
+pt-hour              :  47.4%  ±   0.7%  ;  71.4%  ±   0.8%  ;  59.4%  ±   0.5%
+pt-oath              :  36.4%  ±   0.6%  ;  61.3%  ±   0.8%  ;  48.8%  ±   0.5%
+pt-ritual            :  53.3%  ±   0.7%  ;  73.9%  ±   0.9%  ;  63.6%  ±   0.6%
+pt-visions           :  38.9%  ±   0.9%  ;  62.5%  ±   1.1%  ;  50.7%  ±   0.7%
+pt-wraith            :  37.9%  ±   0.9%  ;  63.5%  ±   1.1%  ;  50.8%  ±   0.7%
+```
 
 A quick note on some unconventional choices:
 
@@ -80,20 +90,6 @@ Matthias, who lent me the deck in the first place, played [[Oath of Nissa]] inst
 
 
 
-
-
-
-```
-pt                   :  27.0%  ±   0.6%  ;  50.3%  ±   0.8%  ;  38.6%  ±   0.5%
-pt-breach            :  17.0%  ±   0.9%  ;  34.5%  ±   1.3%  ;  25.8%  ±   0.8%
-pt-cantrip           :  32.9%  ±   0.8%  ;  55.3%  ±   1.0%  ;  44.2%  ±   0.7%
-pt-farseek           :  27.1%  ±   0.7%  ;  46.7%  ±   1.0%  ;  37.0%  ±   0.6%
-pt-hour              :  47.4%  ±   0.7%  ;  71.4%  ±   0.8%  ;  59.4%  ±   0.5%
-pt-oath              :  36.4%  ±   0.6%  ;  61.3%  ±   0.8%  ;  48.8%  ±   0.5%
-pt-ritual            :  53.3%  ±   0.7%  ;  73.9%  ±   0.9%  ;  63.6%  ±   0.6%
-pt-visions           :  38.8%  ±   0.9%  ;  62.4%  ±   1.2%  ;  50.6%  ±   0.7%
-pt-wraith            :  37.9%  ±   0.9%  ;  63.5%  ±   1.1%  ;  50.8%  ±   0.7%
-```
 
 
 As a general rule, if you want to see something every game, you should play eight copies in a sixty-card deck. We always want a ramp spell on T2, so we play four [[Sakura-Tribe Elder]] and four [[Explore]]. We can't always have a [[Search for Tomorrow]] on T1, so we play a set of [[Simian Spirit Guide]] to fake it. [[Summoner's Pact]] is basically [[Primeval Titan]] five through eight.
