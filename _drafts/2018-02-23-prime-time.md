@@ -53,9 +53,13 @@ We'll use the list below as a starting point for our calculations. On the play, 
     </tr>
 </table>
 
+The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it belongs in Titan Breach. 
+
+
+
 A quick note on some unconventional choices:
 
-- Hornet Queen 
+- Hornet Queen
 
 
 
