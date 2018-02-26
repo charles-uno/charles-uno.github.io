@@ -29,14 +29,19 @@ Matthias[^2].
 
 [^2]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety.
 
+
+
+---
+
+
 ## The Deck
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3, or [[Through the Breach:Breach]] a [[Woodfall Primus]]; these don't win on the spot, but they set up a board state few opponents can overcome.
 
-Below is the maindeck I registered at PT RIX. On the play, it produces a T3 haymaker in 27% of games; on the draw, that number is 50%. Hands without a T3 [[Primeval Titan:Titan]] and/or [[Through the Breach:Breach]] almost always have one on T4, which can still be good enough, but is considerably more "fair."
+Below is the maindeck I registered at PT RIX. It produces a T3 haymaker in about 39% of games (27% on the play, 50% on the draw). Hands without a T3 [[Primeval Titan:Titan]] and/or [[Through the Breach:Breach]] almost always have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
-    <caption class="deckname">Baseline Titan Breach</caption>
+    <caption class="deckname">Titan Breach</caption>
     <tr>
         <td>
             4 [[Explore]]<br>
@@ -65,10 +70,26 @@ Below is the maindeck I registered at PT RIX. On the play, it produces a T3 haym
 
 The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it's correct. The deck often burns through its whole hand to get [[Primeval Titan]] on the table, but doesn't have enough Mountains to win on the spot. This can happen if we've drawn our basic [[Forest]], been hit by [[Spreading Seas]], or used [[Simian Spirit Guide]] to cheat on mana. In those situations, tutoring up a [[Blighted Woodland]] often allows us to win as soon as we untap -- even if we topdeck a blank, even if our opponent has a counterspell, and even if we're supposed to use all our green mana to pay for [[Summoner's Pact]]. 
 
+[[Explore]] is also unusual. Most lists play [[Farseek]] instead. With 25 lands, both are equally good (XX%) at producing a T3 haymaker. But with [[Blighted Woodland]] as a 26th land, [[Explore]] is a few points better than [[Farseek]] (39% versus 37%). [[Explore]] sometimes whiffs, which can be frustrating, but it also has a chance to draw us into a missing [[Through the Breach]] or [[Simian Spirit Guide]]. We can also use [[Explore]] to play a tapped [[Cinder Glade]] or [[Valakut, the Molten Pinnacle:Valakut]] without throwing off our curve. 
+
+## The Model
 
 
 
 
+
+
+
+
+
+
+
+
+
+```
+pt-25?
+pt-25-farseek?
+```
 
 
 
