@@ -6,6 +6,16 @@ description: ""
 keywords:
 ---
 
+I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I piloted [Titan Breach](https://www.mtggoldfish.com/deck/923196#paper) to a 6-4 finish -- pretty good for a guy who's never even made Day 2 of a GP! 
+
+
+
+
+
+
+
+---
+
 As *Magic: the Gathering* players go, I'm mediocre. My practice schedule is (at best) sporadic, and I find full-day tournaments exhausting. But, through a combination of good luck and number crunching, I scored an invite to [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix) in Bilbao, Spain -- and even came away with a winning record in Modern[^1]!
 
 [^1]: My Modern record was 6-4, despite punting several relevant games due to fatigue. My drafts, on the other hand, were a bloodbath. I was unfamiliar with a powerful archetype, and I got run over by it, going 1-4-1.
@@ -23,15 +33,15 @@ Matthias[^2].
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3, or [[Through the Breach:Breach]] a [[Woodfall Primus]]; these don't win on the spot, but they set up a board state few opponents can overcome.
 
-We'll use the list below as a starting point for our calculations. On the play, it produces a T3 haymaker in 27% of games; on the draw, that number is 47%. Hands without a T3 [[Primeval Titan:Titan]] and/or [[Through the Breach:Breach]] almost always have one on T4, which can still be good enough, but is considerably more "fair."
+Below is the maindeck I registered at PT RIX. On the play, it produces a T3 haymaker in 27% of games; on the draw, that number is 50%. Hands without a T3 [[Primeval Titan:Titan]] and/or [[Through the Breach:Breach]] almost always have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
     <tr>
         <td>
-            4 [[Farseek]]<br>
+            4 [[Explore]]<br>
             1 [[Hornet Queen]]<br>
-            4 [[Lightning Bolt]]<br>
+            4 [[Chalice of the Void]]<br>
             4 [[Primeval Titan]]<br>
             4 [[Sakura-Tribe Elder]]<br>
             4 [[Simian Spirit Guide]]<br>
@@ -53,7 +63,20 @@ We'll use the list below as a starting point for our calculations. On the play, 
     </tr>
 </table>
 
-The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it belongs in Titan Breach.
+The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it's correct. The deck often burns through its whole hand to get [[Primeval Titan]] on the table, but doesn't have enough Mountains to win on the spot. This can happen if we've drawn our basic [[Forest]], been hit by [[Spreading Seas]], or used [[Simian Spirit Guide]] to cheat on mana. In those situations, tutoring up a [[Blighted Woodland]] often allows us to win as soon as we untap -- even if we topdeck a blank, even if our opponent has a counterspell, and even if we're supposed to use all our green mana to pay for [[Summoner's Pact]]. 
+
+
+
+
+
+
+
+
+It can even be cracked with a [[Summoner's Pact]] trigger on the stack. 
+
+Defer damage until you can one-shot a Shadow player, or blow up a Leyline. 
+
+
 
 ```
 pt                   :  27.0%  ±   0.6%  ;  50.3%  ±   0.8%  ;  38.6%  ±   0.5%
