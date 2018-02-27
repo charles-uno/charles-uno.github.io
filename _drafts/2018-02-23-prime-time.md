@@ -76,17 +76,20 @@ If we like, we can use our four "flex slots" to bump our interactive suite out t
 
 Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/), we haven't got the patience or play skill to spell out explicitly how the computer should sequence its plays. Instead, we use brute force. Every time the computer has a choice between multiple plays, it makes that many copies of the game state and tries them all. 
 
-The computer makes thousands[^6] of copies of each hand. Each copy is played differently, and most of those plays are wrong. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]]. 
+The computer makes thousands of copies of each hand. Each copy is played differently, and most of those plays are wrong. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]]. 
 
-[^6]: Playing *Magic* by brute force would be impossibly slow to do by hand, but it's pretty quick on a computer. A laptop can churn through 100k hands overnight. That's like goldfishing one hand per minute for two months straight. 
+It bears noting that the computer is actually a little *too* good. Playing every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best[^8]. 
 
-It bears noting that the computer is actually a little *too* good. Playing every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best. 
+[^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time. 
 
-Shuffling is also a problem for our brute force model. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]] and shuffle, then crack it for a [[Cinder Glade]] and shuffle, then crack it for a [[Mountain]] and shuffle... then compare the order of the three decks and keep whichever one we liked best! 
-
-As a workaround, whenever we crack a [[Wooded Foothills]] or [[Sakura-Tribe Elder]], instead of thinning a land from our deck, we create a new land out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on. 
+Shuffling is also a problem for our brute force model. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]] and shuffle, then crack it for a [[Cinder Glade]] and shuffle, then crack it for a [[Mountain]] and shuffle... then compare the order of the three decks and keep whichever one we liked best! As a workaround, whenever we crack a [[Wooded Foothills]] or [[Sakura-Tribe Elder]], instead of thinning a land from our deck, we create a new land out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on. 
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. That's about a one-in-fifty chance of drawing a land that should have been a spell. 
+
+
+
+
+
 
 ---
 
