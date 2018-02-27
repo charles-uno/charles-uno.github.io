@@ -78,7 +78,7 @@ Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-
 
 The computer makes thousands of copies of each hand. Each copy is played differently, and most of those plays are wrong. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]]. 
 
-It bears noting that the computer is actually a little *too* good. Playing every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best[^8]. 
+It bears noting that the computer is actually a little *too* good. Trying every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best[^8]. 
 
 [^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time. 
 
