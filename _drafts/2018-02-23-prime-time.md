@@ -74,22 +74,39 @@ If we like, we can use our four "flex slots" to bump our interactive suite out t
 
 ## The Model
 
-Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/), we haven't got the patience or play skill to spell out how the computer should sequence its plays. Instead, we use brute force. Every time the computer has a choice between multiple actions, it copies itself and tries them all.
+Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/), we haven't got the patience or play skill to spell out explicitly how the computer should sequence its plays. Instead, we use brute force. Every time the computer has a choice between multiple plays, it makes that many copies of the game state and tries them all. 
 
-For example, suppose the computer draws the following hand: [[Stomping Ground]], [[Mountain]], [[Mountain]], [[Search for Tomorrow]], [[Sakura-Tribe Elder]], [[Simian Spirit Guide]], [[Primeval Titan]]. It will immediately copy itself six times:
+The computer makes thousands[^6] of copies of each hand. Each copy is played differently, and most of those plays are wrong. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]]. 
 
-- Mulligan, scry to top.
-- Mulligan, scry to bottom.
-- Play [[Mountain]].
-- Play [[Stomping Ground]].
-- Exile [[Simian Spirit Guide]].
-- Pass the turn without playing a land.
+[^6]: Playing *Magic* by brute force would be impossibly slow to do by hand, but it's pretty quick on a computer. A laptop can churn through 100k hands overnight. That's like goldfishing one hand per minute for two months straight. 
 
-Those six copies will then branch again and again, exhausting the thousands[^6] of possible ways to play out the hand, almost all of them terrible. Eventually, one of those copies will find a line that gets [[Primeval Titan]] on the table. That's the one we keep.
+It bears noting that the computer is actually a little *too* good. Playing every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best.
 
-[^6]: Playing *Magic* by brute force would be impossibly slow to do by hand, but it's pretty quick on a computer. A laptop can churn through 100k hands overnight.
 
-It bears noting that our numbers are a bit inflated because the computer exhibits better-than-perfect play. It doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever is best.
+
+
+
+Shuffling is a problem for our brute force solution, so we don't do it. 
+
+
+
+
+Solving hands by brute force means shuffling is a problem. Imagine we have a [[Wooded Foothills]] on the battlefield and a [[Street Wraith]] in our hand. 
+
+
+
+
+
+
+
+
+
+Using a brute force solution also requires that we make a simplifying assumption: no shuffling. 
+
+
+
+
+
 
 
 ```
