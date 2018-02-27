@@ -92,19 +92,42 @@ Those six copies will then branch again and again, exhausting the thousands[^6] 
 It bears noting that our numbers are a bit inflated because the computer exhibits better-than-perfect play. It doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever is best.
 
 
-
-
 ```
-baseline-explore     -  :  14020 trials ;  22.5%  ±   0.6%  ;  44.3%  ±   0.8%  ;  33.3%  ±   0.5%
-baseline-farseek     -  :  21435 trials ;  22.2%  ±   0.5%  ;  42.2%  ±   0.6%  ;  32.2%  ±   0.4%
-try-hour             -  :  10757 trials ;  45.5%  ±   0.9%  ;  68.6%  ±   1.1%  ;  57.3%  ±   0.7%
-try-oath             -  :   6442 trials ;  28.7%  ±   0.9%  ;  54.8%  ±   1.3%  ;  41.7%  ±   0.8%
-try-ritual           -  :  13460 trials ;  46.6%  ±   0.8%  ;  71.1%  ±   1.0%  ;  58.7%  ±   0.7%
-try-visions          -  :   3897 trials ;  32.9%  ±   1.3%  ;  57.0%  ±   1.7%  ;  44.9%  ±   1.1%
-try-wraith           -  :  19430 trials ;  32.2%  ±   0.6%  ;  56.7%  ±   0.8%  ;  44.6%  ±   0.5%
+baseline-explore     K  :  10849 trials ;  26.6%  ±   0.7%  ;  48.8%  ±   1.0%  ;  37.3%  ±   0.6%
+baseline-explore     M  :   8327 trials ;  22.4%  ±   0.7%  ;  46.0%  ±   1.0%  ;  34.5%  ±   0.6%
+baseline-explore     MM :   4290 trials ;  11.7%  ±   0.8%  ;  34.8%  ±   1.2%  ;  24.2%  ±   0.8%
+baseline-explore     -  :  23466 trials ;  22.7%  ±   0.4%  ;  45.0%  ±   0.6%  ;  33.9%  ±   0.4%
+
+baseline-farseek     K  :  11304 trials ;  25.0%  ±   0.7%  ;  44.8%  ±   0.9%  ;  34.6%  ±   0.6%
+baseline-farseek     M  :   9203 trials ;  22.2%  ±   0.7%  ;  42.0%  ±   0.9%  ;  32.3%  ±   0.6%
+baseline-farseek     MM :   4790 trials ;  10.7%  ±   0.7%  ;  32.0%  ±   1.1%  ;  22.3%  ±   0.7%
+baseline-farseek     -  :  25297 trials ;  21.5%  ±   0.4%  ;  41.2%  ±   0.6%  ;  31.4%  ±   0.4%
+
+try-hour             K  :  11755 trials ;  48.4%  ±   0.9%  ;  71.0%  ±   1.1%  ;  59.2%  ±   0.7%
+try-hour             M  :   9687 trials ;  44.2%  ±   1.0%  ;  68.1%  ±   1.2%  ;  56.5%  ±   0.8%
+try-hour             MM :   4929 trials ;  32.4%  ±   1.2%  ;  61.0%  ±   1.5%  ;  47.4%  ±   1.0%
+try-hour             -  :  26372 trials ;  44.1%  ±   0.6%  ;  68.0%  ±   0.7%  ;  56.0%  ±   0.5%
+
+try-oath             K  :   9213 trials ;  35.8%  ±   0.9%  ;  60.0%  ±   1.2%  ;  47.4%  ±   0.7%
+try-oath             M  :   7298 trials ;  30.2%  ±   0.9%  ;  57.3%  ±   1.2%  ;  43.9%  ±   0.8%
+try-oath             MM :   3489 trials ;  19.2%  ±   1.1%  ;  49.3%  ±   1.6%  ;  35.5%  ±   1.0%
+try-oath             -  :  20000 trials ;  31.1%  ±   0.6%  ;  57.0%  ±   0.8%  ;  44.1%  ±   0.5%
+
+try-ritual           K  :  10945 trials ;  51.2%  ±   0.9%  ;  72.2%  ±   1.2%  ;  61.3%  ±   0.7%
+try-ritual           M  :   8564 trials ;  47.5%  ±   1.1%  ;  69.0%  ±   1.3%  ;  58.4%  ±   0.8%
+try-ritual           MM :   4047 trials ;  31.3%  ±   1.3%  ;  63.6%  ±   1.7%  ;  48.5%  ±   1.1%
+try-ritual           -  :  23556 trials ;  46.7%  ±   0.6%  ;  69.4%  ±   0.8%  ;  58.1%  ±   0.5%
+
+try-visions          K  :   7521 trials ;  38.2%  ±   1.0%  ;  62.6%  ±   1.3%  ;  50.0%  ±   0.8%
+try-visions          M  :   5871 trials ;  31.6%  ±   1.0%  ;  58.6%  ±   1.4%  ;  45.1%  ±   0.9%
+try-visions          MM :   2699 trials ;  17.7%  ±   1.2%  ;  50.6%  ±   1.9%  ;  35.7%  ±   1.1%
+try-visions          -  :  16091 trials ;  32.7%  ±   0.6%  ;  58.9%  ±   0.9%  ;  45.8%  ±   0.5%
+
+try-wraith           K  :   9140 trials ;  37.7%  ±   0.9%  ;  60.6%  ±   1.2%  ;  48.5%  ±   0.7%
+try-wraith           M  :   7281 trials ;  30.8%  ±   0.9%  ;  58.3%  ±   1.3%  ;  44.6%  ±   0.8%
+try-wraith           MM :   3579 trials ;  19.3%  ±   1.1%  ;  48.3%  ±   1.6%  ;  35.0%  ±   1.0%
+try-wraith           -  :  20000 trials ;  32.2%  ±   0.6%  ;  57.3%  ±   0.8%  ;  44.7%  ±   0.5%
 ```
-
-
 
 
 
