@@ -6,7 +6,7 @@ description: ""
 keywords:
 ---
 
-I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I piloted [Titan Breach](https://www.mtggoldfish.com/deck/923196#paper) to a 6-4 finish -- pretty good for a guy who's never even made Day 2 of a GP! 
+I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I piloted [Titan Breach](https://www.mtggoldfish.com/deck/923196#paper) to a 6-4 finish -- pretty good for a guy who's never even made Day 2 of a GP!
 
 
 
@@ -36,27 +36,25 @@ Matthias[^2].
 
 ## The Deck
 
-The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3, or [[Through the Breach:Breach]] a [[Woodfall Primus]]; these don't win on the spot, but they set up a board state few opponents can overcome.
+The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Below is the maindeck I registered at PT RIX. It produces a T3 haymaker in about 39% of games (27% on the play, 50% on the draw). Hands without a T3 [[Primeval Titan:Titan]] and/or [[Through the Breach:Breach]] almost always have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the "flex slots" are blanks, the the build below can land a T3 [[Primeval Titan]] in about 33% of games (22% on the play, 44% on the draw). Hands without a T3 [[Primeval Titan:Titan]] almost always (88%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
-    <caption class="deckname">Titan Breach</caption>
+    <caption class="deckname">Baseline Titan Breach</caption>
     <tr>
         <td>
+            3 [[Anger of the Gods]]<br>
             4 [[Explore]]<br>
-            1 [[Hornet Queen]]<br>
-            4 [[Chalice of the Void]]<br>
             4 [[Primeval Titan]]<br>
             4 [[Sakura-Tribe Elder]]<br>
-            4 [[Simian Spirit Guide]]<br>
             4 [[Search for Tomorrow]]<br>
+            4 [[Simian Spirit Guide]]<br>
             4 [[Summoner's Pact]]<br>
             4 [[Through the Breach]]<br>
-            1 [[Woodfall Primus]]<br>
+            4 ???<br>
         </td>
         <td>
-            1 [[Blighted Woodland]]<br>
             1 [[Cinder Glade]]<br>
             1 [[Forest]]<br>
             7 [[Mountain]]<br>
@@ -68,9 +66,70 @@ Below is the maindeck I registered at PT RIX. It produces a T3 haymaker in about
     </tr>
 </table>
 
-The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it's correct. The deck often burns through its whole hand to get [[Primeval Titan]] on the table, but doesn't have enough Mountains to win on the spot. This can happen if we've drawn our basic [[Forest]], been hit by [[Spreading Seas]], or used [[Simian Spirit Guide]] to cheat on mana. In those situations, tutoring up a [[Blighted Woodland]] often allows us to win as soon as we untap -- even if we topdeck a blank, even if our opponent has a counterspell, and even if we're supposed to use all our green mana to pay for [[Summoner's Pact]]. 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is more than made up for by the chance to find a missing [[Through the Breach]] or [[Simian Spirit Guide]]. [[Explore]] and [[Farseek]] are equally good at delivering a T3 [[Primeval Titan:Titan]] on the play (22%), but [[Explore]] (44%) is a few points better than [[Farseek]] (42%) on the draw.
 
-[[Explore]] is also unusual. Most lists play [[Farseek]] instead. With 25 lands, both are equally good (XX%) at producing a T3 haymaker. But with [[Blighted Woodland]] as a 26th land, [[Explore]] is a few points better than [[Farseek]] (39% versus 37%). [[Explore]] sometimes whiffs, which can be frustrating, but it also has a chance to draw us into a missing [[Through the Breach]] or [[Simian Spirit Guide]]. We can also use [[Explore]] to play a tapped [[Cinder Glade]] or [[Valakut, the Molten Pinnacle:Valakut]] without throwing off our curve. 
+[[Anger of the Gods]] could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
+
+If we like, we can use our four "flex slots" to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
+
+## The Model
+
+Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/), we haven't got the patience or play skill to spell out how the computer should sequence its plays. Instead, we use brute force. Every time the computer has a choice between multiple actions, it copies itself and tries them all.
+
+For example, suppose the computer draws the following hand: [[Stomping Ground]], [[Mountain]], [[Mountain]], [[Search for Tomorrow]], [[Sakura-Tribe Elder]], [[Simian Spirit Guide]], [[Primeval Titan]]. It will immediately copy itself six times:
+
+- Mulligan, scry to top.
+- Mulligan, scry to bottom.
+- Play [[Mountain]].
+- Play [[Stomping Ground]].
+- Exile [[Simian Spirit Guide]].
+- Pass the turn without playing a land.
+
+Those six copies will then branch again and again, exhausting the thousands[^6] of possible ways to play out the hand, almost all of them terrible. Eventually, one of those copies will find a line that gets [[Primeval Titan]] on the table. That's the one we keep.
+
+[^6]: Playing *Magic* by brute force would be impossibly slow to do by hand, but it's pretty quick on a computer. A laptop can churn through 100k hands overnight.
+
+It bears noting that our numbers are a bit inflated because the computer exhibits better-than-perfect play. It doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever is best.
+
+
+
+
+```
+baseline-explore     -  :  14020 trials ;  22.5%  ±   0.6%  ;  44.3%  ±   0.8%  ;  33.3%  ±   0.5%
+baseline-farseek     -  :  21435 trials ;  22.2%  ±   0.5%  ;  42.2%  ±   0.6%  ;  32.2%  ±   0.4%
+try-hour             -  :  10757 trials ;  45.5%  ±   0.9%  ;  68.6%  ±   1.1%  ;  57.3%  ±   0.7%
+try-oath             -  :   6442 trials ;  28.7%  ±   0.9%  ;  54.8%  ±   1.3%  ;  41.7%  ±   0.8%
+try-ritual           -  :  13460 trials ;  46.6%  ±   0.8%  ;  71.1%  ±   1.0%  ;  58.7%  ±   0.7%
+try-visions          -  :   3897 trials ;  32.9%  ±   1.3%  ;  57.0%  ±   1.7%  ;  44.9%  ±   1.1%
+try-wraith           -  :  19430 trials ;  32.2%  ±   0.6%  ;  56.7%  ±   0.8%  ;  44.6%  ±   0.5%
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+---
+
+
+
+
+
+
+The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident it's correct. The deck often burns through its whole hand to get [[Primeval Titan]] on the table, but doesn't have enough Mountains to win on the spot. This can happen if we've drawn our basic [[Forest]], been hit by [[Spreading Seas]], or used [[Simian Spirit Guide]] to cheat on mana. In those situations, tutoring up a [[Blighted Woodland]] often allows us to win as soon as we untap -- even if we topdeck a blank, even if our opponent has a counterspell, and even if we're supposed to use all our green mana to pay for [[Summoner's Pact]].
+
+[[Explore]] is also unusual. Most lists play [[Farseek]] instead. With 25 lands, both are equally good (XX%) at producing a T3 haymaker. But with [[Blighted Woodland]] as a 26th land, [[Explore]] is a few points better than [[Farseek]] (39% versus 37%). [[Explore]] sometimes whiffs, which can be frustrating, but it also has a chance to draw us into a missing [[Through the Breach]] or [[Simian Spirit Guide]]. We can also use [[Explore]] to play a tapped [[Cinder Glade]] or [[Valakut, the Molten Pinnacle:Valakut]] without throwing off our curve.
 
 ## The Model
 
@@ -82,55 +141,6 @@ The singleton [[Blighted Woodland]] is a bit unconventional, but I'm confident i
 
 
 
-
-
-
-
-```
-pt-25?
-pt-25-farseek?
-```
-
-
-
-It can even be cracked with a [[Summoner's Pact]] trigger on the stack. 
-
-Defer damage until you can one-shot a Shadow player, or blow up a Leyline. 
-
-
-
-```
-pt                   :  27.0%  ±   0.6%  ;  50.3%  ±   0.8%  ;  38.6%  ±   0.5%
-pt-breach            :  17.8%  ±   0.7%  ;  34.2%  ±   1.0%  ;  25.9%  ±   0.6%
-pt-cantrip           :  32.9%  ±   0.8%  ;  55.3%  ±   1.0%  ;  44.2%  ±   0.7%
-pt-farseek           :  27.1%  ±   0.7%  ;  46.7%  ±   1.0%  ;  37.0%  ±   0.6%
-pt-hour              :  47.4%  ±   0.7%  ;  71.4%  ±   0.8%  ;  59.4%  ±   0.5%
-pt-oath              :  36.4%  ±   0.6%  ;  61.3%  ±   0.8%  ;  48.8%  ±   0.5%
-pt-ritual            :  53.3%  ±   0.7%  ;  73.9%  ±   0.9%  ;  63.6%  ±   0.6%
-pt-visions           :  38.9%  ±   0.9%  ;  62.5%  ±   1.1%  ;  50.7%  ±   0.7%
-pt-wraith            :  37.9%  ±   0.9%  ;  63.5%  ±   1.1%  ;  50.8%  ±   0.7%
-```
-
-A quick note on some unconventional choices:
-
-- Hornet Queen
-
-
-
-The list includes a few unconventional choices.
-
-- Blighted Woodland.
-- Hornet Queen. Doesn't quite line up with "Plan A," but it's pretty close. It's a resilient threat that can be Breached. Most decks in the format struggle to win through it. Started in the sideboard, but basically never comes out. Tickled to see Malte Smits maindeck one at [GP Lyon](https://www.mtggoldfish.com/deck/948709#paper) shortly after PT RIX.
-
-Matthias, who lent me the deck in the first place, played [[Oath of Nissa]] instead of [[Lightning Bolt]]
-
-
-
-
-
-
-
-[[Farseek]] is easy to evaluate: it ramps us into a [[Cinder Glade:dual land]], which counts as a [[Mountain]] for [[Valakut, the Molten Pinnacle:Valakut]] as well as giving us another green source in case we need to hard-cast [[Primeval Titan:Titan]]. [[Explore]] is trickier. It's *usually* a ramp spell on T2, but sometimes it whiffs. The trade-off is, it *sometimes* helps find a missing [[Through the Breach:Breach]] or [[Primeval Titan:Titan]]. [[Explore]] also lets us play the extra land untapped, which *occasionally* lets us squeeze in an extra [[Oath of Nissa:Oath]] or [[Lightning Bolt:Bolt]].
 
 
 
