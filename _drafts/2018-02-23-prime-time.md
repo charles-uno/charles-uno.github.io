@@ -61,7 +61,11 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is more than made up for by the chance to find a missing [[Through the Breach]] or [[Simian Spirit Guide]]. If [[Explore]] is swapped for [[Farseek]] in the above list, odds of casting or [[Through the Breach"Breaching]] a T3 [[Primeval Titan:Titan]] drop from 23% to 22% on the play, and from 44% to 42% on the draw. [[Farseek]] also makes the deck slightly less likely (XX% vs YY%) to land [[Primeval Titan:Titan]] by T4. 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is more than made up for by the chance to find a missing [[Through the Breach]] or [[Simian Spirit Guide]]. If [[Explore]] is swapped for [[Farseek]] in the above list, odds of casting or [[Through the Breach:Breaching]] a T3 [[Primeval Titan:Titan]] drop from 23% to 22% on the play, and from 44% to 42% on the draw. [[Farseek]] also makes the deck slightly less likely (XX% vs YY%) to land [[Primeval Titan:Titan]] by T4. 
+
+
+> Leonin Arbiter
+
 
 [[Anger of the Gods]] could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
@@ -104,6 +108,9 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 ## The Results
 
 
+> The following tables show...
+
+
 | Slot 57-60        | T3 Play | T3 Draw | T3 Average |
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
@@ -112,14 +119,19 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are acceleration. All values plus-or-minus 1%.</p>
 
-The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search for Tomorrow]] five through eight, or [[Desperate Ritual]] as [[Through the Breach]] five through eight, almost doubles our odds of landing a T3 [[Primeval Titan]] on the play. 
+The effect of extra acceleration is huge. Compared to the baseline list, a set of [[Desperate Ritual]] or [[Utopia Sprawl]] makes us half again as consistent on the draw and *twice* as consistent on the play. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make twelve. 
+
+Unfortunately, these gains are fragile. [[Utopia Sprawl]] lets our opponent two-for-one us with [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] can be cast as [[Gray Ogre]] in a pinch!
 
 
-- +20% is four extra T3 Titans over the course of an 8-round event. 
-- +25% is five. 
 
-- Ritual is shut down by Thalia. It's awkward against Eidolon. It's also vulnerable to counterspells and can be stranded by discard. 
-- Sprawl is persistent ramp (unlike the one-shot Ritual) so it's better against counterspells. Can't be stranded in our hand by discard. But it's a blowout with Field of Ruin, and can be knocked off by Blood Moon or Spreading Seas. 
+
+
+Unfortunately, these gains aren't as good as they seem. [[Valakut, the Molten Pinnacle:Valakut]] doesn't do anything unless we have a pile of mountains on the table, so three lands into [[Simian Spirit Guide:SSG]]-[[Desperate Ritual:Ritual]]-[[Through the Breach:Breach]] doesn't win[^12]. 
+
+[^12]: [[Blighted Woodland]] 
+
+
 
 
 
@@ -130,6 +142,16 @@ The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search f
 | Hour of Promise   | 44%     | 68%     | 56%        |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the "flex slots" in the above decklist are [[Hour of Promise]]. All values plus-or-minus 1%.</p>
+
+
+[[Hour of Promise]] puts up similar numbers to [[Utopia Sprawl]] and [[Desperate Ritual]]. 
+
+Would we rather cast/breach Titan off 3-4 lands or cast Hour off 4-5? Not obvious. 
+
+
+
+
+
 
 - It's good in grindy matchups. Jund has tons of removal, so we rarely get to turn a Titan sideways. Blue-based decks probably lose if they let it resolve. We're pretty good here anyway. 
 - It's bad in racing matchups. Unlike Breach, it can't kill Storm, Infect, or Bogles on the spot. These matchups are awful anyway. 
