@@ -88,6 +88,46 @@ Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] fo
 
 ## The Contenders
 
+The best Titan Breach hands all look about the same: T1 suspend [[Search for Tomorrow:Search]], T2 [[Sakura-Tribe Elder:Steve]]/[[Explore]], T3 [[Through the Breach:Breach]] into [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]]. With eight two-drop ramp spells and (essentially) eight [[Primeval Titan:Titans]], it's reasonably safe[^10] to expect one of each. The same can't be said for [[Search for Tomorrow]] or [[Through the Breach]]. Even with [[Simian Spirit Guide]] to fill in some gaps, we often have nothing to do on T1, or fall short on T3. 
+
+[^10]: With four [[Summoner's Pact]] and four [[Primeval Titan]] in a sixty-card deck, we have a [65% chance](http://www.wolframalpha.com/input/?i=1+-+(52+choose+7)%2F(60+choose+7)) to see one in our opening seven, and a 77% chance to draw one by T3 ([75%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+9)%2F(60+choose+9)) play, [79%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+10)%2F(60+choose+10)) draw). With only four copies of [[Through the Breach]], we have only a [40% chance](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) to see one in our opening seven and a 51% chance to find one by T3 ([49%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) play, [53%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+10)%2F(60+choose+10)) draw). 
+
+
+---
+
+
+
+
+
+you have about a two-in-three chance to see one in a 
+
+
+
+This suggests three different directions for the flex slots:
+
+- More acceleration. Utopia Sprawl does a passable impression of Search for Tomorrow. Desperate Ritual, like Breach, can let us cast Titan off five lands on T3.
+
+- An alternative haymaker. If we have five mana on T3 but no Breach, what if we cast Hour of Promise instead? 
+
+- Cantrips. 
+
+
+
+
+
+
+We play eight two-drop ramp spells (STE and Explore) and eight Titans (counting Pact), so it's reasonable safe to count on drawing one of each. 
+
+
+
+
+
+but our best hands also need Search and Breach 
+
+
+
+
+
 
 
 
