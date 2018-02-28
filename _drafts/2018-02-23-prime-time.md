@@ -82,9 +82,12 @@ It bears noting that the computer is actually a little *too* good. Trying every 
 
 [^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time.
 
-Shuffling is also a problem for our brute force model. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]] and shuffle, then crack it for a [[Cinder Glade]] and shuffle, then crack it for a [[Mountain]] and shuffle... then compare the order of the three decks and keep whichever one we liked best! As a workaround, whenever we crack a [[Wooded Foothills]] or [[Sakura-Tribe Elder]], instead of thinning a land from our deck, we create a new land out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
+Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then compare the top card of each deck and keep the one we like best! As a workaround, whenever we would thin a land from the deck, instead we just create a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. That's about a one-in-fifty chance of drawing a land that should have been a spell.
+
+## The Contenders
+
 
 
 
