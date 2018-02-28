@@ -97,7 +97,7 @@ This suggests three different directions for the flex slots:
 
 Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying every option tells us about the potential of [[Serum Visions]] as a card, independent of our abilities as players. 
 
-### The Results
+## The Results
 
 
 | Slot 57-60        | T3 Play | T3 Draw | T3 Average |
