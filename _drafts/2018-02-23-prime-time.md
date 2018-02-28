@@ -92,37 +92,15 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 [^10]: With four [[Summoner's Pact]] and four [[Primeval Titan]] in a sixty-card deck, we have a [65% chance](http://www.wolframalpha.com/input/?i=1+-+(52+choose+7)%2F(60+choose+7)) to see one in our opening seven, and a 77% chance to draw one by T3 ([75%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+9)%2F(60+choose+9)) play, [79%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+10)%2F(60+choose+10)) draw). With only four copies of [[Through the Breach]], we have only a [40% chance](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) to see one in our opening seven and a 51% chance to find one by T3 ([49%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) play, [53%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+10)%2F(60+choose+10)) draw). 
 
-
----
-
-
-
-
-
-you have about a two-in-three chance to see one in a 
-
-
-
 This suggests three different directions for the flex slots:
 
-- More acceleration. Utopia Sprawl does a passable impression of Search for Tomorrow. Desperate Ritual, like Breach, can let us cast Titan off five lands on T3.
-
-- An alternative haymaker. If we have five mana on T3 but no Breach, what if we cast Hour of Promise instead? 
-
-- Cantrips. 
+- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]]. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
+- An alternative haymaker. If we have five mana on T3 but no [[Through the Breach]], what if we cast [[Hour of Promise]] instead? 
+- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back; we can also check out [[Street Wraith]], [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]] for comparison. 
 
 
 
-
-
-
-We play eight two-drop ramp spells (STE and Explore) and eight Titans (counting Pact), so it's reasonable safe to count on drawing one of each. 
-
-
-
-
-
-but our best hands also need Search and Breach 
+[^11]: On its face, [[Ancient Stirrings]] seems like an odd choice in this deck. Sometimes people like to play an [[Emrakul, the Aeons Torn:Emrakul]] or two, but otherwise the only colorless cards are lands. It actually plays surprisingly well. Finding [[Valakut, the Molten Pinnacle]] is valuable against permission-heavy opponents. Finding fetches (and leaving mountains in the deck) allows us to trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And many important sideboard cards are colorless: [[Chalice of the Void]], [[Engineered Explosives]], [[Relic of Progenitus]], [[Grafdigger's Cage]], etc. 
 
 
 
