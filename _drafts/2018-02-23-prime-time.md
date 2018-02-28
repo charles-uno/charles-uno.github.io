@@ -25,11 +25,6 @@ After spiking a PPTQ in September, I coded a simulation of my deck in Python[^3]
 [^3]: Code is visible on GitHub [here](https://github.com/charles-uno/valakut/blob/master/driver.py). Comments and pull requests welcome!
 
 
-Matthias[^2].
-
-[^2]: Matthias Hunt, of [Amulet Bloom](http://www.starcitygames.com/article/28042_Amulet-Combo-Primer.html) notoriety.
-
-
 
 ---
 
@@ -98,9 +93,17 @@ This suggests three different directions for the flex slots:
 - An alternative haymaker. If we have five mana on T3 but no [[Through the Breach]], what if we cast [[Hour of Promise]] instead? 
 - Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back; we can also check out [[Street Wraith]], [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]] for comparison. 
 
-
-
 [^11]: On its face, [[Ancient Stirrings]] seems like an odd choice in this deck. Sometimes people like to play an [[Emrakul, the Aeons Torn:Emrakul]] or two, but otherwise the only colorless cards are lands. It actually plays surprisingly well. Finding [[Valakut, the Molten Pinnacle]] is valuable against permission-heavy opponents. Finding fetches (and leaving mountains in the deck) allows us to trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And many important sideboard cards are colorless: [[Chalice of the Void]], [[Engineered Explosives]], [[Relic of Progenitus]], [[Grafdigger's Cage]], etc. 
+
+Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying out every option tells us about the potential of [[Serum Visions]] as a card, regardless of our abilities as players. 
+
+
+
+
+
+
+
+
 
 
 
