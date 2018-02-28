@@ -106,7 +106,23 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 | Desperate Ritual  | 47%     | 69%     | 58%        |
 | Utopia Sprawl     | %     | %     | %        |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are acceleration. All values rounded. Uncertainties are within about 1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are acceleration. All values plus-or-minus 1%.</p>
+
+The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search for Tomorrow]] five through eight, or [[Desperate Ritual]] as [[Through the Breach]] five through eight, almost doubles our odds of landing a T3 [[Primeval Titan]] on the play. 
+
+
+
++20% is four extra T3 Titans over the course of an 8-round event. 
+
++25% is five. 
+
+
+
+
+
+
+
+
 
 
 | Slot 57-60        | T3 Play | T3 Draw | T3 Average |
@@ -116,7 +132,7 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 
 
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the "flex slots" in the above decklist are [[Hour of Promise]]. All values rounded. Uncertainties are within about 1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the "flex slots" in the above decklist are [[Hour of Promise]]. All values plus-or-minus 1%.</p>
 
 
 | Slot 57-60        | T3 Play | T3 Draw | T3 Average |
@@ -127,6 +143,6 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 | Serum Visions     | 33%     | 58%     | 46%        |
 | Street Wraith     | 32%     | 57%     | 45%        |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are cantrips. All values rounded. Uncertainties are within about 1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are cantrips. All values plus-or-minus 1%.</p>
 
 
