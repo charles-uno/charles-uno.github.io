@@ -81,6 +81,8 @@ Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] fo
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. That's about a one-in-fifty chance of drawing a land that should have been a spell.
 
+> These caveats are at the margins. Bottom line: we have a model that can tell us how often a build produces T3 Primeval Titan. 
+
 ## The Contenders
 
 The best Titan Breach hands all look about the same: T1 suspend [[Search for Tomorrow:Search]], T2 [[Sakura-Tribe Elder:Steve]]/[[Explore]], T3 [[Through the Breach:Breach]] into [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]]. With eight two-drop ramp spells and (essentially) eight [[Primeval Titan:Titans]], it's reasonably safe[^10] to expect one of each. The same can't be said for [[Search for Tomorrow]] or [[Through the Breach]]. Even with [[Simian Spirit Guide]] to fill in some gaps, we often have nothing to do on T1, or fall short on T3. 
@@ -97,6 +99,8 @@ This suggests three different directions for the flex slots:
 
 Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying every option tells us about the potential of [[Serum Visions]] as a card, independent of our abilities as players. 
 
+> Transition? 
+
 ## The Results
 
 
@@ -111,16 +115,11 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search for Tomorrow]] five through eight, or [[Desperate Ritual]] as [[Through the Breach]] five through eight, almost doubles our odds of landing a T3 [[Primeval Titan]] on the play. 
 
 
+- +20% is four extra T3 Titans over the course of an 8-round event. 
+- +25% is five. 
 
-+20% is four extra T3 Titans over the course of an 8-round event. 
-
-+25% is five. 
-
-
-
-
-
-
+- Ritual is shut down by Thalia. It's awkward against Eidolon. It's also vulnerable to counterspells and can be stranded by discard. 
+- Sprawl is persistent ramp (unlike the one-shot Ritual) so it's better against counterspells. Can't be stranded in our hand by discard. But it's a blowout with Field of Ruin, and can be knocked off by Blood Moon or Spreading Seas. 
 
 
 
@@ -130,10 +129,10 @@ The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search f
 | (Blank)           | 23%     | 44%     | 34%        |
 | Hour of Promise   | 44%     | 68%     | 56%        |
 
-
-
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the "flex slots" in the above decklist are [[Hour of Promise]]. All values plus-or-minus 1%.</p>
 
+- It's good in grindy matchups. Jund has tons of removal, so we rarely get to turn a Titan sideways. Blue-based decks probably lose if they let it resolve. We're pretty good here anyway. 
+- It's bad in racing matchups. Unlike Breach, it can't kill Storm, Infect, or Bogles on the spot. These matchups are awful anyway. 
 
 | Slot 57-60        | T3 Play | T3 Draw | T3 Average |
 |:------------------|:-------:|:-------:|:----------:|
@@ -144,5 +143,15 @@ The effect of extra acceleration is huge. Adding [[Utopia Sprawl]] as [[Search f
 | Street Wraith     | 32%     | 57%     | 45%        |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above decklist are cantrips. All values plus-or-minus 1%.</p>
+
+- Lower numbers than acceleration or Hour. 
+- Unlike acceleration, it's resilient. 
+- Unlike Hour, it increases our odds of actually winning on T3. 
+
+
+
+
+
+
 
 
