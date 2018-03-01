@@ -61,7 +61,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing [[Through the Breach]] or [[Simian Spirit Guide]]. If [[Explore]] is swapped for [[Farseek]] in the above list, odds of casting or [[Through the Breach:Breaching]] a T3 [[Primeval Titan:Titan]] drop from 23% to 22% on the play, and from 44% to 42% on the draw (with no effect on T4 numbers). 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing [[Through the Breach]] or [[Simian Spirit Guide]]. If [[Explore]] is swapped for [[Farseek]] in the above list, odds of casting or [[Through the Breach:Breaching]] a T3 [[Primeval Titan:Titan]] drop from 23% to 22% on the play, and from 44% to 42% on the draw (with no effect on T4 numbers).
 
 
 > Leonin Arbiter
@@ -115,7 +115,7 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
 | Desperate Ritual  | 47%     | 69%     | 58%        |
-| Utopia Sprawl     | 42%     | 68%     | 55%        |
+| Utopia Sprawl     | 43%     | 68%     | 55%        |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above list are acceleration. All values ±1%.</p>
 
@@ -161,7 +161,8 @@ Would we rather cast/breach Titan off 3-4 lands or cast Hour off 4-5? Not obviou
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
 | Ancient Stirrings | 28%     | 53%     | 41%        |
-| Deadshot Minotaur | 26%     | 50%     | 38%        |
+| Deadshot Minotaur | 27%     | 50%     | 38%        |
+| Faithless Looting | 31%     | 57%     | 44%        |
 | Oath of Nissa     | 31%     | 57%     | 44%        |
 | Serum Visions     | 33%     | 58%     | 46%        |
 | Street Wraith     | 32%     | 57%     | 45%        |
