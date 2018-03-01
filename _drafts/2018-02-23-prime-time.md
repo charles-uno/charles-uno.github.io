@@ -81,7 +81,7 @@ Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] fo
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. That's about a one-in-fifty chance of drawing a land that should have been a spell.
 
-> These caveats are at the margins. Bottom line: we have a model that can tell us how often a build produces T3 Primeval Titan.
+To be clear, these caveats are at the margin. Based on manual inspection of the computer's play sequencing for hundreds of hands, it finds the same lines that a human player would. And it finds them *fast*. Using this model, a laptop can churn through 100k hands overnight, allowing us to compare builds with percent-level precision. 
 
 ## The Contenders
 
