@@ -141,7 +141,7 @@ The numbers in the table below aren't kind to [[Dramatic Entrance]], which is pe
 
 [[Dramatic Entrance]] has a few of the selling points of [[Through the Breach]]. It lets us dodge sorcery-speed removal and overload our opponent's end step. But the most important thing about [[Through the Breach:Breach]] is that it lets [[Primeval Titan]] turn sideways as soon as possible, and [[Dramatic Entrance]] doesn't do that. Unless [[Jace, the Mind Sculptor:Jace's]] recent [unbanning](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turns Modern into a mono-blue hellscape, [[Dramatic Entrance]] is mostly just a bad ritual. 
 
-
+[[Hour of Promise]], on the other hand, may have legs. 
 
 
 
