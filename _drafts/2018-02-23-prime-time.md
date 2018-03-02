@@ -123,13 +123,17 @@ The effect of extra acceleration is huge, as shown on the following table. Compa
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. All values ±1%.</p>
 
-Unfortunately, these gains are fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] is cast as can be cast as [[Gray Ogre]] in a pinch!
+Unfortunately, not all [[Through the Breach:Breaches]] are created equal. Four mountains into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] lets us grab two [[Valakut, the Molten Pinnacle:Valakuts]] and two mountains -- that's four triggers now, and two for each future land drop. But three mountains into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] means we only get one [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or we don't get the sixth mountain (no triggers right away)[^13].
 
-Overloading on fast mana is also antisynergistic with [[Valakut, the Molten Pinnacle:Valakut]]. Four mountains into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] lets us grab two [[Valakut, the Molten Pinnacle:Valakuts]] and two mountains -- that's four triggers now, and two for each future land drop. But three mountains into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] means we only get one [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or we don't get the sixth mountain (no triggers right away)[^13].
+[^13]: [[Blighted Woodland]] is a spicy piece of tech for builds with extra acceleration. When fetched instead of the fifth mountain, it represents a lot of extra [[Valakut, the Molten Pinnacle:Valakut]] triggers -- provided our opponent can't win before we untap.
 
-[^13]: [[Blighted Woodland]] is a spicy piece of tech for builds with extra acceleration. When fetched instead of the fifth mountain, it represents four extra [[Valakut, the Molten Pinnacle:Valakut]] triggers -- provided our opponent doesn't win before we untap.
+These gains are also fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] is cast as can be cast as [[Gray Ogre]] in a pinch!
 
-The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Desperate Ritual]] also works in multiples, and with [[Through the Breach]]. 
+Extra acceleration is at its best in racing matchups with little interaction: Tron, Affinity, and Burn. Once in a while, it'll even let us steal a win against a faster deck like Storm or Infect. But a single [[Thoughtseize]] can make us look like idiots. 
+
+---
+
+The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Dramatic Entrance]] doesn't work in multiples, and doesn't work with [[Through the Breach]]. 
 
 | Flex Slots            | T3 Play | T3 Draw | T3 Average |
 |:----------------------|:-------:|:-------:|:----------:|
