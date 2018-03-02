@@ -115,11 +115,11 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 
 The effect of extra acceleration is huge, as shown on the following table. Compared to the baseline list, a set of [[Desperate Ritual]] makes us half again as consistent on the draw and *twice* as consistent on the play. [[Utopia Sprawl]] is only a few percentage points behind. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make eleven or twelve.
 
-| Flex Slot         | T3 Play | T3 Draw | T3 Average |
-|:------------------|:-------:|:-------:|:----------:|
-| (Blank)           | 23%     | 44%     | 34%        |
-| Desperate Ritual  | 47%     | 69%     | 58%        |
-| Utopia Sprawl     | 43%     | 68%     | 55%        |
+| Flex Slot             | T3 Play | T3 Draw | T3 Average |
+|:----------------------|:-------:|:-------:|:----------:|
+| (Blank)               | 23%     | 44%     | 34%        |
+| [[Desperate Ritual]]  | 47%     | 69%     | 58%        |
+| [[Utopia Sprawl]]     | 43%     | 68%     | 55%        |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. All values ±1%.</p>
 
@@ -131,15 +131,23 @@ Overloading on fast mana is also antisynergistic with [[Valakut, the Molten Pinn
 
 The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Desperate Ritual]] also works in multiples, and with [[Through the Breach]]. 
 
-| Flex Slots        | T3 Play | T3 Draw | T3 Average |
-|:------------------|:-------:|:-------:|:----------:|
-| (Blank)           | 23%     | 44%     | 34%        |
-| Dramatic Entrance | 31%     | 56%     | 44%        |
-| Hour of Promise   | 44%     | 68%     | 56%        |
+| Flex Slots            | T3 Play | T3 Draw | T3 Average |
+|:----------------------|:-------:|:-------:|:----------:|
+| (Blank)               | 23%     | 44%     | 34%        |
+| [[Dramatic Entrance]] | 31%     | 56%     | 44%        |
+| [[Hour of Promise]]   | 44%     | 68%     | 56%        |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are five-drops. All values ±1%.</p>
 
-The upside of [[Dramatic Entrance]] is that, like [[Through the Breach]], it lets us dodge sorcery-speed removal and overload our opponent's end step. If the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a [[Cryptic Command:Cryptic]]-versus-[[Maelstrom Pulse:Pulse]] grindfest, then maybe -- *maybe* -- [[Dramatic Entrance]] is worth a try. 
+[[Dramatic Entrance]] has a few of the selling points of [[Through the Breach]]. It lets us dodge sorcery-speed removal and overload our opponent's end step. But the most important thing about [[Through the Breach:Breach]] is that it lets [[Primeval Titan]] turn sideways as soon as possible, and [[Dramatic Entrance]] doesn't do that. Unless [[Jace, the Mind Sculptor:Jace's]] recent [unbanning](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turns Modern into a mono-blue hellscape, [[Dramatic Entrance]] is mostly just a bad ritual. 
+
+
+
+
+
+
+
+
 
 
 
@@ -170,15 +178,15 @@ try-wraith              :  40000 trials ;  32.2%  ±   0.4%  ;  57.1%  ±   0.5%
 - It's good in grindy matchups. Jund has tons of removal, so we rarely get to turn a Titan sideways. Blue-based decks probably lose if they let it resolve. We're pretty good here anyway.
 - It's bad in racing matchups. Unlike Breach, it can't kill Storm, Infect, or Bogles on the spot. These matchups are awful anyway.
 
-| Flex Slots        | T3 Play | T3 Draw | T3 Average |
-|:------------------|:-------:|:-------:|:----------:|
-| (Blank)           | 23%     | 44%     | 34%        |
-| Ancient Stirrings | 28%     | 53%     | 41%        |
-| Deadshot Minotaur | 27%     | 50%     | 38%        |
-| Faithless Looting | 31%     | 57%     | 44%        |
-| Oath of Nissa     | 31%     | 57%     | 44%        |
-| Serum Visions     | 33%     | 58%     | 46%        |
-| Street Wraith     | 32%     | 57%     | 45%        |
+| Flex Slots            | T3 Play | T3 Draw | T3 Average |
+|:----------------------|:-------:|:-------:|:----------:|
+| (Blank)               | 23%     | 44%     | 34%        |
+| [[Ancient Stirrings]] | 28%     | 53%     | 41%        |
+| [[Deadshot Minotaur]] | 27%     | 50%     | 38%        |
+| [[Faithless Looting]] | 31%     | 57%     | 44%        |
+| [[Oath of Nissa]]     | 31%     | 57%     | 44%        |
+| [[Serum Visions]]     | 33%     | 58%     | 46%        |
+| [[Street Wraith]]     | 32%     | 57%     | 45%        |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. All values ±1%.</p>
 
