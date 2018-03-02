@@ -75,7 +75,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger
 
 [[Anger of the Gods]] could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
-If we like, we can use our four "flex slots" to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
+If we like, we can use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
 
 ## The Model
 
@@ -101,7 +101,7 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 This suggests three different directions for the flex slots:
 
-- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]]. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
+- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
 - An alternative haymaker. We sometimes have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes.
 - Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back; we can also check out [[Street Wraith]], [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]] for comparison.
 
@@ -109,47 +109,46 @@ This suggests three different directions for the flex slots:
 
 Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying every option tells us about the potential of [[Serum Visions]] as a card, independent of our abilities as players.
 
+> something something
+
 ## The Results
 
-The following tables break down our odds of casting or [[Through the Breach:Breaching]] a T3 [[Primeval Titan]] based on what we've got in the "flex slots." Let's look at acceleration first:
+The effect of extra acceleration is huge, as shown on the following table. Compared to the baseline list, a set of [[Desperate Ritual]] makes us half again as consistent on the draw and *twice* as consistent on the play. [[Utopia Sprawl]] is only a few percentage points behind. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make eleven or twelve.
 
-| Slot 57-60        | T3 Play | T3 Draw | T3 Average |
+| Flex Slot         | T3 Play | T3 Draw | T3 Average |
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
 | Desperate Ritual  | 47%     | 69%     | 58%        |
 | Utopia Sprawl     | 43%     | 68%     | 55%        |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above list are acceleration. All values ±1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. All values ±1%.</p>
 
-The effect of extra acceleration is huge. Compared to the baseline list, a set of [[Desperate Ritual]] makes us half again as consistent on the draw and *twice* as consistent on the play. [[Utopia Sprawl]] has an effect nearly as large. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make eleven or twelve.
-
-Unfortunately, these gains are fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] can be cast as [[Gray Ogre]] in a pinch!
+Unfortunately, these gains are fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] is cast as can be cast as [[Gray Ogre]] in a pinch!
 
 Overloading on fast mana is also antisynergistic with [[Valakut, the Molten Pinnacle:Valakut]]. Four mountains into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] lets us grab two [[Valakut, the Molten Pinnacle:Valakuts]] and two mountains -- that's four triggers now, and two for each future land drop. But three mountains into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] means we only get one [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or we don't get the sixth mountain (no triggers right away)[^13].
 
 [^13]: [[Blighted Woodland]] is a spicy piece of tech for builds with extra acceleration. When fetched instead of the fifth mountain, it represents four extra [[Valakut, the Molten Pinnacle:Valakut]] triggers -- provided our opponent doesn't win before we untap.
 
-Next up are the alternative haymakers, which have their own pros and cons:
+The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Desperate Ritual]] also works in multiples, and with [[Through the Breach]]. 
 
-| Slot 57-60        | T3 Play | T3 Draw | T3 Average |
+| Flex Slots        | T3 Play | T3 Draw | T3 Average |
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
 | Dramatic Entrance | 31%     | 56%     | 44%        |
 | Hour of Promise   | 44%     | 68%     | 56%        |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the "flex slots" in the above list are [[Hour of Promise]]. All values ±1%.</p>
+<p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are five-drops. All values ±1%.</p>
 
-[[Hour of Promise]] puts up similar numbers to [[Desperate Ritual]] or [[Utopia Sprawl]] in terms of dropping something big on T3.
+The upside of [[Dramatic Entrance]] is that, like [[Through the Breach]], it lets us dodge sorcery-speed removal and overload our opponent's end step. If the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a [[Cryptic Command:Cryptic]]-versus-[[Maelstrom Pulse:Pulse]] grindfest, then maybe -- *maybe* -- [[Dramatic Entrance]] is worth a try. 
 
 
-Would we rather cast/breach Titan off 3-4 lands or cast Hour off 4-5? Not obvious.
 
-Numbers for [[Dramatic Entrance]] look a bit anemic.
 
-- It's like Hour, but requires double green and we have to have a Titan or Pact in hand.
-- It's like a ritual, except that rituals can be chained together in multiples and entrances/breaches can't.
 
-Doesn't give haste, but does give instant speed, which matters a lot. breach-untap-titan is how breach beats blue decks.
+
+
+
+
 
 ```
 baseline-explore        :  60000 trials ;  22.5%  ±   0.3%  ;  44.4%  ±   0.4%  ;  33.5%  ±   0.2%
@@ -171,7 +170,7 @@ try-wraith              :  40000 trials ;  32.2%  ±   0.4%  ;  57.1%  ±   0.5%
 - It's good in grindy matchups. Jund has tons of removal, so we rarely get to turn a Titan sideways. Blue-based decks probably lose if they let it resolve. We're pretty good here anyway.
 - It's bad in racing matchups. Unlike Breach, it can't kill Storm, Infect, or Bogles on the spot. These matchups are awful anyway.
 
-| Slot 57-60        | T3 Play | T3 Draw | T3 Average |
+| Flex Slots        | T3 Play | T3 Draw | T3 Average |
 |:------------------|:-------:|:-------:|:----------:|
 | (Blank)           | 23%     | 44%     | 34%        |
 | Ancient Stirrings | 28%     | 53%     | 41%        |
@@ -181,7 +180,7 @@ try-wraith              :  40000 trials ;  32.2%  ±   0.4%  ;  57.1%  ±   0.5%
 | Serum Visions     | 33%     | 58%     | 46%        |
 | Street Wraith     | 32%     | 57%     | 45%        |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the "flex slots" in the above list are cantrips. All values ±1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. All values ±1%.</p>
 
 - Lower numbers than acceleration or Hour.
 - Unlike acceleration, it's resilient.
