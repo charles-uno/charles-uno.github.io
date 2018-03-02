@@ -151,9 +151,20 @@ Numbers for [[Dramatic Entrance]] look a bit anemic.
 
 Doesn't give haste, but does give instant speed, which matters a lot. breach-untap-titan is how breach beats blue decks.
 
-
-
-
+```
+baseline-explore        :  60000 trials ;  22.5%  ±   0.3%  ;  44.4%  ±   0.4%  ;  33.5%  ±   0.2%
+baseline-farseek        :  60000 trials ;  21.8%  ±   0.3%  ;  41.6%  ±   0.4%  ;  31.8%  ±   0.2%
+try-cantrip             :  20000 trials ;  26.5%  ±   0.5%  ;  49.8%  ±   0.7%  ;  38.2%  ±   0.4%
+try-entrance            :  20000 trials ;  31.1%  ±   0.6%  ;  56.1%  ±   0.7%  ;  43.6%  ±   0.5%
+try-hour                :  40000 trials ;  44.0%  ±   0.5%  ;  67.7%  ±   0.6%  ;  55.8%  ±   0.4%
+try-looting             :  10112 trials ;  30.9%  ±   0.8%  ;  56.9%  ±   1.1%  ;  43.7%  ±   0.7%
+try-oath                :  40000 trials ;  31.3%  ±   0.4%  ;  56.6%  ±   0.5%  ;  43.9%  ±   0.3%
+try-ritual              :  40000 trials ;  46.6%  ±   0.5%  ;  69.3%  ±   0.6%  ;  57.9%  ±   0.4%
+try-sprawl              :  40000 trials ;  42.6%  ±   0.5%  ;  68.1%  ±   0.6%  ;  55.4%  ±   0.4%
+try-stirrings           :  20000 trials ;  28.0%  ±   0.5%  ;  53.0%  ±   0.7%  ;  40.6%  ±   0.5%
+try-visions             :  29806 trials ;  32.8%  ±   0.5%  ;  58.4%  ±   0.6%  ;  45.6%  ±   0.4%
+try-wraith              :  40000 trials ;  32.2%  ±   0.4%  ;  57.1%  ±   0.5%  ;  44.5%  ±   0.3%
+```
 
 
 
