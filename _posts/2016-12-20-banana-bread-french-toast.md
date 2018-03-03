@@ -52,4 +52,4 @@ Combine the remaining 3 eggs, yogurt, and cinnamon. Slice the loaf (or whatever'
 ![Banana bread french toast](/assets/images/banana-bread-french-toast-16x9.png)
 *One slice is typical. Two slices is ambitious. Three slices is madness.*
 
-Serves four. Best with peanut butter and/or jam -- the toast is already quite sweet without syrup.
+Serves four. Best with fruit, jam, and/or peanut butter. 
