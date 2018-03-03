@@ -111,9 +111,9 @@ Incidentally, cantrips like [[Serum Visions]] are a perfect example of why we us
 
 > something something
 
-## The Results
+## The Accelerators
 
-The effect of extra acceleration is huge, as shown on the following table. Compared to the baseline list, a set of [[Desperate Ritual]] makes us half again as consistent on the draw and *twice* as consistent on the play. [[Utopia Sprawl]] is only a few percentage points behind. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make eleven or twelve.
+The effect of extra acceleration is huge, as shown below. Compared to the baseline list, a set of [[Desperate Ritual]] makes us half again as consistent on the draw and *twice* as consistent on the play. [[Utopia Sprawl]] is only a few percentage points behind. In an eight-round event like Day 1 of a GP, we would expect the baseline list to make about seven T3 [[Primeval Titan:Titans]]; a list with this extra acceleration would instead make eleven or twelve.
 
 | Flex Slot             | T3 Play | T3 Draw | T3 Average |
 |:----------------------|:-------:|:-------:|:----------:|
@@ -129,11 +129,11 @@ Unfortunately, not all [[Through the Breach:Breaches]] are created equal. Four m
 
 These gains are also fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] is cast as can be cast as [[Gray Ogre]] in a pinch!
 
-Extra acceleration is at its best in racing matchups with little interaction: Tron, Affinity, and Burn. Once in a while, it'll even let us steal a win against a faster deck like Storm or Infect. But a single [[Thoughtseize]] can make us look like idiots. 
+Extra acceleration is at its best in racing matchups with little interaction: Tron, Affinity, and Burn. Once in a while, it'll even let us steal a win against a faster deck like Storm or Infect. But a single [[Thoughtseize]] can make us look like idiots.
 
----
+## The Haymakers
 
-The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Dramatic Entrance]] doesn't work in multiples, and doesn't work with [[Through the Breach]]. 
+The numbers in the table below aren't kind to [[Dramatic Entrance]], which is perhaps what we should have expected. Like [[Desperate Ritual]], it jumps us from five mana to six when we have a [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]] in hand -- but that's *all* it does. [[Dramatic Entrance]] doesn't work in multiples, and doesn't work with [[Through the Breach]].
 
 | Flex Slots            | T3 Play | T3 Draw | T3 Average |
 |:----------------------|:-------:|:-------:|:----------:|
@@ -143,11 +143,9 @@ The numbers in the table below aren't kind to [[Dramatic Entrance]], which is pe
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are five-drops. All values ±1%.</p>
 
-[[Dramatic Entrance]] has a few of the selling points of [[Through the Breach]]. It lets us dodge sorcery-speed removal and overload our opponent's end step. But the most important thing about [[Through the Breach:Breach]] is that it lets [[Primeval Titan]] turn sideways as soon as possible, and [[Dramatic Entrance]] doesn't do that. Unless [[Jace, the Mind Sculptor:Jace's]] recent [unbanning](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turns Modern into a mono-blue hellscape, [[Dramatic Entrance]] is mostly just a bad ritual. 
+[[Dramatic Entrance]] has a few of the selling points of [[Through the Breach]]. It lets us dodge sorcery-speed removal and overload our opponent's end step. But the most important thing about [[Through the Breach:Breach]] is that it lets [[Primeval Titan]] turn sideways as soon as possible, and [[Dramatic Entrance]] doesn't do that. Unless [[Jace, the Mind Sculptor:Jace's]] recent [unbanning](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turns Modern into a mono-blue hellscape, [[Dramatic Entrance]] is mostly just a bad ritual.
 
-[[Hour of Promise]], on the other hand, may have legs. 
-
-
+[[Hour of Promise]], on the other hand, may have legs.
 
 
 
@@ -159,6 +157,8 @@ The numbers in the table below aren't kind to [[Dramatic Entrance]], which is pe
 
 
 
+
+## The Cantrips
 
 
 
