@@ -149,13 +149,13 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 Judging by the numbers above, [[Dramatic Entrance]] has about half the upside of [[Desperate Ritual]]. It has half the downside as well: it's good against [[Cryptic Command]] but bad against [[Thoughtseize]]. Unless the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a mono-blue hellscape, we won't be sleeving it up.
 
-[[Hour of Promise]], on the other hand, is a five-drop worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
+[[Hour of Promise]], on the other hand, is a five-drop worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited counterspells.
 
 The problem with [[Hour of Promise]] is that it doesn't close out a game on its own. Tron, Affinity, and Burn don't care about our T3 [[Hour of Promise]] unless we follow it up with a T4 [[Primeval Titan]].
 
 ---
 
-First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as [[Street Wraith]], except without the life loss. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern) but no other cantrip in our colors comes close.
+First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as [[Street Wraith]], except without the life loss. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern), but no other cantrip in our colors comes close. 
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
@@ -169,62 +169,15 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-If we don't want to go all-in on [[Desperate Ritual]], [[Oath of Nissa]] presents a compromise: half the boost with none of the risk. [[Oath of Nissa:Oath]] isn't worth countering and can't be stranded by [[Thoughtseize]] -- in fact, it helps us replace whatever they hit.
+After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle.
 
+- [[Desperate Ritual]] boosts our odds of playing [[Primeval Titan]] on T3 by 27%, but it doesn't play well against counterspells and discard. 
+- [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]]. 
+- [[Oath of Nissa]] insulates us against disruption and boosts our odds of playing [[Primeval Titan]] on T3, but only by 11%. 
 
-
----
-
----
-
----
-
-Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle.
-
-
-[[Desperate Ritual]] drops [[Primeval Titan]] on T3 as often as possible, but is weak against counterspells and discard. [[Hour of Promise]] does *something* big on T3, and is good against disruption,
-
-:
-
-- [[Desperate Ritual:Ritual]] and [[Hour of Promise:Hour]] boost T3 odds of doing something big on T3 by over 20%; [[Oath of Nissa:Oath]] boosts by only 11%.
-- [[Hour of Promise:Hour]] and [[Oath of Nissa:Oath]] match up well against disruption; [[Desperate Ritual]] is easily disrupted.
-- When we go off with [[Oath of Nissa:Oath]] and [[Desperate Ritual:Ritual]], we're always dropping [[Primeval Titan]]; [[Hour of Promise:Hour]] is a smaller substitute.
-
-If we're on
+> something something... Plan A probably means playing one of these. Plan B is Jund with a combo finish... boring. 
 
 
 
 
 
-
-
-
-
-
-
-
-[[Oath of Nissa:Oath]] gives us only half the boost to a smaller boost on T3, but
-
-
-
-Compared to [[Hour of Promise]], [[Oath of Nissa:Oath]] again only gives half the boost on T3. But
-
-
-
-[[Oath of Nissa:Oath]] also compares reasonably well to [[Hour of Promise]]. Again, [[Oath of Nissa]]
-
-
-
-
-
-
-
-
-[[Oath of Nissa]] presents a "safe" option in case we don't want to go all-in on [[Desperate Ritual]] or [[Hour of Promise]]. It's always good, but never great.
-
-
-
-about half the speed-up of [[Desperate Ritual]], including a greater chance to win outright on T3
-
-
-Lower chance than Desperate Ritual or Hour of Promise to do something big on T3. But (unlike with Hour) that big thing will always be Primeval Titan, and (unlike with Ritual) a cantrip is a fine topdeck in the late game
