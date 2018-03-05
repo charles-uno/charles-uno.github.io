@@ -148,38 +148,11 @@ Judging by the numbers above, [[Dramatic Entrance]] has about half the upside of
 
 [[Hour of Promise]], on the other hand, is a five-drop worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
 
-> Nothing is as big as [[Through the Breach:Breaching]] a [[Primeval Titan]]; it remains to be seen if [[Hour of Promise]] is big *enough*. If we cast T3 [[Hour of Promise:Hour]] into T4 [[Primeval Titan:Titan]], are we winning the race against Affinity, Burn, and Tron? So far, it's hard to say.
+The problem with [[Hour of Promise]] is that it doesn't close out a game on its own. Tron, Affinity, and Burn don't care about our T3 [[Hour of Promise]] unless we follow it up with a T4 [[Primeval Titan]].
 
 ---
 
-Cantrips present a "safe" option in case we don't want to go all-in on [[Desperate Ritual]] or [[Hour of Promise]]. 
-
-
-
-The odds of doing something big on T3 are smaller, but
-
-
-about half the speed-up of [[Desperate Ritual]], including a greater chance to win outright on T3
-
-
-Lower chance than Desperate Ritual or Hour of Promise to do something big on T3. But (unlike with Hour) that big thing will always be Primeval Titan, and (unlike with Ritual) a cantrip is a fine topdeck in the late game
-
-
-
-
-
-
-
-
-
-Cantrips!
-
-- Half-loaf solution.
-- Doesn't give us the same odds of doing something big.
-- Unlike Hour, the big thing is always Titan.
-- Unlike acceleration
-
-
+First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as [[Street Wraith]], except without the life loss. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern) but no other cantrip in our colors comes close.
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
@@ -192,3 +165,63 @@ Cantrips!
 | [[Street Wraith]]     | 34%       | 45%               |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
+
+If we don't want to go all-in on [[Desperate Ritual]], [[Oath of Nissa]] presents a compromise: half the boost with none of the risk. [[Oath of Nissa:Oath]] isn't worth countering and can't be stranded by [[Thoughtseize]] -- in fact, it helps us replace whatever they hit.
+
+
+
+---
+
+---
+
+---
+
+Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle.
+
+
+[[Desperate Ritual]] drops [[Primeval Titan]] on T3 as often as possible, but is weak against counterspells and discard. [[Hour of Promise]] does *something* big on T3, and is good against disruption,
+
+:
+
+- [[Desperate Ritual:Ritual]] and [[Hour of Promise:Hour]] boost T3 odds of doing something big on T3 by over 20%; [[Oath of Nissa:Oath]] boosts by only 11%.
+- [[Hour of Promise:Hour]] and [[Oath of Nissa:Oath]] match up well against disruption; [[Desperate Ritual]] is easily disrupted.
+- When we go off with [[Oath of Nissa:Oath]] and [[Desperate Ritual:Ritual]], we're always dropping [[Primeval Titan]]; [[Hour of Promise:Hour]] is a smaller substitute.
+
+If we're on
+
+
+
+
+
+
+
+
+
+
+
+
+[[Oath of Nissa:Oath]] gives us only half the boost to a smaller boost on T3, but
+
+
+
+Compared to [[Hour of Promise]], [[Oath of Nissa:Oath]] again only gives half the boost on T3. But
+
+
+
+[[Oath of Nissa:Oath]] also compares reasonably well to [[Hour of Promise]]. Again, [[Oath of Nissa]]
+
+
+
+
+
+
+
+
+[[Oath of Nissa]] presents a "safe" option in case we don't want to go all-in on [[Desperate Ritual]] or [[Hour of Promise]]. It's always good, but never great.
+
+
+
+about half the speed-up of [[Desperate Ritual]], including a greater chance to win outright on T3
+
+
+Lower chance than Desperate Ritual or Hour of Promise to do something big on T3. But (unlike with Hour) that big thing will always be Primeval Titan, and (unlike with Ritual) a cantrip is a fine topdeck in the late game
