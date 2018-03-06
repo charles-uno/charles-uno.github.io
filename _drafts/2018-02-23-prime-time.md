@@ -101,7 +101,7 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 This suggests three different directions for the flex slots:
 
-- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3. 
+- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
 - An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes.
 - Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
 
@@ -113,7 +113,7 @@ This suggests three different directions for the flex slots:
 
 [^14]: Cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying every option tells us about the potential of [[Serum Visions]] as a card, independent of our abilities as players.
 
-The model will allow us to see precisely how each of these options impacts our odds to produce [[Primeval Titan]] on T3. We'll also get a bit into their non-numerical strengths and weaknesses. 
+The model will allow us to see precisely how each of these options impacts our odds to produce [[Primeval Titan]] on T3. We'll also get a bit into their non-numerical strengths and weaknesses.
 
 ## The Results
 
@@ -155,7 +155,7 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 ---
 
-First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as [[Street Wraith]], except without the life loss. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern), but no other cantrip in our colors comes close. 
+First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as [[Street Wraith]], except without the life loss. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern), but no other cantrip in our colors comes close.
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
@@ -169,15 +169,17 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle.
+After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
-- [[Desperate Ritual]] boosts our odds of playing [[Primeval Titan]] on T3 by 27%, but it doesn't play well against counterspells and discard. 
-- [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]]. 
-- [[Oath of Nissa]] insulates us against disruption and boosts our odds of playing [[Primeval Titan]] on T3, but only by 11%. 
-
-> something something... Plan A probably means playing one of these. Plan B is Jund with a combo finish... boring. 
+- [[Desperate Ritual]] boosts our odds of playing [[Primeval Titan]] on T3 by 27%, but it doesn't play well against counterspells and discard.
+- [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
+- [[Oath of Nissa]] insulates us against disruption and boosts our odds of playing [[Primeval Titan]] on T3, but only by 11%.
 
 
 
 
 
+
+
+
+> something something... Plan A probably means playing one of these. Plan B is Jund with a combo finish... boring.
