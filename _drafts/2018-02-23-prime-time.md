@@ -154,14 +154,7 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 Judging by the numbers above, [[Dramatic Entrance]] has about half the upside of [[Desperate Ritual]]. It has half the downside as well: it's good against [[Cryptic Command]] but bad against [[Thoughtseize]]. Unless the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a mono-blue hellscape, we won't be sleeving it up.
 
-
-
-
-[[Woodfall Primus]] (or [[Worldspine Wurm]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also a dead end. It's only about one game in thirty where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]]. 
-
-
-
-
+[[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also a dead end. It's only about one game in thirty where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]]. 
 
 [[Hour of Promise]], on the other hand, is a five-drop worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited counterspells.
 
