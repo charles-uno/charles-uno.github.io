@@ -137,6 +137,12 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 ---
 
+
+
+
+
+
+
 [[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a bad version of [[Desperate Ritual]].
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
@@ -144,7 +150,7 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 | (Blank)               | 25%       | 33%               |
 | [[Dramatic Entrance]] | 25%       | 44%               |
 | [[Hour of Promise]]   | 25%       | 56%               |
-| [[Woodfall Primus]]   | %       | %               |
+| [[Woodfall Primus]]   | 28%       | 36%               |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are five-drops. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
