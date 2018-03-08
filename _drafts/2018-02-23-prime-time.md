@@ -43,7 +43,7 @@ After spiking a PPTQ in September, I coded a simulation of my deck in Python[^3]
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Before we get into modeling and optimization, let's establish a baseline. Assuming the "flex slots" are blanks, the the build below can land a T3 [[Primeval Titan]] in about 34% of games (23% on the play, 44% on the draw). Hands without a T3 [[Primeval Titan:Titan]] almost always (88%) have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build below can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] in about 25% of games, and cast one in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (88%) have one on T4, which can still be good enough, but is considerably more "fair." 
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
@@ -71,11 +71,11 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing piece of the combo. If [[Explore]] is swapped for [[Farseek]] in the above list, odds of casting or [[Through the Breach:Breaching]] a T3 [[Primeval Titan:Titan]] drop from 23% to 22% on the play, and from 44% to 42% on the draw (with no effect on T4 numbers).
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing piece of the combo. If [[Explore]] is swapped for [[Farseek]] in the above list, our T4 numbers are unchanges, but our odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 drop from 34% to 32% 
 
 [[Anger of the Gods]] could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
-If we like, we can use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
+We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
 
 ## The Model
 
@@ -89,9 +89,7 @@ In fact, the computer is actually a little *too* good. Trying every possible lin
 
 Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then compare the top card of each deck and keep the one we like best! As a workaround, whenever we would thin a land from the deck, instead we just create a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
-[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. That's about a one-in-fifty chance of drawing a land that should have been a spell.
-
-To be clear, these caveats are at the margin. Based on manual inspection of the computer's sequencing for hundreds of hands, it finds the same lines that a human player would. And it finds them *fast*. A laptop running this model can churn through 100k hands overnight, allowing us to compare builds with far greater precision than is possible by hand.
+[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Between fetch lands and ramp spells, we probably thin about one land per turn on average; that means the computer will draw about one too many lands (and one too few spells) per forty games. 
 
 ## The Contenders
 
@@ -101,40 +99,34 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 This suggests three different directions for the flex slots:
 
-- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
+- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3. As a control, we can compare these to [[Farseek]], even though we already play eight two-drop ramp spells. 
 - An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
 - Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
-
 
 [^12]: Matthias' build of Titan Breach is the one that carried me through my PPTQ. When I asked him about [[Oath of Nissa]], he told me: "Titan Breach isn't a control deck, and it's not a [[Through the Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa]] from Titan Breach just like you don't cut [[Serum Visions]] from Storm."
 
 [^14]: Cantrips like [[Serum Visions]] are a perfect example of why we use a brute force model. Programming a computer to scry correctly would be tedious, plus there's no guarantee that we would get it right. Trying every option tells us about the potential of [[Serum Visions]] as a card, independent of our abilities as players.
 
-The model will allow us to see precisely how each of these options impacts our odds to produce [[Primeval Titan]] on T3. We'll also get a bit into their non-numerical strengths and weaknesses.
+The model allows us to see precisely how each of these options impacts our odds to produce [[Primeval Titan]] on T3. 
 
 ## The Results
 
-The effect of extra acceleration is huge, as shown below. Compared to the baseline list, a set of [[Desperate Ritual]] makes us nearly twice as likely to goldfish a T3 [[Primeval Titan]], with [[Utopia Sprawl]] just a few percentage points behind.
+Playing [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explore]]) increases our odds of landing [[Primeval Titan]] on T3 by about six percentage points. In other words, about one game out of sixteen, the baseline build was bottlenecked by a missing two-drop ramp spell. That's not nothing, but it's small potatoes compared to what we can get from an extra T1 or T3 ramp spell, per the table below. Compared to the baseline, a set of [[Desperate Ritual]] or [[Utopia Sprawl]] is worth an extra T3 [[Primeval Titan:Titan]] about one game out of *four*. 
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
 | (Blank)               | 25%       | 33%               |
 | [[Desperate Ritual]]  | 42%       | 60%               |
-| [[Farseek]]           | 30%       | 40%               |
+| [[Farseek]]           | 30%       | 41%               |
 | [[Utopia Sprawl]]     | 39%       | 56%               |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
-
-
-> TODO: Farseek?
-
-
 
 Unfortunately, not all [[Through the Breach:Breaches]] are created equal. Four mountains into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] lets us grab two [[Valakut, the Molten Pinnacle:Valakuts]] and two mountains -- that's four triggers now, and two for each future land drop. But three mountains into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] means we only get one [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or we don't get the sixth mountain (no triggers right away)[^13].
 
 [^13]: [[Blighted Woodland]] is a spicy piece of tech for builds with extra acceleration. When fetched instead of the fifth mountain, it represents a lot of extra [[Valakut, the Molten Pinnacle:Valakut]] triggers -- provided our opponent can't win before we untap.
 
-These gains are also fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] is cast as can be cast as [[Gray Ogre]] in a pinch!
+These gains are also fragile. [[Utopia Sprawl]] sets us up to be clobbered by [[Field of Ruin]], plus it can be knocked off by [[Blood Moon]] or [[Spreading Seas]]. [[Desperate Ritual]] is blanked by [[Thalia, Guardian of Thraben:Thalia]] and easily stranded by discard spells. Plus they're awful topdecks after the first few turns -- at least [[Simian Spirit Guide]] can be cast as [[Gray Ogre]] in a pinch!
 
 Extra acceleration is at its best in racing matchups with little interaction: Tron, Affinity, and Burn. Once in a while, it'll even let us steal a win against a faster deck like Storm or Infect. But a single [[Thoughtseize]] can make us look like idiots.
 
