@@ -102,7 +102,7 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 This suggests three different directions for the flex slots:
 
 - More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
-- An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever. 
+- An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
 - Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
 
 
@@ -120,9 +120,15 @@ The effect of extra acceleration is huge, as shown below. Compared to the baseli
 |:----------------------|:---------:|:-----------------:|
 | (Blank)               | 25%       | 33%               |
 | [[Desperate Ritual]]  | 42%       | 60%               |
+| [[Farseek]]           | 30%       | 40%               |
 | [[Utopia Sprawl]]     | 39%       | 56%               |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
+
+
+> TODO: Farseek?
+
+
 
 Unfortunately, not all [[Through the Breach:Breaches]] are created equal. Four mountains into [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] lets us grab two [[Valakut, the Molten Pinnacle:Valakuts]] and two mountains -- that's four triggers now, and two for each future land drop. But three mountains into [[Desperate Ritual:Ritual]]-[[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]] means we only get one [[Valakut, the Molten Pinnacle:Valakut]] (half as many triggers) or we don't get the sixth mountain (no triggers right away)[^13].
 
@@ -141,13 +147,13 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 | (Blank)               | 25%       | 33%               |
 | [[Dramatic Entrance]] | 25%       | 44%               |
 | [[Hour of Promise]]   | 25%       | 56%               |
-| [[Woodfall Primus]]   | 28%       | 36%               |
+| [[Woodfall Primus]]   | 31%       | 39%               |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]]/[[Woodfall Primus:Primus]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are extra haymakers. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
 Judging by the numbers above, [[Dramatic Entrance]] has about half the upside of [[Desperate Ritual]]. It has half the downside as well: it's good against [[Cryptic Command]] but bad against [[Thoughtseize]]. Unless the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a mono-blue hellscape, we won't be sleeving it up.
 
-[[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also a dead end. It's only about one game in thirty where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]]. 
+[[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also a dead end. It's only about one game in twenty where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]].
 
 [[Hour of Promise]], on the other hand, is a five-drop worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited counterspells.
 
