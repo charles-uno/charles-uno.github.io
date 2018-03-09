@@ -85,11 +85,23 @@ The computer makes thousands of copies of each hand. Each copy is played differe
 
 In fact, the computer is actually a little *too* good. Trying every possible line and keeping the best one allows it to exhibit better-than-perfect play. For example, the model doesn't have to commit to a mulligan based on its seven-card hand; it gets to play out that hand, then play out its six-card hand, then play out its five-card hand, and keep whichever turns out best[^8].
 
-[^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time.
+[^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time. 
 
 Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then compare the top card of each deck and keep the one we like best! As a workaround, whenever we would thin a land from the deck, instead we just create a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
-[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Between fetch lands and ramp spells, we probably thin about one land per turn on average; that means the computer will draw about one too many lands (and one too few spells) per forty games. 
+[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Between fetch lands and ramp spells, we probably thin about one land per turn on average; that means the computer will draw about one too many lands (and one too few spells) per forty games.
+
+
+> A 25/60 deck with Search, Steve, and 8 fetches expects to draw 3.88 lands by T3. Our model draws 3.96 instead. 
+>
+> If we give our model a 24/59 deck, it'll draw on average 3.86 lands by T3. Maybe that's better... have a virtual mountain?
+
+
+
+
+the model's treatment of a 60 card deck with 25 lands lines up with a real-world deck of 59 cards and 24 lands. To look at a real world deck of 60 cards and 25 lands, we should use a model with 61 cards and 
+
+
 
 ## The Contenders
 
@@ -174,18 +186,38 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at 
 - [[Oath of Nissa]] insulates us against disruption and boosts our odds of playing [[Primeval Titan]] on T3, but only by 11%.
 
 
-
-
-
-
-
-
-> something something... Plan A probably means playing one of these. Plan B is Jund with a combo finish... boring.
-
-
+---
 
 
 ---
+
+
+---
+
+
+
+Titan Breach is a combo deck. There are bottlenecks in the combo. 
+
+Titan Breach is a combo deck with decent odds to go off on T3. There are cards we can play to make our best draws happen more often, even while improving our inevitability in a long game. 
+
+
+Once in a while, [[Lightning Bolt]] will swing a game by zapping [[Goblin Electromancer]], [[Devoted Druid]], or [[Karn Liberated]]. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+> something something... we have identified the bottlenecks in this combo. let's shore them up. more fun than turning into a midrange deck
+
+
 
 
 
