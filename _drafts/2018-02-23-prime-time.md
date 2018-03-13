@@ -71,13 +71,16 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
+In the above list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
+
+> Many builds play more than three slots of interaction, sometimes even cutting a [[Simian Spirit Guide]] or two to do so. 
+
+
 The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing piece of the combo. If [[Explore]] is swapped for [[Farseek]] in the above list, our T4 numbers are unchanged, but our odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 drop from 34% to 32%
 
 
 > Cut one SSG, we drop from 25%/34% to 21%/27%. Cut them all, we're only 7% to Breach (and 0% to cast)
 
-
-[[Anger of the Gods]] could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
 We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
 
