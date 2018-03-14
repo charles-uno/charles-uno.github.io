@@ -92,7 +92,7 @@ This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists p
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
-In the above list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
+In our baseline list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
 We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
 
@@ -110,17 +110,7 @@ Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] fo
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Between fetch lands and ramp spells, we probably thin about one land per turn on average; that means the computer will draw about one too many lands (and one too few spells) per forty games.
 
-
-> A 25/60 deck with Search, Steve, and 8 fetches expects to draw 3.88 lands by T3. Our model draws 3.96 instead.
->
-> If we give our model a 24/59 deck, it'll draw on average 3.86 lands by T3. Maybe that's better... have a virtual mountain?
-
-
-
-
-the model's treatment of a 60 card deck with 25 lands lines up with a real-world deck of 59 cards and 24 lands. To look at a real world deck of 60 cards and 25 lands, we should use a model with 61 cards and
-
-
+> With a 60 card deck and 25 lands, we should average 3.88 lands by T3, but the model draws 3.96 instead. If we were to use a "phantom mountain" -- 59 card deck, 24 lands -- the model would draw 3.86 lands by T3 instead. 
 
 ## The Contenders
 
