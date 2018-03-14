@@ -71,6 +71,32 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4 (88%), but [[Explore]] makes us a bit better at doing so on T3 (see table below). 
+
+| CMC 2 Ramp Spell      | T3 Breach | T3 Breach or Cast |
+|:----------------------|:---------:|:-----------------:|
+| [[Explore]]           | 25%       | 34%               |
+| [[Farseek]]           | 24%       | 32%               |
+
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depending on whether we play [[Explore]] or [[Farseek]]. All values ±0.3%.</p>
+
+> Cut one SSG, we drop from 25%/34% to 20%/27%. Cut them all, we're only 7% to Breach (and 0% to cast)
+
+This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists trim a copy or two, but we enthusiastically play a full set. 
+
+
+It's difficult to overstate the importance of SSG 
+
+
+
+
+| Number of [[Simian Spirit Guide:SSGs]] | T3 Breach | T3 Breach or Cast |
+|:----------------------|:---------:|:-----------------:|
+| 4                     | 25%       | 34%               |
+| 3                     | 21%       | 27%               |
+| 2                     | %         | %                 |
+| 1                     | %         | %                 |
+| 0                     | 7%        | 7%                |
 
 
 
@@ -79,13 +105,8 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
 
 In the above list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
-> Many builds play more than three slots of interaction, sometimes even cutting a [[Simian Spirit Guide]] or two to do so.
 
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. The danger of whiffing is (evidently) more than made up for by the chance to find a missing piece of the combo. If [[Explore]] is swapped for [[Farseek]] in the above list, our T4 numbers are unchanged, but our odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 drop from 34% to 32%
-
-
-> Cut one SSG, we drop from 25%/34% to 21%/27%. Cut them all, we're only 7% to Breach (and 0% to cast)
 
 
 We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
@@ -140,7 +161,7 @@ Playing [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explore]]) incr
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
-| (Blank)               | 25%       | 33%               |
+| (Blank)               | 25%       | 34%               |
 | [[Desperate Ritual]]  | 42%       | 60%               |
 | [[Farseek]]           | 30%       | 41%               |
 | [[Utopia Sprawl]]     | 39%       | 56%               |
@@ -161,7 +182,7 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
-| (Blank)               | 25%       | 33%               |
+| (Blank)               | 25%       | 34%               |
 | [[Dramatic Entrance]] | 25%       | 44%               |
 | [[Hour of Promise]]   | 25%       | 56%               |
 | [[Woodfall Primus]]   | 31%       | 39%               |
@@ -182,7 +203,7 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 
 | Flex Slot             | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
-| (Blank)               | 25%       | 33%               |
+| (Blank)               | 25%       | 34%               |
 | [[Ancient Stirrings]] | 31%       | 40%               |
 | [[Deadshot Minotaur]] | 30%       | 39%               |
 | [[Faithless Looting]] | 31%       | 39%               |
