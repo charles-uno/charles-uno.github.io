@@ -75,20 +75,12 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 
 | CMC 2 Ramp Spell      | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
-| [[Explore]]           | 25%       | 34%               |
-| [[Farseek]]           | 24%       | 32%               |
+| [[Explore]]           | 25.0%       | 33.6%           |
+| [[Farseek]]           | 24.0%       | 32.4%           |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depending on whether we play [[Explore]] or [[Farseek]]. All values within ±1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
 
-> Cut one SSG, we drop from 25%/34% to 20%/27%. Cut them all, we're only 7% to Breach (and 0% to cast)
-
-This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists trim a copy or two, but we enthusiastically play a full set. 
-
-
-It's difficult to overstate the importance of SSG 
-
-
-
+This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy. 
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3 Breach | T3 Breach or Cast |
 |:---------------------------------------|:---------:|:-----------------:|
@@ -98,16 +90,9 @@ It's difficult to overstate the importance of SSG
 | 1                                      | 12%       | 13%               |
 | 0                                      | 7%        | 7%                |
 
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
-
-
-
-
-In the above list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. These cards don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
-
-
-
-
+In the above list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
 We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
 
