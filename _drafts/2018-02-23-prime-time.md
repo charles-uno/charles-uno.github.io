@@ -78,7 +78,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 | [[Explore]]           | 25%       | 34%               |
 | [[Farseek]]           | 24%       | 32%               |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depending on whether we play [[Explore]] or [[Farseek]]. All values ±0.3%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depending on whether we play [[Explore]] or [[Farseek]]. All values within ±1%.</p>
 
 > Cut one SSG, we drop from 25%/34% to 20%/27%. Cut them all, we're only 7% to Breach (and 0% to cast)
 
