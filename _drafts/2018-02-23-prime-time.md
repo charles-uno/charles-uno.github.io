@@ -73,7 +73,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
 
 The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4 (88%), but [[Explore]] makes us a bit better at doing so on T3 (see table below). 
 
-| CMC 2 Ramp Spell      | T3 Breach | T3 Breach or Cast |
+| Two-Drop Ramp Spell   | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
 | [[Explore]]           | 25.0%       | 33.6%           |
 | [[Farseek]]           | 24.0%       | 32.4%           |
@@ -190,9 +190,9 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 
 After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
-- [[Desperate Ritual]] boosts our odds of playing [[Primeval Titan]] on T3 by 27%, but it doesn't play well against counterspells and discard.
+- [[Desperate Ritual]] boosts our odds of landing [[Primeval Titan]] on T3 by 27%, but it doesn't play well against counterspells and discard.
 - [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
-- [[Oath of Nissa]] insulates us against disruption and boosts our odds of playing [[Primeval Titan]] on T3, but only by 11%.
+- [[Oath of Nissa]] insulates us against disruption and boosts our odds of landing [[Primeval Titan]] on T3, but only by 11%.
 
 
 ---
@@ -211,17 +211,6 @@ Titan Breach is a combo deck with decent odds to go off on T3. There are cards w
 
 
 Once in a while, [[Lightning Bolt]] will swing a game by zapping [[Goblin Electromancer]], [[Devoted Druid]], or [[Karn Liberated]].
-
-
-
-
-
-
-
-
-
-
-
 
 
 > something something... we have identified the bottlenecks in this combo. let's shore them up. more fun than turning into a midrange deck
