@@ -46,30 +46,10 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
 
 The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4, but [[Explore]] makes us a bit better at doing so on T3 (see table below).
 
-| Two-Drop Ramp Spell   | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
-|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| [[Explore]]           | 25.0%        | 33.6%                | 70.6%        | 88.3%                |
-| [[Farseek]]           | 24.0%        | 32.4%                | 69.2%        | 88.5%                |
-
-
-
-> TODO -- Need to improve phrasing. "Breach by T4" includes not only T3 Breach, T4 Breach, but also T3 cast. Maybe "or better"?
-
-| Two-Drop Ramp Spell   | T3 Breach | T3 Cast or Better | T4 Breach or Better| T4 Cast or Better |
-|:----------------------|:---------:|:-----------------:|:------------------:|:-----------------:|
-| [[Explore]]           | 25.0%     | 33.6%             | 70.6%              | 88.3%             |
-| [[Farseek]]           | 24.0%     | 32.4%             | 69.2%              | 88.5%             |
-
-
-...
-
 | Two-Drop Ramp Spell   | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
 | [[Explore]]           | 25.0%     | 33.6%     | 70.6%       | 88.3%     |
 | [[Farseek]]           | 24.0%     | 32.4%     | 69.2%       | 88.5%     |
-
-
-
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
 
@@ -77,13 +57,13 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 
 This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
-| Number of [[Simian Spirit Guide:SSGs]] | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
-|:---------------------------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| 4                                      | 25%          | 34%                  | 71%          | 88%                  |
-| 3                                      | 21%          | 27%                  | 66%          | 85%                  |
-| 2                                      | 16%          | 20%                  | 62%          | 82%                  |
-| 1                                      | 12%          | 13%                  | 58%          | 78%                  |
-| 0                                      | 7%           | 7%                   | 53%          | 73%                  |
+| Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
+| 4                                      | 25%       | 34%       | 71%         | 88%       |
+| 3                                      | 21%       | 27%       | 66%         | 85%       |
+| 2                                      | 16%       | 20%       | 62%         | 82%       |
+| 1                                      | 12%       | 13%       | 58%         | 78%       |
+| 0                                      | 7%        | 7%        | 53%         | 73%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
@@ -135,12 +115,12 @@ The model allows us to see precisely how each of these options impacts our odds 
 
 Playing a set of [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explore]]) increases our odds of landing [[Primeval Titan]] on T3 by about six percentage points (see table below). In other words, about once every sixteen games, the baseline build was bottlenecked by a missing two-drop ramp spell. That's better than nothing, but it's small potatoes compared to the *twenty-five* point boost we can get from a set of [[Desperate Ritual]] or [[Utopia Sprawl]] -- an extra T3 [[Primeval Titan:Titan]] every *four* games!
 
-| Flex Slot             | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
-|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| (Blank)               | 25%          | 34%                  | 71%          | 88%                  |
-| [[Desperate Ritual]]  | 42%          | 60%                  | 83%          | 95%                  |
-| [[Farseek]]           | 30%          | 41%                  | 77%          | 94%                  |
-| [[Utopia Sprawl]]     | 39%          | 56%                  | 82%          | 94%                  |
+| Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:----------------------|:---------:|:---------:|:-----------:|:---------:|
+| (Blank)               | 25%       | 34%       | 71%         | 88%       |
+| [[Desperate Ritual]]  | 42%       | 60%       | 83%         | 95%       |
+| [[Farseek]]           | 30%       | 41%       | 77%         | 94%       |
+| [[Utopia Sprawl]]     | 39%       | 56%       | 82%         | 94%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -156,12 +136,12 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 [[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a bad version of [[Desperate Ritual]].
 
-| Flex Slot             | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
-|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| (Blank)               | 25%          | 34%                  | 71%          | 88%                  |
-| [[Dramatic Entrance]] | 25%          | 44%                  | 75%          | 92%                  |
-| [[Hour of Promise]]   | 25%          | 56%                  | 81%          | 97%                  |
-| [[Woodfall Primus]]   | 31%          | 39%                  | 79%          | 92%                  |
+| Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:----------------------|:---------:|:---------:|:-----------:|:---------:|
+| (Blank)               | 25%       | 34%       | 71%         | 88%       |
+| [[Dramatic Entrance]] | 25%       | 44%       | 75%         | 92%       |
+| [[Hour of Promise]]   | 25%       | 56%       | 81%         | 97%       |
+| [[Woodfall Primus]]   | 31%       | 39%       | 79%         | 92%       |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]]/[[Woodfall Primus:Primus]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are extra haymakers. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -177,15 +157,15 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]], and it only gets better as the game goes on. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern), but no other cantrip in our colors comes close.
 
-| Flex Slot             | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
-|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| (Blank)               | 25%          | 34%                  | 71%          | 88%                  |
-| [[Ancient Stirrings]] | 31%          | 40%                  | 83%          | 95%                  |
-| [[Deadshot Minotaur]] | 30%          | 39%                  | 79%          | 93%                  |
-| [[Faithless Looting]] | 31%          | 39%                  | 93%          | 98%                  |
-| [[Oath of Nissa]]     | 34%          | 44%                  | 84%          | 96%                  |
-| [[Serum Visions]]     | 37%          | 47%                  | 87%          | 96%                  |
-| [[Street Wraith]]     | 34%          | 45%                  | 81%          | 94%                  |
+| Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:----------------------|:---------:|:---------:|:-----------:|:---------:|
+| (Blank)               | 25%       | 34%       | 71%         | 88%       |
+| [[Ancient Stirrings]] | 31%       | 40%       | 83%         | 95%       |
+| [[Deadshot Minotaur]] | 30%       | 39%       | 79%         | 93%       |
+| [[Faithless Looting]] | 31%       | 39%       | 93%         | 98%       |
+| [[Oath of Nissa]]     | 34%       | 44%       | 84%         | 96%       |
+| [[Serum Visions]]     | 37%       | 47%       | 87%         | 96%       |
+| [[Street Wraith]]     | 34%       | 45%       | 81%         | 94%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
