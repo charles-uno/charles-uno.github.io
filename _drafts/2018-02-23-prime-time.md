@@ -56,10 +56,10 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 | [[Farseek]], 25 Lands  | 24.0%     | 32.3%     | 69.6%       | 88.9%     |
 | [[Explore]], 26 Lands  | 28.0%     | 37.5%     | 73.7%       | 90.3%     |
 | [[Farseek]], 26 Lands  | 26.3%     | 35.2%     | 72.3%       | 89.9%     |
-| [[Explore]], 27 Lands  | %     | %     | %       | %     |
-| [[Farseek]], 27 Lands  | %     | %     | %       | %     |
+| [[Explore]], 27 Lands  | 28.9%     | 39.1%     | 75.4%       | 91.2%     |
+| [[Farseek]], 27 Lands  | 26.4%     | 35.3%     | 73.5%       | 91.4%     |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.3%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
 
 We also play 26 lands, rather than the tried-and-true 25. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds. 
 
