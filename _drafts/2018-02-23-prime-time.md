@@ -16,13 +16,17 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
+
+> NOTE -- We should redo with phantom values. It makes the numbers a lot better. General trends are unlikely to change. Also bump up to 26 lands... that's what we played at the PT, so we should defend it. 
+
+
 Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build below can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] in about 25% of games, and cast one in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (88%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
     <tr>
         <td>
-            3 [[Anger of the Gods]]<br>
+            2 [[Anger of the Gods]]<br>
             4 [[Explore]]<br>
             4 [[Primeval Titan]]<br>
             4 [[Sakura-Tribe Elder]]<br>
@@ -35,7 +39,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
         <td>
             1 [[Cinder Glade]]<br>
             1 [[Forest]]<br>
-            7 [[Mountain]]<br>
+            8 [[Mountain]]<br>
             4 [[Stomping Ground]]<br>
             4 [[Valakut, the Molten Pinnacle]]<br>
             4 [[Windswept Heath]]<br>
@@ -44,16 +48,32 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4, but [[Explore]] makes us a bit better at doing so on T3 (see table below).
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes it whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
 
-| Two-Drop Ramp Spell   | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
-|:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| [[Explore]]           | 25.0%     | 33.6%     | 70.6%       | 88.3%     |
-| [[Farseek]]           | 24.0%     | 32.4%     | 69.2%       | 88.5%     |
+| Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:-----------------------|:---------:|:---------:|:-----------:|:---------:|
+| [[Explore]], 25 Lands  | 24.5%     | 34.1%     | 71.3%       | 88.2%     |
+| [[Farseek]], 25 Lands  | 24.0%     | 32.3%     | 69.6%       | 88.9%     |
+| [[Explore]], 26 Lands  | 28.0%     | 37.5%     | 73.7%       | 90.3%     |
+| [[Farseek]], 26 Lands  | 26.3%     | 35.2%     | 72.3%       | 89.9%     |
+| [[Explore]], 27 Lands  | %     | %     | %       | %     |
+| [[Farseek]], 27 Lands  | %     | %     | %       | %     |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.3%.</p>
 
-> 26th land... means repeating a lot of simulations. Maybe just mention it here. 
+We also play 26 lands, rather than the tried-and-true 25. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds. 
+
+
+
+
+
+That might not sound like much, but honestly, how often is a singleton [[Lightning Bolt]] going to steal a game? 
+
+> Need a better justification here. If we're resigned to a T4 Titan, we should be playing Scapeshift instead of Breach. If the whole point of our deck is to make T3 Titan, let's not skimp on that plan. 
+
+
+
+
 
 This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
