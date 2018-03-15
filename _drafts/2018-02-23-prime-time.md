@@ -51,6 +51,17 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 | [[Explore]]           | 25.0%        | 33.6%                | 61.9%        | 88.3%                |
 | [[Farseek]]           | 24.0%        | 32.4%                | 60.6%        | 88.5%                |
 
+
+
+> t4 breach should probably include t3 cast... better way to phrase it?
+
+| Two-Drop Ramp Spell   | T3 Breach | T3 Cast or Better | T4 Breach or Better| T4 Cast or Better |
+|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
+| [[Explore]]           | 25.0%        | 33.6%                | 61.9%        | 88.3%                |
+| [[Farseek]]           | 24.0%        | 32.4%                | 60.6%        | 88.5%                |
+
+
+
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
 
 > 26th land... means repeating a lot of simulations. Maybe just mention it here. 
