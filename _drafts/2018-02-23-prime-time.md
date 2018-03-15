@@ -8,66 +8,9 @@ keywords:
 
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). Despite a few embarrassing punts, I managed a 6-4 finish in Modern -- pretty good for a guy who's never even made Day 2 of a GP!
 
-My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games. 
-
-
-
-
-
-This allowed me to explore the difference between cards that *feel* bad and cards that *are* bad, 
-
-
-This let me identify subtle flaws in the conventional wisdom, 
-
-
-I was then able to 
-
-
-
-
-I found a few flaws in the conventional wisdom, and see a few paths for the deck going forward.
+My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games. I found a few flaws in the conventional wisdom, and see a few paths for the deck going forward.
 
 [^3]: Code is visible on GitHub [here](https://github.com/charles-uno/valakut/blob/master/driver.py). Comments and pull requests welcome!
-
-
-
-
-Knowledge of the metagame
-
-
-
-
-
-
-I practiced, of course, but not as much as my opponents. 
-
-
-
-
-
-
-
-
-{% comment %}
-
----
-
-As *Magic: the Gathering* players go, I'm mediocre. My practice schedule is (at best) sporadic, and I find full-day tournaments exhausting. But, through a combination of good luck and number crunching, I scored an invite to [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix) in Bilbao, Spain -- and even came away with a winning record in Modern[^1]!
-
-[^1]: My Modern record was 6-4, despite punting several relevant games due to fatigue. My drafts, on the other hand, were a bloodbath. I was unfamiliar with a powerful archetype, and I got run over by it, going 1-4-1.
-
-
-
-
----
-
-
-
-{% endcomment %}
-
-
-> TODO: Intro
-
 
 ## The Deck
 
@@ -110,11 +53,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
 
-> 26th land? 
-
-
-
-
+> 26th land... means repeating a lot of simulations. Maybe just mention it here. 
 
 This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
@@ -181,7 +120,7 @@ Playing a set of [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explor
 | (Blank)               | 25%          | 34%                  | 62%          | 88%                  |
 | [[Desperate Ritual]]  | 42%          | 60%                  | 65%          | 95%                  |
 | [[Farseek]]           | 30%          | 41%                  | 66%          | 94%                  |
-| [[Utopia Sprawl]]     | 39%          | 56%                  | %          | %                  |
+| [[Utopia Sprawl]]     | 39%          | 56%                  | 65%          | 94%                  |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -200,11 +139,13 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 | Flex Slot             | Breach by T3 | Breach or Cast by T3 | Breach by T4 | Breach or Cast by T4 |
 |:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
 | (Blank)               | 25%          | 34%                  | 62%          | 88%                  |
-| [[Dramatic Entrance]] | 25%          | 44%                  | %       | %               |
+| [[Dramatic Entrance]] | 25%          | 44%                  | 56%[^22]     | 92%                  |
 | [[Hour of Promise]]   | 25%          | 56%                  | 50%          | 97%                  |
 | [[Woodfall Primus]]   | 31%          | 39%                  | 70%          | 92%                  |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]]/[[Woodfall Primus:Primus]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are extra haymakers. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
+
+[^22]: If given the choice between casting/[[Dramatic Entrance:Entering]] a [[Primeval Titan:Titan]] on T3 and [[Through the Breach:Breaching]] one on T4, it prefers the former. As a result, [[Dramatic Entrance]] appears to make T4 [[Through the Breach:Breach]] less likely. 
 
 Judging by the numbers above, [[Dramatic Entrance]] only gives about half the boost of [[Desperate Ritual]]. It carries half the risk as well: it's good against [[Cryptic Command]] but bad against [[Thoughtseize]]. Unless the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a mono-blue hellscape, we won't be sleeving it up.
 
