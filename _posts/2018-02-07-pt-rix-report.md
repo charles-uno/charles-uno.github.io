@@ -4,13 +4,14 @@ title: "PT RIX Tournament Report"
 image: "/assets/images/pt-rix-thumb.png"
 description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
 keywords: magic the gathering, modern, mtg, games, bilbao, spain
+hidden: true
 ---
 
-By unexpectedly winning a [preliminary qualifier](/modern-primeval-titan-simulation/) in September, then the [regional qualifier](/rptq-rix-report/) in November, I earned an invitation to [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix). So while Minneapolis girded its loins for the Super Bowl, Kara and I headed to Spain. 
+By unexpectedly winning a [preliminary qualifier](/modern-primeval-titan-simulation/) in September, then the [regional qualifier](/rptq-rix-report/) in November, I earned an invitation to [Pro Tour Rivals of Ixalan](https://magic.wizards.com/en/events/premierplay/protour/ptrix). So while Minneapolis girded its loins for the Super Bowl, Kara and I headed to Spain.
 
-We spent two weeks in Basque Country leading up to the tournament -- mostly Bilbao, plus short trips to Haro, Getxo, and San Sebastián. 
+We spent two weeks in Basque Country leading up to the tournament -- mostly Bilbao, plus short trips to Haro, Getxo, and San Sebastián.
 
-The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket. 
+The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket.
 
 ![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda). We took the [funicular](https://en.wikipedia.org/wiki/Artxanda_Funicular) up the mountain, then wandered down on foot.*
@@ -21,7 +22,7 @@ The transit in Bilbao was great, but we spent most of our days walking. Bilbao i
 
 We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town), a neighborhood that exaggerated everything novel about Bilbao. The narrow cobblestone streets -- open to foot traffic only -- were lined with hole-in-the-wall shops and restaurants. Once in a while, we would turn a corner to find a beautiful plaza or an ancient church. And, between the graffiti and the hairstyles, there was a just a hint of an 80s cyberpunk vibe.
 
-Our two weeks in Spain were a welcome break from work and winter. Then, before I knew it, it was time to sling some cardboard. 
+Our two weeks in Spain were a welcome break from work and winter. Then, before I knew it, it was time to sling some cardboard.
 
 ![Steak](/assets/images/pt-rix-steak-16x9.png)
 *This steak came out on an inch-thick piece of hot iron. It continued to sizzle through half the meal.*
@@ -137,11 +138,11 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 **Game 1**: I win the roll and keep an iffy six. Brandon gets stuck on one land, though, so my T5 [[Through the Breach:Breach]] is good enough.
 
-**Sideboard:** -4 [[Chalice of the Void]], -1 [[Woodfall Primus]], +3 [[Anger of the Gods]], +1 [[Obstinate Baloth]], +1 [[Thragtusk]]. It seems weird that [[Chalice of the Void]] would come out against Burn -- the whole deck is one-drops and two-drops -- but after a lot of playtesting I found it to be mediocre. I don't want to spend a turn playing [[Chalice of the Void:Chalice]] on one when they've already got [[Goblin Guide]] on the table, and on two it's just too slow. It's passable on the play, but on the draw I prefer [[Anger of the Gods]]. Notably, I usually bring in [[Reclamation Sage]] against Burn, but I figured I was unlikely to see [[Blood Moon]] in the same deck as [[Wild Nacatl]]. 
+**Sideboard:** -4 [[Chalice of the Void]], -1 [[Woodfall Primus]], +3 [[Anger of the Gods]], +1 [[Obstinate Baloth]], +1 [[Thragtusk]]. It seems weird that [[Chalice of the Void]] would come out against Burn -- the whole deck is one-drops and two-drops -- but after a lot of playtesting I found it to be mediocre. I don't want to spend a turn playing [[Chalice of the Void:Chalice]] on one when they've already got [[Goblin Guide]] on the table, and on two it's just too slow. It's passable on the play, but on the draw I prefer [[Anger of the Gods]]. Notably, I usually bring in [[Reclamation Sage]] against Burn, but I figured I was unlikely to see [[Blood Moon]] in the same deck as [[Wild Nacatl]].
 
 **Game 2:** This time, I get punished for my bad mulligan choice. I keep a hand with [[Obstinate Baloth:Baloth]] and [[Thragtusk]] but no ramp spells, and get run over too fast to play either.
 
-**Sideboard:** -3 [[Anger of the Gods]], +3 [[Chalice of the Void]]. 
+**Sideboard:** -3 [[Anger of the Gods]], +3 [[Chalice of the Void]].
 
 **Game 3:** Brandon mulls to five and gets stuck on one land again.
 

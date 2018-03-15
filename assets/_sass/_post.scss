@@ -46,6 +46,8 @@ article {
     table {
 
         width: 100%;
+//        max-width: $text-width;
+
         tbody, tr { width: 100%; }
 
         caption {
@@ -70,14 +72,18 @@ article {
 //        border-top: $half-pad solid $paper-color;
 
         width: 100%;
+
         max-width: 100%;
+        margin: 0;
+//        max-width: $text-width;
+//        margin: 0 auto;
+
         text-align: justify;
         font-size: $caption-size;
         font-style: normal;
         background-color: $shadow-color;
         display: block;
         padding: $pad;
-        margin: 0;
     }
 
 
