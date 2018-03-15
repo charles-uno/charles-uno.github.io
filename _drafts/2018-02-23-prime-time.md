@@ -56,9 +56,18 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 > TODO -- Need to improve phrasing. "Breach by T4" includes not only T3 Breach, T4 Breach, but also T3 cast. Maybe "or better"?
 
 | Two-Drop Ramp Spell   | T3 Breach | T3 Cast or Better | T4 Breach or Better| T4 Cast or Better |
-|:----------------------|:------------:|:--------------------:|:------------:|:--------------------:|
-| [[Explore]]           | 25.0%        | 33.6%                | 70.6%        | 88.3%                |
-| [[Farseek]]           | 24.0%        | 32.4%                | 69.2%        | 88.5%                |
+|:----------------------|:---------:|:-----------------:|:------------------:|:-----------------:|
+| [[Explore]]           | 25.0%     | 33.6%             | 70.6%              | 88.3%             |
+| [[Farseek]]           | 24.0%     | 32.4%             | 69.2%              | 88.5%             |
+
+
+...
+
+| Two-Drop Ramp Spell   | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:----------------------|:---------:|:---------:|:-----------:|:---------:|
+| [[Explore]]           | 25.0%     | 33.6%     | 70.6%       | 88.3%     |
+| [[Farseek]]           | 24.0%     | 32.4%     | 69.2%       | 88.5%     |
+
 
 
 
