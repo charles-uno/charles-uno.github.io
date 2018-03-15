@@ -63,16 +63,13 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 We also play 26 lands, rather than the tried-and-true 25. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds. 
 
+> In a format as diverse as Modern, we eyeball that to be worth more than (for example) a singleton [[Lightning Bolt]]. 
 
+> That might not sound like much, but honestly, how often is a singleton [[Lightning Bolt]] (or whatever) going to steal a game? 
 
-
-
-That might not sound like much, but honestly, how often is a singleton [[Lightning Bolt]] going to steal a game? 
+> Modern is an incredibly diverse format. When in doubt, we choose to be proactive 
 
 > Need a better justification here. If we're resigned to a T4 Titan, we should be playing Scapeshift instead of Breach. If the whole point of our deck is to make T3 Titan, let's not skimp on that plan. 
-
-
-
 
 
 This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
@@ -87,9 +84,9 @@ This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists p
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
-In our baseline list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as three extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
+In our baseline list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
-We *could* use our four flex slots to bump our interactive suite out to seven cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games with T3 [[Primeval Titan]]. Let's see how often we can make that happen.
+We *could* use our four flex slots to bump our interactive suite out to six cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games on T3 with [[Primeval Titan]] and [[Valakut, the Molten Pinnacle:Valakut]]. Let's see how often we can make that happen.
 
 ## The Model
 
@@ -180,7 +177,6 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
 | (Blank)               | 25%       | 34%       | 71%         | 88%       |
-| [[Ancient Stirrings]] | 31%       | 40%       | 83%         | 95%       |
 | [[Deadshot Minotaur]] | 30%       | 39%       | 79%         | 93%       |
 | [[Faithless Looting]] | 31%       | 39%       | 93%         | 98%       |
 | [[Oath of Nissa]]     | 34%       | 44%       | 84%         | 96%       |
@@ -204,13 +200,11 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at 
 
 ---
 
+---
 
 ---
 
-
----
-
-
+> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. Feel free to check it out! 
 
 Titan Breach is a combo deck. There are bottlenecks in the combo.
 
