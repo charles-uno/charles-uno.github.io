@@ -71,7 +71,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4 (88%), but [[Explore]] makes us a bit better at doing so on T3 (see table below). 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]] sometimes whiffs, which feels bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are equally good at landing [[Primeval Titan]] by T4 (88%), but [[Explore]] makes us a bit better at doing so on T3 (see table below).
 
 | Two-Drop Ramp Spell   | T3 Breach | T3 Breach or Cast |
 |:----------------------|:---------:|:-----------------:|
@@ -80,7 +80,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. [[Explore]
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 are slightly better when we play [[Explore]] instead of [[Farseek]]. All values ±0.3%.</p>
 
-This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy. 
+This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3 Breach | T3 Breach or Cast |
 |:---------------------------------------|:---------:|:-----------------:|
@@ -110,7 +110,7 @@ Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] fo
 
 [^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Between fetch lands and ramp spells, we probably thin about one land per turn on average; that means the computer will draw about one too many lands (and one too few spells) per forty games.
 
-> With a 60 card deck and 25 lands, we should average 3.88 lands by T3, but the model draws 3.96 instead. If we were to use a "phantom mountain" -- 59 card deck, 24 lands -- the model would draw 3.86 lands by T3 instead. 
+> With a 60 card deck and 25 lands, we should average 3.88 lands by T3, but the model draws 3.96 instead. If we were to use a "phantom mountain" -- 59 card deck, 24 lands -- the model would draw 3.86 lands by T3 instead.
 
 ## The Contenders
 
@@ -122,7 +122,7 @@ This suggests three different directions for the flex slots:
 
 - More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3. As a control, we can compare these to [[Farseek]], even though we already play eight two-drop ramp spells.
 - An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
-- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
+- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [[Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
 
 [^12]: Matthias' build of Titan Breach is the one that carried me through my PPTQ. When I asked him about [[Oath of Nissa]], he told me: "Titan Breach isn't a control deck, and it's not a [[Through the Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa]] from Titan Breach just like you don't cut [[Serum Visions]] from Storm."
 

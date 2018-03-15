@@ -4,6 +4,7 @@ title: RPTQ RIX Tournament Report
 image: "/assets/images/anger-of-the-gods-noah-bradley-thumb.png"
 description: "Next stop, Bilbao!"
 keywords: magic the gathering, modern, mtg, primeval titan, valakut, games
+hidden: true
 ---
 
 I'm going to [Bilbao, Spain](https://magic.wizards.com/en/articles/archive/organized-play/2018s-pro-tours-and-2017s-worlds-2017-07-19) to play in Pro Tour: Rivals of Ixalan!

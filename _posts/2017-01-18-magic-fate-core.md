@@ -33,7 +33,7 @@ For example, let's look at my dwarven barbarian (**Don't Hit First; Hit Last**) 
 |:--------|:------------------------|:------------------------|
 | A fight is brewing | Rolls Physique to create the advantage **Girded Loins** | Rolls Physique to create the advantage **Dragonskin** |
 | Kelp devils attack the boat | Jump into the water and roll Athletics to swim like a **Tor-pedo** | Take to the skies: roll Athletics for the advantage **Flying** |
-| Weapon of choice | His [hammer](https://www.youtube.com/watch?v=t7bdr6fjg-k), rolled with Fight | Fireballs, rolled with **Shoot** |
+| Weapon of choice | His [hammer](https://www.youtube.com/watch?v=t7bdr6fjg-k), rolled with **Fight** | Fireballs, rolled with **Shoot** |
 
 A big selling point of this magic system (apart from its simplicity) is that it's great for compels. Compels are probably the trickiest element of Fate. New groups often have trouble getting the hang of them. But they're absolutely crucial: compels are Fate's way of making sure that the mechanics of Fate serve the narrative, not vice versa.
 

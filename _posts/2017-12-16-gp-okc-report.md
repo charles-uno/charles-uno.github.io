@@ -4,6 +4,7 @@ title: "GP OKC Tournament Report"
 image: "/assets/images/desperate-ritual-wayne-reynolds-thumb.png"
 description: "Taking an experimental Titan Breach list to OKC for a test drive."
 keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, desperate ritual, GPOKC
+hidden: true
 ---
 
 I hadn't planned to attend last weekend's GP in Oklahoma City. But, two days before the event, flights got cheap, so I decided to go for it.

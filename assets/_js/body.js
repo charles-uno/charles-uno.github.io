@@ -62,6 +62,7 @@ function filter() {
 
         if(!post) { continue; }
         if( !wordsInPost( words, post.words ) ) { continue; }
+
         html += '<li class="index-item">' +
             '<div class="index-wrap">' +
                 '<a href="' + post.url + '" class="index-link">' +
