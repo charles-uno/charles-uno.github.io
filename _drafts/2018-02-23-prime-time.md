@@ -52,29 +52,18 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 | Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:-----------------------|:---------:|:---------:|:-----------:|:---------:|
-| [[Explore]], 24 Lands  | 22.9%     | 31.5%     | 69.2%       | 86.1%     |
-| [[Farseek]], 24 Lands  | 23.1%     | 31.0%     | 67.8%       | 87.6%     |
 | [[Explore]], 25 Lands  | 25.0%     | 34.0%     | 71.3%       | 88.4%     |
 | [[Farseek]], 25 Lands  | 23.8%     | 32.1%     | 69.4%       | 88.7%     |
 | [[Explore]], 26 Lands  | 27.1%     | 36.2%     | 73.1%       | 90.0%     |
 | [[Farseek]], 26 Lands  | 26.1%     | 35.1%     | 72.2%       | 90.1%     |
-| [[Explore]], 27 Lands  | 29.3%     | 39.4%     | 75.7%       | 91.4%     |
-| [[Farseek]], 27 Lands  | 26.8%     | 36.0%     | 73.7%       | 91.5%     |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25, though admittedly this is personal preference. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds, plus it's a good topdeck if the game goes long. 
+We also play 26 lands, rather than the tried-and-true 25, though admittedly this comes down to personal preference. The 26th land is good in every matchup. It gives a few extra percentage points on T3 [[Primeval Titan]], plus it's a great topdeck if the game goes long. We eyeball it to be better than a third [[Lightning Bolt]] (or [[Anger of the Gods]], or [[Relic of Progenitus]], or whatever). 
 
-> In a format as diverse as Modern, we eyeball that to be worth more than (for example) a singleton [[Lightning Bolt]]. 
+We're too squeamish to cut the last two [[Lightning Bolt:Bolts]], but honestly, perhaps we should. Once in a while, [[Lightning Bolt]] can steal a game by zapping [[Goblin Electromancer]] or [[Devoted Druid]] -- but far more often, it's dead in our hand, or overkill in a game we would already have won. We're not Jund. We don't win by answering our opponents' threats. We win by doing big proactive things quickly and consistently. 
 
-> That might not sound like much, but honestly, how often is a singleton [[Lightning Bolt]] (or whatever) going to steal a game? 
-
-> Modern is an incredibly diverse format. When in doubt, we choose to be proactive 
-
-> Need a better justification here. If we're resigned to a T4 Titan, we should be playing Scapeshift instead of Breach. If the whole point of our deck is to make T3 Titan, let's not skimp on that plan. 
-
-
-This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists play only two or three copies, perhaps because it's easy to underestimate the impact of the one-shot effect. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the deck's explosiveness. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+On that note, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -86,9 +75,10 @@ This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists p
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
-In our baseline list, [[Anger of the Gods]] is a stand-in for interaction in general -- it could just as easily be [[Lightning Bolt]], [[Relic of Progenitus]], or [[Chalice of the Void]]. As far as the model is concerned, these cards are blanks. They don't help make a T3 [[Primeval Titan:Titan]]. Instead, they serve essentially as extra sideboard slots, allowing us to kneecap a faster opponent or break open a stalled board.
 
-We *could* use our four flex slots to bump our interactive suite out to six cards, but it seems like a waste to do so. If we wanted to sleeve up a bunch of removal and value creatures, we'd play Jund. We're playing Titan Breach because we like to steal games on T3 with [[Primeval Titan]] and [[Valakut, the Molten Pinnacle:Valakut]]. Let's see how often we can make that happen.
+
+
+
 
 ## The Model
 
