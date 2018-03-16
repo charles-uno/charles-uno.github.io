@@ -67,9 +67,16 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if this is better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience leads us to prefer the land. 
+We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is *plenty*.
 
-Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but drawing multiple [[Lightning Bolt:Bolts]] in the same game is almost always bad. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html). We're not trying to stabilize the board or deplete our opponents' resources; we're trying to do unfair things as quickly and consistently as possible. 
+Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is just as likely to rot in our hand. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html)[^17]. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently. 
+
+[^17]: beatdown...
+
+> Titan Breach is almost always in the beatdown role, but there are a few cases where we play control post-board. 
+Against Affinity, we play [[Ancient Grudge]], because that card is too good to pass up. And against faster combo decks... we lose anyway. 
+
+
 
 ## The Model
 
