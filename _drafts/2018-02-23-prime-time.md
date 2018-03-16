@@ -44,36 +44,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes it whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
-
-| Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
-|:-----------------------|:---------:|:---------:|:-----------:|:---------:|
-| [[Explore]], 25 Lands  | 25.0%     | 34.0%     | 71.3%       | 88.4%     |
-| [[Farseek]], 25 Lands  | 23.8%     | 32.1%     | 69.4%       | 88.7%     |
-| [[Explore]], 26 Lands  | 27.1%     | 36.2%     | 73.1%       | 90.0%     |
-| [[Farseek]], 26 Lands  | 26.1%     | 35.1%     | 72.2%       | 90.1%     |
-
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
-
-We also play 26 lands, rather than the tried-and-true 25, though admittedly this comes down to personal preference. The 26th land is never bad; it gives a few extra percentage points to make T3 [[Primeval Titan]], plus it's a great topdeck if the game goes long. We eyeball that to be better than the third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever). 
-
-We're too squeamish to cut the last two pieces of interaction, but honestly, perhaps we should. In most matchups, we're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html). We're not trying to stabilize the board or deplete our opponents' resources; we're trying to drop their life total to zero as quickly and consistently as possible. 
-
-> When we allow sideboard cards to creep into our main deck, we gain percentage in a few matchups but lose it against the rest of the field. Do this too much, and we become Jund. 
-
-> We don't need [[Lightning Bolt]] to beat Tron or Jund, and it's no help against Shadow or Bogles. 
-
-> [[Chalice of the Void]] gives us a shot against Storm and Bogles, but it's blank against half the field. 
-
-> An extra [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever) might steal the occasional game by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but it's far more likely to be unnecessary or useless. 
-
-> This sets us up to lose against faster proactive decks like Storm, Infect, and Bogles. 
-
-> If we're getting beat down, it's by Storm or Infect or Bogles, and [[Lightning Bolt]] probably won't be enough anyway. 
-
-> We're not playing Jund. We don't win by controlling the board or depleting our opponents' resources. We win by doing big proactive things as quickly and consistently as possible. 
-
-On that note, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+Right away, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -85,10 +56,20 @@ On that note, let's spend a moment on [[Simian Spirit Guide]]. Many lists includ
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes it whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
 
+| Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
+|:-----------------------|:---------:|:---------:|:-----------:|:---------:|
+| [[Explore]], 25 Lands  | 25.0%     | 34.0%     | 71.3%       | 88.4%     |
+| [[Farseek]], 25 Lands  | 23.8%     | 32.1%     | 69.4%       | 88.7%     |
+| [[Explore]], 26 Lands  | 27.1%     | 36.2%     | 73.1%       | 90.0%     |
+| [[Farseek]], 26 Lands  | 26.1%     | 35.1%     | 72.2%       | 90.1%     |
 
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
 
+We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if this is better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience leads us to prefer the land. 
 
+Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but drawing multiple [[Lightning Bolt:Bolts]] in the same game is almost always bad. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html). We're not trying to stabilize the board or deplete our opponents' resources; we're trying to do unfair things as quickly and consistently as possible. 
 
 ## The Model
 
