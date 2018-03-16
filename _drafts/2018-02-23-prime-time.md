@@ -26,8 +26,8 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     <caption class="deckname">Baseline Titan Breach</caption>
     <tr>
         <td>
-            2 [[Anger of the Gods]]<br>
             4 [[Explore]]<br>
+            2 [[Lightning Bolt]]<br>
             4 [[Primeval Titan]]<br>
             4 [[Sakura-Tribe Elder]]<br>
             4 [[Search for Tomorrow]]<br>
@@ -52,16 +52,18 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 | Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:-----------------------|:---------:|:---------:|:-----------:|:---------:|
-| [[Explore]], 25 Lands  | 24.5%     | 34.1%     | 71.3%       | 88.2%     |
-| [[Farseek]], 25 Lands  | 24.0%     | 32.3%     | 69.6%       | 88.9%     |
-| [[Explore]], 26 Lands  | 28.0%     | 37.5%     | 73.7%       | 90.3%     |
-| [[Farseek]], 26 Lands  | 26.3%     | 35.2%     | 72.3%       | 89.9%     |
-| [[Explore]], 27 Lands  | 28.9%     | 39.1%     | 75.4%       | 91.2%     |
-| [[Farseek]], 27 Lands  | 26.4%     | 35.3%     | 73.5%       | 91.4%     |
+| [[Explore]], 24 Lands  | 22.9%     | 31.5%     | 69.2%       | 86.1%     |
+| [[Farseek]], 24 Lands  | 23.1%     | 31.0%     | 67.8%       | 87.6%     |
+| [[Explore]], 25 Lands  | 25.0%     | 34.0%     | 71.3%       | 88.4%     |
+| [[Farseek]], 25 Lands  | 23.8%     | 32.1%     | 69.4%       | 88.7%     |
+| [[Explore]], 26 Lands  | 27.1%     | 36.2%     | 73.1%       | 90.0%     |
+| [[Farseek]], 26 Lands  | 26.1%     | 35.1%     | 72.2%       | 90.1%     |
+| [[Explore]], 27 Lands  | 29.3%     | 39.4%     | 75.7%       | 91.4%     |
+| [[Farseek]], 27 Lands  | 26.8%     | 36.0%     | 73.7%       | 91.5%     |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds. 
+We also play 26 lands, rather than the tried-and-true 25, though admittedly this is personal preference. The 26th land is worth an extra T3 [[Primeval Titan]] about once every ten rounds, plus it's a good topdeck if the game goes long. 
 
 > In a format as diverse as Modern, we eyeball that to be worth more than (for example) a singleton [[Lightning Bolt]]. 
 
@@ -76,11 +78,11 @@ This is also a good opportunity to mention [[Simian Spirit Guide]]. Many lists p
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
-| 4                                      | 25%       | 34%       | 71%         | 88%       |
-| 3                                      | 21%       | 27%       | 66%         | 85%       |
-| 2                                      | 16%       | 20%       | 62%         | 82%       |
-| 1                                      | 12%       | 13%       | 58%         | 78%       |
-| 0                                      | 7%        | 7%        | 53%         | 73%       |
+| 4                                      | %       | %       | %         | %       |
+| 3                                      | %       | %       | %         | %       |
+| 2                                      | %       | %       | %         | %       |
+| 1                                      | %       | %       | %         | %       |
+| 0                                      | %        | %        | %         | %       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
 
@@ -134,10 +136,10 @@ Playing a set of [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explor
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | 25%       | 34%       | 71%         | 88%       |
-| [[Desperate Ritual]]  | 42%       | 60%       | 83%         | 95%       |
-| [[Farseek]]           | 30%       | 41%       | 77%         | 94%       |
-| [[Utopia Sprawl]]     | 39%       | 56%       | 82%         | 94%       |
+| (Blank)               | %       | %       | %         | %       |
+| [[Desperate Ritual]]  | %       | %       | %         | %       |
+| [[Farseek]]           | %       | %       | %         | %       |
+| [[Utopia Sprawl]]     | %       | %       | %         | %       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -155,10 +157,10 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | 25%       | 34%       | 71%         | 88%       |
-| [[Dramatic Entrance]] | 25%       | 44%       | 75%         | 92%       |
-| [[Hour of Promise]]   | 25%       | 56%       | 81%         | 97%       |
-| [[Woodfall Primus]]   | 31%       | 39%       | 79%         | 92%       |
+| (Blank)               | %       | %       | %         | %       |
+| [[Dramatic Entrance]] | %       | %       | %         | %       |
+| [[Hour of Promise]]   | %       | %       | %         | %       |
+| [[Woodfall Primus]]   | %       | %       | %         | %       |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]]/[[Woodfall Primus:Primus]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are extra haymakers. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -176,12 +178,13 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | 25%       | 34%       | 71%         | 88%       |
-| [[Deadshot Minotaur]] | 30%       | 39%       | 79%         | 93%       |
-| [[Faithless Looting]] | 31%       | 39%       | 93%         | 98%       |
-| [[Oath of Nissa]]     | 34%       | 44%       | 84%         | 96%       |
-| [[Serum Visions]]     | 37%       | 47%       | 87%         | 96%       |
-| [[Street Wraith]]     | 34%       | 45%       | 81%         | 94%       |
+| (Blank)               | %       | %       | %         | %       |
+| [[Ancient Stirrings]] | %       | %       | %         | %       |
+| [[Deadshot Minotaur]] | %       | %       | %         | %       |
+| [[Faithless Looting]] | %       | %       | %         | %       |
+| [[Oath of Nissa]]     | %       | %       | %         | %       |
+| [[Serum Visions]]     | %       | %       | %         | %       |
+| [[Street Wraith]]     | %       | %       | %         | %       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
