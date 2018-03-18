@@ -167,19 +167,13 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 
 
 
+> The above table suggests that [[Faithless Looting]] might be even better than [[Oath of Nissa]], but we should take this with a grain of salt.
 
 
 
+> AB combo like company
 
-The above table suggests that [[Faithless Looting]] might be even better than [[Oath of Nissa]], but we should take this with a grain of salt.
-
-
-
-
-
-AB combo like company
-
-critical mass combo like storm
+> critical mass combo like storm
 
 
 
