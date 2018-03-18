@@ -14,9 +14,9 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 ## The Deck
 
-The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by [[Through the Breach:Breaching]] a [[Primeval Titan:Titan]] and repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
+The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build below can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] in about 25% of games, and cast one in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (88%) have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build below can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] in about 27% of games, and cast one in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
@@ -48,35 +48,30 @@ Right away, let's spend a moment on [[Simian Spirit Guide]]. Many lists include 
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
-| 4                                      | %       | %       | %         | %       |
-| 3                                      | %       | %       | %         | %       |
-| 2                                      | %       | %       | %         | %       |
-| 1                                      | %       | %       | %         | %       |
-| 0                                      | %        | %        | %         | %       |
+| 4                                      | 27%       | 36%       | 73%         | 90%       |
+| 3                                      | 22%       | 29%       | 69%         | 87%       |
+| 2                                      | 17%       | 21%       | 65%         | 84%       |
+| 1                                      | 13%       | 14%       | 60%         | 80%       |
+| 0                                      | 8%        | 8%        | 56%         | 75%       |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. All values ±1%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to <em>at worst</em> Breach on T4. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
 The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes it whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
 
 | Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:-----------------------|:---------:|:---------:|:-----------:|:---------:|
-| [[Explore]], 25 Lands  | 25.0%     | 34.0%     | 71.3%       | 88.4%     |
-| [[Farseek]], 25 Lands  | 23.8%     | 32.1%     | 69.4%       | 88.7%     |
-| [[Explore]], 26 Lands  | 27.1%     | 36.2%     | 73.1%       | 90.0%     |
-| [[Farseek]], 26 Lands  | 26.1%     | 35.1%     | 72.2%       | 90.1%     |
+| [[Explore]], 25 Lands  | 25.0%     | 33.6%     | 70.6%       | 88.3%     |
+| [[Farseek]], 25 Lands  | 24.0%     | 32.5%     | 69.2%       | 88.5%     |
+| [[Explore]], 26 Lands  | 26.8%     | 36.2%     | 73.1%       | 89.7%     |
+| [[Farseek]], 26 Lands  | 25.1%     | 33.7%     | 71.3%       | 89.9%     |
 
-<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on baseline configuration. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to *at worst* Breach on T4. All values ±0.5%.</p>
+<p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is *plenty*.
+We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
 
-Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is just as likely to rot in our hand. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html)[^17]. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently. 
+Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html)[^17]. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that. We're squeamish about cutting the last two, but honestly, it's not out of the question.
 
-[^17]: beatdown...
-
-> Titan Breach is almost always in the beatdown role, but there are a few cases where we play control post-board. 
-Against Affinity, we play [[Ancient Grudge]], because that card is too good to pass up. And against faster combo decks... we lose anyway. 
-
-
+[^17]: We play control post-board against Affinit because [[Ancient Grudge]] is too powerful not to play. We also are forced into a control role when playing against faster combo decks like Bogles, Infect, and Storm -- we can't race them, so we pray that [[Anger of the Gods]] will buy us enough time. Otherwise, we race.
 
 ## The Model
 
@@ -90,7 +85,7 @@ In fact, the computer is actually a little *too* good. Trying every possible lin
 
 Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then compare the top card of each deck and keep the one we like best! As a workaround, whenever we would thin a land from the deck, instead we just create a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
-[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Overall, the model draws one too many lands (and one too few spells) about once per thirty games, which bumps all our numbers by about half a percent. 
+[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Overall, the model draws one too many lands (and one too few spells) about once per thirty games, which bumps all our numbers by about half a percent.
 
 To be clear, these caveats are at the margin. Based on manual inspection of the computer's sequencing for hundreds of hands, it finds the same lines that a human player would. And it finds them *fast*. A laptop running this model can churn through 100k hands overnight, allowing us to compare builds with far greater precision than is possible by hand.
 
@@ -102,9 +97,11 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 This suggests three different directions for the flex slots:
 
-- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3. As a control, we can compare these to [[Farseek]], even though we already play eight two-drop ramp spells.
+- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
 - An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
-- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [[Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]], and even "colorshifted" [[Serum Visions]][^14].
+- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [[Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]][^14].
+
+[^11]: On its face, [[Ancient Stirrings]] seems like an odd choice in this deck. Some builds include an [[Emrakul, the Aeons Torn:Emrakul]] or two, but otherwise the only colorless cards are lands. It actually plays surprisingly well. Finding [[Valakut, the Molten Pinnacle]] is valuable against permission-heavy opponents. Finding fetches (and leaving mountains in the deck) allows us to trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And many important sideboard cards are colorless: [[Chalice of the Void]], [[Engineered Explosives]], [[Relic of Progenitus]], [[Grafdigger's Cage]], etc.
 
 [^12]: Matthias' build of Titan Breach is the one that carried me through my PPTQ. When I asked him about [[Oath of Nissa]], he told me: "Titan Breach isn't a control deck, and it's not a [[Through the Breach]] deck. It's a combo deck, and the combo is [[Primeval Titan]]. You don't cut [[Oath of Nissa]] from Titan Breach just like you don't cut [[Serum Visions]] from Storm."
 
@@ -114,14 +111,13 @@ The model allows us to see precisely how each of these options impacts our odds 
 
 ## The Results
 
-Playing a set of [[Farseek]] (in addition to [[Sakura-Tribe Elder]] and [[Explore]]) increases our odds of landing [[Primeval Titan]] on T3 by about six percentage points (see table below). In other words, about once every sixteen games, the baseline build was bottlenecked by a missing two-drop ramp spell. That's better than nothing, but it's small potatoes compared to the *twenty-five* point boost we can get from a set of [[Desperate Ritual]] or [[Utopia Sprawl]] -- an extra T3 [[Primeval Titan:Titan]] every *four* games!
+The effect of extra acceleration is huge. Over the course of eight rounds, the baseline list will average seven T3 [[Primeval Titan:Titans]]. Adding a set of [[Desperate Ritual:Rituals]] bumps that number up to *twelve*  (with [[Utopia Sprawl]] just a bit behind, see below).
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | %       | %       | %         | %       |
-| [[Desperate Ritual]]  | %       | %       | %         | %       |
-| [[Farseek]]           | %       | %       | %         | %       |
-| [[Utopia Sprawl]]     | %       | %       | %         | %       |
+| (Blank)               | 27%       | 36%       | 73%         | 90%       |
+| [[Desperate Ritual]]  | 44%       | 63%       | 85%         | 96%       |
+| [[Utopia Sprawl]]     | 40%       | 58%       | 80%         | 95%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are acceleration. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
@@ -135,40 +131,67 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 ---
 
-[[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a bad version of [[Desperate Ritual]].
+[[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a worse [[Desperate Ritual]]. Per the table below, it gives about half the T3 boost, and carries half the liability as well: it's good against counterspells but bad against [[Thoughtseize]]. Unless [[Jace, the Mind Sculptor:Jace]] turns Modern into a mono-blue hellscape, we won't be sleeving it up.
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | %       | %       | %         | %       |
-| [[Dramatic Entrance]] | %       | %       | %         | %       |
-| [[Hour of Promise]]   | %       | %       | %         | %       |
-| [[Woodfall Primus]]   | %       | %       | %         | %       |
+| (Blank)               | 27%       | 36%       | 73%         | 90%       |
+| [[Dramatic Entrance]] | 27%       | 47%       | 78%         | 93%       |
+| [[Hour of Promise]]   | 27%       | 59%       | 83%         | 97%       |
+| [[Woodfall Primus]]   | 33%       | 42%       | 80%         | 93%       |
 
 <p class="table-caption">Odds to cast/[[Through the Breach:Breach]]/[[Dramatic Entrance:Enter]] a [[Primeval Titan:Titan]]/[[Woodfall Primus:Primus]], or cast [[Hour of Promise:Hour]], on T3 when the flex slots in the above list are extra haymakers. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-Judging by the numbers above, [[Dramatic Entrance]] only gives about half the boost of [[Desperate Ritual]]. It carries half the risk as well: it's good against [[Cryptic Command]] but bad against [[Thoughtseize]]. Unless the recent [unbannings](https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12) turn Modern into a mono-blue hellscape, we won't be sleeving it up.
+[[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also unimpressive. It looks like it's only about six percent of games where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]].
 
-[[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also unimpressive. It looks like it's only about six percent of games where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]] -- a comparable boost to [[Farseek]] above.
-
-[[Hour of Promise]], on the other hand, is an extra haymaker worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
+[[Hour of Promise]], on the other hand, is a haymaker worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
 
 The problem with [[Hour of Promise]] is that it doesn't close out a game on its own. Tron, Affinity, and Burn don't care about our T3 [[Hour of Promise]] unless we follow it up with a T4 [[Primeval Titan]].
 
 ---
 
-First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]], and it only gets better as the game goes on. [[Oath of Nissa:Oath]] falls a few points short of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern), but no other cantrip in our colors comes close.
+Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern). It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]] (see table below).
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
-| (Blank)               | %       | %       | %         | %       |
-| [[Ancient Stirrings]] | %       | %       | %         | %       |
-| [[Deadshot Minotaur]] | %       | %       | %         | %       |
-| [[Faithless Looting]] | %       | %       | %         | %       |
-| [[Oath of Nissa]]     | %       | %       | %         | %       |
-| [[Serum Visions]]     | %       | %       | %         | %       |
-| [[Street Wraith]]     | %       | %       | %         | %       |
+| (Blank)               | 27%       | 36%       | 73%         | 90%       |
+| [[Ancient Stirrings]] | 33%       | 43%       | 85%         | 96%       |
+| [[Deadshot Minotaur]] | 31%       | 41%       | 80%         | 94%       |
+| [[Faithless Looting]] | 35%       | 55%       | 94%         | 98%       |
+| [[Oath of Nissa]]     | 35%       | 46%       | 86%         | 96%       |
+| [[Serum Visions]]     | 37%       | 49%       | 88%         | 97%       |
+| [[Street Wraith]]     | 35%       | 46%       | 82%         | 95%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
+
+
+
+
+
+
+
+
+The above table suggests that [[Faithless Looting]] might be even better than [[Oath of Nissa]], but we should take this with a grain of salt.
+
+
+
+
+
+AB combo like company
+
+critical mass combo like storm
+
+
+
+
+
+
+First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]], falling just a hair shy of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern). No other cantrip in our colors comes close to [[Oath of Nissa:Oath]] in terms of making [[Primeval Titan]] on T3.
+
+
+
+
+
 
 After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
@@ -189,7 +212,7 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at 
 
 ---
 
-> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. Feel free to check it out! 
+> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. Feel free to check it out!
 
 Titan Breach is a combo deck. There are bottlenecks in the combo.
 
@@ -200,14 +223,3 @@ Once in a while, [[Lightning Bolt]] will swing a game by zapping [[Goblin Electr
 
 
 > something something... we have identified the bottlenecks in this combo. let's shore them up. more fun than turning into a midrange deck
-
-
-
-
-
-
-{% comment %}
-
-[^11]: On its face, [[Ancient Stirrings]] seems like an odd choice in this deck. Some builds include an [[Emrakul, the Aeons Torn:Emrakul]] or two, but otherwise the only colorless cards are lands. It actually plays surprisingly well. Finding [[Valakut, the Molten Pinnacle]] is valuable against permission-heavy opponents. Finding fetches (and leaving mountains in the deck) allows us to trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And many important sideboard cards are colorless: [[Chalice of the Void]], [[Engineered Explosives]], [[Relic of Progenitus]], [[Grafdigger's Cage]], etc.
-
-{% endcomment %}
