@@ -6,7 +6,7 @@ description: ""
 keywords:
 ---
 
-I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). Despite a few embarrassing punts, I managed a 6-4 finish in Modern -- pretty good for a guy who's never even made Day 2 of a GP!
+I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion of [PTRIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix) -- pretty good for a guy who's never even made Day 2 of a GP!
 
 My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games. I found a few flaws in the conventional wisdom, and see a few paths for the deck going forward.
 
@@ -16,7 +16,7 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build below can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] in about 27% of games, and cast one in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 8% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
@@ -44,7 +44,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-Right away, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+Right off the bat, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -56,7 +56,7 @@ Right away, let's spend a moment on [[Simian Spirit Guide]]. Many lists include 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to <em>at worst</em> Breach on T4. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes it whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
+The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes [[Explore]] whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
 
 | Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:-----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -69,9 +69,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
 
-Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're [the beatdown](http://www.starcitygames.com/magic/fundamentals/3692_Whos_The_Beatdown.html)[^17]. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that. We're squeamish about cutting the last two, but honestly, it's not out of the question.
-
-[^17]: We play control post-board against Affinit because [[Ancient Grudge]] is too powerful not to play. We also are forced into a control role when playing against faster combo decks like Bogles, Infect, and Storm -- we can't race them, so we pray that [[Anger of the Gods]] will buy us enough time. Otherwise, we race.
+Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that. 
 
 ## The Model
 
