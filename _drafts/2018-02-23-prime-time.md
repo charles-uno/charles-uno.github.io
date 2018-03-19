@@ -16,7 +16,7 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 8% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
