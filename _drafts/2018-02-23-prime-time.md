@@ -44,7 +44,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-Right off the bat, let's spend a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+Let's start by spending a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -148,7 +148,7 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 ---
 
-Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern). It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]] (see table below).
+Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It significantly outperforms a vanilla [[Deadshot Minotaur:one-mana cantrip]], and falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table below). 
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -162,18 +162,12 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-> caveat on the faithless looting -- there are enough options on that card that brute force becomes a problem.
+[[Faithless Looting]] narrowly outperforms [[Oath of Nissa]] in the early game, but it also leaves us down a card. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so that's a serious problem. 
 
-> AB combo like company
-
-> critical mass combo like storm
+[[Ancient Stirrings]] is a few points behind [[Oath of Nissa]], but we might give it a try anyway -- looking at five cards is *huge*. It digs for [[Valakut, the Molten Pinnacle:Valakut]] against permission-heavy opponents. It grabs fetches (while leaving Mountains in the deck) so we can trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And it helps us find one-offs and sideboard cards: [[Chalice of the Void:Chalice]], [[Emrakul, the Aeons Torn:Emrakul]], [[Engineered Explosives]], [[Relic of Progenitus:Relic]], [[Kozilek's Return]], etc.
 
 
 
-
-
-
-First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is our best option. In the first few turns, it digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]], falling just a hair shy of [[Serum Visions]] (one of the [most played cards](https://www.mtggoldfish.com/format-staples/modern) in Modern). No other cantrip in our colors comes close to [[Oath of Nissa:Oath]] in terms of making [[Primeval Titan]] on T3.
 
 
 
@@ -183,8 +177,8 @@ First things first: if we're in the market for a cantrip, [[Oath of Nissa]] is o
 After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
 - [[Desperate Ritual]] boosts our odds of landing [[Primeval Titan]] on T3 by 26%, but it doesn't play well against counterspells and discard.
-- [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 22%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
-- [[Oath of Nissa]] insulates us against disruption and boosts our odds of landing [[Primeval Titan]] on T3, but only by 11%.
+- [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
+- [[Oath of Nissa]] insulates us against disruption and boosts our odds of landing [[Primeval Titan]] on T3, but only by 10%.
 
 
 
@@ -199,7 +193,9 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at 
 
 ---
 
-> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. Feel free to check it out!
+
+
+> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. with 1x Emrakul, does Stirrings outperform Oath? Feel free to check it out!
 
 Titan Breach is a combo deck. There are bottlenecks in the combo.
 
