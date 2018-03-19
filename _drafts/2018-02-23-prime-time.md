@@ -157,7 +157,7 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 | (Blank)               | 27%       | 36%       | 73%         | 90%       |
 | [[Ancient Stirrings]] | 33%       | 43%       | 85%         | 96%       |
 | [[Deadshot Minotaur]] | 31%       | 41%       | 80%         | 94%       |
-| [[Faithless Looting]] | 35%       | 44%       | 83%         | 88%       |
+| [[Faithless Looting]] | 37%       | 47%       | 89%         | 96%       |
 | [[Oath of Nissa]]     | 35%       | 46%       | 86%         | 96%       |
 | [[Serum Visions]]     | 37%       | 47%       | 87%         | 95%       |
 | [[Street Wraith]]     | 35%       | 46%       | 82%         | 95%       |
