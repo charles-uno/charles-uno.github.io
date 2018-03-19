@@ -148,7 +148,7 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 ---
 
-Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It significantly outperforms a vanilla [[Deadshot Minotaur:one-mana cantrip]], and falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table below). 
+Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table below).
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -163,9 +163,6 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
 [[Faithless Looting]] narrowly outperforms [[Oath of Nissa]] in the early game, but it also leaves us down a card. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so that's a serious problem. 
-
-[[Ancient Stirrings]] is a few points behind [[Oath of Nissa]], but we might give it a try anyway -- looking at five cards is *huge*. It digs for [[Valakut, the Molten Pinnacle:Valakut]] against permission-heavy opponents. It grabs fetches (while leaving Mountains in the deck) so we can trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And it helps us find one-offs and sideboard cards: [[Chalice of the Void:Chalice]], [[Emrakul, the Aeons Torn:Emrakul]], [[Engineered Explosives]], [[Relic of Progenitus:Relic]], [[Kozilek's Return]], etc.
-
 
 
 
