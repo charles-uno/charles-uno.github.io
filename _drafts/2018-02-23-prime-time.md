@@ -157,19 +157,14 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 | (Blank)               | 27%       | 36%       | 73%         | 90%       |
 | [[Ancient Stirrings]] | 33%       | 43%       | 85%         | 96%       |
 | [[Deadshot Minotaur]] | 31%       | 41%       | 80%         | 94%       |
-| [[Faithless Looting]] | 35%       | 55%       | 94%         | 98%       |
+| [[Faithless Looting]] | 35%       | 44%       | 83%         | 88%       |
 | [[Oath of Nissa]]     | 35%       | 46%       | 86%         | 96%       |
-| [[Serum Visions]]     | 37%       | 49%       | 88%         | 97%       |
+| [[Serum Visions]]     | 37%       | 47%       | 87%         | 95%       |
 | [[Street Wraith]]     | 35%       | 46%       | 82%         | 95%       |
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-
-
-
-> The above table suggests that [[Faithless Looting]] might be even better than [[Oath of Nissa]], but we should take this with a grain of salt.
-
-
+> caveat on the faithless looting -- there are enough options on that card that brute force becomes a problem.
 
 > AB combo like company
 
