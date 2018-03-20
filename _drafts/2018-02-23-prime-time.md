@@ -174,16 +174,26 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might see [[Oa
 
 
 
-
-
-
-
-
 ---
 
 ---
 
 ---
+
+
+
+
+
+
+
+
+These aren't the only options, of course, but they're a good place to start. 
+
+
+Obviously there are a lot more options here. 
+
+
+
 
 
 
@@ -192,9 +202,5 @@ After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might see [[Oa
 Titan Breach is a combo deck. There are bottlenecks in the combo.
 
 Titan Breach is a combo deck with decent odds to go off on T3. There are cards we can play to make our best draws happen more often, even while improving our inevitability in a long game.
-
-
-Once in a while, [[Lightning Bolt]] will swing a game by zapping [[Goblin Electromancer]], [[Devoted Druid]], or [[Karn Liberated]].
-
 
 > something something... we have identified the bottlenecks in this combo. let's shore them up. more fun than turning into a midrange deck
