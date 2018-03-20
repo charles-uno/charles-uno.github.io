@@ -44,7 +44,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-Let's start by spending a moment on [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+Right off the bat, let's talk about [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -67,7 +67,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra T3 [[Primeval Titan]] every ten rounds or so, plus it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
+We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
 
 Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that. 
 
