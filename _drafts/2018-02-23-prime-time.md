@@ -148,7 +148,11 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 ---
 
-Right off the bat, it's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table below).
+It's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table).
+
+[[Faithless Looting]] outperforms [[Oath of Nissa]], but probably not by enough. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so it matters a lot that [[Faithless Looting]] doesn't replace itself[^17]. 
+
+[^17]: Strictly speaking, [[Oath of Nissa:Oath]] doesn't always replace itself. In a 60 card deck with 26 lands and 12 creatures, it has about a [one-in-twenty chance to whiff](http://www.wolframalpha.com/input/?i=(22+choose+3)%2F(60+choose+3)). 
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -162,16 +166,7 @@ Right off the bat, it's clear that Matthias was onto something. In the first few
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-[[Faithless Looting]] narrowly outperforms [[Oath of Nissa]] in the early game, but it also leaves us down a card. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so that's a serious problem. 
-
-
-
-
-
-
-
-
-After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might look at [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
+After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might see [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
 - [[Desperate Ritual]] boosts our odds of landing [[Primeval Titan]] on T3 by 26%, but it doesn't play well against counterspells and discard.
 - [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
