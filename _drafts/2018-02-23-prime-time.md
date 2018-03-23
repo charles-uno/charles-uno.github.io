@@ -81,7 +81,13 @@ In fact, the computer is actually a little *too* good. Trying every possible lin
 
 [^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time.
 
-Shuffling is also a problem. Imagine cracking a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then comparing the top card of each deck to decide which to keep! As a workaround, whenever the model would thin a land from the deck, instead it just creates a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
+Shuffling is also a problem, though it's a bit subtle:
+
+> Suppose it's T3. You have three lands in play, another in hand, and you're casting [[Search for Tomorrow]] from exile. You're holding [[Primeval Titan]]. With four [[Through the Breach]] and four [[Simian Spirit Guide:SSG]] in your remaining fifty cards, you've got a 16% chance to draw one and make a T3 [[Primeval Titan:Titan]]. 
+>
+> But the computer sees a choice: it could [[Search for Tomorrow:Search]] for a [[Forest]] or for a [[Mountain]]. So it makes two copies of the game and tries them both. Each copy has a 16% chance to make T3 [[Primeval Titan:Titan]] -- but because the two decks were shuffled independently, one of them will hit [almost 30%](http://www.wolframalpha.com/input/?i=1+-+(1+-+16%25)(1+-+16%25)) of the time! 
+
+Essentially, by trying all choices and keeping the best outcome, the model gets to double-dip on luck. As a workaround, after we shuffle our deck and draw our opening hand, everything plays out deterministically. Whenever the model would thin a land from the deck, instead it just creates a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
 [^7]: At the start of T3, with three lands in play and two in hand, the computer has a 41% chance of drawing a land (21/51) this turn. But if two lands were thinned  out of the deck with [[Wooded Foothills]] and [[Search for Tomorrow]], that number should be 39% (19/49) instead. Overall, the model draws one too many lands (and one too few spells) about once per thirty games, which bumps all the numbers by about half a percent.
 
