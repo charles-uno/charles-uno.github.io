@@ -14,7 +14,7 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 ## The Deck
 
-The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
+The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly trigger [[Valakut, the Molten Pinnacle]]. It's also possible to hard-cast [[Primeval Titan]] on T3 with [[Simian Spirit Guide]]; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
 Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
 
@@ -44,7 +44,7 @@ Before we get into modeling and optimization, let's establish a baseline. Assumi
     </tr>
 </table>
 
-Right off the bat, let's talk about [[Simian Spirit Guide]]. Many lists include only two or three copies, but we enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. We would play a different deck before cutting a single copy.
+Right off the bat, let's talk about [[Simian Spirit Guide]]. Many lists include only two or three copies, but I enthusiastically play a full set. Per the table below, [[Simian Spirit Guide:SSG]] is hugely important to the explosiveness of Titan Breach. It's a core piece of the deck, right up there with [[Search for Tomorrow]] and [[Through the Breach]]. I would play a different deck before cutting a single copy.
 
 | Number of [[Simian Spirit Guide:SSGs]] | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:---------------------------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -56,7 +56,7 @@ Right off the bat, let's talk about [[Simian Spirit Guide]]. Many lists include 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 depends strongly on how many copies of [[Simian Spirit Guide]] we play. Replacement cards are blanks. Values are cumulative from left to right; "≥ Breach T4" gives the deck's odds to <em>at worst</em> Breach on T4. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes [[Explore]] whiffs, which feels pretty bad, but it also has a chance to draw us into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
+The conventional wisdom prefers [[Farseek]], but I play [[Explore]]. Sometimes [[Explore]] whiffs, which feels pretty bad, but it also has a chance to draw into a missing [[Through the Breach:Breach]], [[Primeval Titan:Titan]], or [[Simian Spirit Guide:SSG]]. Overall, [[Farseek]] and [[Explore]] are comparably good at landing [[Primeval Titan]] by T4, but [[Explore]] is a bit better at doing so on T3 (see table below).
 
 | Baseline Configuration | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:-----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -67,13 +67,13 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. The 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
+I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is plenty.
 
-Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
+Once in a while, [[Lightning Bolt]] steals a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but it's far more likely to be useless or unnecessary. Titan Breach isn't trying to stabilize the board or deplete our opponent's resources. It wins by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 
 ## The Model
 
-In Frank Karsten's models, he spells out explicitly how the computer should [mulligan](https://www.channelfireball.com/articles/powerful-mox-amber-brews-in-modern-and-standard/) and [sequence its plays](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/). We haven't got the patience (or credibility) for that, so we use brute force. Every time our model has a choice between multiple plays, it makes that many copies of the game state and tries them all.
+In Frank Karsten's models, he spells out explicitly how the computer should [mulligan](https://www.channelfireball.com/articles/powerful-mox-amber-brews-in-modern-and-standard/) and [sequence its plays](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/). I haven't got the patience (or credibility) for that, so my model uses brute force. Every time it has a choice between multiple plays, it makes that many copies of the game state and tries them all.
 
 The computer makes thousands of copies of each hand. Each copy is played differently, and most of those plays are awful. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]].
 
@@ -81,17 +81,17 @@ In fact, the computer is actually a little *too* good. Trying every possible lin
 
 [^8]: The model is very aggressive about taking mulligans. It only keeps its seven-card hand about half the time.
 
-Shuffling is also a problem. Imagine if we could crack a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then compare the top card of each deck and keep the one we like best! As a workaround, whenever we would thin a land from the deck, instead we just create a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
+Shuffling is also a problem. Imagine cracking a [[Wooded Foothills]] for a [[Stomping Ground]], then for a [[Cinder Glade]], then for a [[Mountain]] -- shuffling independently each time --  then comparing the top card of each deck to decide which to keep! As a workaround, whenever the model would thin a land from the deck, instead it just creates a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
-[^7]: At the start of T3, if we have three lands in play and two in our hand, the computer thinks we have a 41% chance of drawing a land (21/51) this turn. But if we thinned our deck with a [[Wooded Foothills]] and a [[Search for Tomorrow]], that number should be 39% (19/49) instead. Overall, the model draws one too many lands (and one too few spells) about once per thirty games, which bumps all our numbers by about half a percent.
+[^7]: At the start of T3, with three lands in play and two in hand, the computer has a 41% chance of drawing a land (21/51) this turn. But if two lands were thinned  out of the deck with [[Wooded Foothills]] and [[Search for Tomorrow]], that number should be 39% (19/49) instead. Overall, the model draws one too many lands (and one too few spells) about once per thirty games, which bumps all the numbers by about half a percent.
 
-To be clear, these caveats are at the margin. Based on manual inspection of the computer's sequencing for hundreds of hands, it finds the same lines that a human player would. And it finds them *fast*. A laptop running this model can churn through 100k hands overnight, allowing us to compare builds with far greater precision than is possible by hand.
+To be clear, these caveats are at the margin. Based on manual inspection of the computer's sequencing for hundreds of hands, it finds the same lines that a human player would. And it finds them *fast*. A laptop running this model can churn through 100k hands overnight, allowing far greater precision than is possible by hand.
 
 ## The Contenders
 
 The best Titan Breach hands all look about the same: T1 suspend [[Search for Tomorrow:Search]], T2 [[Sakura-Tribe Elder:Steve]]/[[Explore]], T3 [[Through the Breach:Breach]] into [[Summoner's Pact:Pact]]/[[Primeval Titan:Titan]]. With eight two-drop ramp spells and (essentially) eight [[Primeval Titan:Titans]], it's reasonably safe[^10] to expect one of each. The same can't be said for [[Search for Tomorrow]] or [[Through the Breach]]. Even with [[Simian Spirit Guide]] to fill in some gaps, we often have nothing to do on T1, or fall short on T3.
 
-[^10]: With four [[Summoner's Pact]] and four [[Primeval Titan]] in a sixty-card deck, we have a [65% chance](http://www.wolframalpha.com/input/?i=1+-+(52+choose+7)%2F(60+choose+7)) to see one in our opening hand, and a 77% chance to draw one by T3 ([75%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+9)%2F(60+choose+9)) play, [79%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+10)%2F(60+choose+10)) draw). With only four copies of [[Through the Breach]], we have only a [40% chance](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) to see one in our opening hand and a 51% chance to find one by T3 ([49%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) play, [53%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+10)%2F(60+choose+10)) draw).
+[^10]: With four [[Summoner's Pact]] and four [[Primeval Titan]] in a sixty-card deck, there's a [65% chance](http://www.wolframalpha.com/input/?i=1+-+(52+choose+7)%2F(60+choose+7)) to see one in the opening hand, and a 77% chance to draw one by T3 ([75%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+9)%2F(60+choose+9)) play, [79%](http://www.wolframalpha.com/input/?i=1+-+(52+choose+10)%2F(60+choose+10)) draw). With only four copies of [[Through the Breach]], we there's only a [40% chance](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) to see one in our opening hand and a 51% chance to find one by T3 ([49%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+7)%2F(60+choose+7)) play, [53%](http://www.wolframalpha.com/input/?i=1+-+(56+choose+10)%2F(60+choose+10)) draw).
 
 This suggests three different directions for the flex slots:
 
