@@ -16,7 +16,7 @@ My secret isn't long practice sessions, or spicy sideboard choices, or deep meta
 
 The deck is Titan Breach, an all-in cousin of Scapeshift. A good draw can win the game on T3 by using [[Through the Breach]] and [[Primeval Titan]] to repeatedly triggering [[Valakut, the Molten Pinnacle]]. It's also possible to use [[Simian Spirit Guide]] to hard-cast [[Primeval Titan]] on T3; this doesn't win outright, but it sets up a board state few opponents can overcome.
 
-Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
+Before we get into modeling and optimization, let's establish a baseline. Assuming the flex slots (indicated by question marks) are blanks, the build can [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 in 27% of games, and cast a T3 [[Primeval Titan:Titan]] in another 9% of games. Hands without a T3 [[Primeval Titan:Titan]] almost always (90%) have one on T4, which can still be good enough, but is considerably more "fair."
 
 <table class="cardlist">
     <caption class="deckname">Baseline Titan Breach</caption>
@@ -67,7 +67,7 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. the 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
+We also play 26 lands, rather than the tried-and-true 25. The 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
 
 Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 
@@ -152,7 +152,7 @@ It's clear that Matthias was onto something. In the first few turns, [[Oath of N
 
 [[Faithless Looting]] outperforms [[Oath of Nissa]], but probably not by enough. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so it matters a lot that [[Faithless Looting]] doesn't replace itself[^17].
 
-[^17]: Strictly speaking, [[Oath of Nissa:Oath]] doesn't always replace itself. In a 60 card deck with 26 lands and 12 creatures, it has about a [one-in-twenty](http://www.wolframalpha.com/input/?i=(22+choose+3)%2F(60+choose+3))chance to whiff.
+[^17]: Strictly speaking, [[Oath of Nissa:Oath]] doesn't always replace itself. In a 60 card deck with 26 lands and 12 creatures, it has about a [one-in-twenty](http://www.wolframalpha.com/input/?i=(22+choose+3)%2F(60+choose+3)) chance to whiff.
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
