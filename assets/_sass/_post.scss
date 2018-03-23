@@ -95,6 +95,12 @@ article {
         margin: $text-size auto;
         max-width: $text-width;
     }
+    h2 {
+        margin-top: 2*$text-size;
+    }
+
+
+
     li { margin: 0.5*$text-size 0; }
     blockquote {
         background-color: $shadow-color;
@@ -241,7 +247,7 @@ hr {
     border: 0;
     background-color: $shadow-color;
     height: $half-pad;
-    margin: $text-size auto;
+    margin: 2*$text-size auto;
     width: 100%;
     max-width: $text-width;
 

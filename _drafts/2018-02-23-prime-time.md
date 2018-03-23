@@ -8,9 +8,9 @@ keywords:
 
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion of [PTRIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix) -- pretty good for a guy who's never even made Day 2 of a GP!
 
-My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games. I found a few flaws in the conventional wisdom, and see a few paths for the deck going forward.
+My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games -- and finding flaws in the conventional wisdom that could never be discovered by hand.
 
-[^3]: Code is visible on GitHub [here](https://github.com/charles-uno/valakut/blob/master/driver.py). Comments and pull requests welcome!
+[^3]: Code is visible on GitHub [here](https://github.com/charles-uno/valakut/). Comments and pull requests welcome!
 
 ## The Deck
 
@@ -67,13 +67,13 @@ The conventional wisdom prefers [[Farseek]], but we play [[Explore]]. Sometimes 
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-We also play 26 lands, rather than the tried-and-true 25. With [[Explore]], the 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
+We also play 26 lands, rather than the tried-and-true 25. the 26th land gives us an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but our experience tells us that two slots of interaction is plenty.
 
-Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We're not interested in leaving mana up to respond to our opponent's plays. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that. 
+Once in a while, we steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but [[Lightning Bolt]] is far more likely to be useless or unnecessary. We're not trying to stabilize the board or deplete our opponent's resources. We win by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 
 ## The Model
 
-Unlike [Frank Karsten](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/), we haven't got the patience or skill to spell out explicitly how the computer should sequence its plays. Instead, we use brute force. Every time the computer has a choice between multiple plays, it makes that many copies of the game state and tries them all.
+In Frank Karsten's models, he spells out explicitly how the computer should [mulligan](https://www.channelfireball.com/articles/powerful-mox-amber-brews-in-modern-and-standard/) and [sequence its plays](https://www.channelfireball.com/articles/how-reliable-is-hollow-one/). We haven't got the patience (or credibility) for that, so we use brute force. Every time our model has a choice between multiple plays, it makes that many copies of the game state and tries them all.
 
 The computer makes thousands of copies of each hand. Each copy is played differently, and most of those plays are awful. For example, one copy passes its first turn without playing a land. Another exiles [[Simian Spirit Guide]] right away, even if there's nothing to cast with it. The upside of this approach is that it can determine with 100% accuracy whether a hand can produce a T3 [[Primeval Titan]].
 
@@ -150,9 +150,9 @@ The problem with [[Hour of Promise]] is that it doesn't close out a game on its 
 
 It's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table).
 
-[[Faithless Looting]] outperforms [[Oath of Nissa]], but probably not by enough. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so it matters a lot that [[Faithless Looting]] doesn't replace itself[^17]. 
+[[Faithless Looting]] outperforms [[Oath of Nissa]], but probably not by enough. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so it matters a lot that [[Faithless Looting]] doesn't replace itself[^17].
 
-[^17]: Strictly speaking, [[Oath of Nissa:Oath]] doesn't always replace itself. In a 60 card deck with 26 lands and 12 creatures, it has about a [one-in-twenty chance to whiff](http://www.wolframalpha.com/input/?i=(22+choose+3)%2F(60+choose+3)). 
+[^17]: Strictly speaking, [[Oath of Nissa:Oath]] doesn't always replace itself. In a 60 card deck with 26 lands and 12 creatures, it has about a [one-in-twenty](http://www.wolframalpha.com/input/?i=(22+choose+3)%2F(60+choose+3))chance to whiff.
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -166,41 +166,16 @@ It's clear that Matthias was onto something. In the first few turns, [[Oath of N
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on T3 when the flex slots in the above list are cantrips. Half of games are simulated on the play, the other half on the draw. All values ±1%.</p>
 
-After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might see [[Oath of Nissa]] as a compromise between them. It gives a smaller boost to our percentages. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
+After looking at [[Desperate Ritual]] and [[Hour of Promise]], we might see [[Oath of Nissa]] as a compromise between them. The boost it gives is relatively modest. But (unlike with [[Hour of Promise:Hour]]) we're not settling for a smaller haymaker, and (unlike with [[Desperate Ritual:Ritual]]) we're not a glass cannon. Put another way, [[Oath of Nissa:Oath]] is the third leg of the speed-resiliency-impact triangle:
 
 - [[Desperate Ritual]] boosts our odds of landing [[Primeval Titan]] on T3 by 26%, but it doesn't play well against counterspells and discard.
 - [[Hour of Promise]] boosts our odds of doing *something* big on T3 by 23%, and insulates us against disruption, but [[Hour of Promise:Hour]] doesn't race as well as an actual [[Primeval Titan:Titan]].
 - [[Oath of Nissa]] insulates us against disruption and boosts our odds of landing [[Primeval Titan]] on T3, but only by 10%.
 
+One of these three is probably better than the others in the current metagame. Perhaps one of them is just better outright. But -- if we're looking to steal games with [[Valakut, the Molten Pinnacle:Valakut]] on T3 -- it seems unlikely that we should be playing anything else.
 
+## The Fine Print
 
----
+What happens if we play a combination of [[Desperate Ritual:Rituals]] and [[Hour of Promise:Hours]]? Does [[Ancient Stirrings]] get better than [[Oath of Nissa]] if we're also playing a singleton [[Emrakul, the Aeons Torn:Emrakul]]? What happens if we go *really* all-in, cutting the [[Lightning Bolt:Bolts]] so we can play [[Desperate Ritual]] *and* [[Faithless Looting]]?
 
----
-
----
-
-
-
-
-
-
-
-
-These aren't the only options, of course, but they're a good place to start. 
-
-
-Obviously there are a lot more options here. 
-
-
-
-
-
-
-> There are way too many permutations to talk about them all here! What if we run Rituals, but with Oath instead of our 26th land? etc. with 1x Emrakul, does Stirrings outperform Oath? Feel free to check it out!
-
-Titan Breach is a combo deck. There are bottlenecks in the combo.
-
-Titan Breach is a combo deck with decent odds to go off on T3. There are cards we can play to make our best draws happen more often, even while improving our inevitability in a long game.
-
-> something something... we have identified the bottlenecks in this combo. let's shore them up. more fun than turning into a midrange deck
+You caught me. I don't know. There are thousands of possible configurations, and I've only looked at a fraction of them. If you're curious about something, head over to [GitHub](https://github.com/charles-uno/valakut/) and take the model for a spin!
