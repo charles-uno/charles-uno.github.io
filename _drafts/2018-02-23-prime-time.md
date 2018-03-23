@@ -95,9 +95,9 @@ The best Titan Breach hands all look about the same: T1 suspend [[Search for Tom
 
 This suggests three different directions for the flex slots:
 
-- More acceleration. [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
-- An alternative haymaker. Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
-- Cantrips. If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [[Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]][^14].
+- **More acceleration.** [[Utopia Sprawl]] does a passable impression of [[Search for Tomorrow]] on T1. [[Desperate Ritual]], like [[Through the Breach]], lets us cast [[Primeval Titan]] off five mana on T3.
+- **Extra haymakers.** Sometimes we have five mana on T3 but no [[Through the Breach]]. [[Dramatic Entrance]] and [[Hour of Promise]] are plausible substitutes. We can also check out the effect of an extra set of fatties to [[Through the Breach:Breach]] -- [[Woodfall Primus]] or whatever.
+- **Cantrips.** If we don't have [[Search for Tomorrow]] on T1, let's instead use our first land drop to make sure T2 and T3 go as well as possible. [Matthias Hunt](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) played [[Oath of Nissa]] in Titan Breach a while back[^12]. For comparison, let's also look at vanilla [[Street Wraith:zero-mana]] and [[Deadshot Minotaur:one-mana]] cantrips, as well as [[Faithless Looting]], [[Ancient Stirrings]][^11], and even "colorshifted" [[Serum Visions]][^14].
 
 [^11]: On its face, [[Ancient Stirrings]] seems like an odd choice in this deck. Some builds include an [[Emrakul, the Aeons Torn:Emrakul]] or two, but otherwise the only colorless cards are lands. It actually plays surprisingly well. Finding [[Valakut, the Molten Pinnacle]] is valuable against permission-heavy opponents. Finding fetches (and leaving mountains in the deck) allows us to trigger [[Valakut, the Molten Pinnacle:Valakut]] at instant speed against [[Inkmoth Nexus:creature-lands]]. And many important sideboard cards are colorless: [[Chalice of the Void]], [[Engineered Explosives]], [[Relic of Progenitus]], [[Grafdigger's Cage]], etc.
 
@@ -109,7 +109,7 @@ The model allows us to see precisely how each of these options impacts our odds 
 
 ## The Results
 
-The effect of extra acceleration is huge. Over the course of eight rounds, the baseline list will average seven T3 [[Primeval Titan:Titans]]. Adding a set of [[Desperate Ritual:Rituals]] bumps that number up to *twelve*  (with [[Utopia Sprawl]] just a bit behind, see below).
+**The effect of more acceleration is huge.** Over the course of eight rounds, the baseline list will average seven T3 [[Primeval Titan:Titans]]. Adding a set of [[Desperate Ritual:Rituals]] bumps that number up to *twelve*  (with [[Utopia Sprawl]] just a bit behind, see below).
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -129,7 +129,7 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 ---
 
-[[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a worse [[Desperate Ritual]]. Per the table below, it gives about half the T3 boost, and carries half the liability as well: it's good against counterspells but bad against [[Thoughtseize]]. Unless [[Jace, the Mind Sculptor:Jace]] turns Modern into a mono-blue hellscape, we won't be sleeving it up.
+**The extra haymakers are a mixed bag.** [[Dramatic Entrance]] jumps us from five mana to six, but it doesn't play well in multiples, doesn't let us cheat on green sources, and doesn't give haste. In other words, at least as far as the model is concerned, it's just a worse [[Desperate Ritual]]. Per the table below, it gives about half the T3 boost, and carries half the liability as well: it's good against counterspells but bad against [[Thoughtseize]]. Unless [[Jace, the Mind Sculptor:Jace]] turns Modern into a mono-blue hellscape, we won't be sleeving it up.
 
 | Flex Slot             | Breach T3 | ≥ Cast T3 | ≥ Breach T4 | ≥ Cast T4 |
 |:----------------------|:---------:|:---------:|:-----------:|:---------:|
@@ -142,13 +142,13 @@ Extra acceleration is at its best in racing matchups with little interaction: Tr
 
 [[Woodfall Primus]] (or [[Worldspine Wurm:Wurmple]], or [[Emrakul, the Aeons Torn:Emmy]], or whatever) is also unimpressive. It looks like it's only about six percent of games where we have 5 mana on T3, and a [[Through the Breach:Breach]] in hand, but no [[Primeval Titan]].
 
-[[Hour of Promise]], on the other hand, is a haymaker worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
+But [[Hour of Promise]] -- now *there's* a haymaker worth talking about. Number-wise, it falls just shy of [[Desperate Ritual]] in terms of doing something big on T3 -- and, unlike [[Desperate Ritual]], it's great for the deck's resiliency. It gives us four extra topdecks to finish off a stabilized Jund opponent, and four extra must-counter threats against Jeskai's limited number of counterspells.
 
 The problem with [[Hour of Promise]] is that it doesn't close out a game on its own. Tron, Affinity, and Burn don't care about our T3 [[Hour of Promise]] unless we follow it up with a T4 [[Primeval Titan]].
 
 ---
 
-It's clear that Matthias was onto something. In the first few turns, [[Oath of Nissa]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table).
+**Some cantrips are better than others.** It's clear that Matthias was onto something with [[Oath of Nissa]]. In the first few turns, [[Oath of Nissa:Oath]] digs through our deck about as well as a [[Street Wraith:zero-mana cantrip]]. It's better than [[Ancient Stirrings]], which is in turn better than a vanilla [[Deadshot Minotaur:one-mana cantrip]]. [[Oath of Nissa:Oath]] falls just shy of [[Serum Visions]], the [top cantrip in Modern](https://www.mtggoldfish.com/format-staples/modern) (see table).
 
 [[Faithless Looting]] outperforms [[Oath of Nissa]], but probably not by enough. We're not able to use our graveyard as a resource, and we don't have many dead draws to filter through in the late game, so it matters a lot that [[Faithless Looting]] doesn't replace itself[^17].
 
