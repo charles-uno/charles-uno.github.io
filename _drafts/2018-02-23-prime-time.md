@@ -69,7 +69,7 @@ The conventional wisdom prefers [[Farseek]], but I play [[Explore]]. Sometimes [
 
 I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is plenty.
 
-Once in a while, [[Lightning Bolt]] steals a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but it's far more likely to be useless or unnecessary. Titan Breach isn't trying to stabilize the board or deplete our opponent's resources. It wins by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
+Once in a while, it's possible to steal a win by zapping [Goblin Electromancer]] or [[Devoted Druid]], but most of the time [[Lightning Bolt]] is either useless or unnecessary. Titan Breach doesn't win by stabilizing the board and depleting the other player's resources. It wins by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 
 ## The Model
 
@@ -83,9 +83,9 @@ In fact, the computer is actually a little *too* good. Trying every possible lin
 
 Shuffling is also a problem, though it's a bit subtle:
 
-> Suppose it's T3. You have three lands in play, another in hand, and you're casting [[Search for Tomorrow]] from exile. You're holding [[Primeval Titan]]. With four [[Through the Breach]] and four [[Simian Spirit Guide:SSG]] in your remaining fifty cards, you've got a 16% chance to draw one and make a T3 [[Primeval Titan:Titan]]. 
+> Suppose it's T3. You have three lands in play, another in hand, and you're casting [[Search for Tomorrow]] from exile. You're holding [[Primeval Titan]]. With four [[Through the Breach]] and four [[Simian Spirit Guide:SSG]] in your remaining fifty cards, you've got a 16% chance to draw one and make a T3 [[Primeval Titan:Titan]].
 >
-> But the computer sees a choice: it could [[Search for Tomorrow:Search]] for a [[Forest]] or for a [[Mountain]]. So it makes two copies of the game and tries them both. Each copy has a 16% chance to make T3 [[Primeval Titan:Titan]] -- but because the two decks were shuffled independently, one of them will hit [almost 30%](http://www.wolframalpha.com/input/?i=1+-+(1+-+16%25)(1+-+16%25)) of the time! 
+> But the computer sees a choice: it could [[Search for Tomorrow:Search]] for a [[Forest]] or for a [[Mountain]]. So it makes two copies of the game and tries them both. Each copy has a 16% chance to make T3 [[Primeval Titan:Titan]] -- but because the two decks were shuffled independently, one of them will hit [almost 30%](http://www.wolframalpha.com/input/?i=1+-+(1+-+16%25)(1+-+16%25)) of the time!
 
 Essentially, by trying all choices and keeping the best outcome, the model gets to double-dip on luck. As a workaround, after we shuffle our deck and draw our opening hand, everything plays out deterministically. Whenever the model would thin a land from the deck, instead it just creates a new one out of thin air. This causes the model to slightly[^7] overestimate the odds of drawing a land as the game goes on.
 
