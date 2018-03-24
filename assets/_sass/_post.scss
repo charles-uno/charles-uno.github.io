@@ -180,62 +180,29 @@ article {
     div.footnotes {
         font-size: $caption-size;
         ol {
-
             // http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
             counter-reset:li; /* Initiate a counter */
-            margin-left:0; /* Remove the default left margin */
-            padding-left:0; /* Remove the default left padding */
-
             display: block;
             width: 100%;
-//            margin: 0;
-            text-align: justify;
+            margin: 0;
+            padding: $pad;
             background-color: $paper-color;
             li {
-
-//                position:relative; /* Create a positioning context */
-
-//                margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
-//                padding:4px 8px; /* Add some spacing around the content */
-                list-style:none; /* Disable the normal item numbering */
-//                border-top:2px solid #666;
-
+                text-align: justify;
+                list-style:none;
                 background-color: $shadow-color;
-//                display: list-item;
-//                display: block;
                 margin: $pad 0;
-//                margin-left: 2em;
-
                 width: 100%;
                 border: 0;
                 p { max-width: $content-width; margin: 0; }
             }
-
             li > p:before {
-                content:counter(li); /* Use the counter as content */
-                counter-increment:li; /* Increment the counter by 1 */
-                /* Position and style the number */
-//                position:absolute;
-//                top:-2px;
-//                left:-2em;
-//                -moz-box-sizing:border-box;
-//                -webkit-box-sizing:border-box;
-//                box-sizing:border-box;
-//                width: 2*$pad;
-//                display: inline;
-                /* Some space between the number and the content in browsers that support
-                   generated content but not positioning it (Camino 2 is one example) */
+                content:counter(li);
+                counter-increment:li;
                 margin-right: $pad;
-//                padding: $pad;
-//                border-top:2px solid #666;
-//                background: #f00;
                 font-weight:bold;
-//                font-family:"Helvetica Neue", Arial, sans-serif;
                 text-align:center;
             }
-
-
-
         }
     }
 }
