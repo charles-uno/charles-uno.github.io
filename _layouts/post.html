@@ -8,9 +8,10 @@ layout: default
     </span>
     {% if page.date %}
         <span class="post-date">
-            <span class="nowrap">Published {{ page.date | date: "%F" }}</span>
             {% if page.updated %}
-                <span class="nowrap"> / Updated {{ page.updated | date: "%F" }}</span>
+                <span class="nowrap">Published {{ page.date | date: "%F" }} / Updated {{ page.updated | date: "%F" }}</span>
+            {% else %}
+                <span class="nowrap">{{ page.date | date: "%F" }}</span>
             {% endif %}
         </span>
     {% endif %}
