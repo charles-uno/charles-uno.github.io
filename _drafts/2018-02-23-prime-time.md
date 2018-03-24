@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "PRIME TIME"
+title: "Deck Chairs on the Titanic"
 image: "/assets/images/pt-rix-thumb.png"
-description: ""
-keywords:
+description: "What do we learn by simulating a million hands of Titan Breach?"
+keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, pro tour, ptrix
 ---
 
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the Pro Tour. Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion of [PTRIX](https://magic.wizards.com/en/events/premierplay/protour/ptrix) -- pretty good for a guy who's never even made Day 2 of a Grand Prix!
