@@ -67,7 +67,7 @@ The conventional wisdom prefers [[Farseek]], but I play [[Explore]]. Sometimes [
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than a third [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is plenty.
+I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than an extra [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is about right. 
 
 Once in a while, it's possible to steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but most of the time [[Lightning Bolt]] is either useless or unnecessary. Titan Breach doesn't win by stabilizing the board and depleting the other player's resources. It wins by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 
