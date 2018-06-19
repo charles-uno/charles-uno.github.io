@@ -1,34 +1,51 @@
-At present, Mardu Pyromancer is one of the top five decks in Modern[^1]; it usually plays two or three copies of [[Blood Moon]] in the main. Ponza and Blue Moon -- dedicated [[Blood Moon]] decks -- are both in the top twenty. It also sees sideboard play in Hollow One, Storm, and even [Jeskai](http://www.starcitygames.com/decks/121783). By my count, [[Blood Moon]] sees about as much play in Modern as format staples like [[Tarmogoyf]], [[Aether Vial]], and [[Cryptic Command]]. 
+At present, Mardu Pyromancer is one of the top five decks in Modern[^1]; it usually plays two or three copies of [[Blood Moon]] in the main. Ponza and Blue Moon -- dedicated [[Blood Moon]] decks -- are both in the top twenty. [[Blood Moon]] also sees sideboard play in Hollow One, Storm, and even [Jeskai](http://www.starcitygames.com/decks/121783). By my count, [[Blood Moon]] sees about as much play in Modern as format staples like [[Tarmogoyf]], [[Aether Vial]], and [[Cryptic Command]]. 
 
-Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consistently horrible experience](https://twitter.com/MtGMatthias/status/1008420646450278401). 
+[^1]: According to MTGGoldfish rankings based on top finishes. 
 
-
-It doesn't punish greedy mana bases -- it punishes conventional mana bases. 
-
-The cost of respecting Blood Moon is so high that decks typically don't do it. 
-
-Play around Blood Moon not with more basics, but with more fetches. 
-
-The card combos with itself to soft-lock opponents out of the game, often on turn two. 
-
-
-
-
-
-
-
-
+Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consistently horrible experience](https://twitter.com/MtGMatthias/status/1008420646450278401). The card combos with itself to soft-lock opponents out of the game, often on turn two. It's like showing up to a chess tournament, ready to test your skills, only to have your opponent flip the table and punch you in the face. 
 
 [^2]: With the possible exception of [[Chalice of the Void]]. 
 
 
 
 
+The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*! 
+
+Nonbasic lands are better than basics. 
+
+Nonbasic lands lead to interesting play decisions. They're fun. 
+
+
+
+Even in a two-color deck like UW Control, 60% of the lands are nonbasic
+
+
+
+Coming up with your mana base is interesting. Gameplay decisions with Colonnade and Field of Ruin are interesting. Basic lands don't have any text on them. 
 
 
 
 
-[^1]: According to MTGGoldfish rankings based on top finishes. 
+Hollow One is a two-color deck with pretty easy mana requirements. The only double-red and double-black costs are Flamewake Phoenix and Bloodghast, which usually don't get cast. It plays 18 lands, 15 of them nonbasic. 
+
+Burn is nearly mono-red. It plays 20 lands, 17 of them nonbasic. 
+
+UW plays two colors and cares (a *lot*) about preserving its life total. Plus it plays a full set of Field of Ruin. It plays 25 lands, 15 of them nonbasic. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
