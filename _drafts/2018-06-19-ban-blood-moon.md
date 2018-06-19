@@ -1,3 +1,36 @@
+At present, Mardu Pyromancer is one of the top five decks in Modern[^1]; it usually plays two or three copies of [[Blood Moon]] in the main. Ponza and Blue Moon -- dedicated [[Blood Moon]] decks -- are both in the top twenty. It also sees sideboard play in Hollow One, Storm, and even [Jeskai](http://www.starcitygames.com/decks/121783). By my count, [[Blood Moon]] sees about as much play in Modern as format staples like [[Tarmogoyf]], [[Aether Vial]], and [[Cryptic Command]]. 
+
+Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consistently horrible experience](https://twitter.com/MtGMatthias/status/1008420646450278401). 
+
+
+It doesn't punish greedy mana bases -- it punishes conventional mana bases. 
+
+The cost of respecting Blood Moon is so high that decks typically don't do it. 
+
+Play around Blood Moon not with more basics, but with more fetches. 
+
+The card combos with itself to soft-lock opponents out of the game, often on turn two. 
+
+
+
+
+
+
+
+
+
+[^2]: With the possible exception of [[Chalice of the Void]]. 
+
+
+
+
+
+
+
+
+[^1]: According to MTGGoldfish rankings based on top finishes. 
+
+
 
 
 # Blood Moon is a format staple
