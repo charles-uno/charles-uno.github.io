@@ -9,19 +9,25 @@ At present, Mardu Pyromancer is one of the top five decks in Modern[^1]; it usua
 
 [^1]: According to MTGGoldfish rankings based on top finishes.
 
-Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consistently horrible experience](https://twitter.com/MtGMatthias/status/1008420646450278401). The card combos with itself to lock opponents out of the game, often on turn two. It's like showing up to a chess tournament, ready to test your skills, only to have your opponent flip the table and punch you in the face.
+Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consistently horrible experience](https://twitter.com/MtGMatthias/status/1008420646450278401). The primary use of the card is to lock opponents out of the game, often on turn two. It's like showing up to a chess tournament, ready to test your skills, only to have your opponent flip the table and punch you in the face.
 
 [^2]: With the possible exception of [[Chalice of the Void]].
 
 The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*. Decks usually play a few to respect [[Ghost Quarter]] and [[Path to Exile]], but the nonbasic lands available in Modern are better, more interesting, and more fun. 
 
-Look at UW Control. The deck plays two colors with no splash. Even so, fewer than half its lands are basic. It uses [[Flooded Strand]] to fuel [[Logic Knot]], [[Field of Ruin]] to disrupt Tron, and [[Celestial Colonade]] as a resilient win condition. These choices demonstrate innovative deckbuilding, and lead to interesting in-game choices. But the deck can also be locked out by [[Blood Moon]], left unable to cast its numerous answers. 
+Look at UW Control. The deck plays two colors with no splash. Even so, fewer than half its lands are basic. It uses [[Flooded Strand]] to fuel [[Logic Knot]], [[Field of Ruin]] to disrupt Tron, and [[Celestial Colonnade]] as a resilient win condition. These cards demonstrate innovative deckbuilding, and lead to interesting in-game choices. But the deck can also be locked out by [[Blood Moon]], left unable to cast its numerous answers. 
 
 That last part is important: if [[Blood Moon]] turned nonbasic lands into forests, plains, or islands, it wouldn't be nearly so problematic. But red isn't allowed to answer enchantments. Not only does [[Blood Moon]] take a jackhammer to the opponent's resources, but it protects itself while doing so. This is why nobody cares about [[Magus of the Moon]] -- it doesn't protect itself from [[Lightning Bolt]]. 
 
 
 
-Hearthstone. All cards do something. 
+
+
+
+Blood Moon is a relic from a bygone era. Back when lands could just be lands. 
+
+
+Look at Hearthstone. All the cards have text on them, and it's fun! You never watch a game slip away by drawing a bunch of basic lands in a row. 
 
 
 
