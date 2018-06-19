@@ -6,6 +6,22 @@ Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consiste
 
 [^2]: With the possible exception of [[Chalice of the Void]]. 
 
+The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*! 
+
+
+
+
+
+
+---
+
+---
+
+---
+
+
+
+
 
 # Basic lands aren't good enough for Modern
 
@@ -31,7 +47,6 @@ Raging Ravine is usually better than Plains. It's also more interesting.
 
 
 
-The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*! 
 
 Nonbasic lands are better than basics. 
 
@@ -60,16 +75,6 @@ Would we want Wasteland in Modern?
 
 
 
-
-
-
-
-
-# Blood Moon is a format staple
-
-Mardu maindecks 2-3 of them, and is one of the top five decks right now. Ponza and Blue Moon are also in the top twenty. 
-
-That means Blood Moon probably sees about as much play as Tarmogoyf, Aether Vial, Cryptic Command, and Thalia. It's not a fringe card. 
 
 
 # Blood Moon combos with itself. 
