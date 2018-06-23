@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Blood Moon is Bad for Modern"
-image: "/assets/images/blood-moon-thumb.png"
+title: "Scapeshift"
+image: "/assets/images/placeholder-07-thumb.png"
 description: ""
 ---
+
+Scapeshift is the fun patrol of Modern. It wins on turn 4 or 5, and it's pretty hard to interact with. 
