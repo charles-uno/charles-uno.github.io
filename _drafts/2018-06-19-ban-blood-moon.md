@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blood Moon is Bad for Modern"
-image: "/assets/images/blood-moon-thumb.png"
+image: "/assets/images/blood-moon-franz-vohwinkel-thumb.png"
 description: ""
 ---
 
@@ -13,30 +13,30 @@ Unlike any other format staple, however[^2], [[Blood Moon]] provides a [consiste
 
 [^2]: With the possible exception of [[Chalice of the Void]].
 
-The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*. Decks usually play a few to respect [[Ghost Quarter]] and [[Path to Exile]], but the nonbasic lands available in Modern are better, more interesting, and more fun. 
+The go-to defense -- "[[Blood Moon]] punishes greedy mana bases" -- is a load of malarkey. Playing nonbasic lands in Modern isn't greedy. In fact, playing a bunch of *basic* lands in Modern is *weird*. Decks usually play a few to respect [[Ghost Quarter]] and [[Path to Exile]], but the nonbasic lands available in Modern are better, more interesting, and more fun.
 
-Look at UW Control. The deck plays two colors with no splash. Even so, fewer than half its lands are basic. It uses [[Flooded Strand]] to fuel [[Logic Knot]], [[Field of Ruin]] to disrupt Tron, and [[Celestial Colonnade]] as a resilient win condition. These cards demonstrate innovative deckbuilding, and lead to interesting in-game choices. But the deck can also be locked out by [[Blood Moon]], left unable to cast its numerous answers. 
+Look at UW Control. The deck plays two colors with no splash. Even so, fewer than half its lands are basic. It uses [[Flooded Strand]] to fuel [[Logic Knot]], [[Field of Ruin]] to disrupt Tron, and [[Celestial Colonnade]] as a resilient win condition. These cards demonstrate innovative deckbuilding, and lead to interesting in-game choices. But the deck can also be locked out by [[Blood Moon]], left unable to cast its numerous answers.
 
-That last part is important: if [[Blood Moon]] turned nonbasic lands into forests, plains, or islands, it wouldn't be nearly so problematic. But red isn't allowed to answer enchantments. Not only does [[Blood Moon]] take a jackhammer to the opponent's resources, but it protects itself while doing so. This is why nobody cares about [[Magus of the Moon]] -- it doesn't protect itself from [[Lightning Bolt]]. 
-
-
-
-
-
-
-Blood Moon is a relic from a bygone era. Back when lands could just be lands. 
-
-
-Look at Hearthstone. All the cards have text on them, and it's fun! You never watch a game slip away by drawing a bunch of basic lands in a row. 
+That last part is important: if [[Blood Moon]] turned nonbasic lands into forests, plains, or islands, it wouldn't be nearly so problematic. But red isn't allowed to answer enchantments. Not only does [[Blood Moon]] take a jackhammer to the opponent's resources, but it protects itself while doing so. This is why nobody cares about [[Magus of the Moon]] -- it doesn't protect itself from [[Lightning Bolt]].
 
 
 
 
 
 
+Blood Moon is a relic from a bygone era. Back when lands could just be lands.
 
 
-Hollow One is another example: a two-color deck without demanding mana requirements. It plays [[Bloodghast:double-black]] and [[Flamewake Phoenix:double-red]] cards, but doesn't really want to cast them. The deck plays eighteen lands, only three of them nonbasic. 
+Look at Hearthstone. All the cards have text on them, and it's fun! You never watch a game slip away by drawing a bunch of basic lands in a row.
+
+
+
+
+
+
+
+
+Hollow One is another example: a two-color deck without demanding mana requirements. It plays [[Bloodghast:double-black]] and [[Flamewake Phoenix:double-red]] cards, but doesn't really want to cast them. The deck plays eighteen lands, only three of them nonbasic.
 
 
 
