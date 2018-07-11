@@ -11,7 +11,9 @@ If we're going to give special rights to one group in the US, why is it rural wh
 I guess "big states bullying small states" probably is code for "voting to abolish slavery"?
 
 
+https://www.nytimes.com/2018/05/24/opinion/second-amendment-slavery-james-madison.html
 
+Slavery a consideration in the second amendment. 
 
 
 
