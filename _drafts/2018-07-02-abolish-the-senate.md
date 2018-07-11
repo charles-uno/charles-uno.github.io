@@ -12,12 +12,44 @@ I guess "big states bullying small states" probably is code for "voting to aboli
 
 
 
+
+
+
+
+
 Weekly Sift's Doug Muder crunches the numbers.
 
 https://weeklysift.com/2018/07/02/minority-rule-snowballs/
 
 1790 (first) census. VA: 450k, 21 EV. DE: 50k, 3 EV. 9-to-1 population, 7-to-1 EV.
 2010 census. CA: 37M, 55 EV. WY: 560k, 3 EV. 66-to-1 population, 18-to-1 EV.
+
+https://www.washingtonpost.com/blogs/plum-line/wp/2018/07/10/were-living-in-an-age-of-minority-rule/?noredirect=on&utm_term=.5f863868311b
+
+Similar numbers from WaPo. Based on 2012, 2014, 2016 Senate elections, GOP got 102M votes (51 seats) to Dems' 117M votes (49 seats). 
+
+2016: 40M R, 47M D
+2014: 22M R, 20M D
+2012: 39M R, 50M D
+2010: 33M R, 29M D
+2008: 30M R, 34M D
+2006: 27M R, 34M D
+
+Senate flipped in 2014. 
+
+2010 + 2012 + 2014:  94M R,  99M D
+2012 + 2014 + 2016: 102M R, 117M D
+
+2014 + 2016: 62M R, 67M D
+
+Not clear what the vote totals will look like in 2018, but GOP is very unlikely to outvote Dems by 5M, also not particularly likely to lose the Senate 
+
+
+
+
+
+
+
 
 
 Maybe it would be ok to have it as the less powerful chamber, for friction, but it's far more powerful than the house, and laughably unrepresentative
