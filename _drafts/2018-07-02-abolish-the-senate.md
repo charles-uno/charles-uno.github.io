@@ -11,10 +11,12 @@ If we're going to give special rights to one group in the US, why is it rural wh
 I guess "big states bullying small states" probably is code for "voting to abolish slavery"?
 
 
-https://www.nytimes.com/2018/05/24/opinion/second-amendment-slavery-james-madison.html
 
-Slavery a consideration in the second amendment. 
+[Charles C W Cooke writes](https://www.nationalreview.com/2018/07/senate-hasnt-skewed-supreme-court-to-right/):
 
+"""Provided that federal power remains in check, the Senate prevents no state from enacting whichever policies it wishes to within its border; it merely prevents a handful of states from riding roughshod over their smaller counterparts on those few questions that are inherently national. Thus was the republic deliberately arranged."""
+
+In practice, the overrepresentation of small states has been used to prevent the Senate from ensuring the rights of minorities. 
 
 
 
@@ -81,3 +83,9 @@ France, Italy, and central Europe all in flux through the 18th century.
 "big states bullying small states" -- what exactly would that look like? (Spoiler: what it actually *did* look like: abolishing slavery)
 
 Agricultural subsidies? CA is a major farm state, just like IA. 
+
+
+
+https://www.nytimes.com/2018/05/24/opinion/second-amendment-slavery-james-madison.html
+
+Slavery a consideration in the second amendment. 
