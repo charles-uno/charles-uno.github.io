@@ -9,16 +9,16 @@ Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012
 
 ## Ingredients
 
-The following is enough to make 2 quarts. The photos show a triple batch.
+The following is enough to make 1 quart. The photos show six.
 
-- Beans to fill 2 quart jars (about 100 beans)
-- 30 mL (1 oz) black peppercorns
-- 2 large cloves garlic (or several small ones)
-- 1 hot pepper
-- 2 heads fresh dill
-- 60 mL (4 T) canning/pickling salt[^1]
-- 600 mL (2.5 c) water
-- 600 mL (2.5 c) vinegar
+- Beans to fill a quart jar (about 50 beans)
+- 15 mL (1 T) black peppercorns
+- 1 large garlic clove (or several small ones)
+- Half a hot pepper, seeded
+- 1 head fresh dill
+- 30 mL (2 T) canning/pickling salt[^1]
+- 300 mL (1.25 c) water
+- 300 mL (1.25 c) vinegar
 
 [^1]: It's not safe to substitute regular salt for canning/pickling salt! The crystals are shaped differently, which affects how they measure. Swapping one for the other can mess with the chemistry of your brine, allowing dangerous bacteria to grow.
 
