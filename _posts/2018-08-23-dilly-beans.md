@@ -3,13 +3,10 @@ layout: post
 title: "Dilly Beans"
 image: "/assets/images/dilly-beans-quart-thumb.png"
 description: "Step aside, cucumbers. There's a new pickle in town."
+keywords: vegetables, vegetarian, canning, spicy, snack, appetizer
 ---
 
-Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
-
-## Ingredients
-
-The following is enough to make two quarts. The photos show a triple batch.
+The following is enough to make two quarts. The photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
 
 - Beans to fill two quart jars (about 100 beans)
 - 30 mL (2 T) black peppercorns
@@ -24,7 +21,7 @@ The following is enough to make two quarts. The photos show a triple batch.
 
 [^2]: Don't let the hot peppers scare you off! You don't actually eat them. They're just there to add flavor to the brine. In the past I've even used [Carolina Reapers](https://en.wikipedia.org/wiki/Carolina_Reaper), which are way too hot for me to cook with. The beans turn out spicy, but nothing crazy. Just be sure to wear gloves while working with them -- especially if you wear contact lenses!
 
-## Steps
+---
 
 Bring a big pot of water to a boil. It needs to be big enough to submerge your jars, so this can take a while. Boil empty jars for ten minutes to sterilize them. Boil the lids for ten minutes too; this is easier in a separate, smaller container. Keep the water boiling.
 
