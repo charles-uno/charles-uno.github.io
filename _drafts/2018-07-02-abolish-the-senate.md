@@ -49,6 +49,27 @@ Senate flipped in 2014.
 Not clear what the vote totals will look like in 2018, but GOP is very unlikely to outvote Dems by 5M, also not particularly likely to lose the Senate 
 
 
+| Year | POTUS D | POTUS R | USHOR D | USHOR R | SEN D | SEN R |
+|------|---------|---------|---------|---------|-------|-------|
+| 2016 | 65.9M   | 63.0M   |         |         | 46.8M | 40.4M |
+| 2014 |         |         |         |         | 19.6M | 22.5M |
+| 2012 | 65.9M   | 60.9M   |         |         | 50.4M | 39.4M |
+| 2010 |         |         |         |         | 29.5M | 33.2M |
+| 2008 | 69.5M   | 60.0M   |         |         | 34.5M | 29.5M |
+| 2006 |         |         |         |         | 33.9M | 26.7M |
+| 2004 | 59.0M   | 62.0M   |         |         | 43.7M | 39.9M |
+| 2002 |         |         |         |         | 19.9M | 21.6M |
+| 2000 | 51.0M   | 50.5M   |         |         | 38.4M | 37.8M |
+| 1998 |         |         |         |         | 26.9M | 25.7M |
+| 1996 | 47.4M   | 39.2M   |         |         | 23.5M | 24.2M |
+| 1994 |         |         |         |         | 26.0M | 29.4M |
+| 1992 | 44.9M   | 39.1M   |         |         | 36.3M | 32.4M |
+| 1990 |         |         |         |         | 18.7M | 17.1M |
+| 1988 | 41.9M   | 48.9M   |         |         |       |       |
+
+
+
+
 
 
 
