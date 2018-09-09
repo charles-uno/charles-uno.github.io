@@ -5,6 +5,47 @@ image: "/assets/images/valakut-kieran-yanner-thumb.png"
 description: ""
 ---
 
+
+
+
+
+Bernie Sanders represents Vermont (population 624k) in the US Senate. Dianne Feinstein represents California (population 37M). It's absurd that these two have equally powerful votes in the direction of our nation. Feinstein is representing the interests of *sixty times* as many people!
+
+This is disproportionate way beyond what the founders would have known. In 1790, the first census, the ratio between the biggest state and the smallest was nine-to-one (Virginia 450k, Delaware 50k).
+
+In the 18th century, borders were in flux within the US. Kentucky was formerly a piece of Virginia, and Vermont was split off of NH/NY.
+
+Even national borders weren't settled in the 18th century! Modern-day Germany was divided between Prussia, the Habsburgs, and a number of small states. Italy didn't exist yet. The Ottoman Empire covered Turkey and the Balkans.
+
+The typical reasoning for the Senate is to prevent big states from "riding roughshod" over small states. And in principle perhaps that makes sense. But in practice, at least for the past century, this has served to elevate the interests of rural white voters.
+
+First of all: why? Rural whites are among the largest voting blocs in the US. There are plenty of rural white voters to advocate for themselves on a level playing field -- just look at the House!
+
+Next up: it bears noting that the points of contention between big states and small states have historically related to civil rights. Specifically:  
+
+- Abolition of slavery. The south, with its critical mass of rural whites, rebelled violently against the United States to preserve slavery.
+
+- Civil Rights Act of 1964. Southern senators filibustered.
+
+
+Basically no action on civil rights for a century. A few laws passed during reconstruction, but they were dismantled/undermined by state/local laws. Some were struck down by SCOTUS. Substance took a century. Brown v Board of Education (1954), Civil Rights Act (1964), Voting Rights Act (1965)
+
+Analogously, constitutional amendments require ratification of a number of states. After the civil war, rebel states refused to ratify the reconstruction amendments. So new governments were installed.
+
+
+The fact that the Senate gives a disproportionate voice to southern whites is likely why important civil rights victories were dispensed by SCOTUS rather than being legislated. Brown v Board of Education, Loving v Virginia.
+
+
+
+
+------
+
+-------
+
+
+
+
+
 The senate exists "so big states don't bully small states," right? But that's not a real thing. Has it ever been?
 
 If we're going to give special rights to one group in the US, why is it rural whites, who (1) are a big enough voting bloc to look out for themselves, and (2) have shitty priorities, specifically racism
@@ -16,7 +57,7 @@ I guess "big states bullying small states" probably is code for "voting to aboli
 
 """Provided that federal power remains in check, the Senate prevents no state from enacting whichever policies it wishes to within its border; it merely prevents a handful of states from riding roughshod over their smaller counterparts on those few questions that are inherently national. Thus was the republic deliberately arranged."""
 
-In practice, the overrepresentation of small states has been used to prevent the Senate from ensuring the rights of minorities. 
+In practice, the overrepresentation of small states has been used to prevent the Senate from ensuring the rights of minorities.
 
 
 
@@ -30,7 +71,7 @@ https://weeklysift.com/2018/07/02/minority-rule-snowballs/
 
 https://www.washingtonpost.com/blogs/plum-line/wp/2018/07/10/were-living-in-an-age-of-minority-rule/?noredirect=on&utm_term=.5f863868311b
 
-Similar numbers from WaPo. Based on 2012, 2014, 2016 Senate elections, GOP got 102M votes (51 seats) to Dems' 117M votes (49 seats). 
+Similar numbers from WaPo. Based on 2012, 2014, 2016 Senate elections, GOP got 102M votes (51 seats) to Dems' 117M votes (49 seats).
 
 2016: 40M R, 47M D
 2014: 22M R, 20M D
@@ -39,38 +80,14 @@ Similar numbers from WaPo. Based on 2012, 2014, 2016 Senate elections, GOP got 1
 2008: 30M R, 34M D
 2006: 27M R, 34M D
 
-Senate flipped in 2014. 
+Senate flipped in 2014.
 
 2010 + 2012 + 2014:  94M R,  99M D
 2012 + 2014 + 2016: 102M R, 117M D
 
 2014 + 2016: 62M R, 67M D
 
-Not clear what the vote totals will look like in 2018, but GOP is very unlikely to outvote Dems by 5M, also not particularly likely to lose the Senate 
-
-
-| Year | POTUS D | POTUS R | USHOR D | USHOR R | Seats D/R | SEN D | SEN R | Seats D/R |
-|------|---------|---------|---------|---------|-----------|-------|-------|-----------|
-| 2016 | 65.9M   | 63.0M   | 61.8M   | 63.2M   |  194/241  | 46.8M | 40.4M |          |
-| 2014 |         |         | 35.6M   | 40.1M   |  188/247  | 19.6M | 22.5M |          |
-| 2012 | 65.9M   | 60.9M   | 59.6M   | 58.2M   |  201/234  | 50.4M | 39.4M |          |
-| 2010 |         |         | 39.9M   | 44.8M   |  193/242  | 29.5M | 33.2M |          |
-| 2008 | 69.5M   | 60.0M   | 65.2M   | 52.2M   |  257/178  | 34.5M | 29.5M |          |
-| 2006 |         |         | 42.3M   | 35.9M   |  233/202  | 33.9M | 26.7M |          |
-| 2004 | 59.0M   | 62.0M   | 53.0M   | 56.0M   |  202/232  | 43.7M | 39.9M |          |
-| 2002 |         |         | 33.8M   | 37.3M   |  212/221  | 19.9M | 21.6M |          |
-| 2000 | 51.0M   | 50.5M   | 46.6M   | 47.0M   |  211/223  | 38.4M | 37.8M |          |
-| 1998 |         |         |         |         |           | 26.9M | 25.7M |          |
-| 1996 | 47.4M   | 39.2M   |         |         |           | 23.5M | 24.2M |          |
-| 1994 |         |         |         |         |           | 26.0M | 29.4M |          |
-| 1992 | 44.9M   | 39.1M   |         |         |           | 36.3M | 32.4M |          |
-| 1990 |         |         |         |         |           | 18.7M | 17.1M |          |
-| 1988 | 41.9M   | 48.9M   |         |         |           |     |       |          |
-
-
-
-
-
+Not clear what the vote totals will look like in 2018, but GOP is very unlikely to outvote Dems by 5M, also not particularly likely to lose the Senate
 
 
 
@@ -103,10 +120,10 @@ France, Italy, and central Europe all in flux through the 18th century.
 
 "big states bullying small states" -- what exactly would that look like? (Spoiler: what it actually *did* look like: abolishing slavery)
 
-Agricultural subsidies? CA is a major farm state, just like IA. 
+Agricultural subsidies? CA is a major farm state, just like IA.
 
 
 
 https://www.nytimes.com/2018/05/24/opinion/second-amendment-slavery-james-madison.html
 
-Slavery a consideration in the second amendment. 
+Slavery a consideration in the second amendment.
