@@ -1,13 +1,9 @@
 ---
 layout: post
 title: "Abolish the Senate"
-image: "/assets/images/valakut-kieran-yanner-thumb.png"
+image: "/assets/images/capital-thumb.png"
 description: ""
 ---
-
-
-
-
 
 Bernie Sanders represents Vermont (population 624k) in the US Senate. Dianne Feinstein represents California (population 37M). It's absurd that these two have equally powerful votes in the direction of our nation. Feinstein is representing the interests of *sixty times* as many people!
 
@@ -23,9 +19,61 @@ First of all: why? Rural whites are among the largest voting blocs in the US. Th
 
 Next up: it bears noting that the points of contention between big states and small states have historically related to civil rights. Specifically:  
 
-- Abolition of slavery. The south, with its critical mass of rural whites, rebelled violently against the United States to preserve slavery.
+- Anti-lynching legislation (such as the 1918 [Dyer Anti-Lynching Bill](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)) passed the House but was halted in the Senate via filibuster.
 
-- Civil Rights Act of 1964. Southern senators filibustered.
+- Poll taxes were nearly abolished in 1946, but southern senators filibustered. Ultimately this became the 24th Amendment (1964).
+
+- 24 hour filibuster for civil rights act of 1957.
+
+- Civil Rights Act of 1964. Southern senators filibustered. Filibuster was ultimately broken by a weaker bill.
+
+Notably, southern states could not resist the reconstruction amendments to the US constitution because rebel states were controlled by reconstruction governments from the end of the Civil War until 1877.
+
+
+Connecticut Compromise is why we have a Senate as well as a (proportional) House.
+
+"Madison argued that a conspiracy of large states against the small states was unrealistic as the large states were so different from each other. Hamilton argued that the states were artificial entities made up of individuals, and accused small state representatives of wanting power, not liberty" (Wikipedia Connecticut Compromise)
+
+Notably, federal powers are far more expansive now than they were in the 18th century. Specifically, the federal government has since taken on an important role that the founders did not envision: defense of minority rights. The civil war and its aftermath were an unprecedented consolidation of federal power. Likewise, all civil rights legislation has infringed upon the rights of states to manage their internal affairs (especially elections).
+
+
+
+![](/assets/images/congress-votes-seats.png)
+*In the House, seat allocation (white) is roughly proportional with two-party[^2] vote share (red/blue), with swings at the extremes[^1]. It's very unusual for a minority of voters to control a majority of seats. In the Senate, seats swing wildly. The majority party in the Senate is elected by a minority of voters about a third of the time, especially in times of high polarization[^3].*
+
+[^2]: Two-party vote share means votes for third-party candidates are ignored.
+
+[^1]: Disproportionate representation is expected when one party is much more popular than the other. For example, if the national popular vote is 60% Republican to 40% Democrat, Democrats will only win districts with a [partisan lean](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index) of D+20 or more -- and there aren't very many such districts! (link to FiveThirtyEight?)
+
+[^3]: Talk about partisan polarization?
+
+
+
+
+
+There is value in a bicameral legislature, to divide representation along more than one axis.
+
+To be a bit silly, imagine a chamber with 26 seats, one for each letter of the alphabet. You vote based on your initial. This would probably serve to elevate minority voices -- for example, Yang and Vang are common named among Asian Americans, but few European names start with those letters. 
+
+More practically, consider a chamber in which you vote for a seat based on your profession. There's a seat to represent plumbers, another for teachers, another for firefighters, another for programmers. It's likely that this chamber would offer a significantly different perspective from our existing Congress, which is dominated by lawyers.
+
+In that sense, the Senate is fine -- but as a lower chamber. The lower chamber steers the upper and adds friction. Makes unified control of government more difficult, adds incentive to compromise.
+
+But the US Senate is the upper chamber, unambiguously more powerful than the House. SCOTUS is the most visible example, but also cabinet confirmations and the filibuster.
+
+
+
+
+
+
+
+------
+
+------
+
+-------
+
+# SCRATCH
 
 
 Basically no action on civil rights for a century. A few laws passed during reconstruction, but they were dismantled/undermined by state/local laws. Some were struck down by SCOTUS. Substance took a century. Brown v Board of Education (1954), Civil Rights Act (1964), Voting Rights Act (1965)
@@ -36,15 +84,9 @@ Analogously, constitutional amendments require ratification of a number of state
 The fact that the Senate gives a disproportionate voice to southern whites is likely why important civil rights victories were dispensed by SCOTUS rather than being legislated. Brown v Board of Education, Loving v Virginia.
 
 
+- Abolition of slavery. The south, with its critical mass of rural whites, rebelled violently against the United States to preserve slavery.
 
-
-------
-
--------
-
-
-
-
+- Anything after the withdrawal of troops in 1877? Looks the the filibuster didn't really exist until 1917.
 
 The senate exists "so big states don't bully small states," right? But that's not a real thing. Has it ever been?
 
