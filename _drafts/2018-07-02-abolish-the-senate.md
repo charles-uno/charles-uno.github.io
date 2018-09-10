@@ -76,6 +76,27 @@ But the US Senate is the upper chamber, unambiguously more powerful than the Hou
 # SCRATCH
 
 
+
+
+And keep in mind that the Senate was far more representative then than it is now. In the first census (1790), Virginia had 9x the population of Delaware. Today, California has over 60x the population of Wyoming!
+
+NOTE -- Not particularly true. Even in those days, 1/3 of population controlled 2/3 of senate. 
+
+
+
+
+Within a generation, 30% of voters will control 70% of the Senate. 
+
+https://www.washingtonpost.com/news/politics/wp/2017/11/28/by-2040-two-thirds-of-americans-will-be-represented-by-30-percent-of-the-senate/?utm_term=.e01a60a8cb06
+
+https://www.washingtonpost.com/news/politics/wp/2018/07/12/in-about-20-years-half-the-population-will-live-in-eight-states/?utm_term=.4456134d7cd8
+
+
+Idea of adding up popular votes from senate elections:
+https://www.washingtonpost.com/blogs/plum-line/wp/2018/07/10/were-living-in-an-age-of-minority-rule/?utm_term=.68abb2e1b6f6
+
+
+
 Basically no action on civil rights for a century. A few laws passed during reconstruction, but they were dismantled/undermined by state/local laws. Some were struck down by SCOTUS. Substance took a century. Brown v Board of Education (1954), Civil Rights Act (1964), Voting Rights Act (1965)
 
 Analogously, constitutional amendments require ratification of a number of states. After the civil war, rebel states refused to ratify the reconstruction amendments. So new governments were installed.
