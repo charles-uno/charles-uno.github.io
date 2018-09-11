@@ -11,14 +11,11 @@ description: ""
 
 2/3 of the delegates at the constitutional convention of 1787 represented 1/3 of the population. They were able to bootstrap that into the Senate. 
 
-Senate has always been disproportional. In 1790, half the population lived in 4/16 states. 
+Senate has always been disproportional. In 1790, half the population lived in 4/16 states. It's always elevated the interests of rural white Americans. 
 
 In the 18th century, a disproportionate Senate wasn't that big a deal. Federal powers were few. But they have grown significantly since then. In particular, the federal government has taken on the role of protecting minority rights -- often at the cost of state rights. 
 
 The Civil War and recontruction era saw an unprecedented consolidation of federal power. Federal powers then continued to expand through the 20th century: income tax, civil rights. 
-
-
-
 
 In a sense, the Senate has allowed small states to stand boldly against their larger counterparts in defense of their own sovereignty. 
 
@@ -32,7 +29,7 @@ In principle, the Senate has allowed small states to defend their own sovereignt
 
 Civil rights have been delayed by decades, or sometimes blocked entirely, by the Senate. 
 
-
+-----
 
 
 
