@@ -5,6 +5,47 @@ image: "/assets/images/capital-thumb.png"
 description: ""
 ---
 
+[Poetically retold](https://www.nationalreview.com/2018/07/senate-hasnt-skewed-supreme-court-to-right/) as:
+
+"""Provided that federal power remains in check, the Senate prevents no state from enacting whichever policies it wishes to within its border; it merely prevents a handful of states from riding roughshod over their smaller counterparts on those few questions that are inherently national. Thus was the republic deliberately arranged."""
+
+2/3 of the delegates at the constitutional convention of 1787 represented 1/3 of the population. They were able to bootstrap that into the Senate. 
+
+Senate has always been disproportional. In 1790, half the population lived in 4/16 states. 
+
+In the 18th century, a disproportionate Senate wasn't that big a deal. Federal powers were few. But they have grown significantly since then. In particular, the federal government has taken on the role of protecting minority rights -- often at the cost of state rights. 
+
+The Civil War and recontruction era saw an unprecedented consolidation of federal power. Federal powers then continued to expand through the 20th century: income tax, civil rights. 
+
+
+
+
+In a sense, the Senate has allowed small states to stand boldly against their larger counterparts in defense of their own sovereignty. 
+
+In principle, the Senate has allowed small states to defend their own sovereignty. In practice, the Senate has served as a damper on civil rights. 
+
+
+
+
+
+
+
+Civil rights have been delayed by decades, or sometimes blocked entirely, by the Senate. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Bernie Sanders represents Vermont (population 624k) in the US Senate. Dianne Feinstein represents California (population 37M). It's absurd that these two have equally powerful votes in the direction of our nation. Feinstein is representing the interests of *sixty times* as many people!
 
 This is disproportionate way beyond what the founders would have known. In 1790, the first census, the ratio between the biggest state and the smallest was nine-to-one (Virginia 450k, Delaware 50k).
