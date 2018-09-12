@@ -5,6 +5,44 @@ image: "/assets/images/votes-seats-thumb.png"
 description: ""
 ---
 
+[Poetically retold](https://www.nationalreview.com/2018/07/senate-hasnt-skewed-supreme-court-to-right/) as:
+
+"""Provided that federal power remains in check, the Senate prevents no state from enacting whichever policies it wishes to within its border; it merely prevents a handful of states from riding roughshod over their smaller counterparts on those few questions that are inherently national. Thus was the republic deliberately arranged."""
+
+2/3 of the delegates at the constitutional convention of 1787 represented 1/3 of the population. They were able to bootstrap that into the Senate. 
+
+Senate has always been disproportional. In 1790, half the population lived in 4/16 states. It's always elevated the interests of rural white Americans. 
+
+In the 18th century, a disproportionate Senate wasn't that big a deal. Federal powers were few. But they have grown significantly since then. In particular, the federal government has taken on the role of protecting minority rights -- often at the cost of state rights. 
+
+The Civil War and recontruction era saw an unprecedented consolidation of federal power. Federal powers then continued to expand through the 20th century: income tax, civil rights. 
+
+In a sense, the Senate has allowed small states to stand boldly against their larger counterparts in defense of their own sovereignty. 
+
+In principle, the Senate has allowed small states to defend their own sovereignty. In practice, the Senate has served as a damper on civil rights. 
+
+
+
+
+
+
+
+Civil rights have been delayed by decades, or sometimes blocked entirely, by the Senate. 
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+
+
 Bernie Sanders represents Vermont (population 624k) in the US Senate. Dianne Feinstein represents California (population 37M). It's absurd that these two have equally powerful votes in the direction of our nation. Feinstein is representing the interests of *sixty times* as many people!
 
 This is disproportionate way beyond what the founders would have known. In 1790, the first census, the ratio between the biggest state and the smallest was nine-to-one (Virginia 450k, Delaware 50k).
@@ -74,6 +112,27 @@ But the US Senate is the upper chamber, unambiguously more powerful than the Hou
 -------
 
 # SCRATCH
+
+
+
+
+And keep in mind that the Senate was far more representative then than it is now. In the first census (1790), Virginia had 9x the population of Delaware. Today, California has over 60x the population of Wyoming!
+
+NOTE -- Not particularly true. Even in those days, 1/3 of population controlled 2/3 of senate. 
+
+
+
+
+Within a generation, 30% of voters will control 70% of the Senate. 
+
+https://www.washingtonpost.com/news/politics/wp/2017/11/28/by-2040-two-thirds-of-americans-will-be-represented-by-30-percent-of-the-senate/?utm_term=.e01a60a8cb06
+
+https://www.washingtonpost.com/news/politics/wp/2018/07/12/in-about-20-years-half-the-population-will-live-in-eight-states/?utm_term=.4456134d7cd8
+
+
+Idea of adding up popular votes from senate elections:
+https://www.washingtonpost.com/blogs/plum-line/wp/2018/07/10/were-living-in-an-age-of-minority-rule/?utm_term=.68abb2e1b6f6
+
 
 
 Basically no action on civil rights for a century. A few laws passed during reconstruction, but they were dismantled/undermined by state/local laws. Some were struck down by SCOTUS. Substance took a century. Brown v Board of Education (1954), Civil Rights Act (1964), Voting Rights Act (1965)
