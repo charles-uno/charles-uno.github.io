@@ -5,20 +5,11 @@ image: "/assets/images/votes-seats-thumb.png"
 description: "The founders knew the Senate wouldn't be proportional. But that's not the only problem."
 ---
 
-The Senate never offered proportional representation. In 1790, the first census, one third of the population controlled almost two thirds of the Senate[^1]. Since then, it's become a bit worse; [by 2040](https://www.washingtonpost.com/news/politics/wp/2017/11/28/by-2040-two-thirds-of-americans-will-be-represented-by-30-percent-of-the-senate/), 30% of the US population is expected to control 70% of the Senate.
+The Senate never offered proportional representation. In 1790, the first census, one third of the population controlled almost two thirds of the Senate[^1]. Since then, it's become a bit worse; [by 2040](https://www.wsj.com/articles/the-variedand-globalthreats-confronting-democracy-1511193763), 30% of the US population is expected to control 70% of the Senate. Unsurprisingly, such skewed representation was controversial from the start. At the Constitutional Convention, Hamilton called the Senate "[confessedly unjust](http://avalon.law.yale.edu/subject_menus/debcont.asp)." Madison spoke against it as well, but ultimately endorsed it as a "[lesser evil](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-62)" -- without such a [compromise](https://en.wikipedia.org/wiki/Connecticut_Compromise), smaller states may have refused to join the union.
 
 [^1]: Two thirds of the population lived in six states. The other third was spread across ten (and so held 20/32 seats in the Senate).
 
-![](/assets/images/congress-votes-seats.png)
-*In the House, seat allocation (white) is roughly proportional with two-party[^2] vote share (red/blue), with swings at the extremes[^3]. It's very unusual for a minority of voters to control a majority of seats. In the Senate, seats swing wildly. The majority party in the Senate has been elected by a minority of voters about half the time since 1980.*
-
-[^2]: Disproportionate representation is expected when one party is much more popular than the other. For example, if the national popular vote is 60% Republican to 40% Democrat, Democrats will only win districts with a [partisan lean](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index) of D+20 or more -- and districts like that are rare!
-
-[^3]: Two-party vote share means votes for third-party candidates are ignored.
-
-Unsurprisingly, such skewed representation was controversial. At the Constitutional Convention, Hamilton called the Senate "[confessedly unjust](http://avalon.law.yale.edu/subject_menus/debcont.asp)." Madison opposed it as well, but ultimately endorsed it as a "[lesser evil](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-62)" -- without such a [compromise](https://en.wikipedia.org/wiki/Connecticut_Compromise), smaller states may have refused to join the union.
-
-Recent retellings tend to be a bit more poetic. Charles C W Cooke, editor of National Review, [writes](https://www.nationalreview.com/2018/07/senate-hasnt-skewed-supreme-court-to-right/):
+Modern retellings tend to be a bit more poetic. Charles C W Cooke, editor of National Review, [writes](https://www.nationalreview.com/2018/07/senate-hasnt-skewed-supreme-court-to-right/):
 
 > Provided that federal power remains in check, the Senate prevents no state from enacting whichever policies it wishes to within its border; it merely prevents a handful of states from riding roughshod over their smaller counterparts on those few questions that are inherently national. Thus was the republic deliberately arranged.
 
@@ -37,6 +28,14 @@ The answer is damning:
 -----------
 
 # SCRATCH
+
+![](/assets/images/congress-votes-seats.png)
+*In the House, seat allocation (white) is roughly proportional with two-party[^2] vote share (red/blue), with swings at the extremes[^3]. It's very unusual for a minority of voters to control a majority of seats. In the Senate, seats swing wildly. The majority party in the Senate has been elected by a minority of voters about half the time since 1980.*
+
+[^2]: Disproportionate representation is expected when one party is much more popular than the other. For example, if the national popular vote is 60% Republican to 40% Democrat, Democrats will only win districts with a [partisan lean](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index) of D+20 or more -- and districts like that are rare!
+
+[^3]: Two-party vote share means votes for third-party candidates are ignored.
+
 
 Notably, southern states could not resist the reconstruction amendments to the US constitution because rebel states were controlled by reconstruction governments from the end of the Civil War until 1877.
 
