@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Abolish the Senate"
-image: "/assets/images/capital-thumb.png"
+image: "/assets/images/votes-seats-thumb.png"
 description: ""
 ---
 
@@ -53,7 +53,7 @@ Notably, federal powers are far more expansive now than they were in the 18th ce
 
 There is value in a bicameral legislature, to divide representation along more than one axis.
 
-To be a bit silly, imagine a chamber with 26 seats, one for each letter of the alphabet. You vote based on your initial. This would probably serve to elevate minority voices -- for example, Yang and Vang are common named among Asian Americans, but few European names start with those letters. 
+To be a bit silly, imagine a chamber with 26 seats, one for each letter of the alphabet. You vote based on your initial. This would probably serve to elevate minority voices -- for example, Yang and Vang are common named among Asian Americans, but few European names start with those letters.
 
 More practically, consider a chamber in which you vote for a seat based on your profession. There's a seat to represent plumbers, another for teachers, another for firefighters, another for programmers. It's likely that this chamber would offer a significantly different perspective from our existing Congress, which is dominated by lawyers.
 
