@@ -23,6 +23,40 @@ The answer is damning:
 - Southern senators filibustered the Civil Rights Act of 1964 for two months. The filibuster was ultimately broken by weakening the bill.
 
 
+-----
+
+Populations by state 1960: https://en.wikipedia.org/wiki/1960_United_States_Census
+
+Civil Rights Act of 1964 votes: https://www.govtrack.us/congress/votes/88-1964/s409 
+
+73-27. 27 represented about 24% of the US population
+
+Vote to break the filibuster: https://voteview.com/rollcall/RS0880302
+
+72-29. 29 represented about 24% of the US population. 
+
+Vote for cloture on poll taxes: https://voteview.com/rollcall/RH0790053
+
+48-38. 37% of population agains. 
+
+
+1962 literacy test bill. No cloture. https://voteview.com/rollcall/RS0870240
+
+1938 anti-lynching bill. No cloture. https://voteview.com/rollcall/RS0750101
+
+1965 voting rights act. narrowly achieves cloture. https://voteview.com/rollcall/RS0890067
+
+1966 prohibit discrimination in employment on the basis of race, color, origin, religion. cloture fails. https://voteview.com/rollcall/RS0810369
+
+1968: A BILL TO PRESCRIBE PENALTIES FOR RACIALLY MOTIVATED INTERFERENCE WITH CIVIL RIGHTS. Failed cloture. https://voteview.com/rollcall/RS0900318
+
+In fact, just [search for "cloture"](https://voteview.com/search/cloture) in the records of Senate votes. 
+
+
+
+
+
+
 -----------
 -----------
 -----------
