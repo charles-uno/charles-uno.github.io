@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let the Scry Fall"
-image: "/assets/images/mtg-mosaic-thumb.png"
+image: "/assets/images/mtg-collage-thumb.png"
 description: "Put down the scissors and glue. Today we're making collages in Python!"
 ---
 
@@ -34,7 +34,7 @@ We make another API request to grab the illustration and dump[^1] it into a file
 
 [^1]: If you're actually wading through the code, you'll notice that dumping the image to a file is actually a multi-stage process. The images served by Scryfall are formatted as JPGs. We'd rather work with PNGs, so we do a quick check-and-convert.
 
-![Collage of all MTG Forest illustrations](/assets/images/mtg-mosaic-all-forest.png)
+![Collage of all MTG Forest illustrations](/assets/images/mtg-collage-all-forest.png)
 *Collage of Forest illustrations. A large number of duplicates are visible.*
 
 Scryfall served up 587 Forest printings. The above figure shows 576 of them. I chopped off the last few so the aspect ratio would line up nicely. Pretty good, I think, but something feels off...
@@ -68,12 +68,13 @@ Eventually, I realized that there was a huge optimization staring me in the face
 ## Finishing Touches
 
 
-![](/assets/images/mtg-mosaic-plains-small.png)
+![](/assets/images/mtg-collage-plains-small.png)
+*Large version [here](/assets/images/mtg-collage-plains.png)*
 
-![](/assets/images/mtg-mosaic-island-small.png)
+![](/assets/images/mtg-collage-island-small.png)
 
-![](/assets/images/mtg-mosaic-swamp-small.png)
+![](/assets/images/mtg-collage-swamp-small.png)
 
-![](/assets/images/mtg-mosaic-mountain-small.png)
+![](/assets/images/mtg-collage-mountain-small.png)
 
-![](/assets/images/mtg-mosaic-forest-small.png)
+![](/assets/images/mtg-collage-forest-small.png)
