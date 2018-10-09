@@ -9,9 +9,9 @@ keywords: food, entrees, leftovers, cast iron skillet, healthy
 ## Ingredients
 
 - 2 cans garbanzo beans (800 mL, or 28 oz)
-- 2 large sausage links (500 mL, or 2 cups)
-- 1 onion (500 mL, or 2 cups)
-- 1 L (8 cups) kale
+- 2 large sausage links, chunked (500 mL, or 2 cups)
+- 1 onion, chopped (500 mL, or 2 cups)
+- 1 L (8 cups) kale, chopped
 - Olive oil
 
 ## Assembly
