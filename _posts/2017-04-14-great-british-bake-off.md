@@ -29,6 +29,6 @@ Performance in the first episode is a proxy for each baker's intrinsic strengths
 
 [^2]: Bakers are given some information about the upcoming challenge a week ahead of time, so they can practice.
 
-By the second episode, there's an extra layer of strategy to the competition. The bakers have spent two full days together, and seen Paul and Mary give feedback on dozens of bakes. This -- evidently -- matters a lot. On average, 2 of the top 3 bakers from the second technical challenge will make it to the finals. 
+By the second episode, there's an extra layer of strategy to the competition. The bakers have spent two full days together, and seen Paul and Mary give feedback on dozens of bakes. This -- evidently -- matters a lot. On average, two of the top three bakers from the second technical challenge will make it to the finals. 
 
 Perhaps the bakers scope out their competitors, and try to settle into an advantageous niche. Perhaps they get a sense for the judges' biases -- aesthetic preferences, favorite flavors, and the sorts of mistakes that are judged harshly. It's these sorts of strategies that seem to determine who makes it to the finals, far more than the intrinsic skills showcased in the opening episode.
