@@ -32,47 +32,86 @@ We make another API request to grab the illustrations and dump[^1] each into a f
 
 [^1]: If you're actually wading through the code, you'll notice that dumping the image to a file is actually a multi-stage process. The images served by Scryfall are formatted as JPGs. We'd rather work with PNGs, so we do a quick check-and-convert.
 
-![Collage of all MTG Forest illustrations](/assets/images/mtg-collage-all-forest.png)
-*Collage of all 587 illustrations for the card Forest. A number of duplicates are visible.*
+![Collage of all MTG Forest illustrations](/assets/images/mtg-collage-all-forest-small.png)
+*Collage of all 587 illustrations for the card Forest. A number of duplicates are visible. Full-sized version [here](/assets/images/mtg-collage-all-forest.png).*
 
-There have been 587 printings of the card [[Forest]]. Each illustration is shown above. Pretty good, I think, but something feels off...
+There have been 587 printings of the card [[Forest]]. The above collage includes them all. Pretty good, I think, but something feels off...
 
 ## Identifying Duplicates
 
-Each basic land has been printed over 500 times, but that doesn't mean there are 500 different pieces of art. As we can see above, there are a handful of pieces that get used over and over. This is particularly visible in promotional products, which make up the right quarter (more or less) of the image.
+Just because each basic land has been printed over 500 times doesn't mean there are 500 different pieces of art. A handful of pieces appear repeatedly -- particularly in the promotional releases on the right side of the collage above. I set out to remove the duplicates. Turns out that's easier said than done.
 
-I set out to remove them. Turns out this is much easier said than done.
-
-It's easy to identify images that are pixel-by-pixel *identical*, but that's not the situation here. We're looking at different scans of the same original piece of art. That means slight differences in cropping and exposure, plus a bit of digital retouching.
+It's easy to check if images are pixel-by-pixel *identical*, but that's not the situation here. We're looking at different scans of the same original piece of art. That means slight differences in cropping and exposure, plus a bit of digital retouching.
 
 The correct way to solve this problem probably involves machine learning, neural networks, or some other big data buzzword. A bit beyond my expertise, and a bit overkill for this particular project. Instead, after a fair amount of trial-and-error, I essentially decided to identify duplicates by squinting:
 
 - Convert color images to grayscale.
-- Smooth the image down to a coarse grid.
+- Scale down to a coarse grid.
 - To compare two images, subtract their grids.
 - If the differences are uniformly small, the images match.
 
 The figure below shows a 4x4 grid for legibility. In practice the sweet spot seems to be 6x6. With too many boxes, the algorithm is easily confused by differences in cropping. With too few boxes, it misses defining features, resulting in false positives.
 
 ![Comparing similar illustrations](/assets/images/alaynadanner-johnavon.gif)
-*Same art by Alayna Danner, but with a weird foil overlay. Different illustrations by John Avon, but with similar coloration and composition.*
+*Illustration of how the matching algorithm works. It can identify a match despite the weird foil overlay. It can also distinguish a pair of pieces with similar color scheme and composition.*
 
-This algorithm isn't particularly fast, and only handles pairwise comparisons. To look for all possible duplicates, we'd need to check each of the 500+ images against each other image -- over 300k comparisons! The first time through, this is how I coded it up, and my little netbook chugged away for *ages*.
+The algorithm isn't 100% accurate -- in particular, it can be fooled when artists do throwback pieces -- but it's pretty close!
 
-Eventually, I realized that there was a huge optimization staring me in the face: artist name. There's no sense comparing an Alayna Danner illustration to one by John Avon. Illustrations can't possibly be duplicates unless they share an artist.
 
-**NOTE: reduced from 500+ to just over 200.**
+http://gatherer.wizards.com/Handlers/Image.ashx?type=card&multiverseid=269629
+http://gatherer.wizards.com/Handlers/Image.ashx?type=card&multiverseid=245246
+
+https://api.scryfall.com/cards/multiverse/!cardid!?format=image
+
+
+https://api.scryfall.com/cards/named?exact=Forest&set=avr&collector_number=244&format=image
+NOPE
+
+
+
+https://api.scryfall.com/cards/search?q=Forest+set:avr+cn=244&format=image
+
+
+
+
+
+
+
+
+This matching algorithm isn't particularly fast, and only handles pairwise comparisons. The first time through, I coded up a brute-force approach, and it slowed my little netbook to a crawl. I eventually realized there was a huge optimization staring me in the face: artist name! There's no need to compare an Alayna Danner piece to one by John Avon; we already know they're not the same.
+
+By brute force, we'd need 172k comparisons to find all the duplicates. If we only compare pieces with the same artist, it's more like 12k[^3]. That means it takes under a minute for my little netbook to sift those 587 images down to about 200 uniques.
+
+[^3]: Using brute force to identify all duplicate Forest illustrations, we'd have to compare each of the 587 pieces to each other piece: 587*586/2 = 171,991 comparisons. (Math details [here](https://www.quora.com/Math-What-is-the-formula-for-the-number-of-handshakes-H-in-terms-of-the-number-of-people-n).) But once we split it up by the 71 different artists, the numbers get a a lot friendlier. John Avon has art on 144 Forests, so we need 10,296 comparisons to check all those for duplicates. Rob Alexander has 44, so 946 comparisons. Christopher Rush has 37, so 666 comparisons. Everything else is small in comparison.
 
 ## Finishing Touches
 
 
+
+**NOTE** -- my little netbook can't hold all these images in memory at once. So we load everything up once, briefly, to grab the grayscale grid. we also grab average color for sorting, and dimensions for cropping. Then we load them at the end, again once at a time, to load them onto the canvas.
+
+
+
+
+**TODO** -- best practice is to list artists and copyrights
+
+
+
+
+
+
+
 ![](/assets/images/mtg-collage-plains-small.png)
-*Large version [here](/assets/images/mtg-collage-plains.png)*
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
 
 ![](/assets/images/mtg-collage-island-small.png)
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
 
 ![](/assets/images/mtg-collage-swamp-small.png)
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
 
 ![](/assets/images/mtg-collage-mountain-small.png)
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
 
 ![](/assets/images/mtg-collage-forest-small.png)
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
