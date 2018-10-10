@@ -62,81 +62,27 @@ It bears noting that, no matter how well we dial in the grid, this is a *pretty 
 ![](/assets/images/mtg-collage-forest-small.png)
 *Collage Forest illustrations, duplicates removed. Full-sized version [here](/assets/images/mtg-collage-forest.png)*
 
-
-
-
-
----
-
-
----
-
-
----
-
-
 ## Optimizations
 
-The matching algorithm only handles pairwise comparisons. That means, to find all the duplicates in a pool of 587 images by brute force, we'd need to make 172k comparisons[^3]. That's how I coded it up the first time through, and it slowed my little netbook to a crawl.
+The matching algorithm only handles pairwise comparisons. That means, to find all the duplicates in a pool of 587 images by brute force, we'd need to make 172k comparisons[^3]. That's how I coded it up the first time through, and it slowed my little netbook to a crawl. Eventually, I realized that there was a huge optimization staring me in the face: artist name! If we have a piece by Alayna Danner and another by Jim Nelson, we already know they're different. No math required.
 
 [^3]: The number of ways to choose two different items from a pool of N items is N*(N-1)/2, also called "[N choose 2](https://www.quora.com/Math-What-is-the-formula-for-the-number-of-handshakes-H-in-terms-of-the-number-of-people-n)."
 
-Eventually, I realized that there was a huge optimization staring me in the face: artist name! There's no need to compare an Alayna Danner piece to one by John Avon; we already know they're not the same.
+Rob Alexander has art on 44 [[Forest]] printings, so it takes 946 comparisons to find all the duplicates. Terese Nielsen has five illustrations, so that's another ten comparisons. And so on. All in all, sorting by artist lets us find all the duplicate in 12k comparisons -- less than a fifth of what we would have to do using brute force! Even on my little netbook, I can load up all the images, purge the duplicates, and assemble a canvas in about a minute.
 
-When we split up the 587 pieces based on the 71 different artists, the numbers get a lot more manageable. Nine printings have art by Jim Nelson, so it takes 36 comparisons to check those for duplicates. Terese Nielsen has five, so that's another ten comparisons.
+Of course, I don't load all the images *at the same time* -- that's my other optimization. More than once, the OS killed by Python script for being too much of a memory hog. So now I'm more careful with resources.
 
+Each image gets loaded once at the beginning to grab some metadata. We store its dimensions and compute the grid of grayscale values for the matching algorithm. While we're at it, we compute its average color as well; more on this in a moment. Then we free up that memory -- keeping only the metadata -- and load the next one. Then:
 
+- Using the grayscale grids, we identify the duplicates.
+- The number of unique images dictates how many rows and columns to lay on the canvas.
+- Based on each image's dimensions, we figure out a common size to crop to.
 
-
-
-teresenielsen 5
-
-
-
-
-
-
-
-
-
-Using brute force to identify all duplicate Forest illustrations, we'd have to compare each of the 587 pieces to each other piece: 587*586/2 = 171,991 comparisons. (Math details [here](https://www.quora.com/Math-What-is-the-formula-for-the-number-of-handshakes-H-in-terms-of-the-number-of-people-n).) But once we split it up by the 71 different artists, the numbers get a a lot friendlier. John Avon has art on 144 Forests, so we need 10,296 comparisons to check all those for duplicates. Rob Alexander has 44, so 946 comparisons. Christopher Rush has 37, so 666 comparisons. Everything else is small in comparison.
-
-
-
-
-
-
-
-
-
-
-
-
-This matching algorithm isn't particularly fast, and only handles pairwise comparisons. The first time through, I coded up a brute-force approach, and it slowed my little netbook to a crawl. I eventually realized there was a huge optimization staring me in the face: artist name! There's no need to compare an Alayna Danner piece to one by John Avon; we already know they're not the same.
-
-By brute force, we'd need 172k comparisons to find all the duplicates. If we only compare pieces with the same artist, it's more like 12k. That means it takes under a minute for my little netbook to sift those 587 images down to about 200 uniques.
-
-[^3]: Using brute force to identify all duplicate Forest illustrations, we'd have to compare each of the 587 pieces to each other piece: 587*586/2 = 171,991 comparisons. (Math details [here](https://www.quora.com/Math-What-is-the-formula-for-the-number-of-handshakes-H-in-terms-of-the-number-of-people-n).) But once we split it up by the 71 different artists, the numbers get a a lot friendlier. John Avon has art on 144 Forests, so we need 10,296 comparisons to check all those for duplicates. Rob Alexander has 44, so 946 comparisons. Christopher Rush has 37, so 666 comparisons. Everything else is small in comparison.
+Then we go back and -- one at a time -- load the images again. Each gets resized, cropped to the appropriate aspect ratio, and slapped onto the canvas.
 
 ## Finishing Touches
 
-
-
-**NOTE** -- my little netbook can't hold all these images in memory at once. So we load everything up once, briefly, to grab the grayscale grid. we also grab average color for sorting, and dimensions for cropping. Then we load them at the end, again once at a time, to load them onto the canvas.
-
-
-
-
-**TODO** -- best practice is to list artists and copyrights
-
-
-
-
-
-
-
-![](/assets/images/mtg-collage-plains-small.png)
-*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
+The first collage above orders the images chronologically. Below, they're instead ordered by color. From left to right, I go dark to light. Then, within each row, I sort them from red to blue. This doesn't look like much when we're dealing with [[Forest]] art, since it's all green. [[Island:Islands]] and [[Swamp:Swamps]] have similar issues. They're all sorta the same color...
 
 ![](/assets/images/mtg-collage-island-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-island.png)*
@@ -144,5 +90,14 @@ By brute force, we'd need 172k comparisons to find all the duplicates. If we onl
 ![](/assets/images/mtg-collage-swamp-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-swamp.png)*
 
+[[Plains]] and [[Mountain:Mountains]], on the other hand...
+
+![](/assets/images/mtg-collage-plains-small.png)
+*Full-sized version [here](/assets/images/mtg-collage-plains.png)*
+
 ![](/assets/images/mtg-collage-mountain-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-mountain.png)*
+
+
+
+**TODO** -- best practice is to list artists and copyrights
