@@ -17,7 +17,7 @@
 //. also changed to match that of the cursor. when the cursor stops hovering over the card name,
 //. the <div> returns to invisibility.
 
-
+// ---------------------------------------------------------------------
 
 function processMacros() {
     // Look for expressions of the form [[cardname]] and replace them
@@ -27,7 +27,7 @@ function processMacros() {
     var i = 0;
     // Keep looping until we have processed all the macros.
     while ( html_todo.includes('[[') && html_todo.includes(']]') && i < 1000 ) {
-        // Sanity check: if something goes wrong, don't spin forever. 
+        // Sanity check: if something goes wrong, don't spin forever.
         i++;
         var i0 = html_todo.indexOf('[[');
         var i1 = html_todo.indexOf(']]');
@@ -60,10 +60,7 @@ function processMacros() {
     article.innerHTML = html_done + html_todo;
 }
 
-
-
-
-
+// ---------------------------------------------------------------------
 
 function initCards(){
     processMacros();
@@ -84,9 +81,13 @@ function initCards(){
     }
 }
 
+// ---------------------------------------------------------------------
+
 //. this is the "closure inside a loop" issue. ideally, we would call showCard(a[i].innerHTML)
 //. directly. however, when the onmouseover event triggers, the variable i is no longer defined.
 function showCardHandler(cardName){return function(){showCard(cardName);}}
+
+// ---------------------------------------------------------------------
 
 function showCard(cardName){
   document.onmousemove = function(e){
@@ -122,7 +123,11 @@ function showCard(cardName){
   getElt("cardPopup").style.overflow = 'hidden';
 }
 
+// ---------------------------------------------------------------------
+
 function hideCardHandler() {return function(){hideCard();}}
+
+// ---------------------------------------------------------------------
 
 function hideCard(){
   getElt("cardPopup").style.height = '0px';
@@ -130,8 +135,12 @@ function hideCard(){
   getElt("cardPopup").innerHTML = '';
 }
 
+// ---------------------------------------------------------------------
+
 //. some shorthand for a long call that gets used a lot
 function getElt(id){return document.getElementById(id);}
+
+// ---------------------------------------------------------------------
 
 //. this function adds up the top and left displacements of all parent elements to let us map
 //. between the (absolute) position of the cursor and the (relative) position of the popup div.
@@ -146,16 +155,38 @@ function getPos(elt) {
   return {left:l, top:t};
 }
 
+// ---------------------------------------------------------------------
+
 //. given a card name, this function returns a link to search for info on that card
 function searchLink(cardName){
-  var linkStart = 'http://magiccards.info/query?q=', linkEnd = '&v=card&s=cname';
-  return linkStart + cardName.replace('&amp;','').replace('//','').replace('’','') + linkEnd;
+    //. If given a number, we're searching by multiverse id.
+    if (!isNaN(cardName)) {
+        // http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383251
+        var linkStart = 'http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=';
+        var linkEnd = '';
+    } else {
+        //. https://scryfall.com/search?q=!"forest"
+        var linkStart = 'https://scryfall.com/search?q=!"';
+        var linkEnd = '"';
+    }
+    return linkStart + cardName.replace('&amp;','').replace('//','').replace('’','') + linkEnd;
 }
+
+// ---------------------------------------------------------------------
 
 //. given a card name, this function returns a link to that card image on gatherer.
 function imageLink(cardName){
-  var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=';
-  return linkStart + cardName.replace('&amp;','//').replace('’','\'');
+    //. If given a number, we're searching by multiverse id.
+    if (!isNaN(cardName)) {
+        var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=';
+        var linkEnd = '&type=card';
+    } else {
+        var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=';
+        var linkEnd = '';
+    }
+    return linkStart + cardName.replace('&amp;','//').replace('’','\'') + linkEnd;
 }
+
+// ---------------------------------------------------------------------
 
 window.onload = initCards;
