@@ -7,37 +7,35 @@ description: "Put down the scissors and glue. Today we're making collages in Pyt
 
 Today's project is collages! No scissors and glue, but we've got the next best things: REST APIs and the Python Image Library. Specifically, we'll be accessing card illustrations via the shiny new(ish) [Scryfall API](https://scryfall.com/docs/api), working a bit of magic on them, then stitching them together.
 
-This is all based on some work by a friend-of-a-friend, April King. She put together a [collage of Island illustrations](https://twitter.com/CubeApril/status/938937585732341760), earning herself a shout-out in the [Scryfall blog](https://scryfall.com/blog/a-belated-year-in-review-152). We'll be starting with that same idea, but taking it a bit further.
+This is all based on some work by a friend-of-a-friend, April King. She put together a [collage of Island illustrations](https://twitter.com/CubeApril/status/938937585732341760), earning herself a shout-out in the [Scryfall blog](https://scryfall.com/blog/a-belated-year-in-review-152). We'll be starting with her same idea, but taking it a bit further.
 
 ## Getting Images
 
-I'm no expert, but I'm pretty sure [JSON](https://en.wikipedia.org/wiki/JSON) is the language of the future. The Scryfall API was a breeze to work with. You ping a URL, and it sends back a conveniently-formatted reply.
-
-For example, let's say we want to search for all 500+ printings of the card [[Forest]]. After a quick peek at their [search syntax guide](https://scryfall.com/docs/reference), we can have all that information at our fingertips in just a few lines of Python:
+Working with the Scryfall API is a breeze. You ping a URL, and you get back a [conveniently-formatted](https://en.wikipedia.org/wiki/JSON) reply. For example, let's say we want to search for all 500+ printings of the card [[Forest]]. After a quick peek at the Scryfall [search syntax guide](https://scryfall.com/docs/reference), we can type a few lines of Python and have all that information at our fingertips:
 
 ```python
 import requests
-# The search string !"forest" asks for cards named exactly "forest".
+# The query !"forest" asks for cards named exactly "forest".
 info_url = 'https://api.scryfall.com/cards/search?q=!"forest"&unique=prints'
 forest_info = requests.get(info_url).json()
 ```
 
-If we go to the [the above URL](https://api.scryfall.com/cards/search?q=!"forest"&unique=prints) ourselves, we see a jumble of JSON. Some snippets of relevant-looking information, but condensed to the point of illegibility. Python gobbles that up no problem, and delivers a well-behaved dictionary. Card data (rules text, collector number, etc) is packaged in `forest_info['data']`. In this case, there are too many cards to fit on one page, so `forest_info['next_page']` tells us where to make another request for the next batch.
+If we go to the [the above URL](https://api.scryfall.com/cards/search?q=!"forest"&unique=prints) ourselves, we see a jumble of JSON. Some snippets of relevant-looking information, but condensed to the point of illegibility. Python gobbles that up no problem and spits out a well-behaved dictionary. Card data (rules text, collector number, etc) is packaged in `forest_info['data']`. In this case, there are too many cards to fit on one page, so `forest_info['next_page']` tells us where to make another request for the next batch.
 
-To see more details about working with the API, feel free to check out my [code on GitHub](https://github.com/charles-uno/scryfall). Long story short, we use the Scryfall API to grab a few pieces of information about each printing:
+To see more details about working with the API, feel free to check out my [code on GitHub](https://github.com/charles-uno/scryfall). Long story short, we grab just a few pieces of information from Scryfall:
 
-- Set and collector number, to uniquely identify each card
-- Artist name (more on this in a moment!)
+- Set and collector number to uniquely identify each card
+- Artist name -- more on this in a moment
 - The URL where they store the illustration
 
-We make another API request to grab the illustration and dump[^1] it into a file. From there it's easy enough to load them up, crop them to a common size, and toss them together into a collage:
+We make another API request to grab the illustrations and dump[^1] each into a file. From there it's easy enough to load them up, crop them to a common size, and toss them together into a collage:
 
 [^1]: If you're actually wading through the code, you'll notice that dumping the image to a file is actually a multi-stage process. The images served by Scryfall are formatted as JPGs. We'd rather work with PNGs, so we do a quick check-and-convert.
 
 ![Collage of all MTG Forest illustrations](/assets/images/mtg-collage-all-forest.png)
-*Collage of Forest illustrations. A large number of duplicates are visible.*
+*Collage of all 587 illustrations for the card Forest. A number of duplicates are visible.*
 
-Scryfall served up 587 Forest printings. The above figure shows 576 of them. I chopped off the last few so the aspect ratio would line up nicely. Pretty good, I think, but something feels off...
+There have been 587 printings of the card [[Forest]]. Each illustration is shown above. Pretty good, I think, but something feels off...
 
 ## Identifying Duplicates
 
