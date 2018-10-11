@@ -7,7 +7,7 @@ description: "Put down the scissors and glue. Today we're making collages in Pyt
 
 Today's project is collages! No scissors and glue, but we've got the next best things: REST APIs and the Python Image Library. Specifically, we'll be accessing card illustrations via the shiny new(ish) [Scryfall API](https://scryfall.com/docs/api), working a bit of magic on them, then stitching them together.
 
-This is all based on some work by a friend-of-a-friend, April King. She put together a [collage of Island illustrations](https://twitter.com/CubeApril/status/938937585732341760), earning herself a shout-out in the [Scryfall blog](https://scryfall.com/blog/a-belated-year-in-review-152). We'll be starting with her same idea, but taking it a bit further.
+This is all based on some work by a friend-of-a-friend, April King. She put together a [collage of Island illustrations](https://twitter.com/CubeApril/status/938937585732341760), earning herself a shout-out in the [Scryfall blog](https://scryfall.com/blog/a-belated-year-in-review-152). We'll be starting with her same idea, then taking it a bit further.
 
 ## Getting Images
 
