@@ -39,7 +39,9 @@ There have been 587 printings of the card [[Forest]]. The above collage includes
 
 ## Identifying Duplicates
 
-Just because each basic land has been printed over 500 times doesn't mean there are 500 different pieces of art. A handful of pieces appear repeatedly -- particularly in the promotional releases on the right side of the collage above. I set out to remove the duplicates. Turns out that's easier said than done.
+Just because each basic land has been printed over 500 times doesn't mean there are 500 different pieces of art. A handful of pieces appear repeatedly -- particularly in the promotional releases on the right side of the collage above. I set out to remove the duplicates. Turns out that's easier said than done[^5].
+
+[^5]: [As it turns out](https://twitter.com/CubeApril/status/1050476019134676992), Scryfall flags duplicate illustrations via the illustration ID. Oops!
 
 It's trivial to check if images are pixel-by-pixel *identical*, but that's not the situation here. We're looking at different scans of the same original piece of art. That means slight differences in cropping and exposure, plus perhaps some digital retouching.
 
