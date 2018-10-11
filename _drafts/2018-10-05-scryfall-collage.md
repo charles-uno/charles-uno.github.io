@@ -59,8 +59,8 @@ The above figure uses a 4x4 grid for legibility; in practice, the sweet spot see
 
 It bears noting that, no matter how well we dial in the grid, this is a *pretty good* algorithm for identifying duplicate images -- not a perfect one. In particular, it gets confused when artists do [[269629:throwback]] [[245246:pieces]]. We won't be filing any patents, but it works well enough to reduce our 500+ printings down to about 200 mostly-unique ones:
 
-![](/assets/images/mtg-collage-forest-small.png)
-*Collage Forest illustrations, duplicates removed. Full-sized version [here](/assets/images/mtg-collage-forest.png)*
+![Collage of unique Forest illustrations](/assets/images/mtg-collage-forest-small.png)
+*Collage [[Forest]] illustrations, duplicates removed. Full-sized version [here](/assets/images/mtg-collage-forest.png)*
 
 ## Optimizations
 
@@ -68,34 +68,30 @@ The matching algorithm only handles pairwise comparisons. That means, to find al
 
 [^3]: The number of ways to choose two different items from a pool of N items is N*(N-1)/2, also called "[N choose 2](https://www.quora.com/Math-What-is-the-formula-for-the-number-of-handshakes-H-in-terms-of-the-number-of-people-n)."
 
-Rob Alexander has art on 44 [[Forest]] printings, so it takes 946 comparisons to find all the duplicates. Terese Nielsen has five illustrations, so that's another ten comparisons. And so on. All in all, sorting by artist lets us find all the duplicate in 12k comparisons -- less than a fifth of what we would have to do using brute force! Even on my little netbook, I can load up all the images, purge the duplicates, and assemble a canvas in about a minute.
+Rob Alexander has art on 44 [[Forest]] printings, so it takes 946 comparisons to find all the duplicates. Terese Nielsen has five illustrations, so that's another ten comparisons. And so on. All in all, sorting by artist lets us find all the duplicate in 12k comparisons -- less than a tenth of what we would have to do using brute force! Even on my little netbook, I can load up all the images, purge the duplicates, and assemble a canvas in about a minute.
 
-Of course, I don't load all the images *at the same time* -- that's my other optimization. More than once, the OS killed by Python script for being too much of a memory hog. So now I'm more careful with resources.
+Of course, I don't load all the images *at the same time* -- that's my other optimization. More than once, the OS killed my Python script for being too much of a memory hog. So now I'm more careful with resources.
 
-Each image gets loaded once at the beginning to grab some metadata. We store its dimensions and compute the grid of grayscale values for the matching algorithm. While we're at it, we compute its average color as well; more on this in a moment. Then we free up that memory -- keeping only the metadata -- and load the next one. Then:
+Each image gets loaded once at the beginning to grab some metadata. We store its dimensions and compute the grid of grayscale values for the matching algorithm. While we're at it, we compute its average color as well; more on this in a moment. Then we free up that memory -- keeping only the metadata -- and load the next one.
 
-- Using the grayscale grids, we identify the duplicates.
-- The number of unique images dictates how many rows and columns to lay on the canvas.
-- Based on each image's dimensions, we figure out a common size to crop to.
+![Collage of unique Island illustrations](/assets/images/mtg-collage-island-small.png)
+*Collage [[Island]] illustrations, duplicates removed. Full-sized version [here](/assets/images/mtg-collage-island.png)*
 
-Then we go back and -- one at a time -- load the images again. Each gets resized, cropped to the appropriate aspect ratio, and slapped onto the canvas.
+Once we have metadata for each image, we use the grayscale grids to identify duplicates. Based on the number of unique images, we can then figure out an appropriate number of rows and columns for the collage. And, with each illustration's dimensions, we can compute a common size to crop to. Then we go back and -- one at a time -- load the images again. Each gets resized, cropped to the appropriate aspect ratio, and slapped onto the canvas.
 
 ## Finishing Touches
 
-The first collage above orders the images chronologically. Below, they're instead ordered by color. From left to right, I go dark to light. Then, within each row, I sort them from red to blue. This doesn't look like much when we're dealing with [[Forest]] art, since it's all green. [[Island:Islands]] and [[Swamp:Swamps]] have similar issues. They're all sorta the same color...
+Scryfall orders search results chronologically, which is very practical, but practicality isn't really what we're after. In the collages below, the illustrations are ordered by average color instead. From left to right, images go dark to light. Then, within each row, they're sorted from red to blue. For the [[Forest]] art above, it doesn't make much of a difference. It's all green. Similarly, the [[Island]] collage is all blue, and the [[Swamp]] collage is all brown and purple:
 
-![](/assets/images/mtg-collage-island-small.png)
-*Full-sized version [here](/assets/images/mtg-collage-island.png)*
-
-![](/assets/images/mtg-collage-swamp-small.png)
+![Collage of unique Swamp illustrations](/assets/images/mtg-collage-swamp-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-swamp.png)*
 
-[[Plains]] and [[Mountain:Mountains]], on the other hand...
+But the [[Plains]] and [[Mountain]] collages are a whole different story. In each, there's a tradeoff between the warm colors of the earth and the cool blue of the sky.
 
-![](/assets/images/mtg-collage-plains-small.png)
+![Collage of unique Plains illustrations](/assets/images/mtg-collage-plains-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-plains.png)*
 
-![](/assets/images/mtg-collage-mountain-small.png)
+![Collage of unique Mountain illustrations](/assets/images/mtg-collage-mountain-small.png)
 *Full-sized version [here](/assets/images/mtg-collage-mountain.png)*
 
 
