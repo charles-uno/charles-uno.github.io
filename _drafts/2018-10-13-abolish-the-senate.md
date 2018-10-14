@@ -5,22 +5,57 @@ image: "/assets/images/votes-seats-thumb.png"
 description: "The founders knew the Senate wouldn't be proportional. But that's only part of the problem."
 ---
 
-In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford), SCOTUS[^1] voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court. Half a century later, in [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation. SCOTUS voted 8-1 in [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) to allow the forced sterilization of the "feeble minded" and "promiscuous"[^2]; this decision was cited in defense of Nazi doctors during the Nuremburg trials. Finally, during WWII, SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, in [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States). Over 100k people were forcibly relocated, robbed of their homes and businesses.
+Just about any list of worst SCOTUS[^1] decisions starts with the same four cases:
+
+- In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), SCOTUS voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court.
+- In [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation.
+- In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous"[^2]. This decision was cited in defense of Nazi doctors during the Nuremburg trials.
+- In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
 [^1]: SCOTUS: Supreme Court of the United States
 
 [^2]: Not surprisingly, sterilization was disproportionately imposed on persons of color. For more information, look up "Mississippi appendectomy."
 
-These four appear at the top of just about any list of [worst scotus decisions](https://www.google.com/search?q=worst+scotus+decisions). In each case, the court erred on the side of the powerful, rather than defending the rights of the powerless. This should come as no surprise. SCOTUS justices are confirmed by the Senate, and the Senate is the closest thing America has to an aristocracy.
+In each case, the court erred on the side of the powerful, rather than defending the rights of the powerless. This should come as no surprise. SCOTUS justices are confirmed by the Senate, and the purpose of the Senate has always been to represent the interests of the powerful.
+
+In the Federalist Papers [#62](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-62) and [#63](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-63), America's framers[^3] show little faith in the ability of the House of Representatives to govern responsibly. Due to its short terms and direct election by the people, Madison argued that the government could be destabilized by the electorate's "sudden and violent passions." Senators, on the other hand, were to be professional politicians exhibiting "stability of character." They were insulated from the voters by their indirect election[^4] and long terms of office.
+
+[^3]: Written by Madison, but it's not strictly his opinions. He's trying to spell out what was argued at the the Constitutional Convention.
+
+[^4]: Direct election of senators. 17th Amendment.
 
 
 
 
 
 
-House guarantees each citizen a voice in the government. Senate makes sure that the voices of the elite are louder.
 
-Framers were very concerned that House would be unstable due to "sudden and violent passions". Senate for stability. "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions"
+served
+
+
+
+Madison wrote of the Senate -- professional politicians who served longer terms and were *not* directly elected by the people -- "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions."
+
+
+Due to its short terms and direct election by the people, they argue, the government could be destabilized by the electorate's
+
+
+
+
+
+
+
+
+
+
+> TODO -- what about how senators are now directly elected?
+
+
+
+
+
+
+
 
 Framers were aware that -- due to the small number of senators and their long terms -- comparisons could be drawn to hereditary aristocracy.
 
@@ -29,6 +64,11 @@ Some were more hostile than others. John Dickinson wanted the Senate to bear "as
 Federalist Papers 63 acknowledged the concern that Senate could become "tyrannical aristocracy." but argued that the Senate had little power because it could not enact laws on its own
 
 at the time, the federal government (cabinet posts, courts) had little power
+
+17th amendment. senators are now directly elected, rather than being chosen by state legislatures. even so, there's an aristocratic feel. the senate is 90% white (house is 78%, US overall is 62%), and the median senator is worth over a million dollars (median representative is worth less than half that)
+
+
+
 
 a generation later, Marbury v Madison. Judicial review. suddenly courts have the power to strike down laws. this is a significant increase in the power of the courts, and thus the Senate.
 
