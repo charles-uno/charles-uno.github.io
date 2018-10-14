@@ -2,8 +2,151 @@
 layout: post
 title: "Abolish the Senate"
 image: "/assets/images/votes-seats-thumb.png"
-description: "The founders knew the Senate wouldn't be proportional. But that's not the only problem."
+description: "The founders knew the Senate wouldn't be proportional. But that's only part of the problem."
 ---
+
+In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford), SCOTUS[^1] voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court. Half a century later, in [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation. SCOTUS voted 8-1 in [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) to allow the forced sterilization of the "feeble minded" and "promiscuous"[^2]; this decision was cited in defense of Nazi doctors during the Nuremburg trials. Finally, during WWII, SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, in [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States). Over 100k people were forcibly relocated, robbed of their homes and businesses.
+
+[^1]: SCOTUS: Supreme Court of the United States
+
+[^2]: Not surprisingly, sterilization was disproportionately imposed on persons of color. For more information, look up "Mississippi appendectomy."
+
+These four appear at the top of just about any list of [worst scotus decisions](https://www.google.com/search?q=worst+scotus+decisions). In each case, the court erred on the side of the powerful, rather than defending the rights of the powerless. This should come as no surprise. SCOTUS justices are confirmed by the Senate, and the Senate is the closest thing America has to an aristocracy.
+
+
+
+
+
+
+House guarantees each citizen a voice in the government. Senate makes sure that the voices of the elite are louder.
+
+Framers were very concerned that House would be unstable due to "sudden and violent passions". Senate for stability. "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions"
+
+Framers were aware that -- due to the small number of senators and their long terms -- comparisons could be drawn to hereditary aristocracy.
+
+Some were more hostile than others. John Dickinson wanted the Senate to bear "as strong a likeness to the British House of Lords as possible."
+
+Federalist Papers 63 acknowledged the concern that Senate could become "tyrannical aristocracy." but argued that the Senate had little power because it could not enact laws on its own
+
+at the time, the federal government (cabinet posts, courts) had little power
+
+a generation later, Marbury v Madison. Judicial review. suddenly courts have the power to strike down laws. this is a significant increase in the power of the courts, and thus the Senate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Framers had that concern in mind when they designed it, but they couldn't have foreseen the drastic changes that were coming.
+
+John Dickinson: "distinguished for their rank in life and their weight of property, and bearing as strong a likeness to the British House of Lords as possible" [Source](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)
+
+
+
+originally, senators were not directly elected.
+
+representation in the senate is not proportional.
+
+framers had little trust in the electorate. "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions"
+
+Federalist Papers 63 acknowledged the concern that Senate could become "tyrannical aristocracy." but blows it off because the Senate has little power. It would have to corrupt the House and the electorate to sustain any corruption
+
+at the time, the federal government (cabinet posts, courts) had little power
+
+a generation later, Marbury v Madison. Judicial review. suddenly courts have the power to strike down laws. this is a significant increase in the power of the courts, and thus the Senate.
+
+another generation, and we have the Civil War. huge consolidation of federal power. dramatic expansion of who could be a citizen.
+
+reconstruction, the Jim Crow era, Civil Rights... establishes the federal government's ability (and responsibility) to enforce civil rights. federal opposition to state-level disenfranchisement.
+
+
+
+
+
+
+
+
+
+
+In the [Federalist Papers 63](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-63), Hamilton/Madison specifically acknowledges the concern that the Senate would become a "tyrannical aristocracy"
+
+
+
+
+
+
+
+
+
+
+"stable institution" in the government, free from the distraction of rapid turnover
+
+"stability of character"
+
+insulated from "impulse of sudden and violent passions"
+
+expectation that Representatives would be elected part-time from all walks of life, and would need the assistance of professional legislators.
+
+No trust in proportional representation.
+
+"the jealous adversary of the Constitution will probably content himself with repeating, that a senate appointed not immediately by the people, and for the term of six years, must gradually acquire a dangerous pre-eminence in the government, and finally transform it into a tyrannical aristocracy" ... "liberty may be endangered by the abuses of liberty as well as by the abuses of power"
+
+Also argues that the Senate doesn't have much power to make a mess itself. if you want tyranny, Senate has to corrupt the other branches as well. This is before judicial review.
+
+[Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803). establishes that courts have the power to strike down laws (etc) -- ostensibly, per the Constitution.
+
+
+Points out that the House of Lords lost influence when the monarch pulled support from it.
+
+
+
+
+
+![](/assets/images/pop-vs-pct-16x9.png)
+*something something log scale!*
+
+(1) Senate is modeled after the UK's House of Lords. Basically nobility from each state. (Use a quote from the Convention.)
+
+Despite the 17th amendment (direct election of senators, rather than selection by the state legislature), the aristocratic nature persists.
+
+Senate is 80% male (about the same as the House), [90% white](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/) (House if 78%, US overall is 62%). [Net worth](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top) of the median Senator is just north of $1M (House is $400k).
+
+(2) Senate is gerrymandered to give disproportionate representation to rural (that is, white) Americans.
+
+2015: US overall is 62% non-hispanic white [source](https://en.wikipedia.org/wiki/Demography_of_the_United_States)
+
+But if you give each state equal weight, you get 71% non-hispanic white.
+
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+---
+
+
 
 The Senate never offered proportional representation. In 1790, the first census, one third of the population controlled almost two thirds of the Senate[^1]. Since then, it's become a bit worse; [by 2040](https://www.wsj.com/articles/the-variedand-globalthreats-confronting-democracy-1511193763), 30% of the US population is expected to control 70% of the Senate. Unsurprisingly, such skewed representation was controversial from the start. At the Constitutional Convention, Hamilton called the Senate "[confessedly unjust](http://avalon.law.yale.edu/subject_menus/debcont.asp)." Madison spoke against it as well, but ultimately endorsed it as a "[lesser evil](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-62)" -- without such a [compromise](https://en.wikipedia.org/wiki/Connecticut_Compromise), smaller states may have refused to join the union.
 
@@ -27,17 +170,17 @@ The answer is damning:
 
 Populations by state 1960: https://en.wikipedia.org/wiki/1960_United_States_Census
 
-Civil Rights Act of 1964 votes: https://www.govtrack.us/congress/votes/88-1964/s409 
+Civil Rights Act of 1964 votes: https://www.govtrack.us/congress/votes/88-1964/s409
 
 73-27. 27 represented about 24% of the US population
 
 Vote to break the filibuster: https://voteview.com/rollcall/RS0880302
 
-72-29. 29 represented about 24% of the US population. 
+72-29. 29 represented about 24% of the US population.
 
 Vote for cloture on poll taxes: https://voteview.com/rollcall/RH0790053
 
-48-38. 37% of population agains. 
+48-38. 37% of population agains.
 
 
 1962 literacy test bill. No cloture. https://voteview.com/rollcall/RS0870240
@@ -50,7 +193,31 @@ Vote for cloture on poll taxes: https://voteview.com/rollcall/RH0790053
 
 1968: A BILL TO PRESCRIBE PENALTIES FOR RACIALLY MOTIVATED INTERFERENCE WITH CIVIL RIGHTS. Failed cloture. https://voteview.com/rollcall/RS0900318
 
-In fact, just [search for "cloture"](https://voteview.com/search/cloture) in the records of Senate votes. 
+In fact, just [search for "cloture"](https://voteview.com/search/cloture) in the records of Senate votes.
+
+
+-----------
+-----------
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Senate was disproportionate from the start. It's now a bit worse than it was.
+
+House is supposed to be swingy, since the whole chamber gets reelected every two years. But it's actually been pretty steady. You get extreme behavior when the national vote is very skewed.
+
+Control of the Senate we might expect to be smoother, since it's averaged over three classes. And, indeed, the vote share is much less swingy. But the representation is *more* swingy. From 1956 to 1994, between 44% and 50% of voters voted for a GOP senator. 32 to 54 senators.
 
 
 
@@ -66,7 +233,8 @@ In fact, just [search for "cloture"](https://voteview.com/search/cloture) in the
 ![](/assets/images/congress-votes-seats.png)
 *In the House, seat allocation (white) is roughly proportional with two-party[^2] vote share (red/blue), with swings at the extremes[^3]. It's very unusual for a minority of voters to control a majority of seats. In the Senate, seats swing wildly. The majority party in the Senate has been elected by a minority of voters about half the time since 1980.*
 
-[^2]: Disproportionate representation is expected when one party is much more popular than the other. For example, if the national popular vote is 60% Republican to 40% Democrat, Democrats will only win districts with a [partisan lean](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index) of D+20 or more -- and districts like that are rare!
+
+[^2]: Disproportionate representation is expected when one party is *much* more popular than the other. For example, if the national popular vote is 60% Republican to 40% Democrat, Democrats will only win districts with a [partisan lean](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index) of D+20 or more -- and districts like that are rare!
 
 [^3]: Two-party vote share means votes for third-party candidates are ignored.
 
