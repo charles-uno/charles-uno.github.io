@@ -8,8 +8,17 @@ description: "The founders knew the Senate wouldn't be proportional. But that's 
 Just about any list of worst SCOTUS[^1] decisions starts with the same four cases:
 
 - In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), SCOTUS voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court.
+
+> This decision disenfranchised *millions?* of free Blacks, and undid the ceasefire of the Kansas-Nebraska Act
+
 - In [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation.
+
+> Estimated impact?
+
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous"[^2]. This decision was cited in defense of Nazi doctors during the Nuremburg trials.
+
+> How many women were affected? Continued into the 70s?
+
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
 [^1]: SCOTUS: Supreme Court of the United States
