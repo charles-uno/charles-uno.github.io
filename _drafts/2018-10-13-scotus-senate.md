@@ -23,32 +23,19 @@ When the founders entrusted the Senate with judicial appointments, they couldn't
 
 The courts have been deeply involved in civil rights for well over a century[^23]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. 
 
-
-
-
-
-
-
-
-The court has been deeply involved in civil rights since the late 19th century[^23], with landmark cases like Brown v Board and Loving v Virginia just as important as any act of Congress. 
-
-
-
-The Supreme Court has been deeply involved in civil rights since the late 19th century[^23].
+...
 
 Hasn't always been on the right side of history
 
 In fact, all four of the (generally acknowledged) worst SCOTUS decisions of all time relate to civil rights. And in each case, the justices erred on the side of the powerful
 
-
-By the end of the 19th century, the Supreme Court was deeply involved in civil rights. 
-
-
-
-
-
+...
 
 [^23]: Early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896). 
+
+
+
+
 
 [Shelby County v Holder](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) (2013)
 
@@ -56,14 +43,6 @@ https://en.wikipedia.org/wiki/Loving_v._Virginia
 
 
 
-But the court 
-
-
-
-
-
-
-...
 
 ...
 
