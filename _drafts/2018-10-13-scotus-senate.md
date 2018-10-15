@@ -13,12 +13,14 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^21]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. By the same token, the Senate is uniquely *ill*-equipped to the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a body of aristocrats is not impartial. 
+As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. By the same token, the Senate is uniquely *ill*-equipped to the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a body of aristocrats is not impartial. The Senate filibuster is [well known](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) for blocking civil rights legislation passed by the House. 
 
 
-The Senate filibuster has historically been an obstacle to passing civil rights legislation. 
 
-But that can only slow down the House.
+
+
+
+
 
 More important is the appointment of judges to the federal courts, completely unchecked by the House. 
 
@@ -26,18 +28,7 @@ And yet, by controlling the appointment of federal judges, the Senate wields eno
 
 
 
-
-
-As one might expect, the Senate's track record on civil rights is appalling:
-
-- During Jim Crow, local authorities would often turn a blind eye to the lynching of African Americans. The House passed a [bill](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill) to make lynching a federal crime, but it was killed in the Senate. 
-- In 1946, the House passed a bill abolishing the poll tax for federal elections. It was [halted in the Senate](https://library.cqpress.com/cqalmanac/document.php?id=cqal46-1411331). Poll taxes continued to disenfranchise poor (especially Black) voters in the South until the [24th Amendment](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution) eighteen years later.
-- The longest filibuster in Senate history was delivered by Sen Thurmond in opposition to the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957). He spoke for over 24 hours straight. 
-- The Civil Rights Act of 1964, which prohibits racial segregation in schools, education, and voting, was filibustered for two months in the Senate. The filibuster was ultimately broken by weakening the bill. 
-
-The Senate filibuster has historically been an obstacle to civil rights legislation. 
-
-Senate is responsible for confirming federal judges, includeing the justices of the Supreme Court. 
+Senate is responsible for confirming federal judges, including the justices of the Supreme Court. 
 
 Judicial nominations have always been handled by the Senate, but the judiciary has *not* always been a vehicle of civil rights. 
 
@@ -191,10 +182,10 @@ At face value, Cooke's framing seems reasonable. It sounds a lot like the EU, wh
 
 The answer is damning:
 
-- During Jim Crow, local authorities would often turn a blind eye to the lynching of African Americans. The House passed a [bill](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill) to make lynching a federal crime, but it was filibustered to death in the Senate.
-- In 1946, the House passed a bill abolishing the poll tax for federal elections. It was [halted in the Senate](https://library.cqpress.com/cqalmanac/document.php?id=cqal46-1411331) via filibuster. Poll taxes continued to disenfranchise poor (especially Black) voters in the South until the [24th Amendment](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution), eighteen years later.
-- Sen Thurmond spoke for over 24 hours straight to filibuster the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957). This is the longest filibuster in US history.
-- Southern senators filibustered the Civil Rights Act of 1964 for two months. The filibuster was ultimately broken by weakening the bill.
+- During Jim Crow, local authorities would often turn a blind eye to the lynching of African Americans. The House passed a [bill](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill) to make lynching a federal crime, but it was killed in the Senate. 
+- In 1946, the House passed a bill abolishing the poll tax for federal elections. It was [halted in the Senate](https://library.cqpress.com/cqalmanac/document.php?id=cqal46-1411331). Poll taxes continued to disenfranchise poor (especially Black) voters in the South until the [24th Amendment](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution) eighteen years later.
+- The longest filibuster in Senate history was delivered by Sen Thurmond in opposition to the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957). He spoke for over 24 hours straight. 
+- The Civil Rights Act of 1964, which prohibits racial segregation in schools, education, and voting, was filibustered for two months in the Senate. The filibuster was ultimately broken by weakening the bill. 
 
 
 -----
