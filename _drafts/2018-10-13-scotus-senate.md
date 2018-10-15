@@ -20,11 +20,29 @@ As a stable body of professional politicians, the Senate is well-equipped to nav
 - The longest filibuster in Senate history was delivered by Sen Thurmond in opposition to the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957). He spoke for over 24 hours straight. 
 - The Civil Rights Act of 1964, which prohibits racial segregation in schools, education, and voting, was filibustered for two months in the Senate. The filibuster was ultimately broken by weakening the bill. 
 
-In the framers' time, the courts were not a vehicle of civil rights. Slavery was a divisive issue, but it was addressed through the lens of states rights rather than individual rights[^22]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. By the end of the 19th Century, the Supreme Court had become deeply involved[^23] in civil rights.
+At the time the Constitution was written, the judiciary was not a vehicle for civil rights. Slavery was a divisive issue, but it was addressed by Congress through the lens of states rights rather than individual rights[^22]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. 
+
+The Supreme Court has been deeply involved in civil rights since the late 19th century[^23]. 
+
+
+By the end of the 19th century, the Supreme Court was deeply involved in civil rights. 
+
+
+
+
+
 
 [^22]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) os 1820 and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) of 1854. 
 
-[^23]: Prominent early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896). 
+[^23]: Early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896). 
+
+[Shelby County v Holder](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) (2013)
+
+
+
+But the court 
+
+
 
 
 
@@ -36,7 +54,7 @@ In the framers' time, the courts were not a vehicle of civil rights. Slavery was
 
 
 
-- [Civil Rights Act of 1875](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1875) -- SCOTUS struck it down
+- [Civil Rights Act of 1875](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1875) -- SCOTUS struck it down. constitutionally iffy without the 14th amendment?
 - "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions" [Federalist #63](http://www.constitution.org/fed/federa63.htm)
 - 
 
@@ -51,7 +69,7 @@ In the framers' time, the courts were not a vehicle of civil rights. Slavery was
 The following are generally agreed to be the worst SCOTUS[^1] decisions of all time:
 
 - In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), SCOTUS voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court. This decision disenfranchised the [half-million](https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/free-blacks-1619-1860) free Blacks living in the US at the time.
-- In [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation. Millions of African Americans were adversely affected throughout the 20th Century.
+- In [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation. Millions of African Americans were adversely affected throughout the 20th century.
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous"[^2]. State laws resulted in the surgical sterilization of [over 60k Americans](https://www.cato.org/publications/commentary/united-states-once-sterilized-tens-thousands-heres-how-supreme-court-allowed) Americans.
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
