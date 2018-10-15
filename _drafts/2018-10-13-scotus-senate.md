@@ -56,26 +56,37 @@ The Senate represents the elite. It's nonsense to expect the Senate to also staf
 
 ---
 
+America's framers created the House of Representatives to give the people a voice in the federal government. Seats in the House are proportional to population, and representatives are elected frequently, to ensure accountability to the electorate. That said, the framers didn't show much confidence in the ability of the House to govern responsibly. Madison wrote in the Federalist Papers [#62](http://www.constitution.org/fed/federa62.htm) and [#63](http://www.constitution.org/fed/federa63.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
+
+The Senate is presented as a stabilizing body
 
 
-America's framers gave the people a voice in the federal government via the House of Representatives. Representation in the House is proportional to population, and representatives are elected frequently, to ensure accountability to the electorate.
+indirect elections
+infrequent elections
+professional politicians
+wealthy (quote)
 
-That said, the framers didn't show much confidence in the ability of the House to govern responsibly. Madison wrote in the Federalist Papers [#62](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-62) and [#63](https://www.congress.gov/resources/display/content/The+Federalist+Papers#TheFederalistPapers-63) that such a body would be unstable due to the electorate's "sudden and violent passions."
-
-
-
-
-
-
-"such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions"
-
-
+, insulated from the voters by indirect[^20] and infrequent elections. Senators themselves were to be professional politicians
 
 
 
-, Madison shows little faith in the House's ability to govern responsibly. Due to its short terms and direct election by the people, he argues that the government could become unstable due to the electorate's "sudden and violent passions." The Senate is presented as a stabilizing force, insulated from the voters by indirect[^3] and infrequent elections. Senators themselves were to be elite individuals, "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)."
+elite individuals, "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)."
 
 
+
+
+
+
+
+Due to their wealth, small number, and long terms, there were concerns from the start that senators would come to resemble an aristocracy
+
+
+
+
+
+
+
+"such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions."
 
 
 ---
