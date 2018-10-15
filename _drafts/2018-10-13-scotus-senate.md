@@ -22,7 +22,11 @@ As a stable body of professional politicians, the Senate is well-equipped to nav
 
 At the time the Constitution was written, the judiciary was not a vehicle for civil rights. Slavery was a divisive issue, but it was addressed by Congress through the lens of states rights rather than individual rights[^22]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. 
 
-The Supreme Court has been deeply involved in civil rights since the late 19th century[^23]. 
+The Supreme Court has been deeply involved in civil rights since the late 19th century[^23].
+
+Hasn't always been on the right side of history
+
+In fact, all four of the (generally acknowledged) worst SCOTUS decisions of all time relate to civil rights. And in each case, the justices erred on the side of the powerful
 
 
 By the end of the 19th century, the Supreme Court was deeply involved in civil rights. 
