@@ -5,6 +5,63 @@ image: "/assets/images/votes-seats-thumb.png"
 description: "The Senate is America's aristocracy. The judges they choose will always undervalue civil rights."
 ---
 
+
+
+
+
+America's framers created the House of Representatives to give the people a voice in the federal government. Seats in the House are proportional to population, and representatives are elected frequently, to ensure accountability to the electorate. That said, the framers didn't show much confidence in the ability of the House to govern responsibly. Madison wrote in the Federalist Papers [#62](http://www.constitution.org/fed/federa62.htm) and [#63](http://www.constitution.org/fed/federa63.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
+
+The Senate was presented as a stabilizing force. Unlike representatives, senators we're to be professional politicians, insulated from the electorate by indirect[^20] and infrequent elections. More than one framer considered that the Senate might resemble a hereditary aristocracy. Dickinson suggested that senators be "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)." Madison wrote in Federalist #63 that, because the Senate couldn't enact laws on its own, at least it would not become a *tyrannical* aristocracy.
+
+[^20]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
+
+Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's is half as diverse and twice as wealthy[^21]. The average post-WWII senator serves for [12 years](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html). Five currently-serving senators have been in office for over [30 years](https://en.wikipedia.org/wiki/Seniority_in_the_United_States_Senate).
+
+[^21]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
+
+As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out by America's framers. By the same token, the Senate is uniquely unsuited to the consideration of civil rights. When judging the complaints of the powerless against the abuses of the powerful, a body of aristocrats cannot be impartial. The Senate's track record on civil rights is predictably appaling:
+
+- During Jim Crow, local authorities would often turn a blind eye to the lynching of African Americans. The House passed a [bill](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill) to make lynching a federal crime, but it was killed in the Senate. 
+- In 1946, the House passed a bill abolishing the poll tax for federal elections. It was [halted in the Senate](https://library.cqpress.com/cqalmanac/document.php?id=cqal46-1411331). Poll taxes continued to disenfranchise poor (especially Black) voters in the South until the [24th Amendment](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution) eighteen years later.
+- Sen Thurmond spoke for over 24 hours straight to filibuster the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957). This is the longest filibuster in US history.
+- The Civil Rights Act of 1964, which prohibits racial segregation in schools, education, and voting, was filibustered for two months in the Senate. The filibuster was ultimately broken by weakening the bill. 
+
+In the framers' time, the courts were not a vehicle of civil rights. Slavery was a divisive issue, but it was addressed through the lens of states rights rather than individual rights[^22]. 
+
+...
+
+
+The Civil War and [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) turned that understanding on its head. 
+
+...
+
+
+[^22]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) os 1820 and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) of 1854. 
+
+
+
+
+was passed in 1854 to soothe the tensions between slave states and free states. 
+
+The first big change was Marbury v Madison (1803), which laid out federal courts' ability to strike down unconstitutional executive orders and acts of Congress. Then, the Civil War and reconstruction amendments established the responsibility of the federal government to secure the civil rights of Americans, even if their state would rather see them disenfranchised. By the end of the 19th Century, the SCOTUS had become deeply involved in civil rights 
+
+
+
+
+
+
+- [Civil Rights Act of 1875](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1875) -- SCOTUS struck it down
+- "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions" [Federalist #63](http://www.constitution.org/fed/federa63.htm)
+- 
+
+
+
+---
+
+---
+
+---
+
 The following are generally agreed to be the worst SCOTUS[^1] decisions of all time:
 
 - In [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), SCOTUS voted 7-2 that persons of African descent cannot be US citizens, and thus have no standing to sue in federal court. This decision disenfranchised the [half-million](https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/free-blacks-1619-1860) free Blacks living in the US at the time.
@@ -55,38 +112,6 @@ The Senate represents the elite. It's nonsense to expect the Senate to also staf
 
 
 ---
-
-America's framers created the House of Representatives to give the people a voice in the federal government. Seats in the House are proportional to population, and representatives are elected frequently, to ensure accountability to the electorate. That said, the framers didn't show much confidence in the ability of the House to govern responsibly. Madison wrote in the Federalist Papers [#62](http://www.constitution.org/fed/federa62.htm) and [#63](http://www.constitution.org/fed/federa63.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
-
-The Senate is presented as a stabilizing body
-
-
-indirect elections
-infrequent elections
-professional politicians
-wealthy (quote)
-
-, insulated from the voters by indirect[^20] and infrequent elections. Senators themselves were to be professional politicians
-
-
-
-elite individuals, "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)."
-
-
-
-
-
-
-
-Due to their wealth, small number, and long terms, there were concerns from the start that senators would come to resemble an aristocracy
-
-
-
-
-
-
-
-"such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions."
 
 
 ---
