@@ -31,7 +31,15 @@ In the framers' time, the courts were not a vehicle of civil rights. Slavery was
 ...
 
 
-The Civil War and [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) turned that understanding on its head. 
+
+
+
+The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. 
+
+
+
+
+
 
 ...
 
