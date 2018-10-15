@@ -13,18 +13,17 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^21]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. By the same token, the Senate is uniquely ill-equipped to the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a body of aristocrats is not impartial. 
-
-
-
-
-
-get judicial nominations in there
-
-
+As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. By the same token, the Senate is uniquely *ill*-equipped to the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a body of aristocrats is not impartial. 
 
 
 The Senate filibuster has historically been an obstacle to passing civil rights legislation. 
+
+But that can only slow down the House.
+
+More important is the appointment of judges to the federal courts, completely unchecked by the House. 
+
+And yet, by controlling the appointment of federal judges, the Senate wields enormous power over civil rights, completely unchecked by the House. 
+
 
 
 
