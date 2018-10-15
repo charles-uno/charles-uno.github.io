@@ -11,11 +11,17 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^20]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
 
-Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^21]. 
+Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^21]. The average post-WWII senator serves [12 years](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html). Such a stable and highly-enfranchised body is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. But, by the same token, the Senate is uniquely *ill*-equipped for the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a room full of aristocrats is not impartial. 
 
 [^21]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-As a stable body of professional politicians, the Senate is well-equipped to navigate conflicts between states, or ratify international treaties. These roles were laid out in America's founding documents. By the same token, the Senate is uniquely *ill*-equipped to the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a body of aristocrats is not impartial. The Senate filibuster is [well known](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) for blocking civil rights legislation passed by the House. 
+The Senate filibuster is [well known](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) for blocking civil rights legislation passed by the House. Perhaps more importantly, the Senate also influences civil rights via judicial appointments. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate -- completely unchecked by the House. 
+
+When the founders entrusted the Senate with judicial appointments, they couldn't have anticipated how important courts would be in the advancement of civil rights. Slavery was a divisive issue at the time, but it was addressed by Congress through the lens of states rights rather than individual rights[^22]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. 
+
+[^22]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) os 1820 and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) of 1854. 
+
+The courts have been deeply involved in civil rights for well over a century[^23]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. 
 
 
 
@@ -24,23 +30,9 @@ As a stable body of professional politicians, the Senate is well-equipped to nav
 
 
 
-More important is the appointment of judges to the federal courts, completely unchecked by the House. 
-
-And yet, by controlling the appointment of federal judges, the Senate wields enormous power over civil rights, completely unchecked by the House. 
+The court has been deeply involved in civil rights since the late 19th century[^23], with landmark cases like Brown v Board and Loving v Virginia just as important as any act of Congress. 
 
 
-
-Senate is responsible for confirming federal judges, including the justices of the Supreme Court. 
-
-Judicial nominations have always been handled by the Senate, but the judiciary has *not* always been a vehicle of civil rights. 
-
-
-
-
-At the time the Constitution was written, the judiciary was not a vehicle for civil rights. 
-
-
-Slavery was a divisive issue, but it was addressed by Congress through the lens of states rights rather than individual rights[^22]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. 
 
 The Supreme Court has been deeply involved in civil rights since the late 19th century[^23].
 
@@ -56,11 +48,11 @@ By the end of the 19th century, the Supreme Court was deeply involved in civil r
 
 
 
-[^22]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) os 1820 and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) of 1854. 
-
 [^23]: Early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896). 
 
 [Shelby County v Holder](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) (2013)
+
+https://en.wikipedia.org/wiki/Loving_v._Virginia
 
 
 
@@ -81,7 +73,7 @@ But the court
 - [Civil Rights Act of 1875](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1875) -- SCOTUS struck it down. constitutionally iffy without the 14th amendment?
 - "such an institution may be sometimes necessary as a defense to the people against their own temporary errors and delusions" [Federalist #63](http://www.constitution.org/fed/federa63.htm)
 ["Filibusters were particularly useful to Southern senators who sought to block civil rights legislation"](- https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm)
-
+- Senator average term lengths. https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html
 
 
 ---
