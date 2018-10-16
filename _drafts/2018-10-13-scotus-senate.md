@@ -23,7 +23,7 @@ Historically, the Senate's bias against civil rights has been clear. The Senate 
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. The House passed a bill making lynching a federal crime -- local authorities often turned a blind eye -- but it was halted in the Senate. 
 
-Over time, the Supreme Court's bias -- inherited from the Senate -- has become clear. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, rather than defending the rights of the disenfranchised:
+Over time, the Supreme Court's bias -- inherited from the Senate -- has become clear. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
 
 [^4]: "Worst" is subjective, but there seems to be widespread agreement that these four are at the top of the list.
 
@@ -31,6 +31,22 @@ Over time, the Supreme Court's bias -- inherited from the Senate -- has become c
 - In [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896), they voted 7-1 to endorse the doctrine of "separate but equal," opening the door to racially segregated housing, schooling, and transportation. Millions of African Americans were adversely affected throughout the 20th century.
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous". State laws resulted in the surgical sterilization of [over 60k Americans](https://www.cato.org/publications/commentary/united-states-once-sterilized-tens-thousands-heres-how-supreme-court-allowed) Americans, and disproportionately women of color.
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
+
+...
+
+...
+
+In hindsight, it feels like the courts have always been involved in civil rights, but that's not the case
+
+
+
+
+Courts today are an important vehicle for civil rights
+
+founders couldn't have known that would be the case
+
+
+
 
 
 
