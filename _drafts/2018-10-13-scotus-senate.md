@@ -11,6 +11,10 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^1]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
 
+
+> Feels like a jump. Do we want to come back later to "this is all still true"?
+
+
 Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^2]. Such a highly-enfranchised body is well-equipped to navigate conflicts between states, or ratify international treaties; voters (and their representatives in the House) are unlikely to have expertise in matters so far removed from day-to-day life. But, by the same token, the Senate is uniquely *ill*-equipped for the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a room full of aristocrats is not impartial.
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
