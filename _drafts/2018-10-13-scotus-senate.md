@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "SCOTUS has Outgrown the Senate"
-image: "/assets/images/votes-seats-thumb.png"
+image: "/assets/images/court-thumb.png"
 description: "The Senate is America's aristocracy. The judges they choose will always undervalue civil rights."
 ---
 
-America's founders created the House of Representatives to give the people a voice in the federal government. Seats in the House are allocated proportionally, and representatives are elected frequently to ensure accountability to the electorate. That said, the founders showed little confidence in the House's ability to govern responsibly. Madison wrote in the Federalist [#62](http://www.constitution.org/fed/federa62.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
+America's founders created the House of Representatives to give the people a voice in the federal government. Seats in the House are allocated proportionally, and representatives are elected frequently to ensure accountability to the electorate. That said, the founders showed little confidence in the House's ability to govern responsibly. Madison wrote in the [Federalist #62](http://www.constitution.org/fed/federa62.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
 
-The Senate was presented as a stabilizing force. Unlike representatives, senators were to be professional politicians, insulated from the electorate by indirect[^1] and infrequent elections. More than one founder considered that the Senate might resemble a hereditary aristocracy. [Dickinson](https://en.wikipedia.org/wiki/John_Dickinson) suggested that senators be "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)." Madison wrote in Federalist [#63](http://www.constitution.org/fed/federa63.htm) that, because the Senate couldn't enact laws on its own, at least it would not become a *tyrannical* aristocracy.
+The Senate was presented as a stabilizing force. Unlike representatives, senators were to be professional politicians, insulated from the electorate by indirect[^1] and infrequent elections. More than one founder considered that the Senate might resemble a hereditary aristocracy. [Dickinson](https://en.wikipedia.org/wiki/John_Dickinson) suggested that senators be "[distinguished for their rank in life and their weight of property](https://en.wikipedia.org/wiki/History_of_the_United_States_Senate#cite_note-3)." Madison wrote in [Federalist #63](http://www.constitution.org/fed/federa63.htm) that, because the Senate couldn't enact laws on its own, at least it would not become a *tyrannical* aristocracy.
 
 [^1]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
 
@@ -21,7 +21,7 @@ Two centuries later, the Senate still has an aristocratic feel to it. Compared t
 
 Historically, the Senate's bias against civil rights has been clear. The Senate filibuster was [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) used to defend [lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] and [poll taxes](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). The [longest filibuster in Senate history](https://en.wikipedia.org/wiki/Strom_Thurmond) was made in opposition to the Civil Rights Act of 1957. However, even worse than the filibuster is the bias the Senate imparts on the judiciary. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
 
-[^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate. 
+[^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
 Over time, the Supreme Court's bias -- inherited from the Senate -- has become clear. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
 
@@ -32,26 +32,18 @@ Over time, the Supreme Court's bias -- inherited from the Senate -- has become c
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous". State laws resulted in the surgical sterilization of [over 60k Americans](https://www.cato.org/publications/commentary/united-states-once-sterilized-tens-thousands-heres-how-supreme-court-allowed) Americans, and disproportionately women of color.
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
+It's tempting to blame the nation's founders. They defined the Senate, after all, and tasked it with staffing the courts.
+
+But, in the founders' time, the courts weren't a vehicle for civil rights.
+
+
 ...
-
-...
-
-In hindsight, it feels like the courts have always been involved in civil rights, but that's not the case
-
-
-
 
 Courts today are an important vehicle for civil rights
 
 founders couldn't have known that would be the case
 
-
-
-
-
-
-
-
+...
 
 When the founders entrusted the Senate with judicial appointments, they couldn't have anticipated how important courts would be in the advancement of civil rights. Slavery was a divisive issue at the time, but it was addressed by Congress through the lens of states rights rather than individual rights[^5]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress.
 
@@ -60,7 +52,7 @@ When the founders entrusted the Senate with judicial appointments, they couldn't
 
 [^5]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) (1820) and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) (1854).
 
-The courts have been deeply involved in civil rights for well over a century[^6]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. But, often, courts have found themselves on the wrong side of history. 
+The courts have been deeply involved in civil rights for well over a century[^6]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. But, often, courts have found themselves on the wrong side of history.
 
 
 
