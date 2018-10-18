@@ -11,15 +11,19 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^1]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
 
-
-> Feels like a jump. Do we want to come back later to "this is all still true"?
-
-
 Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^2]. Such a highly-enfranchised body is well-equipped to navigate conflicts between states, or ratify international treaties; voters (and their representatives in the House) are unlikely to have expertise in matters so far removed from day-to-day life. But, by the same token, the Senate is uniquely *ill*-equipped for the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a room full of aristocrats is not impartial.
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-Historically, the Senate's bias against civil rights has been clear. The Senate filibuster was [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) used to defend [lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] and [poll taxes](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). The [longest filibuster in Senate history](https://en.wikipedia.org/wiki/Strom_Thurmond) was made in opposition to the Civil Rights Act of 1957. However, even worse than the filibuster is the bias the Senate imparts on the judiciary. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
+The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, the House has passed a reform only to see it halted in the Senate. Because of the Senate, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the
+[Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in Senate history.
+
+...
+
+...
+
+
+even worse than the filibuster is the bias the Senate imparts on the judiciary. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
