@@ -15,6 +15,12 @@ Two centuries later, the Senate still has an aristocratic feel to it. Compared t
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
+
+
+> [Average age](https://www.quorum.us/data-driven-insights/the-115th-congress-is-among-the-oldest-in-history/175/) in the House is 57, Senate is 61. 
+
+
+
 The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. The Senate held out for two decades in defense of the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. But -- as bad as the filibuster has been for civil rights -- the Senate's power over the judiciary is worse. A filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/index.html), and can't touch existing laws. Federal judges, on the other hand, have the power to reinterpret and strike down laws, even [decades later](https://en.wikipedia.org/wiki/Shelby_County_v._Holder). And federal judges, including the justices of the Supreme Court, are appointed by the Senate. The House has no input.
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
