@@ -15,7 +15,25 @@ Two centuries later, the Senate still has an aristocratic feel to it. Compared t
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, civil rights legislation passed the House only to be halted in the Senate. Because of the filibuster, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in US history. 
+The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. The Senate held out for two decades in defense of the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. But -- as bad as the filibuster has been for civil rights -- the Senate's power over the judiciary is worse. A filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/index.html), and can't touch existing laws. Federal judges, on the other hand, have the power to reinterpret and strike down laws -- even [decades later](https://en.wikipedia.org/wiki/Shelby_County_v._Holder). And each federal judge is appointed by the Senate, without input from the House. 
+
+[^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
+
+
+
+
+
+
+
+
+...
+
+...
+
+
+
+The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, civil rights legislation passed the House only to be halted in the Senate. Because of the filibuster, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^30] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in US history. 
+
 
 That said, a filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/index.html), and can't touch legislation that's already been signed into law. As bad as the filibuster has been for civil rights, the Senate's power over the federal courts is far worse. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate. The House has no input. These judges then have the power to reinterpret and strike down laws -- even [decades later](https://en.wikipedia.org/wiki/Shelby_County_v._Holder). 
 
@@ -28,9 +46,6 @@ That said, a filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/z
 
 
 
- These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
-
-
 
 
 
@@ -41,8 +56,6 @@ That said, a filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/z
 ...
 
 ...All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
-
-[^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
 Over time, the Supreme Court's bias -- inherited from the Senate -- has become clear. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
 
