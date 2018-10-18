@@ -15,17 +15,32 @@ Two centuries later, the Senate still has an aristocratic feel to it. Compared t
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
-The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, the House has passed a reform only to see it halted in the Senate. Because of the Senate, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the
-[Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in Senate history. But, as upsetting as these examples are, the power of a filibuster is narrow. It can be [broken](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), and it can't touch legislation that's been signed into law.
+The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, civil rights legislation passed the House only to be halted in the Senate. Because of the filibuster, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the [Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in US history. 
+
+That said, a filibuster can be [broken](https://www.cnn.com/2014/05/12/opinion/zelizer-the-case-for-earmarks/index.html), and can't touch legislation that's already been signed into law. As bad as the filibuster has been for civil rights, the Senate's power over the federal courts is far worse. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate. The House has no input. These judges then have the power to reinterpret and strike down laws -- even [decades later](https://en.wikipedia.org/wiki/Shelby_County_v._Holder). 
+
+
+
+
+...
+
+
+
+
+
+ These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
+
+
+
+
+
+
 
 ...
 
 ...
 
-...
-
-
-even worse than the filibuster is the bias the Senate imparts on the judiciary. All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
+...All federal judges, including the justices of the Supreme Court, are confirmed by the Senate, with no input from the House. These judges -- hand-picked by the Senate aristocracy -- are the final arbiters of what constitutes disenfranchisement, and whether [or not](https://en.wikipedia.org/wiki/Shelby_County_v._Holder) protections are appropriate.
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
@@ -59,6 +74,8 @@ When the founders entrusted the Senate with judicial appointments, they couldn't
 [^5]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) (1820) and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) (1854).
 
 The courts have been deeply involved in civil rights for well over a century[^6]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. But, often, courts have found themselves on the wrong side of history.
+
+
 
 
 
