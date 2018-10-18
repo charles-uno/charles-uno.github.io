@@ -16,7 +16,9 @@ Two centuries later, the Senate still has an aristocratic feel to it. Compared t
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
 The Senate's bias against civil rights is [famously](https://www.senate.gov/artandhistory/history/common/briefing/Filibuster_Cloture.htm) evident in the history of the filibuster. Time and time again, the House has passed a reform only to see it halted in the Senate. Because of the Senate, it took two decades to abolish the [poll tax](https://en.wikipedia.org/wiki/Twenty-fourth_Amendment_to_the_United_States_Constitution). [Anti-lynching](https://en.wikipedia.org/wiki/Dyer_Anti-Lynching_Bill)[^3] legislation was blocked completely. Thurmond spoke for over 24 hours straight against the
-[Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in Senate history.
+[Civil Rights Act of 1957](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1957), the longest single-person filibuster in Senate history. But, as upsetting as these examples are, the power of a filibuster is narrow. It can be [broken](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), and it can't touch legislation that's been signed into law.
+
+...
 
 ...
 
