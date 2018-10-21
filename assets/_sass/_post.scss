@@ -87,6 +87,25 @@ article {
     }
 
 
+    .pool {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+//        text-align: justify;
+//        .floater {
+//	       display: inline-block;
+//	       vertical-align: top;
+        	/* IE fix. */
+//        	*display: inline;
+//        	zoom: 1;
+//        }
+    }
+//    .pool:after {
+//    	content: "";
+//    	width: 100%;
+//    	display: inline-block;
+//    }
+
 
 
 
