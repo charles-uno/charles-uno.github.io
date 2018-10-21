@@ -67,6 +67,9 @@ function initShuffledTitles() {
     for (var i=0; i < shuffledPosts.length; i++) {
         shuffledTitles.push(shuffledPosts[i].title);
     }
+
+    // TODO -- Redirect pages should be excluded from the shuffle.
+
     // Let's have the shuffled order persist.
     sessionStorage.setItem('order', JSON.stringify(shuffledTitles));
 }
