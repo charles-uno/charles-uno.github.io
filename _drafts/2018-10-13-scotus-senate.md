@@ -19,13 +19,7 @@ The Senate's bias against civil rights is [famously](https://www.senate.gov/arta
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
-
-...
-
-
-
-
-Over time, the Supreme Court's bias -- inherited from the Senate -- has become clear. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
+Courts aren't universally opposed to civil rights, of course. Landmark rulings have gone both ways. But, on balance, federal judges (like the Senate that appointed them) are inclined to side with the powerful. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
 
 [^4]: "Worst" is subjective, but there seems to be widespread agreement that these four are at the top of the list.
 
@@ -34,6 +28,10 @@ Over time, the Supreme Court's bias -- inherited from the Senate -- has become c
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous". State laws resulted in the surgical sterilization of [over 60k Americans](https://www.cato.org/publications/commentary/united-states-once-sterilized-tens-thousands-heres-how-supreme-court-allowed) Americans, and disproportionately women of color.
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
+
+
+
+...
 
 ...
 
@@ -68,6 +66,9 @@ The courts have been deeply involved in civil rights for well over a century[^6]
 [^6]: Early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896).
 
 
+
+
+2004 article about abolishing the Senate: https://harpers.org/archive/2004/05/what-democracy-the-case-for-abolishing-the-united-states-senate/2/
 
 > [Average age](https://www.quorum.us/data-driven-insights/the-115th-congress-is-among-the-oldest-in-history/175/) in the House is 57, Senate is 61.
 
