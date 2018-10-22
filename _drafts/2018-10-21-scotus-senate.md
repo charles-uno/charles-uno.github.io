@@ -37,3 +37,4 @@ That is, the Senate's disproportionate influence on civil rights, exercised thro
 <!--
 2004 article about abolishing the Senate: https://harpers.org/archive/2004/05/what-democracy-the-case-for-abolishing-the-united-states-senate/2/
 -->
+
