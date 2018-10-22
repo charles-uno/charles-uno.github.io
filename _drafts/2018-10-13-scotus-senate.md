@@ -11,7 +11,7 @@ The Senate was presented as a stabilizing force. Unlike representatives, senator
 
 [^1]: Senators have been directly elected since the 17th Amendment in 1913. They are still insulated from electorate by six-year terms. In fact, senators now serve [longer](https://www.ifweassume.com/2015/01/how-long-do-senators-actually-serve.html) on average than they did before the 17th Amendment.
 
-Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^2]. Such a highly-enfranchised body is well-equipped to navigate conflicts between states, or ratify international treaties; voters (and their representatives in the House) are unlikely to have expertise in matters so far removed from day-to-day life. But, by the same token, the Senate is uniquely *ill*-equipped for the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a room full of aristocrats is not impartial.
+Two centuries later, the Senate still has an aristocratic feel to it. Compared to the House, it's half as diverse and twice as wealthy[^2]. Such a highly-enfranchised body is well-equipped to navigate conflicts between states or ratify international treaties; voters (and their representatives in the House) are unlikely to have expertise in matters so far removed from day-to-day life. But, by the same token, the Senate is uniquely *ill*-equipped for the consideration of civil rights. When evaluating the complaints of the powerless against the abuses of the powerful, a room full of aristocrats is not impartial.
 
 [^2]: The Senate is [10% nonwhite](http://www.pewresearch.org/fact-tank/2017/01/24/115th-congress-sets-new-high-for-racial-ethnic-diversity/), compared to 22% for the House and [38%](https://en.wikipedia.org/wiki/Demography_of_the_United_States) for the US overall. The median senator's net worth is [about $1M](https://www.rollcall.com/news/hawkings/congress-richer-ever-mostly-top), compared to $400k for the median representative in the House.
 
@@ -19,7 +19,7 @@ The Senate's bias against civil rights is [famously](https://www.senate.gov/arta
 
 [^3]: During Jim Crow, brutal killings were used to intimidate African Americans from voting. Local authorities turned a blind eye. The House passed a bill making lynching a federal crime, but it was halted in the Senate.
 
-Courts aren't universally opposed to civil rights, of course. Landmark rulings have gone both ways. But, on balance, federal judges (like the Senate that appointed them) are inclined to side with the powerful. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
+Courts aren't universally opposed to civil rights, of course. Landmark rulings have gone both ways. But, on balance, federal judges (like the Senate that appoints them) are inclined to side with the powerful. All four of the worst[^4] Supreme Court decisions in history relate to civil rights. And in each case, the court erred on the side of the powerful, endorsing horrific abuse of the disenfranchised:
 
 [^4]: "Worst" is subjective, but there seems to be widespread agreement that these four are at the top of the list.
 
@@ -28,48 +28,12 @@ Courts aren't universally opposed to civil rights, of course. Landmark rulings h
 - In [Buck v Bell](https://en.wikipedia.org/wiki/Buck_v._Bell) (1927), SCOTUS voted 8-1 to allow forced sterilization of the "feeble minded" and "promiscuous". State laws resulted in the surgical sterilization of [over 60k Americans](https://www.cato.org/publications/commentary/united-states-once-sterilized-tens-thousands-heres-how-supreme-court-allowed) Americans, and disproportionately women of color.
 - In [Korematsu v US](https://en.wikipedia.org/wiki/Korematsu_v._United_States) (1944), SCOTUS voted 6-3 to allow FDR's incarceration of Japanese Americans, including US citizens, for the duration of WWII. Over 100k people were forcibly relocated, robbed of their homes and businesses.
 
-
-
-
-...
-
-...
-
-
-It's tempting to blame the nation's founders. They defined the Senate, after all, and tasked it with staffing the courts.
-
-But, in the founders' time, the courts weren't a vehicle for civil rights.
-
-
-...
-
-Courts today are an important vehicle for civil rights
-
-founders couldn't have known that would be the case
-
-...
-
-When the founders entrusted the Senate with judicial appointments, they couldn't have anticipated how important courts would be in the advancement of civil rights. Slavery was a divisive issue at the time, but it was addressed by Congress through the lens of states rights rather than individual rights[^5]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress.
-
-
-
+It's tempting to blame America's founders for giving a chamber of aristocrats so much influence over the rights of the powerless -- but that's not quite fair. When the founders entrusted the Senate with judicial appointments, they couldn't have anticipated how important courts would be in the advancement of civil rights. Slavery was a divisive issue at the time, but it was addressed by Congress through the lens of states rights rather than individual rights[^5]. The [Reconstruction Amendments](https://en.wikipedia.org/wiki/Reconstruction_Amendments) following the Civil War turned that paradigm on its head. They established the federal government's constitutional responsibility to ensure the rights of its citizens, even if their state would rather see them disenfranchised. Along with the principle of judicial review, as established in [Marbury v Madison](https://en.wikipedia.org/wiki/Marbury_v._Madison) (1803), these amendments demanded that federal courts strike down discriminatory executive orders and acts of Congress. Since then, landmark rulings like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) have carried just as much weight as any act of Congress.
 
 [^5]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) (1820) and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) (1854).
 
-The courts have been deeply involved in civil rights for well over a century[^6]. Landmark decisions like [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896) and [Brown v Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) (1954) carry just as much weight as any act of Congress. But, often, courts have found themselves on the wrong side of history.
+That is, the Senate's disproportionate influence on civil rights, exercised through the courts, is an unhappy accident of history. Elites in the Senate are well-suited to consider disputes between businesses, states, and nations -- and to select judges to do the same. But the Constitution now demands judges concern themselves with discrimination and disenfranchisement as well. As America's aristocracy, the Senate undervalues the perspective of the powerless. The judgments of its justices are similarly skewed.
 
-
-
-
-
-
-[^6]: Early civil rights cases heard by SCOTUS include [Dred Scott v Sandford](https://en.wikipedia.org/wiki/Dred_Scott_v._Sandford) (1857), [Strauder v West Virginia](https://en.wikipedia.org/wiki/Strauder_v._West_Virginia) (1880), the [Civil Rights Cases](https://en.wikipedia.org/wiki/Civil_Rights_Cases) (1883), and [Plessy v Ferguson](https://en.wikipedia.org/wiki/Plessy_v._Ferguson) (1896).
-
-
-
-
+<!--
 2004 article about abolishing the Senate: https://harpers.org/archive/2004/05/what-democracy-the-case-for-abolishing-the-united-states-senate/2/
-
-> [Average age](https://www.quorum.us/data-driven-insights/the-115th-congress-is-among-the-oldest-in-history/175/) in the House is 57, Senate is 61.
-
-> Need to wrap this up...
+-->
