@@ -4,9 +4,13 @@ layout: default
 
 <header>
     <span class="post-name">
-        {{ page.title }}
+        {% if page.displaytitle %}
+            {{ page.displaytitle }}
+        {% else %}
+            {{ page.title }}
+        {% endif %}
     </span>
-    {% if page.date %}
+    {% if page.date and page.showdate %}
         <span class="post-date">
             {% if page.updated %}
                 <span class="nowrap">Published {{ page.date | date: "%F" }} / Updated {{ page.updated | date: "%F" }}</span>
