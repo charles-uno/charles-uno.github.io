@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deserting the Cerodon"
+title: "Stirring the Sands"
 image: "/assets/images/desert-cerodon-igor-kieryluk-thumb.png"
 description: "How many lands should you play when drafting *Magic: the Gathering* Amonkhet?"
 keywords: magic the gathering, mtg, booster draft, game design, games, math, combinatorics
