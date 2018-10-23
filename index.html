@@ -26,7 +26,7 @@ Tags:
         {% unless post.hidden %}
             <li class="index-item">
                 <div class="index-wrap">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="index-link">
+                <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                     <div class="index-cell">
                         <span class="index-name">{{ post.title }}</span>
     <!--

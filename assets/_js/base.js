@@ -2,7 +2,7 @@
 
 var posts = [
     {% for post in site.posts %}
-        {% unless post.hidden %}
+        {% unless post.hidden or post.redirect %}
             {
                 "title": "{{ post.title }}",
                 "hash": "{{ post.title | remove: ' ' | strip_newlines | downcase | md5 }}",
@@ -67,9 +67,6 @@ function initShuffledTitles() {
     for (var i=0; i < shuffledPosts.length; i++) {
         shuffledTitles.push(shuffledPosts[i].title);
     }
-
-    // TODO -- Redirect pages should be excluded from the shuffle.
-
     // Let's have the shuffled order persist.
     sessionStorage.setItem('order', JSON.stringify(shuffledTitles));
 }
@@ -94,6 +91,9 @@ function unoMas(title) {
 // ---------------------------------------------------------------------
 
 function findUrlFromTitle(title) {
+
+    console.log(title);
+
     for (var i=0; i < posts.length; i++) {
         if ( posts[i].title == title ) {
             return posts[i].url;
