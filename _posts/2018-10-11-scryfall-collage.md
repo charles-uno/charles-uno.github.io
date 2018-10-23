@@ -3,6 +3,7 @@ layout: post
 title: "Let the Scry Fall"
 image: "/assets/images/mtg-collage-thumb.png"
 description: "Put down the scissors and glue. Today we're making collages in Python!"
+keywords: magic the gathering, mtg, art, JSON, API, python
 ---
 
 Today's project is collages! No scissors and glue, but we've got the next best things: REST APIs and the Python Image Library. Specifically, we'll be accessing card illustrations via the shiny new(ish) [Scryfall API](https://scryfall.com/docs/api), working a bit of magic on them, then stitching them together.
@@ -41,7 +42,7 @@ There have been 587 printings of the card [[Forest]]. The above collage includes
 
 Just because each basic land has been printed over 500 times doesn't mean there are 500 different pieces of art. A handful of pieces appear repeatedly -- particularly in the promotional releases on the right side of the collage above. I set out to remove the duplicates. Turns out that's easier said than done[^2].
 
-[^2]: [As it turns out](https://twitter.com/CubeApril/status/1050476019134676992), Scryfall flags duplicate illustrations via the illustration ID. But that takes all the fun out of it! 
+[^2]: [As it turns out](https://twitter.com/CubeApril/status/1050476019134676992), Scryfall flags duplicate illustrations via the illustration ID. But that takes all the fun out of it!
 
 It's trivial to check if images are pixel-by-pixel *identical*, but that's not the situation here. We're looking at different scans of the same original piece of art. That means slight differences in cropping and exposure, plus perhaps some digital retouching.
 
