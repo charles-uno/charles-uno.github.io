@@ -23,6 +23,26 @@ Tags:
 
 <ul id="index-list">
     {% for post in site.posts %}
+        {% if post.sticky %}
+          {% unless post.hidden %}
+              <li class="index-item">
+                  <div class="index-wrap">
+                  <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
+                      <div class="index-cell">
+                          <span class="index-name">{{ post.title }}</span>
+      <!--
+                          <span class="index-date">{{ post.date | date: "%F" }}</span>
+      -->
+                      </div>
+                  </a>
+                  <img src="{{ post.image }}" class="index-thumb" />
+                  </div>
+              </li>
+          {% endunless %}
+        {% endif %}
+    {% endfor %}
+    {% for post in site.posts %}
+      {% unless post.sticky %}
         {% unless post.hidden %}
             <li class="index-item">
                 <div class="index-wrap">
@@ -37,6 +57,7 @@ Tags:
                 <img src="{{ post.image }}" class="index-thumb" />
                 </div>
             </li>
+          {% endunless %}
         {% endunless %}
     {% endfor %}
 </ul>
