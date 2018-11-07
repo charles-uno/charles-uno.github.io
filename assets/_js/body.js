@@ -21,15 +21,6 @@ for ( var i=0; i < pars.length; i++ ) {
 
 // ---------------------------------------------------------------------
 
-
-
-
-
-
-
-
-// ---------------------------------------------------------------------
-
 // The CSS ::before pseudo-element is not allowed to insert HTML, so
 // let's use some Javascript to insert an <hr> before the div that
 // contains the footnotes.
@@ -50,33 +41,32 @@ function nextPost() {
 // #####################################################################
 
 function filter() {
-    var html = '';
     var input, words;
+    var list_items, list_item;
     input = document.getElementById("index-filter");
     words = input.value.toLowerCase().split(" ");
-    // Rather than re-draw the index, skipping some elements, it may be
-    // better to grab each title, look up the post, then conditionally
-    // set that tile to `display:none`.
+    // Previously, we went through and re-drew only the matching posts
+    // in the index. But that didn't behave well with stickies. Now we
+    // just toggle display on/off for posts that do/don't match.
+    list_items = document.getElementsByClassName("index-item");
     for(var i = 0; i < posts.length; i++) {
         post = posts[i];
-
         if(!post) { continue; }
-        if( !wordsInPost( words, post.words ) ) { continue; }
-
-        html += '<li class="index-item">' +
-            '<div class="index-wrap">' +
-                '<a href="' + post.url + '" class="index-link">' +
-                    '<div class="index-cell">' +
-//                        '<span class="index-date">' + post.date + '</span>' +
-                        '<h2 class="index-name">' + post.title + '</h2>' +
-                    '</div>' +
-                '</a>' +
-                '<img src="' + post.thumbnail + '" class="index-thumb" />' +
-            '</div>' +
-        '</li>';
+        // Find the appropriate list item by checking titles.
+        for (var j=0; j<list_items.length; j++) {
+            if (post.title.toLowerCase() == list_items[j].getElementsByClassName("index-name")[0].innerHTML.toLowerCase()) {
+                list_item = list_items[j];
+                console.log(post.title.toLowerCase());
+            }
+        }
+        // If it matches, make sure it's visible.
+        if( wordsInPost(words, post.words) ) {
+            list_item.style.display = "inline-block";
+        // Otherwise, make sure it's invisible.
+        } else {
+            list_item.style.display = "none";
+        }
     }
-    // If we're not changing anything, skip the flicker.
-    if (html != indexList.innerHTML) { indexList.innerHTML = html; }
 }
 
 // ---------------------------------------------------------------------
