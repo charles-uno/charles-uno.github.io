@@ -5,11 +5,26 @@ image: "/assets/images/javier-allegue-barros-signpost-thumb.png"
 description: ""
 ---
 
-In grad school, I did an internship at [Cray](http://www.cray.com) writing automated tests. It was a good fit, so I stuck with it, and joined Cray full-time as soon as I finished my PhD. The job treated me well, even as Cray hit [rough times](http://www.startribune.com/cray-to-idle-190-workers-about-14-percent-of-its-staff/435452993/). I had a fair amount of freedom to choose what I worked on, a supportive team, and a manager[^4] always challenging me to explore and grow.
+In grad school, I did an internship at [Cray](http://www.cray.com) writing automated tests. It was a good fit, so I stuck with it, and joined Cray full-time as soon as I finished my PhD. The job treated me well, even as Cray hit [rough times](http://www.startribune.com/cray-to-idle-190-workers-about-14-percent-of-its-staff/435452993/). I had a fair amount of freedom to choose what I worked on, a supportive team, and a manager[^4] who challenged me to explore and grow.
 
 [^4]: It's only in hindsight I realize how phenomenal Gina was as a manager. I swear she had my whole career path mapped out in her head. Every time I came to her looking for more, she had something up her sleeve. Mentoring an intern. Rotation in another group. High-profile project. Engaging with a customer site.
 
-I started out writing tests, then moved into test infrastructure. Mainframe administration, tool usage tracking, boot analysis, log scraping -- every few months, there would be a new batch of problems to tackle. 
+Over time, I drifted from *writing* tests into test *infrastructure*: mainframe administration, tool development, log scraping, and miscellaneous automation. 
+
+The push to 
+
+
+The new [SVP of R&D](https://www.hpcwire.com/2017/01/26/stathis-papaefstathiou-takes-rd-reins-cray/) was determined to drag Cray's development practices into the 21st century, particularly with respect to testing. 
+
+
+
+
+
+[Shasta](https://www.hpcwire.com/2018/10/30/cray-unveils-shasta-lands-nersc-9-contract/) (Cray's once-per-decade paradigm shift) was kicking into high gear.
+
+
+
+
 
 
 
