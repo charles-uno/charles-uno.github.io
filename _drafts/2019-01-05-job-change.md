@@ -5,11 +5,30 @@ image: "/assets/images/javier-allegue-barros-signpost-thumb.png"
 description: ""
 ---
 
-In grad school, I ran space physics simulations on supercomputers. That experience was good enough to get me an internship at [Cray](http://www.cray.com) writing automated tests. Up to that point, I had been debating between academia and industry. The internship was a good fit, so I stuck with it; I joined Cray full-time as soon as I finished my PhD.
-
-My job treated me well, even as Cray hit [rough times](http://www.startribune.com/cray-to-idle-190-workers-about-14-percent-of-its-staff/435452993/). I started out writing tests, then moved into test infrastructure. Mainframe administration, boot analysis, log scraping -- every few months, there would be a new batch of problems to tackle. I had a fair amount of freedom to choose what I worked on, a supportive team, and a manager[^4] always challenging me to explore and grow.
+In grad school, I did an internship at [Cray](http://www.cray.com) writing automated tests. It was a good fit, so I stuck with it, and joined Cray full-time as soon as I finished my PhD. The job treated me well, even as Cray hit [rough times](http://www.startribune.com/cray-to-idle-190-workers-about-14-percent-of-its-staff/435452993/). I had a fair amount of freedom to choose what I worked on, a supportive team, and a manager[^4] always challenging me to explore and grow.
 
 [^4]: It's only in hindsight I realize how phenomenal Gina was as a manager. I swear she had my whole career path mapped out in her head. Every time I came to her looking for more, she had something up her sleeve. Mentoring an intern. Rotation in another group. High-profile project. Engaging with a customer site.
+
+I started out writing tests, then moved into test infrastructure. Mainframe administration, tool usage tracking, boot analysis, log scraping -- every few months, there would be a new batch of problems to tackle. 
+
+
+
+
+
+---
+
+---
+
+
+
+
+
+
+
+
+
+
+My job treated me well, even as Cray hit [rough times](http://www.startribune.com/cray-to-idle-190-workers-about-14-percent-of-its-staff/435452993/). I started out writing tests, then moved into test infrastructure. Mainframe administration, boot analysis, log scraping -- every few months, there would be a new batch of problems to tackle. 
 
 Shit hit the fan in mid-2018. Cray's new [SVP of R&D](https://www.hpcwire.com/2017/01/26/stathis-papaefstathiou-takes-rd-reins-cray/) had promised to drag the company kicking and screaming into this century, and the test organization in particular found itself in his crosshairs. He wanted industry-standard tools, but we used a patchwork of homegrown scripts. He wanted testers embedded with development groups, but we were centralized. He wanted agile, but we used waterfall. Suddenly, we found ourselves responsible for getting an automated test pipeline up and running in an implausibly-short amount of time.
 
