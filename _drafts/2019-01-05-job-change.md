@@ -13,7 +13,7 @@ After a few rounds of writing tests, I drifted over to test *infrastructure*: ma
 
 [^2]: It's only in hindsight I realize how phenomenal Gina was as a manager. I swear she had my whole career path mapped out in her head. Every time I came to her looking for more, she had something up her sleeve. Mentoring an intern. Rotation in another group. High-profile project. Engaging with a customer site.
 
-Summer 2018, the seas got rough. A few of us were tasked with putting together a test pipeline under the direction of Dennis, the test organization's Staff Engineer. Dennis knew software, hardware, budgeting, and customer relations -- but he didn't take naturally to breaking down a goal and setting priorities. It was a frustrating situation for everyone.
+Summer 2018, the seas got rough. A few of us were tasked with putting together a test pipeline under the direction of Dennis, the test organization's Staff Engineer. Dennis knew software, hardware, budgeting, and customer relations -- but he didn't take naturally to breaking down a goal and setting priorities. It was a frustrating situation for everyone, and it dragged on for six months.
 
 Fall 2018, we started taking on water. Of the thirty engineers in the test organization, twenty were getting embedded in development teams. The other ten (myself included) faced uncertainty. There would be an integration team, an infrastructure team, and a team focused on full-system testing -- but it would be months before we knew where individual engineers, managers, and responsibilities would end up. Looking at the numbers, it was clear not everyone would get their first choice.
 
