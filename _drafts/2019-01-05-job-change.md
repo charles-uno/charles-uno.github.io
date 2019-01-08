@@ -17,62 +17,43 @@ Summer 2018, the seas got rough. A few of us were tasked with putting together a
 
 Fall 2018, we started taking on water. Of the thirty engineers in the test organization, twenty were getting embedded in development teams. The other ten (myself included) faced uncertainty. There would be an integration team, an infrastructure team, and a team focused on full-system testing -- but it would be months before we knew where individual engineers, managers, and responsibilities would end up. Looking at the numbers, it was clear not everyone would get their first choice.
 
-I knew where I *wanted* to end up: DevOps. I had just spent months finagling with Jenkins, Docker, and a mishmash of REST APIs. The work was interesting, I was good at it, and it's an [up-and-coming](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1) field. Plus the DevOps organization, a brainchild of the new [SVP of R&D](https://www.hpcwire.com/2017/01/26/stathis-papaefstathiou-takes-rd-reins-cray/), was understaffed. I applied for a few jobs over there, shook a few hands, but there were no straight answers to be had as long as the re-organization was in motion.
+I knew where I *wanted* to end up: DevOps. I had just spent months finagling with Jenkins, Docker, and a mishmash of REST APIs. The work was interesting, I was good at it, and it's an [up-and-coming](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1) field. Plus the central DevOps organization, a brainchild of the new [SVP of R&D](https://www.hpcwire.com/2017/01/26/stathis-papaefstathiou-takes-rd-reins-cray/), was understaffed. I applied for a few jobs over there, shook a few hands, but there were no straight answers to be had as long as the re-organization was in motion.
 
-My next step[^3] was to scope out jobs outside Cray.
+My next step[^3] was to scope out jobs outside Cray. Over the next few weeks I chatted with at least a dozen recruiters on the phone, met a few of them in person, and got a bite on a DevOps position at Wells Fargo.
 
+[^3]: Maybe I should have checked out the market earlier. I know some people keep their ear to the ground all the time! But for me, job hunting is emotionally exhausting.
 
-[^3]: Maybe I should have 
+Everything came together in mid-December:
 
-Maybe I should have done this earlier (or maybe I should be doing it all the time) but I find job hunting to be emotionally exhausting.
+- The re-org finally got nailed down. Two of us who had worked closely on the test pipeline were tapped to move (laterally) to the central DevOps organization.
+- When applying for DevOps positions within Cray, I had also inadvertently applied for a DevOps job with the semi-independent Storage product line. After a few interviews, they offered me a lateral move.
+- Wells Fargo made me an offer for 10% more than what I was making at Cray.
 
+The central DevOps organization is where I had wanted to end up, but now I wasn't so sure. The potential upside was high: I would be doing important work, highly visible across the company. As one of the more senior members of the team, there would also be leadership opportunities. On the other hand, management was a big question mark. The DevOps director was a fresh hire, and, due to a last-minute competing offer, I would start out reporting to an empty chair.
 
+The Storage position had a different sort of appeal. I did interviews with six members of the organization, including the VP, and came out of all six feeling great. And as *the* DevOps guy for the organization, I would have a lot of freedom to steer implementation. But, at least in the near term, the role would be be almost entirely technical -- limited opportunity for networking or leadership.
 
-
-absolutely *loathe* job hunting. It's emotionally exhausting. Over the next few weeks I chatted with at least a dozen recruiters on the phone, met a few of them in person, and got some traction on a DevOps position at Wells Fargo.
-
-
-
-
-
-I wasn't looking to leave Cray, but about this time I realized
-
-
-
-
-As a backup plan, I checked the "visible to recruiters" box on LinkedIn.
+As for Wells Fargo... that job was more-or-less an insurance policy taken out against a bad re-organization. The group seemed nice, the office was gorgeous, and the money was better. But the company felt anonymously large, and it's hard to compete with the toys at Cray.
 
 
 
 
 
 
-Chatted with at least a dozen recruiters on the phone, and met a handful in person.
 
-Got traction on a DevOps position at Wells Fargo.
 
-They made me an offer 10% above my salary at Cray.
 
-Also, in applying for DevOps positions within Cray, I had inadvertently applied to do DevOps for the semi-independent Storage product line.
-
-Interviewed with them
-
-For a while, it looked like a clump of us would get to move over from test to DevOps. Including Gina, who is great.
-
-Tara, DevOps director, is new
-
-Gina took another position. Instead of a known great manager, a question mark.
 
 Town hall with Jose, the VP in charge of Test and DevOps. Uninspiring.
 
-DevOps: central. touches lots of different groups. high visibility. no manager. part of a team, so opportunity to lead projects.
 
-Storage: working closely with a VP -- is that visibility or networking? "the" DevOps guy for the organization, so lots of freedom to steer implementation. but no team, not much opportunity for leadership. and lower visibility across Cray.
-
-Wells Fargo: more like an insurance policy, really. the group seemed nice, the office was *gorgeous*, and I probably could have made more money there[^2]. but the company felt anonymously large, and the toys at Cray are hard to beat.
+Wells Fargo: more like an insurance policy, really. the group seemed nice, the office was *gorgeous*, and I probably could have made more money there[^4]. but the company felt anonymously large, and the toys at Cray are hard to beat.
 
 
-[^2]: CTH, understanding of my expectations, bookkeeping...
+[^4]: CTH, understanding of my expectations, bookkeeping...
+
+
+bringing in an external offer is something you only get to do once.
 
 
 
