@@ -1,4 +1,14 @@
 
+
+
+
+function toggleTag(tag) {
+    console.log("toggling:", tag);
+    return
+}
+
+
+
 // #####################################################################
 
 var indexList = document.getElementById('index-list');

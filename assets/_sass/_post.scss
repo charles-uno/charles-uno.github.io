@@ -68,16 +68,9 @@ article {
     }
 
     .table-caption {
-
-//        border-top: $half-pad solid $paper-color;
-
         width: 100%;
-
         max-width: 100%;
         margin: 0;
-//        max-width: $text-width;
-//        margin: 0 auto;
-
         text-align: justify;
         font-size: $caption-size;
         font-style: normal;
@@ -86,28 +79,11 @@ article {
         padding: $pad;
     }
 
-
     .pool {
         display: flex;
         justify-content: space-between;
         width: 100%;
-//        text-align: justify;
-//        .floater {
-//	       display: inline-block;
-//	       vertical-align: top;
-        	/* IE fix. */
-//        	*display: inline;
-//        	zoom: 1;
-//        }
     }
-//    .pool:after {
-//    	content: "";
-//    	width: 100%;
-//    	display: inline-block;
-//    }
-
-
-
 
     th, td { padding: $pad; }
     ul, p, h1, h2, h3, h4, h5, h6 {
@@ -253,13 +229,4 @@ hr {
     margin: 2*$text-size auto;
     width: 100%;
     max-width: $text-width;
-
-/*
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    color: $text-color;
-    background-color: $text-color;
-*/
 }

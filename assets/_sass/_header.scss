@@ -174,20 +174,6 @@ div.wrap-head {
     &:hover {
         color: $text-color;
     }
-
-/*
-    .title-base { color: $text-color; }
-    .title-accent { color: $contrast-color; }
-    &:hover {
-        .title-base { color: $contrast-color; }
-        .title-accent { color: $text-color; }
-    }
-    letter-spacing: -3px;
-    font-family: $logo-font;
-    font-weight: 400;
-    // Shift the baseline up just a little bit.
-    margin-top: -0.05*$logo-size;
-*/
 }
 
 // Formatting for the filter input box.
@@ -246,32 +232,8 @@ div.main {
 
 div.left-flank-main {
     background-color: $shadow-color;
-/*
-    // In case of no gradient support
-    background: $shadow-color;
-    // For Safari 5.1 to 6.0
-    background: -webkit-linear-gradient(left, $shadow-color, $paper-color);
-    // For Opera 11.1 to 12.0
-    background: -o-linear-gradient(right, $shadow-color, $paper-color);
-    // For Firefox 3.6 to 15
-    background: -moz-linear-gradient(right, $shadow-color, $paper-color);
-    // Standard syntax
-    background: linear-gradient(to right, $shadow-color, $paper-color);
-*/
 }
 
 div.right-flank-main {
     background-color: $shadow-color;
-/*
-    // In case of no gradient support
-    background: $shadow-color;
-    // For Safari 5.1 to 6.0
-    background: -webkit-linear-gradient(right, $shadow-color, $paper-color);
-    // For Opera 11.1 to 12.0
-    background: -o-linear-gradient(left, $shadow-color, $paper-color);
-    // For Firefox 3.6 to 15
-    background: -moz-linear-gradient(left, $shadow-color, $paper-color);
-    // Standard syntax
-    background: linear-gradient(to left, $shadow-color, $paper-color);
-*/
 }

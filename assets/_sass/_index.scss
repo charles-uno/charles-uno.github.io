@@ -30,8 +30,6 @@
 //    @media (min-width: 600px) { width: 25%; }
 }
 
-
-
 .index-wrap {
     left: 0;
     top: 0;
@@ -41,9 +39,6 @@
     padding: 0;
     position: relative;
 }
-
-
-
 
 .index-link {
     left: 0;
@@ -67,7 +62,7 @@
     &:hover {
         background: none;
         .index-name { display: none; }
-        .index-date { display: none; }
+        .index-tags { display: none; }
     }
     overflow: hidden;
 }
@@ -92,7 +87,6 @@
     border-radius: 50%;
     overflow: hidden;
     margin: $half-pad;
-
 }
 
 .index-tags, .index-name {
