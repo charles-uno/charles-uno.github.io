@@ -1,10 +1,60 @@
 
 
-
-
 function toggleTag(tag) {
-    console.log("toggling:", tag);
+
+    tags_toggle[tag] = !tags_toggle[tag];
+    console.log("toggling:", tag, "to", tags_toggle[tag]);
+
+    var active_tags = [];
+    for (var i = 0; i < tags.length; i++) {
+        if (tags_toggle[tags[i]]) {
+            active_tags.push(tags[i])
+        }
+    }
+
+    if (active_tags.length == 0) {
+        console.log("nothing selected, showing everything")
+    } else {
+        console.log("showing only", active_tags)
+    }
+
+    for(var i = 0; i < posts.length; i++) {
+        post = posts[i];
+        if(!post) { continue; }
+
+        if ( active_tags.length == 0 || intersect(post.tags, active_tags) ) {
+            showPost(post);
+        } else {
+            hidePost(post);
+        }
+
+    }
+
     return
+}
+
+
+function intersect(arr0, arr1) {
+    for(var i = 0; i < arr0.length; i++) {
+        for(var j = 0; j < arr1.length; j++) {
+            if (arr0[i] == arr1[j]) { return true; }
+        }
+    }
+    return false;
+}
+
+function showPost(post) {
+    console.log("showing", post.slug);
+    var item = document.getElementById("item-" + post.slug);
+    item.style.display = "inline-block";
+    return;
+}
+
+function hidePost(post) {
+    console.log("hiding", post.slug);
+    var item = document.getElementById("item-" + post.slug);
+    item.style.display = "none";
+    return;
 }
 
 

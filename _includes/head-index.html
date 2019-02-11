@@ -1,11 +1,24 @@
 
+
+{% assign tags = "" | split: "|" %}
+{% for post in site.posts %}
+    {% for tag in post.tags %}
+        {% assign tags = tags | push: tag %}
+    {% endfor %}
+{% endfor %}
+{% assign tags = tags | sort | uniq %}
+
 <div class="wrap-head" id="wrap-head-default">
     <a href="" id="logo" onclick="return false;">{{ site.title }}</a>
-    <a onclick="headActive(); return false;">
-        <span class="glyph-nowrapper">
-            <i class="fa fa-search"></i>
-        </span>
-    </a>
+
+    {% for tag in tags %}
+    <span class="glyph-nowrapper">
+        <a class="tag-link" ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
+            <span class="head-tag head-tag-{{ tag }}"></span>
+        </a>
+    </span>
+    {% endfor %}
+
 </div>
 
 <div class="wrap-head" id="wrap-head-active" style="display: none;">

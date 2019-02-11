@@ -4,12 +4,10 @@ var posts = [
         {% unless post.hidden %}
             {
                 "title": "{{ post.title }}",
+                "slug": "{{ post.title | slugify }}",
                 "hash": "{{ post.title | remove: ' ' | strip_newlines | downcase | md5 }}",
                 "date": "{{ post.date | date: "%F" }}",
                 "tags": {{ post.tags | split: " " }},
-
-                "tags-raw": {{ post.tags | split: " " }},
-
                 "thumbnail": "{{ post.image }}",
                 "redirect": {% if post.redirect %} true {% else %} false {% endif %},
                 "url": "{{ site.baseurl }}{{ post.url }}",
@@ -38,9 +36,9 @@ var tags = [
     {% endfor %}
 ];
 
-var tags_on = {
+var tags_toggle = {
     {% for tag in tags %}
-        "{{ tag }}": true{% unless forloop.last %},{% endunless %}
+        "{{ tag }}": false{% unless forloop.last %},{% endunless %}
     {% endfor %}
 };
 
@@ -52,20 +50,17 @@ var tags_icon = {
     "food": "<i class=\"fas fa-utensils\"></i>"
 };
 
-
-
 for (const [key, val] of Object.entries(tags_icon)) {
     console.log(key, val);
     to_tag = document.getElementsByClassName("index-tag-" + key);
     for (var i = 0; i < to_tag.length; i++) {
         to_tag[i].innerHTML += val;
     }
+    to_tag = document.getElementsByClassName("head-tag-" + key);
+    for (var i = 0; i < to_tag.length; i++) {
+        to_tag[i].innerHTML += val;
+    }
 }
-
-
-
-
-
 
 // #####################################################################
 

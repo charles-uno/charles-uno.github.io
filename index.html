@@ -6,7 +6,7 @@ layout: default
     {% for post in site.posts %}
         {% if post.sticky %}
           {% unless post.hidden %}
-              <li class="index-item">
+              <li class="index-item" id="item-{{ post.title | slugify }}">
                   <div class="index-wrap">
                   <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                       <div class="index-cell">
@@ -29,7 +29,7 @@ layout: default
     {% for post in site.posts %}
       {% unless post.sticky %}
         {% unless post.hidden %}
-            <li class="index-item">
+              <li class="index-item" id="item-{{ post.title | slugify }}">
                 <div class="index-wrap">
                 <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                     <div class="index-cell">

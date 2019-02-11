@@ -106,3 +106,11 @@
     height: 100%;
     width: 100%;
 }
+
+.tag-link, .head-tag {
+    color: $contrast-color;
+    &:hover {
+        color: $text-color;
+        cursor: pointer;
+    }
+}
