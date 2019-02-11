@@ -3,6 +3,7 @@ layout: post
 title: "The Senate Shouldn't Select SCOTUS"
 image: "/assets/images/court-thumb.png"
 description: "The Senate is America's aristocracy. The judges they choose will always undervalue civil rights."
+tags: politics
 ---
 
 America's founders created the House of Representatives to give the people a voice in the federal government. Seats in the House are allocated proportionally, and representatives are elected frequently to ensure accountability to the electorate. That said, the founders showed little confidence in the House's ability to govern responsibly. Madison wrote in the [Federalist #62](http://www.constitution.org/fed/federa62.htm) that such a body would be unstable due to the electorate's "sudden and violent passions."
@@ -32,5 +33,4 @@ It's tempting to blame America's founders for giving a chamber of aristocrats so
 
 [^5]: See, for example, the [Missouri Compromise](https://en.wikipedia.org/wiki/Missouri_Compromise) (1820) and the [Kansas-Nebraska Act](https://en.wikipedia.org/wiki/Kansas–Nebraska_Act) (1854).
 
-That is, the Senate's disproportionate influence on civil rights, exercised through the courts, is an unhappy accident of history. Elites in the Senate are well-suited to consider disputes between businesses, states, and nations -- and to select judges to do the same. But the Constitution now demands judges concern themselves with discrimination and disenfranchisement as well. As America's aristocracy, the Senate undervalues the perspective of the powerless. It's perverse to infect the federal courts with that same bias. 
-
+That is, the Senate's disproportionate influence on civil rights, exercised through the courts, is an unhappy accident of history. Elites in the Senate are well-suited to consider disputes between businesses, states, and nations -- and to select judges to do the same. But the Constitution now demands judges concern themselves with discrimination and disenfranchisement as well. As America's aristocracy, the Senate undervalues the perspective of the powerless. It's perverse to infect the federal courts with that same bias.

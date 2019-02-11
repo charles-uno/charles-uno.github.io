@@ -78,17 +78,24 @@
     font-size: $name-size;
     font-family: $head-font;
     width: 170px;
-//    width: 125px;
 }
 
-.index-date {
+.index-tags {
     top: 90%;
-    color: $bold-color-2;
-    font-size: $date-size;
     white-space: nowrap;
 }
 
-.index-date, .index-name {
+.index-tag {
+//    background-color: $paper-color;
+    color: $contrast-color;
+    font-size: $tags-size;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: $half-pad;
+
+}
+
+.index-tags, .index-name {
     display: inline-block;
     position: absolute;
     left: 50%;

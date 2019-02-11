@@ -10,13 +10,17 @@ layout: default
             {{ page.title }}
         {% endif %}
     </span>
+
+    <span class="post-tags">
+    {% assign post_keywords = post.keywords | split: " " %}
+    {% for keyword in post_keywords%}
+        <span class="post-tag">{{ keyword }}</span>
+    {% endfor %}
+    <span>
+
     {% if page.date and page.showdate %}
         <span class="post-date">
-            {% if page.updated %}
-                <span class="nowrap">Published {{ page.date | date: "%F" }} / Updated {{ page.updated | date: "%F" }}</span>
-            {% else %}
-                <span class="nowrap">{{ page.date | date: "%F" }}</span>
-            {% endif %}
+            <span class="nowrap">{{ page.date | date: "%F" }}</span>
         </span>
     {% endif %}
 </header>

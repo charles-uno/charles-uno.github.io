@@ -3,7 +3,7 @@ layout: post
 title: "Banana Bread French Toast"
 image: "/assets/images/banana-bread-french-toast-thumb.png"
 description: "A decadent treat for Saturday morning or Sunday night."
-keywords: food, dessert, breakfast, brunch, vegetarian, chocolate, fruit
+tags: food
 ---
 
 ## Banana Bread
@@ -52,4 +52,4 @@ Combine the remaining 3 eggs, yogurt, and cinnamon. Slice the loaf (or whatever'
 ![Banana bread french toast](/assets/images/banana-bread-french-toast-16x9.png)
 *One slice is typical. Two slices is ambitious. Three slices is madness.*
 
-Serves four. Best with fruit, jam, and/or peanut butter. 
+Serves four. Best with fruit, jam, and/or peanut butter.

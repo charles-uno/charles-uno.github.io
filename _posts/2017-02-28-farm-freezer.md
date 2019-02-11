@@ -3,7 +3,7 @@ layout: post
 title: "From Farm to Freezer"
 image: "/assets/images/freezer-peppers-thumb.png"
 description: "A little extra work in the summer can yield a lot of extra vegetables in the winter!"
-keywords: food, fruits, vegetables, freezing, canning, preservation, farmers market, vegetarian, healthy
+tags: food
 ---
 
 If you live in a metropolitan area, you're probably not far from a farmers market. These markets are a great, budget-friendly way to get some extra vegetables into your diet, as well as to support your local farmers. Stop by the [St Paul Farmers Market](http://www.stpaulfarmersmarket.com/) on a Saturday morning and you'll see bison steaks, cave-aged cheeses, hand-knitted crafts, and truckloads of fresh-picked fruits and vegetables.

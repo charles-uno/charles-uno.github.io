@@ -3,7 +3,7 @@ layout: post
 title: "Shakshuka"
 image: "/assets/images/shakshuka-thumb.png"
 description: "This spicy egg and tomato dish is perfect for brunch, dinner, or brunch-for-dinner."
-keywords: food, entree, vegetarian, healthy
+tags: food
 ---
 
 - 1 L onion, diced (4 cups)

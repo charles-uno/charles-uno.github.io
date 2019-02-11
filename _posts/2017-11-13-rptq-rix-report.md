@@ -3,7 +3,7 @@ layout: post
 title: RPTQ RIX Tournament Report
 image: "/assets/images/anger-of-the-gods-noah-bradley-thumb.png"
 description: "Next stop, Bilbao!"
-keywords: magic the gathering, modern, mtg, primeval titan, valakut, games
+tags: games
 hidden: true
 ---
 

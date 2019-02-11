@@ -3,7 +3,7 @@ layout: post
 title: "Grilled Citrus Margaritas"
 image: "/assets/images/grilled-margarita-thumb.png"
 description: "Treat yourself to this smoky-yet-fresh summer drink."
-keywords: fruit, alcohol, booze, grilling, vegetarian, beverage, drink
+tags: food
 ---
 
 I'm a sucker for those Facebook animated recipes. Watching people cook is fun, even when they're cooking contrived nonsense, like fruity pebbles cheesecake or pizza-stuffed pretzel bites. Plus, once in a while, the recipes showcase something clever -- who would have thought to use grilled citrus as a mixer?

@@ -20,15 +20,7 @@
         <!-- Make sure Google doesn't double-count index.html -->
         <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
         <!-- Font Awesome glyphs -->
-
-<!--
-        <script src="https://use.fontawesome.com/2d2ca51921.js"></script>
--->
-
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
-
-
         <!-- Google fonts -->
         <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Fredoka+One:100,400|Cutive+Mono|Cambo|Just+Me+Again+Down+Here" rel="stylesheet">
         <!-- Import CSS -->
@@ -45,12 +37,9 @@
             <div class="wrap-main">
                 <div class="left-flank-main"></div>
                 <div class="main">
-                    <div class="warn">
-                        Construction in progress. Please forgive the mess.
-                    </div>
                     {{ content }}
                     <div class="copy">
-                        &copy; Charles McEachern 2018 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
+                        &copy; Charles McEachern 2019 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
                     </div>
                 </div>
                 <div class="right-flank-main"></div>
@@ -85,22 +74,12 @@
             </div>
         </div>
 
-{% comment %}
-        <div class="full-foot">
-            <div class="foot" id="foot">
-                {% include foot.html %}
-            </div>
-        </div>
-{% endcomment %}
-
-        <!-- MathJax -->
-
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-        <!-- Autocard handling -->
-        <div style="position:absolute; z-index:999;" id="cardPopup"></div>
         <!-- Import Javascript -->
         <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
+        <!-- MathJax -->
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <!-- Autocard handling -->
+        <div style="position:absolute; z-index:999;" id="cardPopup"></div>
         <!-- Google analytics -->
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

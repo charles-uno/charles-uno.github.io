@@ -3,7 +3,7 @@ layout: post
 title: Badges and Bandages
 image: "/assets/images/fence-thumb.png"
 description: "When a doctor messes up and kills someone, we call it malpractice instead of murder. Might a similar system work for policing?"
-keywords: police, law enforcement, race, killings, medicine, doctors, litigation, court, politics
+tags: politics
 ---
 
 When surveyed, most Americans say they would prefer to spend their final days in the comfort of their own homes. But in practice, [the majority die in hospitals](https://palliative.stanford.edu/home-hospice-home-care-of-the-dying-patient/where-do-americans-die/), surrounded by unfamiliar people and machines. Worse still, many who die in hospitals shouldn't be dying at all. [Over 100k](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) American lives are lost each year due to medical errors -- unnecessary surgery, incorrect prescription, etc -- which puts these errors among the 10 most [common causes of death](https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm) in the US, up there with heart disease, stroke, and diabetes.

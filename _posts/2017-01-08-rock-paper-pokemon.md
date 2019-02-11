@@ -4,7 +4,7 @@ title: "Rock Paper Pokémon"
 image: "/assets/images/pokemon-graph-thumb.png"
 updated: 2017-01-09
 description: "Rock beats Ice. Bug beats Psychic. Fairy beats Dragon. What might the Pokémon type system look like if it hadn't jumped the shark?"
-keywords: games, game design, pokemon
+tags: games
 ---
 
 In the Pokémon universe, each trainer carries a team of pocket monsters with them at all times. When two trainers make eye contact, they are honor-bound to battle. The battle cannot end until one trainer wins, by knocking the other trainer's entire team unconscious. The winner earns both money and social status.

@@ -3,7 +3,7 @@ layout: post
 title: "The (Abridged) Skywalker Paradigm"
 image: "/assets/images/skywalker-paradigm-thumb.png"
 description: "I'm not trying to tell you about the plot holes in Star Wars -- I'm telling you there are NO plot holes in Star Wars."
-keywords: star wars, conspiracy theory, conspiracy theories
+tags: games
 ---
 
 Some time ago, I stumbled upon The [Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/), a sort of Star Wars conspiracy theory. Here's how it introduces itself:

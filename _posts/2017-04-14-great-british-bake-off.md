@@ -3,6 +3,7 @@ layout: post
 title: "Tarts and Tactics under the Tent"
 image: "/assets/images/gbbo-thumb.png"
 description: "The Great British Bake Off is not decided by intrinsic baking ability. Rather, it tests each baker's ability to adapt to their surroundings. Mild spoilers."
+tags: food stem
 ---
 
 After watching the first episode of the Great British Bake Off, you might think you have a sense for which bakers are at the top (and bottom) of the pile.
@@ -25,10 +26,10 @@ In the second week, on the other hand, a pattern is clear:
 ![Episode 2: Separating the Wheat from the Chaff](/assets/images/gbbo-ep2.svg)
 *Scoring well in the second episode's technical challenge is a decent predictor that a baker will make it to the finals. Technical rank in the first episode has no such predictive power.*
 
-Performance in the first episode is a proxy for each baker's intrinsic strengths: creativity, attention to detail, and the ability to master new techniques[^2]. It does not seem that the contest is decided by these strengths. If a baker places in the top 3 in the first week's technical challenge, we haven't got a clue whether or not they'll make it to the finals. 
+Performance in the first episode is a proxy for each baker's intrinsic strengths: creativity, attention to detail, and the ability to master new techniques[^2]. It does not seem that the contest is decided by these strengths. If a baker places in the top 3 in the first week's technical challenge, we haven't got a clue whether or not they'll make it to the finals.
 
 [^2]: Bakers are given some information about the upcoming challenge a week ahead of time, so they can practice.
 
-By the second episode, there's an extra layer of strategy to the competition. The bakers have spent two full days together, and seen Paul and Mary give feedback on dozens of bakes. This -- evidently -- matters a lot. On average, two of the top three bakers from the second technical challenge will make it to the finals. 
+By the second episode, there's an extra layer of strategy to the competition. The bakers have spent two full days together, and seen Paul and Mary give feedback on dozens of bakes. This -- evidently -- matters a lot. On average, two of the top three bakers from the second technical challenge will make it to the finals.
 
 Perhaps the bakers scope out their competitors, and try to settle into an advantageous niche. Perhaps they get a sense for the judges' biases -- aesthetic preferences, favorite flavors, and the sorts of mistakes that are judged harshly. It's these sorts of strategies that seem to determine who makes it to the finals, far more than the intrinsic skills showcased in the opening episode.

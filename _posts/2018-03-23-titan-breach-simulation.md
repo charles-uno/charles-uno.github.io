@@ -3,7 +3,7 @@ layout: post
 title: "Deck Chairs on the Titanic"
 image: "/assets/images/pt-rix-thumb.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
-keywords: magic the gathering, modern, mtg, primeval titan, valakut, games, pro tour, ptrix
+tags: games stem
 ---
 
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion -- pretty good for a guy who's never even made Day 2 of a Grand Prix!
@@ -67,7 +67,7 @@ The conventional wisdom prefers [[Farseek]], but I play [[Explore]]. Sometimes [
 
 <p class="table-caption">Odds to cast or [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] based on whether we play [[Explore]] or [[Farseek]], and whether we cut a [[Lightning Bolt]] for a 26th land. Half of games are simulated on the play, the other half on the draw. All values ±0.5%.</p>
 
-I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than an extra [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is about right. 
+I also play 26 lands, rather than the tried-and-true 25. The 26th land gives an extra few percentage points to make [[Primeval Titan]] on T3, and it's a good topdeck in games that go long. Goldfishing can't tell us if that's better or worse than an extra [[Lightning Bolt]] (or [[Anger of the Gods:Anger]], or [[Relic of Progenitus:Relic]], or whatever), but my experience suggests that two slots of interaction is about right.
 
 Once in a while, it's possible to steal a win by zapping [[Goblin Electromancer]] or [[Devoted Druid]], but most of the time [[Lightning Bolt]] is either useless or unnecessary. Titan Breach doesn't win by stabilizing the board and depleting the other player's resources. It wins by doing unfair things quickly and consistently -- and [[Lightning Bolt]] doesn't help with that.
 

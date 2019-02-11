@@ -3,7 +3,7 @@ layout: post
 title: "PT RIX Tournament Report"
 image: "/assets/images/pt-rix-thumb.png"
 description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
-keywords: magic the gathering, modern, mtg, games, bilbao, spain
+tags: games
 hidden: true
 ---
 

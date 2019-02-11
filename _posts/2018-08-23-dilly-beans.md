@@ -3,7 +3,7 @@ layout: post
 title: "Dilly Beans"
 image: "/assets/images/dilly-beans-quart-thumb.png"
 description: "Step aside, cucumbers. There's a new pickle in town."
-keywords: vegetables, vegetarian, canning, spicy, snack, appetizer
+tags: food
 ---
 
 The following is enough to make two quarts. The photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
