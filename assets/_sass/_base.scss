@@ -1,48 +1,42 @@
 
-// Font families and sizes
-
+// Fonts
 $sans-font: 'Roboto', sans-serif;
 $logo-font: 'Just Me Again Down Here', serif;
 $mono-font: 'Cutive Mono', monospace;
 $head-font: 'Fredoka One', sans-serif;
 
-$logo-size: 45px;
-$name-size: 26px;
-$date-size: 18px;
-$tags-size: 20px;
-$post-title-size: 30px;
-$post-date-size: 14px;
-$post-description-size: 18px;
-$text-size: 16px;
-$caption-size: 12px;
-
-$uno-mas-size: 22px;
-$uno-mas-radius: 30px;
-
 // Colors
-
 $text-color: #222;
 $paper-color: #ddd;
 $shadow-color: #fff;
+$accent-color: #069;
 
-$bold-color-1: #08a;
-$bold-color-2: #069;
-$bold-color-3: #048;
+// Header/wrapper sizes
+$head-logo-size: 45px;
+$head-glyph-size: 30px;
+$uno-mas-size: 22px;
+$uno-mas-radius: 30px;
 
-// Maximize contrast on the logo, index tiles, etc. Use the paper color or the shadow color, whichever is brighter.
-$contrast-color: $shadow-color;
+// Index sizes
+$index-name-size: 26px;
+$index-tags-size: 20px;
+
+// Post sizes
+$post-glyph-size: 20px;
+$post-title-size: 30px;
+$post-date-size: 14px;
+$text-size: 16px;
+$caption-size: 12px;
 
 // Big-picture layout
 
-$content-width: 800px;
-$text-width: 500px;
+$paper-width: 900px;
+$text-width: 600px;
 $pad: 10px;
 $half-pad: 5px;
 // For mobile, make sure there is some breathing room between the edge of the text field and the edge of the window.
 $side-pad: 15px;
 
-$head-glyph-size: 30px;
-$post-glyph-size: 20px;
 $head-height: $head-glyph-size + 2*$pad;
 
 html, body {
@@ -84,8 +78,7 @@ p, span, div, table { color: $text-color; }
 
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
-// Not sure exactly what this does, but it's important. It was present
-// in some incidental import that we no longer use.
+// Not sure exactly what this does, but it's important.
 *, *:before, *:after { box-sizing: border-box; }
 
 .hide-by-default { display: none; }

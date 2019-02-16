@@ -2,22 +2,29 @@
 // NOTE: This file is a bit of a mess. But it's also pretty cosmetic.
 // You could nuke this file and the site would pretty much still work.
 
-header { padding: $pad; }
+header { padding: $pad; width: 100%; text-align: center; }
 
 .post-title, .post-tags, .post-date {
     line-height: 1;
-    display: block;
-    width: 100%;
     text-align: center;
     border: 0;
     padding: 0;
-    margin: $post-date-size auto;
+    margin: $post-date-size 0;
 }
 
-.post-tag {
-    margin: $pad;
-    &:hover { cursor: pointer; }
+.post-title { display: block; }
+
+.post-under-title {
+    width: 100%;
+    max-width: $text-width;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
+
+.post-date, .post-tags { display: inline-block; }
+
+.post-tag { margin: $half-pad; &:hover { cursor: pointer; } }
 
 article {
 
@@ -135,7 +142,7 @@ article {
                 margin: $pad 0;
                 width: 100%;
                 border: 0;
-                p { max-width: $content-width; margin: 0; }
+                p { max-width: $text-width; margin: 0; }
             }
             li > p:before {
                 content:counter(li);

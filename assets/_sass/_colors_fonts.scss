@@ -9,16 +9,16 @@
 }
 
 .index-name {
-    font-size: $name-size;
+    font-size: $index-name-size;
     font-family: $head-font;
 }
 
 .index-tag {
-    font-size: $tags-size;
+    font-size: $index-tags-size;
 }
 
 .index-tags, .index-name {
-    color: $contrast-color;
+    color: $shadow-color;
     font-weight: 100;
     text-transform: lowercase;
 }
@@ -26,9 +26,9 @@
 // =====================================================================
 
 #logo {
-    font-size: $logo-size;
+    font-size: $head-logo-size;
     font-family: $logo-font;
-    color: $contrast-color;
+    color: $shadow-color;
     &:hover { color: $text-color; }
 }
 
@@ -49,11 +49,10 @@ div.full-main { background-color: $shadow-color; }
 div.main { background: $paper-color; }
 
 div.full-head {
+    background-color: $accent-color;
     -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
     -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
     box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-    background: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 3px 3px;
 }
 
 div.head {
@@ -66,7 +65,7 @@ div.head {
 .copy {
     color: $text-color;
     font-size: $caption-size;
-    a { color: $bold-color-2; &:hover { color: $text-color; } }
+    a { color: $accent-color; &:hover { color: $text-color; } }
 }
 
 // =====================================================================
@@ -78,18 +77,21 @@ div.head {
 
 .post-tag {
     font-size: $post-glyph-size;
-    color: $bold-color-2;
+    color: $accent-color;
     &:hover { color: $text-color; }
 }
 
-.post-date { font-size: $post-date-size; }
+.post-date {
+    font-size: $post-date-size;
+    font-family: $head-font;
+}
 
 article {
 
     font-size: $text-size;
 
     a {
-        color: $bold-color-2;
+        color: $accent-color;
         &:hover { color: $text-color; }
     }
 
@@ -136,6 +138,7 @@ article {
 }
 
 hr {
+    border: 0;
     color: $shadow-color;
     border-color: $shadow-color;
     background-color: $shadow-color;

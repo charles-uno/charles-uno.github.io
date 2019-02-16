@@ -29,7 +29,7 @@ div.full-head {
 }
 
 div.head {
-    max-width: $content-width;
+    max-width: $paper-width;
     padding: $half-pad $side-pad;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ div.main, div.left-flank-main, div.right-flank-main {
 }
 
 div.main {
-    width: $content-width;
+    width: $paper-width;
     padding-top: $head-height + $pad;
     padding-left: $side-pad;
     padding-right: $side-pad;

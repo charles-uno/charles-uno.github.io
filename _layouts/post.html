@@ -11,19 +11,24 @@ layout: default
         {% endif %}
     </span>
 
-    <span class="post-tags">
-       {% for tag in page.tags %}
+    <span class="post-under-title">
+
+        <span class="post-tags">
+            {% for tag in page.tags %}
             <a ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}');">
                 <i class="post-tag post-tag-{{tag}}"></i>
             </a>
-        {% endfor %}
-    <span>
+            {% endfor %}
+        </span>
 
-    {% if page.date and page.showdate %}
+        {% unless page.showdate %}
         <span class="post-date">
             <span class="nowrap">{{ page.date | date: "%F" }}</span>
         </span>
-    {% endif %}
+        {% endunless %}
+
+    </span>
+
 </header>
 <article>
     {{ content }}

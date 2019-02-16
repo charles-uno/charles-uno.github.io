@@ -1,65 +1,48 @@
 
-.uno-mas-layer, .uno-mas-wrap { pointer-events: none; }
-
-.uno-mas-layer {
-//    display: none;
-    top: 0;
-    position: fixed;
-    background: none;
-//    background-color: rgba(red, 0.2);
-    height: 100%;
-    width: 100%;
+.uno-mas-layer, .uno-mas-wrap {
+    pointer-events: none;
     margin: 0;
     padding: 0;
     border: 0;
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+.uno-mas-layer {
+    top: 0;
+    position: fixed;
 }
 
 .uno-mas-wrap {
-    height: 100%;
-    width: 100%;
-    max-width: $content-width;
-    background: none;
-//    background-color: rgba(blue, 0.2);
-    padding: 0;
-    border: 0;
+    max-width: $text-width;
     margin: 0 auto;
     display: block;
     position: relative;
-
     font-family: $head-font;
-
-//    vertical-align: bottom;
     text-align: center;
-
 }
 
 .uno-mas {
     position: absolute;
-
     right: $pad;
     bottom: $pad;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $contrast-color;
+    color: $shadow-color;
     height: 2*$uno-mas-radius;
     width: 2*$uno-mas-radius;
-//    border-radius: $uno-mas-radius;
     overflow: hidden;
     font-size: $uno-mas-size;
     line-height: 1;
-    background: radial-gradient($bold-color-1, $bold-color-3);
-    background-size: 3px 3px;
-
--webkit-border-radius: $uno-mas-radius;
--moz-border-radius: $uno-mas-radius;
-border-radius: $uno-mas-radius;
-
--webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
--moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-
+    background-color: $accent-color;
+    -webkit-border-radius: $uno-mas-radius;
+    -moz-border-radius: $uno-mas-radius;
+    border-radius: $uno-mas-radius;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
     pointer-events: auto;
     &:hover { color: $text-color; }
 }
