@@ -104,14 +104,11 @@ function toggleOn(tag) {
         style.appendChild(document.createTextNode(css));
     }
     document.getElementsByTagName("head")[0].appendChild(style);
-//    var head_tag = document.getElementById("head-tag-" + tag);
-//    head_tag.style.color = "#222";
     return;
 }
 
 function toggleOff(tag) {
     var id = "#head-tag-" + tag
-//    var css = "#head-tag-" + tag + " { color: #00f; &:hover { color: #0f0; } }";
     var css = id + " { color: #fff; } " + id + ":hover { color: #222; }";
     var style = document.createElement("style");
     if (style.styleSheet) {
@@ -120,8 +117,6 @@ function toggleOff(tag) {
         style.appendChild(document.createTextNode(css));
     }
     document.getElementsByTagName("head")[0].appendChild(style);
-//    var head_tag = document.getElementById("head-tag-" + tag);
-//    head_tag.style.color = "#fff";
     return;
 }
 
