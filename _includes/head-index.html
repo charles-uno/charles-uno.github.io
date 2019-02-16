@@ -12,9 +12,9 @@
     <a href="" id="logo" onclick="return false;">{{ site.title }}</a>
 
     {% for tag in tags %}
-    <span class="glyph-nowrapper">
+    <span class="head-glyph">
         <a class="tag-link" ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
-            <span class="head-tag head-tag-{{ tag }}"></span>
+          <i id="head-tag-{{tag}}" class="head-tag"></i>
         </a>
     </span>
     {% endfor %}

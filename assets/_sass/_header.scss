@@ -61,49 +61,28 @@ border-radius: $uno-mas-radius;
 -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
 box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
 
-
     pointer-events: auto;
     &:hover { color: $text-color; }
 }
 
-
-
-.glyph-wrapper, .glyph-nowrapper {
-    width: $head-glyph-wrap-size;
-    height: $head-glyph-wrap-size;
+.head-glyph {
+    width: $head-glyph-size;
+    height: $head-glyph-size;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0;
     margin: 0;
     padding: 0;
-}
-
-.glyph-nowrapper {
-    font-size: $head-glyph-wrap-size;
     background: none;
-    color: $contrast-color;
-    &:hover { color: $text-color; }
 }
 
-.glyph-wrapper {
+.head-tag {
     font-size: $head-glyph-size;
-
-    border-radius: 0.5*$head-glyph-wrap-size;
-    overflow: hidden;
-//    background-color: $contrast-color;
-
-    border: 2px solid $contrast-color;
-    color: $contrast-color;
-
-//    color: $text-color;
-
-    // Flip the colors on hover.
+    color: $shadow-color;
     &:hover {
-//        color: $contrast-color;
-//        background-color: $text-color;
-        border: 2px solid $text-color;
         color: $text-color;
+        cursor: pointer;
     }
 }
 
@@ -174,24 +153,6 @@ div.wrap-head {
     &:hover {
         color: $text-color;
     }
-}
-
-// Formatting for the filter input box.
-
-#index-filter {
-    border: 0;
-    margin-right: $pad;
-    height: $head-glyph-wrap-size;
-    border-radius: 0.5*$head-glyph-wrap-size;
-    overflow: hidden;
-    padding: 0 10px;
-    width: 100%;
-    font-size: $caption-size;
-    outline: 0;
-}
-
-#index-filter:focus {
-    box-shadow: 0 0 3px 1px $contrast-color;
 }
 
 // A table-style box is wrapped around the contents. This allows us to

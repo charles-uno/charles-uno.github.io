@@ -78,15 +78,9 @@
 .index-tags {
     top: 90%;
     white-space: nowrap;
-}
-
-.index-tag {
-//    background-color: $paper-color;
     color: $contrast-color;
     font-size: $tags-size;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: $half-pad;
+    margin: $pad;
 }
 
 .index-tags, .index-name {
@@ -105,12 +99,4 @@
 .index-thumb {
     height: 100%;
     width: 100%;
-}
-
-.tag-link, .head-tag {
-    color: $contrast-color;
-    &:hover {
-        color: $text-color;
-        cursor: pointer;
-    }
 }

@@ -22,46 +22,6 @@ var posts = [
     {% endfor %}
 ];
 
-{% assign tags = "" | split: "|" %}
-{% for post in site.posts %}
-    {% for tag in post.tags %}
-        {% assign tags = tags | push: tag %}
-    {% endfor %}
-{% endfor %}
-{% assign tags = tags | sort | uniq %}
-
-var tags = [
-    {% for tag in tags %}
-    "{{ tag }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-];
-
-var tags_toggle = {
-    {% for tag in tags %}
-        "{{ tag }}": false{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-};
-
-var tags_icon = {
-    "self": "<i class=\"fas fa-fingerprint\"></i>",
-    "politics": "<i class=\"fas fa-landmark\"></i>",
-    "games":  "<i class=\"fas fa-dice-d20\"></i>",
-    "stem": "<i class=\"fas fa-atom\"></i>",
-    "food": "<i class=\"fas fa-utensils\"></i>"
-};
-
-for (const [key, val] of Object.entries(tags_icon)) {
-    console.log(key, val);
-    to_tag = document.getElementsByClassName("index-tag-" + key);
-    for (var i = 0; i < to_tag.length; i++) {
-        to_tag[i].innerHTML += val;
-    }
-    to_tag = document.getElementsByClassName("head-tag-" + key);
-    for (var i = 0; i < to_tag.length; i++) {
-        to_tag[i].innerHTML += val;
-    }
-}
-
 // #####################################################################
 
 // Let's also have a scrambled list of posts, for browsing.
