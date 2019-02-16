@@ -9,20 +9,22 @@ header { padding: $pad; width: 100%; text-align: center; }
     text-align: center;
     border: 0;
     padding: 0;
-    margin: $post-date-size 0;
+    margin: $pad 0;
 }
 
 .post-title { display: block; }
 
 .post-under-title {
+    height: $post-title-size;
     width: 100%;
     max-width: $text-width;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
-.post-date, .post-tags { display: inline-block; }
+.post-date, .post-tags { display: inline-block; vertical-align: middle; }
 
 .post-tag { margin: $half-pad; &:hover { cursor: pointer; } }
 
@@ -142,7 +144,7 @@ article {
                 margin: $pad 0;
                 width: 100%;
                 border: 0;
-                p { max-width: $text-width; margin: 0; }
+                p { width: 100%; max-width: 100%; margin: 0; }
             }
             li > p:before {
                 content:counter(li);
