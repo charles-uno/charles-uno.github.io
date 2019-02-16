@@ -12,11 +12,9 @@
     <a href="" id="logo" onclick="return false;">{{ site.title }}</a>
 
     {% for tag in tags %}
-    <span class="head-glyph">
-        <a class="tag-link" ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
-          <i id="head-tag-{{tag}}" class="head-tag"></i>
+        <a ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
+          <i id="head-tag-{{tag}}" class="head-glyph"></i>
         </a>
-    </span>
     {% endfor %}
 
 </div>

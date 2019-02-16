@@ -29,14 +29,19 @@ var tags_icon = {
 
 for (const [key, val] of Object.entries(tags_icon)) {
     console.log(key, val);
-    var post_tags = document.getElementsByClassName("index-tag-" + key);
+    var index_tags = document.getElementsByClassName("index-tag-" + key);
+    for (var i = 0; i < index_tags.length; i++) {
+        index_tags[i].className = index_tags[i].className + " " + val;
+    }
+    var post_tags = document.getElementsByClassName("post-tag-" + key);
     for (var i = 0; i < post_tags.length; i++) {
         post_tags[i].className = post_tags[i].className + " " + val;
     }
     var head_tag = document.getElementById("head-tag-" + key);
-    head_tag.className = head_tag.className + " " + val;
+    if (head_tag) {
+        head_tag.className = head_tag.className + " " + val;
+    }
 }
-
 
 function resetToggles() {
     for (var i = 0; i < tags.length; i++) {
@@ -124,14 +129,14 @@ function toggleOff(tag) {
 function showPost(post) {
     console.log("showing", post.slug);
     var item = document.getElementById("item-" + post.slug);
-    item.style.display = "inline-block";
+    if (item) { item.style.display = "inline-block"; }
     return;
 }
 
 function hidePost(post) {
     console.log("hiding", post.slug);
     var item = document.getElementById("item-" + post.slug);
-    item.style.display = "none";
+    if (item) { item.style.display = "none"; }
     return;
 }
 
@@ -149,3 +154,19 @@ document.onkeydown = function(evt) {
         headDefault();
     }
 };
+
+function goToTag(tag) {
+    window.location.href = "{{ site.url }}/#" + tag;
+};
+
+function tagHash() {
+    console.log("CALLED TAG HASH");
+
+    if (window.location.hash) {
+        console.log(window.location.hash);
+        toggleTag( window.location.hash.replace("#", "") );
+    }
+    return;
+}
+
+window.onload = tagHash;

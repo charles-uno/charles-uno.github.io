@@ -22,8 +22,9 @@
 function processMacros() {
     // Look for expressions of the form [[cardname]] and replace them
     // with <a class="card">cardname</a>.
-    var article = document.getElementsByTagName('article')[0];
-    var html_todo = article.innerHTML, html_done = "";
+    var articles = document.getElementsByTagName("article");
+    if (articles.length == 0) { return; }
+    var html_todo = articles[0].innerHTML, html_done = "";
     var i = 0;
     // Keep looping until we have processed all the macros.
     while ( html_todo.includes('[[') && html_todo.includes(']]') && i < 1000 ) {
@@ -57,14 +58,17 @@ function processMacros() {
         html_done += html_todo.slice(0, i0) + newtag;
         html_todo = html_todo.slice(i1 + 2);
     }
-    article.innerHTML = html_done + html_todo;
+    articles[0].innerHTML = html_done + html_todo;
 }
 
 // ---------------------------------------------------------------------
 
-function initCards(){
+var previousWindowLoader = window.onload;
+
+function initCards() {
+    if (previousWindowLoader) { previousWindowLoader(); }
     processMacros();
-    var cards = document.getElementsByClassName('card');
+    var cards = document.getElementsByClassName("card");
     for(var i=0;i<cards.length;i++){
         // Tolerate <a class="card">cardname:text</a>. Note that pipes
         // would be prettier, but Markdown thinks they're tables.
@@ -80,6 +84,8 @@ function initCards(){
         cards[i].innerHTML = text;
     }
 }
+
+window.onload = initCards;
 
 // ---------------------------------------------------------------------
 
@@ -188,5 +194,3 @@ function imageLink(cardName){
 }
 
 // ---------------------------------------------------------------------
-
-window.onload = initCards;

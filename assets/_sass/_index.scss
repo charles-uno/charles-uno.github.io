@@ -69,7 +69,6 @@
 
 .index-name {
     top: 50%;
-    color: $contrast-color;
     font-size: $name-size;
     font-family: $head-font;
     width: 170px;
@@ -77,13 +76,15 @@
 
 .index-tags {
     top: 90%;
-    white-space: nowrap;
-    color: $contrast-color;
+}
+
+.index-tag {
+    margin: $half-pad;
     font-size: $tags-size;
-    margin: $pad;
 }
 
 .index-tags, .index-name {
+    color: $contrast-color;
     display: inline-block;
     position: absolute;
     left: 50%;

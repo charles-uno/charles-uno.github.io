@@ -12,10 +12,11 @@ layout: default
     </span>
 
     <span class="post-tags">
-    {% assign post_keywords = post.keywords | split: " " %}
-    {% for keyword in post_keywords%}
-        <span class="post-tag">{{ keyword }}</span>
-    {% endfor %}
+       {% for tag in page.tags %}
+            <a ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}');">
+                <i class="post-tag post-tag-{{tag}}"></i>
+            </a>
+        {% endfor %}
     <span>
 
     {% if page.date and page.showdate %}
