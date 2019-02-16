@@ -1,0 +1,146 @@
+
+#index-list { background-color: $paper-color; }
+
+.index-wrap { background: $shadow-color; }
+
+.index-cell {
+    background-color: rgba($text-color, 0.7);
+    &:hover { background: none; }
+}
+
+.index-name {
+    font-size: $name-size;
+    font-family: $head-font;
+}
+
+.index-tag {
+    font-size: $tags-size;
+}
+
+.index-tags, .index-name {
+    color: $contrast-color;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+// =====================================================================
+
+#logo {
+    font-size: $logo-size;
+    font-family: $logo-font;
+    color: $contrast-color;
+    &:hover { color: $text-color; }
+}
+
+.head-glyph {
+    font-size: $head-glyph-size;
+    color: $shadow-color;
+    &:hover { color: $text-color; }
+}
+
+// =====================================================================
+
+div.left-flank-main { background-color: $shadow-color; }
+
+div.right-flank-main { background-color: $shadow-color; }
+
+div.full-main { background-color: $shadow-color; }
+
+div.main { background: $paper-color; }
+
+div.full-head {
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    background: radial-gradient($bold-color-1, $bold-color-3);
+    background-size: 3px 3px;
+}
+
+div.head {
+    a, a:visited { color: $text-color; }
+    a:hover { color: $paper-color; }
+}
+
+// =====================================================================
+
+.copy {
+    color: $text-color;
+    font-size: $caption-size;
+    a { color: $bold-color-2; &:hover { color: $text-color; } }
+}
+
+// =====================================================================
+
+.post-title {
+    font-family: $head-font;
+    font-size: $post-title-size;
+}
+
+.post-tag {
+    font-size: $post-glyph-size;
+    color: $bold-color-2;
+    &:hover { color: $text-color; }
+}
+
+.post-date { font-size: $post-date-size; }
+
+article {
+
+    font-size: $text-size;
+
+    a {
+        color: $bold-color-2;
+        &:hover { color: $text-color; }
+    }
+
+    table, tbody, tr { background-color: $shadow-color; }
+
+    caption { background-color: $shadow-color; }
+
+    .table-caption {
+        font-size: $caption-size;
+        background-color: $shadow-color;
+    }
+
+    blockquote { background-color: $shadow-color; }
+
+    .cardlist, .cardlist-with-sideboard {
+        .deckname { font-weight: bold; }
+        background-color: $shadow-color;
+    }
+
+    img { background-color: $shadow-color; }
+
+    // If an image is followed immediately by italics, that's a caption.
+    img + em {
+        font-size: $caption-size;
+        font-style: normal;
+        background-color: $shadow-color;
+    }
+
+    // Ordered lists show as tiles, like on the index.
+    ol {
+        background-color: $paper-color;
+        li {
+            background-color: $shadow-color;
+            font-size: $caption-size;
+        }
+    }
+
+    div.footnotes {
+        font-size: $caption-size;
+        ol { background-color: $paper-color; }
+        li { background-color: $shadow-color; }
+    }
+
+}
+
+hr {
+    color: $shadow-color;
+    border-color: $shadow-color;
+    background-color: $shadow-color;
+    height: $half-pad;
+    margin: 2*$text-size auto;
+    width: 100%;
+    max-width: $text-width;
+}

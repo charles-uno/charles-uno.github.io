@@ -1,0 +1,64 @@
+
+#index-list, .index-item, .index-wrap, .index-link, .index-tags, .index-name {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#index-list {
+    // List items have a half-pad built in. Subtract it off.
+    margin: -$half-pad;
+    // Eliminate whitespace between tiles.
+    font-size: 0px;
+    line-height: 0;
+}
+
+.index-item {
+    display: inline-block;
+    position: relative;
+    padding: $half-pad;
+    background: none;
+    width: 100%;
+    @media (min-width: 400px) { width: 50%; }
+    @media (min-width: 600px) { width: 33.33%; }
+    @media (min-width: 800px) { width: 25%; }
+}
+
+.index-wrap, .index-link, .index-cell, .index-thumb {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.index-wrap { position: relative; }
+
+.index-link { position: absolute; }
+
+.index-cell:hover {
+    .index-name { display: none; }
+    .index-tags { display: none; }
+}
+
+.index-name {
+    top: 50%;
+    width: 170px;
+}
+
+.index-tags {
+    top: 90%;
+}
+
+.index-tag {
+    margin: $half-pad;
+}
+
+.index-tags, .index-name {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+}

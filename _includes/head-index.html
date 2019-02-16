@@ -8,13 +8,10 @@
 {% endfor %}
 {% assign tags = tags | sort | uniq %}
 
-<div class="wrap-head" id="wrap-head-default">
-    <a href="" id="logo" onclick="return false;">{{ site.title }}</a>
+<a href="" id="logo" onclick="return false;">{{ site.title }}</a>
 
-    {% for tag in tags %}
-        <a ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
-          <i id="head-tag-{{tag}}" class="head-glyph"></i>
-        </a>
-    {% endfor %}
-
-</div>
+{% for tag in tags %}
+    <a ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');">
+      <i id="head-tag-{{tag}}" class="head-glyph"></i>
+    </a>
+{% endfor %}

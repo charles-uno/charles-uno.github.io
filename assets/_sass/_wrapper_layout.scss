@@ -1,0 +1,80 @@
+
+#logo, .head-glyph {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.head-glyph:hover { cursor: pointer; }
+
+// =====================================================================
+
+div.full-main, div.wrap-main {
+    height: 100%;
+}
+
+div.full-head, div.full-main, div.head, div.wrap-main {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+div.full-head {
+    z-index: 99;
+    top: 0px;
+    position: fixed;
+}
+
+div.head {
+    max-width: $content-width;
+    padding: $half-pad $side-pad;
+    display: flex;
+    justify-content: space-between;
+    height: $head-height;
+    margin: 0 auto;
+    align-items: center;
+}
+
+// Wrapper is styled like a table. Content width is fixed (though it can
+// squish) and the flanks fill the rest.
+
+div.wrap-main { display: table; }
+
+div.main, div.left-flank-main, div.right-flank-main {
+    display: table-cell;
+    min-height: 100%;
+    position: relative;
+    // Leave room for the copyright
+    padding-bottom: 55px;
+}
+
+div.main {
+    width: $content-width;
+    padding-top: $head-height + $pad;
+    padding-left: $side-pad;
+    padding-right: $side-pad;
+    text-align: justify;
+    header, article, footer {
+        border: 0; margin: 0; padding: 0;
+    }
+}
+
+// =====================================================================
+
+.copy {
+    // Copyright blurb at the bottom.
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: $pad;
+    line-height: 1;
+    height: $caption-size + 2*$pad;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+}

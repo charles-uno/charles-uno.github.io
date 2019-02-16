@@ -100,6 +100,9 @@ function intersect(arr0, arr1) {
 }
 
 function toggleOn(tag) {
+
+    // TODO: Instead of hard-coding, judge by logo and copyright colors.
+
     var id = "#head-tag-" + tag
     var css = id + " { color: #222; } " + id + ":hover { color: #fff; }";
     var style = document.createElement("style");

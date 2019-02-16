@@ -1,0 +1,149 @@
+
+// NOTE: This file is a bit of a mess. But it's also pretty cosmetic.
+// You could nuke this file and the site would pretty much still work.
+
+header { padding: $pad; }
+
+.post-title, .post-tags, .post-date {
+    line-height: 1;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: $post-date-size auto;
+}
+
+.post-tag {
+    margin: $pad;
+    &:hover { cursor: pointer; }
+}
+
+article {
+
+    line-height: 1.5;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+    table, tbody, tr, caption { width: 100%; }
+
+    table {
+        margin: $text-size auto;
+        margin-bottom: $half-pad;
+        thead { border-bottom: $half-pad solid $paper-color; }
+        padding: $half-pad;
+    }
+
+    caption {
+        width: 100%;
+        text-align: left;
+        padding: $pad;
+        border-bottom: $half-pad solid $paper-color;
+    }
+
+    .table-caption {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        text-align: justify;
+        display: block;
+        padding: $pad;
+    }
+
+    th, td { padding: $pad; }
+
+    ul, p, h1, h2, h3, h4, h5, h6 {
+        margin: $text-size auto;
+        max-width: $text-width;
+    }
+
+    h2 { margin-top: 2*$text-size; }
+
+    li { margin: 0.5*$text-size 0; }
+
+    blockquote {
+        margin: 0 auto;
+        border: 0;
+        padding: $pad;
+        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
+        p:first-child { margin-top: 0; }
+        p:last-child { margin-bottom: 0; }
+    }
+
+    .cardlist, .cardlist-with-sideboard {
+        width: 100%;
+        td { height: 100%; vertical-align: top; }
+        .deckname { font-weight: bold; }
+        margin: 0 auto;
+        border: 0;
+        padding: $pad;
+        p { width: 100%; max-width: 100%; margin: 0; padding: 0; border: 0; }
+    }
+
+    .cardlist { td { width: 33.3%; } }
+    .cardlist-with-sideboard { td { width: 25%; } }
+
+    img { width: 100%; padding: $pad; }
+
+    // If an image is followed immediately by italics, that's a caption.
+    img + em {
+        width: 100%;
+        text-align: justify;
+        display: block;
+        padding: 0 $pad $pad $pad;
+    }
+
+    // Ordered lists show as tiles, like on the index.
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        margin: -$half-pad;
+        border: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            float: left;
+            clear: none;
+            display: inline-block;
+            border: $half-pad solid $paper-color;
+            margin: 0;
+            width: 100%;
+            @media (min-width: 300px) { width: 50%; }
+            @media (min-width: 600px) { width: 33.33%; }
+            font-size: $caption-size;
+            // Padding is handled by the tiles, not images and captions.
+            padding: $pad;
+            img { padding: 0; }
+            img + em { padding: $pad 0 0 0; }
+        }
+    }
+
+    div.footnotes {
+        ol {
+            // Adding counters to the footnots, per: http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
+            counter-reset: li;
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: $pad;
+            li {
+                text-align: justify;
+                list-style:none;
+                margin: $pad 0;
+                width: 100%;
+                border: 0;
+                p { max-width: $content-width; margin: 0; }
+            }
+            li > p:before {
+                content:counter(li);
+                counter-increment:li;
+                margin-right: $pad;
+                font-weight:bold;
+                text-align:center;
+            }
+        }
+    }
+}

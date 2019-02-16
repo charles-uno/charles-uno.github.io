@@ -3,13 +3,14 @@ layout: compress
 ---
 @charset 'utf-8';
 @import 'normalize';
-// @import 'swiper';
 
 @import 'base';
-// @import 'btn';
 @import 'code';
 
-@import 'header';
-@import 'index';
-@import 'post';
-// @import 'demos';
+@import 'wrapper_layout';
+@import 'index_layout';
+@import 'post_layout';
+
+@import 'colors_fonts';
+
+@import 'uno_mas';
