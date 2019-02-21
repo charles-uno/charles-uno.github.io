@@ -3,18 +3,19 @@ layout: post
 title: "Bacon Sprout Pilaf"
 image: "/assets/images/bacon-sprout-thumb.png"
 description: ""
-keywords: lunch, vegetables, side
 tags: food
 ---
 
-- 250mL (1c) chopped bacon
-- 1L (4c) halved brussels sprouts
-- 1L (4c) cooked brown rice, cooked
-- 100mL (½c) sliced or slivered almonds
-- 100mL (½c) dried cranberries
+- 250mL (1c) bacon, chopped
+- 1L (4c) brussels sprouts, halved
+- 1L (4c) cooked brown rice
+- 100mL (½c) slivered almonds
+- 100mL (½c) dried cranberries (optional)
 - black pepper
 
-![](/assets/images/bacon-sprout-ingredients-16x9.png)
+---
+
+![Bacon Sprout Pilaf Ingredients](/assets/images/bacon-sprout-ingredients-16x9.png)
 
 Cook the bacon in a large skillet, low and slow, to render out as much grease as possible. Once the bacon is crispy, remove it from the pan. Leave the grease.
 
@@ -24,4 +25,4 @@ Return the bacon to the pan, and gently stir in the rice, cranberries, and almon
 
 Makes six lunch-sized portions.
 
-![](/assets/images/bacon-sprout-pilaf-16x9.png)
+![Bacon Sprout Pilaf](/assets/images/bacon-sprout-pilaf-16x9.png)
