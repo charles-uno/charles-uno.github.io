@@ -6,6 +6,11 @@ description: ""
 tags: food
 ---
 
+This one is a favorite! No nonsense
+
+
+
+
 - 250mL (1c) bacon, chopped
 - 1L (4c) brussels sprouts, halved
 - 1L (4c) cooked brown rice
