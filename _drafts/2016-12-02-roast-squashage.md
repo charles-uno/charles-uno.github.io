@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Roast Squashage"
-image: "/assets/images/stuffed-squash-thumb.png"
+image: "/assets/images/placeholder-08-thumb.png"
 description: ""
 ---
 

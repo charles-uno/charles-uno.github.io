@@ -31,3 +31,5 @@ Return the bacon to the pan, and gently stir in the rice, cranberries, and almon
 Makes six lunch-sized portions.
 
 ![Bacon Sprout Pilaf](/assets/images/bacon-sprout-pilaf-16x9.png)
+
+![Bacon Sprout Pilaf](/assets/images/bacon-sprout-skillet-16x9.png)
