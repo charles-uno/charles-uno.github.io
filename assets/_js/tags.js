@@ -27,8 +27,15 @@ var tags_icon = {
     "food": "fas fa-utensils"
 };
 
+var tags_popups = {
+    "self": "Myself",
+    "politics": "Politics",
+    "games":  "Fun & Games",
+    "stem": "Math & Science",
+    "food": "Food"
+};
+
 for (const [key, val] of Object.entries(tags_icon)) {
-    console.log(key, val);
     var index_tags = document.getElementsByClassName("index-tag-" + key);
     for (var i = 0; i < index_tags.length; i++) {
         index_tags[i].className = index_tags[i].className + " " + val;
@@ -40,8 +47,11 @@ for (const [key, val] of Object.entries(tags_icon)) {
     var head_tag = document.getElementById("head-tag-" + key);
     if (head_tag) {
         head_tag.className = head_tag.className + " " + val;
+        // Update the popup text per above.
+        head_tag.parentNode.title = tags_popups[head_tag.parentNode.title];
     }
 }
+
 
 function resetToggles() {
     for (var i = 0; i < tags.length; i++) {
