@@ -6,7 +6,7 @@ description: "Step aside, cucumbers. There's a new pickle in town."
 tags: food
 ---
 
-The following is enough to make two quarts. The photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
+The following is enough to make two quarts. Photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
 
 - Beans to fill two quart jars (about 100 beans)
 - 30 mL (2 T) black peppercorns
