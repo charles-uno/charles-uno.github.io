@@ -33,12 +33,11 @@ var shuffledTitles = [];
 // key, and sort by the keys.
 function initShuffledTitles() {
     var shuffledPosts = [];
-//    console.log('shuffling titles');
+    console.log('shuffling titles');
     // Assign each title a random sort key.
     for (var i=0; i < posts.length; i++) {
         if (!posts[i].redirect) {
             shuffledPosts.push( {'title':posts[i].title, 'sortkey':Math.random()} );
-//        console.log(posts[i].title);
         }
     }
     // To shuffle, sort by the sortkeys.

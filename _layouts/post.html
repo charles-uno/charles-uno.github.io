@@ -15,7 +15,7 @@ layout: default
 
         <span class="post-tags">
             {% for tag in page.tags %}
-            <a ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}');">
+            <a ontouchstart="goToTags(['{{ tag }}']); return false;" onclick="goToTags(['{{ tag }}']);">
                 <i class="post-tag post-tag-{{tag}}"></i>
             </a>
             {% endfor %}
