@@ -2,7 +2,7 @@
 layout: post
 title: "Purple Pot Roast"
 image: "/assets/images/pot-roast-thumb.png"
-description: "Super easy, super tasty. Honestly, the trickiest part is getting a decent photo."
+description: "Formerly known as the prince of pot roasts."
 tags: food
 ---
 
@@ -19,7 +19,7 @@ tags: food
 - Salt & pepper
 - Oil
 
-![Purple Pot Roast](/assets/images/pot-roast-16x9.png)
+---
 
 Splash some oil in a heavy-bottomed pan and crank the heat. Sprinkle the top of your roast generously with salt and pepper and pat to adhere. Cook the roast, salt-side-down, until it forms a nice crust. Repeat on the other side, then turn off the burner and set the roast aside.
 
@@ -32,3 +32,5 @@ Turn the crock pot to high and let it go for about three hours. Check on it ever
 Once done, scoop out the vegetables into a large bowl or baking dish. Then carefully remove and slice the roast. It will be very tender, and might try to fall apart when you handle it. The onions, garlic, and juices will all dissolve into a gravy in the bottom of the crock. Pour them over the meat and veggies (removing the thyme sprigs) before serving.
 
 Serves six.
+
+![Purple Pot Roast](/assets/images/pot-roast-16x9.png)
