@@ -8,12 +8,12 @@ tags: food
 
 ![Purple Pot Roast Ingredients](/assets/images/pot-roast-ingredients-16x9.png)
 
-- 1 kg (2-2.5 lb) chuck roast
-- 1 L (4 cups) purple potatoes, chopped
-- 1 L (4 cups) purple carrots, chopped
-- 500 mL (2 cups) rutabaga, chopped
-- 500 mL (2 cups) red onion, diced
-- 60 mL (1/4 cup) balsamic vinegar
+- <span class="metric">1 kg</span><span class="imperial">2-2.5 lb</span> chuck roast
+- <span class="metric">1 L</span><span class="imperial">4 c</span> purple potatoes, chopped
+- <span class="metric">1 L</span><span class="imperial">4 c</span> purple carrots, chopped
+- <span class="metric">500 mL</span><span class="imperial">2 c</span> rutabaga, chopped
+- <span class="metric">500 mL</span><span class="imperial">2 c</span> red onion, diced
+- <span class="metric">60 mL</span><span class="imperial">1/4 c</span> balsamic vinegar
 - 5 cloves garlic, crushed
 - A few sprigs of fresh thyme
 - Salt & pepper

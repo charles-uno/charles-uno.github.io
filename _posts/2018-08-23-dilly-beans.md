@@ -9,17 +9,17 @@ tags: food
 The following is enough to make two quarts. Photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
 
 - Beans to fill two quart jars (about 100 beans)
-- 30 mL (2 T) black peppercorns
+- <span class="metric">30 mL</span><span class="imperial">2 T</span> black peppercorns
 - 2 large garlic cloves (or several small ones), peeled
 - Habanero[^2] pepper, halved, seeds and stem removed
-- 2 crowns fresh dill (or about 2 T dill seed)
-- 60 mL (4 T) canning/pickling salt[^1]
-- 600 mL (2.5 c) water
-- 600 mL (2.5 c) vinegar
+- 2 crowns fresh dill (or about <span class="metric">30 mL</span><span class="imperial">2 T</span> dill seed)
+- <span class="metric">60 mL</span><span class="imperial">1/4 c</span> canning/pickling salt[^1]
+- <span class="metric">600 mL</span><span class="imperial">2.5 c</span> water
+- <span class="metric">600 mL</span><span class="imperial">2.5 c</span> white vinegar
 
 [^1]: It's not safe to substitute regular salt for canning/pickling salt! The crystals are shaped differently, which affects how they measure. Swapping one for the other can mess with the chemistry of your brine, allowing dangerous bacteria to grow.
 
-[^2]: Don't let the hot peppers scare you off! You don't actually eat them. They're just there to add flavor to the brine. In the past I've even used [Carolina Reapers](https://en.wikipedia.org/wiki/Carolina_Reaper), which are way too hot for me to cook with. The beans turn out spicy, but nothing crazy. Just be sure to wear gloves while working with them -- especially if you wear contact lenses!
+[^2]: Don't let the hot peppers scare you off! You don't have to eat them. They're just there to add flavor to the brine. In the past I've even used [Carolina Reapers](https://en.wikipedia.org/wiki/Carolina_Reaper), which are way too hot for me to cook with. The beans turn out spicy, but nothing crazy. Just be sure to wear gloves while working with them -- especially if you wear contact lenses!
 
 ---
 
