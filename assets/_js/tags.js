@@ -80,12 +80,6 @@ function applyTagHash() {
     }
     // Show/hide posts in accordance with selected tags.
     for(var i = 0; i < posts.length; i++) {
-
-        if(!posts[i]) {
-            console.log("POST IS NULL??", posts[i]);
-            continue;
-        }
-
         if ( active_tags.length == 0 || intersect(posts[i].tags, active_tags) ) {
             showPost(posts[i]);
         } else {
@@ -139,6 +133,17 @@ function toggleTag(tag) {
     return goToTags(active_tags);
 }
 
+var useHover = true;
+
+function fixStickyHover() {
+    console.log("FIXING STICKY HOVER");
+    if (useHover) {
+        useHover = false;
+        applyTagHash();
+    }
+    return;
+}
+
 // ---------------------------------------------------------------------
 
 // Helpers to select/deselect header glyphs.
@@ -149,7 +154,13 @@ var copyColor = "#222";
 
 function toggleOn(tag) {
     var id = "#head-tag-" + tag
-    var css = id + " { color: " + copyColor + "; } " + id + ":hover { color: " + logoColor + "; }";
+    var css;
+    if (!useHover) {
+        css = id + " { color: " + copyColor + "; } " + id + ":hover { color: " + copyColor + "; }";
+    } else {
+        css = id + " { color: " + copyColor + "; } " + id + ":hover { color: " + logoColor + "; }";
+    }
+//    var css = id + " { color: " + copyColor + "; } " + id + ":hover { color: " + logoColor + "; } " + id + ":active { color: " + copyColor + "; } " + id + ":focus { color: " + copyColor + "; }";
     var style = document.createElement("style");
     if (style.styleSheet) {
         style.styleSheet.cssText = css;
@@ -161,7 +172,13 @@ function toggleOn(tag) {
 
 function toggleOff(tag) {
     var id = "#head-tag-" + tag
-    var css = id + " { color: " + logoColor + "; } " + id + ":hover { color: " + copyColor + "; }";
+    var css;
+    if (!useHover) {
+        css = id + " { color: " + logoColor + "; } " + id + ":hover { color: " + logoColor + "; }";
+    } else {
+        css = id + " { color: " + logoColor + "; } " + id + ":hover { color: " + copyColor + "; }";
+    }
+//    var css = id + " { color: " + logoColor + "; } " + id + ":hover { color: " + copyColor + "; } " + id + ":active { color: " + logoColor + "; } " + id + ":focus { color: " + logoColor + "; }";
     var style = document.createElement("style");
     if (style.styleSheet) {
         style.styleSheet.cssText = css;

@@ -11,7 +11,7 @@
 <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
 
 {% for tag in tags %}
-    <a ontouchstart="toggleTag('{{ tag }}'); return false;" onclick="toggleTag('{{ tag }}');" title="{{ tag }}" class="popup">
+    <a ontouchstart="toggleTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;" onclick="toggleTag('{{ tag }}');" title="{{ tag }}" class="popup">
       <i id="head-tag-{{tag}}" class="head-glyph"></i>
     </a>
 {% endfor %}
