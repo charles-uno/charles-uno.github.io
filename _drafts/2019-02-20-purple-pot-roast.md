@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Purple Pot Roast"
-image: "/assets/images/pot-roast-thumb.png"
+image: "/assets/images/carrot-thumb.png"
 description: "Formerly known as the prince of pot roasts."
 tags: food
 ---
@@ -29,7 +29,7 @@ Add the onions, garlic, and thyme to the bottom of the slow cooker. Then the roa
 
 Turn the crock pot to high and let it go for about three hours. Check on it ever so often with a fork. The potatoes should get quite soft, but the carrots should still have some firmness to them.
 
-Once done, scoop out the vegetables into a large bowl or baking dish. Then carefully remove and slice the roast. It will be very tender, and might try to fall apart when you handle it. The onions, garlic, and juices will all dissolve into a gravy in the bottom of the crock. Pour them over the meat and veggies (removing the thyme sprigs) before serving.
+Once done, scoop out the vegetables into a large bowl or baking dish. Then carefully remove and slice the roast. It will be very tender, and might try to fall apart when you handle it. The onions, garlic, and juices will all dissolve into a gravy in the bottom of the crock. Pour them over the meat and veggies (removing the thyme sprigs).
 
 Serves six.
 
