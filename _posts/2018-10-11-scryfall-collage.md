@@ -17,8 +17,8 @@ Working with the Scryfall API is a breeze. You ping a URL, and you get back a [c
 ```python
 import requests
 # The query !"forest" asks for cards named exactly "forest".
-info_url = 'https://api.scryfall.com/cards/search?q=!"forest"&unique=prints'
-forest_info = requests.get(info_url).json()
+url = 'https://api.scryfall.com/cards/search?q=!"forest"&unique=prints'
+forest_info = requests.get(url).json()
 ```
 
 If we go to the [the above URL](https://api.scryfall.com/cards/search?q=!"forest"&unique=prints) ourselves, we see a jumble of JSON. Some snippets of relevant-looking information, but condensed to the point of illegibility. Python gobbles that up no problem and spits out a well-behaved dictionary. Card data (rules text, collector number, etc) is packaged in `forest_info['data']`. In this case, there are too many search results to fit on one page, so `forest_info['next_page']` tells us where to make another request for the next batch.

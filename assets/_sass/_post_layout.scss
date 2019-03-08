@@ -61,23 +61,23 @@ article {
 
     th, td { padding: $pad; }
 
-    ul, p, h1, h2, h3, h4, h5, h6 {
+    ul, p, h1, h2, h3, h4, h5, h6, pre, blockquote {
         margin: $text-size auto;
         max-width: $text-width;
+    }
+
+    pre, blockquote {
+        border: 0;
+        padding: $pad;
+        margin: 0 auto;
+        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
+        p:first-child { margin-top: 0; }
+        p:last-child { margin-bottom: 0; }
     }
 
     h2 { margin-top: 2*$text-size; }
 
     li { margin: 0.5*$text-size 0; }
-
-    blockquote {
-        margin: 0 auto;
-        border: 0;
-        padding: $pad;
-        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
-        p:first-child { margin-top: 0; }
-        p:last-child { margin-bottom: 0; }
-    }
 
     .cardlist, .cardlist-with-sideboard {
         width: 100%;
