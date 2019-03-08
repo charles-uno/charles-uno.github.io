@@ -18,8 +18,8 @@ That said, the setup for Jekyll is a pain in the ass. I recently fresh-installed
 - Uh oh. 
 - Uninstall *both* Jekylls. 
 - Install Bundler, then do `bundle install` to install all the dependencies from the repo's Gemfile.
-- Also do `bundle update`, because someone online said it would fix this weird error you're seeing. 
-- Bundle is now in charge. Instead of `jekyll serve`, you now have to do `bundle exec jekyll serve`. 
+- Also do `bundle update`, because someone online said it would fix this weird error. 
+- Bundle is now in charge. Instead of `jekyll serve`, I now have to do `bundle exec jekyll serve`. 
 
 
 
