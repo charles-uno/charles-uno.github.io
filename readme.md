@@ -1,15 +1,8 @@
-See [`_posts/2016-11-25-about.md`](_posts/2016-11-25-about.md).
 
+# Charles' Site, Built with Jekyll
 
+[Jekyll](https://jekyllrb.com/) template adapted from the [Jekyll Research Center Gallery](http://themes.jekyllrc.org/). Hosted at [charles.uno](http://charles.uno) via [GitHub Pages](https://pages.github.com/).
 
+Public domain images from [Unsplash](https://unsplash.com/) list the photographer in the URL. Header and tag glyphs via [Font Awesome](http://fontawesome.io/).
 
-Ruby Sass is deprecated and will be unmaintained as of 26 March 2019.
-
-* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
-  primary implementation: https://sass-lang.com/install
-
-* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
-  sassc gem: https://github.com/sass/sassc-ruby#readme
-
-* For more details, please refer to the Sass blog:
-  http://sass.logdown.com/posts/7081811
+Dependencies for this site are handled by the Gemfile, Dockerfile, and Makefile. After cloning the repo yourself, you can serve it locally by simply running `make`.
