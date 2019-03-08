@@ -1,11 +1,11 @@
-name: Charles McEachern
+name: Charles Fyfe
 title: charles
 description: "food, games, science, politics"
 url: 'http://charles.uno'
 baseurl: ''
 github: 'https://github.com/chizarlicious'
 author:
-    name: Charles McEachern
+    name: Charles Fyfe
     twitter: charles_uno
 twitter:
   username: charles_uno
@@ -13,17 +13,16 @@ facebook:
     publisher: https://www.facebook.com/charles.a.mceachern
 logo: null
 social:
-  name: Charles McEachern
+  name: Charles Fyfe
   links:
     - https://twitter.com/charles_uno
     - https://www.facebook.com/charles.a.mceachern
     - https://www.linkedin.com/in/charlesmceachern
-    - https://plus.google.com/+CharlesMcEachern
     - https://github.com/charles-uno
 permalink: /:title/
 markdown: kramdown
 cdn: ''
-plugins:
+plugins_dir:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
