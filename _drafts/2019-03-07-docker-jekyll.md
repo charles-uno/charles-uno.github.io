@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker Jekyll and My Hyde"
+title: "Docker Jekyll and Mr Hyde"
 image: "/assets/images/placeholder-06-thumb.png"
 description: "Setting up Jekyll is a pain in the ass. Let Docker take care of it for you."
 tags: stem
@@ -32,4 +32,3 @@ Then I can point a browser to `localhost:4000` and see my site, just like I woul
 The only real snag I hit was with the port forwarding. On a Linux machine, a service running on port 4000 within the container can be forwarded to the host machine using the flag `-p 4000:4000`. But my new machine is a Macbook, and Docker works a bit differently on OSX. Under the hood, OSX run the container is run [in a VM](https://docs.docker.com/docker-for-mac/networking/). So `-p` forwards the container port to the *VM* port, not the *host* port. 
 
 It took me a while to figure out what was going on. Luckily, once I did, the [workaround](https://forums.docker.com/t/using-localhost-for-to-access-running-container/3148/9) is easy: instead of serving to `127.0.0.1` (the local machine), tell Jekyll to serve on `0.0.0.0` (a [wildcard address](https://www.howtogeek.com/225487/what-is-the-difference-between-127.0.0.1-and-0.0.0.0/)). 
-
