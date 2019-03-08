@@ -21,11 +21,7 @@ That said, the setup for Jekyll is a pain in the ass. I recently fresh-installed
 - Also do `bundle update`, because someone online said it would fix this weird error. 
 - Bundler is now in charge. To fire up the site locally (for development and debugging), I now have to use `bundle exec jekyll serve` instead of just `jekyll serve`. 
 
-It works, but it's not pretty. To avoid going through this again, I packaged up the process using Docker. 
-
-All the dependencies are installed (in the right order) in the [Dockerfile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Dockerfile), and orchestration is written up in the [Makefile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Makefile). 
-
-With just Docker and a command line, I can now build the image, fire up my site within that image, and serve it locally by running:
+It works, but it's not pretty. To avoid going through this again, I packaged up the process using Docker. All the dependencies are installed (in the right order) in the [Dockerfile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Dockerfile), and orchestration is written up in the [Makefile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Makefile). With just Docker and a command line, I can now build the image, fire up my site within that image, and serve it locally by running:
 
 ```
 make
