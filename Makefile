@@ -7,7 +7,7 @@ MOUNT := /workspace
 all: serve
 
 serve:
-	docker run --rm --net=host --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve
+	docker run --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve
 
 drafts:
 	docker run --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve --drafts
@@ -19,4 +19,4 @@ refresh: Dockerfile Gemfile
 	docker build . -f Dockerfile -t $(IMAGE) --no-cache
 
 debug:
-	docker run -it --rm --net=host --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE)
+	docker run -it --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE)

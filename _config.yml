@@ -1,3 +1,7 @@
+# Docker for OSX uses a VM so we need 0.0.0.0 instead of 127.0.0.1
+host: 0.0.0.0
+port: 4000
+
 name: Charles Fyfe
 title: charles
 description: "food, games, science, politics"
