@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The (Abridged) Skywalker Paradigm"
-image: "/assets/images/skywalker-paradigm-thumb.png"
+image: "/assets/images/thumb/skywalker-paradigm.png"
 description: "I'm not trying to tell you about the plot holes in Star Wars -- I'm telling you there are NO plot holes in Star Wars."
 tags: games
 ---

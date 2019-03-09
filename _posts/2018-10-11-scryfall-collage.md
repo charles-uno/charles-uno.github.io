@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let the Scry Fall"
-image: "/assets/images/mtg-collage-thumb.png"
+image: "/assets/images/thumb/mtg-collage.png"
 description: "Put down the scissors and glue. Today we're making collages in Python!"
 tags: games stem
 ---

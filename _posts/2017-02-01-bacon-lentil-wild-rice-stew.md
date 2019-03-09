@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bacon, Lentil, and Wild Rice Stew"
-image: "/assets/images/bacon-lentil-wild-rice-thumb.png"
+image: "/assets/images/thumb/bacon-lentil-wild-rice.png"
 description: "Entry into Cray 2017 Souper Bowl fundraiser"
 tags: food
 ---

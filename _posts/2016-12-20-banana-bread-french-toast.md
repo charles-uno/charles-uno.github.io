@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Banana Bread French Toast"
-image: "/assets/images/banana-bread-french-toast-thumb.png"
+image: "/assets/images/thumb/banana-bread-french-toast.png"
 description: "A decadent treat for Saturday morning or Sunday night."
 tags: food
 ---

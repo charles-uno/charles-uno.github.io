@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PT RIX Tournament Report"
-image: "/assets/images/pt-rix-thumb.png"
+image: "/assets/images/thumb/pt-rix.png"
 description: "Made Day 2 at my first Pro Tour! Things went downhill from there."
 tags: games
 hidden: true

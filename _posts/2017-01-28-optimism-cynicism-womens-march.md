@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Optimism and Cynicism at the Women's March"
-image: "/assets/images/womens-march-thumb.png"
+image: "/assets/images/thumb/womens-march.png"
 description: "Team Bernie and Team Hillary were both out in force. I know which camp I'm in, but I don't know if my camp can win."
 tags: politics
 ---

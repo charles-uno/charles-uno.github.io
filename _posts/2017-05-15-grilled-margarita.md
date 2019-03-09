@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grilled Citrus Margaritas"
-image: "/assets/images/grilled-margarita-thumb.png"
+image: "/assets/images/thumb/grilled-margarita.png"
 description: "Treat yourself to this smoky-yet-fresh summer drink."
 tags: food
 ---

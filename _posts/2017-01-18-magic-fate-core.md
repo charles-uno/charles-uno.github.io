@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hassle-Free Magic in Fate Core"
-image: "/assets/images/miniature-dwarf-male-thumb.png"
+image: "/assets/images/thumb/miniature-dwarf-male.png"
 description: "Arcane lore in Fate Core doesn't have to be a chore. Read on for more!"
 tags: games
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RPTQ RIX Tournament Report
-image: "/assets/images/anger-of-the-gods-noah-bradley-thumb.png"
+image: "/assets/images/thumb/anger-of-the-gods-noah-bradley.png"
 description: "Next stop, Bilbao!"
 tags: games
 hidden: true

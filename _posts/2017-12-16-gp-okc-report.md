@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GP OKC Tournament Report"
-image: "/assets/images/desperate-ritual-wayne-reynolds-thumb.png"
+image: "/assets/images/thumb/desperate-ritual-wayne-reynolds.png"
 description: "Taking an experimental Titan Breach list to OKC for a test drive."
 tags: games
 hidden: true

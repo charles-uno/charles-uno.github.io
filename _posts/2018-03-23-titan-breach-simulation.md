@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deck Chairs on the Titanic"
-image: "/assets/images/pt-rix-thumb.png"
+image: "/assets/images/thumb/pt-rix.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
 tags: games stem
 ---

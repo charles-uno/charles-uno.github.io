@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tarts and Tactics under the Tent"
-image: "/assets/images/gbbo-thumb.png"
+image: "/assets/images/thumb/gbbo.png"
 description: "The Great British Bake Off is not decided by intrinsic baking ability. Rather, it tests each baker's ability to adapt to their surroundings. Mild spoilers."
 tags: food stem
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Farm to Freezer"
-image: "/assets/images/freezer-peppers-thumb.png"
+image: "/assets/images/thumb/freezer-peppers.png"
 description: "A little extra work in the summer can yield a lot of extra vegetables in the winter!"
 tags: food
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deck Chairs on the Titanic
-image: "/assets/images/prime-time-thumb.png"
+image: "/assets/images/thumb/primeval-titan-aleksi-briclot.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
 hidden: true
 tags: games

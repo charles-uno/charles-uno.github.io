@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aunt Mary's Cranberries"
-image: "/assets/images/aunt-marys-cranberries-thumb.png"
+image: "/assets/images/thumb/aunt-marys-cranberries.png"
 description: A simple side filled with fresh fruit flavor.
 tags: food
 ---

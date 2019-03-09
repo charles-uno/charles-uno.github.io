@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Badges and Bandages
-image: "/assets/images/fence-thumb.png"
+image: "/assets/images/thumb/joshua-hoehne-fence.png"
 description: "When a doctor messes up and kills someone, we call it malpractice instead of murder. Might a similar system work for policing?"
 tags: politics
 ---

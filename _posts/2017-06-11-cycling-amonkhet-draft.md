@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stirring the Sands"
-image: "/assets/images/desert-cerodon-igor-kieryluk-thumb.png"
+image: "/assets/images/thumb/desert-cerodon-igor-kieryluk.png"
 description: "How many lands should you play when drafting *Magic: the Gathering* Amonkhet?"
 tags: games stem
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Purple Pot Roast"
-image: "/assets/images/carrot-thumb.png"
+image: "/assets/images/thumb/carrots.png"
 description: "Formerly known as the prince of pot roasts."
 tags: food
 ---
