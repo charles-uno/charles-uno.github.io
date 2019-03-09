@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nobody Cares about Sally Yates"
-image: "/assets/images/placeholder-05-thumb.png"
+image: "/assets/images/thumb/miniature-goblin.png"
 description: ""
 keywords: fruit, alcohol, booze, grilling, vegetarian, beverage
 ---

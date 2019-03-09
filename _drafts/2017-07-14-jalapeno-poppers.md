@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jalapeño Poppers"
-image: "/assets/images/poppers-thumb.png"
+image: "/assets/images/thumb/poppers.png"
 description: ""
 keywords: food, grilling, vegetarian
 ---

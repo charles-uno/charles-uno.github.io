@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Halfway to Hearthstone"
-image: "/assets/images/placeholder-07-thumb.png"
+image: "/assets/images/thumb/miniature-human.png"
 description: ""
 keywords: magic the gathering, cube, game design
 ---

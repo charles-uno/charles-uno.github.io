@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Roasted Cauliflower"
-image: "/assets/images/roasted-cauliflower-thumb.png"
+image: "/assets/images/thumb/roasted-cauliflower.png"
 description: Steam your pores, not your vegetables.
 keywords: food, side dish, vegetarian, healthy
 ---

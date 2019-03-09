@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Award Winning Sweet Potato Chili"
-image: "/assets/images/sweet-potato-chili-thumb.png"
+image: "/assets/images/thumb/sweet-potato-chili.png"
 description: ""
 ---
 
 
-Winner of the St Stephen's Housing Services 2014 (?) chili cook-off fundraiser. 
+Winner of the St Stephen's Housing Services 2014 (?) chili cook-off fundraiser.
 
 - a pound and a half of chorizo
 - 7 cups sweet potato
@@ -16,7 +16,7 @@ Winner of the St Stephen's Housing Services 2014 (?) chili cook-off fundraiser.
 - 2 cups jalapenos (fresh frozen!)
 - 5 big cloves garlic
 
-serve with cheese. chipotle cheddar! 
+serve with cheese. chipotle cheddar!
 
 
 ![](/assets/images/sweet-potato-chili-16x9.png)

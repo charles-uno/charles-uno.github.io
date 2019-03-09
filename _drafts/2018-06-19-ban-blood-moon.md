@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blood Moon is Bad for Modern"
-image: "/assets/images/blood-moon-franz-vohwinkel-thumb.png"
+image: "/assets/images/thumb/blood-moon-franz-vohwinkel.png"
 description: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Islamic State"
-image: "/assets/images/placeholder-05-thumb.png"
+image: "/assets/images/thumb/martin-bricks.png"
 description: ""
 keywords: politics, geopolitics, islam, the west
 ---
@@ -33,4 +33,3 @@ Your first commenter wants to shoot Muslim babies. Your second commenter wants t
 People like them are the reason the left won't say "Islamic terrorism." The phrase suggests we are at war with Islam. It feeds racism and xenophobia towards our Muslim and Arab neighbors. It also endorses increased military action in the middle east, which is what got us into this mess in the first place.
 
 ---
-

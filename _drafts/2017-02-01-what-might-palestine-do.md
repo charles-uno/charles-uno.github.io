@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Might Palestine Do?"
-image: "/assets/images/placeholder-11-thumb.png"
+image: "/assets/images/thumb/keith-misner-boards.png"
 description: ""
 keywords: politics, geopolitics
 ---
@@ -21,7 +21,7 @@ I think we can readily agree that this option is terrible. If Palestine's goal i
 
 # Diplomacy
 
-Palestine has repeatedly implored the United Nations for help. In fact, the UN [persistently](http://www.ifamericansknew.org/stat/un.html#israel) issues resolutions condemning Israel's disproportionate response to Palestinian attacks, calling for the Palestinian humanitarian crisis to be resolved, calling for a stop to the Israeli seizure of Palestinian land, etc. The problem is, the USA has veto power over any real action by the UN, and votes consistently in line with Israel. The USA has vetoed UN acknowledgement of [Palestinian statehood](http://jewishvoiceforpeace.org/campaigns/no-more-us-vetoes-at-the-un). They have vetoed condemnation -- [co-sponsored by over 100 nations](http://www.nytimes.com/2011/02/19/world/middleeast/19nations.html) -- of the Israeli settlements. There are dozens more examples of US vetoes; see the [list](https://www.jewishvirtuallibrary.org/jsource/UN/usvetoes.html) for yourself. As long as the USA stands with Israel -- which is not likely to change, given the media climate -- Palestine will find no meaningful help from the UN. 
+Palestine has repeatedly implored the United Nations for help. In fact, the UN [persistently](http://www.ifamericansknew.org/stat/un.html#israel) issues resolutions condemning Israel's disproportionate response to Palestinian attacks, calling for the Palestinian humanitarian crisis to be resolved, calling for a stop to the Israeli seizure of Palestinian land, etc. The problem is, the USA has veto power over any real action by the UN, and votes consistently in line with Israel. The USA has vetoed UN acknowledgement of [Palestinian statehood](http://jewishvoiceforpeace.org/campaigns/no-more-us-vetoes-at-the-un). They have vetoed condemnation -- [co-sponsored by over 100 nations](http://www.nytimes.com/2011/02/19/world/middleeast/19nations.html) -- of the Israeli settlements. There are dozens more examples of US vetoes; see the [list](https://www.jewishvirtuallibrary.org/jsource/UN/usvetoes.html) for yourself. As long as the USA stands with Israel -- which is not likely to change, given the media climate -- Palestine will find no meaningful help from the UN.
 
 One option that Palestinian leaders have not (to my knowledge) explored is seeking help from China or Russia. This may well be their best option, though it's terrible for the rest of us. Both Russia and China have a history of tense relations with the USA (see [Russia's action in Ukraine](http://en.wikipedia.org/wiki/2014_Russian_military_intervention_in_Ukraine) or [China's cyberterrorism](http://www.nydailynews.com/news/politics/president-obama-pressed-chinese-leader-xi-jingping-cybersecurity-article-1.1367419)). Neither Russia nor China officially [lists Hamas as a terrorist organization](http://en.wikipedia.org/wiki/Hamas#International_designation_of_Hamas). It's plausible that one of them could be convinced to work with Palestine against Israel (and, by extension, against the USA). A quick perusal of world history, however, shows that [proxy wars](http://en.wikipedia.org/wiki/Proxy_war) don't tend to end well.
 
@@ -34,12 +34,10 @@ Israel's settlements (which are condemned almost universally by the internationa
 ![](https://lh3.googleusercontent.com/-mZlL0bQmLb8/VCsmTrF3-6I/AAAAAAAARec/Nys9mT37jAY/w724-h422-no/IsraeliSettlementGrowthLineGraph.png"><img width=80% src="https://lh3.googleusercontent.com/-mZlL0bQmLb8/VCsmTrF3-6I/AAAAAAAARec/Nys9mT37jAY/w724-h422-no/IsraeliSettlementGrowthLineGraph.png"></a><br><small>Source: <a href="http://en.wikipedia.org/wiki/Israeli_settlement#Demographics)
 *IMAGE CURRENTLY BEING LEECHED FROM WIKIPEDIA*
 
-Israel has control over Palestine's borders, and Israeli walls and checkpoints are found on (ostensibly) Palestinian land. Furthermore, <a href="http://www.btselem.org/gaza_strip/control_on_air_space_and_territorial_waters">Israel controls Palestine's airspace and severely restricts Palestinian access to the sea</a>, with obvious economic effects -- your average Palestinian makes [less than $3,000 per year](http://www.wolframalpha.com/input/?i=per+capita+GDP+of+palestine). In short, Israel has (and exercises) veto power over Palestine's viability as a state. 
+Israel has control over Palestine's borders, and Israeli walls and checkpoints are found on (ostensibly) Palestinian land. Furthermore, <a href="http://www.btselem.org/gaza_strip/control_on_air_space_and_territorial_waters">Israel controls Palestine's airspace and severely restricts Palestinian access to the sea</a>, with obvious economic effects -- your average Palestinian makes [less than $3,000 per year](http://www.wolframalpha.com/input/?i=per+capita+GDP+of+palestine). In short, Israel has (and exercises) veto power over Palestine's viability as a state.
 
 # Conclusions
 
 None of the above options look good. None of them even look *acceptable*. We might come to the conclusion, then, that exerting pressure on Palestine is not sufficient to end this conflict. No matter what Palestine does, the issue will not be resolved, because Palestine's actions have very little power behind them.
 
 This is not to say that the solution is simply "put pressure on Israel." Hamas is a terrorist organization, with the stated intention of destroying Israel violently. They're a problem, and external pressures are going to be needed to bring their aggression to heel. The point is that Israel must *also* be pressured -- not necessarily because they are "more" at fault, but because they have more power over the dynamics of the conflict. The power to make it stop lies mostly with them.
-
-

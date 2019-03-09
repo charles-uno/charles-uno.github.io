@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Electoral College"
-image: "/assets/images/map-thumb.png"
+image: "/assets/images/thumb/leisy-vidal-crayons.png"
 description: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Roberts is Half a Great Justice"
-image: "/assets/images/valakut-kieran-yanner-thumb.png"
+image: "/assets/images/thumb/freezer-strawberries.png"
 description: ""
 ---
 
@@ -17,4 +17,4 @@ For example, Loving v Virginia or Brown v Board of Education.
 
 Roberts has shown no particular interest in defending the civil rights of racial/ethnic minorities. He wrote the decision in Holder that struck down the enforcement mechanism in the VRA. He also punted on voter disenfranchisement in NC -- a textbook case of discriminatory intent if there ever was one.
 
-And it seems like it'll come up in the Trump era. 
+And it seems like it'll come up in the Trump era.

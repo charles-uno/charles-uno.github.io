@@ -1,22 +1,22 @@
 ---
 layout: post
 title: "Political Axioms"
-image: "/assets/images/placeholder-14-thumb.png"
+image: "/assets/images/thumb/gabriele-diwald-bricks.png"
 description: ""
 keywords: politics
 ---
 
-Note that this is a **ROUGH** draft, copy-pasted from an **OLD** sketch. It's entirely possible that it includes things that are wrong/problematic. 
+Note that this is a **ROUGH** draft, copy-pasted from an **OLD** sketch. It's entirely possible that it includes things that are wrong/problematic.
 
 ---
 
 I love talking about political issues
 
-Much more interesting to talk with someone who doesn't agree. 
+Much more interesting to talk with someone who doesn't agree.
 
-Often, the interesting thing is not where we disagree, but *why*. 
+Often, the interesting thing is not where we disagree, but *why*.
 
-This is an attempt to assemble a list of axioms from which my specific policy positions cann be derived. 
+This is an attempt to assemble a list of axioms from which my specific policy positions cann be derived.
 
 It's not yet clear if/where some issues fit:
 
@@ -66,7 +66,7 @@ Now, on to the axioms themselves:
 
 - The government protects the stability of the market
     - The government protects private ownership of property; it also provides a stable currency to enable that exchange of that property. Note that this includes both tangible (houses, cars) and intangible (patents, copyrights) property. Capitalism doesn't work unless people can own things. It also doesn't work if that ownership can be reliably circumvented through theft or coercion.
-    - The government breaks up companies that become too large. This includes monopolies as well as too-big-to-fail banks. Once an organization becomes too large to care about market forces, it has to be reigned in. 
+    - The government breaks up companies that become too large. This includes monopolies as well as too-big-to-fail banks. Once an organization becomes too large to care about market forces, it has to be reigned in.
     - It is the role of the government to redistribute wealth outside of the market. Capitalism is fueled by wealth inequality: if wealth is distributed evenly, social mobility vanishes as an incentive to work. However, if wealth inequality becomes too great, the system breaks down. When those at the bottom can't afford food and housing, they become unemployable. To prevent this from happening, the government must redistribute wealth downward, such as through food assistance and public education.
 - The government injects morality into the market.
     - It is the role of the government to prevent the exploitation of workers. Throughout history and around the world, the market has demonstrated a willingness to tolerate the abuse of laborers, up to and including enslavement. The government must enforce each employer's obligation to respect the rights of their workers.

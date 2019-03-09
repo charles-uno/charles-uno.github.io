@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Candied Citrus Peel"
-image: "/assets/images/candied-citrus-peel-thumb.png"
+image: "/assets/images/thumb/candied-citrus-peel.png"
 description: ""
 keywords: candy, vegetarian, dessert
+tags: food
 ---
 
 I'm working from [Alton Brown's recipe](https://altonbrown.com/candied-orange-peel-recipe/), but with a few notes.

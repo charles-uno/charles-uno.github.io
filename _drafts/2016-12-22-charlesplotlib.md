@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "charlesplotlib"
-image: "/assets/images/placeholder-07-thumb.png"
+image: "/assets/images/thumb/ross-bucher-sand.png"
 description: ""
 ---

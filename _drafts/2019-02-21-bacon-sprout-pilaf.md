@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bacon Sprout Pilaf"
-image: "/assets/images/bacon-sprout-thumb.png"
+image: "/assets/images/thumb/sprouts.png"
 description: ""
 tags: food
 ---

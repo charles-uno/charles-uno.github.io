@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Measure Twice, Valakut Once"
-image: "/assets/images/valakut-kieran-yanner-thumb.png"
+image: "/assets/images/thumb/valakut-kieran-yanner.png"
 description: ""
 ---
 
 
 
 
-If you wanted to play a Modern PPTQ, but knew nothing about the format, I'd hand you a Valakut deck. 
+If you wanted to play a Modern PPTQ, but knew nothing about the format, I'd hand you a Valakut deck.
 
 
 
