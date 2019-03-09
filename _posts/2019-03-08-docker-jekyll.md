@@ -21,7 +21,7 @@ Unfortunately, the setup for Jekyll is a pain in the ass. I recently fresh-insta
 - Also do `bundle update` to get rid of weird versioning errors.
 - From now on, prefix all commands with `bundle exec` in case gems conflict with one another.
 
-It works, but it's not pretty. To avoid going through this again, I wrapped it all up in Docker. All the dependencies are installed (in the right order) in the [Dockerfile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Dockerfile), and orchestration is written up in the [Makefile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Makefile). With just Docker and a command line, I can now build the container, fire up my site within that container, and serve it locally just by running:
+It works, but it's not pretty. To avoid going through this again, I wrapped it all up in Docker. Dependencies are installed (in the right order) in the [Dockerfile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Dockerfile), and orchestration is written up in the [Makefile](https://github.com/charles-uno/charles-uno.github.io/blob/master/Makefile). With just Docker and a command line, I can now build the container, fire up my site within that container, and serve it locally just by running:
 
 ```
 make
