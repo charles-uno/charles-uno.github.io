@@ -2,30 +2,40 @@
 // NOTE: This file is a bit of a mess. But it's also pretty cosmetic.
 // You could nuke this file and the site would pretty much still work.
 
-header { padding: $pad; width: 100%; text-align: center; }
+header { padding: $title-pad; width: 100%; text-align: center; }
 
 .post-title, .post-tags, .post-date {
     line-height: 1;
     text-align: center;
     border: 0;
-    padding: 2*$pad 0;
+    padding: $title-pad 0;
     margin: 0;
 }
 
-.post-title { display: block; }
+.post-tags, .post-date {
+    height: $post-date-size;
+}
+
+.post-title {
+    font-size: $post-title-size;
+    display: block;
+}
+
+.post-tags { font-size: $post-glyph-size; }
+
+.post-date { font-size: $post-date-size; }
 
 .post-under-title {
     width: 100%;
     max-width: $text-width;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: $title-pad auto;
 }
 
-.post-date, .post-tags { display: inline-block; vertical-align: middle; }
+.post-date, .post-tags { display: inline-block; }
 
-.post-tag { margin: $half-pad; &:hover { cursor: pointer; } }
-
+.post-tag { margin: 0 $tag-pad; &:hover { cursor: pointer; } }
 
 article {
 
@@ -38,16 +48,16 @@ article {
 
     table {
         margin: $text-size auto;
-        margin-bottom: $half-pad;
-        thead { border-bottom: $half-pad solid $paper-color; }
-        padding: $half-pad;
+        margin-bottom: $footnote-border;
+        thead { border-bottom: $footnote-border solid $paper-color; }
+        padding: $footnote-border;
     }
 
     caption {
         width: 100%;
         text-align: left;
-        padding: $pad;
-        border-bottom: $half-pad solid $paper-color;
+        padding: $footnote-border;
+        border-bottom: $footnote-border solid $paper-color;
     }
 
     .table-caption {
@@ -56,21 +66,21 @@ article {
         margin: 0;
         text-align: justify;
         display: block;
-        padding: $pad;
+        padding: $footnote-border;
     }
 
-    th, td { padding: $pad; }
+    th, td { padding: $footnote-border; }
 
     ul, p, h1, h2, h3, h4, h5, h6, pre, blockquote {
-        margin: $text-size auto;
+        margin: $paragraph-gap auto;
         max-width: $text-width;
     }
 
     pre, blockquote {
         border: 0;
-        padding: $pad;
+        padding: $footnote-border;
         margin: 0 auto;
-        p { width: 100%; max-width: 100%; margin: $pad 0; padding: 0; border: 0; }
+        p { width: 100%; max-width: 100%; margin: $footnote-border 0; padding: 0; border: 0; }
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
     }
@@ -85,21 +95,21 @@ article {
         .deckname { font-weight: bold; }
         margin: 0 auto;
         border: 0;
-        padding: $pad;
+        padding: $footnote-border;
         p { width: 100%; max-width: 100%; margin: 0; padding: 0; border: 0; }
     }
 
     .cardlist { td { width: 33.3%; } }
     .cardlist-with-sideboard { td { width: 25%; } }
 
-    img { width: 100%; padding: $pad; }
+    img { width: 100%; padding: $footnote-border; }
 
     // If an image is followed immediately by italics, that's a caption.
     img + em {
         width: 100%;
         text-align: justify;
         display: block;
-        padding: 0 $pad $pad $pad;
+        padding: 0 $footnote-border $footnote-border $footnote-border;
     }
 
     // Ordered lists show as tiles, like on the index.
@@ -108,7 +118,7 @@ article {
         flex-wrap: wrap;
         align-items: stretch;
         justify-content: center;
-        margin: -$half-pad;
+        margin: $tile-pad/ -$tile-pad/2;
         border: 0;
         padding: 0;
         text-align: center;
@@ -116,16 +126,16 @@ article {
             float: left;
             clear: none;
             display: inline-block;
-            border: $half-pad solid $paper-color;
+            border: $tile-pad/2 solid $paper-color;
             margin: 0;
             width: 100%;
             @media (min-width: 300px) { width: 50%; }
             @media (min-width: 600px) { width: 33.33%; }
             font-size: $caption-size;
             // Padding is handled by the tiles, not images and captions.
-            padding: $pad;
+            padding: $footnote-border;
             img { padding: 0; }
-            img + em { padding: $pad 0 0 0; }
+            img + em { padding: $footnote-border 0 0 0; }
         }
     }
 
@@ -136,19 +146,20 @@ article {
             display: block;
             width: 100%;
             margin: 0;
-            padding: $pad;
+            padding: $paragraph-gap 0;
             li {
                 text-align: justify;
                 list-style:none;
-                margin: $pad 0;
+                margin: $paragraph-gap 0;
                 width: 100%;
                 border: 0;
+                padding: $footnote-border;
                 p { width: 100%; max-width: 100%; margin: 0; }
             }
             li > p:before {
                 content:counter(li);
                 counter-increment:li;
-                margin-right: $pad;
+                margin-right: $footnote-border;
                 font-weight:bold;
                 text-align:center;
             }
@@ -158,14 +169,14 @@ article {
 
 // ---------------------------------------------------------------------
 
-$switch-width: 40px - $pad;
+$switch-width: 40px - $footnote-border;
 $switch-height: $caption-size;
 $slider-size: $caption-size - 4px;
 $slider-offset: ($switch-height - $slider-size)/2;
 $slider-move: $switch-width - $slider-size - 2*$slider-offset;
 
 #unit-toggle {
-    margin: $pad auto;
+    margin: $footnote-border auto;
     width: 100%;
     max-width: $text-width;
     font-size: $caption-size;
@@ -178,7 +189,7 @@ $slider-move: $switch-width - $slider-size - 2*$slider-offset;
     display: inline-block;
     width: $switch-width;
     height: $switch-height;
-    margin-right: $pad;
+    margin-right: $footnote-border;
 }
 
 .switch input { opacity: 0; width: 0; height: 0; }

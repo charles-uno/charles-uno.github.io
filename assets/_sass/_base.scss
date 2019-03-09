@@ -19,7 +19,9 @@ $uno-mas-radius: 30px;
 
 // Index sizes
 $index-name-size: 26px;
+$index-name-width: 170px;
 $index-tags-size: 20px;
+$shadow-size: 15px;
 
 // Post sizes
 $post-glyph-size: 20px;
@@ -29,15 +31,26 @@ $text-size: 16px;
 $caption-size: 12px;
 
 // Big-picture layout
-
 $paper-width: 900px;
 $text-width: 550px;
-$pad: 10px;
-$half-pad: 5px;
-// For mobile, make sure there is some breathing room between the edge of the text field and the edge of the window.
-$side-pad: 15px;
+$tile-pad: 16px;
+// For mobile, make sure there is some breathing room between the edge
+// of the text field and the edge of the window.
+$side-pad: 12px;
+// Padding between the glyphs and the edge of the headbar.
+$head-pad: 10px;
+$paragraph-gap: 14px;
+// Margin between header elements (band-aid).
+$title-pad: 20px;
+// Margin between footnotes. Also used for images, code blocks, etc.
+$footnote-border: 10px;
+$tile-radius: 0;
+$tag-pad: 10px;
 
-$head-height: $head-glyph-size + 2*$pad;
+// Reserve some space at the bottom for the copyright.
+$copy-height: 74px;
+
+$head-height: $head-glyph-size + 2*$head-pad;
 
 html, body {
     background-color: $shadow-color;
@@ -57,8 +70,8 @@ div.warn {
     background-color: pink;
 //    display: block;
     display: none;
-    padding: $pad;
-    margin: $pad 0;
+    padding: $tile-pad;
+    margin: $tile-pad 0;
     text-align: center;
 }
 

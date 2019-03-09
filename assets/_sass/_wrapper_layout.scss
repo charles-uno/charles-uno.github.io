@@ -14,10 +14,21 @@ div.full-main, div.wrap-main {
     height: 100%;
 }
 
-div.full-head, div.full-main, div.head, div.wrap-main {
+.full-head, .head, .wrap-main {
     width: 100%;
     border: 0;
     padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.full-main {
+    padding-top: $head-height;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 100%;
+    border: 0;
     margin: 0;
     display: block;
 }
@@ -30,7 +41,7 @@ div.full-head {
 
 div.head {
     max-width: $paper-width;
-    padding: $half-pad $side-pad;
+    padding: $tile-pad/2 $side-pad;
     display: flex;
     justify-content: space-between;
     height: $head-height;
@@ -48,12 +59,12 @@ div.main, div.left-flank-main, div.right-flank-main {
     min-height: 100%;
     position: relative;
     // Leave room for the copyright
-    padding-bottom: 55px;
+    padding-bottom: $copy-height + $tile-pad/2;
 }
 
 div.main {
     width: $paper-width;
-    padding-top: $head-height + $pad;
+    padding-top: $side-pad;
     padding-left: $side-pad;
     padding-right: $side-pad;
     text-align: justify;
@@ -68,10 +79,10 @@ div.main {
     // Copyright blurb at the bottom.
     display: block;
     text-align: center;
-    margin: 0;
-    padding: $pad;
+    font-size: $caption-size;
+    padding: ($copy-height - $caption-size)/2;
     line-height: 1;
-    height: $caption-size + 2*$pad;
+    height: $copy-height;
     vertical-align: middle;
     position: absolute;
     width: 100%;

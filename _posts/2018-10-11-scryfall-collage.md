@@ -16,7 +16,7 @@ Working with the Scryfall API is a breeze. You ping a URL, and you get back a [c
 
 ```python
 import requests
-# The query !"forest" asks for cards named exactly "forest".
+# The query !"forest" gets cards named exactly "forest".
 url = 'https://api.scryfall.com/cards/search?q=!"forest"&unique=prints'
 forest_info = requests.get(url).json()
 ```

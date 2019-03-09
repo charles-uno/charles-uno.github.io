@@ -25,8 +25,8 @@
 
 .uno-mas {
     position: absolute;
-    right: $pad;
-    bottom: $pad;
+    right: $tile-pad;
+    bottom: $tile-pad;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,9 +40,9 @@
     -webkit-border-radius: $uno-mas-radius;
     -moz-border-radius: $uno-mas-radius;
     border-radius: $uno-mas-radius;
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-    box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $shadow-size;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
     pointer-events: auto;
     &:hover { color: $text-color; }
 }

@@ -7,8 +7,8 @@
 }
 
 #index-list {
-    // List items have a half-pad built in. Subtract it off.
-    margin: -$half-pad;
+    margin: -$side-pad;
+    padding: 0 $side-pad;
     // Eliminate whitespace between tiles.
     font-size: 0px;
     line-height: 0;
@@ -17,12 +17,12 @@
 .index-item {
     display: inline-block;
     position: relative;
-    padding: $half-pad;
+    padding: $tile-pad/2;
     background: none;
     width: 100%;
-    @media (min-width: 400px) { width: 50%; }
-    @media (min-width: 600px) { width: 33.33%; }
-    @media (min-width: 800px) { width: 25%; }
+    @media (min-width: 500px) { width: 50%; }
+    @media (min-width: 750px) { width: 33.33%; }
+    @media (min-width: 1000px) { width: 25%; }
 }
 
 .index-wrap, .index-link, .index-cell, .index-thumb {
@@ -31,6 +31,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+    border-radius: $tile-radius;
 }
 
 .index-wrap { position: relative; }
@@ -44,7 +45,7 @@
 
 .index-name {
     top: 50%;
-    width: 170px;
+    width: $index-name-width;
 }
 
 .index-tags {
@@ -52,7 +53,7 @@
 }
 
 .index-tag {
-    margin: $half-pad;
+    margin: $tag-pad;
 }
 
 .index-tags, .index-name {

@@ -50,9 +50,9 @@ div.main { background: $paper-color; }
 
 div.full-head {
     background-color: $accent-color;
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $pad;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
-    box-shadow: rgba(0,0,0,0.8) 0 0 $pad;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $shadow-size;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
 }
 
 div.head {
@@ -64,27 +64,19 @@ div.head {
 
 .copy {
     color: $text-color;
-    font-size: $caption-size;
     a { color: $accent-color; &:hover { color: $text-color; } }
 }
 
 // =====================================================================
 
-.post-title {
-    font-family: $head-font;
-    font-size: $post-title-size;
-}
+.post-title { font-family: $head-font; }
 
 .post-tag {
-    font-size: $post-glyph-size;
     color: $accent-color;
     &:hover { color: $text-color; }
 }
 
-.post-date {
-    font-size: $post-date-size;
-    font-family: $head-font;
-}
+.post-date { font-family: $head-font; }
 
 article {
 
@@ -142,8 +134,8 @@ hr {
     color: $shadow-color;
     border-color: $shadow-color;
     background-color: $shadow-color;
-    height: $half-pad;
-    margin: 2*$text-size auto;
+    height: $footnote-border;
+    margin: $paragraph-gap auto;
     width: 100%;
     max-width: $text-width;
 }
