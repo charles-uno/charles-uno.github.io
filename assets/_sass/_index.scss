@@ -27,6 +27,10 @@
     @media (min-width: 500px) { width: 50%; }
     @media (min-width: 750px) { width: 33.33%; }
     @media (min-width: 1000px) { width: 25%; }
+
+    border-radius: $tile-radius;
+    overflow: hidden;
+
 }
 
 // The thumbnail and the (shaded) link both fill the list item.
@@ -50,7 +54,7 @@
 }
 
 .index-thumb {
-    border-radius: $tile-radius;
+    border-radius: 0;
 }
 
 .index-tags, .index-name {

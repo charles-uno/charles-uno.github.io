@@ -12,6 +12,8 @@
         li {
             background-color: $shadow-color;
             font-size: $caption-size;
+            border-radius: $tile-radius;
+            overflow: hidden;
         }
     }
 
