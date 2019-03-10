@@ -1,6 +1,11 @@
 
-// NOTE: This file is a bit of a mess. But it's also pretty cosmetic.
-// You could nuke this file and the site would pretty much still work.
+
+.post-title {  }
+
+.post-tag {
+}
+
+
 
 header {
     width: 100%;
@@ -24,11 +29,15 @@ header {
     margin-bottom: $paragraph-gap;
     font-size: $post-title-size;
     display: block;
+    font-family: $head-font;
 }
 
 .post-tags { font-size: $post-glyph-size; }
 
-.post-date { font-size: $post-date-size; }
+.post-date {
+    font-size: $post-date-size;
+    font-family: $head-font;
+}
 
 .post-under-title {
     width: 100%;
@@ -38,7 +47,14 @@ header {
     margin: $paragraph-gap auto;
 }
 
-.post-tag { margin: 0 $tag-pad; &:hover { cursor: pointer; } }
+.post-tag {
+    margin: 0 $tag-pad;
+    color: $accent-color;
+    &:hover {
+        cursor: pointer;
+        color: $text-color;
+    }
+}
 
 article {
 

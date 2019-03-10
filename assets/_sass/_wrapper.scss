@@ -1,19 +1,27 @@
 
-#logo { font-size: $head-logo-size; }
-
 #logo, .head-glyph {
     border: 0;
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: $shadow-color;
+    &:hover { cursor: pointer; color: $text-color; }
 }
 
-.head-glyph:hover { cursor: pointer; }
+#logo {
+    font-size: $head-logo-size;
+    font-family: $logo-font;
+}
 
-// =====================================================================
+.head-glyph {
+    font-size: $head-glyph-size;
+}
+
+// ---------------------------------------------------------------------
 
 div.full-main, div.wrap-main {
     height: 100%;
+    background: $paper-color;
 }
 
 .full-head, .head, .wrap-main {
@@ -36,12 +44,18 @@ div.full-main, div.wrap-main {
 }
 
 div.full-head {
+    background-color: $accent-color;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $shadow-size;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
+    box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
     z-index: 99;
     top: 0px;
     position: fixed;
 }
 
 div.head {
+    a, a:visited { color: $text-color; }
+    a:hover { color: $paper-color; }
     max-width: $paper-width;
     padding: $tile-pad/2 $side-pad;
     display: flex;
@@ -55,6 +69,12 @@ div.head {
 // squish) and the flanks fill the rest.
 
 div.wrap-main { display: table; }
+
+.left-flank-main, .right-flank-main {
+    background-color: $shadow-color;
+}
+
+.full-main { background-color: $paper-color; }
 
 div.main, div.left-flank-main, div.right-flank-main {
     display: table-cell;
@@ -75,7 +95,7 @@ div.main {
     }
 }
 
-// =====================================================================
+// ---------------------------------------------------------------------
 
 .copy {
     // Copyright blurb at the bottom.
@@ -90,4 +110,6 @@ div.main {
     width: 100%;
     bottom: 0px;
     right: 0px;
+    color: $text-color;
+    a { color: $accent-color; &:hover { color: $text-color; } }
 }
