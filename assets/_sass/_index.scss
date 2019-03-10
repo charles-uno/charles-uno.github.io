@@ -19,7 +19,7 @@
 .index-item {
     display: inline-block;
     position: relative;
-    background: none;
+    background-color: $shadow-color;
     // Put a gap between the thumbnails.
     border: $tile-pad/2 solid $paper-color;
     // Scale with screen width.
