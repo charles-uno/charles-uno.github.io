@@ -6,17 +6,17 @@ description: "This recipe is great for lunch the next day! It's pretty healthy, 
 tags: food
 ---
 
+![Kale Garbanzo Ingredients](/assets/images/garbanzo-kale-sausage-ingredients-16x9.png)
+
 - <span class="metric">800 mL</span><span class="imperial">28 oz</span> garbanzo beans
 - <span class="metric">500 mL</span><span class="imperial">2 c</span> sausage links, chunked
-- <span class="metric">500 mL</span><span class="imperial">2 c</span> onion, chopped
+- <span class="metric">500 mL</span><span class="imperial">2 c</span> onion, diced
 - <span class="metric">1 L</span><span class="imperial">4 c</span> kale, chopped
 - Oil
 
 ---
 
 In a large skillet, start the garbanzo beans on high heat with a splash of oil. Stir intermittently until they start to brown, about 5 minutes.
-
-![Kale Garbanzo Ingredients](/assets/images/garbanzo-kale-sausage-ingredients-16x9.png)
 
 Turn it down to medium heat and add the onion and sausage. Ideally, it should be a sausage with strong flavor, and not too lean, so there's enough fat and spice to go around. If the pan starts to look dry, add more oil.
 

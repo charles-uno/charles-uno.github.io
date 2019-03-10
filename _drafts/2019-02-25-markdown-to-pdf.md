@@ -6,7 +6,7 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
-If you're writing a document that'll be released to the public, Word (or similar) is probably the tool for you. You can pull in your organization's letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML[^2] gives you the horsepower to do basically whatever you want.
+If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. We can pull in our organization's letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML[^2] gives us the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
 
@@ -14,27 +14,21 @@ The thing is, a lot of times, we're not looking to finagle. Word's default style
 
 [^3]: The mouse is intuitive, but the keyboard is a much faster way to enter information into a computer -- especially if it needs to be precise.
 
+The first part is easy.
+
+
+
+
+
 Step one: write in Markdown.
-
-
-
 
 Step one: input in Markdown
 
-
-
 Input-wise, I love working in Markdown.
-
 
 It lets me easily express everything I want
 
-
-
-
 GitHub and other version control sites render Markdown to HTML, but it's not exactly *nice*.
-
-
-
 
 Basically, I'd rather be working in Markdown.
 
@@ -44,17 +38,8 @@ Don't make me click through GUI options every time I want footnotes or links or 
 Working in plain text is kinda my thing
 
 - plays nicely with version control
--
-
-
-
-
 
 I spend a decent chunk of my time working with plain text: software engineering at work, number crunching [for fun](http://charles.uno/titan-breach-simulation/), and even a bit of code work as a volunteer[^1].
-
-
-
-
 
 plain text is great
 
@@ -69,15 +54,6 @@ Microsoft Word is like a slap in the face
 - wysiwyg
 - click through menus for links, footnotes, headings
 - default style settings look "average"
-
-
-
-
-
-
-
-
-
 
 [^1]: Once in a while, I volunteer with the shop at the [Science Museum](https://www.smm.org/). They've got me poking around with a [CirCuitPython Express](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython) microcontroller -- figuring out how to use it for exhibit automation. Nothing written up about that yet, but if you're curious, my code is available [here](https://github.com/charles-uno/circuit-python).
 
