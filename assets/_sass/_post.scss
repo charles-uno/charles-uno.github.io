@@ -1,12 +1,4 @@
 
-
-.post-title {  }
-
-.post-tag {
-}
-
-
-
 header {
     width: 100%;
     text-align: center;
@@ -85,8 +77,9 @@ article {
     }
 
     // Mostly justify text.
-    p, .table-caption, div.footnotes li {
+    p, .table-caption, div.footnotes li, img + em {
         text-align: justify;
+        display: block;
     }
 
     h2 { margin-top: 2*$text-size; }
@@ -94,19 +87,36 @@ article {
     li { margin: 0.5*$text-size 0; }
 
     // Tables, images, and captions use the full width.
-    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p {
+    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p, p.img-wrapper {
         width: 100%;
         max-width: 100%;
     }
 
     // Highlight quotes, footnotes, snippets, images, tables, and code.
-    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption {
+    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper {
         background-color: $shadow-color;
     }
 
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.footnotes li, img {
+    table, blockquote, div.highlight, div.footnotes li, .img-wrapper {
         padding: $shadow-pad;
+    }
+
+    // Highlighted stuff also gets rounded corners.
+    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper {
+        border-radius: $tile-radius;
+        overflow: hidden;
+    }
+
+    // The image itself gets smaller curvature.
+    img {
+        border-radius: $tile-radius/3;
+        overflow: hidden;
+    }
+
+    // A bit of a gap between the image and its caption.
+    img + em {
+        margin-top: $shadow-pad;
     }
 
     // Keep cells from running into one another.
@@ -115,13 +125,6 @@ article {
 
     // Watch out for extra layers around a code block.
     pre.highlight { margin: 0; border: 0; padding: 0; }
-
-    // The caption right after an image sits right up to it.
-    img + em {
-        text-align: justify;
-        display: block;
-        padding: 0 $shadow-pad $shadow-pad $shadow-pad;
-    }
 
     // Use a smaller font for captions and footnotes.
     .table-caption, div.footnotes, img + em {
@@ -138,13 +141,13 @@ article {
     // A bit of play with the table formatting.
     table {
         // Gap between header and content.
-        caption, thead { border-bottom: $cell-pad solid $paper-color; }
+        caption, thead { border-bottom: $hr-height solid $paper-color; }
         // Let the caption be right up to the bottom of the table.
         margin-bottom: 0;
     }
     // Gap between table and following caption.
     .table-caption {
-        border-top: $cell-pad solid $paper-color;
+        border-top: $hr-height solid $paper-color;
         margin: 0;
         padding: $shadow-pad;
     }
@@ -168,12 +171,11 @@ article {
         }
     }
 
-    // Nice thick horizontal rule.
     hr {
         color: $shadow-color;
         border-color: $shadow-color;
         background-color: $shadow-color;
-        height: $shadow-pad;
+        height: $hr-height;
     }
 
 }

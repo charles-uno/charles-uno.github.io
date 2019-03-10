@@ -5,35 +5,6 @@ var indexList = document.getElementById('index-list');
 
 // #####################################################################
 
-// Markdown wraps images in paragraph tags (with no class). Let's bump
-// out the width for those tags.
-var pars = document.getElementsByTagName('p');
-for ( var i=0; i < pars.length; i++ ) {
-
-    if ( pars[i].firstChild.tagName == 'IMG' ) {
-        pars[i].style.maxWidth = '100%';
-    }
-    // Make sure this works even if the image is linked.
-    if ( pars[i].firstChild.tagName == 'A' && pars[i].firstChild.firstChild.tagName == 'IMG' ) {
-        pars[i].style.maxWidth = '100%';
-    }
-}
-
-// ---------------------------------------------------------------------
-
-// The CSS ::before pseudo-element is not allowed to insert HTML, so
-// let's use some Javascript to insert an <hr> before the div that
-// contains the footnotes.
-var fns = document.getElementsByClassName('footnotes');
-for ( var i=0; i < fns.length; i++ ) {
-    fns[i].parentNode.insertBefore(
-        document.createElement('hr'),
-        fns[i]
-    );
-}
-
-// #####################################################################
-
 function nextPost() {
     window.location.href = "";
 }
