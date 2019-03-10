@@ -2,13 +2,15 @@
 // NOTE: This file is a bit of a mess. But it's also pretty cosmetic.
 // You could nuke this file and the site would pretty much still work.
 
-header { padding: $title-pad; width: 100%; text-align: center; }
+header {
+    width: 100%;
+    text-align: center;
+}
 
 .post-title, .post-tags, .post-date {
     line-height: 1;
     text-align: center;
     border: 0;
-    padding: $title-pad 0;
     margin: 0;
 }
 
@@ -17,6 +19,8 @@ header { padding: $title-pad; width: 100%; text-align: center; }
 }
 
 .post-title {
+    margin-top: $title-pad;
+    margin-bottom: $paragraph-gap;
     font-size: $post-title-size;
     display: block;
 }
@@ -30,7 +34,7 @@ header { padding: $title-pad; width: 100%; text-align: center; }
     max-width: $text-width;
     display: flex;
     justify-content: space-between;
-    margin: $title-pad auto;
+    margin: $paragraph-gap auto;
 }
 
 .post-date, .post-tags { display: inline-block; }
