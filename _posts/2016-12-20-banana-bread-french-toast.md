@@ -39,7 +39,7 @@ Turn off the oven, put a towel over the loaf, and let it sit overnight. The ends
 ## French Toast
 
 - 3 eggs
-- <span class="metric">75 mL</span><span class="imperial">1/3 c</span> vanilla extract
+- <span class="metric">75 mL</span><span class="imperial">1/3 c</span> plain yogurt
 - Cinnamon to taste
 - Butter
 
