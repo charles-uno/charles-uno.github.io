@@ -1,0 +1,59 @@
+
+    .cardlist, .cardlist-with-sideboard {
+        .deckname { font-weight: bold; }
+        background-color: $shadow-color;
+    }
+
+
+
+    // Ordered lists show as tiles, like on the index.
+    ol {
+        background-color: $paper-color;
+        li {
+            background-color: $shadow-color;
+            font-size: $caption-size;
+        }
+    }
+
+
+
+    .cardlist, .cardlist-with-sideboard {
+        width: 100%;
+        td { height: 100%; vertical-align: top; }
+        .deckname { font-weight: bold; }
+        margin: 0 auto;
+        border: 0;
+        padding: $shadow-pad;
+        p { width: 100%; max-width: 100%; margin: 0; padding: 0; border: 0; }
+    }
+
+    .cardlist { td { width: 33.3%; } }
+    .cardlist-with-sideboard { td { width: 25%; } }
+
+
+    // Ordered lists show as tiles, like on the index.
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        margin: $tile-pad/ -$tile-pad/2;
+        border: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            float: left;
+            clear: none;
+            display: inline-block;
+            border: $tile-pad/2 solid $paper-color;
+            margin: 0;
+            width: 100%;
+            @media (min-width: 300px) { width: 50%; }
+            @media (min-width: 600px) { width: 33.33%; }
+            font-size: $caption-size;
+            // Padding is handled by the tiles, not images and captions.
+            padding: $shadow-pad;
+            img { padding: 0; }
+            img + em { padding: $shadow-pad 0 0 0; }
+        }
+    }

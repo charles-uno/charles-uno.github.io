@@ -26,7 +26,6 @@
 // =====================================================================
 
 #logo {
-    font-size: $head-logo-size;
     font-family: $logo-font;
     color: $shadow-color;
     &:hover { color: $text-color; }
@@ -77,65 +76,3 @@ div.head {
 }
 
 .post-date { font-family: $head-font; }
-
-article {
-
-    font-size: $text-size;
-
-    a {
-        color: $accent-color;
-        &:hover { color: $text-color; }
-    }
-
-    table, tbody, tr { background-color: $shadow-color; }
-
-    caption { background-color: $shadow-color; }
-
-    .table-caption {
-        font-size: $caption-size;
-        background-color: $shadow-color;
-    }
-
-    blockquote { background-color: $shadow-color; }
-
-    .cardlist, .cardlist-with-sideboard {
-        .deckname { font-weight: bold; }
-        background-color: $shadow-color;
-    }
-
-    img { background-color: $shadow-color; }
-
-    // If an image is followed immediately by italics, that's a caption.
-    img + em {
-        font-size: $caption-size;
-        font-style: normal;
-        background-color: $shadow-color;
-    }
-
-    // Ordered lists show as tiles, like on the index.
-    ol {
-        background-color: $paper-color;
-        li {
-            background-color: $shadow-color;
-            font-size: $caption-size;
-        }
-    }
-
-    div.footnotes {
-        font-size: $caption-size;
-        ol { background-color: $paper-color; }
-        li { background-color: $shadow-color; }
-    }
-
-}
-
-hr {
-    border: 0;
-    color: $shadow-color;
-    border-color: $shadow-color;
-    background-color: $shadow-color;
-    height: $footnote-border;
-    margin: $paragraph-gap auto;
-    width: 100%;
-    max-width: $text-width;
-}

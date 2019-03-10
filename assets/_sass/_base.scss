@@ -16,12 +16,17 @@ $head-logo-size: 45px;
 $head-glyph-size: 30px;
 $uno-mas-size: 22px;
 $uno-mas-radius: 30px;
+$head-pad: 10px;
+$copy-height: 74px;
+$head-height: $head-glyph-size + 2*$head-pad;
 
 // Index sizes
 $index-name-size: 26px;
 $index-name-width: 170px;
 $index-tags-size: 20px;
 $shadow-size: 15px;
+$tile-radius: 0;
+$tag-pad: 10px;
 
 // Post sizes
 $post-glyph-size: 20px;
@@ -29,29 +34,18 @@ $post-title-size: 30px;
 $post-date-size: 20px;
 $text-size: 16px;
 $caption-size: 12px;
+$paragraph-gap: 14px;
+$title-pad: 30px;
+$shadow-pad: 12px;
+$cell-pad: 10px;
 
 // Big-picture layout
 $paper-width: 900px;
 $text-width: 550px;
 $tile-pad: 16px;
-// For mobile, make sure there is some breathing room between the edge
-// of the text field and the edge of the window.
 $side-pad: 12px;
-// Padding between the glyphs and the edge of the headbar.
-$head-pad: 10px;
-$paragraph-gap: 14px;
-// Margin between header elements (band-aid).
-$title-pad: 30px;
-// Margin between footnotes. Also used for images, code blocks, etc.
-$footnote-border: 10px;
-$tile-radius: 0;
-$tag-pad: 10px;
 
-// Reserve some space at the bottom for the copyright.
-$copy-height: 74px;
-
-$head-height: $head-glyph-size + 2*$head-pad;
-
+// A bit of extra normalization.
 html, body {
     background-color: $shadow-color;
     font-family: $sans-font;
@@ -60,38 +54,15 @@ html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-size: 0;
-    line-height: 0;
 }
 
-div.warn {
-    font-size: $text-size;
-    line-height: 1;
-    background-color: pink;
-//    display: block;
-    display: none;
-    padding: $tile-pad;
-    margin: $tile-pad 0;
-    text-align: center;
-}
-
-img {
-    // Images always fill the width of their containers. To change the
-    // width of an image, contain it.
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    max-width: 100%;
-    display: block;
-}
+img { width: 100%; margin: 0; padding: 0; border: 0; }
 
 p, span, div, table { color: $text-color; }
 
-.nowrap { white-space: nowrap; }
-
 a, a:focus, a:visited, a:hover { text-decoration: none; }
 
-// Not sure exactly what this does, but it's important.
 *, *:before, *:after { box-sizing: border-box; }
 
+.nowrap { white-space: nowrap; }
 .hide-by-default { display: none; }
