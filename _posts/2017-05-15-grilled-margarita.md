@@ -1,22 +1,23 @@
 ---
 layout: post
-title: "Grilled Citrus Margaritas"
+title: "Grilled Margaritas"
 image: "/assets/images/thumb/grilled-margarita.png"
 description: "Treat yourself to this smoky-yet-fresh summer drink."
 tags: food
 ---
 
-I'm a sucker for those Facebook animated recipes. Watching people cook is fun, even when they're cooking contrived nonsense, like fruity pebbles cheesecake or pizza-stuffed pretzel bites. Plus, once in a while, the recipes showcase something clever -- who would have thought to use grilled citrus as a mixer?
-
 ![Grilled Citrus](/assets/images/grilled-margarita-16x9.png)
-*On a hot grill, it takes about 45 seconds to get nice grill lines.*
 
-I'm sure the original recipe used their grilled citrus to create something elaborate, but we're going to keep things simple:
+- <span class="metric">1.5 kg</span><span class="imperial">3 lb</span> mixed citrus, halved
+- 2 jalapeño peppers, sliced and seeded (ideally [ripe ones](/farm-freezer))
+- <span class="metric">750 mL</span><span class="imperial">Fifth of</span> tequila
 
-- Grab some citrus. Cut them in half. Remove any obvious seeds.
-- Grill them, face-down, for 30 to 60 seconds over direct heat.
-- Juice them. Mix one-to-one with tequila. Serve on ice.
+---
 
-If the juice is too sour, a small amount of agave (or sugar) can be added. But it's better to instead use a mix of sweet and tart citrus, as too much sweetness can overpower the subtle smoky flavor from the grill. Grilling for longer strengthens the flavor, but also softens the peel, making the fruit more difficult to juice.
+Infuse the peppers into the tequila a few weeks ahead of time. This won't make the drinks *spicy* exactly, but it'll leave a nice tingle on the tongue. If spice is what you're after, use habaneros instead.
 
-My plan for next time is to grill some jalapeño peppers, and add those (whole) to the drink as well. Peppers hold up well when grilled, and their flavor combines well with both citrus and tequila!
+Fire up your grill. When it's hot, grill each citrus half face-down until clear grill lines are visible, about 1 minute. Allow the citrus to cool, then juice them. Run the juice through a sieve to remove any seeds.
+
+Mix the juice one-to-one with tequila. If it's too sour, add sugar or agave to taste -- and remember to buy fewer lemons next time!
+
+Serve on the rocks. Makes about a dozen drinks.
