@@ -12,6 +12,9 @@ The question today is similar, but instead of [[Farseek]] versus [[Explore]] we'
 
 [^1]: A typed dual land has two basic land types, in this case Forest and Mountain, as opposed to a non-typed land like [[Kazandu Refuge]]. This is important because most of the spells in the deck require green mana, but [[Valakut, the Molten Pinnacle:Valakut]] only works with Mountains. 
 
+![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
+*Not exactly scientific, but a poll of the Valakut group on Facebook gives a decent sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
+
 But [[Sheltered Thicket]] also has cycling. If we don't want it, we can pay a cost and discard it to draw something else. This doesn't come up much in the early game, when resources are tight, but the flexibility is very powerful in the late game. In fact, I'd go so far as to say that [[Sheltered Thicket]] is clearly better after about T6. By that point we should have plenty of mana, so coming into play tapped or untapped is not really a concern. The question is: how much better is [[Cinder Glade]] in the early game?
 
 ## The Model
