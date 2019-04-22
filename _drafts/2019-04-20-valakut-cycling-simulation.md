@@ -123,7 +123,7 @@ The numbers tell more or less the same story as we saw above for Titan Breach.
 
 ## Caveats and Conclusions
 
-The Titan Shift numbers suggest that by T5, [[Sheltered Thicket]] is better than [[Taiga]]. There's reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn't like what it finds, it essentially gets to rewind and do something else instead. The computer essentially has superhuman "instincts" that tell it when there's something good on top of the deck.
+The Titan Shift numbers suggest that by T5, [[Sheltered Thicket]] is better than [[Taiga]]. There's reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn't like what it finds, it essentially gets to rewind and do something else instead. In effect, the computer has superhuman "instincts" about when there's something good on top of the deck.
 
 Even so, I think it's fair to say the conventional wisdom undervalues [[Sheltered Thicket]] -- or perhaps overvalues [[Cinder Glade]]. In 98% of games, [[Cinder Glade]] will enter the battlefield tapped, or it'll enter untapped at a time when it doesn't matter. It's only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That's once out of 50 games.
 
