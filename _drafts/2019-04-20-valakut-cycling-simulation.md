@@ -8,11 +8,11 @@ tags: games stem
 
 A while back, I wrote a computer simulation of [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- a semi-mainstream [[Valakut, the Molten Pinnacle:Valakut]] deck in Modern. My [writeup](/titan-breach-simulation/) looked at how different card choices affected the deck's speed and consistency. In particular, I looked at [[Farseek]] versus [[Explore]]. Conventional wisdom prefers [[Farseek]] for its reliability. But if the goal is to land a T3 [[Primeval Titan]] as often as possible, it turns out [[Explore]] is a bit better. The risk of whiffing is more than made up for by the chance to draw a missing combo piece: [[Primeval Titan:Titan]], [[Through the Breach:Breach]], or [[Simian Spirit Guide:SSG]].
 
-The question today is similar, but instead of [[Farseek]] versus [[Explore]] we're looking at [[Cinder Glade]] versus [[Sheltered Thicket]]. The two lands fill a similar role. They're both typed duals[^1], and neither can be used to suspend a T1 [[Search for Tomorrow]]. Conventional wisdom prefers [[Cinder Glade]] for its reliability. It typically enters the battlefield untapped from T3 onward. It's widely played in both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper). On the other hand, [[Sheltered Thicket]] always enters the battlefield tapped, which can sometimes make it an awkward topdeck. It's rarely played.
+The question today is similar, but instead of [[Farseek]] versus [[Explore]] we're looking at [[Cinder Glade]] versus [[Sheltered Thicket]]. The two lands fill a similar role: they're both typed[^1] dual lands that enter the battlefield tapped on T1. [[Cinder Glade]] is the more reliable mana source, typically entering the battlefield untapped from T3 onward. It's widely played in both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach-65431#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper). [[Sheltered Thicket]] always enters the battlefield tapped, which can make it an awkward topdeck. It's rarely played. 
 
-[^1]: A *typed* dual land has two basic land types, in this case Forest and Mountain, as opposed to a non-typed dual land like [[Raging Ravine]] or [[Kazandu Refuge]]. This is important because most of the spells in the deck require green mana, but [[Valakut, the Molten Pinnacle:Valakut]] only works with Mountains.
+[^1]: A typed dual land has two basic land types, in this case Forest and Mountain, as opposed to a non-typed land like [[Kazandu Refuge]]. This is important because most of the spells in the deck require green mana, but [[Valakut, the Molten Pinnacle:Valakut]] only works with Mountains. 
 
-But [[Sheltered Thicket]] also has cycling. If you don't want it, you can pay a cost and discard it to draw something else. This doesn't come up much in the early game, when resources are tight, but the flexibility is very powerful in the late game. In fact, I'd go so far as to say that [[Sheltered Thicket]] is clearly better after about T6. By that point we should have plenty of mana, so coming into play tapped or untapped is not really a concern. The question is: how much better is [[Cinder Glade]] in the early game?
+But [[Sheltered Thicket]] also has cycling. If we don't want it, we can pay a cost and discard it to draw something else. This doesn't come up much in the early game, when resources are tight, but the flexibility is very powerful in the late game. In fact, I'd go so far as to say that [[Sheltered Thicket]] is clearly better after about T6. By that point we should have plenty of mana, so coming into play tapped or untapped is not really a concern. The question is: how much better is [[Cinder Glade]] in the early game?
 
 ## The Model
 
@@ -26,7 +26,7 @@ Sometimes the computer is a bit *too* good. For example, if it plays [[Explore]]
 
 ## Titan Breach
 
-We compare [[Cinder Glade]] and [[Sheltered Thicket]] using the following list for Titan Breach, not so different from what we used the last time around:
+We compare [[Cinder Glade]] and [[Sheltered Thicket]] using the following list for Titan Breach, not so different from what we used the last time around. Notably, six slots are reserved for interaction: 3 [[Anger of the Gods]] and 3 [[Lightning Bolt]]. These could just as easily be [[Flame Slash]], [[Obstinate Baloth]], [[Reclamation Sage]], etc. They don't directly contribute to getting [[Primeval Titan:Titan]] on the table, so as far as the simulation is concerned they're blanks.
 
 <table class="cardlist">
     <caption class="deckname">Titan Breach</caption>
@@ -53,9 +53,7 @@ We compare [[Cinder Glade]] and [[Sheltered Thicket]] using the following list f
     </tr>
 </table>
 
-We simulate 10k games using 4 [[Cinder Glade]] in the slots marked "???" then simulate another 10k games with [[Sheltered Thicket]] in those slots. The other 56 cards[^2] remain unchanged. We also look at a pair of controlled variables: [[Taiga]] (which always enters the battlefield untapped) and "Slow Taiga" (which always enters tapped). This will allow us to disentangle the advantage of cycling from the disadvantage of always entering the battlefield tapped.
-
-[^2]: The list reserves 6 slots for interaction: [[Anger of the Gods]] and [[Lightning Bolt]]. This number is about typical. These slots could just as easily be [[Flame Slash]], [[Obstinate Baloth]], [[Reclamation Sage]], etc. They don't contribute to getting [[Primeval Titan:Titan]] on the table, so as far as the simulation is concerned they're blanks.
+We simulate 10k games using 4 [[Cinder Glade]] in the slots marked "???" then simulate another 10k games with [[Sheltered Thicket]] in those slots. The other 56 cards remain unchanged. We also look at a pair of controlled variables: [[Taiga]] (which always enters the battlefield untapped) and "Slow Taiga" (which always enters tapped). This will allow us to disentangle the advantage of cycling from the disadvantage of always entering the battlefield tapped.
 
 The numbers shake out as follows:
 
@@ -78,7 +76,7 @@ What's striking is how close all the numbers are to one another. The difference 
 
 ## Titan Shift
 
-We can run a similar experiment with Titan Shift, using the list below. As before, we run 10k simulations with [[Cinder Glade]] in the slots marked "???" then another 10k simulations with each of [[Sheltered Thicket]], "Slow Taiga," and [[Taiga]].
+We can run a similar experiment with Titan Shift, using the list below. As above, we run 10k simulations with [[Cinder Glade]] in the slots marked "???" then another 10k simulations with each of [[Sheltered Thicket]], "Slow Taiga," and [[Taiga]]. 
 
 <table class="cardlist">
     <caption class="deckname">Titan Shift</caption>
@@ -107,7 +105,7 @@ We can run a similar experiment with Titan Shift, using the list below. As befor
     </tr>
 </table>
 
-The numbers tell more or less the same story as with Titan Breach.
+The numbers tell more or less the same story as we saw above for Titan Breach.
 
 | Land                  | T4   | ≥ T4.5 | ≥ T5   | ≥ T5.5 |
 |:----------------------|:----:|:------:|:------:|:------:|
@@ -122,8 +120,8 @@ The numbers tell more or less the same story as with Titan Breach.
 
 ## Caveats and Conclusions
 
-The Titan Shift numbers suggest that by T5, [[Sheltered Thicket]] is better than [[Taiga]]. There's reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn't like what it finds, it essentially gets to rewind and do something else instead. This means it has superhuman "luck" in terms of drawing exactly what it needs.
+The Titan Shift numbers suggest that by T5, [[Sheltered Thicket]] is better than [[Taiga]]. There's reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn't like what it finds, it essentially gets to rewind and do something else instead. The computer essentially has superhuman "instincts" that tell it when there's something good on top of the deck.
 
-But I think it's still fair to say that the conventional wisdom undervalues [[Sheltered Thicket]] -- or perhaps overvalues [[Cinder Glade]]. In 98% of games, [[Cinder Glade]] will enter the battlefield tapped, or it'll enter untapped at a time when it doesn't matter. It's only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. Once out of 50 games.
+Even so, I think it's fair to say the conventional wisdom undervalues [[Sheltered Thicket]] -- or perhaps overvalues [[Cinder Glade]]. In 98% of games, [[Cinder Glade]] will enter the battlefield tapped, or it'll enter untapped at a time when it doesn't matter. It's only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That's once out of 50 games.
 
 The upside on [[Sheltered Thicket]] is harder to quantify. It'll rarely get cycled on T2 or T3, but in a game that goes long it helps you find a [[Primeval Titan:Titan]] or sideboard card that much faster. If you think that might save your bacon once out of 50 games, it's probably worth a try.
