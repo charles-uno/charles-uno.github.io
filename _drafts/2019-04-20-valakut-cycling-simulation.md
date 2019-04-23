@@ -21,7 +21,7 @@ But [[Sheltered Thicket]] also has cycling. If we don't want it, we can pay a co
 
 The model[^4] we're using is essentially the same one as [last time](/titan-breach-simulation). For each simulation, it shuffles up, draws an opening hand, then attempts all possible sequences of legal plays until it finds a way to get [[Primeval Titan]] onto the table. This strategy is computationally inefficient, but it's guaranteed to find the best possible sequence of plays for every opening hand.
 
-[^4]: The original model, written in Python, is available on GitHub [here](https://github.com/charles-uno/valakut-python). As an exercise, I went back and rewrote it in Go [here](https://github.com/charles-uno/valakut). Pull requests are welcome on either repo!
+[^4]: The original model, written in Python, is available on GitHub [here](https://github.com/charles-uno/valakut-python). As an exercise, I went back and rewrote it in Go [here](https://github.com/charles-uno/valakut). Forks and pull requests welcome for either repo!
 
 Sometimes the computer is a bit *too* good. For example, if it plays [[Explore]] and doesn't like what it draws, it essentially gets to rewind and play [[Sakura-Tribe Elder]] instead. This effect is generally[^5] not a big deal -- there honestly aren't that many choices to make when goldfishing with a [[Valakut, the Molten Pinnacle:Valakut]] deck -- but once in a while the computer's superhuman "instincts" shine through. It'll throw back a perfectly good seven-card hand in search of a faster six, or cycle instead of ramping to draw into [[Through the Breach]].
 
