@@ -121,4 +121,9 @@ The Titan Shift numbers suggest that by T5, [[Sheltered Thicket]] is better than
 
 Even so, it's fair to say the conventional wisdom undervalues [[Sheltered Thicket]] -- or perhaps overvalues [[Cinder Glade]]. In 98% of games, [[Cinder Glade]] will enter the battlefield tapped, or it'll enter untapped at a time when it doesn't matter. Maybe we're playing it T2 off an [[Explore]], or it's T3 and we only have a single ramp spell, or it's T4 and we've already got all the mana we need. It's only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That's once out of 50 games.
 
-The upside on [[Sheltered Thicket]] is harder to quantify. It'll rarely get cycled on T2 or T3, but in a game that goes long it helps you find a [[Primeval Titan:Titan]] or sideboard card that much faster. If you think that might save your bacon once out of 50 games, it's probably worth a try.
+If this seems *impossibly* low to you, well, it seemed that way to me too. So I proxied up the deck and goldfished dozens of games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward -- a lone, tapped green source that prevented me from suspending [[Search for Tomorrow] on T1. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]]. 
+
+On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer's superhuman "instincts" make the effect hard to quantify, but it's definitely worth *something*. Early on, it can help dig you out of a flood. In later turns, it digs you to another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it's probably worth a try. 
+
+
+
