@@ -58,7 +58,7 @@ We compare [[Cinder Glade]] and [[Sheltered Thicket]] using the following list f
 
 We simulate 10k games using 4 [[Cinder Glade]] in the slots marked "???" and another 10k games with [[Sheltered Thicket]] in those slots. The other 56 cards remain unchanged. We also look at a pair of controlled variables: [[Taiga]] (which always enters the battlefield untapped) and "Slow Taiga" (which always enters tapped). This allows us to disentangle the advantage of cycling from the disadvantage of always entering the battlefield tapped. The numbers shake out as follows:
 
-| Land                  | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
+| Lands 23-26           | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
 |:----------------------|:----:|:------:|:------:|:------:|
 | [[Cinder Glade]]      | 21%  | 29%    | 59%    | 82%    |
 | [[Sheltered Thicket]] | 20%  | 27%    | 60%    | 84%    |
@@ -106,7 +106,7 @@ We can run a similar experiment with Titan Shift, using the list below. As above
 
 The numbers tell more or less the same story as we saw above for Titan Breach. [[Taiga]] and "Slow Taiga" behave similarly. The difference comes up about once every 50 games. [[Cinder Glade]] is about halfway between them -- it's only better than "Slow Taiga" about once every 100 games! And as the game goes on, the ability to cycle [[Sheltered Thicket]] becomes more and more of an advantage.
 
-| Land                  | T4   | ≥ T4.5 | ≥ T5   | ≥ T5.5 |
+| Lands 24-27           | T4   | ≥ T4.5 | ≥ T5   | ≥ T5.5 |
 |:----------------------|:----:|:------:|:------:|:------:|
 | [[Cinder Glade]]      | 28%  | 64%    | 78%    | 91%    |
 | [[Sheltered Thicket]] | 29%  | 66%    | 80%    | 93%    |
