@@ -25,9 +25,13 @@ But just because Pokémon is successful doesn't mean every part of it is perfect
 
 [^2]: Pokémon illustrations come from [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Main_Page).
 
-1. ![Magnemite](/assets/images/thumb/pokemon-magnemite.png) *Rather than a cartoon animal, this pokémon is an inanimate object.*
-2. ![Hitmonchan](/assets/images/thumb/pokemon-hitmonchan.png) *Rather than a cartoon animal, this pokémon is a cartoon person.*
-3. ![Dialga](/assets/images/thumb/pokemon-dialga.png) *Rather than a cartoon animal, this pokémon is ???*
+<span class="tiles"><span>
+![Magnemite](/assets/images/thumb/pokemon-magnemite.png) *Rather than a cartoon animal, this pokémon is an inanimate object.*
+</span><span>
+![Hitmonchan](/assets/images/thumb/pokemon-hitmonchan.png) *Rather than a cartoon animal, this pokémon is a cartoon person.*
+</span><span>
+![Dialga](/assets/images/thumb/pokemon-dialga.png) *Rather than a cartoon animal, this pokémon is ???*
+</span></span>
 
 [As the saying goes](http://quoteinvestigator.com/2011/05/13/einstein-simple/), everything should be as simple as possible, but no simpler[^5]. Type interactions add a layer of excitement and skill to Pokémon battling; getting that to work requires a baseline of complexity, and that's fine. But we're way above that baseline. The type system is an unwieldy kludge. The large number of interactions poses a steep and unnecessary learning curve for new players.
 
@@ -45,22 +49,37 @@ We can take this opportunity to clean up the lexicon as well. "Flying" is sugges
 
 We are left with eight types. An example pokémon is shown below for each:
 
-1. ![Phanpy](/assets/images/thumb/pokemon-phanpy.png) *Phanpy -- Heart*
-2. ![Ponyta](/assets/images/thumb/pokemon-ponyta.png) *Ponyta -- Fire*
-3. ![Galvantula](/assets/images/thumb/pokemon-galvantula.png) *Galvantula -- Lightning*
-4. ![Turtwig](/assets/images/thumb/pokemon-turtwig.png) *Turtwig -- Plant*
-5. ![Toucannon](/assets/images/thumb/pokemon-toucannon.png) *Toucannon -- Wind*
-6. ![Spheal](/assets/images/thumb/pokemon-spheal.png) *Spheal -- Water*
-7. ![Girafarig](/assets/images/thumb/pokemon-girafarig.png) *Girafarig -- Shadow*
-8. ![Tyrunt](/assets/images/thumb/pokemon-tyrunt.png) *Tyrunt -- Rock*
+<span class="tiles"><span>
+![Phanpy](/assets/images/thumb/pokemon-phanpy.png) *Phanpy -- Heart*
+</span><span>
+![Ponyta](/assets/images/thumb/pokemon-ponyta.png) *Ponyta -- Fire*
+</span><span>
+![Galvantula](/assets/images/thumb/pokemon-galvantula.png) *Galvantula -- Lightning*
+</span><span>
+![Turtwig](/assets/images/thumb/pokemon-turtwig.png) *Turtwig -- Plant*
+</span><span>
+![Toucannon](/assets/images/thumb/pokemon-toucannon.png) *Toucannon -- Wind*
+</span><span>
+![Spheal](/assets/images/thumb/pokemon-spheal.png) *Spheal -- Water*
+</span><span>
+![Girafarig](/assets/images/thumb/pokemon-girafarig.png) *Girafarig -- Shadow*
+</span><span>
+![Tyrunt](/assets/images/thumb/pokemon-tyrunt.png) *Tyrunt -- Rock*
+</span></span>
 
 Under this paradigm, there would perhaps be fewer dual-typed pokémon. [Bulbasaur](http://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)), [Pidgey](http://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)), and [Rhyhorn](http://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon)) could just be Plant, Wind, and Rock (rather than Grass/Poison, Normal/Flying, and Rock/Ground respectively). But there are still plenty of opportunities for dual typing.
 
-1. ![Blitzle](/assets/images/thumb/pokemon-blitzle.png) *Blitzle -- Shadow/Lightning*
-2. ![Magcargo](/assets/images/thumb/pokemon-magcargo.png) *Magcargo -- Fire/Rock*
-3. ![Tentacruel](/assets/images/thumb/pokemon-tentacruel.png) *Tentacruel -- Water/Shadow*
-4. ![Torterra](/assets/images/thumb/pokemon-torterra.png) *Torterra -- Plant/Rock*
-5. ![Gyarados](/assets/images/thumb/pokemon-gyarados.png) *Gyarados -- Water/Wind*
+<span class="tiles"><span>
+![Blitzle](/assets/images/thumb/pokemon-blitzle.png) *Blitzle -- Shadow/Lightning*
+</span><span>
+![Magcargo](/assets/images/thumb/pokemon-magcargo.png) *Magcargo -- Fire/Rock*
+</span><span>
+![Tentacruel](/assets/images/thumb/pokemon-tentacruel.png) *Tentacruel -- Water/Shadow*
+</span><span>
+![Torterra](/assets/images/thumb/pokemon-torterra.png) *Torterra -- Plant/Rock*
+</span><span>
+![Gyarados](/assets/images/thumb/pokemon-gyarados.png) *Gyarados -- Water/Wind*
+</span></span>
 
 [Slugma](http://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)) grows stony armor when it evolves into [Magcargo](http://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)). When [Magikarp](http://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)) evolves into [Gyarados](http://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)), it gains the ability to fly! Having a pokémon gain a second type when it evolves is a tried-and-true way to make the new form exciting.
 
@@ -68,11 +87,17 @@ Under this paradigm, there would perhaps be fewer dual-typed pokémon. [Bulbasau
 
 After reworking the types, it's time to rework their interactions. Rather than choosing them one at a time, and hoping things line up in the end, let's frame type advantage in terms of a handful of cycles, each in the style of Rock Paper Scissors (or [Rock Paper Scissors Lizard Spock](http://www.samkass.com/theories/RPSSL.html)).
 
-1. <p>Fire consumes Plant</p><p>Plant drinks Water</p><p>Water quenches Fire</p>
-2. <p>Lightning ionizes Water</p><p>Water erodes Rock</p><p>Rock grounds Lightning</p>
-3. <p>Fire illuminates Shadow</p><p>Shadow quiets Wind</p><p>Wind suffocates Fire</p>
-4. <p>Wind ambushes Heart</p><p>Heart endures Lightning</p><p>Lightning punctures Wind</p>
-5. <p>Shadow starves Plant</p><p>Plant overgrows Rock</p><p>Rock crushes Heart</p><p>Heart outshines Shadow</p>
+<p class="tiles"><span>
+Fire consumes Plant<br>Plant drinks Water<br>Water quenches Fire
+</span><span>
+Lightning ionizes Water<br>Water erodes Rock<br>Rock grounds Lightning
+</span><span>
+Fire illuminates Shadow<br>Shadow quiets Wind<br>Wind suffocates Fire
+</span><span>
+Wind ambushes Heart<br>Heart endures Lightning<br>Lightning punctures Wind
+</span><span>
+Shadow starves Plant<br>Plant overgrows Rock<br>Rock crushes Heart<br>Heart outshines Shadow
+</span></p>
 
 Judging the interactions one by one, this system looks a lot like the old one -- most interactions are intuitive, and a few feel a bit forced for the sake of balance. The differences become evident when we take a step back and look at the system as a whole:
 

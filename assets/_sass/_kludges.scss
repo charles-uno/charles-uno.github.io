@@ -4,21 +4,6 @@
         background-color: $shadow-color;
     }
 
-
-
-    // Ordered lists show as tiles, like on the index.
-    ol {
-        background-color: $paper-color;
-        li {
-            background-color: $shadow-color;
-            font-size: $caption-size;
-            border-radius: $tile-radius;
-            overflow: hidden;
-        }
-    }
-
-
-
     .cardlist, .cardlist-with-sideboard {
         width: 100%;
         td { height: 100%; vertical-align: top; }
@@ -32,9 +17,19 @@
     .cardlist { td { width: 33.3%; } }
     .cardlist-with-sideboard { td { width: 25%; } }
 
+    // Ordered lists show as tiles, like on the index.
+    p.tiles, span.tiles {
+        background-color: $paper-color;
+        span {
+            background-color: $shadow-color;
+            font-size: $caption-size;
+            border-radius: $tile-radius;
+            overflow: hidden;
+        }
+    }
 
     // Ordered lists show as tiles, like on the index.
-    ol {
+    p.tiles, span.tiles {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
@@ -43,7 +38,7 @@
         border: 0;
         padding: 0;
         text-align: center;
-        li {
+        span {
             float: left;
             clear: none;
             display: inline-block;

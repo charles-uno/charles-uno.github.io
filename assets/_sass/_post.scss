@@ -63,7 +63,7 @@ article {
     }
 
     // Try to avoid getting bitten by weird spacing.
-    ol, li, p, h1, h2, h3, h4, h5, h6, hr, div, div.highlight, pre.highlight, div.footnotes, div.footnotes li, pre, blockquote, .table-caption, table, tbody, tr, th, td, img {
+    li, p, h1, h2, h3, h4, h5, h6, hr, div, div.highlight, pre.highlight, div.footnotes, div.footnotes li, pre, blockquote, .table-caption, table, tbody, tr, th, td, img {
         border: 0;
         padding: 0;
         margin: 0;
@@ -71,7 +71,7 @@ article {
     }
 
     // Set baseline width, etc.
-    ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
+    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
         max-width: $text-width;
         margin: $paragraph-gap auto;
     }
