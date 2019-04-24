@@ -160,6 +160,8 @@ article {
 
     // Add counters to the footnots, per: http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
     div.footnotes ol {
+        padding-inline-start: 0;
+
         counter-reset: li;
         li { list-style:none; }
         li > p:before {
