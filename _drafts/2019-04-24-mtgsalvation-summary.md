@@ -6,6 +6,106 @@ description: "Don't underestimate the power of \"draw a card.\""
 tags: games stem
 ---
 
+The first Modern tournament I ever played was a PPTQ. I won it, despite knowing nothing about the format. Then I won the RPTQ and tickets to Spain for PT RIX. The secret behind my success, honestly, was Valakut. The deck is resilient and redundant, making it incredibly friendly to beginners. You just keep putting lands on the table and eventually your opponent scoops it up.
+
+The downside of "resilient and redundant" is that Valakut can get repetitive: ramp spell, ramp spell, Primeval Titan. Don't get me wrong. Resolving Primeval Titan is a rush, and I'm not looking to give it up. I just want some more wiggle room. When a game goes sideways -- Blood Moon, Surgical Extraction, Leyline of Sanctity -- I want to see more cards, maximize my options, and figure out a way to win anyway. Specifically, I'm curious about:
+
+- Farseek vs Explore
+- Cinder Glade vs Sheltered Thicket
+
+In both Titan Breach and Titan Shift, the conventional wisdom strongly prefers Farseek over Explore. Farseek is a reliable ramp spell, while Explore sometimes whiffs. Similarly, Cinder Glade is widely played and Sheltered Thicket is a fringe one-of. Cinder Glade typically enters the battlefield untapped from turn three onward, while Sheltered Thicket can be an awkward topdeck when we need the sixth mana for a Titan.
+
+But Explore and Sheltered Thicket have three important words that Farseek and Cinder Glade don't: "draw a card." Early on, drawing an extra card can help us assemble an explosive win on turn three or four. Later on, drawing a card digs us that much closer to a sideboard card or finisher -- especially if our opponent has managed to keep Valakut offline. The question is, if we want the flexibility, how does it affect our speed?
+
+## The Model
+
+This is where the computer comes in. I've written a numerical model (code available on GitHub here) that can read in a deck list, simulate thousands of games, and tell us exactly how fast that list can expect to land a Primeval Titan or Scapeshift. The model doesn't know anything about sequencing or strategy. Instead, it tries all possible combinations of legal plays and keeps whichever one wins fastest. This strategy is computationally inefficient, but it’s guaranteed to play out each hand perfectly.
+
+In fact, sometimes the computer is a bit *better* than perfect. For example, if it plays Explore and doesn’t like what it draws, it essentially gets to rewind and play Sakura-Tribe Elder instead. This effect is generally not a big deal – there honestly aren’t that many choices to make when goldfishing with a Valakut deck -- but we do have to make a few adjustments to suppress non-human play patterns.
+
+First, the model isn't allowed to mulligan. Mulligans are all about imperfect information, but the model would frequently throw back perfectly good seven-card hands when it knew it would draw a faster six. Second, there's no shuffling. Otherwise, the computer's superhuman "instincts" allow it to shuffle at just the right time to blind-draw into better cards. So once the game starts, the order of the deck is set. Any time we would fetch a Forest and shuffle, instead we leave the deck as-is and create a new Forest out of thin air.
+
+## Titan Breach
+
+
+
+[table]
+[tr]
+	[th]Breach Build[/th]
+	[th]Breach T3[/th]
+	[th]≥ Cast T3[/th]
+[/tr]
+[tr]
+	[td]Explore, Cinder Glade[/td]
+	[td]11%[/td]
+	[td]16%[/td]
+[/tr]
+[tr]
+	[td]Explore, Sheltered Thicket[/td]
+	[td]10%[/td]
+	[td]14%[/td]
+[/tr]
+[/table]
+
+
+
+
+| Breach Build               | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
+|:---------------------------|:----:|:------:|:------:|:------:|
+| Explore, Cinder Glade      | 11%  | 16%    | 38%    | 59%    |
+| Explore, Sheltered Thicket | 10%  | 14%    | 40%    | 61%    |
+| Explore, "Slow Taiga"      | 11%  | 14%    | 36%    | 59%    |
+| Explore, Taiga             | 13%  | 19%    | 41%    | 62%    |
+
+...
+
+| Breach Build               | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
+|:---------------------------|:----:|:------:|:------:|:------:|
+| Farseek, Cinder Glade      | 12%  | 16%    | 38%    | 60%    |
+| Farseek, Sheltered Thicket | 10%  | 14%    | 40%    | 62%    |
+| Farseek, "Slow Taiga"      | 10%  | 13%    | 36%    | 58%    |
+| Farseek, Taiga             | 13%  | 18%    | 39%    | 61%    |
+
+
+
+
+
+
+
+
+
+
+| Build                      | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
+|:---------------------------|:----:|:------:|:------:|:------:|
+| Explore, Cinder Glade      | 11%  | 16%    | 38%    | 59%    |
+| Explore, Sheltered Thicket | 10%  | 14%    | 40%    | 61%    |
+| Explore, "Slow Taiga"      | 11%  | 14%    | 36%    | 59%    |
+| Explore, Taiga             | 13%  | 19%    | 41%    | 62%    |
+
+| Build                      | T3   | ≥ T3.5 | ≥ T4   | ≥ T4.5 |
+|:---------------------------|:----:|:------:|:------:|:------:|
+| Farseek, Cinder Glade      | 12%  | 16%    | 38%    | 60%    |
+| Farseek, Sheltered Thicket | 10%  | 14%    | 40%    | 62%    |
+| Farseek, "Slow Taiga"      | 10%  | 13%    | 36%    | 58%    |
+| Farseek, Taiga             | 13%  | 18%    | 39%    | 61%    |
+
+
+
+
+
+
+
+
+
+
+---
+
+---
+
+---
+
+
+
 The first Modern tournament I ever played was a PPTQ. I won it, despite knowing nothing about the format. Then I won the RPTQ. Then, despite a few embarrassing punts, I went 6-4 in the Modern portion of PT RIX. The secret behind my success, honestly, was Valakut. The deck is resilient and redundant, making it incredibly friendly to beginners. All the cards are basically lands. You just keep putting them on the table and eventually your opponent scoops it up. Half the time you don't even have to understand what they're playing!
 
 The downside of "resilient and redundant" is that Valakut can get repetitive. Everything happens at sorcery speed. There are no tricks to dig for, or cantrips to dig with. As I learned the format, I could read my opponents' plays, anticipate their tricks, and guess their sideboard choices. But you wouldn't know it from my plays: ramp spell, ramp spell, ramp spell, Scapeshift.
