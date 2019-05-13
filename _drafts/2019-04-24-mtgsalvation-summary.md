@@ -12,18 +12,24 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 
 ## Quick on the Draw
 
-[[Search for Tomorrow]] can be suspended. [[Sakura-Tribe Elder]] can block.
+
+
+If we could play eight copies of [[Sakura-Tribe Elder]], we'd do so in a heartbeat. It's a ramp spell that also blocks to protect our life total. Sadly, we can't. [[Farseek]] and [[Explore]] are the next best options. Conventional wisdom strongly prefers [[Farseek]] for its reliability. 
+
+
+
+
+
+
+
+
+
+
+
+[[Explore]] can whiff if 
+
 
 [[Search for Tomorrow]] and [[Sakura-Tribe Elder]] fill unique roles and can't readily be replaced. Conventional wisdom is to play [[Farseek]] as the third-best ramp spell.
-
-
-
-
-But [[Explore]] is plausible in that role as well.
-
-
-
-
 
 
 In both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper), the conventional wisdom strongly prefers [[Farseek]] over [[Explore]]. [[Farseek]] is a reliable ramp spell, while [[Explore]] sometimes whiffs. Similarly, [[Cinder Glade]] is widely played and [[Sheltered Thicket]] is a fringe one-of. [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need the sixth mana for a [[Primeval Titan:Titan]].
