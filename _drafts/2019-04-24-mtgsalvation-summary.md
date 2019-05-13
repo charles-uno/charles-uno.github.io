@@ -12,56 +12,12 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 
 ## Quick on the Draw
 
+In particular, I'm curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but never takes its place. 
 
-
-If we could play eight copies of [[Sakura-Tribe Elder]], we'd do so in a heartbeat. It's a ramp spell that also blocks to protect our life total. Sadly, we can't. [[Farseek]] and [[Explore]] are the next best options. Conventional wisdom strongly prefers [[Farseek]] for its reliability. 
-
-
-
-
-
-
-
-
-
-
-
-[[Explore]] can whiff if 
-
-
-[[Search for Tomorrow]] and [[Sakura-Tribe Elder]] fill unique roles and can't readily be replaced. Conventional wisdom is to play [[Farseek]] as the third-best ramp spell.
-
-
-In both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper), the conventional wisdom strongly prefers [[Farseek]] over [[Explore]]. [[Farseek]] is a reliable ramp spell, while [[Explore]] sometimes whiffs. Similarly, [[Cinder Glade]] is widely played and [[Sheltered Thicket]] is a fringe one-of. [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need the sixth mana for a [[Primeval Titan:Titan]].
-
-
-
-
+![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
+*A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
 
 But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." Early on, drawing an extra card can help us assemble an explosive win on turn three or four. Later on, drawing a card digs us that much closer to a sideboard card or finisher -- especially if our opponent has managed to keep [[Valakut, the Molten Pinnacle:Valakut]] offline. The question is, if we want the flexibility, how does it affect our speed?
-
-
-
-
-
-Most of the card choices are untouchable. There's no substitute for the curve toppers: [[Primeval Titan]], [[Summoner's Pact]], [[Scapeshift]], and/or [[Through the Breach]]. [[Wooded Foothills:Fetches]], and [[Stomping Ground:shocks]] are the best mana fixing in Modern.
-
-
-
-
-[[Search for Tomorrow]], [[Sakura-Tribe Elder:STE]],
-
-
-
-
-
-
-are unquestionably the best at what they do.
-
-
-
-
-
 
 ## The Model
 
@@ -75,13 +31,27 @@ The big caveat is shuffling. The computer is programmed to try all possible opti
 
 
 
-
-
 -----
 
 
 
 -----
+
+
+
+
+
+
+
+If we could play more than eight copies of [[Sakura-Tribe Elder]], we'd do so in a heartbeat. It's a ramp spell that also blocks to protect our life total. Sadly, we can't. [[Farseek]] and [[Explore]] are the next best options. Conventional wisdom strongly prefers [[Farseek]] for its reliability, but there's reason to be skeptical. 
+
+[[Search for Tomorrow]] and [[Sakura-Tribe Elder]] fill unique roles and can't readily be replaced. Conventional wisdom is to play [[Farseek]] as the third-best ramp spell.
+
+In both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper), the conventional wisdom strongly prefers [[Farseek]] over [[Explore]]. [[Farseek]] is a reliable ramp spell, while [[Explore]] sometimes whiffs. Similarly, [[Cinder Glade]] is widely played and [[Sheltered Thicket]] is a fringe one-of. [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need the sixth mana for a [[Primeval Titan:Titan]].
+
+Most of the card choices are untouchable. There's no substitute for the curve toppers: [[Primeval Titan]], [[Summoner's Pact]], [[Scapeshift]], and/or [[Through the Breach]]. [[Wooded Foothills:Fetches]], and [[Stomping Ground:shocks]] are the best mana fixing in Modern.
+
+
 
 
 
@@ -200,9 +170,9 @@ This is where the computer comes in. I've written a numerical model (code availa
 
 For example, on turn two, we often have to choose between casting [[Sakura-Tribe Elder:STE]] and [[Explore]]. An experienced player can generally eyeball it, but spelling out the decision explicitly for the computer is tedious and error-prone. We'd have to make a calculation based on how many lands are in our hand, whether we need a second green source, how many live draws we have to make turn-three [[Through the Breach:Breach]] (or [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]]), and so on. Instead of all that, we just make two copies of the game. One plays [[Sakura-Tribe Elder:STE]] and the other plays [[Explore]]. If *either* copy pulls off turn-three [[Through the Breach:Breach]], it's pretty safe to say a human player could have done the same.
 
-The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest. But shuffling at just the right time to blind-draw into better cards isn't luck or skill -- it's cheating. So once the game starts, the order of the deck is locked in. There are no mulligans. And any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means neglecting deck thinning, a percent-level[^1] effect.
+The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest. But shuffling at just the right time to blind-draw into better cards isn't luck or skill -- it's cheating. So once the game starts, the order of the deck is locked in. There are no mulligans. And any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means neglecting deck thinning, a percent-level[^10] effect.
 
-[^1]: About one land is thinned from the deck each turn. We simulate out to turn four. That means the model draws about one too many lands (and one too few spells) every twenty games. A quick estimate suggests the difference matters less than half the time.
+[^10]: About one land is thinned from the deck each turn. We simulate out to turn four. That means the model draws about one too many lands (and one too few spells) every twenty games. A quick estimate suggests the difference matters less than half the time.
 
 ## Titan Shift
 
