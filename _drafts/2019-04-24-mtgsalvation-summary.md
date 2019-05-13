@@ -31,6 +31,77 @@ The big caveat is shuffling. The computer is programmed to try all possible opti
 
 [^2]: About one land is thinned from the deck each turn. We simulate out to turn four. That means the model draws about one too many lands (and one too few spells) every twenty games. A quick estimate suggests the difference matters less than half the time.
 
+
+## Titan Breach
+
+Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- the deck I played in Spain. The deck uses [[Simian Spirit Guide]] and [[Through the Breach]] to get [[Primeval Titan]] onto the table as quickly as possible, potentially winning the game on turn three. Below is a typical deck list, more or less[^3]. Note that six slots are reserved for interaction: [[Anger of the Gods]], [[Chalice of the Void]], [[Lightning Bolt]], and so on. These cards don't directly contribute to getting [[Primeval Titan]] on the table, so as far as the simulation is concerned they're blanks. 
+
+[^3]: Two or three copies of [[Cinder Glade]] would be more typical. We bump it up to the full set to make the difference between [[Cinder Glade]] and [[Sheltered Thicket]] as clear as possible. 
+
+<table class="cardlist">
+    <caption class="deckname">Titan Breach</caption>
+    <tr>
+        <td>
+            6 [[Anger of the Gods]] or whatever<br>
+            4 [[Farseek]]<br>
+            4 [[Primeval Titan]]<br>
+            4 [[Sakura-Tribe Elder]]<br>
+            4 [[Search for Tomorrow]]<br>
+            4 [[Simian Spirit Guide]]<br>
+            4 [[Summoner's Pact]]<br>
+            4 [[Through the Breach]]<br>
+            1 [[Woodfall Primus]]<br>
+        </td>
+        <td>
+            1 [[Blighted Woodland]]<br>
+            4 [[Cinder Glade]]<br>
+            2 [[Forest]]<br>
+            6 [[Mountain]]<br>
+            4 [[Stomping Ground]]<br>
+            4 [[Valakut, the Molten Pinnacle]]<br>
+            4 [[Wooded Foothills]]<br>
+        </td>
+    </tr>
+</table>
+
+We'll simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We'll also run another four variations as a control: instead of [[Cinder Glade]] and [[Sheltered Thicket]] we'll use [[Taiga]] and [[Shivan Oasis]]. This will allow us to disentangle the positive effects of cycling from the negative effects of always entering the battlefield tapped. 
+
+| Titan Breach Variation     | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
+|:---------------------------|:----:|:------:|:------:|:------:|
+| Explore, Cinder Glade      | %  | %    | %    | %    |
+| Farseek, Cinder Glade      | %  | %    | %    | %    |
+| Explore, Sheltered Thicket | %  | %    | %    | %    |
+| Farseek, Sheltered Thicket | %  | %    | %    | %    |
+| Explore, Shivan Oasis      | %  | %    | %    | %    |
+| Farseek, Shivan Oasis      | %  | %    | %    | %    |
+| Explore, Taiga             | %  | %    | %    | %    |
+| Farseek, Taiga             | %  | %    | %    | %    |
+
+<p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
+
+**ANALYSIS...**
+
+
+
+
+
+
+## Intermission
+
+On the subject of Titan Breach, let's take a moment to talk about [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed. 
+
+| Number of [[Simian Spirit Guide:SSGs]] | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
+|:---------------------------------------|:----:|:------:|:------:|:------:|
+| 0                                      | %  | %    | %    | %    |
+| 1                                      | %  | %    | %    | %    |
+| 2                                      | %  | %    | %    | %    |
+| 3                                      | %  | %    | %    | %    |
+| 4                                      | %  | %    | %    | %    |
+
+<p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
+
+With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. Seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both, since you're not going to win on turn three anymore. 
+
 ## Titan Shift
 
 [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper) is the most popular [[Valakut, the Molten Pinnacle:Valakut]] deck. Below shows a "typical" list, plus or minus a bit of personal preference. Notably, there are eight slots reserved for interaction: [[Anger of the Gods]], [[Lightning Bolt]], [[Flame Slash]], [[Reclamation Sage]], and so on. These cards don't directly contribute to getting lands on the table, so as far as the simulation is concerned they're blanks. 
@@ -62,7 +133,7 @@ The big caveat is shuffling. The computer is programmed to try all possible opti
     </tr>
 </table>
 
-We'll simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We'll also run another four variations as a control: instead of [[Cinder Glade]] and [[Sheltered Thicket]] we'll use [[Taiga]] and [[Shivan Oasis]]. This will allow us to disentangle the positive effects of cycling from the negative effects of always entering the battlefield tapped. We'll look at 5k hands with each build, to get our numbers 
+We'll simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We'll also run another four variations as a control: instead of [[Cinder Glade]] and [[Sheltered Thicket]] we'll use [[Taiga]] and [[Shivan Oasis]]. This will allow us to disentangle the positive effects of cycling from the negative effects of always entering the battlefield tapped. 
 
 | Titan Shift Variation      | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
 |:---------------------------|:----:|:------:|:------:|:------:|
@@ -78,40 +149,6 @@ We'll simulate four different variations of this deck to cover all combinations 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
 **ANALYSIS...**
-
-
-## Titan Breach
-
-[Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) is the all-in cousin of Titan Shift. It uses [[Simian Spirit Guide]] and [[Through the Breach]] to get [[Primeval Titan]] onto the battlefield as quickly as possible, potentially winning the game on turn three. Lists look about like the following, with six slots reserved for interaction: [[Anger of the Gods]], [[Chalice of the Void]], [[Lightning Bolt]], and so on. 
-
-<table class="cardlist">
-    <caption class="deckname">Titan Breach</caption>
-    <tr>
-        <td>
-            6 [[Anger of the Gods]] or whatever<br>
-            4 [[Farseek]]<br>
-            4 [[Primeval Titan]]<br>
-            4 [[Sakura-Tribe Elder]]<br>
-            4 [[Search for Tomorrow]]<br>
-            4 [[Simian Spirit Guide]]<br>
-            4 [[Summoner's Pact]]<br>
-            4 [[Through the Breach]]<br>
-            1 [[Woodfall Primus]]<br>
-        </td>
-        <td>
-            1 [[Blighted Woodland]]<br>
-            4 [[Cinder Glade]]<br>
-            2 [[Forest]]<br>
-            6 [[Mountain]]<br>
-            4 [[Stomping Ground]]<br>
-            4 [[Valakut, the Molten Pinnacle]]<br>
-            4 [[Wooded Foothills]]<br>
-        </td>
-    </tr>
-</table>
-
-A quick aside: sometimes you'll see a Titan Breach list shave a copy of [[Simian Spirit Guide]], or cut the card entirely. 
-
 
 
 
