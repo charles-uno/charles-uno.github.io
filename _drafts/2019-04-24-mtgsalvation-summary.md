@@ -79,11 +79,11 @@ We'll simulate four different variations of this deck to cover all combinations 
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-**ANALYSIS...**
+In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This rings true. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
 
+We can also see that [[Cinder Glade]] is better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. This is a nice sanity check. If [[Cinder Glade]] ever performed better than [[Taiga]], we’d know something was wrong with the simulation.
 
-
-
+What’s striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] comes up once per 20 to 30 games. And [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. In terms of getting [[Primeval Titan:Titan]] on the table on turn three, [[Cinder Glade]] is better than [[Sheltered Thicket]] about once every 50 games. It just doesn't matter very often whether these lands enter the battlefield tapped or untapped in Titan Breach. 
 
 
 ## Intermission
@@ -149,13 +149,18 @@ As with Titan Breach, we'll simulate all combinations of [[Farseek]] vs [[Explor
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
-**ANALYSIS...**
+The numbers tell more or less the same story we saw for Titan Breach. [[Taiga]] and [[Shivan Oasis]] behave similarly. The difference comes up about once every 50 games. [[Cinder Glade]] is about halfway between them – it’s only better than [[Shivan Oasis]] about once every 100 games! And as the game goes on, the ability to cycle [[Sheltered Thicket]] becomes more and more of an advantage.
 
 
+## Caveats and Conclusions
 
-## Conclusions and Caveats
+The Titan Shift numbers suggest that by turn five, [[Sheltered Thicket]] is better than Taiga. There’s reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn’t like what it finds, it essentially gets to rewind and do something else instead. In effect, the computer has superhuman “instincts” about when there’s something good on top of the deck.
 
+Even so, it’s fair to say the conventional wisdom undervalues [[Sheltered Thicket]] – or perhaps overvalues [[Cinder Glade]]. In 98% of games we either won’t draw [[Cinder Glade]], or it’ll enter the battlefield tapped, or it’ll enter untapped at a time when it doesn’t matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That’s once out of 50 games.
 
+If this seems impossibly low to you, well, it seemed that way to me too. So I proxied up the deck and goldfished dozens of games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward – a lone, tapped green source that prevented me from suspending [[Search for Tomorrow]] on turn one. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]].
+
+On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it’s probably worth a try.
 
 
 
