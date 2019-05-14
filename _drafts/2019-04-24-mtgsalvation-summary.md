@@ -85,7 +85,7 @@ Right off the bat, we can make a few sanity checks:
 - In the turn-three numbers, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This makes sense. It’s *possible* for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which almost never happens.
 - The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. This makes sense because [[Explore]] lets us play [[Shivan Oasis]] (or [[Valakut, the Molten Pinnacle:Valakut]]) as an extra land, so it doesn't disrupt our curve. 
 
-Beyond that, what's striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] only comes up about once per twenty or thirty games. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Likewise, the difference between [[Farseek]] and [[Explore]] is statistically questionable. It looks like the risk of whiffing with [[Explore]] is almost exactly balanced by its potential to draw us into a missing [[Simian Spirit Guide:SSG]], [[Through the Breach:Breach]], or [[Primeval Titan:Titan]]. 
+Beyond that, what's striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] only comes up about once per twenty or thirty games. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Likewise, the difference between [[Farseek]] and [[Explore]] is right on the border of statistical significance. It looks like the risk of whiffing with [[Explore]] is almost exactly balanced by its potential to draw us into a missing [[Simian Spirit Guide:SSG]], [[Through the Breach:Breach]], or [[Primeval Titan:Titan]]. 
 
 ## Intermission
 
