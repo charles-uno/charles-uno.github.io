@@ -101,7 +101,9 @@ While we're on the topic, I'd like to take a moment to discuss [[Simian Spirit G
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. It seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
+With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games. 
+
+It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
 
 ## Titan Shift
@@ -135,7 +137,7 @@ With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands
     </tr>
 </table>
 
-As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped.
+As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped. The numbers are below:
 
 | Titan Shift Variation      | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
 |:---------------------------|:----:|:------:|:------:|:------:|
