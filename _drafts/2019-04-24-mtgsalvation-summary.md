@@ -12,7 +12,7 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 
 ## Quick on the Draw
 
-In particular, I'm curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place. 
+In particular, I'm curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place.
 
 ![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
 *A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
@@ -23,7 +23,7 @@ But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Fars
 
 This is where the computer comes in. My numerical model[^1] can read in a deck list, simulate thousands of games, and tell us exactly how fast that list can expect to land a [[Primeval Titan]] or [[Scapeshift]]. The model doesn't know anything about sequencing or strategy. Instead, it tries all possible combinations of legal plays and keeps whichever one wins fastest. This approach is computationally inefficient, but it's guaranteed to find the fastest way to win, even when faced with nontrivial choices.
 
-[^1]: The code (written in Go) is available on GitHub [here](https://github.com/charles-uno/valakut). I also have an older version of the model written in [Python](https://github.com/charles-uno/valakut-python). 
+[^1]: The code (written in Go) is available on GitHub [here](https://github.com/charles-uno/valakut). I also have an older version of the model written in [Python](https://github.com/charles-uno/valakut-python).
 
 For example, on turn two, we often have to choose between casting [[Sakura-Tribe Elder:STE]] and [[Explore]]. An experienced player can generally eyeball it, but spelling out the decision explicitly for the computer is tedious and error-prone -- a calculation based on how many lands are in our hand, whether we need a second green source, how many live draws we have to make turn-three [[Through the Breach:Breach]] (or [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]]), and so on. Instead of all that, we just make two copies of the game. One plays [[Sakura-Tribe Elder:STE]] and the other plays [[Explore]]. If *either* copy pulls off turn-three [[Through the Breach:Breach]], it's pretty safe to say a human player could have done the same.
 
@@ -34,9 +34,9 @@ The big caveat is shuffling. The computer is programmed to try all possible opti
 
 ## Titan Breach
 
-Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- the deck I played in Spain. The deck uses [[Simian Spirit Guide]] and [[Through the Breach]] to get [[Primeval Titan]] onto the table as quickly as possible, potentially winning the game on turn three. Below is a typical deck list, more or less[^3]. Note that six slots are reserved for interaction: [[Anger of the Gods]], [[Chalice of the Void]], [[Lightning Bolt]], and so on. These cards don't directly contribute to getting [[Primeval Titan]] on the table, so as far as the simulation is concerned they're blanks. 
+Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- the deck I played in Spain. The deck uses [[Simian Spirit Guide]] and [[Through the Breach]] to get [[Primeval Titan]] onto the table as quickly as possible, potentially winning the game on turn three. Below is a typical deck list, more or less[^3]. Note that six slots are reserved for interaction: [[Anger of the Gods]], [[Chalice of the Void]], [[Lightning Bolt]], and so on. These cards don't directly contribute to getting [[Primeval Titan]] on the table, so as far as the simulation is concerned they're blanks.
 
-[^3]: Two or three copies of [[Cinder Glade]] would be more typical. We bump it up to the full set to make the difference between [[Cinder Glade]] and [[Sheltered Thicket]] as clear as possible. 
+[^3]: Two or three copies of [[Cinder Glade]] would be more typical. We bump it up to the full set to make the difference between [[Cinder Glade]] and [[Sheltered Thicket]] as clear as possible.
 
 <table class="cardlist">
     <caption class="deckname">Titan Breach</caption>
@@ -79,28 +79,41 @@ We simulate four different variations of this deck to cover all combinations of 
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
+
+
+breach-explore-cg       13% ±  1%      18% ±  1%      45% ±  2%      65% ±  2%      73% ±  2%      80% ±  2%
+breach-explore-sg       14% ±  1%      20% ±  1%      44% ±  2%      65% ±  2%      74% ±  2%      81% ±  2%
+breach-explore-so       13% ±  1%      18% ±  1%      44% ±  2%      62% ±  2%      72% ±  2%      80% ±  2%
+breach-explore-st       14% ±  1%      18% ±  1%      44% ±  2%      63% ±  2%      72% ±  2%      80% ±  2%
+breach-farseek-cg       14% ±  1%      18% ±  2%      41% ±  3%      62% ±  3%      71% ±  3%      79% ±  4%
+breach-farseek-sg       12% ±  1%      18% ±  2%      38% ±  2%      59% ±  3%      68% ±  3%      75% ±  3%
+breach-farseek-so       11% ±  1%      16% ±  2%      38% ±  2%      58% ±  3%      66% ±  3%      77% ±  3%
+breach-farseek-st       11% ±  1%      15% ±  2%      40% ±  2%      65% ±  3%      73% ±  3%      80% ±  4%
+
+
+
 In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This rings true. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
 
 We can also see that [[Cinder Glade]] is better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. This is a nice sanity check. If [[Cinder Glade]] ever performed better than [[Taiga]], we’d know something was wrong with the simulation.
 
-What’s striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] comes up once per 20 to 30 games. And [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. In terms of getting [[Primeval Titan:Titan]] on the table on turn three, [[Cinder Glade]] is better than [[Sheltered Thicket]] about once every 50 games. It just doesn't matter very often whether these lands enter the battlefield tapped or untapped in Titan Breach. 
+What’s striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] comes up once per 20 to 30 games. And [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. In terms of getting [[Primeval Titan:Titan]] on the table on turn three, [[Cinder Glade]] is better than [[Sheltered Thicket]] about once every 50 games. It just doesn't matter very often whether these lands enter the battlefield tapped or untapped in Titan Breach.
 
 
 ## Intermission
 
-On the subject of Titan Breach, let's take a moment to talk about [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed. 
+On the subject of Titan Breach, let's take a moment to talk about [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:---------------------------------------|:----:|:------:|:------:|:------:|
-| 0                                      | %  | %    | %    | %    |
-| 1                                      | %  | %    | %    | %    |
-| 2                                      | %  | %    | %    | %    |
-| 3                                      | %  | %    | %    | %    |
-| 4                                      | %  | %    | %    | %    |
+| 0                                      |  3%  |  3%    | 30%    | 47%    |
+| 1                                      |  5%  |  6%    | 31%    | 50%    |
+| 2                                      |  8%  |  9%    | 34%    | 56%    |
+| 3                                      | 10%  | 14%    | 36%    | 59%    |
+| 4                                      | 14%  | 18%    | 41%    | 63%    |
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. It seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore. 
+With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. It seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
 
 ## Titan Shift
@@ -134,7 +147,7 @@ With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands
     </tr>
 </table>
 
-As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped. 
+As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped.
 
 | Titan Shift Variation      | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
 |:---------------------------|:----:|:------:|:------:|:------:|
@@ -161,5 +174,3 @@ Even so, it’s fair to say the conventional wisdom undervalues [[Sheltered Thic
 If this seems impossibly low to you, well, it seemed that way to me too. So I proxied up the deck and goldfished dozens of games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward – a lone, tapped green source that prevented me from suspending [[Search for Tomorrow]] on turn one. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]].
 
 On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it’s probably worth a try.
-
-
