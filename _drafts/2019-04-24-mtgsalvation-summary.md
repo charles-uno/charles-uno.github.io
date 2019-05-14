@@ -81,23 +81,15 @@ We simulate four different variations of this deck to cover all combinations of 
 
 Right off the bat, we can make a few sanity checks:
 
-- In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This makes sense. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
 - [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. 
-- The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. The math checks out here as well. With [[Farseek]], a [[Shivan Oasis]] in hand is likely to mess up our curve. [[Explore]] gets around that problem by letting us play it as an extra land. 
+- In the turn-three numbers, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This makes sense. It’s *possible* for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which almost never happens.
+- The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. This makes sense because [[Explore]] lets us play [[Shivan Oasis]] (or [[Valakut, the Molten Pinnacle:Valakut]]) as an extra land, so it doesn't disrupt our curve. 
 
-
-
-
-
-
-
-
-What’s striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] comes up once per 20 to 30 games. And [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. In terms of getting [[Primeval Titan:Titan]] on the table on turn three, [[Cinder Glade]] is better than [[Sheltered Thicket]] about once every 50 games. It just doesn't matter very often whether these lands enter the battlefield tapped or untapped in Titan Breach.
-
+Beyond that, what's striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] only comes up about once per twenty or thirty games. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Likewise, the difference between [[Farseek]] and [[Explore]] is statistically questionable. It looks like the risk of whiffing with [[Explore]] is almost exactly balanced by its potential to draw us into a missing [[Simian Spirit Guide:SSG]], [[Through the Breach:Breach]], or [[Primeval Titan:Titan]]. 
 
 ## Intermission
 
-On the subject of Titan Breach, let's take a moment to talk about [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
+While we're on the topic, I'd like to take a moment to discuss [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:---------------------------------------|:----:|:------:|:------:|:------:|
@@ -109,7 +101,7 @@ On the subject of Titan Breach, let's take a moment to talk about [[Simian Spiri
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. It seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
+With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. It seems to me that [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
 
 ## Titan Shift
