@@ -68,29 +68,16 @@ We simulate four different variations of this deck to cover all combinations of 
 
 | Titan Breach Variation     | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:---------------------------|:----:|:------:|:------:|:------:|
-| Explore, Cinder Glade      | %  | %    | %    | %    |
-| Farseek, Cinder Glade      | %  | %    | %    | %    |
-| Explore, Sheltered Thicket | %  | %    | %    | %    |
-| Farseek, Sheltered Thicket | %  | %    | %    | %    |
-| Explore, Shivan Oasis      | %  | %    | %    | %    |
-| Farseek, Shivan Oasis      | %  | %    | %    | %    |
-| Explore, Taiga             | %  | %    | %    | %    |
-| Farseek, Taiga             | %  | %    | %    | %    |
+| Explore, Cinder Glade      | 13%  | 18%    | 45%    | 65%    |
+| Explore, Sheltered Thicket | 14%  | 18%    | 44%    | 63%    |
+| Explore, Shivan Oasis      | 13%  | 18%    | 44%    | 62%    |
+| Explore, Taiga             | 14%  | 20%    | 44%    | 65%    |
+| Farseek, Cinder Glade      | 14%  | 18%    | 41%    | 62%    |
+| Farseek, Sheltered Thicket | 11%  | 15%    | 40%    | 65%    |
+| Farseek, Shivan Oasis      | 11%  | 16%    | 38%    | 58%    |
+| Farseek, Taiga             | 12%  | 18%    | 38%    | 59%    |
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
-
-
-
-breach-explore-cg       13% ±  1%      18% ±  1%      45% ±  2%      65% ±  2%      73% ±  2%      80% ±  2%
-breach-explore-sg       14% ±  1%      20% ±  1%      44% ±  2%      65% ±  2%      74% ±  2%      81% ±  2%
-breach-explore-so       13% ±  1%      18% ±  1%      44% ±  2%      62% ±  2%      72% ±  2%      80% ±  2%
-breach-explore-st       14% ±  1%      18% ±  1%      44% ±  2%      63% ±  2%      72% ±  2%      80% ±  2%
-breach-farseek-cg       14% ±  1%      18% ±  2%      41% ±  3%      62% ±  3%      71% ±  3%      79% ±  4%
-breach-farseek-sg       12% ±  1%      18% ±  2%      38% ±  2%      59% ±  3%      68% ±  3%      75% ±  3%
-breach-farseek-so       11% ±  1%      16% ±  2%      38% ±  2%      58% ±  3%      66% ±  3%      77% ±  3%
-breach-farseek-st       11% ±  1%      15% ±  2%      40% ±  2%      65% ±  3%      73% ±  3%      80% ±  4%
-
-
 
 In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This rings true. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
 
