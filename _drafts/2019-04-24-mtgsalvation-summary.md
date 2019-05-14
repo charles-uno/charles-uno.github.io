@@ -79,9 +79,18 @@ We simulate four different variations of this deck to cover all combinations of 
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This rings true. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
+Right off the bat, we can make a few sanity checks:
 
-We can also see that [[Cinder Glade]] is better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. This is a nice sanity check. If [[Cinder Glade]] ever performed better than [[Taiga]], we’d know something was wrong with the simulation.
+- In terms of getting Titan on the table on turn three, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This makes sense. It’s technically possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which happens in less than 1% of games.
+- [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. 
+- The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. The math checks out here as well. With [[Farseek]], a [[Shivan Oasis]] in hand is likely to mess up our curve. [[Explore]] gets around that problem by letting us play it as an extra land. 
+
+
+
+
+
+
+
 
 What’s striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] comes up once per 20 to 30 games. And [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. In terms of getting [[Primeval Titan:Titan]] on the table on turn three, [[Cinder Glade]] is better than [[Sheltered Thicket]] about once every 50 games. It just doesn't matter very often whether these lands enter the battlefield tapped or untapped in Titan Breach.
 
