@@ -31,7 +31,6 @@ The big caveat is shuffling. The computer is programmed to try all possible opti
 
 [^2]: About one land is thinned from the deck each turn. We simulate out to turn four. That means the model draws about one too many lands (and one too few spells) every twenty games. A quick estimate suggests the difference matters less than half the time.
 
-
 ## Titan Breach
 
 Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- the deck I played in Spain. The deck uses [[Simian Spirit Guide]] and [[Through the Breach]] to get [[Primeval Titan]] onto the table as quickly as possible, potentially winning the game on turn three. Below is a typical deck list, more or less[^3]. Note that six slots are reserved for interaction: [[Anger of the Gods]], [[Chalice of the Void]], [[Lightning Bolt]], and so on. These cards don't directly contribute to getting [[Primeval Titan]] on the table, so as far as the simulation is concerned they're blanks.
@@ -81,36 +80,9 @@ We simulate four different variations of this deck to cover all combinations of 
 
 Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land. 
 
-The biggest takeaway from the above numbers is how close they are to one another. After accounting for uncertainties, there is no statistically significant difference between [[Cinder Glade]] and [[Sheltered Thicket]]. Once every thirty-to-fifty games, [[Cinder Glade]] is better than [[Shivan Oasis]] because it enters the battlefield untapped. Once every thirty-to-fifty games, [[Sheltered Thicket]] is better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. 
+Beyond that, the biggest takeaway is that the numbers are all pretty close to one another. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty games. But that's just goldfishing. Real games have more factors to consider which may well outweigh that small margin. [[Explore]] can make mulligan choices trickier. It also plays better with [[Courser of Kruphix]], and against [[Leonin Arbiter]]. [[Farseek]] makes us more likely to have double-green on turn three for sideboard cards like [[Obstinate Baloth]]. And so on. It'd be a stretch to argue that [[Explore]] is *better* than [[Farseek]], but it certainly doesn't look worse. 
 
-[[Explore]] performs better than [[Farseek]] in a way that's just barely statistically significant, but there are also more caveats. 
-
-
-
-
-
-
-
-
-Once in a while it matters that [[Cinder Glade]] enters the battlefield untapped. Once in a while we cycle [[Sheltered Thicket]] and draw into something relevant. As far as the early game is concerned, the two effects offset. 
-
-
-
-
-
-
-
-In a surprise upset, [[Explore]] edges out [[Farseek]] regardless of which land we use. It looks like the risk of whiffing is made up for by the potential to draw into a missing [[Through the Breach:Breach]], [[Simian Spirit Guide:SSG]], or [[Primeval Titan:Titan]]. The difference is largest when looking at [[Shivan Oasis]], which makes sense. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land. 
-
-I'm hesitant to claim that [[Explore]] is *better* than [[Farseek]] in the early game -- we get into a few caveats in the wrap-up -- but certainly the two are much closer than the conventional wisdom suggests. 
-
-If you think you'd rather have a land in the late game, play [[Farseek]]. If you'd rather draw a card, play [[Explore]]. I know which I prefer. With [[Valakut, the Molten Pinnacle:Valakut]] online, I don't mind drawing a card, since the deck has so few dead draws. But if [[Valakut, the Molten Pinnacle:Valakut]] is offline, digging for more action is *much* better than making a triggerless land drop. 
-
-
-
-
-
-[[Sheltered Thicket]] does seem to be better than [[Cinder Glade]]. Their performance in the early game is basically identical. The values above are all plus-or-minus 1%, so the differences are right at the border of statistical significance. But let's recall why we're making the comparison in the first place: the cycling on [[Sheltered Thicket]] can be powerful in the late game, and we're curious what it costs us in terms of speed. Looks like it's basically free!
+The comparison between [[Cinder Glade]] and [[Sheltered Thicket]] is cleaner cut. There is no statistically significant difference between them. Once per fifty-ish games, [[Cinder Glade]] is better than [[Shivan Oasis]] because it enters the battlefield untapped. Once every fifty-ish games, [[Sheltered Thicket]] is better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're equally good in the early game, [[Sheltered Thicket]] is clearly better overall in Titan Breach. 
 
 ## Intermission
 
@@ -126,10 +98,11 @@ While we're on the topic, I'd like to take a moment to discuss [[Simian Spirit G
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
+# TODO: these numbers are without woodfall primus maybe?
+
 With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games.
 
 It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
-
 
 ## Titan Shift
 
@@ -206,6 +179,7 @@ The numbers tell more or less the same story we saw for Titan Breach. [[Taiga]] 
 
 ## Caveats and Conclusions
 
+surprise upset
 
 Farseek better at getting double green for sideboard cards like obstinate baloth
 
@@ -215,6 +189,20 @@ explore works from the top of the deck. better against Leonin Arbiter. Can get d
 
 Sheltered Thicket needs mana to cycle that you might want to use for Lightning Bolt
 
+
+
+In a surprise upset, [[Explore]] edges out [[Farseek]] regardless of which land we use. It looks like the risk of whiffing is made up for by the potential to draw into a missing [[Through the Breach:Breach]], [[Simian Spirit Guide:SSG]], or [[Primeval Titan:Titan]]. The difference is largest when looking at [[Shivan Oasis]], which makes sense. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land. 
+
+I'm hesitant to claim that [[Explore]] is *better* than [[Farseek]] in the early game -- we get into a few caveats in the wrap-up -- but certainly the two are much closer than the conventional wisdom suggests. 
+
+If you think you'd rather have a land in the late game, play [[Farseek]]. If you'd rather draw a card, play [[Explore]]. I know which I prefer. With [[Valakut, the Molten Pinnacle:Valakut]] online, I don't mind drawing a card, since the deck has so few dead draws. But if [[Valakut, the Molten Pinnacle:Valakut]] is offline, digging for more action is *much* better than making a triggerless land drop. 
+
+
+
+
+
+
+Once in a while it matters that [[Cinder Glade]] enters the battlefield untapped. Once in a while we cycle [[Sheltered Thicket]] and draw into something relevant. As far as the early game is concerned, the two effects offset. 
 
 
 The Titan Shift numbers suggest that by turn five, [[Sheltered Thicket]] is better than Taiga. There’s reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn’t like what it finds, it essentially gets to rewind and do something else instead. In effect, the computer has superhuman “instincts” about when there’s something good on top of the deck.
