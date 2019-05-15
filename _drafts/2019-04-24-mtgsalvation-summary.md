@@ -79,7 +79,22 @@ We simulate four different variations of this deck to cover all combinations of 
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. It's also reassuring to see the numbers all in the same ballpark. In some hands, [[Explore]] is better than [[Farseek]]. In others it's worse. But most of the time it's be pretty much the same. 
+Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land. 
+
+The biggest takeaway from the above numbers is how close they are to one another. After accounting for uncertainties, there is no statistically significant difference between [[Cinder Glade]] and [[Sheltered Thicket]]. Once every thirty-to-fifty games, [[Cinder Glade]] is better than [[Shivan Oasis]] because it enters the battlefield untapped. Once every thirty-to-fifty games, [[Sheltered Thicket]] is better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. 
+
+[[Explore]] performs better than [[Farseek]] in a way that's just barely statistically significant, but there are also more caveats. 
+
+
+
+
+
+
+
+
+Once in a while it matters that [[Cinder Glade]] enters the battlefield untapped. Once in a while we cycle [[Sheltered Thicket]] and draw into something relevant. As far as the early game is concerned, the two effects offset. 
+
+
 
 
 
