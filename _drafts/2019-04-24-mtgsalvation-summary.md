@@ -66,26 +66,40 @@ Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-tit
 
 We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run another four variations as a control: instead of [[Cinder Glade]] and [[Sheltered Thicket]] we look at [[Taiga]] and [[Shivan Oasis]]. This allows us to disentangle the positive effects of cycling from the negative effects of always entering the battlefield tapped. The table below shows how the numbers shake out:
 
-| Titan Breach Variation     | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
-|:---------------------------|:----:|:------:|:------:|:------:|
-| Explore, Cinder Glade      | 13%  | 18%    | 45%    | 65%    |
-| Explore, Sheltered Thicket | 14%  | 18%    | 44%    | 63%    |
-| Explore, Shivan Oasis      | 13%  | 18%    | 44%    | 62%    |
-| Explore, Taiga             | 14%  | 20%    | 44%    | 65%    |
-| Farseek, Cinder Glade      | 14%  | 18%    | 41%    | 62%    |
-| Farseek, Sheltered Thicket | 11%  | 15%    | 40%    | 65%    |
-| Farseek, Shivan Oasis      | 11%  | 16%    | 38%    | 58%    |
-| Farseek, Taiga             | 12%  | 18%    | 38%    | 59%    |
+| Titan Breach Variation             | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
+|:-----------------------------------|:----:|:------:|:------:|:------:|
+| [[Explore]], [[Cinder Glade]]      | 14%  | 18%    | 43%    | 62%    |
+| [[Explore]], [[Sheltered Thicket]] | 14%  | 18%    | 44%    | 64%    |
+| [[Explore]], [[Shivan Oasis]]      | 13%  | 18%    | 42%    | 62%    |
+| [[Explore]], [[Taiga]]             | 15%  | 20%    | 43%    | 64%    |
+| [[Farseek]], [[Cinder Glade]]      | 12%  | 16%    | 39%    | 62%    |
+| [[Farseek]], [[Sheltered Thicket]] | 12%  | 15%    | 41%    | 64%    |
+| [[Farseek]], [[Shivan Oasis]]      | 11%  | 14%    | 38%    | 60%    |
+| [[Farseek]], [[Taiga]]             | 14%  | 19%    | 40%    | 62%    |
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
 Right off the bat, we can make a few sanity checks:
 
-- [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, but worse than [[Taiga]]. If this weren't the case, we'd know something was wrong. 
-- In the turn-three numbers, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. This makes sense. It’s *possible* for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which almost never happens.
-- The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. This makes sense because [[Explore]] lets us play [[Shivan Oasis]] (or [[Valakut, the Molten Pinnacle:Valakut]]) as an extra land, so it doesn't disrupt our curve. 
+- [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, but worse than [[Taiga]].
+- The difference between [[Taiga]] and [[Shivan Oasis]] is big on turn three
 
-Beyond that, what's striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] only comes up about once per twenty or thirty games. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Likewise, the difference between [[Farseek]] and [[Explore]] is right on the border of statistical significance. It looks like the risk of whiffing with [[Explore]] is almost exactly balanced by its potential to draw us into a missing [[Simian Spirit Guide:SSG]], [[Through the Breach:Breach]], or [[Primeval Titan:Titan]]. 
+
+
+
+- In the turn-three numbers, [[Sheltered Thicket]] is basically the same as [[Shivan Oasis]]. It’s possible for cycling on turn two to set us up for a big turn three, but things have to line up *perfectly* – which almost never happens.
+
+
+
+
+
+The difference between shivan oasis and taiga is big on turn 3 but proportionally less so on turn 4. easier to find time to sneal a land into play
+
+
+
+- The more enters-the-battlefield-tapped lands we have, the better [[Explore]] performs relative to [[Farseek]]. This makes sense because [[Explore]] lets us play [[Shivan Oasis]] (or [[Valakut, the Molten Pinnacle:Valakut]]) as an extra land, so it doesn't disrupt our curve.
+
+Beyond that, what's striking is how close all the numbers are to one another. The difference between [[Taiga]] and [[Shivan Oasis]] only comes up about once per twenty or thirty games. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Likewise, the difference between [[Farseek]] and [[Explore]] is right on the border of statistical significance. It looks like the risk of whiffing with [[Explore]] is almost exactly balanced by its potential to draw us into a missing [[Simian Spirit Guide:SSG]], [[Through the Breach:Breach]], or [[Primeval Titan:Titan]].
 
 ## Intermission
 
@@ -101,7 +115,7 @@ While we're on the topic, I'd like to take a moment to discuss [[Simian Spirit G
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games. 
+With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games.
 
 It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
@@ -139,16 +153,16 @@ It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a pac
 
 As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped. The numbers are below:
 
-| Titan Shift Variation      | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
-|:---------------------------|:----:|:------:|:------:|:------:|
-| Explore, Cinder Glade      | %  | %    | %    | %    |
-| Farseek, Cinder Glade      | %  | %    | %    | %    |
-| Explore, Sheltered Thicket | %  | %    | %    | %    |
-| Farseek, Sheltered Thicket | %  | %    | %    | %    |
-| Explore, Shivan Oasis      | %  | %    | %    | %    |
-| Farseek, Shivan Oasis      | %  | %    | %    | %    |
-| Explore, Taiga             | %  | %    | %    | %    |
-| Farseek, Taiga             | %  | %    | %    | %    |
+| Titan Shift Variation              | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
+|:-----------------------------------|:----:|:------:|:------:|:------:|
+| [[Explore]], [[Cinder Glade]]      | 15%  | 38%    | 53%    | 71%    |
+| [[Explore]], [[Sheltered Thicket]] | 17%  | 40%    | 56%    | 73%    |
+| [[Explore]], [[Shivan Oasis]]      | 15%  | 38%    | 52%    | 69%    |
+| [[Explore]], [[Taiga]]             | 15%  | 41%    | 55%    | 71%    |
+| [[Farseek]], [[Cinder Glade]]      | 15%  | 39%    | 54%    | 71%    |
+| [[Farseek]], [[Sheltered Thicket]] | 16%  | 40%    | 56%    | 74%    |
+| [[Farseek]], [[Shivan Oasis]]      | 15%  | 38%    | 54%    | 71%    |
+| [[Farseek]], [[Taiga]]             | 16%  | 41%    | 56%    | 72%    |
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
