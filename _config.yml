@@ -25,7 +25,7 @@ social:
 permalink: /:title/
 markdown: kramdown
 cdn: ''
-plugins_dir:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
