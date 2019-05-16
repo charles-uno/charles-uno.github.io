@@ -25,6 +25,16 @@ https://www.richmond.com/news/plus/virginia-has-become-the-epicenter-of-the-thir
 Third-trimester abortions basically never happen
 
 
+https://www.kff.org/womens-health-policy/state-indicator/abortion-rate/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
+
+Virginia's abortion rate is similar to the nation overall
+
+
+
+
+
+
+
 On Fri, Feb 1, 2019, 5:24 PM Charles McEachern <charles.a.mceachern@gmail.com wrote:
 First, a few facts
 
