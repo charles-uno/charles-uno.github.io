@@ -80,17 +80,12 @@ We simulate four different variations of this deck to cover all combinations of 
 
 Once per fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield untapped. Once per fifty-ish games, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're equally good in the early game, [[Sheltered Thicket]] is clearly better overall in Titan Breach.
 
+The comparison between [[Farseek]] and [[Explore]] is trickier. [[Explore]] puts up marginally better goldfishing numbers -- about one faster win per fifty hands.
+
+On its own, that's already a blow to the conventional wisdom.
 
 
 
-
-
-
-Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong.
-
-It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
-
-Beyond that, the biggest takeaway is that the numbers are all pretty similar. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty hands. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. This is a significant blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. The better choice comes down to higher-level considerations, discussed in the wrap-up.
 
 
 
@@ -182,6 +177,15 @@ Even so, it’s fair to say the conventional wisdom undervalues [[Sheltered Thic
 If this seems impossibly low to you, well, it seemed that way to me too. So I proxied up the deck and goldfished dozens of games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward – a lone, tapped green source that prevented me from suspending [[Search for Tomorrow]] on turn one. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]].
 
 On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it’s probably worth a try.
+
+
+
+
+Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong.
+
+It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
+
+Beyond that, the biggest takeaway is that the numbers are all pretty similar. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty hands. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. This is a significant blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. The better choice comes down to higher-level considerations, discussed in the wrap-up.
 
 
 
