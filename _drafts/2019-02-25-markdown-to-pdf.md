@@ -16,6 +16,21 @@ The thing is, a lot of times, I'm not looking to finagle. Word's default style l
 
 The first part is easy.
 
+[Markdown](https://daringfireball.net/projects/markdown/basics)
+
+- bold, italics
+- code snippets and code blocks
+- block quotes
+- headers
+- footnotes
+- links
+- images
+- bulleted and numbered lists, including nested lists
+- tables (yuck)
+- horizontal rules
+
+This page is written in Markdown! 
+
 
 
 
