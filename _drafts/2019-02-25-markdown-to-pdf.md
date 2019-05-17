@@ -14,9 +14,25 @@ The thing is, a lot of times, I'm not looking to finagle. Word's default style l
 
 [^3]: The mouse is intuitive, but the keyboard is a much faster way to enter information into a computer -- especially if it needs to be precise.
 
+[Markdown](https://daringfireball.net/projects/markdown/basics) handles the first part nicely. It's a tool for writing plain text to represent rich text -- basically like that clunky [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. To emphasize a word, wrap it in asterisks (`*example*` -> *example*). To make a bulleted list, start each line with a dash, just like you would when writing an email. It can also handle headers, footnotes, block quotes, links, images, and so on. It's widely used in the tech sector for documentation, and it's catching on for blogging as well (this post is written in Markdown [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md)). 
+
+
+
+
+
+Markdown is basically that awful [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. 
+
+
+
+
+https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md
+
+
+
+
 The first part is easy.
 
-[Markdown](https://daringfireball.net/projects/markdown/basics)
+
 
 - bold, italics
 - code snippets and code blocks
