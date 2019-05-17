@@ -6,11 +6,11 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
-If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. We can pull in our organization's letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML[^2] gives us the horsepower to do basically whatever we want.
+If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. It can pull in a letterhead template, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML[^2] has the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
 
-The thing is, a lot of times, we're not looking to finagle. Word's default style looks mediocre, and we'd rather not fall down the rabbit hole of trying to fix it. And after a decade-plus of writing code, Word's mouse-heavy[^3] workflow feels like driving with the parking brake on. We just want to write our piece, hit a button, and have it look sharp!
+The thing is, a lot of times, I'm not looking to finagle. Word's default style looks mediocre, and I'd rather not fall down the rabbit hole of trying to fix it. And after a decade-plus of writing code, Word's mouse-heavy[^3] workflow feels like driving with the parking brake on. I just want to write my piece, hit a button, and have it look sharp!
 
 [^3]: The mouse is intuitive, but the keyboard is a much faster way to enter information into a computer -- especially if it needs to be precise.
 
