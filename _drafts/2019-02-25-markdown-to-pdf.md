@@ -6,7 +6,7 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
-If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. It can pull in a letterhead template, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML[^2] has the horsepower to do basically whatever we want.
+If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. It can pull in a letterhead template, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML/CSS[^2] has the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
 
@@ -14,8 +14,45 @@ The thing is, a lot of times, I'm not looking to finagle. Word's default style l
 
 [^3]: The mouse is intuitive, but the keyboard is a much faster way to enter information into a computer -- especially if it needs to be precise.
 
-[Markdown](https://daringfireball.net/projects/markdown/basics) handles the first part nicely. It's a tool for writing plain text to represent rich text -- basically like that clunky [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. To emphasize a word, wrap it in asterisks (`*example*` -> *example*). To make a bulleted list, start each line with a dash, just like you would when writing an email. It can also handle headers, footnotes, block quotes, links, images, and so on. It's widely used in the tech sector for documentation, and it's catching on for blogging as well (this post is written in Markdown [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md)). 
+[Markdown](https://daringfireball.net/projects/markdown/basics) handles the first part nicely. 
 
+Like Word, Markdown uses HTML under the hood to keep track of document structure. But whereas Word uses CSS to make things pretty and complicated, Markdown leaves out the cosmetic stuff completely. 
+
+
+
+
+
+It lets us write the content and structure of a document without worrying about cosmetic details like font, color, spacing, and margins. 
+
+Like Word, Markdown uses HTML under the hood. 
+
+
+
+
+
+Markdown uses HTML under the hood, just like Word does, but without the CSS. 
+
+
+
+
+
+To use web jargon, it's HTML without the CSS. 
+
+
+
+
+Basically, Markdown is like that clunky [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. To emphasize a word, wrap it in asterisks (`*example*` -> *example*). To make a bulleted list, start each line with a dash, just like you would when writing an email. 
+
+
+Basically, it's a nice way of writing the HTML for a website while ignoring the CSS. 
+
+
+It can also handle headers, footnotes, block quotes, links, images, and so on. It's widely used in tech for documentation, and it's catching on for blogging as well. 
+
+This page is written in Markdown. You can see it raw [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md). 
+
+
+Under the hood, Markdown is HTML, just like 
 
 
 
