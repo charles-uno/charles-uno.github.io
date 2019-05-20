@@ -146,19 +146,41 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 ## Caveats and Conclusions
 
-The model has a bit of a bias in favor of [[Sheltered Thicket]]. As discussed up top, it's got superhuman "instincts" about what's on top of the deck, which is an unfair advantage with cycling. 
+The model has a bit of a bias in favor of [[Sheltered Thicket]]. As discussed up top, it's got superhuman "instincts" about what's on top of the deck, which is an unfair advantage with cycling. The model also doesn't keep track of life total, so [[Cinder Glade]] gets no credit for the life it saves when we fetch it in place of [[Stomping Ground]]. But even accounting for those biases, [[Cinder Glade]] comes out looking pretty bad. In 98% of hands, it might as well be [[Shivan Oasis]]. Either we don't draw it, or it enters the battlefield tapped, or it enters untapped at a time when it doesn't matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only once per fifty hands that [[Cinder Glade]] lets us win faster by entering the battlefield untapped at a crucial time. 
+
+
+
+
+The difference between [[Cinder Glade]] and [[Shivan Oasis]] is pretty marginal, even playing a full set. In 98% of games, [[Cinder Glade]] might as well *be* [[Shivan Oasis]]. Either we don't draw it, or it enters the battlefield tapped, or it enters untapped at a time when it doesn't matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only once per fifty-ish hands that [[Cinder Glade]] lets us win faster by entering the battlefield untapped at a crucial time. 
+
+We can get a similar boost from [[Sheltered Thicket]]. Once per fifty-ish hands, it goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. This number may be a bit inflated due to the model's superhuman "instincts" about what's on top of the deck -- hence "fifty-ish" -- 
+
+
+
+
+but certainly the size of the effect is similar. 
 
 
 
 
 
-The model also doesn't keep track of life total, so [[Cinder Glade]] gets no credit for the life it saves when we fetch it in place of [[Stomping Ground]]. But even accounting for those biases, [[Cinder Glade]] comes out looking pretty bad. In 98% of hands, it might as well be [[Shivan Oasis]]. Either we don't draw it, or it enters the battlefield tapped, or it enters untapped at a time when it doesn't matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only once per fifty hands that [[Cinder Glade]] lets us win faster by entering the battlefield untapped at a crucial time. 
-
-If this seems impossibly low to you, well, I'm right there with you. So I proxied the deck and goldfished a few dozen games with it. There were plenty of times 
 
 
+[[Sheltered Thicket]] also lets us win faster 
 
-it seemed that way to me too. So I proxied up the deck and goldfished dozens of games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward – a lone, tapped green source that prevented me from suspending [[Search for Tomorrow]] on turn one. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]].
+
+
+
+
+they goldfish equally fast. 
+
+
+
+
+
+We could goldfish fifty hands and never see the difference between [[Cinder Glade]] and [[Shivan Oasis]]. 
+
+If this seems impossibly low to you, well, I'm right there with you. So I proxied the deck and goldfished a few dozen games with it. There were plenty of hands where [[Sheltered Thicket]] was awkward – a lone, tapped green source that prevented me from suspending [[Search for Tomorrow]] on turn one. But that happens with [[Cinder Glade]] too. There was not a single game where [[Cinder Glade]] would have shaved a turn off the clock relative to [[Sheltered Thicket]].
 
 On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it’s probably worth a try.
 
