@@ -142,9 +142,7 @@ As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]]
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
-
-
-We see more or less the same story as with Titan Breach. [[Explore]] and [[Farseek]] put up near-identical performance in terms of goldfishing. [[Sheltered Thicket]] performs a hair better than [[Cinder Glade]]. On their own, these numbers don't prove that [[Sheltered Thicket]] is better, but they certainly cast doubt on the widespread presumption that it's worse.
+The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. Same for [[Cinder Glade]] and [[Sheltered Thicket]]. These numbers on their own don't show that [[Explore]] or [[Sheltered Thicket]] are *better* per se -- more on that in a moment -- but they certainly cast doubt on the widespread presumption that they're worse. 
 
 ## Caveats and Conclusions
 
