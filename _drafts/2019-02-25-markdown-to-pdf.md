@@ -6,83 +6,34 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
-If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. It can pull in a letterhead template, tweak fonts and colors, drop in some images, and wrap the text around them. With a bit of finagling, Word's under-the-hood HTML/CSS[^2] has the horsepower to do basically whatever we want.
+If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. We can pull in your company letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With some finagling, Word's under-the-hood HTML/CSS[^2] has the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
 
-The thing is, a lot of times, I'm not looking to finagle. Word's default style looks mediocre, and I'd rather not fall down the rabbit hole of trying to fix it. And after a decade-plus of writing code, Word's mouse-heavy[^3] workflow feels like driving with the parking brake on. I just want to write my piece, hit a button, and have it look sharp!
+The thing is, a lot of times, we're not looking to finagle. Word's default style looks mediocre, and we'd rather not fall down the rabbit hole of trying to fix it. And after a decade-plus of writing code, Word's mouse-heavy[^3] workflow feels like driving with the parking brake on. We just want to write our piece, hit a button, and have it look sharp!
 
 [^3]: The mouse is intuitive, but the keyboard is a much faster way to enter information into a computer -- especially if it needs to be precise.
 
-[Markdown](https://daringfireball.net/projects/markdown/basics) handles the first part nicely. 
+[Markdown](https://daringfireball.net/projects/markdown/basics) handles the first part nicely. It's basically the same shorthand seen in email and chat. To make a list, start each line with a dash. For emphasis, wrap a word in \*asterisks\*. There's also support for headers, links, footnotes, block quotes, images, and a few other common elements. This makes it easy to compose and organize a document without getting bogged down in cosmetic details. Font, color, spacing, margins, and other styles are applied after the fact.
 
-Like Word, Markdown uses HTML under the hood to keep track of document structure. But whereas Word uses CSS to make things pretty and complicated, Markdown leaves out the cosmetic stuff completely. 
-
-
-
-
-
-It lets us write the content and structure of a document without worrying about cosmetic details like font, color, spacing, and margins. 
-
-Like Word, Markdown uses HTML under the hood. 
+Technical [readmes](https://github.com/charles-uno/charles-uno.github.io/blob/master/README.md) are often written in Markdown. It's nicer to read than plain text, but still plays nicely with version control. Blogging is also increasingly done in Markdown (you can see this post [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md)). Fonts and colors are set site-wide, so there's no need to worry about them post-by-post. Markdown documents can also be converted to PDFs using a tool called [Pandoc](https://pandoc.org/).
 
 
 
 
 
-Markdown uses HTML under the hood, just like Word does, but without the CSS. 
+It's basically like that clunky [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible.
 
 
+This page is written in Markdown. You can see it raw [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md).
 
 
-
-To use web jargon, it's HTML without the CSS. 
-
-
-
-
-Basically, Markdown is like that clunky [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. To emphasize a word, wrap it in asterisks (`*example*` -> *example*). To make a bulleted list, start each line with a dash, just like you would when writing an email. 
-
-
-Basically, it's a nice way of writing the HTML for a website while ignoring the CSS. 
-
-
-It can also handle headers, footnotes, block quotes, links, images, and so on. It's widely used in tech for documentation, and it's catching on for blogging as well. 
-
-This page is written in Markdown. You can see it raw [here](https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md). 
-
-
-Under the hood, Markdown is HTML, just like 
-
-
-
-
-Markdown is basically that awful [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible. 
+Markdown is basically that awful [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible.
 
 
 
 
 https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md
-
-
-
-
-The first part is easy.
-
-
-
-- bold, italics
-- code snippets and code blocks
-- block quotes
-- headers
-- footnotes
-- links
-- images
-- bulleted and numbered lists, including nested lists
-- tables (yuck)
-- horizontal rules
-
-This page is written in Markdown! 
 
 
 

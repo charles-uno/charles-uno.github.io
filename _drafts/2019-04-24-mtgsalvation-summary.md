@@ -27,9 +27,9 @@ This is where the computer comes in. My numerical model[^1] can read in a deck l
 
 For example, on turn two, we often have to choose between casting [[Sakura-Tribe Elder:STE]] and [[Explore]]. An experienced player can generally eyeball it, but spelling out the decision explicitly for the computer is tedious and error-prone -- a calculation based on how many lands are in our hand, whether we need a second green source, how many live draws we have to make turn-three [[Through the Breach:Breach]] (or [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]]), and so on. Instead of all that, we just make two copies of the game. One plays [[Sakura-Tribe Elder:STE]] and the other plays [[Explore]]. If *either* copy pulls off turn-three [[Through the Breach:Breach]], it's pretty safe to say a human player could have done the same.
 
-The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest. That means it essentially has superhuman "instincts" about what it's about to draw. If we let it, it'll shuffle as just the right time to blind-draw into better cards. To suppress those non-human play patterns, the order of the deck is locked in as soon as the game begins. There are no mulligans. And any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means neglecting deck thinning, a percent-level[^2] effect.
+The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest. That means it essentially has superhuman "instincts" about what it's about to draw. If we let it, it'll shuffle as just the right time to blind-draw into better cards. To suppress those non-human play patterns, the order of the deck is locked in as soon as the game begins. There are no mulligans. And any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means no deck thinning, which introduces a percent-level[^2] uncertainty.
 
-[^2]: About one land is thinned from the deck each turn. We simulate out to turn four. That means the model draws about one too many lands (and one too few spells) every twenty games. A quick estimate suggests the difference matters less than half the time.
+[^2]: About one land is thinned from the deck each turn. We simulate out to turn five. That means the model draws about one too many lands (and one too few spells) per twenty games. We can eyeball the size of this effect by manually thinning a land from the deck often enough to draw the correct number of lands on average.
 
 ## Titan Breach
 
@@ -63,55 +63,38 @@ Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-tit
     </tr>
 </table>
 
-We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run another four variations as a control: instead of [[Cinder Glade]] and [[Sheltered Thicket]] we look at [[Taiga]] and [[Shivan Oasis]]. This allows us to disentangle the positive effects of cycling from the negative effects of always entering the battlefield tapped. The table below shows how the numbers shake out:
+We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run the same model back using [[Shivan Oasis]]. This allows us to disentangle the upside of cycling from the downside of always entering the battlefield tapped. The table below shows how the numbers shake out:
 
 | Titan Breach Variation             | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:-----------------------------------|:----:|:------:|:------:|:------:|
-| [[Explore]], [[Cinder Glade]]      | 14%  | 18%    | 43%    | 62%    |
-| [[Explore]], [[Sheltered Thicket]] | 14%  | 18%    | 44%    | 64%    |
-| [[Explore]], [[Shivan Oasis]]      | 13%  | 18%    | 42%    | 62%    |
-| [[Explore]], [[Taiga]]             | 15%  | 20%    | 43%    | 64%    |
-| [[Farseek]], [[Cinder Glade]]      | 12%  | 16%    | 39%    | 62%    |
-| [[Farseek]], [[Sheltered Thicket]] | 12%  | 15%    | 41%    | 64%    |
-| [[Farseek]], [[Shivan Oasis]]      | 11%  | 14%    | 38%    | 60%    |
-| [[Farseek]], [[Taiga]]             | 14%  | 19%    | 40%    | 62%    |
+| [[Explore]], [[Cinder Glade]]      | 14%  | 19%    | 42%    | 62%    |
+| [[Explore]], [[Sheltered Thicket]] | 13%  | 17%    | 43%    | 63%    |
+| [[Explore]], [[Shivan Oasis]]      | 12%  | 16%    | 42%    | 62%    |
+| [[Farseek]], [[Cinder Glade]]      | 12%  | 16%    | 40%    | 61%    |
+| [[Farseek]], [[Sheltered Thicket]] | 11%  | 15%    | 41%    | 63%    |
+| [[Farseek]], [[Shivan Oasis]]      | 11%  | 15%    | 39%    | 60%    |
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-Once per fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield untapped. Once per fifty-ish games, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're equally good in the early game, [[Sheltered Thicket]] is clearly better overall in Titan Breach.
+Right off the bat, we can make a quick sanity check: [[Cinder Glade]] and [[Sheltered Thicket]] both perform better than [[Shivan Oasis]] across the board. If this weren't the case, we'd know something was wrong. It's also reassuring to see that [[Cinder Glade]] is at a relative advantage on turn three, while [[Sheltered Thicket]] performs best on turn four. Even a single tapped land drop makes it hard to curve into a turn-three [[Primeval Titan]], but that extra turn gives us some wiggle room to cycle [[Sheltered Thicket]] in search of a missing piece.
 
-The comparison between [[Farseek]] and [[Explore]] is trickier. [[Explore]] puts up marginally better goldfishing numbers -- about one faster win per fifty hands.
-
-On its own, that's already a blow to the conventional wisdom.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Beyond that, the biggest takeaway is that all the numbers are pretty close together. At most, differences toe the line of statistical significance. That on its own is a blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. From there, the choice comes down to higher-level considerations, discussed in the wrap-up.
 
 ## Intermission
 
-As long as we're crunching numbers, let's take a moment to discuss [[Simian Spirit Guide]]. Many lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
+As long as we're crunching numbers, let's take a moment to discuss [[Simian Spirit Guide]]. Many Titan Breach lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:---------------------------------------|:----:|:------:|:------:|:------:|
-| 0                                      |  4%  |  4%    | 29%    | 46%    |
-| 1                                      |  6%  |  6%    | 31%    | 50%    |
-| 2                                      |  7%  |  9%    | 33%    | 55%    |
-| 3                                      | 10%  | 13%    | 37%    | 59%    |
-| 4                                      | 12%  | 16%    | 39%    | 62%    |
+| 0                                      |  3%  |  3%    | 29%    | 47%    |
+| 1                                      |  6%  |  7%    | 32%    | 50%    |
+| 2                                      |  8%  | 10%    | 34%    | 55%    |
+| 3                                      | 11%  | 14%    | 36%    | 56%    |
+| 4                                      | 12%  | 16%    | 40%    | 61%    |
 
 <p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
-With zero copies of [[Simian Spirit Guide]], only about one in twenty-five hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a ten-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set more than *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games.
+With zero copies of [[Simian Spirit Guide]], only about one in thirty hands can get [[Primeval Titan]] on the table on turn three. That's just once over the course of a twelve-round tournament. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] every six games.
 
 It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
@@ -146,26 +129,33 @@ It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a pac
     </tr>
 </table>
 
-As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Taiga]] and [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped. The numbers are below:
+As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include control runs with [[Shivan Oasis]] to disentangle cycling from entering the battlefield tapped. The numbers are below:
 
 | Titan Shift Variation              | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
 |:-----------------------------------|:----:|:------:|:------:|:------:|
-| [[Explore]], [[Cinder Glade]]      | 15%  | 38%    | 53%    | 71%    |
-| [[Explore]], [[Sheltered Thicket]] | 17%  | 40%    | 56%    | 73%    |
-| [[Explore]], [[Shivan Oasis]]      | 15%  | 38%    | 52%    | 69%    |
-| [[Explore]], [[Taiga]]             | 15%  | 41%    | 55%    | 71%    |
-| [[Farseek]], [[Cinder Glade]]      | 15%  | 39%    | 54%    | 71%    |
-| [[Farseek]], [[Sheltered Thicket]] | 16%  | 40%    | 56%    | 74%    |
-| [[Farseek]], [[Shivan Oasis]]      | 15%  | 38%    | 54%    | 71%    |
-| [[Farseek]], [[Taiga]]             | 16%  | 41%    | 56%    | 72%    |
+| [[Explore]], [[Cinder Glade]]      | 15%  | 40%    | 55%    | 71%    |
+| [[Explore]], [[Sheltered Thicket]] | 15%  | 38%    | 54%    | 72%    |
+| [[Explore]], [[Shivan Oasis]]      | 14%  | 38%    | 52%    | 69%    |
+| [[Farseek]], [[Cinder Glade]]      | 16%  | 41%    | 55%    | 72%    |
+| [[Farseek]], [[Sheltered Thicket]] | 16%  | 40%    | 56%    | 73%    |
+| [[Farseek]], [[Shivan Oasis]]      | 14%  | 39%    | 55%    | 73%    |
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
+
+
 
 We see more or less the same story as with Titan Breach. [[Explore]] and [[Farseek]] put up near-identical performance in terms of goldfishing. [[Sheltered Thicket]] performs a hair better than [[Cinder Glade]]. On their own, these numbers don't prove that [[Sheltered Thicket]] is better, but they certainly cast doubt on the widespread presumption that it's worse.
 
 ## Caveats and Conclusions
 
+Once every fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield tapped at a crucial moment. Once every fifty-ish games, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the early game goes, it's pretty much[^3] a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're comparably good in the early game, [[Sheltered Thicket]] is clearly better overall.
 
+
+[^3]: The ability to fetch [[Cinder Glade]] instead of [[Stomping Ground]] as an untapped land on turn four might come up once in a while. The model does not track life.
+
+
+
+- fetching cinder glade can save some life, which the model does not track
 
 
 
@@ -196,6 +186,20 @@ Real games have more factors to consider which may well outweigh that small marg
 
 
 
+It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
+
+Beyond that, the biggest takeaway is that the numbers are all pretty similar. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty hands. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. This is a significant blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. The better choice comes down to higher-level considerations, discussed in the wrap-up.
+
+
+
+
+
+
+
+
+
+
+Once per fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield untapped. Once per fifty-ish games, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're comparably good in the early game, [[Sheltered Thicket]] is clearly better overall.
 
 
 

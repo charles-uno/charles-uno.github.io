@@ -15,7 +15,7 @@ layout: default
 
         <span class="post-tags">
             {% for tag in page.tags %}
-            <a ontouchstart="goToTags(['{{ tag }}']); return false;" onclick="goToTags(['{{ tag }}']);">
+            <a href="/#{{ tag }}">
                 <i class="post-tag post-tag-{{tag}}"></i>
             </a>
             {% endfor %}
