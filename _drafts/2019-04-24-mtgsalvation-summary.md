@@ -151,14 +151,14 @@ Once every fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oas
 
 [^3]: The ability to fetch [[Cinder Glade]] instead of [[Stomping Ground]] as an untapped land on turn four might come up once in a while. The model does not track life.
 
-
-
+- Explore can make mulligan choices trickier
 - fetching cinder glade can save some life, which the model does not track
+- Farseek is better at getting double green for turn 3 fo sideboard cards like obstinate baloth
+- Explore is better with Courser of Kruphix, better against Leonin Arbiter
+- We don't consider having an extra mana to hold up Lightning Bolt
 
+Computer has superhuman instincts as far as when something good is on top of the deck. 
 
-
-
-The Titan Shift numbers suggest that by turn five, [[Sheltered Thicket]] is better than [[Taiga]]. There’s reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn’t like what it finds, it essentially gets to rewind and do something else instead. In effect, the computer has superhuman “instincts” about when there’s something good on top of the deck.
 
 Even so, it’s fair to say the conventional wisdom undervalues [[Sheltered Thicket]] – or perhaps overvalues [[Cinder Glade]]. In 98% of games we either won’t draw [[Cinder Glade]], or it’ll enter the battlefield tapped, or it’ll enter untapped at a time when it doesn’t matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That’s once out of 50 games.
 
@@ -166,125 +166,15 @@ If this seems impossibly low to you, well, it seemed that way to me too. So I pr
 
 On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 games, it’s probably worth a try.
 
-
-
-
-Right off the bat, we can make a quick sanity check: [[Cinder Glade]] performs better than [[Shivan Oasis]] across the board, and worse than [[Taiga]]. If this weren't the case, we'd know something was wrong.
-
-It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
-
-Beyond that, the biggest takeaway is that the numbers are all pretty similar. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty hands. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. This is a significant blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. The better choice comes down to higher-level considerations, discussed in the wrap-up.
-
-
-
-
-
-Real games have more factors to consider which may well outweigh that small margin. [[Explore]] can make mulligan choices trickier. It also plays better with [[Courser of Kruphix]], and against [[Leonin Arbiter]]. [[Farseek]] makes us more likely to have double-green on turn three for sideboard cards like [[Obstinate Baloth]]. And so on. It'd be a stretch to argue that [[Explore]] is *better* than [[Farseek]], but it certainly doesn't look worse.
-
-
-
-
-It's also reassuring to see that there's a big turn-three difference between [[Taiga]] and [[Shivan Oasis]] for the builds with [[Farseek]], but not so much with [[Explore]]. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
-
-Beyond that, the biggest takeaway is that the numbers are all pretty similar. After accounting for statistical uncertainties, [[Explore]] performs just a hair better than [[Farseek]] regardless of which land we choose -- about one faster win per fifty hands. [[Cinder Glade]] and [[Sheltered Thicket]] are even closer. This is a significant blow to the conventional wisdom. [[Explore]] can goldfish just as consistently as [[Farseek]]. [[Sheltered Thicket]] can goldfish just as consistently as [[Cinder Glade]]. The better choice comes down to higher-level considerations, discussed in the wrap-up.
-
-
-
-
-
-
-
-
-
-
-Once per fifty-ish games, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield untapped. Once per fifty-ish games, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're comparably good in the early game, [[Sheltered Thicket]] is clearly better overall.
-
-
-
-
-
-
-conventional wisdom skepticism is unjustified
-
-
-It's dicey to claim either is better than the other because factors outside goldfishing could tip the needle either way. [[Sheltered Thicket]] is a hair better than [[Cinder Glade]] on turns four and five, plus clearly better if the game goes late, so it gets the nod.
-
-
-
 With margins that tight, we need to be careful not to overstep the limitations of the model. There are caveats
-
-
-
-With a margin that tight, we need to be careful not to overstep the limitations of our model.
-
-Based on a margin that tight, it'd be a stretch to claim that [[Explore]] is *better* than [[Farseek]] -- more on this in the wrap-up -- but certainly
-
-Explore can goldfish just as consistently as Farseek.
-
-With margins this tight, we have to be careful not to overstep the limitations of the model.
-
-These numbers don't tell us that [[Explore]] is a better card per se.
-
-There are non-goldfishing considerations that could tip the needle either way.
-
-In terms of goldfishing, [[Explore]] is competitive with [[Farseek]], and maybe even a bit better.
-
-
-
-
-
-But that's just goldfishing.
-
-
-
-Real games have more factors to consider which may well outweigh that small margin. [[Explore]] can make mulligan choices trickier. It also plays better with [[Courser of Kruphix]], and against [[Leonin Arbiter]]. [[Farseek]] makes us more likely to have double-green on turn three for sideboard cards like [[Obstinate Baloth]]. And so on. It'd be a stretch to argue that [[Explore]] is *better* than [[Farseek]], but it certainly doesn't look worse.
-
-The comparison between [[Cinder Glade]] and [[Sheltered Thicket]] is cleaner cut. There is no statistically significant difference between them. Once per fifty-ish games, [[Cinder Glade]] is better than [[Shivan Oasis]] because it enters the battlefield untapped. Once per fifty-ish games, [[Sheltered Thicket]] is better than [[Shivan Oasis]] because we cycle it to draw into something relevant. As far as the first four turns of the game are concerned, it's a wash. But keep in mind why we're making this comparison in the first place. In the late game, the ability to cycle [[Sheltered Thicket]] is very powerful. If they're equally good in the early game, [[Sheltered Thicket]] is clearly better overall in Titan Breach.
-
-
-
-
-
-[[Cinder Glade]] and [[Sheltered Thicket]] are even closer. Goldfishing numbers don't tell us everything -- more on this in the wrap-up -- but they do tell us two things:
-
-- Contrary to the conventional wisdom, swapping out [[Farseek]] for [[Explore]] does not hurt the deck's early-game consistency.
-- Contrary to the conventional wisdom, swapping out [[Cinder Glade]] for [[Sheltered Thicket]] does not hurt the deck's early-game consistency.
-
-
-
-
-
-
-
 
 surprise upset
 
-Farseek better at getting double green for sideboard cards like obstinate baloth
-
-Explore can make it tougher to mulligan
-
-explore works from the top of the deck. better against Leonin Arbiter. Can get downright abusive with Courser of Kruphix.
-
-Sheltered Thicket needs mana to cycle that you might want to use for Lightning Bolt
-
 If you think you'd rather have a land in the late game, play [[Farseek]]. If you'd rather draw a card, play [[Explore]]. I know which I prefer. If [[Valakut, the Molten Pinnacle:Valakut]] is online, I don't mind drawing a card, since the deck has so few dead draws. If [[Valakut, the Molten Pinnacle:Valakut]] is offline, digging for more action is *much* better than making a triggerless land drop.
 
-[[Sheltered Thicket]] performs a hair better than [[Cinder Glade]]. I was initially skeptical, but after proxying up the deck and goldfishing a few dozen games, this makes sense. It's pretty easy to get a tapped land onto the battlefield by turn four or five without messing up our curve, and I found myself cycling [[Sheltered Thicket]] regularly.
+Sheltered Thicket is probably MORE better if you play Explore. Get a tapped land into play without disrupting our curve
 
 
-
-In a surprise upset, [[Explore]] edges out [[Farseek]] regardless of which land we use. It looks like the risk of whiffing is made up for by the potential to draw into a missing [[Through the Breach:Breach]], [[Simian Spirit Guide:SSG]], or [[Primeval Titan:Titan]]. The difference is largest when looking at [[Shivan Oasis]], which makes sense. A tapped land drop makes it tough to curve into turn-three [[Primeval Titan]]. [[Explore]] gets around that problem by letting us play it as our extra land.
-
-I'm hesitant to claim that [[Explore]] is *better* than [[Farseek]] in the early game -- we get into a few caveats in the wrap-up -- but certainly the two are much closer than the conventional wisdom suggests.
-
-If you think you'd rather have a land in the late game, play [[Farseek]]. If you'd rather draw a card, play [[Explore]]. I know which I prefer. With [[Valakut, the Molten Pinnacle:Valakut]] online, I don't mind drawing a card, since the deck has so few dead draws. But if [[Valakut, the Molten Pinnacle:Valakut]] is offline, digging for more action is *much* better than making a triggerless land drop.
-
-
-
-
-
-
-Once in a while it matters that [[Cinder Glade]] enters the battlefield untapped. Once in a while we cycle [[Sheltered Thicket]] and draw into something relevant. As far as the early game is concerned, the two effects offset.
 
 
 The Titan Shift numbers suggest that by turn five, [[Sheltered Thicket]] is better than Taiga. There’s reason to be skeptical. As noted above, the model plays each game every possible way and keeps the best outcome. If the model cycles [[Sheltered Thicket]] and doesn’t like what it finds, it essentially gets to rewind and do something else instead. In effect, the computer has superhuman “instincts” about when there’s something good on top of the deck.
