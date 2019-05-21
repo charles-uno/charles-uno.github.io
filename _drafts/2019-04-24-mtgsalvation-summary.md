@@ -148,6 +148,24 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 ## Caveats and Conclusions
 
+As noted above, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is bias due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice, and [[Explore]] only presents a choice if we have the option to do something else instead. 
+
+After considering our uncertainties, we're not able to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. 
+
+In 98% of hands, they both play like [[Shivan Oasis]]. 
+
+
+
+Each is better than [[Shivan Oasis]] once per fifty-ish hands. 
+
+
+
+
+
+
+
+
+
 In 98% of hands, [[Cinder Glade]] might as well be [[Shivan Oasis]]. Either we don't draw it, or it enters the battlefield tapped, or it enters the battlefield untapped at a time when it doesn't matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It's only once per fifty-ish hands that [[Cinder Glade]] enters the battlefield untapped in a way that shaves a turn off our clock.
 
 We can get a similar boost from [[Shivan Oasis]]. Once per fifty-ish hands, we can cycle it, draw something relevant, and win a turn faster. This is likely an overestimate, due to the model's superhuman "instincts" about the order of the deck, but the verdict remains the same: [[Cinder Glade]] and [[Sheltered Thicket]] both goldfish better than [[Shivan Oasis]], but only marginally. And recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
