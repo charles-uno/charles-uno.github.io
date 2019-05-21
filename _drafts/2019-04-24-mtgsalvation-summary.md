@@ -152,6 +152,90 @@ In 98% of hands, [[Cinder Glade]] might as well be [[Shivan Oasis]]. Either we d
 
 We can get a similar boost from [[Shivan Oasis]]. Once per fifty-ish hands, we can cycle it, draw something relevant, and win a turn faster. This is likely an overestimate, due to the model's superhuman "instincts" about the order of the deck, but the verdict remains the same: [[Cinder Glade]] and [[Sheltered Thicket]] both goldfish better than [[Shivan Oasis]], but only marginally. And recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
 
+The comparison gets dicier for the ramp spells. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. [[Farseek]] searches up a land, while [[Explore]] works from the top of the deck. This means the model's superhuman "instincts" bias it in favor of [[Explore]], but just barely. Unlike cycling, which is always a choice, [[Explore]] is only a choice when we also have [[Sakura-Tribe Elder]] in hand. 
+
+
+
+
+
+
+The two put up similar numbers when things are going right
+
+The model's superhuman "instincts" about the order of the deck bias it in favor of [[Explore]], but barely. The difference only matters when choosing between [[Explore]] and [[Sakura-Tribe Elder]]. 
+
+
+
+
+
+
+(though [[Explore]] may get a slight bump from the model's superhuman "instincts"). Which would we rather have when things are going wrong? 
+
+- [[Farseek]] guarantees double-green for turn three, which is important for sideboard cards like [[Obstinate Baloth]]. 
+- [[Explore]] lets us draw 
+
+- [[Farseek]] does nothing 
+
+
+
+
+
+
+
+
+
+
+
+[[Farseek]] searches out a land, which means it guarantees a second green source for turn three. [[Explore]] works from the top of the deck instead, increasing our exposure to finishers and sideboard cards. 
+
+
+
+
+
+
+(again, [[Explore]] may get a slight bump to the model's superhuman "instincts")
+
+The two put up similar numbers when things are going right -- goldfishing -- but which would we rather 
+
+
+
+
+
+
+
+The comparison gets dicier for [[Explore]] and [[Farseek]]. The two cards put up similar goldfishing numbers, but it's hard to make an apples-to-apples comparison to break the tie. 
+
+
+
+There are loads of situations where we'd prefer either over the other. 
+
+Goldfishing numbers give us a pretty good sense of how cards stack up when things go right. Which would we rather have when things go wrong? 
+
+
+
+
+
+With [[Valakut, the Molten Pinnacle:Valakut]], the first few turns of the game are mostly about goldfishing. 
+
+The first few turns of the game are mostly about goldfishing. 
+
+
+
+
+
+
+[[Explore]] and [[Farseek]] also put up similar goldfishing numbers, but the higher-level comparison is more complicated. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. [[Farseek]] searches out a land, which means it guarantees a second green source for turn three. [[Explore]] works from the top of the deck instead, increasing our exposure to finishers and sideboard cards. 
+
+
+
+
+
+
+
+In the early game they perform similarly (again, [[Explore]] may get a slight bump to the model's superhuman "instincts")
+
+
+
+
 The comparison gets dicier for [[Explore]] and [[Farseek]]. The two cards put up similar goldfishing numbers, but it's hard to make an apples-to-apples comparison to break the tie. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. [[Explore]] can make mulligan choices more difficult. It also increases our exposure to high-impact sideboard cards. [[Farseek]] helps ensure double-green on turn three, but doesn't help dig for a basic [[Forest]] when we're worried about [[Blood Moon]].
 
 ---
