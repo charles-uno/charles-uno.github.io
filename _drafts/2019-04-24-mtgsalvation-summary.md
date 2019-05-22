@@ -148,158 +148,50 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 ## Caveats and Conclusions
 
-As noted above, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is bias due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice, and [[Explore]] only presents a choice if we have the option to do something else instead. 
+As noted above, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is bias due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice, and [[Explore]] only presents a choice if we have the option to do something else instead.
 
 After considering our uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. They each goldfish a bit better than [[Shivan Oasis]]. Neither performs decidedly better than the other. But recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
 
-The comparison is trickier for the ramp spells. [[Explore]] and [[Farseek]] goldfish equally well, and it's hard to make an apples-to-apples comparison to break the tie. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. 
+We can use the same reasoning to compare [[Explore]] and [[Farseek]]. If things are going according to plan, we're goldfishing, and the two perform comparably. Which would we rather have when things *aren't* going according to plan? When our opponent [[Field of Ruin:blows up]] our [[Valakut, the Molten Pinnacle:Valakut]], or counters our finisher, or [[Blood Moon:locks]] [[Ensnaring Bridge:us]] [[Witchbane Orb:out]], or just presents a faster clock, would we rather our two-mana ramp spell be a land or a re-draw?
 
 
-There are countless corner cases where either might be preferrable over the other. [[Farseek]] ensures we have double green on turn three. [[Explore]] increases our exposure to finishers and sideboard cards. [[Farseek]] doesn't help find a basic [[Forest]] if we're worried about [[Blood Moon]]. [[Explore]] can make mulligan choices more difficult. 
-
-
-No baseline
-
-
-The comparison is a bit trickier for the ramp spells. We don't have a nice baseline like [[Shivan Oasis]]. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. It's easy to get bogged down in the countless corner cases where either might be preferrable to the other. 
-
-
-
-
-
-
-But we can apply the same reasoning. 
-
-[[Explore]] and [[Farseek]] put up equally
-
-
-
-
-
-
-
-
-
-
-
-
-
-At some point we just have to make a choice. My heuristic is 
-
-
-
-
-At some point, we just have to make a choice. 
-
-
-
-
-
-The two put up similar numbers when things are going right
-
-
-(though [[Explore]] may get a slight bump from the model's superhuman "instincts"). Which would we rather have when things are going wrong? 
-
-- [[Farseek]] guarantees double-green for turn three, which is important for sideboard cards like [[Obstinate Baloth]]. 
-- [[Explore]] lets us draw 
-
-- [[Farseek]] does nothing 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The two put up similar numbers when things are going right -- goldfishing -- but which would we rather 
-
-
-
-
-
-
-
-The comparison gets dicier for [[Explore]] and [[Farseek]]. The two cards put up similar goldfishing numbers, but it's hard to make an apples-to-apples comparison to break the tie. 
-
-
-
-There are loads of situations where we'd prefer either over the other. 
-
-Goldfishing numbers give us a pretty good sense of how cards stack up when things go right. Which would we rather have when things go wrong? 
-
-
-
-
-
-With [[Valakut, the Molten Pinnacle:Valakut]], the first few turns of the game are mostly about goldfishing. 
-
-The first few turns of the game are mostly about goldfishing. 
-
-
-
-
-
-
-The comparison gets dicier for [[Explore]] and [[Farseek]]. The two cards put up similar goldfishing numbers, but it's hard to make an apples-to-apples comparison to break the tie. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. [[Explore]] can make mulligan choices more difficult. It also increases our exposure to high-impact sideboard cards. [[Farseek]] helps ensure double-green on turn three, but doesn't help dig for a basic [[Forest]] when we're worried about [[Blood Moon]].
 
 ---
 
 
 
 
+
+The comparison is trickier for the ramp spells. [[Explore]] and [[Farseek]] goldfish equally well, and it's hard to make an apples-to-apples comparison to break the tie. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely.
+
+
+There are countless corner cases where either might be preferrable over the other. [[Farseek]] ensures we have double green on turn three. [[Explore]] increases our exposure to finishers and sideboard cards. [[Farseek]] doesn't help find a basic [[Forest]] if we're worried about [[Blood Moon]]. [[Explore]] can make mulligan choices more difficult.
+
+
+No baseline
+
+
+The comparison is a bit trickier for the ramp spells. We don't have a nice baseline like [[Shivan Oasis]]. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. It's easy to get bogged down in the countless corner cases where either might be preferrable to the other.
+
+- [[Farseek]] guarantees double-green for turn three, which is important for sideboard cards like [[Obstinate Baloth]].
+- [[Explore]] lets us draw
+- [[Farseek]] does nothing
+
+There are loads of situations where we'd prefer either over the other.
+
+The comparison gets dicier for [[Explore]] and [[Farseek]]. The two cards put up similar goldfishing numbers, but it's hard to make an apples-to-apples comparison to break the tie. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely. [[Explore]] can make mulligan choices more difficult. It also increases our exposure to high-impact sideboard cards. [[Farseek]] helps ensure double-green on turn three, but doesn't help dig for a basic [[Forest]] when we're worried about [[Blood Moon]].
+
 In 98% of hands, [[Cinder Glade]] might as well be [[Shivan Oasis]]. Either we don't draw it, or it enters the battlefield tapped, or it enters the battlefield untapped at a time when it doesn't matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It's only once per fifty-ish hands that [[Cinder Glade]] enters the battlefield untapped in a way that shaves a turn off our clock.
 
 We can get a similar boost from [[Shivan Oasis]]. Once per fifty-ish hands, we can cycle it, draw something relevant, and win a turn faster. This is likely an overestimate, due to the model's superhuman "instincts" about the order of the deck, but the verdict remains the same: [[Cinder Glade]] and [[Sheltered Thicket]] both goldfish better than [[Shivan Oasis]], but only marginally. And recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
 
-
-
-We could go back and forth all day.
-
-
-
-
-Ultimately it comes down to what you like to play and how you like to play it.
-
-
-
-
-
-
-play style, deck composition, and personal preference.
-
-
-
-
-
-
-
-
-Late in the game, with plenty of lands on the table, would we rather our two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
-
-In my mind, it's no contest.
-
-
-
 Ultimately, it comes down to a matter of preference. Late in the game, with plenty of lands on the table, would we rather your two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
-
-
-
 
 [[Explore]] can find [[Primeval Titan]] or [[Scapeshift]] to win on the spot. It increases our exposure to high-impact sideboard cards. It can also whiff -- [[Explore]] into [[Anger of the Gods]] feels pretty bad as our opponent ticks up [[Teferi, Hero of Dominaria:Teferi]].
 
 - Few dead draws
 - Increase exposure to high-impact sideboard cards
 - Sometimes win on the spot
-
 
 Once per fifty-ish hands, [[Cinder Glade]] goldfishes better than [[Shivan Oasis]] because it enters the battlefield untapped at a crucial moment. Once per fifty-ish hands, [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] because we cycle it to draw into something relevant.
 
@@ -311,16 +203,11 @@ If this seems impossibly low to you, well, I'm right there with you. So I proxie
 
 On the other hand, I did find myself cycling [[Sheltered Thicket]] from time to time. The computer’s superhuman “instincts” make the effect hard to quantify, but it’s definitely worth something. Early on, it can help dig you out of a flood. In later turns, it finds you another threat or sideboard card that much faster. If you think it might save you bacon once out of 50 hands, it’s probably worth a try.
 
-
-
 - Explore can make mulligan choices trickier
 - fetching cinder glade can save some life, which the model does not track
 - Farseek is better at getting double green for turn 3 fo sideboard cards like obstinate baloth
 - Explore is better with Courser of Kruphix, better against Leonin Arbiter
 - We don't consider having an extra mana to hold up Lightning Bolt
-
-Computer has superhuman instincts as far as when something good is on top of the deck.
-
 
 Even so, it’s fair to say the conventional wisdom undervalues [[Sheltered Thicket]] – or perhaps overvalues [[Cinder Glade]]. In 98% of games we either won’t draw [[Cinder Glade]], or it’ll enter the battlefield tapped, or it’ll enter untapped at a time when it doesn’t matter. Maybe we’re playing it turn two off an [[Explore]], or it’s turn three and we only have a single ramp spell, or it’s turn four and we’ve already got all the mana we need. It’s only that other 2% of games where [[Cinder Glade]] enters the battlefield untapped at a crucial time. That’s once out of 50 games.
 
