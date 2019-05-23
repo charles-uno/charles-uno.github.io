@@ -152,6 +152,11 @@ Considering our statistical and systematic uncertainties, we're unable to distin
 
 We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are about equally good. But what about when things *aren't* going according to plan? When we're faced with [[Field of Ruin:land destruction]], [[Cryptic Command:counterspells]], [[Blood Moon:lock pieces]], or just a [[Glistener Elf:fast]] [[Goblin Guide:clock]], would we rather our two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
 
+Here's how I think about it: [[Farseek]] is basically an [[Explore]] that always draws [[Shivan Oasis]]. 
+
+
+
+
 
 
 
