@@ -150,7 +150,28 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Considering our statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. They each goldfish a bit better than [[Shivan Oasis]]. Neither performs decidedly better than the other. But recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
 
-We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are about equally good. But what about when things *aren't* going according to plan? When we're faced with [[Field of Ruin:land destruction]], [[Cryptic Command:counterspells]], [[Blood Moon:lock pieces]], or just a [[Glistener Elf:fast]] [[Goblin Guide:clock]], would we rather our two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
+We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are about equally good. But what about when things *aren't* going according to plan?
+
+[[Farseek]] is at its best when we have five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, but our opponent killed our [[Primeval Titan:Titan]] or countered our [[Scapeshift]]. But [[Explore]] is good there too. Part of what makes the deck powerful is that it has so few dead draws once [[Valakut, the Molten Pinnacle:Valakut]] is online. On the other hand, if our opponent has [[Field of Ruin:blown]] [[Assassin's Trophy:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locked]] [[Witchbane Orb:it]] [[Leyline of Sanctity:out]], 
+
+
+
+
+
+
+
+, [[Farseek]] is good -- but so is [[Explore]]. Part of the deck's redundancy is that is has few dead draws. On the other hand, if [[Valakut, the Molten Pinnacle:Valakut]] is offline, [[Farseek]] is often blank. [[Explore]] is never blank. It always gives us another shot to draw a high-impact threat or sideboard card.
+
+
+
+
+
+
+
+
+
+
+When we're faced with [[Field of Ruin:land destruction]], [[Cryptic Command:counterspells]], [[Blood Moon:lock pieces]], or just a [[Glistener Elf:fast]] [[Goblin Guide:clock]], would we rather our two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
 
 Here's how I think about it: [[Farseek]] is basically an [[Explore]] that always draws [[Shivan Oasis]]. 
 
