@@ -27,7 +27,7 @@ This is where the computer comes in. My numerical model[^1] can read in a deck l
 
 For example, on turn two, we sometimes have to choose between casting [[Sakura-Tribe Elder:STE]] and [[Explore]]. An experienced player can generally eyeball it, but spelling out the decision explicitly for the computer is tedious and error-prone -- a calculation based on how many lands are in our hand, whether we need a second green source, how many live draws we have to make turn-three [[Through the Breach:Breach]] (or [[Simian Spirit Guide:SSG]]-[[Through the Breach:Breach]]), and so on. Instead of all that, we just make two copies of the game. One plays [[Sakura-Tribe Elder:STE]] and the other plays [[Explore]]. If *either* copy pulls off turn-three [[Through the Breach:Breach]], it's pretty safe to say a human player could have done the same.
 
-The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest -- including sequencing its plays to shuffle at just the right time to blind-draw into better cards. Essentially, the computer has superhuman "instincts" about the order of the deck. To suppress those non-human play patterns, the order of the deck is locked in as soon as the game begins. There are no mulligans. And any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means no deck thinning, which introduces a percent-level[^2] uncertainty.
+The big caveat is shuffling. The computer is programmed to try all possible options to find the one that wins fastest -- including sequencing its plays to shuffle at just the right time to blind-draw into better cards. Essentially, the computer has superhuman "instincts" about the order of the deck. To suppress those non-human play patterns, the order of the deck is locked in as soon as the game begins. There are no mulligans. Any time the computer would search its deck for a [[Forest]], instead it leaves the deck as-is and creates a new [[Forest]] out of thin air. This means no deck thinning, which introduces a percent-level[^2] uncertainty.
 
 [^2]: About one land is thinned from the deck each turn. We simulate out to turn five. That means the model draws about one too many lands (and one too few spells) per twenty hands. We eyeball the size of this effect by manually thinning a land from the deck often enough to draw the correct number of lands on average.
 
@@ -84,7 +84,7 @@ Beyond that, the biggest takeaway is that all the numbers are pretty close toget
 
 ## Intermission
 
-As long as we're crunching numbers, let's take a moment to discuss [[Simian Spirit Guide]]. Many Titan Breach lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
+As long as we're crunching numbers, let's spend a moment on [[Simian Spirit Guide]]. Many Titan Breach lists shave a copy, or even cut the card completely, to make room for more interaction. The table below quantifies the effect this has on the deck's speed.
 
 | Number of [[Simian Spirit Guide:SSGs]] | T3   | ≤ T3.5 | ≤ T4   | ≤ T4.5 |
 |:---------------------------------------|:----:|:------:|:------:|:------:|
@@ -100,7 +100,7 @@ With zero copies of [[Simian Spirit Guide]], only about one in thirty hands can 
 
 ## Titan Shift
 
-[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper) is the slow-and-steady [[Valakut, the Molten Pinnacle:Valakut]] deck. Instead of trying to win on turn three, it finds time to disrupts its opponent with [[Anger of the Gods]], [[Relic of Progenitus]], or even [[Mwonvuli Acid-Moss]. The deck has a fair amount of wiggle room -- players often find a place for their pet cards -- but the following is a believable baseline:
+[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper) is the slow-and-steady [[Valakut, the Molten Pinnacle:Valakut]] deck. Instead of trying to win on turn three, it finds time to disrupts its opponent with [[Anger of the Gods]], [[Relic of Progenitus]], or even [[Mwonvuli Acid-Moss]]. The deck has a fair amount of wiggle room -- players often find a place for their pet cards -- but the following is a believable baseline:
 
 <table class="cardlist">
     <caption class="deckname">Titan Shift</caption>
@@ -146,16 +146,21 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 ## Caveats and Conclusions
 
-As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead. 
+As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead.
 
 Considering our statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. They each goldfish a bit better than [[Shivan Oasis]]. Neither performs decidedly better than the other. But recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
 
 We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are about equally good. But what about when things *aren't* going according to plan? When we're faced with [[Field of Ruin:land destruction]], [[Cryptic Command:counterspells]], [[Blood Moon:lock pieces]], or just a [[Glistener Elf:fast]] [[Goblin Guide:clock]], would we rather our two-mana spell be a land ([[Farseek]]) or a re-draw ([[Explore]])?
 
-Here's how I think about it: [[Farseek]] is basically an [[Explore]] that always draws [[Shivan Oasis]]. 
+
+For me, it's [[Explore]], hands down. With five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is a good topdeck -- but so is [[Explore]]. Part of the deck's redundancy is that it has few dead draws.
+
+On the other hand, if [[Valakut, the Molten Pinnacle:Valakut]] is offline,
 
 
 
+
+[[Explore]] is almost certainly better. It increases our exposure to high-impact sideboard cards and finishers to give us the best possible chance to come back from behind.
 
 
 
@@ -164,7 +169,10 @@ Here's how I think about it: [[Farseek]] is basically an [[Explore]] that always
 
 
 
-For me, it's [[Explore]], hands down. If we've got five [[Mountain:mountains]] and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is good -- but so is [[Explore]]. Part of the deck's redundancy is that is has few dead draws. On the other hand, if [[Valakut, the Molten Pinnacle:Valakut]] is offline, [[Farseek]] is often blank. [[Explore]] is never blank. It always gives us another shot to draw a high-impact threat or sideboard card.
+For me, it's [[Explore]], hands down.
+
+
+If we've got five [[Mountain:mountains]] and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is good -- but so is [[Explore]]. Part of the deck's redundancy is that is has few dead draws. On the other hand, if [[Valakut, the Molten Pinnacle:Valakut]] is offline, [[Farseek]] is often blank. [[Explore]] is never blank. It always gives us another shot to draw a high-impact threat or sideboard card.
 
 
 
