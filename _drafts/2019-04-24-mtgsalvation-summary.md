@@ -6,7 +6,7 @@ description: How do we estimate the value of "draw a card"?
 tags: games stem
 ---
 
-In late 2017, a friend lent me a deck so I could tag along to my first Modern tournament. A few months later, I flew to Spain and put up a reasonable record against world-class opponents at the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). My secret, honestly, was [[Valakut, the Molten Pinnacle:Valakut]]. The deck is resilient and redundant, making it incredibly friendly to beginners. All the cards are basically lands. You keep putting them on the table until your opponent concedes!
+In late 2017, [Matthias](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) lent me a deck so I could tag along to my first Modern tournament. A few months later, I flew to Spain and broke even against world-class opponents at the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). My secret, honestly, was [[Valakut, the Molten Pinnacle:Valakut]]. The deck is resilient and redundant, making it incredibly friendly to beginners. All the cards are basically lands. You keep putting them on the table until your opponent concedes!
 
 The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinnacle:Valakut]] can get repetitive. As I learned the format, I could anticipate my opponents' tricks and guess their sideboard choices. But you wouldn't know it from my plays: ramp spell, ramp spell, ramp spell, [[Primeval Titan]]. I eventually got to wondering how the deck could be made more flexible -- without losing the consistency that's key to its success.
 
@@ -17,11 +17,11 @@ In particular, I'm curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]]
 ![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
 *A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
 
-But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." Early on, drawing an extra card can help us assemble an explosive win on turn three or four. Later on, drawing a card increases our exposure to high-impact finishers and sideboard cards. Seeing an extra card is particularly advantageous when our opponent is able to disrupt our plans with [[Cryptic Command:counterspells]], [[Field of Ruin:land destruction]], and/or [[Blood Moon:lock pieces]]. The question is, if we want the flexibility, how does it affect our speed?
+But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." Early on, drawing an extra card can help us assemble an explosive win on turn three or four. Later on, drawing a card increases our exposure to high-impact finishers and sideboard cards. Seeing an extra card is particularly advantageous when our opponent is able to disrupt our plans with [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]]. The question is, if we want the flexibility, how does it affect our speed?
 
 ## The Model
 
-This is where the computer comes in. My numerical model[^1] can read in a deck list, simulate thousands of games, and tell us exactly how fast that list can expect to land a [[Primeval Titan]] or [[Scapeshift]]. The model doesn't know anything about sequencing or strategy. Instead, it tries all possible combinations of legal plays and keeps whichever one wins fastest. This approach is computationally inefficient, but it's guaranteed to find the fastest way to win, even when faced with nontrivial choices.
+This is where the computer comes in. My numerical model[^1] can read in a deck list, [goldfish](https://mtg.gamepedia.com/Goldfishing) thousands of games, and tell us exactly how fast that list can expect to land a [[Primeval Titan]] or [[Scapeshift]]. The model doesn't know anything about sequencing or strategy. Instead, it tries all possible combinations of legal plays and keeps whichever one wins fastest. This approach is computationally inefficient, but it's guaranteed to find the fastest way to win, even when faced with nontrivial choices.
 
 [^1]: The code (written in Go) is available on GitHub [here](https://github.com/charles-uno/valakut). I also have an older version of the model written in [Python](https://github.com/charles-uno/valakut-python).
 
@@ -148,19 +148,83 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead.
 
-Considering our statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. They each goldfish a bit better than [[Shivan Oasis]]. Neither performs decidedly better than the other. But recall why we made the comparison in the first place. The cycling on [[Sheltered Thicket]] is a significant advantage in games that go long. If [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game -- which they do -- [[Sheltered Thicket]] is clearly better overall.
+Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) differences are comparable to the model's percent-level statistical and systematic uncertainties. As far as goldfishing goes, there's no clear favorite between [[Farseek]] and [[Explore]], or between [[Cinder Glade]] and [[Sheltered Thicket]].
 
-We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are about equally good. But what about when things *aren't* going according to plan?
-
-[[Farseek]] is at its best when we have five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, but our opponent killed our [[Primeval Titan:Titan]] or countered our [[Scapeshift]]. But [[Explore]] is good there too. Part of what makes the deck powerful is that it has so few dead draws once [[Valakut, the Molten Pinnacle:Valakut]] is online. On the other hand, if our opponent has [[Field of Ruin:blown]] [[Assassin's Trophy:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locked]] [[Witchbane Orb:it]] [[Leyline of Sanctity:out]], 
+That means, if we're *not* playing against a goldfish, [[Sheltered Thicket]] is better than [[Cinder Glade]]. Past six mana, we don't particularly care if our lands enter the battlefield untapped. [[Sheltered Thicket]] is still a land if we want [[Valakut, the Molten Pinnacle:Valakut]] triggers, but it also comes with the flexibility to cycle it in search of a high-impact sideboard card or finisher to turn the game around.
 
 
 
 
+The choice between ramp spells is closer.
+[[Explore]] isn't a [[Farseek]] variant with cycling -- it's a different effect entirely.
+There are plenty of corner cases[^5] that suggest either is better than the other.
 
 
 
-, [[Farseek]] is good -- but so is [[Explore]]. Part of the deck's redundancy is that is has few dead draws. On the other hand, if [[Valakut, the Molten Pinnacle:Valakut]] is offline, [[Farseek]] is often blank. [[Explore]] is never blank. It always gives us another shot to draw a high-impact threat or sideboard card.
+
+
+
+
+
+The ramp spells are a bit trickier to compare.
+At the end of the day I prefer [[Explore]] because it's never a dead draw.
+
+
+[[Shivan Oasis]] vs a random card.
+
+
+
+
+
+I prefer [[Explore]] because I always want to play it.
+
+
+
+
+
+
+
+
+
+
+I prefer [[Explore]] because I believe it fits better in the big picture. If we have five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is a good draw -- but so is [[Explore]]. A big part of the deck's power is that it has few dead draws once [[Valakut, the Molten Pinnacle:Valakut]] is online. On the other hand, if our opponent has [[Field of Ruin:blown]] [[Assassin's Trophy:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locked]] [[Surgical Extraction:it]] [[Leyline of Sanctity:out]], [[Farseek]] might as well be blank. [[Explore]] never has that problem. Drawing an extra card is always good because it increases our chances of seeing high-impact sideboard cards and finishers to turn the game around.
+
+
+
+
+
+[^5]: Just to name a few: [[Farseek]] ensures we have double-green on turn three for [[Obstinate Baloth]]. [[Explore]] can make mulligan choices more difficult. [[Farseek]] gets punished by [[Leonin Arbiter]] and [[Shadow of Doubt]]. [[Explore]] interacts favorably with [[Courser of Kruphix]]. [[Explore]] helps us find a basic [[Forest]] or a [[Wooded Foothills:fetch land]] if we're worried about [[Blood Moon]].
+
+
+
+
+
+
+
+
+Now recall why we're making these comparisons in the first place. If a game is going according to plan, we're goldfishing. There's no clear favorite between [[Farseek]] and [[Explore]], or [[Cinder Glade]] and [[Sheltered Thicket]]. But what about when things *aren't* going according to plan?
+
+But recall why we're making these comparisons in the first place. If things are going according to plan, we're goldfishing, and there's no clear favorite. As a tiebreaker, which cards would we prefer to have when things *aren't* going according to plan?
+
+Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]], or [[Cinder Glade]] for [[Sheltered Thicket]]. Even the largest (apparent) gaps in performance toe the line of our model's percent-level statistical and systematic uncertainties. But recall why we're making these comparisons in the first place. If things are going according to plan, we're goldfishing, and there's no clear favorite. As a tiebreaker, which cards would we prefer to have when things *aren't* going according to plan?
+
+
+
+
+
+
+
+
+
+Considering our statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]]. They each goldfish a bit better than [[Shivan Oasis]]. Neither performs decidedly better than the other. But recall why we made the comparison in the first place. In the late game, cycling is far more advantageous than having our tenth land enter the battlefield untapped. Given that [[Cinder Glade]] and [[Sheltered Thicket]] perform comparably in the early game, [[Sheltered Thicket]] is clearly the better choice overall -- contrary to the conventional wisdom.
+
+We can apply the same reasoning to [[Farseek]] and [[Explore]]. If everything is going according to plan, we're goldfishing, and the two are equally good. As a tiebreaker, which would we prefer to draw when things *aren't* going according to plan?
+
+In my mind it's [[Explore]], hands down. If we have five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is a good draw -- but so is [[Explore]]. A big part of the deck's power is that it has few dead draws once [[Valakut, the Molten Pinnacle:Valakut]] is online. On the other hand, if our opponent has [[Field of Ruin:blown]] [[Assassin's Trophy:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locked]] [[Surgical Extraction:it]] [[Leyline of Sanctity:out]], [[Farseek]] might as well be blank. [[Explore]] never has that problem. Drawing an extra card is always good because it increases our chances of seeing high-impact sideboard cards and finishers to turn the game around.
+
+
+
+
 
 
 
@@ -198,8 +262,6 @@ If we've got five [[Mountain:mountains]] and a [[Valakut, the Molten Pinnacle:Va
 
 
 [[Farseek]] is like [[Explore]] that always draws [[Shivan Oasis]].
-
-The comparison is a bit trickier for the ramp spells. [[Explore]] isn't a worse [[Farseek]] with cycling -- it's a different effect entirely.
 
 Late in the game, when we're one land away from winning, sometimes [[Explore]] draws us into [[Anger of the Gods]] instead. Other times, a land isn't enough, and we're *glad* to have [[Explore]] draw us into [[Anger of the Gods]].
 
