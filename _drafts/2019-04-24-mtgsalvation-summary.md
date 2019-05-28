@@ -148,16 +148,36 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead.
 
-
-
-... need to do explore first?
-
+After considering statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]] in the first few turns of the game. This is bad news for the conventional wisdom. [[Cinder Glade]] is overwhelmingly preferred because it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands, and that the cycling on [[Sheltered Thicket]] gives a comparable boost. And things only get worse for [[Cinder Glade]] as the game goes on. Our curve tops out at six, so we don't typically care whether or not our seventh land enters the battlefield tapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant as a way to dig for high-impact sideboard cards and finishers. Overall, [[Sheltered Thicket]] is better for both Titan Breach and Titan Shift. 
 
 
 
 
 
 
+
+
+The longer the game goes, the less we care about whether or not [[Cinder Glade]] enters the battlefield untapped
+
+Cycling also remains relevant as the game goes on, since it can increase our exposure to high-impact sideboard cards and finishers. 
+
+
+
+
+
+Cycling also remains relevant throughout the game, while [[Cinder Glade]] 
+
+
+
+
+As the game goes on, [[Cinder Glade]] 
+
+
+If the game goes long, cycling remains
+
+
+
+As the game goes on, cycling remains relevant, but [[Cinder Glade]] doesn't. 
 
 
 
@@ -169,6 +189,9 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands. The cycling on [[Sheltered Thicket]] gives a comparable boost. And things only get worse for [[Cinder Glade]] as the game goes on. Our curve tops out at six, so we don't typically care if our seventh land enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant as a way to dig for high-impact sideboard cards and finishers.
 
 
+
+
+Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) gaps in goldfishing performance are comparable to the model's percent-level statistical and systematic uncertainties.
 
 
 
@@ -243,8 +266,6 @@ The selling point of
 
 
 
-
-Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) gaps in goldfishing performance are comparable to the model's percent-level statistical and systematic uncertainties.
 
 [[Cinder Glade]] and [[Sheltered Thicket]] put up similar numbers if we're curving out against a goldfish,
 
