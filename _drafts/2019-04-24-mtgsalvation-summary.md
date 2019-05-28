@@ -148,9 +148,206 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead.
 
-Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) differences are comparable to the model's percent-level statistical and systematic uncertainties. As far as goldfishing goes, there's no clear favorite between [[Farseek]] and [[Explore]], or between [[Cinder Glade]] and [[Sheltered Thicket]].
 
-That means, if we're *not* playing against a goldfish, [[Sheltered Thicket]] is better than [[Cinder Glade]]. Past six mana, we don't particularly care if our lands enter the battlefield untapped. [[Sheltered Thicket]] is still a land if we want [[Valakut, the Molten Pinnacle:Valakut]] triggers, but it also comes with the flexibility to cycle it in search of a high-impact sideboard card or finisher to turn the game around.
+
+... need to do explore first?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands. The cycling on [[Sheltered Thicket]] gives a comparable boost. And things only get worse for [[Cinder Glade]] as the game goes on. Our curve tops out at six, so we don't typically care if our seventh land enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant as a way to dig for high-impact sideboard cards and finishers.
+
+
+
+
+
+
+
+With eight lands on the table, [[Cinder Glade]] might as well be [[Shivan Oasis]] -- we almost certainly don't care whether or not it enters the battlefield tapped. Meanwhile,
+
+
+[[Sheltered Thicket]] looks great at eight lands. That's enough to cycle it and cast [[Primeval Titan]] in the same turn.
+
+
+
+
+
+
+And as the game goes on, [[Cinder Glade]] only gets worse
+
+
+
+
+
+
+
+Furthermore, as the game goes on, [[Sheltered Thicket]] gets better and [[Cinder Glade]] gets worse.
+
+Once we have eight lands on the table, we rarely care if the ninth enters the battlefield tapped or untapped.
+
+But eight is enough that we can cycle [[Sheltered Thicket]], draw [[Primeval Titan]], and cast it right away.
+
+Eight mana means we don't care if the ninth enters the bat
+
+But we may care that ten mana is enough to cycle [[Sheltered Thicket]], cast [[Explore]], and still have mana left over for [[Primeval Titan]].
+
+Cycling remains relevant throughout the game as we search for high-impact sideboard cards and finishers to break a stalemate.
+
+
+
+
+
+
+
+
+the effect on goldfishing is small, and that the cycling on [[Sheltered Thicket]] gives a similar boost.
+
+Furthermore, in games that go long, [[Sheltered Thicket]] is clearly superior.
+
+
+Our curve tops out at six mana. Beyond there, we rarely care whether or not [[Cinder Glade]] enters the battlefield untapped
+
+
+
+
+ -- its job is just to trigger [[Valakut, the Molten Pinnacle:Valakut]]. [[Sheltered Thicket]] triggers [[Valakut, the Molten Pinnacle:Valakut]] too, plus it comes with the option to cycle it in search of high-impact sideboard card or finisher.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Cinder Glade]] for [[Sheltered Thicket]].
+
+The selling point of
+
+
+
+
+
+Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) gaps in goldfishing performance are comparable to the model's percent-level statistical and systematic uncertainties.
+
+[[Cinder Glade]] and [[Sheltered Thicket]] put up similar numbers if we're curving out against a goldfish,
+
+
+
+[[Cinder Glade]] and [[Sheltered Thicket]] put up similar goldfishing numbers. Against a real opponent trying to disrupt or race us, that points to [[Sheltered Thicket]] as the better option.
+
+
+
+
+
+The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped, making us a bit faster.
+
+
+
+
+
+
+
+our opponent is a goldfish
+
+
+
+, which means [[Sheltered Thicket]] comes out ahead against a real opponent.
+
+
+
+
+
+
+Once we get to six mana, we rarely care whether or not [[Cinder Glade]] enters the battlefield untapped.
+
+
+
+
+
+[[Cinder Glade]] and [[Sheltered Thicket]] put up similar goldfishing numbers, but if the game goes long [[Sheltered Thicket]] clearly comes out ahead. Our curve tops out at six mana. Beyond there, we rarely care whether or not [[Cinder Glade]] enters the battlefield untapped -- its job is just to trigger [[Valakut, the Molten Pinnacle:Valakut]]. [[Sheltered Thicket]] triggers [[Valakut, the Molten Pinnacle:Valakut]] too, plus it comes with the option to cycle it in search of high-impact sideboard card or finisher.
+
+
+
+
+
+
+Weighing [[Explore]] against [[Farseek]] is a bit trickier because we don't have a common baseline.
+
+
+
+
+
+
+
+
+
+
+Beyond there, we rarely care whether or not [[Cinder Glade]] enters the battlefield untapped.
+
+
+
+
+
+
+
+
+
+Our curve tops out at six mana. Past there we rarely care about [[Cinder Glade]] entering the battlefield untapped. The option to cycle [[Sheltered Thicket]] in search of a high-impact sideboard card or finisher is far more valuable.
+
+
+
+
+
+
+
+
+
+Weighing [[Farseek]] against [[Explore]] is a bit trickier.
+
+
+
+
+
+
+Like [[Sheltered Thicket]], [[Explore]] lets us see an extra card
+
+
+
+
+
+
+The comparison is a bit trickier for [[Explore]] and [[Farseek]].
+
+They put up comparable goldfishing numbers, but
+
+[[Explore]] and [[Farseek]] put up similar goldfishing numbers as well
+
+
+Even the largest (apparent) differences are comparable to the model's percent-level statistical and systematic uncertainties.
+As far as goldfishing is concerned, there's no clear favorite between [[Farseek]] and [[Explore]], or between [[Cinder Glade]] and [[Sheltered Thicket]].
+
+
+[[Cinder Glade]] and [[Sheltered Thicket]] put up similar goldfishing numbers,
+If our opponent is a goldfish, [[Cinder Glade]] and [[Sheltered Thicket]] put up similar numbers.
+Against a real opponent, [[Sheltered Thicket]] is the clear favorite.
+but flexibility in the face of disruption makes [[Sheltered Thicket]] the clear favorite.
 
 
 -----
@@ -158,6 +355,20 @@ That means, if we're *not* playing against a goldfish, [[Sheltered Thicket]] is 
 
 The choice between ramp spells is closer.
 [[Explore]] isn't a [[Farseek]] variant with cycling -- it's a different effect entirely.
+
+
+
+
+
+The choice between ramp spells is trickier. In the late game, [[Farseek]] is basically an [[Explore]] that always draws [[Shivan Oasis]]. Sometimes that's better than a random card and sometimes it's worse.
+
+
+
+
+
+
+
+
 There are plenty of corner cases[^5] that suggest either is better than the other.
 
 
