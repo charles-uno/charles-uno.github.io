@@ -150,7 +150,55 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency. But after accounting for statistical and systematic uncertainties, no difference is evident. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]].
+That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out they perform comparably.
+
+
+
+[[Explore]] increases our exposure to high-impact sideboard cards and finishers at essentially no cost.
+
+
+If you prefer a re-draw to a land, you shouldn't hesitate to play [[Explore]].
+
+
+
+
+The case for [[Sheltered Thicket]] is even stronger -- it's probably just *better* than [[Cinder Glade]].
+
+The deck's curve tops out at six, so past there it rarely matters if [[Cinder Glade]] enters the battlefield untapped.
+
+
+
+
+
+
+
+If you think you'll generally prefer a
+
+
+goldfish comparably well.
+
+If you prefer a re-draw to a land, you should feel good about [[Explore]].
+
+Later on, if you prefer a re-draw to a land, [[Explore]] is an attractive option.
+
+
+
+
+
+That makes [[Explore]] an attractive option if you believe, as I do, that a re-draw is better than a land in games that go long.
+
+
+
+
+
+
+we think a re-draw is better than a land in games that go long.
+
+
+
+
+
+But after accounting for statistical and systematic uncertainties, no difference is evident. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]].
 
 
 
