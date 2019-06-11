@@ -148,24 +148,26 @@ The numbers for Titan Shift tell pretty much the same story we saw for Titan Bre
 
 As noted up top, the model has superhuman "instincts" about the order of the deck. This means it's a bit too good when making choices about drawing cards with [[Explore]] or [[Sheltered Thicket]]. Luckily, the effect is small. [[Sheltered Thicket]] goldfishes better than [[Shivan Oasis]] once per fifty-ish hands. Some of that benefit is real, while some is due to bias. That puts the scale of the bias around 1%, comparable to our other uncertainties. We don't have a direct comparison for [[Explore]], but we'd expect the effect to be even smaller. The computer's "instincts" only matter when it's making a choice. [[Sheltered Thicket]] always presents a choice between playing it as a land and cycling it, but [[Explore]] only presents a choice when we have the option to cast something else instead.
 
-After considering statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]] in the first few turns of the game. That's bad news for the conventional wisdom. The whole argument in favor of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands, and that the cycling on [[Sheltered Thicket]] gives a comparable boost. And things only get worse for [[Cinder Glade]] as the game goes on. Our curve tops out at six, so past there we rarely care if [[Cinder Glade]] enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant throughout the game. That means [[Sheltered Thicket]] is overall better than [[Cinder Glade]] for both Titan Breach and Titan Shift. 
+After considering statistical and systematic uncertainties, we're unable to distinguish a difference between [[Cinder Glade]] and [[Sheltered Thicket]] in the first few turns of the game. That's bad news for the conventional wisdom. The whole argument in favor of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands, and that the cycling on [[Sheltered Thicket]] gives a comparable boost. And things only get worse for [[Cinder Glade]] as the game goes on. Our curve tops out at six, so past there we rarely care if [[Cinder Glade]] enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant throughout the game. That means [[Sheltered Thicket]] is overall better than [[Cinder Glade]] for both Titan Breach and Titan Shift.
 
-[[Explore]] outperforms the conventional wisdom as well. In the early game, it lets us win just as quickly and consistently as [[Farseek]]. That means the better ramp spell overall is whichever one we'd prefer to have in the late game. In my mind, that's [[Explore]]. Once we get five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is a good draw -- but so is [[Explore]]. Pretty much every card in the deck is a good draw at that point, and a [[Scapeshift:few]] [[Primeval Titan:of]] [[Blighted Woodland:them]] win the game on the spot. On the other hand, if our opponent [[Assassin's Trophy:blows]] [[Field of Ruin:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locks]] [[Witchbane Orb:it]] [[Surgical Extraction:out]], [[Farseek]] is often a dead draw. [[Explore]] is never dead. It always digs us one card closer to a high-impact sideboard card or finisher to turn the game around. 
+[[Explore]] outperforms the conventional wisdom as well. In the early game, it lets us win just as quickly and consistently as [[Farseek]]. That means the better ramp spell overall is whichever one we'd prefer to have in the late game.
+
+In my mind, that's [[Explore]]. Once we get five mountains and a [[Valakut, the Molten Pinnacle:Valakut]] on the table, [[Farseek]] is a good draw -- but so is [[Explore]]. Pretty much every card in the deck is a good draw at that point, and a [[Scapeshift:few]] [[Primeval Titan:of]] [[Blighted Woodland:them]] win the game on the spot. On the other hand, if our opponent [[Assassin's Trophy:blows]] [[Field of Ruin:up]] our [[Valakut, the Molten Pinnacle:Valakut]], or [[Blood Moon:locks]] [[Witchbane Orb:it]] [[Surgical Extraction:out]], [[Farseek]] is often a dead draw. [[Explore]] is never dead. It always digs us one card closer to a high-impact sideboard card or finisher to turn the game around. 
 
 
 
+
+---
 
 ---
 
 ---
 
----
 
 
+The late-game comparison is a bit trickier. Once [[Valakut, the Molten Pinnacle:Valakut]] is online, [[Farseek]] guarantees us a trigger and [[Explore]] doesn't. On the other hand, [[Explore]] gives us another chance to win on the spot with [[Primeval Titan]], [[Scapeshift]], or [[Blighted Woodland]].
 
-The late-game comparison is a bit trickier. Once [[Valakut, the Molten Pinnacle:Valakut]] is online, [[Farseek]] guarantees us a trigger and [[Explore]] doesn't. On the other hand, [[Explore]] gives us another chance to win on the spot with [[Primeval Titan]], [[Scapeshift]], or [[Blighted Woodland]]. 
-
-If [[Valakut, the Molten Pinnacle:Valakut]] is online, [[Farseek]] guarantees us a trigger. [[Explore]] is *usually* worth a trigger. Sometimes it draws [[Scapeshift]] to win on the spot, which is even better. Other times it's worse, for example drawing [[Anger of the Gods]] against [[Teferi, Hero of Dominaria:Teferi]]. 
+If [[Valakut, the Molten Pinnacle:Valakut]] is online, [[Farseek]] guarantees us a trigger. [[Explore]] is *usually* worth a trigger. Sometimes it draws [[Scapeshift]] to win on the spot, which is even better. Other times it's worse, for example drawing [[Anger of the Gods]] against [[Teferi, Hero of Dominaria:Teferi]].
 
 Contrary to the conventional wisdom, there is no loss of early-game consistency when a [[Valakut, the Molten Pinnacle:Valakut]] deck swaps [[Farseek]] for [[Explore]]. The odds to whiff with [[Explore]] are offset by the odds to draw a missing piece. Similarly, [[Sheltered Thicket]] does just as well as [[Cinder Glade]]. Each outperforms [[Shivan Oasis]] by a small margin. Even the largest (apparent) gaps in goldfishing performance are comparable to the model's percent-level statistical and systematic uncertainties.
 
