@@ -12,12 +12,12 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 
 ## Quick on the Draw
 
-In particular, I'm curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place.
+In particular, I was curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place.
 
 ![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
 *A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
 
-But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." Early on, drawing an extra card can help us assemble an explosive win on turn three or four. Later on, drawing a card increases our exposure to high-impact finishers and sideboard cards. Seeing an extra card is particularly advantageous when our opponent is able to disrupt our plans with [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]]. The question is, if we want the flexibility, how does it affect our speed?
+But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." [[Farseek]] and [[Cinder Glade]] are fine draws if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but in that same situation [[Explore]] gives us another chance to [[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]. And if our opponent has managed to disrupt our plans using [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]], any lands past our sixth might as well be blanks. We'd much rather re-draw in search of a high-impact sideboard card or finisher to turn the game around. The question is, if we want the added flexibility, how does it affect our speed?
 
 ## The Model
 
@@ -150,7 +150,15 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. The main selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands -- and that we can get a comparable boost from the cycling on [[Sheltered Thicket]]. After considering our statistical and systematic uncertainties, we're unable to say either goldfishes better than the other. On the other hand, in the late game, [[Sheltered Thicket]] is clearly better. Our curve tops out at six, so past there we rarely care if [[Cinder Glade]] enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant to dig for high-impact sideboard cards and finishers. This points to [[Sheltered Thicket]] as the better choice overall for both Titan Breach and Titan Shift, contrary to the conventional wisdom. 
+That all said, it's not looking good for the conventional wisdom. The main selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands -- and that we can get a comparable boost from the cycling on [[Sheltered Thicket]].
+
+Similarly, [[Explore]] performs just as well as [[Farseek]] in the early game.
+
+
+
+lets us win just as quickly and consistently as [[Farseek]].
+
+
 
 
 
@@ -161,6 +169,9 @@ That all said, it's not looking good for the conventional wisdom. The main selli
 ---
 
 [[Explore]] outperforms the conventional wisdom as well.
+
+
+That all said, it's not looking good for the conventional wisdom. The main selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands -- and that we can get a comparable boost from the cycling on [[Sheltered Thicket]]. After considering our statistical and systematic uncertainties, we're unable to say either goldfishes better than the other. On the other hand, in the late game, [[Sheltered Thicket]] is clearly better. Our curve tops out at six, so past there we rarely care if [[Cinder Glade]] enters the battlefield untapped. Meanwhile, the cycling on [[Sheltered Thicket]] remains relevant to dig for high-impact sideboard cards and finishers. This points to [[Sheltered Thicket]] as the better choice overall for both Titan Breach and Titan Shift.
 
 
 
