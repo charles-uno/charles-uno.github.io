@@ -17,7 +17,7 @@ In particular, I was curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade
 ![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
 *A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
 
-But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." [[Farseek]] and [[Cinder Glade]] are fine draws if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but in that same situation [[Explore]] gives us another chance to [[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]. And if our opponent has managed to disrupt our plans using [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]], any lands past our sixth might as well be blanks. We'd much rather re-draw in search of a high-impact sideboard card or finisher to turn the game around. The question is, if we want the added flexibility, how does it affect our speed?
+But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." [[Farseek]] is a fine draw if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but in that same situation [[Explore]] gives us another chance to [[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]. And if our opponent has managed to disrupt our plans using [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]], any lands past our sixth might as well be blanks. We'd much rather re-draw in search of a high-impact sideboard card or finisher to turn the game around. The question is, if we want the added flexibility, how does it affect our speed?
 
 ## The Model
 
@@ -80,7 +80,7 @@ We simulate four different variations of this deck to cover all combinations of 
 
 Right off the bat, we can make a quick sanity check: [[Cinder Glade]] and [[Sheltered Thicket]] both perform better than [[Shivan Oasis]] across the board. If this weren't the case, we'd know something was wrong. It's also reassuring to see that [[Cinder Glade]] is at a relative advantage on turn three, while [[Sheltered Thicket]] performs best on turn four. Even a single tapped land drop makes it hard to curve into a turn-three [[Primeval Titan]], but that extra turn gives us some wiggle room to cycle [[Sheltered Thicket]] in search of a missing piece.
 
-Beyond that, the biggest takeaway is that all the numbers are pretty close together. At most, differences toe the line of statistical significance. That's already a blow to the conventional wisdom. For every hand where we lose a turn whiffing with [[Explore]], there's another where we gain a turn by drawing into a missing [[Through the Breach]]. Likewise, the cycling on [[Sheltered Thicket]] is relevant just as often as [[Cinder Glade]] entering the battlefield untapped. From there, the choice comes down to higher-level considerations, discussed in the wrap-up.
+Beyond that, the biggest takeaway is that all the numbers are pretty close together. At most, differences toe the line of statistical significance. For every hand where we lose a turn whiffing with [[Explore]], there's another where [[Explore]] gains us a turn by drawing us into a missing [[Primeval Titan]] or [[Through the Breach]]. Conventional wisdom suggests [[Farseek]] is better for speed and consistency, but that's not what we're seeing.
 
 ## Intermission
 
@@ -142,7 +142,7 @@ As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]]
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
-The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. Same for [[Cinder Glade]] and [[Sheltered Thicket]]. These numbers on their own don't show that [[Explore]] or [[Sheltered Thicket]] are *better* per se -- more on that in a moment -- but they certainly cast doubt on the widespread presumption that they're worse.
+The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]]. This is a significant blow to the conventional wisdom. The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn earlier. It turns out that only happens in a few percent of hands -- and that the cycling on [[Sheltered Thicket]] gives a comparable boost.
 
 ## Caveats and Conclusions
 
@@ -150,9 +150,54 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. The main selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands -- and that we can get a comparable boost from the cycling on [[Sheltered Thicket]].
+That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency. But after accounting for statistical and systematic uncertainties, no difference is evident. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]].
 
-Similarly, [[Explore]] performs just as well as [[Farseek]] in the early game.
+
+
+
+---
+
+---
+
+---
+
+
+
+
+
+
+When things are going according to plan, we're goldfishing, they perform comparably.
+
+
+
+After accounting for statistical and systematic uncertainties, swapping [[Farseek]] for [[Explore]] has no clear effect on the deck's speed or consistency. Same for [[Cinder Glade]] and [[Sheltered Thicket]].
+
+When things *aren't* going according to plan,
+
+
+
+That all said, it's not looking good for the conventional wisdom.
+
+
+
+very attractive options due to flexibility in the late game
+
+
+
+
+
+
+
+That all said, it's not looking good for the conventional wisdom. The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn faster. It turns out this only happens in a few percent of hands -- and that we can get a comparable boost from the cycling on [[Sheltered Thicket]]. Similarly, [[Explore]] goldfishes just as well as [[Farseek]]. For every game where [[Explore]] misses a land drop, there's another game where it draws us into a winning [[Scapeshift]] or [[Primeval Titan]].
+
+
+
+
+
+
+
+For every game where [[Explore]] misses a land drop, there's another where [[Farseek]] doesn't draw [[Scapeshift]] in time.
+
 
 
 
@@ -162,11 +207,9 @@ lets us win just as quickly and consistently as [[Farseek]].
 
 
 
----
 
----
 
----
+
 
 [[Explore]] outperforms the conventional wisdom as well.
 
