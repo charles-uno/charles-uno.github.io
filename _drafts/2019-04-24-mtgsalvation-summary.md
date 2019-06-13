@@ -150,11 +150,103 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out they perform comparably.
+That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out the difference is negligible in the early game. And later on, [[Explore]] is arguably better. [[Farseek]] guarantees us a trigger if [[Valakut, the Molten Pinnacle:Valakut]] is online. [[Explore]] is *usually* worth a trigger, plus it increases our exposure to sideboard cards, plus it's a re-draw if our opponent has taken [[Valakut, the Molten Pinnacle:Valakut]] offline. 
+
+
+The case for [[Sheltered Thicket]] is even clearer. 
 
 
 
-[[Explore]] increases our exposure to high-impact sideboard cards and finishers at essentially no cost.
+
+
+That all said, it's not looking good for the conventional wisdom. [[Cinder Glade]] is supposed to outperform [[Sheltered Thicket]] in terms of speed and consistency, but it turns out the difference is negligible in the first few turns of the game. Later on, [[Sheltered Thicket]] is typically better. We rarely care if our tenth land enters the battlefield untapped, but we *do* care about the ability to cycle it in search of high-impact sideboard cards and finishers. Overall, [[Sheltered Thicket]] looks better than [[Cinder Glade]] for both Titan Breach and Titan Shift. 
+
+The conventional wisdom is sleeping on [[Explore]] as well. In the first few turns of the game, [[Explore]] performs just as well as [[Farseek]]. 
+
+
+
+Swapping out [[Farseek]] for [[Explore]] does not 
+
+
+
+
+Comparing the ramp spells is a bit trickier. [[Explore]] and [[Farseek]] perform comparably in the early game, but after that it's hard to make an apples-to-apples comparison. [[Farseek]] guarantees a trigger if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but can be blank if 
+
+
+
+
+
+
+
+
+
+Later on, it's tricky to make an apples-to-apples comparison, but it sure looks to me like [[Explore]] is better. 
+
+Later on, there are arguments both ways. If you just want your guaranteed [[Valakut, the Molten Pinnacle:Valakut]] trigger, stick with [[Farseek]]. I prefer [[Explore]] because it's *usually* worth a trigger, plus it increases our exposure to sideboard cards and finishers, plus it's a re-draw if our opponent has taken [[Valakut, the Molten Pinnacle:Valakut]] offline. 
+
+I prefer [[Explore]] because it increases my exposure to high-impact sideboard cards and finishers. If you just want your guaranteed [[Valakut, the Molten Pinnacle:Valakut]] trigger, stick with [[Farseek]]. 
+
+Either way, the comparison is much closer than the conventional wisdom would suggest. 
+
+
+
+
+
+
+
+Later on, there are a few factors to consider. [[Farseek]] guarantees a trigger if we have [[Valakut, the Molten Pinnacle:Valakut]] online. [[Explore]] is *usually* worth a trigger, plus it increases our exposure to high-impact sideboard cards and finishers, plus it's a re-draw if our opponent has taken [[Valakut, the Molten Pinnacle:Valakut]] offline. 
+
+
+
+
+
+
+
+
+
+
+. [[Explore]] is *usually* worth a trigger, and it increases our exposure to sideboard cards, and it's 
+
+
+
+
+[[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]
+
+
+[[Explore]] increases our exposure to high-impact cards
+
+But (unlike [[Farseek]], [[Cinder Glade]], and [[Sheltered Thicket]]) it doesn't guarantee 
+
+
+
+
+
+
+
+Overall, that means [[Sheltered Thicket]] is probably the better choice. 
+
+[[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out they goldfish comparably. 
+
+If you'd like to increase your exposure to high-impact sideboard cards and finishers (at the cost of fewer lands in the late game) you shouldn't hesitate to play [[Explore]]. 
+
+
+
+
+[[Explore]] increases our late-game exposure to high-impact sideboard cards and finishers, while costing us nothing in the early game. 
+
+
+
+
+
+That means [[Explore]] increases our exposure to high-impact sideboard cards and finishers, at no cost to our speed or consistency.
+
+
+
+
+
+
+That makes [[Explore]] a very attractive option
+
 
 
 If you prefer a re-draw to a land, you shouldn't hesitate to play [[Explore]].
