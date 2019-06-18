@@ -150,7 +150,47 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. [[Sheltered Thicket]] grinds nicely with [[Life from the Loam]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out the difference is negligible in the early game. Later on, [[Explore]] is arguably better. Sometimes it draws a dud, but more often[^6] it finds a high-impact sideboard card or finisher.
+That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out the difference is negligible in the early game. 
+
+Same for [[Cinder Glade]] and [[Sheltered Thicket]]. 
+
+
+Later on, 
+
+
+
+
+Later on, [[Explore]] is likely better -- sometimes it draws a dud, but more often[^5] it finds a high-impact sideboard card or finisher. And the case for [[Sheltered Thicket]] is even clearer. It's on par with [[Cinder Glade]] in the early game
+
+
+
+
+
+
+
+
+, and notably better later on. We rarely care if our tenth land enters the battlefield untapped, but we often care about the ability to cycle it in search of something better.
+
+
+
+
+Overall, [[Sheltered Thicket]] looks better than [[Cinder Glade]] for both Titan Breach and Titan Shift.
+
+
+
+
+
+
+[^5]: Late in the game, a [[Valakut, the Molten Pinnacle:Valakut]] deck should be mostly good draws with a handful of great ones -- especially after sideboarding. If you find yourself with more dead draws than great draws, something has gone terribly wrong. 
+
+
+
+
+
+
+
+
+
 
 The case for [[Sheltered Thicket]] is even stronger.
 In the early game, it's close
@@ -164,16 +204,10 @@ it puts up numbers comparable to [[Cinder Glade]] -- and in the late game it's j
 
 
 
-Overall, [[Sheltered Thicket]] looks better than [[Cinder Glade]] for both Titan Breach and Titan Shift.
-
-
 
 
 
 Same for [[Cinder Glade]] and [[Sheltered Thicket]].
-
-[^6]: If your deck has more dead draws than great draws, something has gone terribly wrong.
-
 
 
 
