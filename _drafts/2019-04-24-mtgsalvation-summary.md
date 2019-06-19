@@ -142,7 +142,7 @@ As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]]
 
 <p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
 
-The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]]. This is a significant blow to the conventional wisdom. The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn earlier. It turns out that only happens in a few percent of hands -- and that the cycling on [[Sheltered Thicket]] gives a comparable boost.
+The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]]. This is a significant blow to the conventional wisdom. The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn earlier. It turns out that only happens in a few percent of hands -- and that the cycling on [[Sheltered Thicket]] gives a comparable boost. This makes [[Sheltered Thicket]] look pretty good. Our curve tops out at six, so past there we rarely care about [[Cinder Glade]] entering the battlefield untapped. But the cycling on [[Sheltered Thicket]] remains relevant throughout the game. 
 
 ## Caveats and Conclusions
 
@@ -150,17 +150,20 @@ As noted up top, the model has superhuman "instincts" about the order of the dec
 
 Let's also be clear about the limitations of goldfishing. The model cares only about winning as fast as possible, but in a real game we also need to *not lose*. [[Cinder Glade]] saves us a few points of life every time we fetch it in place of an untapped [[Stomping Ground]]. [[Farseek]] helps ensure double-green for [[Obstinate Baloth]] on turn three. [[Explore]] dodges [[Ashiok, Dream Render:Ashiok]]. [[Sheltered Thicket]] grinds nicely with [[Life from the Loam]]. These corner cases cut both ways, and they're tricky to quantify because the metagame is always changing.
 
-That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out the difference is negligible in the early game. 
-
-Same for [[Cinder Glade]] and [[Sheltered Thicket]]. 
-
-
-Later on, 
+That all said, it's not looking good for the conventional wisdom. [[Farseek]] is supposed to outperform [[Explore]] in terms of speed and consistency, but it turns out the difference is negligible. Same for [[Cinder Glade]] and [[Sheltered Thicket]]. If a game is going according to plan, neither is particularly better than the other. But recall why we're making these comparisons in the first place. If things *aren't* going according to plan, seeing an extra card increases our exposure to high-impact sideboard cards and finishers to turn the game around. 
 
 
 
+---
 
-Later on, [[Explore]] is likely better -- sometimes it draws a dud, but more often[^5] it finds a high-impact sideboard card or finisher. And the case for [[Sheltered Thicket]] is even clearer. It's on par with [[Cinder Glade]] in the early game
+---
+
+---
+
+
+
+
+Later on, [[Explore]] is likely better -- sometimes it draws a dud, but more often it finds a high-impact sideboard card or finisher. And the case for [[Sheltered Thicket]] is even clearer. It's on par with [[Cinder Glade]] in the early game
 
 
 
@@ -408,15 +411,6 @@ we think a re-draw is better than a land in games that go long.
 
 
 But after accounting for statistical and systematic uncertainties, no difference is evident. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]].
-
-
-
-
----
-
----
-
----
 
 
 
