@@ -4,6 +4,7 @@ title: "Deck Chairs on the Titanic"
 image: "/assets/images/thumb/pt-rix.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
 tags: games stem
+hidden: true
 ---
 
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion -- pretty good for a guy who's never even made Day 2 of a Grand Prix!
