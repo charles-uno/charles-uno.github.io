@@ -67,3 +67,14 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
 
 .nowrap { white-space: nowrap; }
 .hide-by-default { display: none; }
+
+.half-width {
+    width: 50%;
+    display: inline-block;
+    padding: $cell-pad;
+}
+
+.split-wrap {
+    font-size: 0;
+    line-height: 0;
+}
