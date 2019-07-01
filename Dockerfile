@@ -19,8 +19,9 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
+# https://bundler.io/blog/2019/01/04/an-update-on-the-bundler-2-release.html
 ADD Gemfile .
+RUN gem update --system
 RUN bundle install
-RUN bundle update
 
 CMD ["/bin/bash"]
