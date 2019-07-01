@@ -69,12 +69,14 @@ a, a:focus, a:visited, a:hover { text-decoration: none; }
 .hide-by-default { display: none; }
 
 .half-width {
-    width: 50%;
+    width: 100%;
+    @media (min-width: 750px) { width: 50%; }
     display: inline-block;
     padding: $cell-pad;
 }
 
 .split-wrap {
+    text-align: center;
     font-size: 0;
     line-height: 0;
 }
