@@ -6,6 +6,25 @@ description: "It's appalling that we don't care enough to solve it."
 tags: politics
 ---
 
+Under no circumstances should a child in America[^1] be homeless. I believe strongly that the government (whether federal, state, or local) should ensure that every child in the country has a safe place to sleep
+
+-- even if doing so is expensive
+
+
+
+
+
+
+[^1]: Child homelessness *anywhere* is morally appalling, but let's start with the problems we can readily solve. 
+
+
+
+
+
+
+
+
+
 In some states, we could end homelessness *today*. There are more empty homes than there are people without homes. A few years ago, Utah did just that. They gave each person experiencing homelessness a roof and set them up with a social worker to get them back on their feet. The results were staggering. 
 x
 y
