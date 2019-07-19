@@ -2,13 +2,20 @@
 layout: post
 title: "Homelessness is a Moral Failure"
 image: "/assets/images/thumb/jelle-de-gier-frog.png"
-description: "It's appalling that we don't care enough to solve it."
+description: "There's no excuse for letting a child sleep on the street"
 tags: politics
 ---
 
-Under no circumstances should a child in America[^1] be homeless. I believe strongly that the government (whether federal, state, or local) has a moral obligation to ensure that every child in the country has a safe place to sleep -- even if doing so is expensive, even if the money goes to a slumlord, and even if the child has a criminal record. Waste and fraud are real concerns, and we should design policy to mitigate them, but fear of abuse is no excuse to let a child sleep on the street.
+Under no circumstances should a child in America[^1] be homeless. I believe strongly that the government (whether federal, state, or local) has a moral obligation to ensure that every child in the country has a safe place to sleep -- even if doing so is expensive, even if the money goes to a slumlord, and even if the child has a criminal record. Waste and abuse are legitimate concerns, and we should design policy to mitigate them, but fear of fraud is no excuse to let a child sleep on the street.
 
 [^1]: Child homelessness *anywhere* is morally appalling, but let's start here.
+
+
+
+
+Unless you've studied homelessness specifically, 
+
+
 
 
 
@@ -24,11 +31,6 @@ Tons of linked citations about homeless youth, victimization, PTSD
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2860307/
 
 Child homelessness is a moral indictment on all of us -- not to mention that it makes us poorer in the literal sense. How do you expect a homeless child to perform in school, get a job, and become a productive member of society?
-
-
-
-
-It's also, honestly, a waste of
 
 
 
