@@ -7,6 +7,10 @@ tags: games stem
 hidden: true
 ---
 
+
+> Heads up -- this page is old! Check [here](http://charles.uno/valakut-simulation/) for an updated model and tighter analysis
+
+
 I played my first match of Modern in September. Two months later, I won a Modern RPTQ and tickets to Spain for the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). Despite a few embarrassing punts, I managed a 6-4 finish in the Modern portion -- pretty good for a guy who's never even made Day 2 of a Grand Prix!
 
 My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games -- and finding flaws in the conventional wisdom that could never be discovered by hand.
