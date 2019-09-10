@@ -6,52 +6,58 @@ description:
 tags: games stem
 ---
 
-When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free stuff and efficient cantrips both have a history of ending up on the Modern banned list. This one in particular looks a lot like [[Ancient Stirrings]], a card which [was recently acknowledged](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement) as potentially bannable.
+When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free stuff and efficient card selection both have a history of ending up on the Modern banned list. In particular, [[Once Upon a Time]] bears a striking resemblance to [[Ancient Stirrings]] -- a card which was recently [called out](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement) as a potential future ban. 
 
-Since then, I've simulated[^1] tens of thousands of opening hands over a handful of different archetypes.
+
+
+may well be banned someday. 
+
+
+
+, which was [recently acknowledged](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement) as a card which toes the line.
+
+
+
+a card they're got their eye on. 
+
+
+
+This card in particular looks a lot like [[Ancient Stirrings]], a card which [was recently acknowledged](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement) as potentially bannable. 
+
+Since then, I've simulated[^1] tens of thousands of opening hands over a handful of different archetypes. 
+
+
+
+to get a sense for the card's power level. 
+
+
+
+
+
+
+Since then, I've simulated tens of thousands of opening hands over a handful of different archetypes.
 
 [^1]: Code available [here](https://github.com/charles-uno/amulet). For a human-readable explanation of how the model works, check out my Valakut article [here](http://charles.uno/valakut-simulation/). 
 
-
 ## Tron
 
+Today, 17% of seven-card hands assemble Tron on turn three and 53% of hands do so by turn four. That's with full sets of [[Ancient Stirrings]], [[Chromatic Sphere]], [[Chromatic Star]], [[Expedition Map]], [[Sylvan Scrying]], and the [[Urza's Mine:Urza lands]]. Swapping out [[Sylvan Scrying]] for [[Once Upon a Time]] bumps those numbers up to 21% and 60% respectively. 
+
+It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we open on [[Once Upon a Time]], we can *also* cast [[Expedition Map]] or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble Tron even if there's only a single land in our opening hand. 
+
+[[Once Upon a Time]] makes mulligan choices a bit trickier, but I suspect the improved performance is worth it. Not only does it outperform [[Sylvan Scrying]] in the first few turns of the game, but it adds value later on by increasing access to creatues like [[Ulamog, the Ceaseless Hunger:Ulamog]], [[Walking Ballista]], and [[Wurmcoil Engine]]. I strongly suspect that Tron will play this card. 
+
+
+Pro Tour champion Andrew Elenbogen: assembling tron is a bigger bottleneck than finding threats
+
+https://twitter.com/Ajelenbogen/status/1171268444781760514
+
+
+
+
+
+
 I'm no expert on Tron, but I know someone who is: Pro Tour champion Andrew Elenbogen. By his account, assembling the three [[Urza's Mine:Urza lands]] is a [bigger bottleneck](https://twitter.com/Ajelenbogen/status/1171268444781760514) than finding threats. For that reason, the numbers below refer to the odds of assembling Tron on a particular turn, rather than (for example) the odds of casting [[Karn Liberated]]. 
-
-Today, 17% of seven-card hands assemble Tron on turn three and 53% of hands do so by turn four. That's with full sets of [[Ancient Stirrings]], [[Chromatic Star]], [[Chromatic Sphere]], [[Expedition Map]], [[Sylvan Scrying]], and the [[Urza's Mine:Urza lands]]. If we swap out [[Sylvan Scrying]] for [[Once Upon a Time]], those numbers jump to 21% and 60% respectively. 
-
-It may seem a bit strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. 
-
-
-
-
-Casting and activating an [[Expedition Map]] takes up turns one and two. 
-
-
-
-takes all the Tron player's mana from turns one and two. Same for [[Chromatic Star]] into [[Sylvan Scrying]]. 
-
-
-
-
-
-
-The deck has plenty of card selection -- an opening hand will frequently have both [[Sylvan Scrying]] and [[Expedition Map]]. But with one mana on turn one and two mana on turn two, 
-
-
-
-
-
-in their opening hand... 
-
-
-
-
-
-
-
-
-Plus, as the game goes on, [[Once Upon a Time]] adds additional value as the game goes on by improving access to creatues like [[Ulamog, the Ceaseless Hunger]], [[Walking Ballista]], and [[Wurmcoil Engine]]. 
-
 
 
 
