@@ -18,7 +18,26 @@ Since then, I've simulated[^1] tens of thousands of opening hands over a handful
 I'm no expert on Tron, but I believe (Pro Tour Chamption) Andrew Elenbogen when he says that [assembling Tron is the biggest bottleneck](https://twitter.com/Ajelenbogen/status/1171268444781760514). [[Once Upon a Time]] gives the deck a significant boost in that department. 
 
 
-
+<table class="cardlist">
+    <caption class="deckname">Tron</caption>
+    <tr>
+        <td>
+            4 [[Ancient Stirrings]]<br>
+            4 [[Chromatic Sphere]]<br>
+            4 [[Chromatic Star]]<br>
+            4 [[Expedition Map]]<br>
+            4 [[Sylvan Scrying]]<br>
+            21 [[Karn Liberated]] or whatever
+        </td>
+        <td>
+            4 [[Forest]]<br>
+            4 [[Urza's Mine]]<br>
+            4 [[Urza's Power Plant]]<br>
+            4 [[Urza's Tower]]<br>
+            3 [[Wastes]]<br>
+        </td>
+    </tr>
+</table>
 
 
 
