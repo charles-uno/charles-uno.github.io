@@ -15,7 +15,9 @@ Since then, I've simulated[^1] tens of thousands of opening hands over a handful
 
 ## Tron
 
-I'm no expert on Tron, but I believe (Pro Tour Chamption) Andrew Elenbogen when he says that [assembling Tron is the biggest bottleneck](https://twitter.com/Ajelenbogen/status/1171268444781760514). [[Once Upon a Time]] gives the deck a significant boost in that department. 
+I'm no expert on Tron, but I believe (Pro Tour Chamption) Andrew Elenbogen when he says that [assembling Tron is the biggest bottleneck](https://twitter.com/Ajelenbogen/status/1171268444781760514). 
+
+[[Once Upon a Time]] gives the deck a significant boost in that department. 
 
 
 <table class="cardlist">
@@ -27,7 +29,7 @@ I'm no expert on Tron, but I believe (Pro Tour Chamption) Andrew Elenbogen when 
             4 [[Chromatic Star]]<br>
             4 [[Expedition Map]]<br>
             4 [[Sylvan Scrying]]<br>
-            21 [[Karn Liberated]] or whatever
+            21 [[Walking Ballista]] or whatever
         </td>
         <td>
             4 [[Forest]]<br>
