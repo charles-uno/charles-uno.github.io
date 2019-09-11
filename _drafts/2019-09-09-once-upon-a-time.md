@@ -11,7 +11,6 @@ When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/ma
 <div class="flex-across">
 <img class="half" src="/assets/images/ancient-stirrings.png">
 <img class="half" src="/assets/images/once-upon-a-time.png">
-<img class="half" src="/assets/images/adventurous-impulse.png">
 </div>
 
 My code (written in Python) is available on GitHub [here](https://github.com/charles-uno/amulet). I've also written up a human-readable explanation of how it works in my Valakut article [here](http://charles.uno/valakut-simulation/). Values below have systematic and statistical uncertainties of about 1%.
