@@ -15,12 +15,12 @@ When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/ma
 <img class="half" src="/assets/images/once-upon-a-time.png">
 </div>
 
-Since then, I've run tens of thousands of simulations to put the hype to the test. My code (written in Python) is available on [GitHub](https://github.com/charles-uno/amulet). You can also check out the human-readable explanation of how it works in my [Valakut article](http://charles.uno/valakut-simulation/#the-model). All values below apply to seven-card hands -- no mulligans. Systematic and statistical uncertainties are about 1%.
+Since then, I've run tens of thousands of simulations to put the hype to the test. My code (written in Python) is available on [GitHub](https://github.com/charles-uno/amulet). You can also check out the human-readable explanation of how it works in my [Valakut article](http://charles.uno/valakut-simulation/#the-model). All values below apply to seven-card hands playing against a [goldfish](https://mtg.gamepedia.com/Goldfishing) -- no mulligans, no disruption.
 
 
 ## Neobrand
 
-When playing against a [goldfish](https://mtg.gamepedia.com/Goldfishing), 26% of seven-card [Neobrand](https://www.mtggoldfish.com/archetype/modern-neobrand#paper) hands can get [[Griselbrand]] on the table on the first or second turn; 44% do so by turn three. It's possible to make those numbers better with [[Once Upon a Time]], but it's not pretty:
+About one in four seven-card hands of [Neobrand] can get [[Griselbrand]] on the table on the first or second turn; 44% do so by turn three. It's possible to make those numbers better with [[Once Upon a Time]], but it's not pretty:
 
 |                                              | ≤ T2 | ≤ T3 | ≤ T4 |
 |:---------------------------------------------|:----:|:----:|:----:|
@@ -28,7 +28,7 @@ When playing against a [goldfish](https://mtg.gamepedia.com/Goldfishing), 26% of
 | ... [[Serum Visions]] → [[Once Upon a Time]] |  22% | 39%  | 48%  |
 | ... Other stuff → [[Once Upon a Time]]       |  31% | 53%  | 61%  |
 
-<p class="table-caption">Odds to get a [[Griselbrand]] on the table quickly. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±1%.</p>
+<p class="table-caption">Odds to get a [[Griselbrand]] on the table quickly. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±3% -- this deck is expensive to model!</p>
 
 [Neobrand]: https://www.mtggoldfish.com/archetype/modern-neobrand#paper
 
@@ -39,22 +39,24 @@ Neobrand doesn't mulligan particularly well, and almost half of its opening hand
 
 ## Tron
 
-In terms of assembling[^2] Tron, [[Ancient Stirrings]] and [[Sylvan Scrying]] are about on par with one another. [[Once Upon a Time]] is better than either. We'd never cut [[Ancient Stirrings]] -- it finds more than just lands -- but swapping [[Sylvan Scrying]] for [[Once Upon a Time]] makes the deck 20% more likely to have turn-three Tron:
+In terms of assembling[^1][^2] Tron, [[Once Upon a Time]] is better than both [[Ancient Stirrings]] and [[Sylvan Scrying]]. We'd never cut [[Ancient Stirrings]] -- it finds more than just lands -- but swapping [[Sylvan Scrying]] for [[Once Upon a Time]] makes the deck significantly more likely to have turn-three Tron:
 
-[^2]: For our purposes, "assembling Tron" means having access to 7+ mana from the [[Urza's Mine:Urza lands]]. Casting [[Ancient Stirrings]] on turn three to find the last piece doesn't count.
+[^1]: For our purposes, "assembling Tron" means having access to 7+ mana from the [[Urza's Mine:Urza lands]]. Casting [[Ancient Stirrings]] on turn three to find the last piece doesn't count.
+
+[^2]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
 
 |                                                  | ≤ T2 | ≤ T3 | ≤ T4 |
 |:-------------------------------------------------|:----:|:----:|:----:|
-| [Tron]                                           |   0% | 17%  | 53%  |
-| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |   0% | 21%  | 60%  |
+| [Tron]                                           |   0% | 16%  | 53%  |
+| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |   0% | 18%  | 57%  |
 | ... [[Sylvan Scrying]] → [[Once Upon a Time]]    |   0% | 21%  | 60%  |
-| ... Other stuff → [[Once Upon a Time]]           |   0% | 22%  | 67%  |
+| ... Other stuff → [[Once Upon a Time]]           |   0% | 22%  | 66%  |
 
-<p class="table-caption">Odds to have Tron by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±1%.</p>
+<p class="table-caption">Odds to have Tron by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
 [Tron]: https://www.mtggoldfish.com/archetype/modern-tron-46482#paper
 
-It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble Tron even if there's only a single land in our opening hand.
+It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble turn-three Tron even if there's only a single land in our opening hand.
 
 
 [[Once Upon a Time]] lets Tron mulligan a bit less often and assemble Tron a bit more consistently compared to [[Sylvan Scrying]]. On top of that, it adds value later on by increasing access to creatures like [[Ulamog, the Ceaseless Hunger:Ulamog]], [[Walking Ballista]], and [[Wurmcoil Engine]]. I suspect it'll become a standard inclusion in Tron lists.
@@ -62,16 +64,16 @@ It may seem strange that [[Once Upon a Time]] (which looks at five cards) perfor
 
 ## Valakut
 
-[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks will probably use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is a significant upgrade.
+[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks will probably use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
 
 |                                        | ≤ T2 | ≤ T3 | ≤ T4 |
 |:---------------------------------------|:----:|:----:|:----:|
-| [Titan Breach]                         |   0% | 15%  | 57%  |
-| ... Other stuff → [[Desperate Ritual]] |   0% | 34%  | 70%  |
+| [Titan Breach]                         |   0% | 15%  | 59%  |
+| ... Other stuff → [[Desperate Ritual]] |   0% | 35%  | 70%  |
 | ... Other stuff → [[Oath of Nissa]]    |   0% | 22%  | 73%  |
-| ... Other stuff → [[Once Upon a Time]] |   0% | 27%  | 75%  |
+| ... Other stuff → [[Once Upon a Time]] |   0% | 29%  | 77%  |
 
-<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±1%.</p>
+<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
 [Titan Breach]: http://charles.uno/valakut-simulation/#breach-for-the-stars
 
@@ -90,7 +92,7 @@ I've run the numbers on dozens of different builds of Titan Breach, with every d
 | ... Other stuff → [[Once Upon a Time]]           |   7% | 39%  | 75%  |
 | ... Other stuff → [[Summer Bloom]]               |  14% | 41%  | 69%  |
 
-<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±1%.</p>
+<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
@@ -101,6 +103,6 @@ Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]
 
 ## Happily Ever After?
 
-[[Once Upon a Time]] is great in Tron and Amulet Titan -- in the same neighborhood as [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. And that's just the start. This card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
+[[Once Upon a Time]] is great in Tron and Amulet Titan -- comparable in power level to [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. And that's just the start. This card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
 
-Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair.
+Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair. I would not be surprised to see this card push something over the line and get banned.
