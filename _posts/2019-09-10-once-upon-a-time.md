@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Once Upon a Prime"
+title: "Once Upon a (Prime) Time"
 image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
 description: "Play it while you can"
 tags: games stem
@@ -38,14 +38,14 @@ Tron mulligans pretty well, but all else being equal we'd rather keep our openin
 
 [[Scapeshift]] decks may use [[Once Upon a Time]], but [[Through the Breach]] builds are much more likely to *abuse* it. These are the builds that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is a significant upgrade.
 
-[Depending on the build, about](http://charles.uno/valakut-simulation/) 12% of seven-card Titan Breach hands can get [[Primeval Titan]] on the table on turn three, and 42% by turn four. By playing [[Once Upon a Time]] instead of some "fair" cards like [[Lightning Bolt]] and [[Obstinate Baloth]], those numbers jump up to 29% and 75%.
+[Depending on the build, about](http://charles.uno/valakut-simulation/) 12% of seven-card Titan Breach hands can get [[Primeval Titan:Prime Time]] on the table on turn three, and 42% by turn four. By playing [[Once Upon a Time]] instead of some "fair" cards like [[Lightning Bolt]] and [[Obstinate Baloth]], those numbers jump up to 29% and 75%.
 
 I've run the numbers on dozens of different builds of Titan Breach, with every different combination of rituals and cantrips imaginable. [[Once Upon a Time]] is in a league of its own. It gives as much velocity as [[Desperate Ritual]], but with none of the vulnerability. In fact, it provides the deck with much-needed card selection; [[Simian Spirit Guide]] and [[Through the Breach]] are great early on, but terrible after your hand has been picked apart by [[Thoughtseize]].
 
 
 ## Amulet Titan
 
-Last but not least, there's [Amulet Titan](https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper). Today's builds are about 3% to get [[Primeval Titan]] on the table on turn two, and 27% to do so by turn three. If we play [[Once Upon a Time]] in place of miscellaneous nonsense like [[Trinket Mage]] and [[Karn, the Great Creator:Karn]], those numbers become 7% and 39% respectively.
+Last but not least, there's [Amulet Titan](https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper). Today's builds are about 3% to get [[Primeval Titan:Prime Time]] on the table on turn two, and 27% to do so by turn three. If we play [[Once Upon a Time]] in place of miscellaneous nonsense like [[Trinket Mage]] and [[Karn, the Great Creator:Karn]], those numbers become 7% and 39% respectively.
 
 For comparison, with [[Summer Bloom]] in those slots, the deck is about 14% to land a turn-two [[Primeval Titan]] and 43% to do so by turn three. That's what got [[Summer Bloom]] banned.
 
