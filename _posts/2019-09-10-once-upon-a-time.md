@@ -6,8 +6,6 @@ description: "Play it while you can"
 tags: games stem
 ---
 
-> Editor's note: this article has been updated for clarity
-
 When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free spells and efficient card selection both have a history of ending up on the Modern [banned list](https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted). In particular, [[Once Upon a Time]] bears a striking resemblance to [[Ancient Stirrings]] -- a card [living on borrowed time](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement).
 
 <div class="flex-across">
@@ -20,17 +18,19 @@ Since then, I've run tens of thousands of simulations to put the hype to the tes
 
 ## Neobrand
 
-About one in four seven-card hands of [Neobrand] can get [[Griselbrand]] on the table on the first or second turn; 44% do so by turn three. It's possible to make those numbers better with [[Once Upon a Time]], but it's not pretty:
+About one in four seven-card hands of [Neobrand] can get [[Griselbrand]] on the table on the first or second turn; nearly half do so by turn three. It's possible to make those numbers better with [[Once Upon a Time]], but it's not pretty:
 
 |                                              | ≤ T2 | ≤ T3 | ≤ T4 |
 |:---------------------------------------------|:----:|:----:|:----:|
 | [Neobrand]                                   |  26% | 44%  | 53%  |
 | ... [[Serum Visions]] → [[Once Upon a Time]] |  22% | 39%  | 48%  |
-| ... Other stuff → [[Once Upon a Time]]       |  31% | 53%  | 61%  |
+| ... Other stuff[^4] → [[Once Upon a Time]]   |  31% | 53%  | 61%  |
 
 <p class="table-caption">Odds to get a [[Griselbrand]] on the table quickly. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±3% -- this deck is expensive to model!</p>
 
 [Neobrand]: https://www.mtggoldfish.com/archetype/modern-neobrand#paper
+
+[^4]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
 
 Swapping [[Serum Visions]] out for [[Once Upon a Time]] doesn't help. And the rest of the deck is pretty lean. To improve the numbers, I had to make some questionable cuts: [[Pact of Negation]], [[Autochthon Wurm]], and two [[Life Goes On]]. Playing [[Once Upon a Time]] over these cards makes the deck better at getting [[Griselbrand]] on the table quickly, but also (presumably) more likely to implode mid-combo and lose to its own [[Summoner's Pact]] trigger.
 
@@ -56,15 +56,14 @@ In terms of assembling[^1][^2] Tron, [[Once Upon a Time]] is better than both [[
 
 [Tron]: https://www.mtggoldfish.com/archetype/modern-tron-46482#paper
 
-It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble turn-three Tron even if there's only a single land in our opening hand.
-
+It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one into [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble turn-three Tron even if there's only a single land in our opening hand.
 
 [[Once Upon a Time]] lets Tron mulligan a bit less often and assemble Tron a bit more consistently compared to [[Sylvan Scrying]]. On top of that, it adds value later on by increasing access to creatures like [[Ulamog, the Ceaseless Hunger:Ulamog]], [[Walking Ballista]], and [[Wurmcoil Engine]]. I suspect it'll become a standard inclusion in Tron lists.
 
 
 ## Valakut
 
-[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks will probably use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
+[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks may well use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
 
 |                                        | ≤ T2 | ≤ T3 | ≤ T4 |
 |:---------------------------------------|:----:|:----:|:----:|
@@ -96,7 +95,7 @@ I've run the numbers on dozens of different builds of Titan Breach, with every d
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
-Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. If we swap out [[Ancient Stirrings]] for [[Once Upon a Time]], the deck gets *better*[^3]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is somewhere between [[Explore]] (which is playable) and [[Summer Bloom]] (which is banned).
+Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. [[Once Upon a Time]] is even better[^3]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is squarely better than [[Explore]] (which is playable) and not that far from [[Summer Bloom]] (which is banned).
 
 [^3]: Here we're talking about goldfishing specifically. In a broader sense, [[Once Upon a Time]] versus [[Ancient Stirrings]] depends on how much you care about finding [[Engineered Explosives]] versus [[Azusa, Lost but Seeking:Azusa]], how much instant speed matters, and so on.
 
