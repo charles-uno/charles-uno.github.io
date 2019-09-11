@@ -22,7 +22,7 @@ When playing against a [goldfish](https://mtg.gamepedia.com/Goldfishing), 26% of
 
 That said, Neobrand lists are pretty lean. [[Once Upon a Time]] doesn't outperform [[Serum Visions]], so I had to make some questionable cuts to run the model: [[Pact of Negation]], two [[Life Goes On]], and an [[Autochthon Wurm]]. My list is better at getting [[Griselbrand]] on the table, but it's also (I presume) much more likely to implode mid-combo and lose to its own [[Summoner's Pact]] triggers.
 
-Play Neobrand at your own risk -- regardless of whether or not you play [[Once Upon a Time]].
+Neobrand doesn't mulligan particularly well, and opening hands are 50-50 to be nonfunctional. Play at your own risk -- with or without [[Once Upon a Time]].
 
 
 ## Tron
