@@ -6,14 +6,14 @@ description: "Play it while you can"
 tags: games stem
 ---
 
-When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free stuff and efficient card selection both have a history of ending up on the Modern [banned list](https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted). In particular, [[Once Upon a Time]] bears a striking resemblance to [[Ancient Stirrings]] -- a card [living on borrowed time](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement).
+When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free spells and efficient card selection both have a history of ending up on the Modern [banned list](https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted). In particular, [[Once Upon a Time]] bears a striking resemblance to [[Ancient Stirrings]] -- a card [living on borrowed time](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement).
 
 <div class="flex-across">
 <img class="half" src="/assets/images/ancient-stirrings.png">
 <img class="half" src="/assets/images/once-upon-a-time.png">
 </div>
 
-Since then, I've run tens of thousands of simulations to put the hype to the test. My code (written in Python) is available on [GitHub](https://github.com/charles-uno/amulet). You can also check out the human-readable explanation of how it works in my [Valakut article](http://charles.uno/valakut-simulation/). All values below apply to seven-card hands -- no mulligans. Systematic and statistical uncertainties are about 1%.
+Since then, I've run tens of thousands of simulations to put the hype to the test. My code (written in Python) is available on [GitHub](https://github.com/charles-uno/amulet). You can also check out the human-readable explanation of how it works in my [Valakut article](http://charles.uno/valakut-simulation/#the-model). All values below apply to seven-card hands -- no mulligans. Systematic and statistical uncertainties are about 1%.
 
 
 ## Neobrand
@@ -22,7 +22,7 @@ When playing against a [goldfish](https://mtg.gamepedia.com/Goldfishing), 26% of
 
 That said, Neobrand lists are pretty lean. [[Once Upon a Time]] doesn't outperform [[Serum Visions]], so I had to make some questionable cuts to run the model: [[Pact of Negation]], two [[Life Goes On]], and an [[Autochthon Wurm]]. My list is better at getting [[Griselbrand]] on the table, but it's also (I presume) much more likely to implode mid-combo and lose to its own [[Summoner's Pact]] triggers.
 
-Neobrand doesn't mulligan particularly well, and opening hands are 50-50 to be nonfunctional. Play at your own risk -- with or without [[Once Upon a Time]].
+Neobrand doesn't mulligan particularly well, and opening hands are fifty-fifty to be nonfunctional. Play at your own risk -- with or without [[Once Upon a Time]].
 
 
 ## Tron
