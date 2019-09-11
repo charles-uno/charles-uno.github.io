@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Magic as Richard Garfield Intended"
+title: "Once Upon a Prime"
 image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
 description: "Play it while you can"
 tags: games stem
@@ -49,7 +49,7 @@ Last but not least, there's [Amulet Titan](https://www.mtggoldfish.com/archetype
 
 For comparison, with [[Summer Bloom]] in those slots, the deck is about 14% to land a turn-two [[Primeval Titan]] and 43% to do so by turn three. That's what got [[Summer Bloom]] banned.
 
-[[Once Upon a Time]] is phenomenal for Amulet Titan. It makes the deck more explosive, more consistent, and more flexible. It gives us access to the land-based toolbox before we even cast [[Primeval Titan]]. It may well be *too* good, and eventually get itself banned. 
+[[Once Upon a Time]] is phenomenal for Amulet Titan. It makes the deck more explosive, more consistent, and more flexible. It gives us access to the land-based toolbox before we even cast [[Primeval Titan]]. It may well be *too* good, and eventually get itself banned.
 
 
 ## Happily Ever After?
