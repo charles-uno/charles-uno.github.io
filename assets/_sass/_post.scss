@@ -93,17 +93,17 @@ article {
     }
 
     // Highlight quotes, footnotes, snippets, images, tables, and code.
-    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper {
+    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper, div.flex-across {
         background-color: $shadow-color;
     }
 
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.footnotes li, .img-wrapper {
+    table, blockquote, div.highlight, div.footnotes li, .img-wrapper, div.flex-across {
         padding: $shadow-pad;
     }
 
     // Highlighted stuff also gets rounded corners.
-    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper {
+    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper, div.flex-across {
         border-radius: $tile-radius;
         overflow: hidden;
     }
@@ -113,6 +113,24 @@ article {
         border-radius: $tile-radius/3;
         overflow: hidden;
     }
+
+    div.flex-across {
+        align: center;
+        font-size: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    img.third {
+        width: 33%;
+        display: inline-block;
+    }
+
+    img.half {
+        width: 40%;
+        display: inline-block;
+    }
+
 
     // A bit of a gap between the image and its caption.
     img + em {
