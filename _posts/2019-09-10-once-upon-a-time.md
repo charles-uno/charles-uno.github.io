@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Once Upon a Time"
+title: "Magic as Richard Garfield Intended"
 image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
 description: "Play it while you can"
 tags: games stem
@@ -29,7 +29,7 @@ Play Neobrand at your own risk -- regardless of whether or not you play [[Once U
 
 Today, 17% of seven-card hands assemble [Tron](https://www.mtggoldfish.com/archetype/modern-tron-46482#paper) on turn three and 53% of hands do so by turn four. Swapping out [[Sylvan Scrying]] for [[Once Upon a Time]] bumps those numbers up to 21% and 60% respectively. Trimming payoffs is also plausible; with both [[Once Upon a Time]] and [[Sylvan Scrying]], the deck is 22% to have turn-three Tron and 67% to have it by turn four.
 
-It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]] or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble Tron even if there's only a single land in our opening hand.
+It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one and [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble Tron even if there's only a single land in our opening hand.
 
 Tron mulligans pretty well, but all else being equal we'd rather keep our opening seven. [[Once Upon a Time]] lets us do so more often. Not only does it outperform [[Sylvan Scrying]] in the first few turns of the game, but it adds value later on by increasing access to creatures like [[Ulamog, the Ceaseless Hunger:Ulamog]], [[Walking Ballista]], and [[Wurmcoil Engine]]. I suspect it'll become a standard inclusion in Tron lists.
 
@@ -45,15 +45,15 @@ I've run the numbers on dozens of different builds of Titan Breach, with every d
 
 ## Amulet Titan
 
-Last but not least, there's [Amulet Titan](https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper). Today's builds are about 3% to get [[Primeval Titan]] on the table on turn two, and 27% to do so by turn three. If we cut [[Trinket Mage]] and [[Karn, the Great Creator:Karn]] for [[Once Upon a Time]], those numbers become 7% and 39% respectively.
+Last but not least, there's [Amulet Titan](https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper). Today's builds are about 3% to get [[Primeval Titan]] on the table on turn two, and 27% to do so by turn three. If we play [[Once Upon a Time]] in place of miscellaneous nonsense like [[Trinket Mage]] and [[Karn, the Great Creator:Karn]], those numbers become 7% and 39% respectively.
 
 For comparison, with [[Summer Bloom]] in those slots, the deck is about 14% to land a turn-two [[Primeval Titan]] and 43% to do so by turn three. That's what got [[Summer Bloom]] banned.
 
-There's no question that [[Once Upon a Time]] is phenomenal for Amulet Titan. It makes the deck more explosive, more consistent, and more flexible. My biggest concern is that it does too much and gets itself banned.
+[[Once Upon a Time]] is phenomenal for Amulet Titan. It makes the deck more explosive, more consistent, and more flexible. It gives us access to the land-based toolbox before we even cast [[Primeval Titan]]. It may well be *too* good, and eventually get itself banned. 
 
 
 ## Happily Ever After?
 
 In Tron and Amulet Titan, [[Once Upon a Time]] on par with [[Ancient Stirrings]]. In Valakut, it's off the charts. And that's just the start. This card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
 
-Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair. 
+Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair.
