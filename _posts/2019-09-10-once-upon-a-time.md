@@ -18,32 +18,33 @@ Since then, I've run tens of thousands of simulations to put the hype to the tes
 
 ## Neobrand
 
-About one in four seven-card hands of [Neobrand] can get [[Griselbrand]] on the table on the first or second turn; nearly half do so by turn three. It's possible to make those numbers better with [[Once Upon a Time]], but it's not pretty:
-
-|                                              | ≤ T2 | ≤ T3 | ≤ T4 |
-|:---------------------------------------------|:----:|:----:|:----:|
-| [Neobrand]                                   |  26% | 44%  | 53%  |
-| ... [[Serum Visions]] → [[Once Upon a Time]] |  22% | 39%  | 48%  |
-| ... Other stuff[^4] → [[Once Upon a Time]]   |  31% | 53%  | 61%  |
-
-<p class="table-caption">Odds to get a [[Griselbrand]] on the table quickly. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±3% -- this deck is expensive to model!</p>
+Perhaps the most obvious (and concerning) application of [[Once Upon a Time]] is [Neobrand], an all-in combo deck that can win on the first turn of the game. Losing to Neobrand is miserable, but luckily doesn't happen often. The deck's unreliability and vulnerability to disruption have kept it out of the main stream. [[Once Upon a Time:OUAT]] threatens to make Neobrand more consistent and resilient by improving its access to [[Allosaurus Rider]], [[Simian Spirit Guide]], and lands.
 
 [Neobrand]: https://www.mtggoldfish.com/archetype/modern-neobrand#paper
 
-[^4]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
+|                                                         |  T1 | ≤T2 | ≤T3 |
+|:--------------------------------------------------------|:---:|:---:|:---:|
+| Neobrand                                                | 12% | 38% | 56% |
+| ... [[Chancellor of the Tangle]] → [[Once Upon a Time]] |  3% | 44% | 67% |
+| ... [[Serum Visions]] → [[Once Upon a Time]]            | 14% | 40% | 55% |
+| ... Other stuff[^1] → [[Once Upon a Time]]              | 14% | 45% | 67% |
 
-Swapping [[Serum Visions]] out for [[Once Upon a Time]] doesn't help. And the rest of the deck is pretty lean. To improve the numbers, I had to make some questionable cuts: [[Pact of Negation]], [[Autochthon Wurm]], and two [[Life Goes On]]. Playing [[Once Upon a Time]] over these cards makes the deck better at getting [[Griselbrand]] on the table quickly, but also (presumably) more likely to implode mid-combo and lose to its own [[Summoner's Pact]] trigger.
+<p class="table-caption">Odds to get a [[Griselbrand]] on the table each turn. Values are cumulative, so "≤T3" is the odds to do so on turn three or earlier. All values ±2%.</p>
 
-Neobrand doesn't mulligan particularly well, and almost half of its opening hands are nonfunctional. Play at your own risk -- with or without [[Once Upon a Time]].
+[^1]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
+
+Judging from the numbers above, I suspect the concern is overblown. [[Once Upon a Time]] is about on par with [[Serum Visions]]. It does not significantly boost the deck's odds to land a turn-one [[Griselbrand]]. Turn-two and turn-three numbers look better with [[Once Upon a Time:OUAT]], but cutting [[Chancellor of the Tangle]] or [[Life Goes On]] or [[Pact of Negation]] also increases the deck's risk of imploding[^2] mid-combo. [[Once Upon a Time:OUAT]] may be an incremental improvement to Neobrand, but it's not a game changer.
+
+[^2]: Once [[Griselbrand]] is on the table, the plan is to gain a bunch of life, draw our whole deck, and win with [[Laboratory Maniac]]. If we don't draw [[Nourishing Shoal:lifegain]] [[Life Goes On:spells]] fast enough, we can run out of steam.
 
 
 ## Tron
 
-In terms of assembling[^1][^2] Tron, [[Once Upon a Time]] is better than both [[Ancient Stirrings]] and [[Sylvan Scrying]]. We'd never cut [[Ancient Stirrings]] -- it finds more than just lands -- but swapping [[Sylvan Scrying]] for [[Once Upon a Time]] makes the deck significantly more likely to have turn-three Tron:
+In terms of assembling[^3][^4] Tron, [[Once Upon a Time]] is better than both [[Ancient Stirrings]] and [[Sylvan Scrying]]. We'd never cut [[Ancient Stirrings]] -- it finds more than just lands -- but swapping [[Sylvan Scrying]] for [[Once Upon a Time]] makes the deck significantly more likely to have turn-three Tron:
 
-[^1]: For our purposes, "assembling Tron" means having access to 7+ mana from the [[Urza's Mine:Urza lands]]. Casting [[Ancient Stirrings]] on turn three to find the last piece doesn't count.
+[^3]: For our purposes, "assembling Tron" means having access to 7+ mana from the [[Urza's Mine:Urza lands]]. Casting [[Ancient Stirrings]] on turn three to find the last piece doesn't count.
 
-[^2]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
+[^4]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
 
 |                                                  | ≤ T2 | ≤ T3 | ≤ T4 |
 |:-------------------------------------------------|:----:|:----:|:----:|
@@ -95,9 +96,9 @@ I've run the numbers on dozens of different builds of Titan Breach, with every d
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
-Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. [[Once Upon a Time]] is even better[^3]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is squarely better than [[Explore]] (which is playable) and not that far from [[Summer Bloom]] (which is banned).
+Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. [[Once Upon a Time]] is even better[^5]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is squarely better than [[Explore]] (which is playable) and not that far from [[Summer Bloom]] (which is banned).
 
-[^3]: Here we're talking about goldfishing specifically. In a broader sense, [[Once Upon a Time]] versus [[Ancient Stirrings]] depends on how much you care about finding [[Engineered Explosives]] versus [[Azusa, Lost but Seeking:Azusa]], how much instant speed matters, and so on.
+[^5]: Here we're talking about goldfishing specifically. In a broader sense, [[Once Upon a Time]] versus [[Ancient Stirrings]] depends on how much you care about finding [[Engineered Explosives]] versus [[Azusa, Lost but Seeking:Azusa]], how much instant speed matters, and so on.
 
 
 ## Happily Ever After?
