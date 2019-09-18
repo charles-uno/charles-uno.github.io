@@ -84,27 +84,44 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 
 ## Amulet Titan
 
-[Amulet Titan] has been waiting too.
+[[Summer Bloom]] was banned because Amulet Titan won too often [before turn four](https://magic.wizards.com/en/articles/archive/news/january-18-2016-banned-and-restricted-announcement-2016-01-18).
 
-|                                                  | T2  | ≤T3 | ≤T4 |
+
+
+
+[[Once Upon a Time]] puts up numbers that
+
+
+[[Explore]] was a passable substitute. [[Once Upon a Time]] is much closer.
+
+
+
+
+
+|                                                  |  T2 | ≤T3 | ≤T4 |
 |:-------------------------------------------------|:---:|:---:|:---:|
 | [Amulet Titan]                                   |  3% | 27% | 60% |
 | ... [[Ancient Stirrings]] → [[Once Upon a Time]] |  5% | 30% | 64% |
 | ... Other stuff → [[Explore]]                    |  6% | 34% | 67% |
-| ... Other stuff → [[Once Upon a Time]]           |  7% | 39% | 75% |
+| ... Other stuff → [[Once Upon a Time]]           |  7% | 40% | 75% |
 | ... Other stuff → [[Summer Bloom]]               | 14% | 41% | 69% |
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
-Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. [[Once Upon a Time]] is even better[^5]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is squarely better than [[Explore]] (which is playable) and not that far from [[Summer Bloom]] (which is banned).
+Many [Amulet Titan] opening hands are one card away from casting a turn-three [[Primeval Titan]]. They just need an [[Gemstone Mine:untapped land]], or a [[Simic Growth Chamber:bounce land]], or an [[Azusa, Lost but Seeking:Azusa]], or a [[Primeval Titan]]. [[Once Upon a Time]] finds all those things for free. In the first few turns of the game, it's better than [[Ancient Stirrings]].
 
-[^5]: Here we're talking about goldfishing specifically. In a broader sense, [[Once Upon a Time]] versus [[Ancient Stirrings]] depends on how much you care about finding [[Engineered Explosives]] versus [[Azusa, Lost but Seeking:Azusa]], how much instant speed matters, and so on.
+
+[[Karn, the Great Creator:Karn]], [[Golos, Tireless Pilgrim:Golos]], and
+
+
+
+
 
 
 ## Happily Ever After?
 
-[[Once Upon a Time]] is great in Tron and Amulet Titan -- comparable in power level to [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. And that's just the start. This card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
+[[Once Upon a Time]] is great in Tron and Amulet Titan -- comparable in power level to [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. It gives a boost to Neobrand. And that's just the start. [[Once Upon a Time:OUAT]] card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
 
 Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair. I would not be surprised to see this card push something over the line and get banned.
