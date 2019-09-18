@@ -6,6 +6,8 @@ description: "Play it while you can"
 tags: games stem
 ---
 
+*Editor's note: this article has been updated to correct a mistake in the Neobrand numbers. Thanks Chris!*
+
 When Mark Rosewater [previewed](https://magic.wizards.com/en/articles/archive/making-magic/eldraine-or-shine-2019-09-09) [[Once Upon a Time]], eyebrows went up. Free spells and efficient card selection both have a history of ending up on the Modern [banned list](https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted). In particular, [[Once Upon a Time]] bears a striking resemblance to [[Ancient Stirrings]] -- a card [living on borrowed time](https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement).
 
 <div class="flex-across">
@@ -33,14 +35,14 @@ Perhaps the most obvious (and concerning) application of [[Once Upon a Time]] is
 
 [^1]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
 
-Judging from the numbers above, I suspect the concern is overblown. [[Once Upon a Time]] is about on par with [[Serum Visions]]. It does not significantly boost the deck's odds to land a turn-one [[Griselbrand]]. Turn-two and turn-three numbers look better with [[Once Upon a Time:OUAT]], but cutting [[Chancellor of the Tangle]] or [[Life Goes On]] or [[Pact of Negation]] also increases the deck's risk of imploding[^2] mid-combo. [[Once Upon a Time:OUAT]] may be an incremental improvement to Neobrand, but it's not a game changer.
+Judging from the numbers above, I suspect the concern is overblown. [[Once Upon a Time]] is about on par with [[Serum Visions]]. It does not significantly boost the deck's odds to land a turn-one [[Griselbrand]]. Turn-two and turn-three numbers look better with [[Once Upon a Time:OUAT]], but cutting [[Chancellor of the Tangle]] or [[Life Goes On]] or [[Pact of Negation]] also increases the deck's risk of imploding[^2] mid-combo. [[Once Upon a Time:OUAT]] may be an incremental improvement to Neobrand, but it's probably not a game changer.
 
 [^2]: Once [[Griselbrand]] is on the table, the plan is to gain a bunch of life, draw our whole deck, and win with [[Laboratory Maniac]]. If we don't draw [[Nourishing Shoal:lifegain]] [[Life Goes On:spells]] fast enough, we can run out of steam.
 
 
 ## Tron
 
-In terms of assembling [[Urza's Mine:Ur]][[Urza's Power Plant:za]][[Urza's Tower:tron]], [[Once Upon a Time]] outperforms[^3] both [[Ancient Stirrings]] and [[Sylvan Scrying]]. It's tough to imagine cutting [[Ancient Stirrings]] -- it finds [[Karn Liberated:more]] [[Oblivion Stone:than]] [[Relic of Progenitus:just]] [[Ugin, the Spirit Dragon:lands]] -- but swapping out [[Sylvan Scrying]] for [[Once Upon a Time:OUAT]] would help the deck assemble turn-three Tron significantly more often.
+In terms of assembling [[Urza's Mine:Ur]][[Urza's Power Plant:za]][[Urza's Tower:tron]], [[Once Upon a Time]] outperforms[^3] both [[Ancient Stirrings]] and [[Sylvan Scrying]]. It's tough to imagine cutting [[Ancient Stirrings]] -- it finds [[Relic of Progenitus:much]] [[Karn Liberated:more]] [[Oblivion Stone:than]] [[Ugin, the Spirit Dragon:lands]] -- but swapping out [[Sylvan Scrying]] for [[Once Upon a Time:OUAT]] would give the deck a boost.
 
 [^3]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
 
@@ -62,38 +64,35 @@ It may seem strange that [[Once Upon a Time]] (which looks at five cards) perfor
 
 ## Valakut
 
-
-
-
-
-
-[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks may use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
-
-|                                        | ≤ T2 | ≤ T3 | ≤ T4 |
-|:---------------------------------------|:----:|:----:|:----:|
-| [Titan Breach]                         |   0% | 15%  | 59%  |
-| ... Other stuff → [[Desperate Ritual]] |   0% | 35%  | 70%  |
-| ... Other stuff → [[Oath of Nissa]]    |   0% | 22%  | 73%  |
-| ... Other stuff → [[Once Upon a Time]] |   0% | 29%  | 77%  |
-
-<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
+[Titan Shift] is built for comfort, not for speed. [[Lightning Bolt:Removal]] and [[Obstinate Baloth:speed]] [[Courser of Kruphix:bumps]] are generally a better fit than cantrips. [Titan Breach] is another story. The deck plays only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and regularly steals games with a timely [[Simian Spirit Guide]]. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), and [[Once Upon a Time]] is twice as good:
 
 [Titan Breach]: http://charles.uno/valakut-simulation/#breach-for-the-stars
 
-I've run the numbers on dozens of different builds of Titan Breach, with every different combination of rituals and cantrips imaginable. [[Once Upon a Time]] is in a league of its own. It gives almost as much velocity as [[Desperate Ritual]]. But instead of making the deck a glass cannon, it adds resiliency. [[Once Upon a Time]] makes the deck goldfish faster while also increasing access to high-impact sideboard cards and finishers in the face of disruption. Titan Breach has been waiting years for a card like this.
+[Titan Shift]: https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper
+
+|                                        | T3  | ≤T4 |
+|:---------------------------------------|:---:|:---:|
+| [Titan Breach]                         | 15% | 59% |
+| ... Other stuff → [[Desperate Ritual]] | 35% | 70% |
+| ... Other stuff → [[Oath of Nissa]]    | 22% | 73% |
+| ... Other stuff → [[Once Upon a Time]] | 29% | 77% |
+
+<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
+
+Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of different builds: cantrips, rituals, [[Hour of Promise:you]] [[Shefet Monitor:name]] [[Manamorphose:it]]. [[Once Upon a Time:OUAT]] is in a league of its own. It gives almost as much velocity as [[Desperate Ritual]]. But instead of making the deck a glass cannon, it adds resiliency. [[Once Upon a Time]] makes the deck goldfish faster while also increasing access to high-impact sideboard cards and finishers in the face of disruption. Titan Breach has been waiting years for a card like this.
 
 
 ## Amulet Titan
 
 [Amulet Titan] has been waiting too.
 
-|                                                  | ≤ T2 | ≤ T3 | ≤ T4 |
-|:-------------------------------------------------|:----:|:----:|:----:|
-| [Amulet Titan]                                   |   3% | 27%  | 60%  |
-| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |   5% | 30%  | 64%  |
-| ... Other stuff → [[Explore]]                    |   6% | 34%  | 67%  |
-| ... Other stuff → [[Once Upon a Time]]           |   7% | 39%  | 75%  |
-| ... Other stuff → [[Summer Bloom]]               |  14% | 41%  | 69%  |
+|                                                  | T2  | ≤T3 | ≤T4 |
+|:-------------------------------------------------|:---:|:---:|:---:|
+| [Amulet Titan]                                   |  3% | 27% | 60% |
+| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |  5% | 30% | 64% |
+| ... Other stuff → [[Explore]]                    |  6% | 34% | 67% |
+| ... Other stuff → [[Once Upon a Time]]           |  7% | 39% | 75% |
+| ... Other stuff → [[Summer Bloom]]               | 14% | 41% | 69% |
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
