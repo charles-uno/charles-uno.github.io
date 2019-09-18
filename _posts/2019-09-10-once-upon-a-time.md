@@ -26,18 +26,20 @@ Perhaps the most obvious (and concerning) application of [[Once Upon a Time]] is
 
 |                                                         |  T1 | ≤T2 | ≤T3 |
 |:--------------------------------------------------------|:---:|:---:|:---:|
-| Neobrand                                                | 12% | 38% | 56% |
-| ... [[Chancellor of the Tangle]] → [[Once Upon a Time]] |  3% | 44% | 67% |
-| ... [[Serum Visions]] → [[Once Upon a Time]]            | 14% | 40% | 55% |
-| ... Other stuff[^1] → [[Once Upon a Time]]              | 14% | 45% | 67% |
+| Neobrand                                                | 11% | 38% | 55% |
+| ... [[Serum Visions]] → [[Once Upon a Time]]            | 13% | 40% | 56% |
+| ... Other stuff[^1] → [[Ancient Stirrings]]             | 13% | 42% | 64% |
+| ... Other stuff → [[Once Upon a Time]]                  | 14% | 45% | 67% |
 
 <p class="table-caption">Odds to get a [[Griselbrand]] on the table each turn. Values are cumulative, so "≤T3" is the odds to do so on turn three or earlier. All values ±2%.</p>
 
 [^1]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
 
-Judging from the numbers above, I suspect the concern is overblown. [[Once Upon a Time]] is about on par with [[Serum Visions]]. It does not significantly boost the deck's odds to land a turn-one [[Griselbrand]]. Turn-two and turn-three numbers look better with [[Once Upon a Time:OUAT]], but cutting [[Chancellor of the Tangle]] or [[Life Goes On]] or [[Pact of Negation]] also increases the deck's risk of imploding[^2] mid-combo. [[Once Upon a Time:OUAT]] may be an incremental improvement to Neobrand, but it's probably not a game changer.
+Judging from the numbers above, I suspect the concern is overblown. The difference between [[Once Upon a Time:OUAT]] and [[Serum Visions]] is not statistically significant, and it's not clear that Neobrand has room for more cantrips. After all, it doesn't play [[Ancient Stirrings]], and [[Once Upon a Time:OUAT]] is usually the same[^6]. Cutting "other stuff" -- [[Life Goes On]], [[Pact of Negation]], etc -- makes us more likely to get [[Griselbrand]] on the table by turn three, but also increases our risk of imploding[^2] mid-combo.
 
 [^2]: Once [[Griselbrand]] is on the table, the plan is to gain a bunch of life, draw our whole deck, and win with [[Laboratory Maniac]]. If we don't draw [[Nourishing Shoal:lifegain]] [[Life Goes On:spells]] fast enough, we can run out of steam.
+
+[^6]: [[Once Upon a Time]] and [[Ancient Stirrings]] are both green cards (for [[Allosaurus Rider]]), and will both usually find our next land drop. Neobrand doesn't really spend mana until the turn it wins, so the difference between zero, one, and two mana is not very significant.
 
 
 ## Tron
@@ -84,27 +86,26 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 
 ## Amulet Titan
 
-[Amulet Titan] has been waiting too.
+Opening hands in [Amulet Titan] are often one card away from casting a turn-three [[Primeval Titan:Prime Time]]. They just need to find an [[Amulet of Vigor:Amulet]], or an [[Gemstone Mine:untapped land]], or a [[Simic Growth Chamber:bounce land]], or an [[Azusa, Lost but Seeking:Azusa]], or a [[Primeval Titan:Titan]]. [[Once Upon a Time]] finds everything but [[Amulet of Vigor:Amulet]], and it does so for free. In the first few turns of the game, it outperforms [[Ancient Stirrings]] (see below). Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
 
-|                                                  | T2  | ≤T3 | ≤T4 |
+[Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
+
+|                                                  |  T2 | ≤T3 | ≤T4 |
 |:-------------------------------------------------|:---:|:---:|:---:|
 | [Amulet Titan]                                   |  3% | 27% | 60% |
 | ... [[Ancient Stirrings]] → [[Once Upon a Time]] |  5% | 30% | 64% |
 | ... Other stuff → [[Explore]]                    |  6% | 34% | 67% |
-| ... Other stuff → [[Once Upon a Time]]           |  7% | 39% | 75% |
+| ... Other stuff → [[Oath of Nissa]]              |  4% | 33% | 69% |
+| ... Other stuff → [[Once Upon a Time]]           |  7% | 40% | 75% |
 | ... Other stuff → [[Summer Bloom]]               | 14% | 41% | 69% |
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
-[Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
-
-Amulet Titan is a land-based toolbox deck that sometimes uses [[Amulet of Vigor]] and [[Simic Growth Chamber:bounce lands]] to do silly things like play turn-two [[Primeval Titan]]. [[Ancient Stirrings]] is phenomenal in the deck. [[Once Upon a Time]] is even better[^5]. With access to both, the numbers get a bit concerning. In the first few turns of the game, [[Once Upon a Time]] is squarely better than [[Explore]] (which is playable) and not that far from [[Summer Bloom]] (which is banned).
-
-[^5]: Here we're talking about goldfishing specifically. In a broader sense, [[Once Upon a Time]] versus [[Ancient Stirrings]] depends on how much you care about finding [[Engineered Explosives]] versus [[Azusa, Lost but Seeking:Azusa]], how much instant speed matters, and so on.
+Lists today can't reliably produce a turn-three [[Primeval Titan]], so they play cards like [[Karn, the Great Creator:Karn]] or [[Golos, Tireless Pilgrim:Golos]] or [[Trinket Mage]] to hold down the fort until turn four. But with [[Once Upon a Time:OUAT]] and sensible [mulligans](https://magic.wizards.com/en/articles/archive/news/london-mulligan-2019-06-03), it's reasonable to expect turn-three [[Primeval Titan:Titan]] more often than not. The last time we saw numbers like this, [[Summer Bloom]] got [banned](https://magic.wizards.com/en/articles/archive/news/january-18-2016-banned-and-restricted-announcement-2016-01-18).
 
 
 ## Happily Ever After?
 
-[[Once Upon a Time]] is great in Tron and Amulet Titan -- comparable in power level to [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. And that's just the start. This card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
+[[Once Upon a Time]] is great in Tron and Amulet Titan -- comparable in power level to [[Ancient Stirrings]]. It's bonkers in Titan Breach, where it finds both [[Simian Spirit Guide]] and [[Primeval Titan]]. It may find a home in Neobrand as well. And that's just the start. [[Once Upon a Time:OUAT]] card is a powerful enabler for any strategy that depends on seeing certain creatures or lands in the first few turns of the game: [[Devoted Druid]], [[Eldrazi Temple]], [[Glistener Elf]], [[Slippery Bogle]], and so on.
 
-Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair. I would not be surprised to see this card push something over the line and get banned.
+Decks built around creatures and lands are ostensibly more "fair" than those using graveyards and the stack, but the decks that want [[Once Upon a Time]] aren't looking to play fair. I would not be surprised to see this card push something over the line.
