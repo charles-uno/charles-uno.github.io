@@ -40,31 +40,34 @@ Judging from the numbers above, I suspect the concern is overblown. [[Once Upon 
 
 ## Tron
 
-In terms of assembling[^3][^4] Tron, [[Once Upon a Time]] is better than both [[Ancient Stirrings]] and [[Sylvan Scrying]]. We'd never cut [[Ancient Stirrings]] -- it finds more than just lands -- but swapping [[Sylvan Scrying]] for [[Once Upon a Time]] makes the deck significantly more likely to have turn-three Tron:
+In terms of assembling [[Urza's Mine:Ur]][[Urza's Power Plant:za]][[Urza's Tower:tron]], [[Once Upon a Time]] outperforms[^3] both [[Ancient Stirrings]] and [[Sylvan Scrying]]. It's tough to imagine cutting [[Ancient Stirrings]] -- it finds [[Karn Liberated:more]] [[Oblivion Stone:than]] [[Relic of Progenitus:just]] [[Ugin, the Spirit Dragon:lands]] -- but swapping out [[Sylvan Scrying]] for [[Once Upon a Time:OUAT]] would help the deck assemble turn-three Tron significantly more often.
 
-[^3]: For our purposes, "assembling Tron" means having access to 7+ mana from the [[Urza's Mine:Urza lands]]. Casting [[Ancient Stirrings]] on turn three to find the last piece doesn't count.
+[^3]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
 
-[^4]: The model works by exhaustive search, which essentially means it has superhuman "instincts" about the order of the deck. To suppress non-human play patterns, choices between Urza lands are made alphabetically. If it's already got [[Urza's Tower:Tower]], it'll always take [[Urza's Mine:Mine]] over [[Urza's Power Plant:Power Plant]] -- even if it "knows" the card it's about to draw is another [[Urza's Mine:Mine]].
-
-|                                                  | ≤ T2 | ≤ T3 | ≤ T4 |
-|:-------------------------------------------------|:----:|:----:|:----:|
-| [Tron]                                           |   0% | 16%  | 53%  |
-| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |   0% | 18%  | 57%  |
-| ... [[Sylvan Scrying]] → [[Once Upon a Time]]    |   0% | 21%  | 60%  |
-| ... Other stuff → [[Once Upon a Time]]           |   0% | 22%  | 66%  |
+|                                                  |  T3 | ≤T4 |
+|:-------------------------------------------------|:---:|:---:|
+| [Tron]                                           | 16% | 53% |
+| ... [[Ancient Stirrings]] → [[Once Upon a Time]] | 18% | 57% |
+| ... [[Sylvan Scrying]] → [[Once Upon a Time]]    | 21% | 60% |
+| ... Other stuff → [[Once Upon a Time]]           | 22% | 66% |
 
 <p class="table-caption">Odds to have Tron by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
 [Tron]: https://www.mtggoldfish.com/archetype/modern-tron-46482#paper
 
-It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It all comes down to cost. If we cast [[Chromatic Star]] on turn one into [[Sylvan Scrying]] on turn two, we have no mana left over for anything else. But if we start with [[Once Upon a Time]], we can *also* cast [[Expedition Map]], or [[Chromatic Sphere]] into [[Ancient Stirrings]]. That gives us a decent shot to assemble turn-three Tron even if there's only a single land in our opening hand.
+It may seem strange that [[Once Upon a Time]] (which looks at five cards) performs better than [[Sylvan Scrying]] (which looks at the whole deck). It comes down to mana cost. We can afford to cast [[Expedition Map:Map]] *or* [[Sylvan Scrying:Scrying]] by turn two, but not both. With [[Once Upon a Time:OUAT]], we can cast multiple (non-[[Chromatic Star:egg]]) spells in search of turn-three Tron. That gives us a decent shot to assemble turn-three Tron even if there's only a single land in our opening hand.
 
 [[Once Upon a Time]] lets Tron mulligan a bit less often and assemble Tron a bit more consistently compared to [[Sylvan Scrying]]. On top of that, it adds value later on by increasing access to creatures like [[Ulamog, the Ceaseless Hunger:Ulamog]], [[Walking Ballista]], and [[Wurmcoil Engine]]. I suspect it'll become a standard inclusion in Tron lists.
 
 
 ## Valakut
 
-[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks may well use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
+
+
+
+
+
+[Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-96185#paper) decks may use [[Once Upon a Time]], but they can't exactly *abuse* it. The deck still has no way to win before turn four. Builds with [[Through the Breach]] are another story. Titan Breach decks are the ones that shave on lands, play only eight [[Primeval Titan:win]] [[Summoner's Pact:conditions]], and -- most importantly -- steal games with the help of a [[Simian Spirit Guide]] or two. [[Oath of Nissa]] saw play in [past builds](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) of Titan Breach, and [[Once Upon a Time]] is twice as good:
 
 |                                        | ≤ T2 | ≤ T3 | ≤ T4 |
 |:---------------------------------------|:----:|:----:|:----:|
