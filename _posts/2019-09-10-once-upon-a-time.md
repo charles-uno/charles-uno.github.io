@@ -52,7 +52,7 @@ Calculations are made using the list below:
 
 Judging from the numbers above, I suspect the concern is overblown. Neobrand doesn't play [[Ancient Stirrings]], and [[Once Upon a Time:OUAT]] isn't much different. Both are green cards (for [[Allosaurus Rider]]) that usually find the next land drop. The free part of [[Once Upon a Time:OUAT]] is wasted on Neobrand because the deck doesn't make efficient use of its mana -- it basically does nothing until it wins.
 
-[[Once Upon a Time:OUAT]] isn't *bad* in Neobrand, but it isn't a game changer. It's on par with [[Serum Visions]]. And it's not clear the deck has room for more cantrips. Playing [[Once Upon a Time:OUAT]] on top of [[Serum Visions]] increases the odds of getting [[Griselbrand]] on the table by turn three, but cutting "[[Life Goes On:other]] [[Pact of Negation:stuff]]" to make room increases the risk of imploding[^2] mid-combo.
+[[Once Upon a Time:OUAT]] isn't *bad* in Neobrand, but it isn't a game changer. It doesn't significantly boost odds of a turn-one [[Griselbrand]] and after that it's on par with [[Serum Visions]]. And it's not clear the deck has room for more cantrips. Playing [[Once Upon a Time:OUAT]] on top of [[Serum Visions]] increases the odds of getting [[Griselbrand]] on the table by turn three, but cutting "[[Life Goes On:other]] [[Pact of Negation:stuff]]" to make room increases the risk of imploding[^2] mid-combo.
 
 [^2]: Once [[Griselbrand]] is on the table, the plan is to gain a bunch of life, draw our whole deck, and win with [[Laboratory Maniac]]. If we don't draw [[Nourishing Shoal:lifegain]] [[Life Goes On:spells]] fast enough, we can run out of steam.
 
@@ -107,7 +107,7 @@ It may seem strange that [[Once Upon a Time]] (which looks at five cards) perfor
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
-Calculations are made using the list below:
+Calculations are made using the list below, which plays a bunch of extra [[Windswept Heath:fetch lands]] instead of [worrying](/valakut-simulation/) about [[Cinder Glade]] and/or [[Sheltered Thicket]]:
 
 > 4 [[Explore]]<br>
 > 4 [[Primeval Titan]]<br>
@@ -126,30 +126,22 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 
 ## Amulet Titan
 
-[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Primeval Titan:Titan]], or even a first [[Gemstone Mine:non-bounce land]].
-
-And it does so for free.
-
-
-In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
-
-
-
+[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Primeval Titan:Titan]], or even a first [[Gemstone Mine:non-bounce land]]. And it does so for free. In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
 |                                                  |  T2 | ≤T3 | ≤T4 |
 |:-------------------------------------------------|:---:|:---:|:---:|
-| [Amulet Titan]                                   |  3% | 27% | 60% |
-| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |  5% | 30% | 64% |
-| ... Other stuff → [[Explore]]                    |  6% | 34% | 67% |
-| ... Other stuff → [[Oath of Nissa]]              |  4% | 33% | 69% |
-| ... Other stuff → [[Once Upon a Time]]           |  7% | 40% | 75% |
-| ... Other stuff → [[Summer Bloom]]               | 14% | 41% | 69% |
+| [Amulet Titan]                                   |  3% | 25% | 57% |
+| ... [[Ancient Stirrings]] → [[Once Upon a Time]] |  5% | 30% | 63% |
+| ... Other stuff → [[Explore]]                    |  5% | 32% | 65% |
+| ... Other stuff → [[Oath of Nissa]]              |  4% | 30% | 65% |
+| ... Other stuff → [[Once Upon a Time]]           |  6% | 38% | 72% |
+| ... Other stuff → [[Summer Bloom]]               | 13% | 39% | 66% |
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
-Calculations are made using the list below:
+Calculations are made using the (simplified) list below. Swapping [[Kabira Crossroads]] for [[Radiant Fountain]], or [[Sakura-Tribe Scout]] for [[Arboreal Grazer:Grazer]], doesn't change the big picture. 
 
 > 4 [[Amulet of Vigor]]<br>
 > 4 [[Ancient Stirrings]]<br>
