@@ -52,7 +52,7 @@ Calculations are made using the list below:
 
 Judging from the numbers above, I suspect the concern is overblown. Neobrand doesn't play [[Ancient Stirrings]], and [[Once Upon a Time:OUAT]] isn't much different. Both are green cards (for [[Allosaurus Rider]]) that usually find the next land drop. The free part of [[Once Upon a Time:OUAT]] is wasted on Neobrand because the deck doesn't make efficient use of its mana -- it basically does nothing until it wins.
 
-[[Once Upon a Time:OUAT]] isn't *bad* in Neobrand, but it isn't a game changer. It doesn't significantly boost odds of a turn-one [[Griselbrand]] and after that it's on par with [[Serum Visions]]. And it's not clear the deck has room for more cantrips. Playing [[Once Upon a Time:OUAT]] on top of [[Serum Visions]] increases the odds of getting [[Griselbrand]] on the table by turn three, but cutting "[[Life Goes On:other]] [[Pact of Negation:stuff]]" to make room increases the risk of imploding[^2] mid-combo.
+[[Once Upon a Time:OUAT]] isn't *bad* in Neobrand, but it isn't a game changer. It doesn't significantly boost odds of a turn-one [[Griselbrand]], and after that it's on par with [[Serum Visions]]. And it's not clear the deck has room for more cantrips. Playing [[Once Upon a Time:OUAT]] on top of [[Serum Visions]] increases the odds of getting [[Griselbrand]] on the table by turn three, but cutting "[[Life Goes On:other]] [[Pact of Negation:stuff]]" to make room increases the risk of imploding[^2] mid-combo.
 
 [^2]: Once [[Griselbrand]] is on the table, the plan is to gain a bunch of life, draw our whole deck, and win with [[Laboratory Maniac]]. If we don't draw [[Nourishing Shoal:lifegain]] [[Life Goes On:spells]] fast enough, we can run out of steam.
 
@@ -121,12 +121,12 @@ Calculations are made using the list below, which plays a bunch of extra [[Winds
 > 14 [[Forest:Untapped]] [[Stomping Ground:green]] [[Wooded Foothills:land]]<br>
 > 4 [[Valakut, the Molten Pinnacle]]<br>
 
-Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of different builds: cantrips, rituals, [[Hour of Promise:you]] [[Shefet Monitor:name]] [[Manamorphose:it]]. [[Once Upon a Time:OUAT]] is in a league of its own. It gives almost as much velocity as [[Desperate Ritual]]. But instead of making the deck a glass cannon, it adds resiliency. [[Once Upon a Time]] makes the deck goldfish faster while also increasing access to high-impact sideboard cards and finishers in the face of disruption. Titan Breach has been waiting years for a card like this.
+Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of different builds: cantrips, rituals, [[Hour of Promise:you]] [[Shefet Monitor:name]] [[Manamorphose:it]]. [[Once Upon a Time:OUAT]] is in a league of its own. It gives almost as much velocity as [[Desperate Ritual]]. But instead of turning the deck into a glass cannon, it adds resiliency. [[Once Upon a Time]] makes the deck goldfish faster while also increasing access to high-impact sideboard cards and finishers in the face of disruption. Titan Breach has been waiting years for a card like this.
 
 
 ## Amulet Titan
 
-[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Primeval Titan:Titan]], or even a first [[Gemstone Mine:non-bounce land]]. And it does so for free. In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
+[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Arboreal Grazer:Grazer]], [[Primeval Titan:Titan]], or even a first [[Gemstone Mine:non-bounce land]]. And it does so for free. In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
@@ -141,7 +141,7 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 
 <p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
 
-Calculations are made using the (simplified) list below. Swapping [[Kabira Crossroads]] for [[Radiant Fountain]], or [[Sakura-Tribe Scout]] for [[Arboreal Grazer:Grazer]], doesn't change the big picture. 
+Calculations are made using the (simplified) list below. Swapping [[Kabira Crossroads]] for [[Radiant Fountain]], or [[Sakura-Tribe Scout]] for [[Arboreal Grazer:Grazer]], doesn't change the big picture.
 
 > 4 [[Amulet of Vigor]]<br>
 > 4 [[Ancient Stirrings]]<br>
