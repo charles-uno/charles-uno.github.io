@@ -126,7 +126,7 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 
 ## Amulet Titan
 
-[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Arboreal Grazer:Grazer]], [[Primeval Titan:Titan]], or even a first [[Gemstone Mine:non-bounce land]]. And it does so for free. In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
+[[Ancient Stirrings]] is pretty good at finding a missing [[Amulet of Vigor]] or [[Simic Growth Chamber]] to pull together a turn-three [[Primeval Titan]]. [[Once Upon a Time]] can't find [[Amulet of Vigor:Amulet]], but it *can* find [[Azusa, Lost but Seeking:Azusa]], [[Arboreal Grazer:Grazer]], [[Primeval Titan:Titan]], and even a first [[Gemstone Mine:non-bounce land]]. And it does so for free. In the first few turns of the game, [[Once Upon a Time:OUAT]] slightly outperforms [[Ancient Stirrings]] at getting [[Primeval Titan:Prime Time]] on the table. Other cantrips like [[Explore]] and [[Oath of Nissa]] aren't even close.
 
 [Amulet Titan]: https://www.mtggoldfish.com/archetype/modern-amulet-titan-88330#paper
 
