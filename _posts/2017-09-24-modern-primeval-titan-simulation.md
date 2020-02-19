@@ -4,10 +4,12 @@ title: Deck Chairs on the Titanic
 image: "/assets/images/thumb/primeval-titan-aleksi-briclot.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
 hidden: true
-tags: games
+tags: games stem
 ---
 
-> This page is out of date -- check out the new write-up [here](/titan-breach-simulation)!
+
+> Heads up -- this page is old! Updated model and analysis [here](http://charles.uno/valakut-simulation/)
+
 
 I'm a newcomer to Modern. A few months ago, I would have called [[Death's Shadow]] a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.
 
@@ -60,7 +62,7 @@ Matthias has been a proponent of [[Oath of Nissa:Oath]] in Titan Breach since (a
 
 But there's a difference between a card that *feels* bad and a card that *is* bad (remember [[Death's Shadow:Shadow]]). In order to figure out which category [[Oath of Nissa:Oath]] falls into, I coded up the deck in Python[^6]. The program doesn't know anything about strategy -- it just knows the rules. Whenever there are multiple legal plays, it clones itself that many times and tries them all[^3]. For any given hand, it's guaranteed to find the fastest line to a Titan.
 
-[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/valakut). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome!
+[^6]: You can check out the code on GitHub [here](https://github.com/charles-uno/mtg-model). Implementation and optimization details are discussed in the readme. Feedback and pull requests welcome!
 
 [^3]: This is called a [brute force](https://en.wikipedia.org/wiki/Proof_by_exhaustion) solution. It's guaranteed to find the right answer, but it's dreadfully inefficient. To solve [Storm](https://www.mtggoldfish.com/archetype/modern-u-r-gifts-storm-32901#paper) by brute force, you'd probably need a supercomputer. Titan Breach is solvable on a laptop because it makes relatively few choices. It rarely plays more than half a dozen spells over the course of the game, and colors of mana are easy to keep straight.
 
@@ -133,7 +135,7 @@ Swapping our 4th [[Oath of Nissa:Oath]] for a 26th land makes us a hair more lik
 
 ### Warning: Science
 
-Shuffling is a problem for our simulation, so we don't do it. When the computer pops [[Sakura-Tribe Elder]] for a [[Mountain]], it doesn't pull that [[Mountain]] out of our deck; it just creates a new one out of thin air. This means we don't capture the (marginal) effects of deck thinning. The code's [documentation](https://github.com/charles-uno/valakut) goes into the issue in detail, but to get the idea, let's walk through an example:
+Shuffling is a problem for our simulation, so we don't do it. When the computer pops [[Sakura-Tribe Elder]] for a [[Mountain]], it doesn't pull that [[Mountain]] out of our deck; it just creates a new one out of thin air. This means we don't capture the (marginal) effects of deck thinning. The code's [documentation](https://github.com/charles-uno/mtg-model) goes into the issue in detail, but to get the idea, let's walk through an example:
 
 > It's T3. We've got plenty of land and a [[Through the Breach]], but we haven't drawn [[Primeval Titan]] yet. We play a [[Wooded Foothills]] and crack it. The options are [[Cinder Glade]], [[Forest]], [[Mountain]], and [[Stomping Ground]].
 >

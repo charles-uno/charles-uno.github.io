@@ -15,7 +15,7 @@ I played my first match of Modern in September. Two months later, I won a Modern
 
 My secret isn't long practice sessions, or spicy sideboard choices, or deep metagame knowledge -- it's number crunching. After spiking the PPTQ in September, I coded up my deck in Python[^3]. The computer's better-than-perfect play (more on this in a moment) then allowed me to compare dozens of variations of the deck by [goldfishing](https://mtg.gamepedia.com/Goldfishing) millions of games -- and finding flaws in the conventional wisdom that could never be discovered by hand.
 
-[^3]: Code is visible on GitHub [here](https://github.com/charles-uno/valakut/). Comments and pull requests welcome!
+[^3]: Code is visible on GitHub [here](https://github.com/charles-uno/mtg-model/). Comments and pull requests welcome!
 
 ## The Deck
 
@@ -189,4 +189,4 @@ One of these three is probably better than the others in the current metagame. P
 
 What happens if we play a combination of [[Desperate Ritual:Rituals]] and [[Hour of Promise:Hours]]? Does [[Ancient Stirrings]] get better than [[Oath of Nissa]] if we're also playing a singleton [[Emrakul, the Aeons Torn:Emrakul]]? What happens if we go *really* all-in, cutting the [[Lightning Bolt:Bolts]] so we can play [[Desperate Ritual]] *and* [[Faithless Looting]]?
 
-You caught me. I don't know. There are thousands of possible configurations, and I've only looked at a fraction of them. If you're curious about something, head over to [GitHub](https://github.com/charles-uno/valakut/) and take the model for a spin!
+You caught me. I don't know. There are thousands of possible configurations, and I've only looked at a fraction of them. If you're curious about something, head over to [GitHub](https://github.com/charles-uno/mtg-model) and take the model for a spin!

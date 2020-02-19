@@ -7,6 +7,10 @@ tags: games stem
 hidden: true
 ---
 
+
+> Heads up -- this page is old! Updated model and analysis [here](http://charles.uno/valakut-simulation/)
+
+
 A while back, I wrote a computer simulation of [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- a semi-mainstream [[Valakut, the Molten Pinnacle:Valakut]] deck in Modern. My [writeup](/titan-breach-simulation/) considered how different card choices affected the deck's speed and consistency. In particular, I looked at [[Farseek]] versus [[Explore]]. Conventional wisdom prefers [[Farseek]] for its reliability. But if the goal is to land a T3 [[Primeval Titan]] as often as possible, it turns out [[Explore]] is a bit better. The risk of whiffing is more than made up for by the chance to draw a missing combo piece: [[Primeval Titan:Titan]], [[Through the Breach:Breach]], or [[Simian Spirit Guide:SSG]].
 
 The question today is similar, but instead of [[Farseek]] versus [[Explore]] we're looking at [[Cinder Glade]] versus [[Sheltered Thicket]]. The two lands fill a similar role: they're both typed[^1] dual lands, and neither can be used to suspend [[Search for Tomorrow]] on T1. [[Cinder Glade]] is the more reliable mana source, typically entering the battlefield untapped from T3 onward. It's widely played in both [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach-65431#paper) and [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper). [[Sheltered Thicket]] always enters the battlefield tapped, which can make it an awkward topdeck in the early game. It's rarely played.
@@ -22,7 +26,7 @@ But, like [[Explore]], [[Sheltered Thicket]]'s text box includes three of the mo
 
 The model[^4] we're using is essentially the same one as [last time](/titan-breach-simulation). For each simulation, it shuffles up, draws an opening hand, then attempts all possible sequences of legal plays until it finds a way to get [[Primeval Titan]] onto the table. This strategy is computationally inefficient, but it's guaranteed to find the best possible sequence of plays for every opening hand.
 
-[^4]: The original model, written in Python, is available on GitHub [here](https://github.com/charles-uno/valakut-python). As an exercise, I went back and rewrote it in Go [here](https://github.com/charles-uno/valakut). Forks and pull requests welcome for either repo!
+[^4]: The model, written in Python, is available on GitHub [here](https://github.com/charles-uno/mtg-model). Forks and pull requests welcome for either repo!
 
 Sometimes the computer is a bit *too* good. For example, if it plays [[Explore]] and doesn't like what it draws, it essentially gets to rewind and play [[Sakura-Tribe Elder]] instead. This effect is generally not a big deal -- there honestly aren't that many choices to make when goldfishing with a [[Valakut, the Molten Pinnacle:Valakut]] deck -- but once in a while the computer's superhuman "instincts" shine through. It'll throw back a perfectly good seven-card hand in search of a faster six, or cycle instead of ramping to draw into [[Through the Breach]].
 
