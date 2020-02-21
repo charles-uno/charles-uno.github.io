@@ -198,6 +198,24 @@ article {
         height: $hr-height;
     }
 
+    .deck-wrapper {
+        border-radius: $tile-radius;
+        overflow: hidden;
+        font-size: $text-size;
+        background: $shadow-color;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .deck-column {
+        padding: $shadow-pad;
+        display: inline-block;
+        border: 0;
+        margin: 0;
+        width: 50%;
+        top: 0;
+    }
+
 }
 
 // ---------------------------------------------------------------------
