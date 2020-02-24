@@ -5,10 +5,8 @@ image: "/assets/images/thumb/sheltered-thicket-sung-choi.png"
 description: "Don't underestimate the power of \"draw a card.\""
 tags: games stem
 hidden: true
+send_to: /valakut-simulation
 ---
-
-
-> Heads up -- this page is old! Updated model and analysis [here](http://charles.uno/valakut-simulation/)
 
 
 A while back, I wrote a computer simulation of [Titan Breach](https://www.mtggoldfish.com/archetype/modern-titan-breach#paper) -- a semi-mainstream [[Valakut, the Molten Pinnacle:Valakut]] deck in Modern. My [writeup](/titan-breach-simulation/) considered how different card choices affected the deck's speed and consistency. In particular, I looked at [[Farseek]] versus [[Explore]]. Conventional wisdom prefers [[Farseek]] for its reliability. But if the goal is to land a T3 [[Primeval Titan]] as often as possible, it turns out [[Explore]] is a bit better. The risk of whiffing is more than made up for by the chance to draw a missing combo piece: [[Primeval Titan:Titan]], [[Through the Breach:Breach]], or [[Simian Spirit Guide:SSG]].

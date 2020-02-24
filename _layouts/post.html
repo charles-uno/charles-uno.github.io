@@ -3,6 +3,15 @@ layout: default
 ---
 
 <header>
+
+    {% if page.send_to %}
+        <a href="{{ page.send-to }}">
+            <span class="send-to-banner">
+                Heads up! This page is old. Click here to be redirected.
+            </span>
+        </a>
+    {% endif %}
+
     <span class="post-title">
         {% if page.displaytitle %}
             {{ page.displaytitle }}

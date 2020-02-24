@@ -4,6 +4,14 @@ header {
     text-align: center;
 }
 
+.send-to-banner {
+    display: block;
+    width: 100%;
+    background-color: yellow;
+    font-size: $post-date-size;
+    font-family: $head-font;
+}
+
 .post-title, .post-tags, .post-date {
     line-height: 1;
     text-align: center;
