@@ -35,7 +35,7 @@ For the sake of brevity, we're not getting into the numbers for [[Once Upon a Ti
 
 [^4]: For a rundown of how [[Once Upon a Time]] and [[Dryad of the Ilysian Grove]] shook up Amulet Titan, check out [this piece](http://magic.facetofacegames.com/how-theros-broke-amulet-titan/) by Daryl Ayers. TLDR: [[Once Upon a Time]] is among the best cantrips ever printed, and fits perfectly in Amulet Titan. [[Dryad of the Ilysian Grove]] aligns generally with our game plan, while also offering a powerful win condition in combination with [[Valakut, the Molten Pinnacle:Valakut]].
 
-- [[Arboreal Grazer]] vs [[Sakura-Tribe Scout]]. [[Arboreal Grazer:Grazer]] ramps immediately, typically setting up three mana on turn two. On the other hand, [[Sakura-Tribe Scout:Scout]] can be activated multiple times. Which makes us more likely to cast [[Primeval Titan]] by turn three?
+- [[Arboreal Grazer]] vs [[Sakura-Tribe Scout]]. [[Arboreal Grazer:Grazer]] ramps immediately, typically setting up three mana on turn two. On the other hand, [[Sakura-Tribe Scout:Scout]] can be activated multiple times. Which card makes us more likely to cast [[Primeval Titan]] by turn three?
 - [[Azusa, Lost but Seeking]] vs [[Explore]]. Before [[Dryad of the Ilysian Grove]], the deck generally played [[Azusa, Lost but Seeking:Azusa]] alongside [[Explore]]. [[Dryad of the Ilysian Grove:Dryad]] is too powerful not to play -- but which is it replacing?
 - [[Castle Garenbrig]] vs [[Gruul Turf:Previous]] [[Gemstone Mine:Lands]]. Our most explosive draws involve an untapped land on turn one, followed by a bounce land. Are we really coming out ahead if we cut untapped lands and bounce lands to make room for [[Castle Garenbrig:Castle]]?
 
