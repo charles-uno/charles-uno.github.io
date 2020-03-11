@@ -6,6 +6,8 @@ description: Using better-than-perfect sequencing to cast Primeval Titan
 tags: games stem
 ---
 
+*Editor's note: [[Once Upon a Time]] has been [banned in Modern](https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement). I'm reworking this article with relevant numbers.*
+
 WOTC printed [[Scapeshift]] in 2008, [[Valakut, the Molten Pinnacle:Valakut]] in 2009, and [[Primeval Titan]] in 2010. For eight years after that, they walked on eggshells to avoid further enabling land-based combo decks in Modern. As recently as 2018, fifty-six of the sixty cards in an [Amulet Titan main deck](https://www.channelfireball.com/all-strategy/articles/how-to-play-modern-amulet-titan-2nd-place-at-grand-prix-hartford/) were printed before the existence of Instagram[^1]. Design philosophy [finally changed](https://magic.wizards.com/en/articles/archive/feature/play-design-lessons-learned-2019-11-18) about a year ago, and WOTC seems to be making up for lost time. After eight years of drought, we got [[Arboreal Grazer]], [[Castle Garenbrig]], [[Dryad of the Ilysian Grove]], [[Field of the Dead]], and [[Once Upon a Time]] all in the space of eight months.
 
 [^1]: Instagram was launched in October 2010. Cards most commonly played alongside [[Primeval Titan]] in Modern include [[Azusa, Lost but Seeking:Azusa]] (first printed in 2004), [[Sakura-Tribe Elder]] (2004), [[Farseek]] (2005), [[Simic Growth Chamber]] (2006), [[Search for Tomorrow]] (2006), [[Summoner's Pact]] (2007), [[Tolaria West]] (2007), [[Vesuva]] (2007), [[Prismatic Omen]] (2008), [[Explore]] (2009), [[Oracle of Mul Daya]] (2009), [[Valakut, the Molten Pinnacle:Valakut]] (2009), [[Amulet of Vigor]] (February 2010), and [[Ancient Stirrings]] (April 2010).
