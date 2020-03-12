@@ -94,16 +94,22 @@ Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, 
 
 ## Conclusions and Caveats
 
-Speed isn't everything[^8] -- but if speed is what you're after, play [[Arboreal Grazer]] over [[Sakura-Tribe Scout]. [[Arboreal Grazer:Grazer]] is faster even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
+Speed isn't everything[^8] -- but if speed is what we're after, [[Arboreal Grazer]] is our best one-drop. [[Arboreal Grazer:Grazer]] is faster than [[Sakura-Tribe Scout]] even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
 
 [^8]: [[Sakura-Tribe Scout]]'s ability can be activated at instant speed, which is a big deal in some matchups. It can deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. 
 
-Next up is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and it's not looking great for our favorite Monk. Like [[Sakura-Tribe Scout:Scout]], [[Azusa, Lost but Seeking:Azusa]]'s selling point is that she ramps us multiple times on her own. That was great a year ago, but in combination with [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]] it's overkill. In the first few turns of the game, [[Arboreal Grazer:Grazer]]/[[Explore]] outperforms [[Arboreal Grazer:Grazer]]/[[Azusa, Lost but Seeking]] regardless of which cantrip we play. If the game goes long, we'd also rather draw a card with [[Explore]] rather than pay three mana for a [[Squire]]. 
+Like [[Sakura-Tribe Scout:Scout]], [[Azusa, Lost but Seeking:Azusa]]'s selling point is that she ramps us multiple times on her own. That was great a year ago, but in combination with [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]] it's overkill. 
+
+In the first few turns of the game, [[Arboreal Grazer:Grazer]]/[[Explore]] outperforms [[Arboreal Grazer:Grazer]]/[[Azusa, Lost but Seeking]] regardless of which cantrip we play. 
 
 
 
 
-In the first few turns of the game, 
+If the game goes long, we'd also rather draw a card with [[Explore]] rather than pay three mana for a [[Squire]]. 
+
+
+
+Next up is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and it's not looking great for our favorite Monk. 
 
 [[Azusa, Lost but Seeking:Azusa]]
 
