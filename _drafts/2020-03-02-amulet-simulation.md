@@ -6,7 +6,7 @@ description: Using better-than-perfect sequencing to cast Primeval Titan
 tags: games stem
 ---
 
-*Editor's note: [[Once Upon a Time]] has been [banned in Modern](https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement). I'm reworking this article with relevant numbers.*
+*Editor's note: this article has been reworked in light of [[Once Upon a Time]] being [banned in Modern](https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement).*
 
 WOTC printed [[Scapeshift]] in 2008, [[Valakut, the Molten Pinnacle:Valakut]] in 2009, and [[Primeval Titan]] in 2010. For eight years after that, they walked on eggshells to avoid further enabling land-based combo decks in Modern. As recently as 2018, fifty-six of the sixty cards in an [Amulet Titan main deck](https://www.channelfireball.com/all-strategy/articles/how-to-play-modern-amulet-titan-2nd-place-at-grand-prix-hartford/) were printed before the existence of Instagram[^1]. Design philosophy [finally changed](https://magic.wizards.com/en/articles/archive/feature/play-design-lessons-learned-2019-11-18) about a year ago, and WOTC seems to be making up for lost time. After eight years of drought, we got [[Arboreal Grazer]], [[Castle Garenbrig]], [[Dryad of the Ilysian Grove]], [[Field of the Dead]], and [[Once Upon a Time]] all in the space of eight months.
 
@@ -38,27 +38,8 @@ For the sake of brevity, we're not getting into the numbers for [[Castle Garenbr
 [^4]: For a rundown of how recent cards shook up Amulet Titan, check out [this piece](http://magic.facetofacegames.com/how-theros-broke-amulet-titan/) by Daryl Ayers.
 
 - [[Arboreal Grazer]] vs [[Sakura-Tribe Scout]]. [[Arboreal Grazer:Grazer]] ramps immediately, typically setting up three mana on turn two. It can also net mana immediately in combination with [[Amulet of Vigor]] and a [[Simic Growth Chamber:bounce land]]. On the other hand, [[Sakura-Tribe Scout:Scout]] can be activated multiple times. Which card makes us more likely to cast [[Primeval Titan]] by turn three?
-
 - [[Azusa, Lost but Seeking:Azusa]] vs [[Explore]]. We'd like to play one more ramp spell in addition to our one-drop creature and [[Dryad of the Ilysian Grove]]. [[Azusa, Lost but Seeking:Azusa]] ramps us from three mana to six all on her own. [[Explore]] is cheaper and draws a card, which helps us chain multiple ramp spells together on turn two.
-
-
-
-
-- [[Ancient Stirrings]] vs [[Explore]] vs [[Oath of Nissa]].
-
-
-Big mana decks are a three-legged stool. They don't work unless we have lands, acceleration, and payoffs. Cantrips help keep that balance.
-
-
-
-A year ago, [[Azusa, Lost but Seeking:Azusa]] and [[Ancient Stirrings]] were untouchable. But now [[Dryad of the Ilysian Grove:Dryad]] is the three-cost creature of choice, and our [[Once Upon a Time:favorite cantrip]] just got banned out from under us. What's the best supporting cast for the new generation of Amulet Titan?
-
-> Our most explosive draws involve an untapped land on turn one, followed by a bounce land. Are we really coming out ahead if we cut untapped lands and bounce lands to make room for [[Castle Garenbrig:Castle]]?
-
-> few lists play [[Karn, the Great Creator:colorless]] [[Walking Ballista:tools]] to access with [[Ancient Stirrings]].
-
-> [[Dryad of the Ilysian Grove:Dryad]] and [[Castle Garenbrig:Castle]] aren't enough on their own, but what compliments them best?
-
+- [[Ancient Stirrings]] vs [[Explore]] vs [[Oath of Nissa]]. [[Ancient Stirrings]] was the cantrip of choice a year ago, but now [[Dryad of the Ilysian Grove:Dryad]] has displaced colorless spells like [[Walking Ballista]]. Which cantrip lines up best with the deck as it exists today? 
 
 Simulations make use of the list below. The letter `X` represents [[Arboreal Grazer]] or [[Sakura-Tribe Scout]], `Y` is [[Azusa, Lost but Seeking:Azusa]] or [[Explore]], and `Z` is [[Ancient Stirrings]], [[Explore]], or [[Oath of Nissa]]. Put another way, we're looking at all possible combinations of a one-drop ramp creature, an additional ramp spell, and a cantrip (where [[Explore]] can count as either the ramp spell or the cantrip).
 
@@ -98,16 +79,16 @@ A year ago, we might have looked at the odds of casting [[Primeval Titan]] by tu
 |:-------|:--------|:----------|:------:|:------:|:-----------------:|
 | Grazer | Azusa   | Explore   | 3%     | 26%    | 26%               |
 | Grazer | Azusa   | Oath      | 3%     | 26%    | 25%               |
-| Grazer | Azusa   | Stirrings | 4%     | 30%    | 29%               |
-| Grazer | Explore | Oath      | 3%     | 28%    | 27%               |
-| Grazer | Explore | Stirrings | 3%     | 34%    | 31%               |
-| Scout  | Azusa   | Explore   | 2%     | 22%    | 16%               |
-| Scout  | Azusa   | Oath      | 1%     | 21%    | 15%               |
-| Scout  | Azusa   | Stirrings | 2%     | 25%    | 18%               |
-| Scout  | Explore | Oath      | 1%     | 20%    | 13%               |
-| Scout  | Explore | Stirrings | 1%     | 25%    | 16%               |
+| Grazer | Azusa   | Stirrings | 3%     | 30%    | 29%               |
+| Grazer | Explore | Oath      | 3%     | 29%    | 27%               |
+| Grazer | Explore | Stirrings | 4%     | 34%    | 30%               |
+| Scout  | Azusa   | Explore   | 2%     | 20%    | 17%               |
+| Scout  | Azusa   | Oath      | 1%     | 20%    | 15%               |
+| Scout  | Azusa   | Stirrings | 2%     | 24%    | 19%               |
+| Scout  | Explore | Oath      | 1%     | 18%    | 13%               |
+| Scout  | Explore | Stirrings | 1%     | 22%    | 15%               |
 
-<p class="table-caption">Statistical uncertainty ±1% for all values. That means the difference between 33% and 34% is not significant, and the difference between 33% and 35% toes the line.</p>
+<p class="table-caption">Statistical uncertainty ±1% for all values. That means the difference between 25% and 26% is not significant, and the difference between 25% and 27% toes the line.</p>
 
 Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, per the previous section. For each configuration, the value under `Turn 2` is the percent of seven-card hands that can cast [[Primeval Titan]] on turn two. Similarly, the `Turn 3` column shows the percent of seven-card hands that can cast [[Primeval Titan]] by turn three. Values for `Turn 2` and `Turn 3` assume a non-interactive opponent. The final column, `Turn 3 vs Removal`, assumes the opposite. For that case, the calculation is repeated assuming our opponent *always* has removal for our creatures, so we never get to untap with [[Azusa, Lost but Seeking:Azusa]], [[Dryad of the Ilysian Grove:Dryad]], or [[Sakura-Tribe Scout:Scout]]. This is particularly relevant when considering [[Dryad of the Ilysian Grove:Dryad]] as a potential replacement for [[Azusa, Lost but Seeeking:Azusa]]. [[Azusa, Lost but Seeking:Azusa]] ramps us from three mana to six on her own, even in the face of removal. [[Dryad of the Ilysian Grove:Dryad]] only gets us to five.
 
@@ -122,6 +103,15 @@ Our last comparison is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and
 The lackluster performances by [[Azusa, Lost but Seeking:Azusa]] and [[Sakura-Tribe Scout]] are initially surprising, but make sense once we consider the bigger picture. Both cards can deliver turn-four [[Primeval Titan]] on their own, or turn three with an [[Amulet of Vigor:Amulet]]. A year ago, that's exactly what we wanted -- but games of Amulet Titan look a bit different now. Without [[Ancient Stirrings]], we're significantly less likely to see [[Amulet of Vigor]]. Between [[Castle Garenbrig]] and [[Once Upon a Time]], we're also significantly more likely to see multiple pieces of acceleration in the first few turns of the game. That means we're less reliant on getting multiple extra lands from a single spell, and more interested in cards that ramp us faster, cheaper, and at a lower opportunity cost. Put another way, getting a bunch of new cards in the past few sets fundamentally changed the math of Amulet Titan. Don't be surprised if the next few sets change it even more.
 
 <!--
+
+
+> Our most explosive draws involve an untapped land on turn one, followed by a bounce land. Are we really coming out ahead if we cut untapped lands and bounce lands to make room for [[Castle Garenbrig:Castle]]?
+
+> few lists play [[Karn, the Great Creator:colorless]] [[Walking Ballista:tools]] to access with [[Ancient Stirrings]].
+
+> [[Dryad of the Ilysian Grove:Dryad]] and [[Castle Garenbrig:Castle]] aren't enough on their own, but what compliments them best?
+
+
 
 [[Azusa, Lost but Seeking:Azusa]]'s lackluster performance is initially surprising, but makes sense once we consider the bigger picture. Her job is to jump us from three mana to six, even in the face of removal, and even if we have no other acceleration. A year ago, that's exactly what we wanted. But in combination with [[Castle Garenbrig]] and [[Once Upon a Time]], it's overkill. Amulet Titan today plays more acceleration than ever before, plus a free cantrip to reliably access it.
 
