@@ -94,9 +94,73 @@ Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, 
 
 ## Conclusions and Caveats
 
-[[Arboreal Grazer]] outperforms [[Sakura-Tribe Scout]], even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
+Speed isn't everything[^8] -- but if speed is what you're after, play [[Arboreal Grazer]] over [[Sakura-Tribe Scout]. [[Arboreal Grazer:Grazer]] is faster even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
 
-That all said, speed isn't everything. [[Sakura-Tribe Scout]] can be activated at instant speed to deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. The model can't tell us what that ability is worth. 
+[^8]: [[Sakura-Tribe Scout]]'s ability can be activated at instant speed, which is a big deal in some matchups. It can deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. 
+
+Next up is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and it's not looking great for our favorite Monk. Like [[Sakura-Tribe Scout:Scout]], [[Azusa, Lost but Seeking:Azusa]]'s selling point is that she ramps us multiple times on her own. That was great a year ago, but in combination with [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]] it's overkill. In the first few turns of the game, [[Arboreal Grazer:Grazer]]/[[Explore]] outperforms [[Arboreal Grazer:Grazer]]/[[Azusa, Lost but Seeking]] regardless of which cantrip we play. If the game goes long, we'd also rather draw a card with [[Explore]] rather than pay three mana for a [[Squire]]. 
+
+
+
+
+In the first few turns of the game, 
+
+[[Azusa, Lost but Seeking:Azusa]]
+
+
+
+
+
+[[Azusa, Lost but Seeking:Azusa]] is at her best when played alongside [[Sakura-Tribe Scout:Scout]] against a removal-heavy opponent -- but even in those cases, she only marginally outperforms [[Explore]]. 
+
+
+If our one-drop is [[Arboreal Grazer:Grazer]], [[Explore]] outperforms Azusa. 
+
+
+
+Azusa puts up her best numbers when played alongside Scout against a removal-heavy opponent... but that's exactly the case where 
+
+
+
+Azusa's performance 
+
+
+She's at her best 
+
+
+these days it's overkill. 
+
+
+
+we're not really worried about running out of acceleration. 
+
+
+
+
+
+
+
+[[Azusa, Lost but Seeking:Azusa]] ramps us from three mana to six, even in the face of removal, and even if we have no other ramp spells. A year ago, that's exactly what we wanted. 
+
+
+
+
+
+seems to fall into the same camp as [[Sakura-Tribe Scout:Scout]]. She can ramp us multiple times on her own, 
+
+
+[[Azusa, Lost but Seeking:Azusa]] combines well
+
+
+
+Next up is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and it's not looking great for our favorite Monk. 
+
+
+
+
+As far as cantrips, [[Ancient Stirrings]] looks great. It finds [[Amulet of Vigor]] as well as [[Gruul Turf:bounce lands]]. That combination is a potent a
+
+It's easiest to look at ramp spells and cantrips at the same time, since [[Explore]] blurs the line between them. 
 
 
 Cantrips -- stirrings looks great. ahead of Oath and Explore by a statistically significant margin. 
