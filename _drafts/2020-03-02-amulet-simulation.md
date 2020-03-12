@@ -94,9 +94,50 @@ Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, 
 
 ## Conclusions and Caveats
 
-Let's start easy: [[Castle Garenbrig]] is a slam dunk. By cutting untapped lands and bounce lands, we know we're hurting our chances of casting [[Primeval Titan]] on turn two. It turns out the damage is minimal. And on turn three, [[Castle Garenbrig:Castle]] gives a significant boost. Playing fewer bounce lands also makes the deck less vulnerable to [[Assassin's Trophy]], [[Damping Sphere]], and [[Field of Ruin]]. Even at the loss of off-color mana for sideboard cards, it's hard to imagine leaving [[Castle Garenbrig]] at home.
+[[Arboreal Grazer]] outperforms [[Sakura-Tribe Scout]], even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
+
+
+
+
+
+
+
+[[Arboreal Grazer]] outperforms [[Sakura-Tribe Scout]] across the board. 
+
+This is a bit surprising, since [[Sakura-Tribe Scout]] is so powerful -- it can deliver a turn-four [[Primeval Titan]] on its own, or turn three with a [[Castle Garenbrig]] or [[Amulet of Vigor]]. 
+
+
+
+
+
+
+can ramp us twice on its own
+turn three titan in combination with castle or amulet
+
+
+[[Arboreal Grazer]] can also essentially act as a [[Simian Spirit Guide]] in combination with [[Amulet of Vigor]] and a [[Simic Growth Chamber:bounce land]]
+
+
+
+
+Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. 
+
+
+
+
+
+Three mana on turn two 
+
+
 
 Numbers look strong for [[Arboreal Grazer]] as well. It doubles our odds of casting [[Primeval Titan]] on turn two, then performs on par with [[Sakura-Tribe Scout:Scout]] on turn three against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and [[Arboreal Grazer:Grazer]] is faster across the board. That all said, [[Sakura-Tribe Scout]] provides value as the game goes on. It lets us deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. The numbers can't tell us what that ability is worth.
+
+
+
+
+
+
+Let's start easy: [[Castle Garenbrig]] is a slam dunk. By cutting untapped lands and bounce lands, we know we're hurting our chances of casting [[Primeval Titan]] on turn two. It turns out the damage is minimal. And on turn three, [[Castle Garenbrig:Castle]] gives a significant boost. Playing fewer bounce lands also makes the deck less vulnerable to [[Assassin's Trophy]], [[Damping Sphere]], and [[Field of Ruin]]. Even at the loss of off-color mana for sideboard cards, it's hard to imagine leaving [[Castle Garenbrig]] at home.
 
 Our last comparison is [[Azusa, Lost but Seeking:Azusa]] versus [[Explore]], and it's not looking good for our favorite Monk. [[Azusa, Lost but Seeking:Azusa]]'s selling point is explosive acceleration in the first few turns of the game. But, unless we're playing [[Sakura-Tribe Scout]] against a stack of [[Lightning Bolt:Lightning Bolts]], [[Azusa, Lost but Seeking:Azusa]] goldfishes no better than [[Explore]]. And in a long game, drawing a card with [[Explore]] is much better than paying three mana for a [[Squire]].
 
