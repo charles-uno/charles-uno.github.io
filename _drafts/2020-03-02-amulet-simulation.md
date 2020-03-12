@@ -96,42 +96,17 @@ Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, 
 
 [[Arboreal Grazer]] outperforms [[Sakura-Tribe Scout]], even against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. There could be a few contributing factors here. Setting up three mana on turn two is a big deal when we have three-drops like [[Dryad of the Ilysian Grove:Dryad]] and [[Azusa, Lost but Seeking:Azusa]]. [[Sakura-Tribe Scout:Scout]] is a pretty bad topdeck on turn two or three, while [[Arboreal Grazer:Grazer]] can net mana immediately in combination with [[Amulet of Vigor:Amulet]] and a [[Gruul Turf:bounce land]]. Between [[Castle Garenbrig:Castle]] and [[Dryad of the Ilysian Grove:Dryad]], the deck also plays more acceleration than it did a year ago, which makes the potential double-ramp from [[Sakura-Tribe Scout:Scout]] less important. 
 
+That all said, speed isn't everything. [[Sakura-Tribe Scout]] can be activated at instant speed to deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. The model can't tell us what that ability is worth. 
+
+
+Cantrips -- stirrings looks great. ahead of Oath and Explore by a statistically significant margin. 
+
+
+We have to look at cantrips and acceleration together since [[Explore]] can be counted as either one. 
 
 
 
-
-
-
-[[Arboreal Grazer]] outperforms [[Sakura-Tribe Scout]] across the board. 
-
-This is a bit surprising, since [[Sakura-Tribe Scout]] is so powerful -- it can deliver a turn-four [[Primeval Titan]] on its own, or turn three with a [[Castle Garenbrig]] or [[Amulet of Vigor]]. 
-
-
-
-
-
-
-can ramp us twice on its own
-turn three titan in combination with castle or amulet
-
-
-[[Arboreal Grazer]] can also essentially act as a [[Simian Spirit Guide]] in combination with [[Amulet of Vigor]] and a [[Simic Growth Chamber:bounce land]]
-
-
-
-
-Throw a few [[Lava Dart:Lava Darts]] into the mix, and it's not even close. 
-
-
-
-
-
-Three mana on turn two 
-
-
-
-Numbers look strong for [[Arboreal Grazer]] as well. It doubles our odds of casting [[Primeval Titan]] on turn two, then performs on par with [[Sakura-Tribe Scout:Scout]] on turn three against a non-interactive opponent. Throw a few [[Lava Dart:Lava Darts]] into the mix, and [[Arboreal Grazer:Grazer]] is faster across the board. That all said, [[Sakura-Tribe Scout]] provides value as the game goes on. It lets us deploy [[Bojuka Bog]] in response to [[Past in Flames]], or a bounce land to defend against land destruction. The numbers can't tell us what that ability is worth.
-
+Oath suffers from the same bias in principle, though it's far less likely to present multiple options. 
 
 
 
