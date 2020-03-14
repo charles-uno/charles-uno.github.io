@@ -4,6 +4,8 @@ title: "Once Upon a (Prime) Time"
 image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
 description: "Play it while you can"
 tags: games stem
+hidden: true
+send_to: /amulet-simulation
 ---
 
 *Editor's note: this article has been updated for clarity and to correct a mistake in the Neobrand numbers. Thanks Chris!*
