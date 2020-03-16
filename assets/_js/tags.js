@@ -104,7 +104,11 @@ function intersect(arr0, arr1) {
 // From a post, we access a tag by navigating to the index with the
 // appropriate hash. We run applyTagHash runs on window load.
 
-window.onload = applyTagHash;
+// window.onload = applyTagHash;
+
+function goToTag(tag) {
+    return goToTags([tag])
+}
 
 function goToTags(tags) {
     var tag_hash = tags.join();

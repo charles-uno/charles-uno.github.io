@@ -1,6 +1,6 @@
 
 // Do our best to preempt spacing weirdness.
-#index-list, .index-item, .index-link, .index-tags, .index-name {
+#index-list, .index-item, .index-link, .index-name {
     border: 0;
     padding: 0;
     margin: 0;
@@ -27,10 +27,8 @@
     @media (min-width: 500px) { width: 50%; }
     @media (min-width: 750px) { width: 33.33%; }
     @media (min-width: 1000px) { width: 25%; }
-
     border-radius: $tile-radius;
     overflow: hidden;
-
 }
 
 // The thumbnail and the (shaded) link both fill the list item.
@@ -49,7 +47,7 @@
     &:hover {
         background: none;
         .index-name { display: none; }
-        .index-tags { display: none; }
+        .index-date { display: none; }
     }
 }
 
@@ -57,25 +55,19 @@
     border-radius: 0;
 }
 
-.index-tags, .index-name {
+.index-name, .index-date {
     color: $shadow-color;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1;
+    text-transform: lowercase;
 }
 
 .index-name {
     top: 50%;
-    font-size: $index-name-size;
+    font-size: $fs-index;
     font-family: $head-font;
-    text-transform: lowercase;
     // Try to force sensible text wrapping.
     width: $index-name-width;
-}
-
-.index-tags {
-    top: 90%;
-    font-size: $index-tags-size;
-    .index-tag { margin: $tag-pad; }
 }

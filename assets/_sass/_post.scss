@@ -8,7 +8,7 @@ header {
     display: block;
     width: 100%;
     background-color: yellow;
-    font-size: $post-date-size;
+    font-size: $fs-subtitle;
     font-family: $head-font;
 }
 
@@ -20,22 +20,15 @@ header {
 }
 
 .post-tags, .post-date {
-    height: $post-date-size;
     display: inline-block;
+    font-size: $fs-subtitle;
 }
 
 .post-title {
     margin-top: $title-pad;
     margin-bottom: $paragraph-gap;
-    font-size: $post-title-size;
+    font-size: $fs-title;
     display: block;
-    font-family: $head-font;
-}
-
-.post-tags { font-size: $post-glyph-size; }
-
-.post-date {
-    font-size: $post-date-size;
     font-family: $head-font;
 }
 
@@ -45,10 +38,10 @@ header {
     display: flex;
     justify-content: space-between;
     margin: $paragraph-gap auto;
+    margin-bottom: 2*$paragraph-gap;
 }
 
 .post-tag {
-    margin: 0 $tag-pad;
     color: $accent-color;
     &:hover {
         cursor: pointer;
@@ -58,7 +51,7 @@ header {
 
 article {
 
-    font-size: $text-size;
+    font-size: $fs-body;
     line-height: 1.7;
     display: block;
     margin: 0 auto;
@@ -90,9 +83,9 @@ article {
         display: block;
     }
 
-    h2 { margin-top: 2*$text-size; }
+    h2 { margin-top: 2*$fs-body; }
 
-    li { margin: 0.5*$text-size 0; }
+    li { margin: 0.5*$fs-body 0; }
 
     // Tables, images, and captions use the full width.
     table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p, p.img-wrapper {
@@ -154,7 +147,7 @@ article {
 
     // Use a smaller font for captions and footnotes.
     .table-caption, div.footnotes, img + em {
-        font-size: $caption-size;
+        font-size: $fs-caption;
         font-style: normal;
     }
 
@@ -209,7 +202,7 @@ article {
     .deck-wrapper {
         border-radius: $tile-radius;
         overflow: hidden;
-        font-size: $text-size;
+        font-size: $fs-body;
         background: $shadow-color;
         display: flex;
         justify-content: space-around;
@@ -229,8 +222,8 @@ article {
 // ---------------------------------------------------------------------
 
 $switch-width: 40px - $shadow-pad;
-$switch-height: $caption-size;
-$slider-size: $caption-size - 4px;
+$switch-height: $fs-caption;
+$slider-size: $fs-caption - 4px;
 $slider-offset: ($switch-height - $slider-size)/2;
 $slider-move: $switch-width - $slider-size - 2*$slider-offset;
 
@@ -238,7 +231,7 @@ $slider-move: $switch-width - $slider-size - 2*$slider-offset;
     margin: $shadow-pad auto;
     width: 100%;
     max-width: $text-width;
-    font-size: $caption-size;
+    font-size: $fs-caption;
     height: $switch-height;
     line-height: 1;
 }

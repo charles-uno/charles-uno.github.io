@@ -3,7 +3,7 @@ layout: post
 title: "Docker Jekyll and Mr Hyde"
 image: "/assets/images/thumb/guillaume-bolduc-containers.png"
 description: "Setting up Jekyll is a pain in the ass. Let Docker take care of it for you."
-tags: stem
+tags: code
 ---
 
 Once you get it set up, [Jekyll](https://jekyllrb.com/) is a great tool for building a personal website. There are dozens of [free](https://jekyllthemes.io/free) [templates](http://jekyllthemes.org/) that look nice right out of the box. It's also easy to get your hands dirty with HTML, CSS, and/or Javascript, if you're into that. Posts are written in [Markdown](https://en.wikipedia.org/wiki/Markdown#Example), which is a nice balance of convenience and capability[^1]. I use Jekyll to host this very site via [GitHub Pages](https://pages.github.com/)!

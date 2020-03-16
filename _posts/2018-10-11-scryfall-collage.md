@@ -3,7 +3,7 @@ layout: post
 title: "Let the Scry Fall"
 image: "/assets/images/thumb/mtg-collage.png"
 description: "Put down the scissors and glue. Today we're making collages in Python!"
-tags: games stem
+tags: games code
 ---
 
 Today's project is collages! No scissors and glue, but we've got the next best things: REST APIs and the Python Image Library. Specifically, we'll be accessing card illustrations via the shiny new(ish) [Scryfall API](https://scryfall.com/docs/api), working a bit of magic on them, then stitching them together.

@@ -1,5 +1,3 @@
-
-
 {% assign tags = "" | split: "|" %}
 {% for post in site.posts %}
     {% for tag in post.tags %}
@@ -8,10 +6,10 @@
 {% endfor %}
 {% assign tags = tags | sort | uniq %}
 
-<a href="{{ site.url }}" id="logo">{{ site.title }}</a>
-
-{% for tag in tags %}
-    <a ontouchstart="toggleTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;" onclick="toggleTag('{{ tag }}');" title="{{ tag }}" class="popup">
-      <i id="head-tag-{{tag}}" class="head-glyph"></i>
-    </a>
-{% endfor %}
+<div class="head-logo">
+    <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
+</div><div class="head-tags">
+    {% for tag in tags %}
+        <a class="head-tag" ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;">{{ tag }}</a>
+    {% endfor %}
+</div>

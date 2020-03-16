@@ -1,5 +1,5 @@
 
-#logo, .head-glyph {
+#logo, .head-glyph, .head-tag {
     border: 0;
     margin: 0;
     padding: 0;
@@ -9,12 +9,29 @@
 }
 
 #logo {
-    font-size: $head-logo-size;
+    font-size: $fs-logo;
     font-family: $logo-font;
 }
 
 .head-glyph {
-    font-size: $head-glyph-size;
+    font-size: $fs-glyph;
+}
+
+.head-tag {
+    margin: 0 $head-tag-pad;
+}
+
+div.head-logo {
+    display: inline-block;
+}
+
+div.head-tags {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    padding: 0 $head-pad;
+    font-size: $fs-tags;
+    line-height: 1.2;
 }
 
 // ---------------------------------------------------------------------
@@ -54,8 +71,8 @@ div.full-head {
 }
 
 div.head {
-    a, a:visited { color: $text-color; }
-    a:hover { color: $paper-color; }
+    a, a:visited { color: $shadow-color; }
+    a:hover { color: $text-color; }
     max-width: $paper-width;
     padding: $tile-pad/2 $side-pad;
     display: flex;
@@ -101,8 +118,8 @@ div.main {
     // Copyright blurb at the bottom.
     display: block;
     text-align: center;
-    font-size: $caption-size;
-    padding: ($copy-height - $caption-size)/2;
+    font-size: $fs-caption;
+    padding: ($copy-height - $fs-caption)/2;
     line-height: 1;
     height: $copy-height;
     vertical-align: middle;

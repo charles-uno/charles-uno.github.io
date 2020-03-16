@@ -5,7 +5,7 @@ image: "/assets/images/thumb/primeval-titan-aleksi-briclot.png"
 description: "What do we learn by simulating a million hands of Titan Breach?"
 hidden: true
 send_to: /valakut-simulation
-tags: games stem
+tags: games code
 ---
 
 I'm a newcomer to Modern. A few months ago, I would have called [[Death's Shadow]] a bulk rare. But then Matthias[^0] lent me a deck, took me to a PPTQ, and I came away with an invite to the regional qualifier in November. So now I'm putting (probably too little) time into learning the format, and (probably too much) time into tweaking my decklist.

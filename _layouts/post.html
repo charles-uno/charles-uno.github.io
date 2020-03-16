@@ -23,11 +23,20 @@ layout: default
     <span class="post-under-title">
 
         <span class="post-tags">
-            {% for tag in page.tags %}
-            <a href="/#{{ tag }}">
-                <i class="post-tag post-tag-{{tag}}"></i>
-            </a>
-            {% endfor %}
+
+            {% if page.tags %}
+
+                <i class="fas fa-tag"></i>
+
+                {% assign sorted = page.tags | sort %}
+                {% for tag in sorted %}
+                <a class="post-tag" href="/#{{ tag }}">
+                    {{ tag }}
+                </a>
+                {% endfor %}
+
+        {% endif %}
+
         </span>
 
         {% unless page.showdate %}

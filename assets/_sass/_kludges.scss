@@ -22,7 +22,7 @@
         background-color: $paper-color;
         span {
             background-color: $shadow-color;
-            font-size: $caption-size;
+            font-size: $fs-caption;
             border-radius: $tile-radius;
             overflow: hidden;
         }
@@ -47,7 +47,7 @@
             width: 100%;
             @media (min-width: 300px) { width: 50%; }
             @media (min-width: 600px) { width: 33.33%; }
-            font-size: $caption-size;
+            font-size: $fs-caption;
             // Padding is handled by the tiles, not images and captions.
             padding: $shadow-pad;
             img { padding: 0; }

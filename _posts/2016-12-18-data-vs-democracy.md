@@ -3,7 +3,7 @@ layout: post
 title: "Data vs Democracy"
 image: "/assets/images/thumb/dukakis.png"
 description: "Our data consumption has grown exponentially in the past half-century, and it's brought us way too close to the sausage-making process."
-tags: politics
+tags: politics media
 ---
 
 For the bulk of the 20th century, bipartisan majorities in Congress were churning out landmark domestic reforms left and right: [income tax](https://en.wikipedia.org/wiki/Revenue_Act_of_1913), the [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve_Act), [women's suffrage](https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution), [Social Security](https://en.wikipedia.org/wiki/Social_Security_Act), [minimum wage](https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act), the [interstate highway](https://en.wikipedia.org/wiki/Federal_Aid_Highway_Act_of_1956) system, [Civil Rights](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964), [Voting Rights](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), [Medicare](https://en.wikipedia.org/wiki/Social_Security_Amendments_of_1965), and so on. In contrast, the past [five decades](http://www.pewresearch.org/fact-tank/2014/06/12/polarized-politics-in-congress-began-in-the-1970s-and-has-been-getting-worse-ever-since/) have seen Congress polarized to the point of uselessness. The [ACA](https://en.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act) is probably the "biggest" piece of legislation within my lifetime; it was passed along party lines, and doesn't hold a candle to the triumphs listed above. What happened to the high-functioning democracy my parents and grandparents grew up with?

@@ -3,7 +3,7 @@ layout: post
 title: "Measure Twice, Valakut Once"
 image: "/assets/images/thumb/sheltered-thicket-sung-choi.png"
 description: "Don't underestimate the power of \"draw a card.\""
-tags: games stem
+tags: games code
 hidden: true
 send_to: /valakut-simulation
 ---

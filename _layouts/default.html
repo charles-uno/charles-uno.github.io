@@ -32,7 +32,7 @@
             <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    {% if page.title %}<body>{% else %}<body onload="applyTagHash()">{% endif %}
         <div class="full-main">
             <div class="wrap-main">
                 <div class="left-flank-main"></div>
