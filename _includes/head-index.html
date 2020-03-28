@@ -7,9 +7,6 @@
 {% assign tags = tags | sort | uniq %}
 
 <div class="head-logo">
-    <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
+    <a href="{{ site.url }}" id="logo">charles</a>
 </div><div class="head-tags">
-    {% for tag in tags %}
-        <a class="head-tag" ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;">{{ tag }}</a>
-    {% endfor %}
 </div>

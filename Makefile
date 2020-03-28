@@ -6,19 +6,19 @@ MOUNT := /workspace
 
 all: serve
 
-# Serve the site as it will appear when published. 
+# Serve the site as it will appear when published.
 serve: image
-	docker run --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve
+	docker run --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve
 
-# Serve the site but also publish drafts. 
+# Serve the site but also publish drafts.
 drafts: image
-	docker run --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve --drafts
+	docker run --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve --drafts
 
 # Interactive session within the image so you can poke around.
 debug: image
-	docker run -it --rm -p 4000:4000 --mount type=bind,source=$(PWD),target=$(MOUNT) -w $(MOUNT) $(IMAGE)
+	docker run -it --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE)
 
-# Don't send the whole repo to Docker. All we need is the Gemfile. 
+# Don't send the whole repo to Docker. All we need is the Gemfile.
 BUILDDIR := /tmp/jekyll-docker
 
 image: Dockerfile Gemfile
@@ -28,6 +28,9 @@ image: Dockerfile Gemfile
 	docker build $(BUILDDIR) -f Dockerfile -t $(IMAGE)
 
 # Rebuilding from halfway using a cached image can sometimes cause
-# problems. Use `make refresh` to rebuild the image from the ground up. 
+# problems. Use `make refresh` to rebuild the image from the ground up.
 refresh: Dockerfile Gemfile
-	docker build . -f Dockerfile -t $(IMAGE) --no-cache
+	rm -rf $(BUILDDIR)
+	mkdir -p $(BUILDDIR)
+	cp Gemfile $(BUILDDIR)
+	docker build $(BUILDDIR) -f Dockerfile -t $(IMAGE) --no-cache

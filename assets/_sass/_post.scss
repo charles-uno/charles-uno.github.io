@@ -42,12 +42,19 @@ header {
 }
 
 .post-tag {
+    display: inline-block;
+    padding: 0.25*$fs-subtitle;
+    border-radius: 0.25*$fs-subtitle;
     color: $accent-color;
+    font-size: $fs-subtitle;
+    border: 1px solid $accent-color;
     &:hover {
         cursor: pointer;
         color: $text-color;
+        border: 1px solid $text-color;
     }
 }
+
 
 article {
 

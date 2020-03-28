@@ -46,21 +46,6 @@
             </div>
         </div>
 
-        <div class="uno-mas-layer">
-            <div class="uno-mas-wrap">
-                {% assign arrow-title = page.title | replace: "'", "\\'"  %}
-                <a href="" onclick="unoMas('{{ arrow-title }}'); return false;">
-                    <div class="uno-mas">
-                {% if page.title %}
-                    uno mas
-                {% else %}
-                    uno
-                {% endif %}
-                    </div>
-                </a>
-            </div>
-        </div>
-
         <div class="full-head">
             <div class="head">
                 {% comment %}
@@ -76,8 +61,6 @@
 
         <!-- Import Javascript -->
         <script src="{{ '/assets/app.js' | prepend: site.baseurl }}"></script>
-        <!-- MathJax -->
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <!-- Google analytics -->
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

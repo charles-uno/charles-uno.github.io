@@ -8,6 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get install -y \
     build-essential \
+    git \
     ruby \
     ruby-dev \
     zlib1g-dev
