@@ -1,9 +1,17 @@
 
 // Fonts
 $sans-font: 'Roboto', sans-serif;
-$logo-font: 'Just Me Again Down Here', serif;
 $mono-font: 'Cutive Mono', monospace;
-$head-font: 'Fredoka One', sans-serif;
+
+
+
+
+$head-font: 'McLaren', cursive;
+$head-font: 'Pangolin', cursive;
+$head-font: 'Fredoka One', cursive;
+
+
+$logo-font: $head-font;
 
 // Colors
 $text-color: #222;
@@ -12,7 +20,7 @@ $shadow-color: #fff;
 $accent-color: #069;
 
 // Font sizes
-$fs-logo: 45px;
+$fs-logo: 40px;
 $fs-tags: 18px;
 $fs-glyph: 30px;
 $fs-index: 26px;
@@ -20,11 +28,9 @@ $fs-title: 30px;
 $fs-subtitle: 18px;
 $fs-body: 16px;
 $fs-caption: 12px;
-$fs-uno: 30px;
 
 // Header/wrapper sizes
 $head-tag-pad: 10px;
-$uno-mas-radius: 30px;
 $head-pad: 10px;
 $copy-height: 74px;
 $head-height: $fs-glyph + 2*$head-pad;

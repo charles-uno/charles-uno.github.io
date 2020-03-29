@@ -15,7 +15,7 @@
 
 .head-glyph {
     font-size: $fs-glyph;
-    margin: 0 0.3*$fs-glyph;
+    margin: 0 0.2*$fs-glyph;
 }
 
 .head-tag {
@@ -105,8 +105,8 @@ div.main, div.left-flank-main, div.right-flank-main {
 div.main {
     width: $paper-width;
     padding-top: $side-pad;
-    padding-left: $side-pad;
-    padding-right: $side-pad;
+    padding-left: 2*$side-pad;
+    padding-right: 2*$side-pad;
     text-align: justify;
     header, article, footer {
         border: 0; margin: 0; padding: 0;

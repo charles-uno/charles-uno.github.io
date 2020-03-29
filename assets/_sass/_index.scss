@@ -74,13 +74,13 @@
 }
 
 .index-tags {
-    top: 90%;
+    top: 85%;
     font-family: $sans-font;
 }
 
 .index-tag {
     display: inline-block;
-    padding: 0.25*$fs-index;
+    padding: 0.15*$fs-index;
     border-radius: 0.25*$fs-index;
     color: $shadow-color;
     font-size: 0.5*$fs-index;
@@ -88,5 +88,6 @@
     &:hover {
         color: $text-color;
         border: 1px solid $text-color;
+        background-color: $shadow-color;
     }
 }

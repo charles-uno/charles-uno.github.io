@@ -3,14 +3,13 @@ layout: compress
 ---
 @charset 'utf-8';
 
-// Strart from Poole. Mostly we use this for syntax highlighting.
+// Start from Poole. Mostly we use this for syntax highlighting.
 @import 'poole';
 
 @import 'base';
 @import 'wrapper';
 @import 'index';
 @import 'post';
-@import 'uno_mas';
 
 // Messy things that we are currently using but don't like.
 @import 'kludges';
