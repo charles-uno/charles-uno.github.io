@@ -3,6 +3,7 @@ host: 0.0.0.0
 
 name: Charles Fyfe
 title: charles.uno
+description: "probably fine"
 url: 'http://charles.uno'
 baseurl: ''
 github: 'https://github.com/charles-uno'

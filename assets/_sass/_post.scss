@@ -26,8 +26,7 @@ header {
 }
 
 .post-title {
-    margin-top: $title-pad;
-    margin-bottom: $paragraph-gap;
+    margin: $title-pad;
     font-size: $fs-title;
     display: block;
     font-family: $head-font;
