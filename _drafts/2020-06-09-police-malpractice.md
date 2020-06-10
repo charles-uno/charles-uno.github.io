@@ -23,6 +23,14 @@ American police departments pay out millions of dollars each year for wrongful d
 
 [^2]: Police paid out $1.8M after killing [Dominic Felder](https://www.mprnews.org/story/2010/10/25/excessive-force-verdict) in 2006. [Jamal Clark](https://www.mprnews.org/story/2019/08/09/attorneys-for-jamar-clark-family-members-confirm-agreement-on-200000-settlement)'s death in 2014 cost taxpayers another $200k. [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile)'s wrongful death was settled for $3M in 2017. And that's just Minnesota! <!-- I think it was LAPD or NYPD had staggering numbers of money spent, might be worth mentioning. Also, NYPD's budget is... like $6B. -->
 
+
+A quarter billion dollars spent on police misconduct in 2014 between 10 big cities
+https://www.wsj.com/articles/cost-of-police-misconduct-cases-soars-in-big-u-s-cities-1437013834
+
+
+
+
+
 One path forward is to require each officer to hold liability insurance, rather than being covered by the department or city. The officers who killed George Floyd were [repeatedly reprimanded](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) for excessive force. The officers who killed Jamal Clark had a [history of violence](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) as well. Each of these men was a multimillion-dollar settlement waiting to happen, which any insurance agent <!-- Actuary? Underwriter? --> would have been able to see. Prohibitive lability costs should have made them unemployable as police officers long before they had a chance to kill, regardless of support from the department or union.
 
 Public opinion matters too. Police ultimately report to the mayor, who reports to the voters. This is the part where criminal charges may hurt more than they help. Under [today's laws](https://en.wikipedia.org/wiki/Qualified_immunity), it's [hard to convict the police](https://www.politico.com/news/2020/06/01/minnesota-attorney-general-hard-to-convict-police-293920). They're [rarely even indicted](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/). But criminal cases attract far more public attention than civil suits (see chart below). A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police, and that confidence is unlikely to be shaken when the climactic headline reads, "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)." <!-- This is akward; "Their confidence is unlikely to be shaken" sounds like "They did not not not not do something." I feel like you can tighten this up. -->
