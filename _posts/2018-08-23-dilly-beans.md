@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dilly Beans"
-image: "/assets/images/thumb/dilly-beans.png"
+image: "/assets/images/thumb/dilly-beans-done.png"
 description: "Step aside, cucumbers. There's a new pickle in town."
 tags: food
 ---
