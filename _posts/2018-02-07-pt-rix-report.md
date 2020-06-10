@@ -13,7 +13,7 @@ We spent two weeks in Basque Country leading up to the tournament -- mostly Bilb
 
 The food was fantastic: wild boar steak, octopus risotto, brûléed goat cheese, and an endless variety of [pintxos](https://en.wikipedia.org/wiki/Pincho). The wine was delicious as well; we particularly enjoyed tempranillos from the nearby Rioja region. Kara loved the coffee. And we drank bucketfuls of juice, since there were automatic juicers in every bar, cafe, and supermarket.
 
-![Bilbao Skyline](/assets/images/pt-rix-bilbao-16x9.png)
+![Bilbao Skyline](/assets/images/wide/pt-rix-bilbao-16x9.png)
 *View of downtown Bilbao from [Artxanda Mountain](https://en.wikipedia.org/wiki/Mount_Artxanda). We took the [funicular](https://en.wikipedia.org/wiki/Artxanda_Funicular) up the mountain, then wandered down on foot.*
 
 The transit in Bilbao was great, but we spent most of our days walking. Bilbao is similar to Minneapolis population-wise, but it's *much* more compact[^5]. It took thirty minutes to walk from one end of town to the other... but we weren't generally in a hurry, so we would stop here and there for a glass of wine, a crêpe, or a museum.
@@ -24,7 +24,7 @@ We stayed in [Casco Viejo](https://en.wikipedia.org/wiki/Casco_Viejo) (Old Town)
 
 Our two weeks in Spain were a welcome break from work and winter. Then, before I knew it, it was time to sling some cardboard.
 
-![Steak](/assets/images/pt-rix-steak-16x9.png)
+![Steak](/assets/images/wide/pt-rix-steak-16x9.png)
 *This steak came out on an inch-thick piece of hot iron. It continued to sizzle through half the meal.*
 
 ## Decklist
@@ -93,7 +93,7 @@ The rest is [[Summoner's Pact:Pactable]] role-players. [[Obstinate Baloth]] can 
 
 As an aside, I also did a bunch of testing with [[Leyline of Sanctity]], but came away unimpressed. The decks that care about it have plenty of answers post-board, and it's irrelevant too often to earn a spot in the main.
 
-![Wine Cellar in Rioja](/assets/images/pt-rix-cellar-16x9.png)
+![Wine Cellar in Rioja](/assets/images/wide/pt-rix-cellar-16x9.png)
 *Wine aging in the centuries-old caverns beneath a winery in Rioja.*
 
 ## Day 1
@@ -102,7 +102,7 @@ My draft is bumpy. GU Merfolk is clearly open, but I've had poor results with th
 
 My deck ends up mediocre. I have plenty of playables, good removal, and a splashed [[Huatli, Warrior Poet:Huatli]]... but my curve is shaky.
 
-![Day 1 Draft Deck](/assets/images/pt-rix-day-1-draft.png)
+![Day 1 Draft Deck](/assets/images/wide/pt-rix-day-1-draft.png)
 *Day 1 draft deck. In principle, I could side in the green cards to cheese people with T4 [[Huatli, Warrior Poet:Huatli]], but I was never gutsy enough to try it out.*
 
 ### Round 1: Loss 0-2 vs WB Vampires
@@ -131,7 +131,7 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 1-2, now on to Modern!
 
-![The Vizcaya Bridge](/assets/images/pt-rix-getxo-16x9.png)
+![The Vizcaya Bridge](/assets/images/wide/pt-rix-getxo-16x9.png)
 *The [Vizkaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge) in Getxo, the world's first transporter bridge. Note the hanging cable car which shuttles back and forth at street level.*
 
 ### Round 4: Win 2-1 vs Naya Burn
@@ -198,14 +198,14 @@ My deck ends up mediocre. I have plenty of playables, good removal, and a splash
 
 5-3
 
-![Outdoor Climbing Wall in Getxo](/assets/images/pt-rix-climbing-16x9.png)
+![Outdoor Climbing Wall in Getxo](/assets/images/wide/pt-rix-climbing-16x9.png)
 *The housing we saw is all high-density apartments. Nobody has a yard. But there are tons of nice parks and playgrounds, like this outdoor climbing wall in Getxo.*
 
 ## Day 2
 
 The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. My deck ends up a bit light on removal, but my curve and synergies are good. I open [[Vraska, Relic Seeker:Vraska]] in pack 3 (passing [[Walk the Plank]]), then pick up a late [[Jade Guardian]] to hold my auras.
 
-![Day 2 Draft Deck](/assets/images/pt-rix-day-2-draft.png)
+![Day 2 Draft Deck](/assets/images/wide/pt-rix-day-2-draft.png)
 *Day 2 draft deck. I played what I know: WB Vampires with a splashed planeswalker.*
 
 ### Round 9: Draw 1-1-1 vs BRg Pirates
@@ -238,7 +238,7 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 5-5-1
 
-![San Sebastian](/assets/images/pt-rix-san-sebastian-16x9.png)
+![San Sebastian](/assets/images/wide/pt-rix-san-sebastian-16x9.png)
 *A stormy day in San Sebastián, a coastal town near Bilbao.*
 
 ### Round 12: Loss 0-2 vs Affinity
@@ -309,7 +309,7 @@ The draft, it seems, goes great. WB Vampires is wide open, so I jump right in. M
 
 7-8-1
 
-![The Guggenheim Museum](/assets/images/pt-rix-guggenheim-16x9.png)
+![The Guggenheim Museum](/assets/images/wide/pt-rix-guggenheim-16x9.png)
 *The Guggenheim Museum in downtown Bilbao.*
 
 ## Teaching an Old Dog New RIX
@@ -320,5 +320,5 @@ Perhaps I could do better with more practice, but honestly I don't plan to. I'm 
 
 [^7]: Especially [Matthias](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html), who put the deck in my hands in the first place!
 
-![The Day 2 Crew!](/assets/images/pt-rix-team-16x9.png)
+![The Day 2 Crew!](/assets/images/wide/pt-rix-team-16x9.png)
 *Greg, Sam, Tyler (round 3 opponent), me, and Kai.*

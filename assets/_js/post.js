@@ -3,12 +3,27 @@
 // out the width for those tags.
 var pars = document.getElementsByTagName('p');
 for ( var i=0; i < pars.length; i++ ) {
-    if ( pars[i].firstChild.tagName == 'IMG' ) {
-        pars[i].className = "img-wrapper";
+    var img = pars[i].firstChild;
+    console.log("found:", img)
+    // Watch out for linked images
+    if ( img.tagName == "A" ) {
+        img = img.firstChild;
+        console.log("actually:", img)
     }
-    // Make sure this works even if the image is linked.
-    if ( pars[i].firstChild.tagName == 'A' && pars[i].firstChild.firstChild.tagName == 'IMG' ) {
+    // Skip any non-image tags
+    if ( img.tagName != "IMG") {
+        console.log("not an image")
+        continue;
+    } else {
+        console.log("image!")
+    }
+    // Only apply to images in the wide directory
+    if ( ! img.src.includes("/wide/") ) {
+        console.log("not wide");
         pars[i].className = "img-wrapper";
+    } else {
+        console.log("wide image!");
+        pars[i].className = "img-wrapper-wide";
     }
 }
 

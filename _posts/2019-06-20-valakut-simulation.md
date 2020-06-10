@@ -14,7 +14,7 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 
 In particular, I was curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place.
 
-![Valakut Preference Poll](/assets/images/valakut-poll-16x9.png)
+![Valakut Preference Poll](/assets/images/wide/valakut-poll-16x9.png)
 *A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].*
 
 But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." [[Farseek]] is a fine topdeck if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but in that same situation [[Explore]] gives us another chance to [[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]. And if our opponent has managed to disrupt our plans using [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]], any lands past our sixth might as well be blanks. We'd much rather re-draw in search of a high-impact sideboard card or finisher to turn the game around. The question is, if we want the added flexibility, how does it affect our speed?

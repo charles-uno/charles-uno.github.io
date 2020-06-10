@@ -6,7 +6,7 @@ description: A simple side filled with fresh fruit flavor.
 tags: food
 ---
 
-![Cranberry Relish](/assets/images/aunt-marys-cranberries-16x9.png)
+![Cranberry Relish](/assets/images/wide/aunt-marys-cranberries-16x9.png)
 
 - Large navel orange
 - <span class="metric">250 mL</span><span class="imperial">1 c</span> white sugar

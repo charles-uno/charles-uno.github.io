@@ -6,7 +6,7 @@ description: "Formerly known as the prince of pot roasts."
 tags: food
 ---
 
-![Purple Pot Roast Ingredients](/assets/images/pot-roast-ingredients-16x9.png)
+![Purple Pot Roast Ingredients](/assets/images/pot-roast-prep.png)
 
 - <span class="metric">1 kg</span><span class="imperial">2-2.5 lb</span> chuck roast
 - <span class="metric">1 L</span><span class="imperial">4 c</span> purple potatoes, chopped
@@ -33,4 +33,4 @@ Once done, scoop out the vegetables into a large bowl or baking dish. Then caref
 
 Serves six.
 
-![Purple Pot Roast](/assets/images/pot-roast-16x9.png)
+![Purple Pot Roast](/assets/images/pot-roast-done.png)

@@ -39,7 +39,7 @@ A criminal suit against an individual officer doesn't just neglect the systemic 
 
 [^4]: The law entrusts police with the use of deadly force, so it's very difficult to prove that mistakes rise to the level of criminal wrongdoing. Police are [almost never](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/) indicted, and even a [truly damning](https://en.wikipedia.org/wiki/Shooting_of_Walter_Scott) video may not be enough to get a murder charge to stick.
 
-![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
+![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/wide/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
 A civil suit can make headlines out of the gray area between "guilty" and "not guilty." Imagine, for example, if the culmination of the Philando Castile case hadn't been Officer Yanez's acquittal, but rather the family's [$3M](http://www.cnn.com/2017/06/26/us/philando-castile-family-settlement/index.html) wrongful death settlement with the city. The narrative would be flipped inside-out: suddenly it's the police who made mistakes, not Castile, and taxpayer dollars are being spent to clean up the mess[^9].

@@ -6,7 +6,7 @@ description: "This recipe is great for lunch the next day! It's pretty healthy, 
 tags: food
 ---
 
-![Kale Garbanzo Ingredients](/assets/images/garbanzo-kale-sausage-ingredients-16x9.png)
+![Kale Garbanzo Ingredients](/assets/images/wide/garbanzo-kale-sausage-ingredients-16x9.png)
 
 - <span class="metric">800 mL</span><span class="imperial">28 oz</span> garbanzo beans
 - <span class="metric">500 mL</span><span class="imperial">2 c</span> sausage links, chunked
@@ -22,6 +22,6 @@ Turn it down to medium heat and add the onion and sausage. Ideally, it should be
 
 Cook the sausage through, then add the kale. It'll seem like way too much, and probably overflow your skillet. Fold it in gently. After a few minutes it'll cook down. The color should also become much more vibrant.
 
-![Kale Garbanzo Finished](/assets/images/garbanzo-kale-sausage-16x9.png)
+![Kale Garbanzo Finished](/assets/images/wide/garbanzo-kale-sausage-16x9.png)
 
 Pack into four lunch-sized containers and you're good to go!

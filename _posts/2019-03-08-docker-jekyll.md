@@ -27,9 +27,9 @@ It works, but it's not pretty. To avoid going through this again, I wrapped it a
 make
 ```
 
-Then I can point a browser to `localhost:4000` and see my site, just like I would if running directly on my machine. And since I'm mounting the repo into the container (rather than making a copy) it even re-builds the site automatically as I make changes.
+Then I can point a browser to `localhost:4000` and see my site, just like I would if running directly on my machine. And since I'm mounting the repo into the container (rather than making a copy) it even re-builds automatically as I make changes.
 
-![Containers](/assets/images/sharon-mccutcheon-containers-16x9.png)
+![Containers](/assets/images/sharon-mccutcheon-containers.png)
 
 The only snag I hit was port forwarding. On Linux, a service running on port 4000 within the container can be forwarded to the host machine using the flag `-p 4000:4000`. But my new machine is a Macbook, which means Docker is run [in a VM](https://docs.docker.com/docker-for-mac/networking/) under the hood. So `-p` forwards the container port to the *VM* port, not the *host* port. It took a minute to figure out what was going on, but luckily the [workaround](https://forums.docker.com/t/using-localhost-for-to-access-running-container/3148/9) was quick: instead of serving to `127.0.0.1` (localhost), [tell Jekyll](https://github.com/charles-uno/charles-uno.github.io/blob/master/_config.yml) to serve on `0.0.0.0` (a [wildcard local address](https://www.howtogeek.com/225487/what-is-the-difference-between-127.0.0.1-and-0.0.0.0/)).
 

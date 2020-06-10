@@ -80,13 +80,13 @@ article {
     }
 
     // Set baseline width, etc.
-    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
+    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr, .img-wrapper {
         max-width: $text-width;
         margin: $paragraph-gap auto;
     }
 
     // Mostly justify text.
-    p, .table-caption, div.footnotes li, img + em {
+    p, .table-caption, div.footnotes li, img + em, .img-wrapper {
         text-align: justify;
         display: block;
     }
@@ -96,23 +96,23 @@ article {
     li { margin: 0.5*$fs-body 0; }
 
     // Tables, images, and captions use the full width.
-    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p, p.img-wrapper {
+    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p, p.img-wrapper-wide {
         width: 100%;
         max-width: 100%;
     }
 
     // Highlight quotes, footnotes, snippets, images, tables, and code.
-    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper, div.flex-across {
+    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper, .img-wrapper-wide, div.flex-across {
         background-color: $shadow-color;
     }
 
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.footnotes li, .img-wrapper, div.flex-across {
+    table, blockquote, div.highlight, div.footnotes li, .img-wrapper, .img-wrapper-wide, div.flex-across {
         padding: $shadow-pad;
     }
 
     // Highlighted stuff also gets rounded corners.
-    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper, div.flex-across {
+    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper, .img-wrapper-wide, div.flex-across {
         border-radius: $tile-radius;
         overflow: hidden;
     }

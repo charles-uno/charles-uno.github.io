@@ -6,7 +6,7 @@ description: "This spicy egg and tomato dish is perfect for brunch, dinner, or b
 tags: food
 ---
 
-![Shakshuka](/assets/images/shakshuka-16x9.png)
+![Shakshuka](/assets/images/wide/shakshuka-16x9.png)
 
 - <span class="metric">1 L</span><span class="imperial">4 c</span> onion, diced
 - <span class="metric">800 mL</span><span class="imperial">28 oz</span> roasted tomatoes, diced

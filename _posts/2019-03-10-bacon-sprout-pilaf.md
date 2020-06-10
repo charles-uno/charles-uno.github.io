@@ -6,7 +6,7 @@ description: "An easy cook-ahead meal to get you through a winter work week"
 tags: food
 ---
 
-![Bacon Sprout Pilaf](/assets/images/bacon-sprout-pilaf-16x9.png)
+![Bacon Sprout Pilaf](/assets/images/bacon-sprout-pilaf.png)
 
 - <span class="metric">250 mL</span><span class="imperial">1 c</span> bacon, chopped
 - <span class="metric">1 L</span><span class="imperial">4 c</span> brussels sprouts, halved

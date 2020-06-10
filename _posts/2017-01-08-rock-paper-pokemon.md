@@ -101,7 +101,7 @@ Shadow starves Plant<br>Plant overgrows Rock<br>Rock crushes Heart<br>Heart outs
 
 Judging the interactions one by one, this system looks a lot like the old one -- most interactions are intuitive, and a few feel a bit forced for the sake of balance. The differences become evident when we take a step back and look at the system as a whole:
 
-![Reworked Pokémon Type Interaction Graph](/assets/images/pokemon-graph-big.png)
+![Reworked Pokémon Type Interaction Graph](/assets/images/wide/pokemon-graph-big.png)
 *Reworked Pokémon Type Interaction Graph*
 
 There are two big changes. First, each of the new interactions is symmetrical; Water beats Fire, regardless of which side is attacking[^3]. Second, under the new model, each type has two good matchups and two bad matchups.

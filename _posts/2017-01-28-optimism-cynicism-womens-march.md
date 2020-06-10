@@ -14,7 +14,7 @@ In contrast, the crowd's signs struck a reactionary tone: jabs at Trump's hands 
 
 The rift between speakers and signholders was reminiscent of the 2016 Democratic primaries. The speakers showed an optimistic view of democracy: two steps forward, one step back. Their speeches were built on the premise that people are [Stronger Together](http://www.npr.org/2016/08/08/489138602/trump-comment-gives-clinton-a-campaign-slogan-with-layered-meaning). The signholders were comparably new to the political scene; they were mostly young, mostly white, and mostly angry. And they seemed cynically eager to tear down the system in a [Political Revolution](https://www.washingtonpost.com/news/the-fix/wp/2016/07/25/bernie-sanders-started-a-political-revolution-now-he-cant-stop-it/).
 
-![Women's March Minnesota](/assets/images/womens-march-16x9.png)
+![Women's March Minnesota](/assets/images/wide/womens-march-16x9.png)
 
 My instinct was to recoil from any semblance of a left-wing Tea Party. I'm concerned at the prospect of establishment Democrats facing primary challenges from blowhard "outsiders." Rumblings are already visible on social media; Sen Elizabeth Warren (among the most stalwart progressives in the Senate) is [choosing her battles](https://www.facebook.com/senatorelizabethwarren/posts/716640075165155) -- but to many of her commenters, anything short of obstruction is a betrayal. That sort of [ideological purity test](http://time.com/4205149/bernie-sanders-hillary-clinton-progressive/) is what hollowed out the leadership of the Republican Party, making room for Trump in the first place.
 
@@ -30,7 +30,7 @@ Rather than allowing a single faction to hijack the agenda, it seems to me that 
 
 Almost by definition, if the Democratic Party wants to represent a majority coalition, its message needs to resonate with centrist voters. Millions of Americans voted for Obama in 2008 and 2012, then Trump in 2016, due in part to [economic anxiety](https://fivethirtyeight.com/features/stop-saying-trumps-win-had-nothing-to-do-with-economics/). Such voters could perhaps be won back with economic policies that benefit rural communities as well as urban ones (especially if Trump's infrastructure plan is as [toothless](http://thehill.com/policy/transportation/306847-five-things-to-know-about-trumps-infrastructure-plan) as it seems) -- they certainly won't be swayed by [scorn](http://www.slate.com/articles/news_and_politics/politics/2016/11/there_is_no_such_thing_as_a_good_trump_voter.html) or [shaming](https://www.washingtonpost.com/posteverything/wp/2017/01/27/in-venezuela-we-couldnt-stop-chavez-dont-make-the-same-mistakes-we-did/).
 
-![Don't Tread On Me](/assets/images/womens-march-snake-16x9.png)
+![Don't Tread On Me](/assets/images/wide/womens-march-snake-16x9.png)
 
 It's also possible that my instincts are completely backwards. In the era of social media, maybe cynicism beats optimism. Maybe the left is losing because it's bringing 20th-century strategies to 21st-century contests.
 
