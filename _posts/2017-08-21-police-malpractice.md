@@ -34,7 +34,9 @@ Addressing police misconduct through civil suits and liability insurance may als
 ![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/wide/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
-Insurance is a market-based system for identifying liabilities and putting a price tag on them. Requiring police officers to insure themselves against misconduct creates an incentive for departments to shape up<!-- ?? -->, and for high-risk officers to seek work elsewhere.
+In the healthcare industry, malpractice insurance puts a price tag on risk. High-risk doctors are more expensive to employ, and hospitals save money by training staff to avoid errors. Requiring police officers to hold liability insurance would work similarly, saving taxpayer dollars as well as the lives of our neighbors.
+
+<!--
 
 trainings measurably reduce bad outcomes in medicine
 https://www.ncbi.nlm.nih.gov/pubmed/27549442
@@ -42,12 +44,4 @@ https://www.ncbi.nlm.nih.gov/pubmed/27549442
 Doctors and nurses are significantly more trusted than police
 https://news.gallup.com/poll/274673/nurses-continue-rate-highest-honesty-ethics.aspx
 
-<!--
-
-To summarize:
-
-- Insurance forces risk to be quantized, measured, tracked.
-- Insurnace gives a direct monetary consequence to police.
-- And we already have a system in place that works like this that has high consumer confidence: Doctors.
-
-//-->
+-->
