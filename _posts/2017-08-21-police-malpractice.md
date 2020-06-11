@@ -16,41 +16,30 @@ Victims of medical errors typically seek justice in civil court for [medical mal
 
 If you go to the gym, your health insurance gets cheaper. If you replace your brakes, your car insurance gets cheaper. If you fix your roof, your homeowner's insurance gets cheaper. The insurance company creates incentives for responsible long-term behavior, and it's not because they care about your health or safety. They make their money by identifying liabilities and putting a price tag on them.
 
-![Noodle's first protest](/assets/images/blm-16x9.png)
+![Noodle's first protest](/assets/images/wide/blm-16x9.png)
 *[George Floyd](https://en.wikipedia.org/wiki/Death_of_George_Floyd) was killed in police custody less than a mile from our home.*
 
 American police departments pay out [hundreds of millions of dollars](https://www.wsj.com/articles/cost-of-police-misconduct-cases-soars-in-big-u-s-cities-1437013834) each year due to police misconduct, including wrongful deaths at the hands of police[^2]. Clearly, getting liabilities under control could save taxpayers quite a bit of money. But that's the thing: because police departments are publicly funded, there are no shareholders to push back against reckless spending. Police may even piggyback on the [city's insurance](http://www.savmn.com/DocumentCenter/View/568/6-26-17--Joint-Statement-City-of-St-Anthony-and-Valerie-Castile-as-Trustee-for-Philando-Castile) policy, further insulating them from the costs they incur.
 
 [^2]: In Minnesota alone, police paid out $1.8M after killing [Dominic Felder](https://www.mprnews.org/story/2010/10/25/excessive-force-verdict) in 2006, $200k after killing [Jamal Clark](https://www.mprnews.org/story/2019/08/09/attorneys-for-jamar-clark-family-members-confirm-agreement-on-200000-settlement) in 2014, and $3M after killing [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) in 2017.
 
-One path forward is to require each officer to hold liability insurance, rather than being covered by the department or city. The officers who killed George Floyd were [repeatedly reprimanded](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) for excessive force. The officers who killed Jamal Clark had a [history of violence](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) as well. Each of these men was a multimillion-dollar settlement waiting to happen, which any insurance underwriter could have seen. Prohibitive liability costs should have made them unemployable as police officers long before they had a chance to kill, regardless of support from the department or union.
+One path forward is to require each officer to hold liability insurance, rather than being covered by the department or city. The officers who killed George Floyd were [repeatedly reprimanded](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) for excessive force. The officers who killed Jamal Clark had a [history of violence](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) as well. Each of these men was a multimillion-dollar settlement waiting to happen, which any insurance underwriter could have seen. Prohibitive insurance costs should have made them unemployable as police officers long before they had a chance to kill, regardless of support from the department or union.
 
-Public opinion matters too. Police ultimately report to the mayor, who reports to the voters. This is the part where criminal charges may hurt more than they help. Under [today's laws](https://en.wikipedia.org/wiki/Qualified_immunity), it's [hard to convict the police](https://www.politico.com/news/2020/06/01/minnesota-attorney-general-hard-to-convict-police-293920). They're [rarely even indicted](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/). But criminal cases attract far more public attention than civil suits (see chart below). A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police. To advance reforms at the ballot box, that confidence needs to be shaken. Putting million-dollar settlements front and center might do the trick. "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)" won't.
+<!-- the cost of insurance could also be shared by superior officers, creating an incentive not to hire high-risk officers. but that's a next-order effect, and explaining might be more of a distractio than it's worth -->
+
+Addressing police misconduct through civil suits and liability insurance may also help shift public opinion. Under [today's laws](https://en.wikipedia.org/wiki/Qualified_immunity), it's [hard to convict the police](https://www.politico.com/news/2020/06/01/minnesota-attorney-general-hard-to-convict-police-293920). They're [rarely even indicted](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/). But criminal cases attract far more attention than civil suits (see chart below). A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police. To advance reforms at the ballot box, that confidence needs to be shaken. Putting million-dollar settlements front and center might do the trick. "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)" won't.
 
 <!-- this wording still isn't quite right. would like to note that this is the *climactic* headline. the one thing that everyone reads.  -->
 
-![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/malpractice-castile-trends-16x9.png)
+![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/wide/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
-Insurance is a market-based system for promoting responsible long-term behavior.
+Insurance is a market-based system for identifying liabilities and putting a price tag on them. Requiring police officers to insure themselves against misconduct creates an incentive for departments to shape up<!-- ?? -->, and for high-risk officers to seek work elsewhere.
 
-
-
-system by which responsible people and organizations pay for the risks they incur.
-
-
-
-
-
-for quantifying risk, and for making responsible parties to pay for the risks they incur.
-
-
-
-Trainings to reduce medical errors are effective.
+trainings measurably reduce bad outcomes in medicine
 https://www.ncbi.nlm.nih.gov/pubmed/27549442
 
-
-Doctors are significantly more trusted than police, and nurses are the most trusted profession.
+Doctors and nurses are significantly more trusted than police
 https://news.gallup.com/poll/274673/nurses-continue-rate-highest-honesty-ethics.aspx
 
 <!--
