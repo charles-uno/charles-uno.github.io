@@ -34,7 +34,7 @@ Addressing police misconduct through civil suits and liability insurance may als
 ![In terms of search traffic, the climax of the Philando Castile case was Officer Yanez's acquittal, not the $3M wrongful death settlement.](/assets/images/wide/malpractice-castile-trends-16x9.png)
 *In terms of [search traffic](https://g.co/trends/9eJeo), the climax of the Philando Castile case was Officer Yanez's acquittal. The family's $3M wrongful death settlement with the city received comparably little attention.*
 
-In the healthcare industry, malpractice insurance puts a price tag on risk. High-risk doctors are more expensive to employ, and hospitals save money by training staff to avoid errors. Requiring police officers to hold liability insurance would work similarly, saving taxpayer dollars as well as the lives of our neighbors.
+In the healthcare industry, malpractice insurance puts a price tag on risk. High-risk doctors are more expensive to employ, and hospitals save money by training staff to avoid mistakes. Requiring police officers to hold liability insurance would work similarly, saving taxpayer dollars and decreasing the use of excessive force.
 
 <!--
 
