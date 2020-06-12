@@ -2,7 +2,7 @@
 layout: post
 title: Badges and Bandages
 image: "/assets/images/thumb/blm.png"
-description: "When a doctor kills someone, we call it malpractice instead of murder. Might a similar system work for policing?"
+description: The cost of malpractice insurance pushes hospitals to constantly improve. Could it work for policing as well?
 tags: politics
 ---
 
@@ -25,7 +25,7 @@ One path forward is to require each officer to hold liability insurance, rather 
 
 Even better, the cost of liability insurance could be shared between the insured officer and his superiors. If premiums are deducted from the captain's paycheck, you can bet he'll think twice before hiring an officer with a history of excessive force. He'll also have a direct incentive to invest in body cams, de-escalation trainings, and other risk reduction strategies.
 
-If you go to the gym, your health insurance gets cheaper. If you replace your brakes, your car insurance gets cheaper. If you fix your roof, your homeowner's insurance gets cheaper. The insurance company creates incentives for responsible long-term behavior, and it's not because they care about your safety. They make their money by identifying liabilities and putting a price tag on them. In the healthcare industry, malpractice insurance makes high-risk doctors are more expensive to employ, and hospitals save money by training staff to reduce mistakes. A similar system for policing would save taxpayer dollars and decrease the use of excessive force.
+If you go to the gym, your health insurance gets cheaper. If you fix your roof, your homeowner's insurance gets cheaper. The insurance company creates incentives for responsible long-term behavior, and it's not because they care about your safety. They make their money by identifying liabilities and putting a price tag on them. In the healthcare industry, malpractice insurance makes high-risk doctors are more expensive to employ, and hospitals save money by training staff to reduce mistakes. A similar system for policing would save taxpayer dollars and decrease the use of excessive force.
 
 <!--
 
