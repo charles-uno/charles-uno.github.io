@@ -6,7 +6,7 @@ description: "When a doctor kills someone, we call it malpractice instead of mur
 tags: politics
 ---
 
-> This post was originally written in 2017, after police killed [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) in our old neighborhood. It was updated in 2020 after police killed [George Floyd](https://en.wikipedia.org/wiki/Death_of_George_Floyd) less than a mile from our home. Liability insurance may sound like small potatoes compared to the [transformative change](https://www.theguardian.com/us-news/2020/jun/08/minneapolis-city-council-police-department-dismantle) endorsed by the city council... but I'll believe that when I see it.
+> This post was originally written in 2017, after police killed [Philando Castile](https://en.wikipedia.org/wiki/Shooting_of_Philando_Castile) in our old neighborhood. It was updated in 2020 after police killed [George Floyd](https://en.wikipedia.org/wiki/Death_of_George_Floyd) less than a mile from our home.
 
 Doctors make life-and-death decisions millions of times each year. Sometimes they get it wrong, and people die. Unnecessary surgery, incorrect prescriptions, and other medical errors account for over [100k American lives lost](http://www.npr.org/sections/health-shots/2013/09/20/224507654/how-many-die-from-medical-mistakes-in-u-s-hospitals) each year -- more than car accidents and guns combined. However, despite how often Americans[^1] die from medical errors, it's exceptionally rare for a doctor to face criminal charges for murder or manslaughter.
 
@@ -25,7 +25,7 @@ American police departments pay out [hundreds of millions of dollars](https://ww
 
 One path forward is to require each officer to hold liability insurance, rather than being covered by the department or city. The officers who killed George Floyd were [repeatedly reprimanded](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) for excessive force. The officers who killed Jamal Clark had a [history of violence](https://www.mprnews.org/story/2015/11/19/the-officers-in-the-jamar-clark-shooting) as well. Each of these men was a multimillion-dollar settlement waiting to happen, which any insurance underwriter could have seen. Prohibitive insurance costs should have made them unemployable as police officers long before they had a chance to kill, regardless of support from the department or union.
 
-<!-- the cost of insurance could also be shared by superior officers, creating an incentive not to hire high-risk officers. but that's a next-order effect, and explaining might be more of a distractio than it's worth -->
+<!-- the cost of insurance could also be shared by superior officers, creating an incentive not to hire high-risk officers. but that's a next-order effect, and explaining might be more of a distraction than it's worth -->
 
 Addressing police misconduct through civil suits and liability insurance may also help shift public opinion. Under [today's laws](https://en.wikipedia.org/wiki/Qualified_immunity), it's [hard to convict the police](https://www.politico.com/news/2020/06/01/minnesota-attorney-general-hard-to-convict-police-293920). They're [rarely even indicted](https://fivethirtyeight.com/datalab/ferguson-michael-brown-indictment-darren-wilson/). But criminal cases attract far more attention than civil suits (see chart below). A [consistent majority](http://www.gallup.com/poll/213869/confidence-police-back-historical-average.aspx) of Americans report a great deal of confidence in the police. To advance reforms at the ballot box, that confidence needs to be shaken. Putting million-dollar settlements front and center might do the trick. "[Officer who shot Philando Castile found not guilty on all counts](http://www.cnn.com/2017/06/16/us/philando-castile-trial-verdict/index.html)" won't.
 
@@ -37,6 +37,9 @@ Addressing police misconduct through civil suits and liability insurance may als
 In the healthcare industry, malpractice insurance puts a price tag on risk. High-risk doctors are more expensive to employ, and hospitals save money by training staff to avoid errors. Requiring police officers to hold liability insurance would work similarly, saving taxpayer dollars as well as the lives of our neighbors.
 
 <!--
+
+Minneapolis city council votes to defund the police in the wake of george floyd
+https://www.theguardian.com/us-news/2020/jun/08/minneapolis-city-council-police-department-dismantle
 
 trainings measurably reduce bad outcomes in medicine
 https://www.ncbi.nlm.nih.gov/pubmed/27549442
