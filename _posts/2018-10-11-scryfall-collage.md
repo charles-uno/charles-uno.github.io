@@ -23,7 +23,7 @@ forest_info = requests.get(url).json()
 
 If we go to the [the above URL](https://api.scryfall.com/cards/search?q=!"forest"&unique=prints) ourselves, we see a jumble of JSON. Some snippets of relevant-looking information, but condensed to the point of illegibility. Python gobbles that up no problem and spits out a well-behaved dictionary. Card data (rules text, collector number, etc) is packaged in `forest_info['data']`. In this case, there are too many search results to fit on one page, so `forest_info['next_page']` tells us where to make another request for the next batch.
 
-To see more details about working with the API, feel free to check out my [code on GitHub](https://github.com/charles-uno/scryfall). Long story short, we grab just a few pieces of information from Scryfall:
+To see more details about working with the API, feel free to check out my [code on GitHub](https://github.com/charles-uno/misc-plots/tree/master/scryfall). Long story short, we grab just a few pieces of information from Scryfall:
 
 - Set and collector number to uniquely identify each card
 - Artist name -- more on this in a moment
