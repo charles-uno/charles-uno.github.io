@@ -26,6 +26,3 @@ Follow the instructions that come with the pectin, but mince the peppers and add
 *With super-hot peppers, a little goes a long way.*
 
 When I say hot peppers, I do mean *hot*. A spoonful of jalapeño doesn't have enough firepower to cut the sweetness, and adding more can interfere with the texture of the jam. Go for a thin-walled pepper like a habanero or bird's eye chile. This is also a perfect excuse to break out some exotic super-hot peppers. You can often find [ghost peppers](https://en.wikipedia.org/wiki/Bhut_jolokia) at the farmers market, and [Carolina Reapers](https://en.wikipedia.org/wiki/Carolina_Reaper) are easily grown in buckets. Make sure you wear gloves when preparing them!
-
-![Super-hot peppers grow well in buckets](/assets/images/pepper-buckets.png)
-*Hot peppers are easy to grow at home, and [keep well](/farm-freezer) in the freezer!*
