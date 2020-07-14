@@ -7,6 +7,18 @@ description: "Rock beats Ice. Bug beats Psychic. Fairy beats Dragon. What might 
 tags: games
 ---
 
+
+<!--
+
+Types overlap with one another
+
+Types are thematically inconsistent
+
+Types make some pokemon irredeemably weak. Is Scyther your favorite? Too bad. He's a bug
+
+-->
+
+
 In the Pokémon universe, each trainer carries a team of pocket monsters with them at all times. When two trainers make eye contact, they are honor-bound to battle. The battle cannot end until one trainer wins, by knocking the other trainer's entire team unconscious. The winner earns both money and social status.
 
 Pokémon battles are not just a matter of scratching and biting (though there is plenty of that). Monsters are also attuned with the natural elements, creating a multidimensional game of Rock Paper Scissors: Lightning attacks are super effective against Water pokémon, Water attacks are super effective against Fire pokémon, and so on.
