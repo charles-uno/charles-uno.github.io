@@ -6,6 +6,13 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
+
+appropriate to have a document for yourself and a polished one. not every point goes to every employer
+
+
+
+
+
 If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. We can pull in your company letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With some finagling, Word's under-the-hood HTML/CSS[^2] has the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
