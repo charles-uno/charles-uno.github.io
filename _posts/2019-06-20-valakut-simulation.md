@@ -3,7 +3,7 @@ layout: post
 title: "Deck Chairs on the Titanic"
 image: "/assets/images/thumb/pt-rix.png"
 description: How do we estimate the value of "draw a card"?
-tags: games code
+tags: games code math
 ---
 
 In late 2017, [Matthias](http://www.starcitygames.com/events/coverage/rg_valakut_with_matthias_hunt.html) lent me a deck so I could tag along to my first Modern tournament. A few months later, I flew to Spain and broke even against world-class opponents at the [Pro Tour](https://magic.wizards.com/en/events/premierplay/protour/ptrix). My secret, honestly, was [[Valakut, the Molten Pinnacle:Valakut]]. The deck is resilient and redundant, making it incredibly friendly to beginners. All the cards are basically lands. You keep putting them on the table until your opponent concedes!

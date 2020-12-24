@@ -3,7 +3,7 @@ layout: post
 title: "Year of the Titan"
 image: "/assets/images/thumb/primeval-titan-aleksi-briclot.png"
 description: Using better-than-perfect sequencing to cast Primeval Titan
-tags: games code
+tags: games code math
 ---
 
 *Editor's note: this article has been reworked in light of [[Once Upon a Time]] being [banned in Modern](https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement).*
