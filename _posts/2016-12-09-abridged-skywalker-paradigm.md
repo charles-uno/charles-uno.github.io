@@ -49,7 +49,7 @@ For a time, the galaxy was at peace; this is still largely the case at the begin
 
 The peace will not last. Not content to serve, Vader and his daughter, Leia, have enlisted a terrorist organization called the Rebellion. Leia leads them under a false name to disguise her connection to Vader. Their aim is to depose Palpatine and install the Skywalker line as monarchs.
 
-![The polite young men of the imperial army bypassing a locked door](/assets/images/skywalker-paradigm-locked-door.jpg)
+![The polite young men of the imperial army bypassing a locked door](/assets/images/wide/skywalker-paradigm-locked-door.jpg)
 *Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)*
 
 Rebel attacks against the Empire have led to the creation of the Death Star, a space station with titanic destructive potential. The Death Star is commanded by Tarkin, a high-ranking Imperial officer with his own ideas about the future of the Empire. Tarkin is a threat, not only to Vader and Leia's plans, but to the galaxy as a whole.
