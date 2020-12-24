@@ -3,11 +3,23 @@ layout: post
 title: "Step Up with Markdown"
 image: "/assets/images/thumb/amanda-jones-pencils.png"
 description: Steam your pores, not your vegetables.
-tags: stem
+tags: code
 ---
+
+Have you ever opened up your résumé to add a point, then spent five hours fiddling with margins and fonts?
+
+
 
 
 appropriate to have a document for yourself and a polished one. not every point goes to every employer
+
+
+
+- the click-based workflow of MS word is awful
+- easy to get distracted with formatting instead of content, so good to have them in separate files
+- no concern about formatting drift between resume and CV
+- Comments let you keep all resume content in the same place, even the stuff you don't want to use today
+- compatible with version control
 
 
 
@@ -36,12 +48,6 @@ This page is written in Markdown. You can see it raw [here](https://raw.githubus
 
 
 Markdown is basically that awful [BBCode](https://en.wikipedia.org/wiki/BBCode) that web forums used in the nineties, but reinvented to be intuitive and legible.
-
-
-
-
-https://raw.githubusercontent.com/charles-uno/charles-uno.github.io/master/_drafts/2019-02-25-markdown-to-pdf.md
-
 
 
 
