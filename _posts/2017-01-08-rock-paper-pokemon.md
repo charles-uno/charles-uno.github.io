@@ -9,14 +9,31 @@ tags: games
 
 In the pokémon universe, each trainer carries a team of monsters (called pokémon) ready to battle at a moment's notice. These pokémon are attuned to the natural elements, making each battle a multidimensional game of Rock-Paper-Scissors. Water-type attacks are super effective against fire-type pokémon, fire-type attacks are super effective against ice-type pokémon, and so on.
 
-The trouble is, there are way too many types -- originally fifteen, now [eighteen][type_chart]. That's a lot of interactions to memorize, especially considering how often different types blur into one another. For example, in the first generation of games, all three ghost-type pokémon have the poison type tacked on -- as do two thirds of the grass-types and half the bug-types. Most of the original ice-type pokémon are also water-type. Most of the original rock-type pokémon are also ground-type. This issue cuts the other way as well: Charizard and Gyarados are not dragon-type pokémon despite clearly being dragons. And dark, ghost, and psychic are three different types despite all sharing a similar "spooky" vibe.
+The trouble is, there are way too many types -- originally fifteen, now [eighteen][type_chart]. That's a lot of interactions to memorize, especially considering how often different types blur into one another. For example, in the first generation of games, all three ghost-type pokémon have the poison type tacked on -- as do two thirds of the grass-types and half the bug-types. Charizard and Gyarados are not dragon-type pokémon despite clearly being dragons. And dark, ghost, and psychic are three different types despite all sharing a similar "spooky" vibe.
 
 [type_chart]: https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart
 
-Interactions between types are a mess as well. Whereas in rock always beats scissors, many type interactions in pokémon are bizarrely asymmetrical. Fighting-type attacks are not very effective against bug-type pokémon, and bug-type attacks are also not very effective against fighting-type pokémon. Fire pokémon are resistant to fire-type attacks, while ghost-type and dragon-type attacks are super effective against pokémon of those same types. Not to mention, the intuitive argument for many interactions is iffy at best. Fairy beats dragon, flying beats grass, ground beats rock, and psychic beats poison -- but only when attacking. With over 300 interactions there are bound to be a few duds, but this is too much.
+Interactions between types are a mess as well. Whereas scissors always beats paper, many type interactions in pokémon are bizarrely asymmetrical. Fighting-type attacks are not very effective against bug-type pokémon, and bug-type attacks are also not very effective against fighting-type pokémon. Fire-type attacks are not very effective against fire-type pokémon, but the opposite is true for dragons and ghosts. Not to mention, the intuitive argument for many interactions is iffy at best. Fairy beats dragon, flying beats grass, ground beats rock, and psychic beats poison -- but only when attacking. With over 300 interactions there are bound to be a few duds, but this is too much.
 
 
 
+
+
+
+
+Just for fun, let's consider what
+
+
+
+
+Just for fun, let's consider what a cleaned-up type system might look like.
+
+D&D: 8 schools of magic
+MTG: 5 colors
+Avatar: 4 elements, plus non-benders
+
+
+Just for fun, let's consider what the type interaction chart could look like if we cut the number of types in half.
 
 Pokémon isn't the only franchise to partition the elements
 
@@ -32,7 +49,7 @@ Bending in Avatar has 4 elements (fire is grouped with lightning; water includes
 
 
 
-On top of being too numerous, the types are thematically inconsistent. For the most part, pokémon are animals with elemental powers per their types. Electric-type Pikachu is a mouse that can shoot lightning. Fire-type Charmander is a lizard that breathes fire. But the bug, dragon, and flying types instead simply describe the shape of the pokémon's body. Bug-type Wurmple has no elemental powers; it's just a bug.
+Types are thematically inconsistent as well. For the most part, pokémon are animals with elemental powers per their types. Electric-type Pikachu is a mouse that can shoot lightning. Fire-type Charmander is a lizard that breathes fire. But the bug, dragon, and flying types instead simply describe the shape of the pokémon's body. Bug-type Wurmple has no elemental powers; it's just a bug.
 
 Just for fun, let's consider what type interactions would look like with half as many types.
 both by consolidating overlapping types and pruning duds.
