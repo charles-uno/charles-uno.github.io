@@ -1,17 +1,15 @@
 FROM alpine:3.13
-COPY Gemfile .
 RUN apk add --update ruby
 RUN apk add \
-        build-base \
-        ruby-dev \
-        libffi-dev \
-        ruby-etc \
-        zlib-dev
-RUN gem install bundler
-RUN bundle install
+    build-base \
+    ruby-dev \
+    libffi-dev \
+    ruby-etc \
+    zlib-dev
 
-#RUN gem cleanup
-#RUN apk del build-dependencies
-#RUN gem update --system
+RUN gem install bundler
+ENV BUNDLE_GEMFILE=/tmp/Gemfile
+COPY Gemfile $BUNDLE_GEMFILE
+RUN bundle install -j 4
 
 CMD ["/bin/sh"]
