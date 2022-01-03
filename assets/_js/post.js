@@ -1,34 +1,4 @@
 
-// Markdown wraps images in paragraph tags (with no class). Let's bump
-// out the width for those tags.
-var pars = document.getElementsByTagName('p');
-for ( var i=0; i < pars.length; i++ ) {
-    var img = pars[i].firstChild;
-    console.log("found:", img)
-    // Watch out for linked images
-    if ( img.tagName == "A" ) {
-        img = img.firstChild;
-        console.log("actually:", img)
-    }
-    // Skip any non-image tags
-    if ( img.tagName != "IMG") {
-        console.log("not an image")
-        continue;
-    } else {
-        console.log("image!")
-    }
-    // Only apply to images in the wide directory
-    if ( ! img.src.includes("/wide/") ) {
-        console.log("not wide");
-        pars[i].className = "img-wrapper";
-    } else {
-        console.log("wide image!");
-        pars[i].className = "img-wrapper-wide";
-    }
-}
-
-// ---------------------------------------------------------------------
-
 // Wrap each table in a div so we can round its corners nicely. If the
 // table is immediately followed by a caption, get that in there too.
 var tables = document.getElementsByTagName('table');

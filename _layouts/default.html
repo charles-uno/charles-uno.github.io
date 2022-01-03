@@ -35,13 +35,18 @@
         <![endif]-->
     </head>
     {% if page.title %}<body>{% else %}<body onload="applyTagHash()">{% endif %}
+        {% if page.title %}
+        <div class="autocard-wrap" id="autocard-wrap" onclick="hideAutocard()">
+            <img class="autocard" id="autocard">
+        </div>
+        {% endif %}
         <div class="full-main">
             <div class="wrap-main">
                 <div class="left-flank-main"></div>
                 <div class="main">
                     {{ content }}
                     <div class="copy">
-                        &copy; Charles Fyfe 2020 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
+                        &copy; Charles Fyfe 2022 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
                     </div>
                 </div>
                 <div class="right-flank-main"></div>
