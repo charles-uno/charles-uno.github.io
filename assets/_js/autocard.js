@@ -1,19 +1,19 @@
 var previousWindowLoader = window.onload;
 
 function getAutocardFromMacro(macro) {
-    // Allowed formats: 'cardname' or 'cardname:text'
     if (macro.length > 50) {
         throw "autocard is too long: " + macro;
     }
     // TODO: watch out for weird characters
+    // Allowed formats: 'cardname' or 'cardname:text'
     cardname_text = macro.replace('[[', '').replace(']]', '').split(":");
     cardname = cardname_text[0];
     text = cardname_text[1];
     if (text == undefined) {
         text = cardname;
     }
-    handler = 'showAutocard("' + cardname + '")';
-    return "<a onclick='" + handler + "'>" + text + "</a>";
+    handler = "'showAutocard(\"" + cardname + "\")'";
+    return "<a onclick=" + handler + " ontouchstart=" + handler + ">" + text + "</a>";
 }
 
 function initAutocard() {
@@ -39,14 +39,13 @@ function showAutocard(cardname) {
     document.getElementById("autocard-wrap").style.display = "block";
 }
 
-function getAutocardImageSrc(cardName){
+function getAutocardImageSrc(cardname){
+    let baseurl = 'http://gatherer.wizards.com/Handlers/Image.ashx?';
     // If given a number, we're searching by multiverse id.
-    if (!isNaN(cardName)) {
-        var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=';
-        var linkEnd = '&type=card';
+    if (!isNaN(cardname)) {
+        var query = 'multiverseid=' + cardname;
     } else {
-        var linkStart = 'http://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=';
-        var linkEnd = '';
+        var query = 'name=' + cardname.replace('&amp;', '//').replace('’', '\'');
     }
-    return linkStart + cardName.replace('&amp;','//').replace('’','\'') + linkEnd;
+    return baseurl + query + '&type=card';
 }
