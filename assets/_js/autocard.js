@@ -49,3 +49,5 @@ function getAutocardImageSrc(cardname){
     }
     return baseurl + query + '&type=card';
 }
+
+// TODO: close autocard on esc

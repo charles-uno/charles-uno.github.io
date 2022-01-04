@@ -12,7 +12,6 @@ function goToTag(tag) {
 
 function applyTags() {
     let active_tag = getActiveTag();
-    console.log("active tag:", active_tag);
     for(post of posts) {
         if (active_tag == null || post.tags.includes(active_tag)) {
             showPost(post);
