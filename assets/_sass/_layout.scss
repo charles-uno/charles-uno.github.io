@@ -1,11 +1,14 @@
 
-#logo, .head-glyph, .head-tag {
+#logo, .head-glyph {
     border: 0;
     margin: 0;
     padding: 0;
     line-height: 1;
     color: $shadow-color;
-    &:hover { cursor: pointer; color: $text-color; }
+    &:hover {
+        cursor: pointer;
+        color: $text-color;
+    }
 }
 
 #logo {
@@ -18,15 +21,11 @@
     margin: 0 0.2*$fs-glyph;
 }
 
-.head-tag {
-    margin: 0 $head-tag-pad;
-}
-
 div.head-logo {
     display: inline-block;
 }
 
-div.head-tags, .head-links {
+.head-links {
     display: inline-block;
     width: 100%;
     text-align: right;
@@ -37,12 +36,7 @@ div.head-tags, .head-links {
 
 // ---------------------------------------------------------------------
 
-div.full-main, div.wrap-main {
-    height: 100%;
-    background: $paper-color;
-}
-
-.full-head, .head, .wrap-main {
+.wrap-head, .head, .wrap-main, .main, .copy {
     width: 100%;
     border: 0;
     padding: 0;
@@ -50,18 +44,7 @@ div.full-main, div.wrap-main {
     display: block;
 }
 
-.full-main {
-    padding-top: $head-height;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    width: 100%;
-    border: 0;
-    margin: 0;
-    display: block;
-}
-
-div.full-head {
+.wrap-head {
     background-color: $accent-color;
     -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $shadow-size;
     -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
@@ -71,9 +54,13 @@ div.full-head {
     position: fixed;
 }
 
-div.head {
-    a, a:visited { color: $shadow-color; }
-    a:hover { color: $text-color; }
+.head {
+    a, a:visited {
+        color: $shadow-color;
+    }
+    a:hover {
+        color: $text-color;
+    }
     max-width: $paper-width;
     padding: $tile-pad/2 $side-pad;
     display: flex;
@@ -83,41 +70,34 @@ div.head {
     align-items: center;
 }
 
-// Wrapper is styled like a table. Content width is fixed (though it can
-// squish) and the flanks fill the rest.
-
-div.wrap-main { display: table; }
-
-.left-flank-main, .right-flank-main {
+.wrap-main {
+    padding-top: $head-height;
+    height: 100%;
     background-color: $shadow-color;
 }
 
-.full-main { background-color: $paper-color; }
-
-div.main, div.left-flank-main, div.right-flank-main {
-    display: table-cell;
+.main {
+    background-color: $paper-color;
+    margin: 0 auto;
     min-height: 100%;
     position: relative;
     // Leave room for the copyright
     padding-bottom: $copy-height + $tile-pad/2;
-}
-
-div.main {
-    width: $paper-width;
+    max-width: $paper-width;
     padding-top: $side-pad;
     padding-left: 2*$side-pad;
     padding-right: 2*$side-pad;
     text-align: justify;
     header, article, footer {
-        border: 0; margin: 0; padding: 0;
+        border: 0;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: $text-width;
     }
 }
 
-// ---------------------------------------------------------------------
-
 .copy {
-    // Copyright blurb at the bottom.
-    display: block;
     text-align: center;
     font-size: $fs-caption;
     padding: ($copy-height - $fs-caption)/2;
@@ -125,9 +105,13 @@ div.main {
     height: $copy-height;
     vertical-align: middle;
     position: absolute;
-    width: 100%;
     bottom: 0px;
     right: 0px;
     color: $text-color;
-    a { color: $accent-color; &:hover { color: $text-color; } }
+    a {
+        color: $accent-color;
+        &:hover {
+            color: $text-color;
+        }
+    }
 }

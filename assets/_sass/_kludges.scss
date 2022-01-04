@@ -17,7 +17,6 @@
     .cardlist { td { width: 33.3%; } }
     .cardlist-with-sideboard { td { width: 25%; } }
 
-    // Ordered lists show as tiles, like on the index.
     p.tiles, span.tiles {
         background-color: $paper-color;
         span {
@@ -28,7 +27,6 @@
         }
     }
 
-    // Ordered lists show as tiles, like on the index.
     p.tiles, span.tiles {
         display: flex;
         flex-wrap: wrap;
