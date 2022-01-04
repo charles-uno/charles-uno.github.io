@@ -30,14 +30,18 @@ function getActiveTag() {
     }
 }
 
-function intersect(arr0, arr1) {
-    // Accept two arrays. Return true if they share any elements.
-    for(var i = 0; i < arr0.length; i++) {
-        for(var j = 0; j < arr1.length; j++) {
-            if (arr0[i] == arr1[j]) { return true; }
-        }
+function showPost(post) {
+    let item = document.getElementById("item-" + post.slug);
+    if (item) {
+        item.style.display = "inline-block";
     }
-    return false;
+}
+
+function hidePost(post) {
+    let item = document.getElementById("item-" + post.slug);
+    if (item) {
+        item.style.display = "none";
+    }
 }
 
 var useHover = true;
@@ -50,34 +54,12 @@ function fixStickyHover() {
     return;
 }
 
-function showPost(post) {
-    var item = document.getElementById("item-" + post.slug);
-    if (item) {
-        item.style.display = "inline-block";
-    }
-}
-
-function hidePost(post) {
-    var item = document.getElementById("item-" + post.slug);
-    if (item) {
-        item.style.display = "none";
-    }
-}
-
-// Call here to make sure we catch tag selection from posts to the index.
-applyTags();
-
-// Escape clears any tag filters.
-document.onkeydown = function(evt) {
-    evt = evt || window.event;
-    var isEscape = false;
-    // For portability.
-    if ("key" in evt) {
-        isEscape = (evt.key == "Escape" || evt.key == "Esc");
-    } else {
-        isEscape = (evt.keyCode == 27);
-    }
-    if (isEscape) {
+document.onkeydown = function(e) {
+    e = e || window.event;
+    if (e.key == "Escape" || e.key == "Esc" || e.keyCode == 27) {
         goToTag(null);
     }
 };
+
+// Call here to make sure we catch tag selection from posts to the index
+applyTags();
