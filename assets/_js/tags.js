@@ -1,21 +1,20 @@
 // URL bar is the single source of truth. Apply changes there then refresh
 
 function goToTag(tag) {
-    let active_tags = getActiveTags();
-    if (tag == null || active_tags.includes(tag)) {
-        active_tags = [];
+    let active_tag = getActiveTag();
+    if (tag == null || tag == active_tag) {
+        window.location.href = "{{ site.url }}/#";
     } else {
-        active_tags = [tag];
+        window.location.href = "{{ site.url }}/#" + tag;
     }
-    window.location.href = "{{ site.url }}/#" + active_tags.join(",");
     applyTags();
 }
 
 function applyTags() {
-    var active_tags = getActiveTags();
-    console.log("active tags:", active_tags);
+    let active_tag = getActiveTag();
+    console.log("active tag:", active_tag);
     for(post of posts) {
-        if (active_tags.length == 0 || intersect(post.tags, active_tags)) {
+        if (active_tag == null || post.tags.includes(active_tag)) {
             showPost(post);
         } else {
             hidePost(post);
@@ -23,11 +22,11 @@ function applyTags() {
     }
 }
 
-function getActiveTags() {
+function getActiveTag() {
     if (window.location.hash) {
-        return window.location.hash.replace("#", "").split(",");
+        return window.location.hash.replace("#", "");
     } else {
-        return [];
+        return null;
     }
 }
 
@@ -64,6 +63,9 @@ function hidePost(post) {
         item.style.display = "none";
     }
 }
+
+// Call here to make sure we catch tag selection from posts to the index.
+applyTags();
 
 // Escape clears any tag filters.
 document.onkeydown = function(evt) {
