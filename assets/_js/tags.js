@@ -1,27 +1,14 @@
-// List of all the tags we use
+// URL bar is the single source of truth. Apply changes there then refresh
 
-{% assign tags = "" | split: "|" %}
-{% for post in site.posts %}
-    {% for tag in post.tags %}
-        {% assign tags = tags | push: tag %}
-    {% endfor %}
-{% endfor %}
-{% assign tags = tags | sort | uniq %}
-
-var tags = [
-    {% for tag in tags %}
-    "{{ tag }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-];
-
-// URL bar is the single source of truth. Apply changes there then read from it
-
-function getActiveTags() {
-    if (window.location.hash) {
-        return window.location.hash.replace("#", "").split(",");
+function goToTag(tag) {
+    let active_tags = getActiveTags();
+    if (tag == null || active_tags.includes(tag)) {
+        active_tags = [];
     } else {
-        return [];
+        active_tags = [tag];
     }
+    window.location.href = "{{ site.url }}/#" + active_tags.join(",");
+    applyTags();
 }
 
 function applyTags() {
@@ -34,7 +21,14 @@ function applyTags() {
             hidePost(post);
         }
     }
-    return;
+}
+
+function getActiveTags() {
+    if (window.location.hash) {
+        return window.location.hash.replace("#", "").split(",");
+    } else {
+        return [];
+    }
 }
 
 function intersect(arr0, arr1) {
@@ -45,44 +39,6 @@ function intersect(arr0, arr1) {
         }
     }
     return false;
-}
-
-// ---------------------------------------------------------------------
-
-// From a post, we access a tag by navigating to the index with the
-// appropriate hash. We run applyTags runs on window load.
-
-// window.onload = applyTags;
-
-function goToTag(tag) {
-    return goToTags([tag])
-}
-
-function goToTags(tags) {
-    var tag_hash = tags.join();
-    window.location.href = "{{ site.url }}/#" + tag_hash;
-    // From a post, execution stops here, and applyTags is called
-    // automatically when the new window loads. If we're already on the
-    // index, the hash is updated, and we apply the changes manually.
-    return applyTags();
-}
-
-// ---------------------------------------------------------------------
-
-// On the index, it's easier to send toggle operations rather than
-// explicitly list the tags we want to set active. Figure that out here.
-
-function toggleTag(tag) {
-    var active_tags = getActiveTags();
-    var tag_location = active_tags.indexOf(tag);
-    // If the tag isn't active, add it to the list.
-    if (tag_location == -1) {
-        active_tags.push(tag);
-    // If it is active, splice it out.
-    } else {
-        active_tags.splice(tag_location, 1);
-    }
-    return goToTags(active_tags);
 }
 
 var useHover = true;
@@ -109,8 +65,6 @@ function hidePost(post) {
     }
 }
 
-// ---------------------------------------------------------------------
-
 // Escape clears any tag filters.
 document.onkeydown = function(evt) {
     evt = evt || window.event;
@@ -122,6 +76,6 @@ document.onkeydown = function(evt) {
         isEscape = (evt.keyCode == 27);
     }
     if (isEscape) {
-        goToTags([]);
+        goToTag(null);
     }
 };
