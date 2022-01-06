@@ -7,15 +7,70 @@ description: "Rock beats ice. Bug beats psychic. Fairy beats dragon. What might 
 tags: games
 ---
 
-In the pokémon universe, each trainer carries a team of monsters (called pokémon) ready to battle at a moment's notice. These pokémon are attuned to the natural elements, making each battle a multidimensional game of Rock-Paper-Scissors. Water-type attacks are super effective against fire-type pokémon, fire-type attacks are super effective against ice-type pokémon, and so on.
+In the pokémon universe, each trainer carries a team of creatures (called pokémon) ready to fight at a moment's notice. These pokémon are attuned to the natural elements, making each battle a multidimensional game of Rock-Paper-Scissors. Water attacks are super effective against fire pokémon, fire attacks are super effective against ice pokémon, and so on.
 
-The trouble is, there are way too many types -- originally fifteen, now [eighteen][type_chart]. That's a lot of interactions to memorize, especially considering how often different types blur into one another. For example, in the first generation of games, all three ghost-type pokémon have the poison type tacked on -- as do two thirds of the grass-types and half the bug-types. Charizard and Gyarados are not dragon-type pokémon despite clearly being dragons. And dark, ghost, and psychic are three different types despite all sharing a similar "spooky" vibe.
+The trouble is, there are way too many types. The original games had fifteen, and that number has since grown to [eighteen][type_chart]. That's a lot to keep straight, especially considering how often types blur into one another. For example, of the original 150 pokémon, all three ghosts have the poison type tacked on -- as do two-thirds of the grass pokémon and half the bugs. Charizard and Gyarados do not have the dragon type, despite clearly being dragons. Dark, ghost, and psychic all share the same "spooky" vibe.
+
+<!--
+Ground and rock blur together as well; both types are resistant to poison, super-effective against fire, and vulnerable to grass and water.
+Ice and Steel are both ineffective against water and weak to ground, fighting, and fire
+Ice and ground are super effective against each other
+-->
 
 [type_chart]: https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart
 
-Interactions between types are a mess as well. Whereas scissors always beats paper, many type interactions in pokémon are bizarrely asymmetrical. Fighting-type attacks are not very effective against bug-type pokémon, and bug-type attacks are also not very effective against fighting-type pokémon. Fire-type attacks are not very effective against fire-type pokémon, but the opposite is true for dragons and ghosts. Not to mention, the intuitive argument for many interactions is iffy at best. Fairy beats dragon, flying beats grass, ground beats rock, and psychic beats poison -- but only when attacking. With over 300 interactions there are bound to be a few duds, but this is too much.
+On top of having too many types, the interactions between them are needlessly complicated.
 
 
+reflexive
+
+
+Water beats fire, whether on offense or defense.
+
+
+Scissors always beats paper
+
+
+
+but many type interactions in pokémon are bizarrely unpredictable.
+
+
+
+Fire pokémon are resistant to fire-type attacks, but ghosts are vulnerable to
+
+
+Fire-type pokémon are resistant to fire-type attacks, but dragons and ghosts are vulnerable to their own type.
+
+
+Fire-type pokémon resist fire-type attacks, but ghost-type pokémon are weak to ghost-type attacks.
+
+Fighting and bug resist each other. Ground and ice are weak to each other.
+
+
+
+
+Fighting-type attacks are not very effective against bug-type pokémon, and bug-type attacks are also not very effective against fighting-type pokémon.
+
+
+
+
+attacks are not very effective against fire-type pokémon, but the opposite is true for dragons and ghosts. Ice and ground are mutually super-effective. Not to mention, the intuitive argument for many of these interactions is iffy at best. Fairy beats dragon, flying beats grass, ground beats rock, and psychic beats poison -- but only when attacking. With over 300 interactions there are bound to be a few duds, but this is too much.
+
+The pokémon type system is so unwieldy that the official pokémon trading card game doesn't even use it. Instead, it consolidates the eighteen "real" types down to [ten][tcg_types]. Ten types is more digestable[^1] in some ways, but consistent type interactions are out the window. For example: ghost-type Duskull and fairy-type Clefairy are both printed as psychic-type in the TCG, but their weaknesses and resistances are completely different.
+
+[tcg_types]: https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)
+
+[^1]: Compared to other franchises that divide up a fantasy space, pokémon has an unusually large number of categories. For comparison: Avatar has [four elements][avatar_elements], D&D has [eight schools of magic][dnd_schools], Hearthstone has [ten classes][hearthstone_classes], MTG has [five colors of magic][mtg_colors], Warhammer has [eight lores][warhammer_lores], and so on.
+
+[avatar_elements]: https://avatar.fandom.com/wiki/Bending_arts
+[dnd_schools]: https://en.wikipedia.org/wiki/Magic_in_Dungeons_%26_Dragons#Schools_of_magic
+[hearthstone_classes]: https://hearthstone.fandom.com/wiki/Class
+[mtg_colors]: https://mtg.fandom.com/wiki/Color
+[warhammer_lores]: https://neoencyclopedia.fandom.com/wiki/Lores_of_magic_in_Warhammer
+
+
+
+what if we had a good number of types to start?
 
 
 
@@ -28,24 +83,6 @@ Just for fun, let's consider what
 
 Just for fun, let's consider what a cleaned-up type system might look like.
 
-D&D: 8 schools of magic
-MTG: 5 colors
-Avatar: 4 elements, plus non-benders
-
-
-Just for fun, let's consider what the type interaction chart could look like if we cut the number of types in half.
-
-Pokémon isn't the only franchise to partition the elements
-
-MTG has 5 colors of magic
-[Spellcasting in Warhammer][warhammer] is divided into 8 lores
-Bending in Avatar has 4 elements (fire is grouped with lightning; water includes ice as well as, disturbingly, mind control)
-[D&D][dnd] has 8 schools of magic
-
-[warhammer]: https://neoencyclopedia.fandom.com/wiki/Lores_of_magic_in_Warhammer
-[dnd]: https://en.wikipedia.org/wiki/Magic_in_Dungeons_%26_Dragons#Schools_of_magic
-
-
 
 
 
@@ -57,22 +94,11 @@ Bug, for example, is a poor excuse for a type. Caterpie doesn't have any sort of
 
 
 
-Partitioning
-
-D&D: 12 classes
-MTG: 5 colors
-Hearthstone: 10 classes
-Avatar: 4 elements
-
 - every pokemon has somewhere to go, though we wouldn't complain if some of the duds got left behind
 
 If it has to wear pants to be decent, it's not a legitimate pokémon. It's a person. Entering Hitmonchan in a pokémon battle is like throwing your cousin into a dogfighting ring.
 
 different from the card game, which prints fewer types but still has "real" types under the hood
-
-The pokémon franchise has even implicitly conceded that the number of types is unwieldy; in the trading card game, they consolidated to seven types, which has since increased to [ten][tcg_types]. That said, type interactions in the card game pays homage to the "real" eighteen types. Diglett (ground-type) and Machop (fighting-type) are both represented by the same card type, but they have different weaknesses and resistences.
-
-[tcg_types]: https://bulbapedia.bulbagarden.net/wiki/Type_(TCG)
 
 
 <!--
