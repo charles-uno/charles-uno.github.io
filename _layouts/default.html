@@ -34,25 +34,23 @@
             <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    {% if page.title %}<body>{% else %}<body onload="applyTagHash()">{% endif %}
-        <div class="full-main">
-            <div class="wrap-main">
-                <div class="left-flank-main"></div>
-                <div class="main">
-                    {{ content }}
-                    <div class="copy">
-                        &copy; Charles Fyfe 2020 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
-                    </div>
+    <body>
+        {% if page.title %}
+        <div class="autocard-wrap" id="autocard-wrap" onclick="hideAutocard()">
+            <img class="autocard" id="autocard">
+        </div>
+        {% endif %}
+        <div class="wrap-main">
+            <div class="main">
+                {{ content }}
+                <div class="copy">
+                    &copy; Charles Fyfe 2022 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
                 </div>
-                <div class="right-flank-main"></div>
             </div>
         </div>
 
-        <div class="full-head">
+        <div class="wrap-head">
             <div class="head">
-                {% comment %}
-                The existence of page.title is used to distinguish the blog homepage from a content page.
-                {% endcomment %}
                 {% if page.title %}
                     {% include head-post.html %}
                 {% else %}
