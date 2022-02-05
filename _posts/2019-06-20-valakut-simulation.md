@@ -37,31 +37,24 @@ Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-tit
 
 [^3]: Two or three copies of [[Cinder Glade]] would be more typical. We bump it up to the full set to make the difference between [[Cinder Glade]] and [[Sheltered Thicket]] as clear as possible.
 
-<table class="cardlist">
-    <caption class="deckname">Titan Breach</caption>
-    <tr>
-        <td>
-            6 [[Anger of the Gods]] or whatever<br>
-            4 [[Farseek]]<br>
-            4 [[Primeval Titan]]<br>
-            4 [[Sakura-Tribe Elder]]<br>
-            4 [[Search for Tomorrow]]<br>
-            4 [[Simian Spirit Guide]]<br>
-            4 [[Summoner's Pact]]<br>
-            4 [[Through the Breach]]<br>
-            1 [[Woodfall Primus]]<br>
-        </td>
-        <td>
-            1 [[Blighted Woodland]]<br>
-            4 [[Cinder Glade]]<br>
-            2 [[Forest]]<br>
-            6 [[Mountain]]<br>
-            4 [[Stomping Ground]]<br>
-            4 [[Valakut, the Molten Pinnacle]]<br>
-            4 [[Wooded Foothills]]<br>
-        </td>
-    </tr>
-</table>
+|   | Titan Breach (Summer 2019) |
+|--:|:---------------------------|
+| 6 | [[Anger of the Gods]] or whatever |
+| 4 | [[Farseek]]                |
+| 4 | [[Primeval Titan]]         |
+| 4 | [[Sakura-Tribe Elder]]     |
+| 4 | [[Search for Tomorrow]]    |
+| 4 | [[Simian Spirit Guide]]    |
+| 4 | [[Summoner's Pact]]        |
+| 4 | [[Through the Breach]]     |
+| 1 | [[Woodfall Primus]]        |
+| 1 | [[Blighted Woodland]]      |
+| 4 | [[Cinder Glade]]           |
+| 2 | [[Forest]]                 |
+| 6 | [[Mountain]]               |
+| 4 | [[Stomping Ground]]        |
+| 4 | [[Valakut, the Molten Pinnacle]] |
+| 4 | [[Wooded Foothills]]       |
 
 We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run the same model back using [[Shivan Oasis]][^4]. This allows us to disentangle the upside of cycling from the downside of always entering the battlefield tapped. The table below shows how the numbers shake out:
 
@@ -102,32 +95,25 @@ With zero copies of [[Simian Spirit Guide]], only about one in thirty hands can 
 
 [Titan Shift](https://www.mtggoldfish.com/archetype/modern-titanshift-46457#paper) is the slow-and-steady [[Valakut, the Molten Pinnacle:Valakut]] deck. Instead of trying to win on turn three, it finds time to disrupts its opponent with [[Anger of the Gods]], [[Relic of Progenitus]], or even [[Mwonvuli Acid-Moss]]. The deck has a fair amount of wiggle room -- players often find a place for their pet cards -- but the following is a believable baseline:
 
-<table class="cardlist">
-    <caption class="deckname">Titan Shift</caption>
-    <tr>
-        <td>
-            8 [[Anger of the Gods]] or whatever<br>
-            4 [[Farseek]]<br>
-            1 [[Mwonvuli Acid-Moss]]<br>
-            4 [[Primeval Titan]]<br>
-            1 [[Prismatic Omen]]<br>
-            4 [[Sakura-Tribe Elder]]<br>
-            4 [[Scapeshift]]<br>
-            4 [[Search for Tomorrow]]<br>
-            2 [[Summoner's Pact]]<br>
-            1 [[Wood Elves]]<br>
-        </td>
-        <td>
-            1 [[Blighted Woodland]]<br>
-            4 [[Cinder Glade]]<br>
-            2 [[Forest]]<br>
-            8 [[Mountain]]<br>
-            4 [[Stomping Ground]]<br>
-            4 [[Valakut, the Molten Pinnacle]]<br>
-            4 [[Wooded Foothills]]<br>
-        </td>
-    </tr>
-</table>
+|   | Titan Shift (Summer 2019) |
+|--:|:--------------------------|
+| 8 | [[Anger of the Gods]] or whatever |
+| 4 | [[Farseek]]               |
+| 1 | [[Mwonvuli Acid-Moss]]    |
+| 4 | [[Primeval Titan]]        |
+| 1 | [[Prismatic Omen]]        |
+| 4 | [[Sakura-Tribe Elder]]    |
+| 4 | [[Scapeshift]]            |
+| 4 | [[Search for Tomorrow]]   |
+| 2 | [[Summoner's Pact]]       |
+| 1 | [[Wood Elves]]            |
+| 1 | [[Blighted Woodland]]     |
+| 4 | [[Cinder Glade]]          |
+| 2 | [[Forest]]                |
+| 8 | [[Mountain]]              |
+| 4 | [[Stomping Ground]]       |
+| 4 | [[Valakut, the Molten Pinnacle]] |
+| 4 | [[Wooded Foothills]]      |
 
 As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include [[Shivan Oasis]] as a control to disentangle cycling from entering the battlefield untapped. The numbers are below:
 
