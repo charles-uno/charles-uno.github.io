@@ -43,31 +43,25 @@ For the sake of brevity, we're not getting into the numbers for [[Castle Garenbr
 
 Simulations make use of the list below. The letter `X` represents [[Arboreal Grazer]] or [[Sakura-Tribe Scout]], `Y` is [[Azusa, Lost but Seeking:Azusa]] or [[Explore]], and `Z` is [[Ancient Stirrings]], [[Oath of Nissa]], or [[Once Upon a Time:OUAT]]. Put another way, we're looking at all possible combinations of a one-drop ramp creature, an additional ramp spell, and a cantrip.
 
-<table class="cardlist">
-    <caption class="deckname">Amulet Titan (March 2020)</caption>
-    <tr>
-        <td>
-            4 X<br>
-            4 Y<br>
-            4 Z<br>
-            4 [[Amulet of Vigor]]<br>
-            4 [[Dryad of the Ilysian Grove]]<br>
-            4 [[Primeval Titan]]<br>
-            4 [[Summoner's Pact]]<br>
-            2 [[Pact of Negation:Other]] [[Engineered Explosives:Stuff]]<br>
-        </td>
-        <td>
-            4 [[Castle Garenbrig]]<br>
-            4 [[Misty Rainforest:Fetches]] and [[Breeding Pool:Shocks]]<br>
-            4 [[Forest:Basic]] [[Snow-Covered Forest:Forests]]<br>
-            3 [[Selesnya Sanctuary:Off-Color]] [[Golgari Rot Farm:Bounce]] [[Gruul Turf:Lands]]<br>
-            5 [[Bojuka Bog:Off-Color]] [[Field of the Dead:Tapped]] [[Valakut, the Molten Pinnacle:Lands]]<br>
-            4 [[Ghost Quarter:Off-Color]] [[Radiant Fountain:Untapped]] [[Hanweir Battlements:Lands]]<br>
-            4 [[Simic Growth Chamber]]<br>
-            2 [[Tolaria West]]<br>
-        </td>
-    </tr>
-</table>
+
+|   | Amulet Titan (March 2020) |
+|--:|:--------------------------|
+| 4 | X                         |
+| 4 | Y                         |
+| 4 | Z                         |
+| 4 | [[Amulet of Vigor]]       |
+| 4 | [[Dryad of the Ilysian Grove]] |
+| 4 | [[Primeval Titan]]        |
+| 4 | [[Summoner's Pact]]       |
+| 2 | [[Pact of Negation:Other]] [[Engineered Explosives:Stuff]] |
+| 4 | [[Castle Garenbrig]]      |
+| 4 | [[Misty Rainforest:Fetches]] and [[Breeding Pool:Shocks]] |
+| 4 | [[Forest:Basic]] [[Snow-Covered Forest:Forests]] |
+| 3 | [[Selesnya Sanctuary:Off-Color]] [[Golgari Rot Farm:Bounce]] [[Gruul Turf:Lands]] |
+| 5 | [[Bojuka Bog:Off-Color]] [[Field of the Dead:Tapped]] [[Valakut, the Molten Pinnacle:Lands]] |
+| 4 | [[Ghost Quarter:Off-Color]] [[Radiant Fountain:Untapped]] [[Hanweir Battlements:Lands]] |
+| 4 | [[Simic Growth Chamber]]  |
+| 2 | [[Tolaria West]]          |
 
 Note that the above list does not include [[Cavern of Souls]] or [[Vesuva]] due to computational complexity. We're also not accounting for small variations between deck lists. Some people play [[Boros Garrison]], [[Crumbling Vestige]], a third [[Tolaria West]], and so on. Wiggle room in the mana base introduces a potential percent-level bias across the board, but should not affect our ability to make relative comparisons.
 
