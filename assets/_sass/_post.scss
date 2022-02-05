@@ -102,7 +102,7 @@ article {
     }
 
     // Highlight quotes, footnotes, snippets, images, tables, and code.
-    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, img + em, table, tbody, tr, th, td, .table-caption, .img-wrapper, .img-wrapper-wide, div.flex-across {
+    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, table, tbody, tr, th, td, .table-caption, .img-wrapper, .img-wrapper-wide, div.flex-across {
         background-color: $shadow-color;
     }
 
@@ -128,22 +128,6 @@ article {
         font-size: 0;
         display: flex;
         justify-content: space-around;
-    }
-
-    img.third {
-        width: 33%;
-        display: inline-block;
-    }
-
-    img.half {
-        width: 40%;
-        display: inline-block;
-    }
-
-
-    // A bit of a gap between the image and its caption.
-    img + em {
-        margin-top: $shadow-pad;
     }
 
     // Keep cells from running into one another.
