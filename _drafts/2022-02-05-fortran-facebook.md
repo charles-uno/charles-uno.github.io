@@ -32,6 +32,11 @@ What does good logging feel like?
 - Counters and timers are cheap to store, good for long term trends
 
 
+Managers don't need to know about your day to day work. don't need to attend standup. that's what tech leads are for. managers are there for non-tech support and career development. checking in on you. arranging mentor/mentee relationships. backing you up when other teams come knocking, or during performance evaluation time
+
+
+
+
 scaling tools. auto format. VS Code integration with version control. click to copy. click to open in VS Code
 
 
