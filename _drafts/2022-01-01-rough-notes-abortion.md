@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rough Notes: Abortion
+title: "Rough Notes: Abortion"
 image: "/assets/images/thumb/hair.png"
 description: ""
 tags: politics

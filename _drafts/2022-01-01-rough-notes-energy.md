@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nuke Coal"
+title: "Rough Notes: Energy"
 image: "/assets/images/thumb/hello-i-m-nik-crayons.png"
 description: ""
 ---

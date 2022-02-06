@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Smoking Gun"
+title: "Rough Notes: Guns"
 image: "/assets/images/thumb/rodion-kutsaev-pencils.png"
 description: ""
 keywords: politics, guns

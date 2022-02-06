@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homelessness is a Moral Failure"
+title: "Rough Notes: Housing"
 image: "/assets/images/thumb/jelle-de-gier-frog.png"
 description: "There's no excuse for letting a child sleep on the street"
 tags: politics
@@ -13,7 +13,7 @@ Under no circumstances should a child in America[^1] be homeless. I believe stro
 
 
 
-Unless you've studied homelessness specifically, 
+Unless you've studied homelessness specifically,
 
 
 
