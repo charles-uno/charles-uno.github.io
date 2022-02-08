@@ -39,9 +39,6 @@ What do I mean by good logging?
 What do I mean by good testing?
 - Let's say you're on vacation and your teammate makes a change to your code. They have a general understanding but are not deeply familiar. They accidentally return `true` instead of `false` in a way that would cause huge immediate problems. do red flags appear automatically on the pull request?
 
-
-
-
 - automated testing means your teammates probably won't accidentally break your stuff when you're on vacation.
 - metrics means when they do, they can triage it themselves without calling you
 

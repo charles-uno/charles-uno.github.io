@@ -2,20 +2,88 @@
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
 image: "/assets/images/thumb/chainmail-maria-lysenko.png"
-description: "A summary and endorsement, twenty-five years later"
+description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
 
 At the 1532 Battle of Cajamarca, 168 Spaniards led by Francisco Pizarro killed thousands of Incas and captured Emperor Atahuallpa without suffering a single casualty.
-Immediate causes of the lopsided interaction are clear enough:
-Europe had the political structures and seafaring technology to send expeditions across the ocean,
-European soldiers rode horses and wore steel armor,
-Native Americans were devastated by European diseases such as smallpox,
-written language allowed Pizarro to model his ambush on the successful tactics of Cortés,
+Immediate causes of the lopsided interaction are clear enough.
+Europe had the political structures and seafaring technology to send expeditions across the ocean;
+European soldiers rode horses and wore steel armor;
+Native Americans were devastated by European diseases such as smallpox;
+the written word allowed Pizarro to model his ambush on the successful tactics of Cortés;
 and so on.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond looks past the immediate causes in search of a fundamental explanation for why civilizations on different continents developed technology at such different rates.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into history (and pre-history) in search of an ultimate explanation to why civilizations on different continents developed technology at such different rates.
 
-Right off the bat, the author addresses the elephant in the room: it's not about race or culture. Even if you believe that one group of people is innately smarter --- which the author emphatically does not --- that's not an ultimate cause. For example, if we credit Confucianism for China's technological breakthroughs, now we have to explain why similar philosophies did not become dominant elsewhere!
+Right off the bat, the author addresses the elephant in the room: it's not about race.
+In terms of biology, humans are all pretty much the same.
+And besides, most of Pizarro's technologies were originally imported from the Middle East or Asia, not developed in Europe.
+
+
+
+
+
+
+
+
+criticism: lots of focus on middle east climate, native plants, etc. but rice was domesticated about the same time. why so little discussion of that?
+
+
+
+Even if you believe that Europeans are innately superior --- which the author emphatically does not --- such an argument raises more questions than in answers.
+What unique evolutionary pressure caused Europeans to supposedly diverge from the rest of humanity about 10,000 years ago?
+And after Europeans did diverge from the rest of humanity,
+
+
+
+
+
+
+And even if you believe that Eurasians[^1] are innately superior --- which the author emphatically does not ---
+
+
+
+
+that's not an ultimate explanation.
+Now you have to explain what unique evolutionary pressures caused that supposed superiority,
+
+
+
+Now you have to explain why.
+
+Now you
+
+
+
+
+From there you'd need to describe what unique evolutionary pressures gave rise
+
+
+
+
+And even if there were differences between the races, that still wouldn't be an ultimate explanation.
+
+
+
+
+
+
+
+Even if you believe that Europeans are innately superior --- which the author emphatically does not --- that's not an ultimate cause.
+
+
+
+
+Now you'd have to explain what unique evolutionary pressures caused Europeans to become smarter than the rest of humanity, as well as why those
+
+
+
+
+
+
+
+
+For example, if we credit Confucianism for China's technological breakthroughs, now we have to explain why similar philosophies did not become dominant elsewhere!
 
 Diamond spends nearly 500 pages pulling together ideas from archeology, evolutionary biology, geography, and even linguistics. But in the end, his argument is so straightforward it's almost anticlimactic. In a word: wheat.
 
@@ -27,7 +95,23 @@ Warming climate coincides with growing human populations.
 Large wild animals become less plentiful due to a combination of climate and hunting.
 Climate becomes more friendly to wild cereals, especially in mediterranean areas.
 
-fertile crescent is the largest and most varied mediterranean biome on the planet. no surprise that the moost (and best) grasses would evolve there.
+fertile crescent is the largest and most varied mediterranean biome on the planet. no surprise that the most (and best) grasses would evolve there.
+
+
+
+
+
+
+
+About 13,000 years ago:
+
+- The last ice age ended. the climate warmed.
+- Human populations grew
+- Most species of large herbivore went extinct worldwide
+- Different plant species flourished due to the warming climate
+
+biologically modern humans were already living worldwide, including remote pacific islands
+
 
 
 
