@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Fortran to Facebook"
+title: "Validation and Visibility"
 image: "/assets/images/thumb/alexandre-debieve-circuit.png"
 description: "A letter to myself after a year in the future"
 tags: code
@@ -24,17 +24,26 @@ and now I understand what I should have been working for before
 Notes below on what I wish I'd understood three years ago
 
 What do I mean by good logging?
-- Anyone can easily create a new table to store structured data
+- Anyone can easily create a new table to store structured data, and easily add a row to that table
 - Anyone can easily tick a counter or timer
 - Anyone can easily build a dashboard from their data
+
+## Good logging means other people can triage potential problems with your code. If something is wrong, your dashboard will show (1) where the problem is hitting you, and (2) when it started so you can look for what changed. in other words, ownership can be abstracted away from individuals and onto oncall rotations. Scalable. Less burnout. You can take a day off.
 
 ## Good logging means you can see problems sooner. Regression in latency or validation rate. Solve them during business hours rather than waiting for them to become emergencies
 
 ## Good logging means you can reproduce one-in-a-million crashes
 
-## Good logging means that other members of your team can triage potential problems with your code. in other words, ownership can be abstracted away from individuals and onto oncall rotations. Scalable. Less burnout
-
 ## Good logging means you don't personally need access to the system where your code is running. Plays nicer with web scale. Also better for security.
+
+What do I mean by good testing?
+- Let's say you're on vacation and your teammate makes a change to your code. They have a general understanding but are not deeply familiar. They accidentally return `true` instead of `false` in a way that would cause huge immediate problems. do red flags appear automatically on the pull request?
+
+
+
+
+- automated testing means your teammates probably won't accidentally break your stuff when you're on vacation.
+- metrics means when they do, they can triage it themselves without calling you
 
 
 
