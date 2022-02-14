@@ -6,18 +6,65 @@ description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
 
-At the 1532 Battle of Cajamarca, 168 Spaniards led by Francisco Pizarro killed thousands of Incas and captured Emperor Atahuallpa without suffering a single casualty.
-Immediate causes of the lopsided interaction are clear enough.
+At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
+Then they marched on the capital city of Cusco, killing thousands more Incan warriors along the way.
+The Incan empire --- which at the time was [more populous than Spain][1500_populations] --- fell shortly thereafter.
+
+
+The conquistadors wore steel armor and rode horses, while the Incas wore cloth and fought on foot.
+The conquistadors were preceded by a smallpox epidemic.
+Written language allowed Pizarro to model his tactics after the victories of Cortés.
+Europe had the political structures and seafaring technology to send expeditions around the world in the first place.
+
+
+The horrors of the colonial era, in South America and elsewhere, are a grim testament to the technological disparities between civilizations on different continents.
+
+
+
+
+
+ that developed between continents over the course of human history.
+
+laid bare the technological disparities between civilizations on
+
+
+
+
+
+
+The Spanish conquistadors had every advantage over the Incas.
+
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and pre-history) in order to explain
+
+The horrors of the colonial era, in South America and elsewhere, are a grim testament to the technological disparity between continents.
+
+Indigenous peoples in North America, Sub-Saharan Africa, and Australia were similarly devastated during the colonial era.
+
+
+
+[1500_populations]: https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1500
+
+The horrors of the colonial era, in South America and elsewhere, were enabled by
+The massacre, like countless others, is a grim testament to the technological disparities between continents leading into the colonial era.
+
+
+At the Battle of Cajamarca, a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
+The massacre can easily be explained in terms of proximate causes.
 Europe had the political structures and seafaring technology to send expeditions across the ocean;
 European soldiers rode horses and wore steel armor;
 Native Americans were devastated by European diseases such as smallpox;
 the written word allowed Pizarro to model his ambush on the successful tactics of Cortés;
 and so on.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into history (and pre-history) in search of an ultimate explanation to why civilizations on different continents developed technology at such different rates.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history in search of a fundamental cause behind the many proximate causes: why did civilizations on different continents develop technology at such different rates?
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
-In terms of biology, humans are all pretty much the same.
-And besides, most of Pizarro's technologies were originally imported from the Middle East or Asia, not developed in Europe.
+It's more fundamental than that.
+The book is written from the perspective of a biologist studying the human species.
+
+Most of the action in this book takes place thousands of years before Moses or Buddha.
+In terms of biology, humans have all been pretty much the same for thousands of years.
+
+Instead, Diamond lays out his argument in terms of the environments that faced humans in different regions of the world.
 
 
 
@@ -26,42 +73,9 @@ And besides, most of Pizarro's technologies were originally imported from the Mi
 
 
 
-criticism: lots of focus on middle east climate, native plants, etc. but rice was domesticated about the same time. why so little discussion of that?
-
-
-
-Even if you believe that Europeans are innately superior --- which the author emphatically does not --- such an argument raises more questions than in answers.
-What unique evolutionary pressure caused Europeans to supposedly diverge from the rest of humanity about 10,000 years ago?
-And after Europeans did diverge from the rest of humanity,
-
-
-
-
-
-
-And even if you believe that Eurasians[^1] are innately superior --- which the author emphatically does not ---
-
-
-
-
-that's not an ultimate explanation.
-Now you have to explain what unique evolutionary pressures caused that supposed superiority,
-
-
-
-Now you have to explain why.
-
-Now you
-
-
-
-
-From there you'd need to describe what unique evolutionary pressures gave rise
-
-
-
-
-And even if there were differences between the races, that still wouldn't be an ultimate explanation.
+trace back the chain of causation, starting with immediate events
+why did smaller numbers triumph?
+why did the incas walk into the (in hindsight) obvious trap?
 
 
 
@@ -69,12 +83,7 @@ And even if there were differences between the races, that still wouldn't be an 
 
 
 
-Even if you believe that Europeans are innately superior --- which the author emphatically does not --- that's not an ultimate cause.
-
-
-
-
-Now you'd have to explain what unique evolutionary pressures caused Europeans to become smarter than the rest of humanity, as well as why those
+at the end of the last ice age, humans worldwide lived in hunter-gatherer societies
 
 
 
@@ -82,10 +91,58 @@ Now you'd have to explain what unique evolutionary pressures caused Europeans to
 
 
 
+The last ice age ended about 13,000 years ago.
+Human populations were growing rapidly worldwide.
 
-For example, if we credit Confucianism for China's technological breakthroughs, now we have to explain why similar philosophies did not become dominant elsewhere!
+Diamond traces the roots of technology back about 13,000 years, to the end of the last ice age.
 
-Diamond spends nearly 500 pages pulling together ideas from archeology, evolutionary biology, geography, and even linguistics. But in the end, his argument is so straightforward it's almost anticlimactic. In a word: wheat.
+The big turning point for human technology, according to this book, started around 13k years ago.
+The last ice age was ending.
+Human populations were growing rapidly.
+And large species, such as mammoths and giant sloths, were going extinct worldwide[^6].
+With more mouths to feed, and less game to hunt, hunter-gatherer societies became increasingly dependent on plants for food.
+
+By about 10k years ago, human societies in several regions had moved away from the hunter-gatherer lifestyle in favor of agriculture.
+
+Wheat and chickpeas were domesticated in the Middle East.
+Rice and soybeans were domesticated in China.
+
+
+
+
+Humans in the Middle East gradually[^7] moved away from the hunter-gatherer lifestyle in favor of farming wheat and chickpeas around 10,000 years ago.
+Agricultural development fed into itself.
+
+Agriculture developed elsewhere much later (Africa, America) or not at all (Australia).
+this is 75 pages
+
+
+
+
+
+Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
+No grains or beans in Australia.
+
+
+
+- Archeological evidence suggests that humans were familiar with native plant species.
+- Recent efforts have domesticated many new fruits and vegetables, but no new staple foods.
+- Corn was hard to domesticate. Millet far less productive.
+- One crop isn't enough. Apples are native to the Americas, but you can't live on just apples.
+
+
+
+
+Farming
+population density
+specialization
+displace or convert
+
+
+
+[^6]: Hunting may have contributed to extinction, but it's not certain.
+[^7]: Domestication of crops began accidentally. Took lots of generations.
+
 
 Agriculture is incredibly important to the development of technology. Farming allows greater population density than hunter-gathering, and also frees up resources for art, science, and politics.
 
@@ -103,20 +160,13 @@ fertile crescent is the largest and most varied mediterranean biome on the plane
 
 
 
-About 13,000 years ago:
-
-- The last ice age ended. the climate warmed.
-- Human populations grew
-- Most species of large herbivore went extinct worldwide
-- Different plant species flourished due to the warming climate
-
-biologically modern humans were already living worldwide, including remote pacific islands
-
-
-
 
 
 ---
+
+
+Incas were the "largest and most advanced state in the New World". p68
+
 
 map of food production. p99
 map of mediterraniean climates. p139
