@@ -60,7 +60,7 @@ header {
 article {
 
     font-size: $fs-body;
-    line-height: 1.7;
+    line-height: $base-line-height;
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -71,6 +71,7 @@ article {
         &:hover { color: $text-color; }
     }
 
+/*
     // Try to avoid getting bitten by weird spacing.
     li, p, h1, h2, h3, h4, h5, h6, hr, div, div.highlight, pre.highlight, div.footnotes, div.footnotes li, pre, blockquote, .table-caption, table, tbody, tr, th, td, img {
         border: 0;
@@ -78,12 +79,15 @@ article {
         margin: 0;
         border-radius: 0;
     }
+*/
 
+/*
     // Set baseline width, etc.
     ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
         max-width: $text-width;
         margin: $paragraph-gap auto;
     }
+*/
 
     // Mostly justify text.
     p, .table-caption, div.footnotes li, img + em {
@@ -93,7 +97,7 @@ article {
 
     h2 { margin-top: 2*$fs-body; }
 
-    li { margin: 0.5*$fs-body 0; }
+    li { margin: 0.25*$fs-body 0; }
 
     // Tables, images, and captions use the full width.
     table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p {
@@ -102,17 +106,17 @@ article {
     }
 
     // Highlight quotes, footnotes, snippets, images, and code.
-    blockquote, div.highlight, pre, pre.highlight, code, div.footnotes li, img, div.flex-across {
+    blockquote, div.highlight, pre, pre.highlight, code, img, div.flex-across {
         background-color: $shadow-color;
     }
 
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.footnotes li, div.flex-across {
+    table, blockquote, div.highlight, div.flex-across {
         padding: $shadow-pad;
     }
 
     // Highlighted stuff also gets rounded corners.
-    blockquote, div.highlight, div.footnotes li, img, div.flex-across {
+    blockquote, div.highlight, img, div.flex-across {
         border-radius: $tile-radius;
         overflow: hidden;
     }
@@ -123,19 +127,20 @@ article {
         overflow: hidden;
     }
 
+/*
     div.flex-across {
         align: center;
         font-size: 0;
         display: flex;
         justify-content: space-around;
     }
-
-    // Keep cells from running into one another.
-    tr, thead, tbody { padding: 0; }
-    th, td, caption { padding: $cell-pad; }
-
+*/
     // Watch out for extra layers around a code block.
-    pre.highlight { margin: 0; border: 0; padding: 0; }
+    pre.highlight {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
 
     // Handling for multi-paragraph blockquotes.
     blockquote {
@@ -145,6 +150,13 @@ article {
 
     // A bit of play with the table formatting.
     table {
+        tr, thead, tbody {
+            padding: 0;
+        }
+        th, td, caption {
+            border: 0;
+            padding: $cell-pad;
+        }
         caption, thead {
             border-bottom: $hr-height solid $shadow-color;
         }
@@ -152,11 +164,12 @@ article {
         margin-bottom: 0px;
     }
     // Caption following an image or table
-    .table-caption, div.footnotes, img + em {
+    .table-caption, div.footnotes li, img + em {
         margin: $caption-pad auto;
         font-size: $fs-caption;
         font-style: normal;
         max-width: $caption-width;
+        line-height: $caption-line-height;
     }
 
     // Don't get bitten by the extra layers around footnotes.
@@ -166,16 +179,18 @@ article {
         padding: 0;
     }
 
+/*
     // Not exactly sure why this double-counts. Half it.
     div.footnotes li {
         margin: $paragraph-gap/2 0;
     }
+*/
 
     // Add counters to the footnots, per: http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
     div.footnotes ol {
         padding-inline-start: 0;
         counter-reset: li;
-        li { list-style:none; }
+        li { list-style: none; }
         li > p:before {
             content:counter(li);
             counter-increment:li;
