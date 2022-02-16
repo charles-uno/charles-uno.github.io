@@ -9,41 +9,38 @@ $shadow-color: #fff;
 $accent-color: #069;
 
 // Font sizes
-$fs-logo: 30px;
-$fs-glyph: 27px;
-$fs-index: 26px;
-$fs-title: 30px;
-$fs-subtitle: 18px;
-$fs-body: 16px;
-$fs-caption: 12px;
+$font-size-logo: 30px;
+$font-size-glyph: 27px;
+$font-size-index: 26px;
+$font-size-title: 30px;
+$font-size-subtitle: 18px;
+$font-size-body: 16px;
+$font-size-caption: 12px;
+
+$caption-line-height: 1.3;
+$base-line-height: 1.6;
 
 // Header/wrapper sizes
-$head-tag-pad: 10px;
 $head-pad: 10px;
+$head-height: $font-size-glyph + 2*$head-pad;
 $copy-height: 74px;
-$head-height: $fs-glyph + 2*$head-pad;
 
 // Index sizes
 $index-name-width: 170px;
 $index-tags-size: 20px;
 $shadow-size: 15px;
 $tile-radius: 10px;
+$tile-pad: 16px;
 
 // Post sizes
-$title-pad: 30px;
-$cell-pad: 5px;
 $hr-height: 3px;
 
 // Big-picture layout
 $paper-width: 900px;
 $text-width: 550px;
 $caption-width: $text-width;
-$tile-pad: 16px;
 $side-pad: 12px;
 
-$caption-pad: 6px;
-$caption-line-height: 1.3;
-$base-line-height: 1.6;
 
 // A bit of extra normalization.
 html, body {

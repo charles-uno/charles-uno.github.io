@@ -12,13 +12,13 @@
 }
 
 #logo {
-    font-size: $fs-logo;
+    font-size: $font-size-logo;
     font-family: $logo-font;
 }
 
 .head-glyph {
-    font-size: $fs-glyph;
-    margin: 0 0.2*$fs-glyph;
+    font-size: $font-size-glyph;
+    margin: 0 0.2*$font-size-glyph;
 }
 
 div.head-logo {
@@ -90,8 +90,8 @@ div.head-logo {
 
 .copy {
     text-align: center;
-    font-size: $fs-caption;
-    padding: ($copy-height - $fs-caption)/2;
+    font-size: $font-size-caption;
+    padding: ($copy-height - $font-size-caption)/2;
     line-height: 1;
     height: $copy-height;
     vertical-align: middle;

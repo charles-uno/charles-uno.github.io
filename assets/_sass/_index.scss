@@ -62,7 +62,7 @@
     transform: translate(-50%, -50%);
     line-height: 1;
     text-transform: lowercase;
-    font-size: $fs-index;
+    font-size: $font-size-index;
     font-family: $head-font;
     width: 100%;
 }
@@ -80,10 +80,10 @@
 
 .index-tag {
     display: inline-block;
-    padding: 0.15*$fs-index;
-    border-radius: 0.25*$fs-index;
+    padding: 0.15*$font-size-index;
+    border-radius: 0.25*$font-size-index;
     color: $shadow-color;
-    font-size: 0.5*$fs-index;
+    font-size: 0.5*$font-size-index;
     border: 1px solid $shadow-color;
     &:hover {
         color: $text-color;

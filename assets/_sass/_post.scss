@@ -13,12 +13,12 @@ header {
 
     .post-tags, .post-date {
         display: inline-block;
-        font-size: $fs-subtitle;
+        font-size: $font-size-subtitle;
     }
 
     .post-title {
-        margin: $title-pad;
-        font-size: $fs-title;
+        margin: $font-size-title;
+        font-size: $font-size-title;
         display: block;
         font-family: $head-font;
     }
@@ -28,16 +28,16 @@ header {
         max-width: $text-width;
         display: flex;
         justify-content: space-between;
-        margin: 0.5*$fs-subtitle auto;
-        margin-bottom: $fs-subtitle;
+        margin: 0.5*$font-size-subtitle auto;
+        margin-bottom: $font-size-subtitle;
     }
 
     .post-tag {
         display: inline-block;
-        padding: 0.15*$fs-subtitle;
-        border-radius: 0.25*$fs-subtitle;
+        padding: 0.15*$font-size-subtitle;
+        border-radius: 0.25*$font-size-subtitle;
         color: $accent-color;
-        font-size: $fs-subtitle;
+        font-size: $font-size-subtitle;
         border: 1px solid $accent-color;
         &:hover {
             cursor: pointer;
@@ -52,22 +52,20 @@ header {
     display: block;
     width: 100%;
     background-color: yellow;
-    font-size: $fs-subtitle;
+    font-size: $font-size-subtitle;
     font-family: $head-font;
 }
 
 
 article {
-    font-size: $fs-body;
+    font-size: $font-size-body;
     line-height: $base-line-height;
     display: block;
     margin: 0 auto;
     padding: 0;
     text-align: justify;
 
-    p {
-        margin: 1.2*$fs-body 0;
-    }
+    p { margin: 1.2*$font-size-body 0; }
 
     a {
         color: $accent-color;
@@ -79,11 +77,11 @@ article {
         background-color: $shadow-color;
     }
     blockquote, div.highlight, img {
-        border-radius: 0.3*$fs-body;
+        border-radius: 0.3*$font-size-body;
         overflow: hidden;
     }
     blockquote, div.highlight {
-        padding: 0.8*$fs-body;
+        padding: 0.8*$font-size-body;
         border: 0;
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
@@ -96,12 +94,13 @@ article {
     }
 
     table {
+        font-size: $font-size-caption;
         tr, thead, tbody {
             padding: 0;
         }
         th, td, caption {
             border: 0;
-            padding: $cell-pad;
+            padding: 0.3*$font-size-caption;
         }
         caption, thead {
             border-bottom: $hr-height solid $shadow-color;
@@ -112,8 +111,8 @@ article {
 
     // Caption following an image or table
     .table-caption, div.footnotes li, img + em {
-        margin: $caption-pad auto;
-        font-size: $fs-caption;
+        margin: 0.5*$font-size-caption auto;
+        font-size: $font-size-caption;
         font-style: normal;
         max-width: $caption-width;
         line-height: $caption-line-height;
@@ -134,7 +133,7 @@ article {
         li > p:before {
             content:counter(li);
             counter-increment:li;
-            margin-right: $fs-caption;
+            margin-right: $font-size-caption;
             font-weight:bold;
             text-align:center;
         }
@@ -151,17 +150,17 @@ article {
 
 // ---------------------------------------------------------------------
 
-$switch-width: 40px - $fs-caption;
-$switch-height: $fs-caption;
-$slider-size: $fs-caption - 4px;
+$switch-width: 40px - $font-size-caption;
+$switch-height: $font-size-caption;
+$slider-size: $font-size-caption - 4px;
 $slider-offset: ($switch-height - $slider-size)/2;
 $slider-move: $switch-width - $slider-size - 2*$slider-offset;
 
 #unit-toggle {
-    margin: $fs-caption auto;
+    margin: $font-size-caption auto;
     width: 100%;
     max-width: $text-width;
-    font-size: $fs-caption;
+    font-size: $font-size-caption;
     height: $switch-height;
     line-height: 1;
 }
@@ -171,7 +170,7 @@ $slider-move: $switch-width - $slider-size - 2*$slider-offset;
     display: inline-block;
     width: $switch-width;
     height: $switch-height;
-    margin-right: $fs-caption;
+    margin-right: $font-size-caption;
 }
 
 .switch input { opacity: 0; width: 0; height: 0; }
