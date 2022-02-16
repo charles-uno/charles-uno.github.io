@@ -102,7 +102,7 @@ article {
     }
 
     // Highlight quotes, footnotes, snippets, images, and code.
-    blockquote, div.highlight, pre, code, div.footnotes li, img, div.flex-across {
+    blockquote, div.highlight, pre, pre.highlight, code, div.footnotes li, img, div.flex-across {
         background-color: $shadow-color;
     }
 
