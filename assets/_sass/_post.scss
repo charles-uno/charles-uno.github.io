@@ -71,24 +71,6 @@ article {
         &:hover { color: $text-color; }
     }
 
-/*
-    // Try to avoid getting bitten by weird spacing.
-    li, p, h1, h2, h3, h4, h5, h6, hr, div, div.highlight, pre.highlight, div.footnotes, div.footnotes li, pre, blockquote, .table-caption, table, tbody, tr, th, td, img {
-        border: 0;
-        padding: 0;
-        margin: 0;
-        border-radius: 0;
-    }
-*/
-
-/*
-    // Set baseline width, etc.
-    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
-        max-width: $text-width;
-        margin: $paragraph-gap auto;
-    }
-*/
-
     // Mostly justify text.
     p, .table-caption, div.footnotes li, img + em {
         text-align: justify;
@@ -127,14 +109,6 @@ article {
         overflow: hidden;
     }
 
-/*
-    div.flex-across {
-        align: center;
-        font-size: 0;
-        display: flex;
-        justify-content: space-around;
-    }
-*/
     // Watch out for extra layers around a code block.
     pre.highlight {
         margin: 0;
@@ -178,13 +152,6 @@ article {
         border: 0;
         padding: 0;
     }
-
-/*
-    // Not exactly sure why this double-counts. Half it.
-    div.footnotes li {
-        margin: $paragraph-gap/2 0;
-    }
-*/
 
     // Add counters to the footnots, per: http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
     div.footnotes ol {
