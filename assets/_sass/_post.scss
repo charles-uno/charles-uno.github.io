@@ -28,8 +28,8 @@ header {
         max-width: $text-width;
         display: flex;
         justify-content: space-between;
-        margin: $paragraph-gap auto;
-        margin-bottom: 2*$paragraph-gap;
+        margin: 0.5*$fs-subtitle auto;
+        margin-bottom: $fs-subtitle;
     }
 
     .post-tag {
@@ -58,28 +58,21 @@ header {
 
 
 article {
-
     font-size: $fs-body;
     line-height: $base-line-height;
     display: block;
     margin: 0 auto;
     padding: 0;
+    text-align: justify;
 
-    // Default text color is set in _base.scss
+    p {
+        margin: 1.2*$fs-body 0;
+    }
+
     a {
         color: $accent-color;
         &:hover { color: $text-color; }
     }
-
-    // Mostly justify text.
-    p, .table-caption, div.footnotes li, img + em {
-        text-align: justify;
-        display: block;
-    }
-
-    h2 { margin-top: 2*$fs-body; }
-
-    li { margin: 0.25*$fs-body 0; }
 
     // Tables, images, and captions use the full width.
     table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p {
@@ -88,15 +81,15 @@ article {
     }
 
     // Highlight quotes, footnotes, snippets, images, and code.
-    blockquote, div.highlight, pre, pre.highlight, code, img, div.flex-across {
+    blockquote, div.highlight, pre, pre.highlight, code, img {
         background-color: $shadow-color;
     }
-
+/*
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.flex-across {
-        padding: $shadow-pad;
+    table, blockquote, div.highlight {
+        padding: 0.75*$fs-body;
     }
-
+*/
     // Highlighted stuff also gets rounded corners.
     blockquote, div.highlight, img, div.flex-across {
         border-radius: $tile-radius;
@@ -161,7 +154,7 @@ article {
         li > p:before {
             content:counter(li);
             counter-increment:li;
-            margin-right: $shadow-pad;
+            margin-right: $fs-caption;
             font-weight:bold;
             text-align:center;
         }
@@ -178,14 +171,14 @@ article {
 
 // ---------------------------------------------------------------------
 
-$switch-width: 40px - $shadow-pad;
+$switch-width: 40px - $fs-caption;
 $switch-height: $fs-caption;
 $slider-size: $fs-caption - 4px;
 $slider-offset: ($switch-height - $slider-size)/2;
 $slider-move: $switch-width - $slider-size - 2*$slider-offset;
 
 #unit-toggle {
-    margin: $shadow-pad auto;
+    margin: $fs-caption auto;
     width: 100%;
     max-width: $text-width;
     font-size: $fs-caption;
@@ -198,7 +191,7 @@ $slider-move: $switch-width - $slider-size - 2*$slider-offset;
     display: inline-block;
     width: $switch-width;
     height: $switch-height;
-    margin-right: $shadow-pad;
+    margin-right: $fs-caption;
 }
 
 .switch input { opacity: 0; width: 0; height: 0; }
