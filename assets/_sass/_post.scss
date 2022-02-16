@@ -2,6 +2,50 @@
 header {
     width: 100%;
     text-align: center;
+
+    .post-title, .post-tags, .post-date {
+        line-height: 1;
+        text-align: center;
+        border: 0;
+        margin: 0;
+        text-transform: lowercase;
+    }
+
+    .post-tags, .post-date {
+        display: inline-block;
+        font-size: $fs-subtitle;
+    }
+
+    .post-title {
+        margin: $title-pad;
+        font-size: $fs-title;
+        display: block;
+        font-family: $head-font;
+    }
+
+    .post-under-title {
+        width: 100%;
+        max-width: $text-width;
+        display: flex;
+        justify-content: space-between;
+        margin: $paragraph-gap auto;
+        margin-bottom: 2*$paragraph-gap;
+    }
+
+    .post-tag {
+        display: inline-block;
+        padding: 0.15*$fs-subtitle;
+        border-radius: 0.25*$fs-subtitle;
+        color: $accent-color;
+        font-size: $fs-subtitle;
+        border: 1px solid $accent-color;
+        &:hover {
+            cursor: pointer;
+            color: $text-color;
+            border: 1px solid $text-color;
+            background-color: $shadow-color;
+        }
+    }
 }
 
 .send-to-banner {
@@ -10,50 +54,6 @@ header {
     background-color: yellow;
     font-size: $fs-subtitle;
     font-family: $head-font;
-}
-
-.post-title, .post-tags, .post-date {
-    line-height: 1;
-    text-align: center;
-    border: 0;
-    margin: 0;
-    text-transform: lowercase;
-}
-
-.post-tags, .post-date {
-    display: inline-block;
-    font-size: $fs-subtitle;
-}
-
-.post-title {
-    margin: $title-pad;
-    font-size: $fs-title;
-    display: block;
-    font-family: $head-font;
-}
-
-.post-under-title {
-    width: 100%;
-    max-width: $text-width;
-    display: flex;
-    justify-content: space-between;
-    margin: $paragraph-gap auto;
-    margin-bottom: 2*$paragraph-gap;
-}
-
-.post-tag {
-    display: inline-block;
-    padding: 0.15*$fs-subtitle;
-    border-radius: 0.25*$fs-subtitle;
-    color: $accent-color;
-    font-size: $fs-subtitle;
-    border: 1px solid $accent-color;
-    &:hover {
-        cursor: pointer;
-        color: $text-color;
-        border: 1px solid $text-color;
-        background-color: $shadow-color;
-    }
 }
 
 
@@ -80,13 +80,13 @@ article {
     }
 
     // Set baseline width, etc.
-    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr, .img-wrapper {
+    ol, ul, p, h1, h2, h3, h4, h5, h6, div.highlight, pre, blockquote, div.footnotes li, hr {
         max-width: $text-width;
         margin: $paragraph-gap auto;
     }
 
     // Mostly justify text.
-    p, .table-caption, div.footnotes li, img + em, .img-wrapper {
+    p, .table-caption, div.footnotes li, img + em {
         text-align: justify;
         display: block;
     }
@@ -96,23 +96,23 @@ article {
     li { margin: 0.5*$fs-body 0; }
 
     // Tables, images, and captions use the full width.
-    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p, p.img-wrapper-wide {
+    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p {
         width: 100%;
         max-width: 100%;
     }
 
-    // Highlight quotes, footnotes, snippets, images, tables, and code.
-    caption, tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, blockquote, div.highlight, pre.highlight, pre, code, div.footnotes li, img, table, tbody, tr, th, td, .table-caption, .img-wrapper, .img-wrapper-wide, div.flex-across {
+    // Highlight quotes, footnotes, snippets, images, and code.
+    blockquote, div.highlight, pre, code, div.footnotes li, img, div.flex-across {
         background-color: $shadow-color;
     }
 
     // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight, div.footnotes li, .img-wrapper, .img-wrapper-wide, div.flex-across {
+    table, blockquote, div.highlight, div.footnotes li, div.flex-across {
         padding: $shadow-pad;
     }
 
     // Highlighted stuff also gets rounded corners.
-    .table-wrapper, blockquote, div.highlight, div.footnotes li, img, .img-wrapper, .img-wrapper-wide, div.flex-across {
+    blockquote, div.highlight, div.footnotes li, img, div.flex-across {
         border-radius: $tile-radius;
         overflow: hidden;
     }
@@ -137,12 +137,6 @@ article {
     // Watch out for extra layers around a code block.
     pre.highlight { margin: 0; border: 0; padding: 0; }
 
-    // Use a smaller font for captions and footnotes.
-    .table-caption, div.footnotes, img + em {
-        font-size: $fs-caption;
-        font-style: normal;
-    }
-
     // Handling for multi-paragraph blockquotes.
     blockquote {
         p:first-child { margin-top: 0; }
@@ -151,28 +145,35 @@ article {
 
     // A bit of play with the table formatting.
     table {
-        // Gap between header and content.
-        caption, thead { border-bottom: $hr-height solid $paper-color; }
-        // Let the caption be right up to the bottom of the table.
-        margin-bottom: 0;
+        caption, thead {
+            border-bottom: $hr-height solid $shadow-color;
+        }
+        border: $hr-height solid $shadow-color;
+        margin-bottom: 0px;
     }
-    // Gap between table and following caption.
-    .table-caption {
-        border-top: $hr-height solid $paper-color;
-        margin: 0;
-        padding: $shadow-pad;
+    // Caption following an image or table
+    .table-caption, div.footnotes, img + em {
+        margin: $shadow-pad auto;
+        font-size: $fs-caption;
+        font-style: normal;
+        max-width: $caption-width;
     }
 
     // Don't get bitten by the extra layers around footnotes.
-    div.footnotes p { margin: 0; border: 0; padding: 0; }
+    div.footnotes p {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
 
     // Not exactly sure why this double-counts. Half it.
-    div.footnotes li { margin: $paragraph-gap/2 0; }
+    div.footnotes li {
+        margin: $paragraph-gap/2 0;
+    }
 
     // Add counters to the footnots, per: http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/
     div.footnotes ol {
         padding-inline-start: 0;
-
         counter-reset: li;
         li { list-style:none; }
         li > p:before {
