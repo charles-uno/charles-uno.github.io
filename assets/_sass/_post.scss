@@ -74,48 +74,27 @@ article {
         &:hover { color: $text-color; }
     }
 
-    // Tables, images, and captions use the full width.
-    table, tbody, tr, caption, img, img + em, div.footnotes ol, div.footnotes li, .table-caption, div.footnotes p {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    // Highlight quotes, footnotes, snippets, images, and code.
+    // Highlight block quotes and code blocks
     blockquote, div.highlight, pre, pre.highlight, code, img {
         background-color: $shadow-color;
     }
-/*
-    // Most of that stuff gets padded in its highlighting.
-    table, blockquote, div.highlight {
-        padding: 0.75*$fs-body;
-    }
-*/
-    // Highlighted stuff also gets rounded corners.
-    blockquote, div.highlight, img, div.flex-across {
-        border-radius: $tile-radius;
+    blockquote, div.highlight, img {
+        border-radius: 0.3*$fs-body;
         overflow: hidden;
     }
-
-    // The image itself gets smaller curvature.
-    img {
-        border-radius: $tile-radius/3;
-        overflow: hidden;
-    }
-
-    // Watch out for extra layers around a code block.
-    pre.highlight {
-        margin: 0;
+    blockquote, div.highlight {
+        padding: 0.8*$fs-body;
         border: 0;
-        padding: 0;
-    }
-
-    // Handling for multi-paragraph blockquotes.
-    blockquote {
         p:first-child { margin-top: 0; }
         p:last-child { margin-bottom: 0; }
     }
+    // Watch out for the extra layer
+    pre.highlight {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
 
-    // A bit of play with the table formatting.
     table {
         tr, thead, tbody {
             padding: 0;
@@ -130,6 +109,7 @@ article {
         border: $hr-height solid $shadow-color;
         margin-bottom: 0px;
     }
+
     // Caption following an image or table
     .table-caption, div.footnotes li, img + em {
         margin: $caption-pad auto;
