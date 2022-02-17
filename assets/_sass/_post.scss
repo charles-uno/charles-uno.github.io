@@ -102,6 +102,9 @@ article {
         thead, tbody {
             border: $hr-height solid $shadow-color;
         }
+        tr {
+            border: 0.5px solid $shadow-color;
+        }
         th, td, caption {
             border: 0;
         }
