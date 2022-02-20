@@ -8,11 +8,11 @@ tags: food
 
 ![Bacon Sprout Pilaf](/assets/images/bacon-sprout-pilaf.png)
 
-- <span class="metric">250 mL</span><span class="imperial">1 c</span> bacon, chopped
-- <span class="metric">1 L</span><span class="imperial">4 c</span> brussels sprouts, halved
-- <span class="metric">1 L</span><span class="imperial">4 c</span> cooked black[^1] rice
-- <span class="metric">100 mL</span><span class="imperial">1/2 c</span> slivered almonds
-- <span class="metric">100 mL</span><span class="imperial">1/2 c</span> dried cranberries (optional)
+- 1 cup bacon, chopped
+- 4 cups brussels sprouts, halved
+- 4 cups cooked black[^1] rice
+- 0.5 cups slivered almonds
+- 0.5 cups dried cranberries (optional)
 - Black pepper
 
 [^1]: Brown rice works too, but the earthier flavor of black rice (sometimes called forbidden rice) does a lot of work here.

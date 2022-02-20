@@ -8,9 +8,9 @@ tags: food
 
 ![Grilled Citrus](/assets/images/grilled-citrus.png)
 
-- <span class="metric">1.5 kg</span><span class="imperial">3 lb</span> mixed citrus, halved
+- 3 lbs mixed citrus, halved
 - 1 habanero pepper
-- <span class="metric">750 mL</span><span class="imperial">Fifth of</span> tequila
+- 750 mL tequila
 - Jalapeño peppers (optional)
 
 ---

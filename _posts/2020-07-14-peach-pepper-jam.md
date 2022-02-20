@@ -12,8 +12,8 @@ Peach jam is a classic condiment, and a touch of heat makes it unusual without b
 
 You'll need, more or less:
 
-- <span class="metric">900 g</span><span class="imperial">4 c</span> peeled[^1] and chopped peaches (about <span class="metric">1.5 kg</span><span class="imperial">3 lbs</span> whole fruit)
-- <span class="metric">800-1200 g</span><span class="imperial">4-6 c</span> sugar
+- 4 cups peeled[^1] and chopped peaches (about 3 lbs whole fruit)
+- 4-6 cups sugar
 - Lemon juice
 - 2+ hot peppers, seeds removed
 - Canning supplies: jars, lids, tongs, and a large pot for processing

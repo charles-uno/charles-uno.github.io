@@ -8,23 +8,23 @@ tags: food
 
 ## Banana Bread
 
-- <span class="metric">250 mL</span><span class="imperial">1 c</span> whole wheat flour
+- 1 cup whole wheat flour
 - 4 overripe bananas[^1]
-- <span class="metric">150 mL</span><span class="imperial">2/3 c</span> dark brown sugar
+- 2/3 cup dark brown sugar
 - 1 egg
-- <span class="metric">75 mL</span><span class="imperial">1/3 c</span> butter, softened
-- <span class="metric">5 mL</span><span class="imperial">1 t</span> baking soda
-- <span class="metric">5 mL</span><span class="imperial">1 t</span> salt
-- <span class="metric">5 mL</span><span class="imperial">1 t</span> vanilla extract
-- <span class="metric">125 mL</span><span class="imperial">1/2 c</span> mini dark chocolate chips[^2]
+- 1/3 cup butter, softened
+- 1 t baking soda
+- 1 t salt
+- 1 t vanilla extract
+- 1/2 cup mini dark chocolate chips[^2]
 
 ---
 
-Preheat oven to <span class="metric">190C</span><span class="imperial">375F</span>.
+Preheat oven to 375°F.
 
 Combine the bananas, brown sugar, butter, egg, and vanilla in a large bowl. In a separate bowl, combine the flour, salt, and baking soda. Gradually mix the dry ingredients into the wet ones. The mixture should have about the consistency of yogurt; if it's too wet, add a bit more flour.
 
-[^1]: Optionally, bananas can be swapped out for <span class="metric">400 mL</span><span class="imperial">14 oz</span> cooked/canned sweet potato, pumpkin, butternut squash, or similar.
+[^1]: Optionally, bananas can be swapped out for 14 oz cooked/canned sweet potato, pumpkin, butternut squash, or similar.
 
 Add the chocolate chips, then spoon the batter into a buttered loaf pan[^3]. Bake until a toothpick in the center comes out clean, about 45 minutes. Allow the loaf to cool, then carefully remove it from the pan. Banana bread can be stored at room temperature for a few days; keep a towel over it to prevent it from going stale.
 
@@ -39,7 +39,7 @@ Turn off the oven, put a towel over the loaf, and let it sit overnight. The ends
 ## French Toast
 
 - 3 eggs
-- <span class="metric">75 mL</span><span class="imperial">1/3 c</span> plain yogurt
+- 1/3 cup plain yogurt
 - Cinnamon to taste
 - Butter
 

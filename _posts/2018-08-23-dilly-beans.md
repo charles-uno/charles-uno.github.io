@@ -9,13 +9,13 @@ tags: food
 The following is enough to make two quarts. Photos show a triple batch. Based on a recipe by [Marisa McClellan](https://www.seriouseats.com/recipes/2012/06/spicy-dilly-beans-recipe.html).
 
 - Beans to fill two quart jars (about 100 beans)
-- <span class="metric">30 mL</span><span class="imperial">2 T</span> black peppercorns
+- 2 T black peppercorns
 - 2 large garlic cloves (or several small ones), peeled
 - Habanero[^2] pepper, halved, seeds and stem removed
-- 2 crowns fresh dill (or about <span class="metric">30 mL</span><span class="imperial">2 T</span> dill seed)
-- <span class="metric">60 mL</span><span class="imperial">1/4 c</span> canning/pickling salt[^1]
-- <span class="metric">600 mL</span><span class="imperial">2.5 c</span> water
-- <span class="metric">600 mL</span><span class="imperial">2.5 c</span> white vinegar
+- 2 crowns fresh dill (or about 2 T dill seed)
+- 0.25 cups canning/pickling salt[^1]
+- 2.5 cups water
+- 2.5 cups white vinegar
 
 [^1]: It's not safe to substitute regular salt for canning/pickling salt! The crystals are shaped differently, which affects how they measure. Swapping one for the other can mess with the chemistry of your brine, allowing dangerous bacteria to grow.
 
