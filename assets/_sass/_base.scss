@@ -42,7 +42,6 @@ $figure-width: $text-width;
 $side-pad: 12px;
 
 
-// A bit of extra normalization.
 html, body {
     background-color: $shadow-color;
     font-family: $base-font;
@@ -68,14 +67,6 @@ a, a:focus, a:visited, a:hover {
     text-decoration: none;
 }
 
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
 .nowrap {
     white-space: nowrap;
-}
-
-.hide-by-default {
-    display: none;
 }

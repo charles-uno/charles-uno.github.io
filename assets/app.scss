@@ -3,12 +3,10 @@ layout: compress
 ---
 @charset 'utf-8';
 
-// Start from Poole. Mostly we use this for syntax highlighting.
+// Start from Poole. Sensible defaults and syntax highlighting
 @import 'poole';
-@import 'syntax';
 
 @import 'base';
 @import 'layout';
 @import 'index';
 @import 'post';
-@import 'autocard';
