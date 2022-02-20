@@ -1,4 +1,4 @@
-# Docker for OSX uses a VM so we need 0.0.0.0 instead of 127.0.0.1
+# Play nice with Docker on OSX
 host: 0.0.0.0
 
 name: Charles Fyfe
