@@ -4,27 +4,12 @@ host: 0.0.0.0
 name: Charles Fyfe
 title: charles.uno
 description: "probably fine"
-url: 'http://charles.uno'
-baseurl: ''
-github: 'https://github.com/charles-uno'
+url: https://charles.uno
+baseurl: /
+github: https://github.com/charles-uno
 author:
     name: Charles Fyfe
-    twitter: charles_uno
-twitter:
-  username: charles_uno
-facebook:
-    publisher: https://www.facebook.com/charles.andrew.fyfe
-logo: null
-social:
-  name: Charles Fyfe
-  links:
-    - https://twitter.com/charles_uno
-    - https://www.facebook.com/charles.andrew.fyfe
-    - https://www.linkedin.com/in/charlesandrewfyfe
-    - https://github.com/charles-uno
 permalink: /:title/
-markdown: kramdown
-cdn: ''
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -39,12 +24,6 @@ exclude:
   - README.md
   - vendor/
   - CNAME
-defaults:
-  -
-    scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
+markdown: kramdown
 kramdown:
   input: GFM
