@@ -20,7 +20,7 @@ So we decided to play without one. Or, rather, we decided to leverage the spellc
 
 {% comment %}
 ![](https://lh6.googleusercontent.com/-PlGh7reAjxM/UtlOyIgyvvI/AAAAAAAAKt0/YITaH-NOfIg/w634-h138-no/penny_target.png)
-*Art by Andy Pokel*
+<p class="figure-caption">Art by Andy Pokel</p>
 {% endcomment %}
 
 Time for a few mental gymnastics. What if, instead of thinking of skills as an abstraction of what a character is good at, we think of them as what a character is good at *accomplishing*? Athletics can be rolled to run, jump, swim, climb, or cartwheel. It can move you any way you like. So why not let a player roll Athletics to teleport or fly? Shoot does damage at a distance using guns, arrows, rocks, or shuriken, so why not a fireball? Rapport can be used to create the advantages **I Like These Guys**, so why not **Charmed**?
@@ -49,7 +49,7 @@ The table feels good because now the anti-magic field has introduced some real t
 
 {% comment %}
 ![](https://lh6.googleusercontent.com/-wPmiu_eQhU8/UtlPPfypw5I/AAAAAAAAKuI/KLZFZy2J-Tw/w660-h201-no/lia_target_flip.png)
-*Art by Andy Pokel*
+<p class="figure-caption">Art by Andy Pokel</p>
 {% endcomment %}
 
 Fate's greatest strengths are flexibility, simplicity, and balance; our magic system piggybacks on each one. Players have a lot of freedom to define their characters' magical abilities through their character aspects and skill choices. The rules for casting spells are simple, even if the desired outcome seems complicated. And the power level of magic users never gets out of hand -- the size of an effect is limited by the number of fate points fed into it. (Plus, in this system wizards have to balance their skills just like everyone else... they can't power their entire toolbox by maximizing Intelligence.)

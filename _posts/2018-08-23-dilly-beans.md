@@ -28,14 +28,14 @@ Bring a big pot of water to a boil. It needs to be big enough to submerge your j
 Prepare your beans. Cut off the stems, as well as any blemishes. I like to cut off the pointy tail too, but that's not strictly necessary. If any beans are too tall to fit comfortably in your jars, trim them to the appropriate length.
 
 ![Dilly beans (minus the beans)](/assets/images/dilly-beans-prep.png)
-*Dill, peppers, etc should go in the bottom of the jar, below the beans*
+<p class="figure-caption">Dill, peppers, etc should go in the bottom of the jar, below the beans</p>
 
 Combine salt, water, and vinegar in a saucepan and put the heat on high. While it comes to a boil, put the black pepper, hot pepper, garlic, and dill in the bottom of your jars. Then stuff as many beans as you can into each jar. Make sure not to bruise them, and leave half an inch of head space at the top.
 
 Use a ladle or measuring cup to pour the brine over the beans and spices. Fill to barely cover the beans, wiggling as you go to dislodge bubbles. Cap the jars and screw the rings on loosely.
 
 ![Dilly beans (done)](/assets/images/dilly-beans-done.png)
-*Not pictured: be sure to write the date on your tops!*
+<p class="figure-caption">Not pictured: be sure to write the date on your tops!</p>
 
 Submerge the jars in boiling water for ten minutes to process. This forces air out of the jar, ensuring you get a good seal. Careful not to boil too long, as that'll cause the beans to get mushy. After boiling, tighten the rings and set the jars on a towel to cool. The "button" on each cap should pop down within the next few hours[^3].
 

@@ -115,13 +115,10 @@ article {
     }
 
     // Caption following an image or table
-    .table-caption, img + em {
+    .figure-caption {
         margin: 0.5*$font-size-caption auto;
         font-size: $font-size-caption;
-        font-style: normal;
         line-height: $caption-line-height;
-        width: $figure-width;
-        display: block;
     }
 
     // Footnotes use smaller text but full width
