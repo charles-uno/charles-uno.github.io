@@ -4,7 +4,6 @@ title: "Once Upon a (Prime) Time"
 image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
 description: "Play it while you can"
 hidden: true
-send_to: /amulet-simulation
 tags: games code math
 ---
 

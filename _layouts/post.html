@@ -4,14 +4,6 @@ layout: default
 
 <header>
 
-    {% if page.send_to %}
-        <a href="{{ page.send_to }}">
-            <span class="send-to-banner">
-                Heads up! This page is old. Click here to be redirected. {{ page.send_to }}
-            </span>
-        </a>
-    {% endif %}
-
     <span class="post-title">
         {% if page.displaytitle %}
             {{ page.displaytitle }}
