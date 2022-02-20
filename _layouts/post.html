@@ -4,33 +4,7 @@ layout: default
 
 <header>
 
-    <span class="post-title">
-        {% if page.displaytitle %}
-            {{ page.displaytitle }}
-        {% else %}
-            {{ page.title }}
-        {% endif %}
-    </span>
-
-    <span class="post-under-title">
-
-        <span class="post-tags">
-            {% if page.tags %}
-                {% assign sorted = page.tags | sort %}
-                {% for tag in sorted %}
-                <a class="post-tag" href="/#{{ tag }}">
-                    #{{ tag }}
-                </a>
-                {% endfor %}
-            {% endif %}
-        </span>
-
-        {% unless page.showdate %}
-        <span class="post-date">
-            <span class="nowrap">{{ page.date | date: "%F" }}</span>
-        </span>
-        {% endunless %}
-    </span>
+    {% include header.html %}
 
 </header>
 <article>
