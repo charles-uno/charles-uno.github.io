@@ -2,30 +2,25 @@
 ---
 
 <!DOCTYPE html>
+
 <html>
 
     {% include head.html %}
 
     <body>
-        {% if page.title %}
+
         <div class="autocard-wrap" id="autocard-wrap" onclick="hideAutocard()">
             <img class="autocard" id="autocard">
         </div>
-        {% endif %}
-        <div class="wrap-main">
-            <div class="main">
-                {{ content }}
-                <div class="copy">
-                    &copy; Charles Fyfe 2022 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
-                </div>
-            </div>
-        </div>
 
-        <div class="wrap-head">
-            {% include navbar.html %}
+        {% include navbar.html %}
+
+        <div class="main">
+            {{ content }}
         </div>
 
         {% include scripts.html %}
 
     </body>
+
 </html>

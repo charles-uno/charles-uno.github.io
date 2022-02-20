@@ -1,0 +1,26 @@
+
+.navbar {
+    background-color: $accent-color;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 20px;
+
+}
+
+
+/*
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+*/

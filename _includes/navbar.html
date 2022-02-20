@@ -1,49 +1,16 @@
-<div class="head">
-    {% if page.title %}
-
-        {% assign share-url = page.url
-            | prepend: site.baseurl
-            | prepend: site.url
-        %}
-        {% assign share-title = page.title | url_encode %}
-        {% assign share-excerpt = page.description | url_encode %}
-
-        <div class="head-logo">
-            <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
-        </div><div class="head-links">
-
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
-                <i class="head-glyph fab fa-facebook-square"></i>
-            </a>
-
-            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
-                <i class="head-glyph fab fa-linkedin"></i>
-            </a>
-
-            <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
-                <i class="head-glyph fab fa-reddit-square"></i>
-            </a>
-
-            <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
-                <i class="head-glyph fab fa-twitter-square"></i>
-            </a>
-
-        </div>
-
-    {% else %}
-
-        {% assign tags = "" | split: "|" %}
-        {% for post in site.posts %}
-            {% for tag in post.tags %}
-                {% assign tags = tags | push: tag %}
-            {% endfor %}
-        {% endfor %}
-        {% assign tags = tags | sort | uniq %}
+<div class="navbar">
 
         <div class="head-logo">
             <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
         </div><div class="head-tags">
         </div>
 
-    {% endif %}
+<p>ABOUT</p>
+
+
+    <div class="copy">
+        &copy; Charles Fyfe 2022 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
+    </div>
+
+
 </div>

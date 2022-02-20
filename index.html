@@ -4,10 +4,11 @@ layout: default
 
 <ul id="index-list">
     {% for post in site.posts %}
-        {% if post.sticky %}
-            {% unless post.hidden %}
-                <li class="index-item" id="item-{{ post.title | slugify }}">
+        {% unless post.hidden %}
+            <li class="index-item-wrap" id="item-{{ post.title | slugify }}">
+                <div class="index-item">
                     <img src="{{ post.image }}" class="index-thumb" />
+                    <!-- drawn over the thumbnail to shade it -->
                     <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                         <span class="index-name">{{ post.title }}</span>
                         <span class="index-tags">
@@ -17,26 +18,8 @@ layout: default
                             {% endfor %}
                         </span>
                     </a>
-                </li>
-            {% endunless %}
-        {% endif %}
-    {% endfor %}
-    {% for post in site.posts %}
-        {% unless post.sticky %}
-            {% unless post.hidden %}
-                <li class="index-item" id="item-{{ post.title | slugify }}">
-                    <img src="{{ post.image }}" class="index-thumb" />
-                    <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
-                        <span class="index-name">{{ post.title }}</span>
-                        <span class="index-tags">
-                            {% assign sorted = post.tags | sort %}
-                            {% for tag in sorted %}
-                                <span class="index-tag" ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;">#{{ tag }}</span>
-                            {% endfor %}
-                        </span>
-                    </a>
-                </li>
-            {% endunless %}
+                </div>
+            </li>
         {% endunless %}
     {% endfor %}
 </ul>

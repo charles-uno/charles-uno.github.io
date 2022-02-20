@@ -1,46 +1,32 @@
-
-// Do our best to preempt spacing weirdness.
-#index-list, .index-item, .index-link, .index-name {
+#index-list {
     border: 0;
     padding: 0;
     margin: 0;
-    text-align: center;
-}
-
-#index-list {
-    background-color: $paper-color;
-    margin: -$side-pad;
-    padding: 0 $side-pad;
-    // Eliminate whitespace between tiles.
-    font-size: 0px;
+    // Prevent gaps between tiles
+    font-size: 0;
     line-height: 0;
 }
 
-.index-item {
+.index-item-wrap {
     display: inline-block;
+    padding: $tile-pad/2;
+    background-color: green;
+    width: 33.33%;
+    text-align: center;
+}
+
+.index-item {
     position: relative;
-    background-color: $shadow-color;
-    // Put a gap between the thumbnails.
-    border: $tile-pad/2 solid $paper-color;
-    // Scale with screen width.
-    width: 100%;
-    @media (min-width: 500px) { width: 50%; }
-    @media (min-width: 750px) { width: 33.33%; }
-    @media (min-width: 1000px) { width: 25%; }
     border-radius: $tile-radius;
     overflow: hidden;
 }
 
-// The thumbnail and the (shaded) link both fill the list item.
-.index-link, .index-thumb {
+.index-link {
+    position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-}
-
-.index-link {
-    position: absolute;
     // Shade the thumbnail so the text is legible.
     background-color: rgba($text-color, 0.7);
     // On hover, lose the shading and the text.
@@ -49,10 +35,6 @@
         .index-name { display: none; }
         .index-date { display: none; }
     }
-}
-
-.index-thumb {
-    border-radius: 0;
 }
 
 .index-name, .index-date, .index-tags {
