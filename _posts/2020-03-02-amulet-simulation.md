@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Year of the Titan"
-image: "/assets/images/thumb/primeval-titan-aleksi-briclot.png"
+title: "Deck Chairs on the Titanic"
+image: "/assets/images/thumb/pt-rix.png"
 description: Using better-than-perfect sequencing to cast Primeval Titan
 tags: games code math
 ---
-
-*Editor's note: this article has been reworked in light of [[Once Upon a Time]] being [banned in Modern](https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement). The original post is archived [here](/once-upon-a-time).*
 
 WOTC printed [[Scapeshift]] in 2008, [[Valakut, the Molten Pinnacle:Valakut]] in 2009, and [[Primeval Titan]] in 2010. For eight years after that, they walked on eggshells to avoid further enabling land-based combo decks in Modern. As recently as 2018, fifty-six of the sixty cards in an [Amulet Titan main deck](https://www.channelfireball.com/all-strategy/articles/how-to-play-modern-amulet-titan-2nd-place-at-grand-prix-hartford/) were printed before the existence of Instagram[^1]. Design philosophy [finally changed](https://magic.wizards.com/en/articles/archive/feature/play-design-lessons-learned-2019-11-18) about a year ago, and WOTC seems to be making up for lost time. After eight years of drought, we got [[Arboreal Grazer]], [[Castle Garenbrig]], [[Dryad of the Ilysian Grove]], [[Field of the Dead]], and [[Once Upon a Time]] all in the space of eight months.
 

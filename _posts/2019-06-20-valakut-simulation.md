@@ -3,6 +3,7 @@ layout: post
 title: "Deck Chairs on the Titanic"
 image: "/assets/images/thumb/pt-rix.png"
 description: How do we estimate the value of "draw a card"?
+hidden: true
 tags: games code math
 ---
 
