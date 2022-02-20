@@ -4,14 +4,12 @@ host: 0.0.0.0
 name: Charles Fyfe
 title: charles.uno
 description: "probably fine"
-url: 'http://charles.uno'
+url: 'https://charles.uno'
 baseurl: ''
 github: 'https://github.com/charles-uno'
 author:
     name: Charles Fyfe
-logo: null
 permalink: /:title/
-markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -25,5 +23,6 @@ exclude:
   - README.md
   - vendor/
   - CNAME
+markdown: kramdown
 kramdown:
   input: GFM
