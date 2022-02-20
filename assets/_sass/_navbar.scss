@@ -13,14 +13,12 @@
 }
 
 
-/*
-@media screen and (max-width: 700px) {
-  .sidebar {
+@media (max-width: 800px) {
+  .navbar {
     width: 100%;
     height: auto;
     position: relative;
   }
   .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  .main {margin-left: 0;}
 }
-*/

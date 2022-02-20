@@ -10,8 +10,14 @@
 .index-item-wrap {
     display: inline-block;
     padding: $tile-pad/2;
-    background-color: green;
-    width: 33.33%;
+    width: 50%;
+
+
+    // TODO: width thresholds need to depend on if the navbar is side or top
+
+
+    @media (min-width: 800px) { width: 33.33%; }
+    @media (min-width: 1200px) { width: 25%; }
     text-align: center;
 }
 
