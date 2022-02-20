@@ -34,7 +34,7 @@ We make another API request to grab the illustrations and dump[^1] each into a f
 [^1]: If you're actually wading through the code, you'll notice that dumping the image to a file is actually a multi-stage process. The images served by Scryfall are formatted as JPGs. We'd rather work with PNGs, so we do a quick check-and-convert.
 
 ![Collage of all MTG Forest illustrations](/assets/images/wide/mtg-collage-all-forest-small.png)
-<p class="figure-caption">All 587 Forest illustrations, in the order Scryfall returns them. A number of duplicates are visible. Full-sized version [here](/assets/images/wide/mtg-collage-all-forest.png), art credits [here](/assets/docs/mtg-collage-all-forest.txt).</p>
+<span class="figure-caption">All 587 Forest illustrations, in the order Scryfall returns them. A number of duplicates are visible. Full-sized version [here](/assets/images/wide/mtg-collage-all-forest.png), art credits [here](/assets/docs/mtg-collage-all-forest.txt).</span>
 
 There have been 587 printings of the card [[Forest]]. The above collage includes them all. Looks alright, I guess, but something feels off...
 
@@ -56,14 +56,14 @@ The correct way to solve this problem probably involves machine learning, neural
 The figure below shows how this process plays out. It correctly matches a pair of pieces by Alayna Danner, one of which has a weird foil overlay. And it correctly distinguishes a pair of pieces by John Avon, despite their similarities.
 
 ![Comparing similar illustrations](/assets/images/wide/alaynadanner-johnavon.gif)
-<p class="figure-caption">Illustration of how the matching algorithm works. It can identify a match despite the weird foil overlay. It can also distinguish a pair of pieces with similar color scheme and composition.</p>
+<span class="figure-caption">Illustration of how the matching algorithm works. It can identify a match despite the weird foil overlay. It can also distinguish a pair of pieces with similar color scheme and composition.</span>
 
 The above figure uses a 4x4 grid for legibility; in practice, the sweet spot seems to be 6x6. If the grid is too tight, the algorithm is easily confused by differences in cropping. If it's too coarse, distinctive features are often lost, resulting in false positives.
 
 That said, no matter how well we dial in the grid, it bears noting that this is a *pretty good* algorithm for identifying duplicate images -- not a perfect one. In particular, it gets confused when artists do [[269629:throwback]] [[245246:pieces]]. We won't be filing any patents, but it works well enough to reduce our 500+ printings down to about 200 mostly-unique ones:
 
 ![Collage of unique Forest illustrations](/assets/images/wide/mtg-collage-forest-small.png)
-<p class="figure-caption">Collage of [[Forest]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-forest.png), art credits [here](/assets/docs/mtg-collage-forest.txt).</p>
+<span class="figure-caption">Collage of [[Forest]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-forest.png), art credits [here](/assets/docs/mtg-collage-forest.txt).</span>
 
 ## Optimizations
 
@@ -78,7 +78,7 @@ Of course, I don't load all the images *at the same time* -- that's my other opt
 Each image gets loaded once at the beginning to grab some metadata. We store image dimensions, plus we compute the grid of grayscale values for the matching algorithm. While we're at it, we crunch out the average color for each image as well. Then we free up that memory -- keeping only the metadata -- and load the next one.
 
 ![Collage of unique Island illustrations](/assets/images/wide/mtg-collage-island-small.png)
-<p class="figure-caption">Collage of [[Island]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-island.png), art credits [here](/assets/docs/mtg-collage-island.txt).</p>
+<span class="figure-caption">Collage of [[Island]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-island.png), art credits [here](/assets/docs/mtg-collage-island.txt).</span>
 
 Once we have metadata for each image, we use the grayscale grids to identify duplicates. Based on the number of unique images, we can then figure out an appropriate number of rows and columns for the collage. And, with each illustration's dimensions, we can compute a common size to crop to. Then we go back and -- one at a time -- load the images again. Each gets resized, cropped to the appropriate aspect ratio, and slapped onto the canvas.
 
@@ -87,14 +87,14 @@ Once we have metadata for each image, we use the grayscale grids to identify dup
 Scryfall orders search results chronologically, which is very practical, but practicality isn't really what we're after. Personally, I think it's sharper to have illustrations ordered by average color instead. From left to right, the illustrations in each collage go dark to light. Then, within each row, they're sorted from red to blue. For the [[Forest]] art above, it doesn't make much of a difference. It's all green. Similarly, the [[Island]] collage is all blue, and the [[Swamp]] collage is all brown and purple:
 
 ![Collage of unique Swamp illustrations](/assets/images/wide/mtg-collage-swamp-small.png)
-<p class="figure-caption">Collage of [[Swamp]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-swamp.png), art credits [here](/assets/docs/mtg-collage-swamp.txt).</p>
+<span class="figure-caption">Collage of [[Swamp]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-swamp.png), art credits [here](/assets/docs/mtg-collage-swamp.txt).</span>
 
 But the [[Plains]] and [[Mountain]] collages are a whole different story. In each, there's a visible transition between the warm colors of the earth and the cool blue of the sky.
 
 ![Collage of unique Plains illustrations](/assets/images/wide/mtg-collage-plains-small.png)
-<p class="figure-caption">Collage of [[Plains]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-plains.png), art credits [here](/assets/docs/mtg-collage-plains.txt).</p>
+<span class="figure-caption">Collage of [[Plains]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-plains.png), art credits [here](/assets/docs/mtg-collage-plains.txt).</span>
 
 ![Collage of unique Mountain illustrations](/assets/images/wide/mtg-collage-mountain-small.png)
-<p class="figure-caption">Collage of [[Mountain]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-mountain.png), art credits [here](/assets/docs/mtg-collage-mountain.txt).</p>
+<span class="figure-caption">Collage of [[Mountain]] illustrations. Duplicates removed. Full-sized version [here](/assets/images/wide/mtg-collage-mountain.png), art credits [here](/assets/docs/mtg-collage-mountain.txt).</span>
 
 Sometimes, art is more art than science. Sometimes it's not!

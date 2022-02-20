@@ -28,7 +28,7 @@ Perhaps the most obvious (and concerning) application of [[Once Upon a Time]] is
 | ... Other stuff (green)[^1] → [[Ancient Stirrings]]     | 13% | 42% | 64% |
 | ... Other stuff (green) → [[Once Upon a Time]]          | 14% | 45% | 67% |
 
-<p class="table-caption">Odds to get a [[Griselbrand]] on the table each turn. Values are cumulative, so "≤T3" is the odds to do so on turn three or earlier. All values ±2%.</p>
+<span class="table-caption">Odds to get a [[Griselbrand]] on the table each turn. Values are cumulative, so "≤T3" is the odds to do so on turn three or earlier. All values ±2%.</span>
 
 [^1]: "Other stuff" refers to anything not on the critical path to accomplishing the model's goal. For example, the goal of the Valakut model is to get [[Primeval Titan]] on the table. Cards like [[Lightning Bolt]] and [[Obstinate Baloth]] don't help with that. As far as the computer is concerned, they're blanks.
 
@@ -67,7 +67,7 @@ In terms of assembling [[Urza's Mine:Ur]][[Urza's Power Plant:za]][[Urza's Tower
 | ... [[Sylvan Scrying]] → [[Once Upon a Time]]    | 21% | 60% |
 | ... Other stuff → [[Once Upon a Time]]           | 22% | 66% |
 
-<p class="table-caption">Odds to have Tron by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
+<span class="table-caption">Odds to have Tron by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</span>
 
 [Tron]: https://www.mtggoldfish.com/archetype/modern-tron-46482#paper
 
@@ -102,7 +102,7 @@ It may seem strange that [[Once Upon a Time]] (which looks at five cards) perfor
 | ... Other stuff → [[Oath of Nissa]]    | 22% | 73% |
 | ... Other stuff → [[Once Upon a Time]] | 29% | 77% |
 
-<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
+<span class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</span>
 
 Calculations are made using the list below, which plays a bunch of extra [[Windswept Heath:fetch lands]] instead of [worrying](/valakut-simulation/) about [[Cinder Glade]] and/or [[Sheltered Thicket]]:
 
@@ -136,7 +136,7 @@ Before playing Titan Breach at the Pro Tour, I ran the numbers on dozens of diff
 | ... Other stuff → [[Once Upon a Time]]           |  6% | 38% | 72% |
 | ... Other stuff → [[Summer Bloom]]               | 13% | 39% | 66% |
 
-<p class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</p>
+<span class="table-caption">Odds to get [[Primeval Titan]] on the table by each turn. Values are cumulative, so "≤T4" is the odds to do so on turn four or earlier. All values ±2%.</span>
 
 Calculations are made using the (simplified) list below. Swapping [[Kabira Crossroads]] for [[Radiant Fountain]], or [[Sakura-Tribe Scout]] for [[Arboreal Grazer:Grazer]], doesn't change the big picture.
 

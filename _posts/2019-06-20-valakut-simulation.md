@@ -15,7 +15,7 @@ The downside of "resilient and redundant" is that the [[Valakut, the Molten Pinn
 In particular, I was curious about [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. Conventional wisdom strongly prefers [[Farseek]] for its reliability; [[Explore]] can whiff if we don't have an extra land in hand. Similarly, [[Cinder Glade]] typically enters the battlefield untapped from turn three onward, while [[Sheltered Thicket]] can be an awkward topdeck when we need a sixth mana for [[Primeval Titan]]. [[Sheltered Thicket]] sees fringe play in *addition* to [[Cinder Glade]], but rarely takes its place.
 
 ![Valakut Preference Poll](/assets/images/wide/valakut-poll-16x9.png)
-<p class="figure-caption">A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].</p>
+<span class="figure-caption">A poll of the Valakut group on Facebook gives a sense for the conventional wisdom. [[Cinder Glade]] is strongly preferred over [[Sheltered Thicket]].</span>
 
 But [[Explore]] and [[Sheltered Thicket]] have three important words that [[Farseek]] and [[Cinder Glade]] don't: "draw a card." [[Farseek]] is a fine topdeck if we have [[Valakut, the Molten Pinnacle:Valakut]] online, but in that same situation [[Explore]] gives us another chance to [[Primeval Titan:win]] [[Scapeshift:on]] [[Summoner's Pact:the]] [[Blighted Woodland:spot]]. And if our opponent has managed to disrupt our plans using [[Cryptic Command:counterspells]], [[Fulminator Mage:land destruction]], and/or [[Blood Moon:lock pieces]], any lands past our sixth might as well be blanks. We'd much rather re-draw in search of a high-impact sideboard card or finisher to turn the game around. The question is, if we want the added flexibility, how does it affect our speed?
 
@@ -69,7 +69,7 @@ We simulate four different variations of this deck to cover all combinations of 
 | [[Farseek]], [[Sheltered Thicket]] | 11%  | 15%    | 41%    | 63%    |
 | [[Farseek]], [[Shivan Oasis]]      | 11%  | 15%    | 39%    | 60%    |
 
-<p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
+<span class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</span>
 
 Right off the bat, we can make a quick sanity check: [[Cinder Glade]] and [[Sheltered Thicket]] both perform better than [[Shivan Oasis]] across the board. If this weren't the case, we'd know something was wrong. It's also reassuring to see that [[Cinder Glade]] is at a relative advantage on turn three, while [[Sheltered Thicket]] performs best on turn four. Even a single tapped land drop makes it hard to curve into a turn-three [[Primeval Titan]], but that extra turn gives us some wiggle room to cycle [[Sheltered Thicket]] in search of a missing piece.
 
@@ -87,7 +87,7 @@ As long as we're crunching numbers, let's spend a moment on [[Simian Spirit Guid
 | 3                                      | 11%  | 14%    | 36%    | 56%    |
 | 4                                      | 12%  | 16%    | 40%    | 61%    |
 
-<p class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
+<span class="table-caption">T3 is the odds to [[Through the Breach:Breach]] a [[Primeval Titan:Titan]] on turn three, which wins on the spot. T3.5 refers to hard-casting [[Primeval Titan:Titan]] on turn three, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T4" is the sum of T3 odds, T3.5 odds, and T4 odds. All values ±1%.</p>
 
 With zero copies of [[Simian Spirit Guide]], only about one in thirty hands can get [[Primeval Titan]] on the table on turn three. A single [[Simian Spirit Guide:SSG]] doubles those odds. A full set *quadruples* them. They also take our turn-four odds from fifty-fifty to two-to-one -- about an extra [[Primeval Titan]] by turn four every six hands. It looks to me like [[Simian Spirit Guide]] and [[Through the Breach]] are a package deal. If you cut either, you might as well cut both and just play Titan Shift, since you're not going to win on turn three anymore.
 
@@ -126,7 +126,7 @@ As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]]
 | [[Farseek]], [[Sheltered Thicket]] | 16%  | 40%    | 56%    | 73%    |
 | [[Farseek]], [[Shivan Oasis]]      | 14%  | 39%    | 55%    | 73%    |
 
-<p class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</p>
+<span class="table-caption">T4 is the odds to cast [[Scapeshift]] on turn four, which wins on the spot. T4.5 refers to hard-casting [[Primeval Titan:Titan]] on T4, which often stabilizes the board right away, but doesn't win until the next turn. Values are cumulative, so "≤T5" is the sum of T4 odds, T4.5 odds, and T5 odds. All values ±1%.</span>
 
 The numbers for Titan Shift tell pretty much the same story we saw for Titan Breach. [[Explore]] and [[Farseek]] put up nearly-identical goldfishing numbers. The same is true for [[Cinder Glade]] and [[Sheltered Thicket]]. This is a significant blow to the conventional wisdom. The selling point of [[Cinder Glade]] is that it sometimes enters the battlefield untapped at a crucial moment, allowing us to win a turn earlier. It turns out that only happens in a few percent of hands -- and that the cycling on [[Sheltered Thicket]] gives a comparable boost. This makes [[Sheltered Thicket]] look pretty good. Our curve tops out at six, so past there we rarely care about [[Cinder Glade]] entering the battlefield untapped. But the cycling on [[Sheltered Thicket]] remains relevant throughout the game.
 

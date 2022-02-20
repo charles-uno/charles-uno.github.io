@@ -21,7 +21,7 @@ I read through it and mapped out the core of the theory. Some peripheral bits go
 For a thousand generations, the galaxy was governed as the [Old Republic](http://starwars.wikia.com/wiki/Galactic_Republic). Republic authority was enforced by the [Jedi knights](http://starwars.wikia.com/wiki/Jedi_Order), a religious order of "despotic samurai thugs". The Jedi wield lightsabers, powerful weapons which can cut through anything and act as perfect foils to the blasters employed by the rest of the galaxy.
 
 ![Jedi due process](/assets/images/wide/skywalker-paradigm-due-process.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</span>
 
 Membership in the Jedi order was open only to those with a biological disposition towards use of the Force -- a high midi-chlorian count. In fact, any children found to have a suitably high midi-chlorian count were conscripted into the Jedi religion.
 
@@ -50,7 +50,7 @@ For a time, the galaxy was at peace; this is still largely the case at the begin
 The peace will not last. Not content to serve, Vader and his daughter, Leia, have enlisted a terrorist organization called the Rebellion. Leia leads them under a false name to disguise her connection to Vader. Their aim is to depose Palpatine and install the Skywalker line as monarchs.
 
 ![The polite young men of the imperial army bypassing a locked door](/assets/images/wide/skywalker-paradigm-locked-door.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</span>
 
 Rebel attacks against the Empire have led to the creation of the Death Star, a space station with titanic destructive potential. The Death Star is commanded by Tarkin, a high-ranking Imperial officer with his own ideas about the future of the Empire. Tarkin is a threat, not only to Vader and Leia's plans, but to the galaxy as a whole.
 
@@ -71,14 +71,14 @@ In transit, he begins Luke's "training." It is instrumental to Kenobi's plan tha
 Supposed telekinesis is driven by technology, not the Force. From landspeeders to surveillance droids, the levitation of metal objects is shown to be ubiquitous and reliable in the Star Wars universe.
 
 ![Telekinesis? Not even close](/assets/images/wide/skywalker-paradigm-telekinesis.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</span>
 
 Supposed Jedi premonitions are actually delusions, hallucinations, and lies. Luke also believes that Kenobi feels "a great disturbance in the Force"; in fact, his contact alerted him of Tarkin's actions. Why else would Luke, who is strong in the Force, have felt nothing at all?
 
 Supposed Force-ghosts are explained by holograms, also a common piece of technology.
 
 ![Ghost? Not even close](/assets/images/wide/skywalker-paradigm-ghosts.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_anh_comp.html)</p>
 
 The supposed Jedi ability to predict and block blaster fire with a lightsaber is based in truth, but exaggerated. Lightsabers do absorb blaster fire, but they are limited by the reaction time of their wielders. Luke believes that his instincts allowed him to block the training droid's attacks while blindfolded; in fact, the droid fired at Luke's lightsaber intentionally. In later episodes, Luke is only able to block attacks when he can clearly see the shooter[^1].
 
@@ -97,7 +97,7 @@ Upon finding the Rebel base, Vader launches an unnecessarily-large invasion of H
 During the Battle of Hoth, Luke's bloodlust and sense of invincibility make him a force be behold on the battlefield. When his snowspeeder crashes, he doesn't pause to check if his unconscious friend Dak is alive. Instead, he salvages the grappling cable and uses it to single-handedly destroy an Imperial walker.
 
 ![Hey, Luke. While you're in there could you maybe take a second and check if Dak is still alive? Asshole.](/assets/images/wide/skywalker-paradigm-dak.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</span>
 
 Careful not to further agitate Luke's violent obsession with Vader, Leia has no choice but to flee. Perhaps she makes brief contact with Vader on Hoth, or perhaps her flight tells him all that he needs to know about his son's mania. Vader knows that something must be done, soon, before Luke's fervor undermines years' worth of planning.
 
@@ -108,14 +108,14 @@ With Fett's help, Vader catches up to Leia and Han on Bespin. He intends to use 
 In the meantime, Luke seeks out Yoda on Dagobah, per the instructions of Kenobi's hologram. It's unclear if he encounters the same Yoda who once led the Jedi council, or if this is simply another member of the same species. In any case, Yoda serves as an agent of Kenobi. Within minutes of meeting, he drugs Luke. He drills him with anti-Vader propaganda. He uses levitation technology to convince Luke that the Force includes near-limitless telekinetic abilities. He finally convinces Luke's drug-addled mind that if he doesn't assassinate Vader -- immediately -- his friends will be tortured and killed.
 
 ![Less than a minute after one taste of "rootleaf" Luke is hearing voices. Those who are familiar with such things would refer to "rootleaf" as "good shit"](/assets/images/wide/skywalker-paradigm-rootleaf.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</span>
 
 Luke arrives on Bespin just minutes after Han is encased in carbonite (which in turn happened just hours after Leia and Han's arrival). While Luke believes himself to have been fully trained as a Jedi, in fact he spent no more than a day on Dagobah!
 
 Vader is a far better fighter than Luke. He is fitted with sophisticated cybernetic enhancements -- not to mention that he actually did receive Jedi training. They seem evenly matched only because Vader is careful not to kill the enraged Luke. Vader first tries talking, but Luke is quick to attack. He tries to freeze Luke in carbonite. He tries to knock him out with heavy levitated objects. Only after all of this does he cut off Luke's hand. Vader knows well enough that the hand can be replaced; he hopes that Luke's pain and shock will snap him out of his hypnosis, and again tries to reason with his son.
 
 ![Vader's stated goal: "we can end this destructive conflict"](/assets/images/wide/skywalker-paradigm-vader-goal.jpg)
-<p class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</p>
+<span class="figure-caption">Source: [The Skywalker Paradigm Strikes Back](http://ammonra.org/skywalkerparadigm/a_leiaknew_esb_comp.html)</span>
 
 Luke, hysterical, flees with Leia. Vader's forces offer only token resistance.
 
@@ -126,7 +126,7 @@ In the time between movies, Luke recovers from his injury and shakes off Kenobi'
 The old Luke was a talented fighter in and out of the cockpit, but impulsive and hot-blooded. Vader sculpts him into a new Luke, deceitful and patient. The attack on Jabba's palace is a test of this new Luke's abilities.
 
 ![When Luke shows up he's dressed in all black. Where ya been, Luke...?](/assets/images/wide/skywalker-paradigm-luke-in-black.jpg)
-<p class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</p>
+<span class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</span>
 
 For both Leia and Vader, Jabba's defeat is cathartic. Leia sees Han unfrozen from carbonite; pawn or not, she has feelings for the handsome scoundrel. Vader enjoys long-overdue revenge on the crime lord who sold him into slavery as a child. While Vader cannot be present in person, he enjoys the attack vicariously through Luke. Note that Luke's black cape and his Force-choke are both nods to Vader's style.
 
@@ -143,14 +143,14 @@ In the meantime, Vader makes a dangerous play: he walks into the throne room -- 
 Vader travels to the Sanctuary Moon. Luke "surrenders." Vader and Luke stage a brief conversation for the sake of the Imperial guards. They then go directly to Palpatine's throne room. Note that it's crucial to their plan that Palpatine be assassinated in person, to ensure that he does not flee the Death Star before its destruction. It's also crucial that they do it quickly, since Leia can only stall for so long before dropping the Death Star's shield.
 
 ![Vader publicly 'capturing' his other child](/assets/images/wide/skywalker-paradigm-capture.jpg)
-<p class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</p>
+<span class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</span>
 
 Palpatine has survived many assassination attempts in his decades as Emperor. His loose robes hide an assortment of weapons, defenses, and traps. (One might imagine, for example, a bomb set to detonate if his heart stops.) Were Vader and Luke to attack him directly, even together, there's no telling who would survive. Instead, they put on a show for him. They spar, with words then with lightsabers, in an attempt to draw out Palpatine's defenses.
 
 Unfortunately for the Skywalkers, Palpatine holds his cards close to his chest. They yell and throw furniture, but he reveals nothing. Short on options (and on time), Luke dramatically severs Vader's hands. He then taunts Palpatine directly, provoking him to act.
 
 ![Jedi powers... or available technology?](/assets/images/wide/skywalker-paradigm-lightning.jpg)
-<p class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</p>
+<span class="figure-caption">Source: [Return of the Skywalker Paradigm](http://ammonra.org/skywalkerparadigm/a_leiaknew_rotj_comp.html)</span>
 
 Palpatine deploys his taser, incapacitating Luke. Vader waits until Palpatine is completely engrossed. He then throws Palpatine down a long shaft to his death. Vader knows that the feedback from Palpatine's taser will wreak havoc on the electronic life support systems within his suit. He chooses to sacrifice himself to save his legacy, rather than watch his son die in a failed coup.
 
