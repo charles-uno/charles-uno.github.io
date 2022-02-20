@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rough Notes: Guns"
-image: "/assets/images/thumb/rodion-kutsaev-pencils.png"
+image: "/assets/images/thumb/signpost-javier-allegue-barros.png"
 description: ""
 keywords: politics, guns
 ---

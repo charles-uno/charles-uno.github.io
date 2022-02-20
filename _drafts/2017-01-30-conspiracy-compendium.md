@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conspiracy Compendium"
-image: "/assets/images/thumb/markus-spiske-brushes.png"
+image: "/assets/images/thumb/brushes-markus-spiske.png"
 description: ""
 ---
 

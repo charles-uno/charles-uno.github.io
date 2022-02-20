@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rough Notes: Energy"
-image: "/assets/images/thumb/hello-i-m-nik-crayons.png"
+image: "/assets/images/thumb/signpost-javier-allegue-barros.png"
 description: ""
 ---
 

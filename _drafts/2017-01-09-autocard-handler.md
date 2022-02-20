@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Autocard Handler"
-image: "/assets/images/thumb/patrick-tomasso-bricks.png"
+image: "/assets/images/thumb/bricks-patrick-tomasso.png"
 description: ""
 ---
 

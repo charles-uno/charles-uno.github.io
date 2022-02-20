@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rough Notes: Housing"
-image: "/assets/images/thumb/jelle-de-gier-frog.png"
+image: "/assets/images/thumb/signpost-javier-allegue-barros.png"
 description: "There's no excuse for letting a child sleep on the street"
 tags: politics
 ---

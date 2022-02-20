@@ -119,6 +119,7 @@ article {
         margin: 0.5*$font-size-caption auto;
         font-size: $font-size-caption;
         line-height: $caption-line-height;
+        display: block;
     }
 
     // Footnotes use smaller text but full width

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rough Notes: Race"
-image: "/assets/images/thumb/javier-allegue-barros-signpost.png"
+image: "/assets/images/thumb/signpost-javier-allegue-barros.png"
 description: ""
 ---
 

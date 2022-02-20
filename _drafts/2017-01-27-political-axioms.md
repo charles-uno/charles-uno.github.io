@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Political Axioms"
-image: "/assets/images/thumb/gabriele-diwald-bricks.png"
+image: "/assets/images/thumb/bricks-gabriele-diwald.png"
 description: ""
 keywords: politics
 ---
