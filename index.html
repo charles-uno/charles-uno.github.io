@@ -10,14 +10,12 @@ layout: default
                     <img src="{{ post.image }}" class="index-thumb" />
                     <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                         <span class="index-name">{{ post.title }}</span>
-
                         <span class="index-tags">
                             {% assign sorted = post.tags | sort %}
                             {% for tag in sorted %}
                                 <span class="index-tag" ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;">#{{ tag }}</span>
                             {% endfor %}
                         </span>
-
                     </a>
                 </li>
             {% endunless %}
@@ -30,14 +28,12 @@ layout: default
                     <img src="{{ post.image }}" class="index-thumb" />
                     <a href="{% if post.redirect %}{{ post.redirect }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="index-link">
                         <span class="index-name">{{ post.title }}</span>
-
                         <span class="index-tags">
                             {% assign sorted = post.tags | sort %}
                             {% for tag in sorted %}
                                 <span class="index-tag" ontouchstart="goToTag('{{ tag }}'); return false;" onclick="goToTag('{{ tag }}'); return false;" ontouchend="fixStickyHover(); return false;">#{{ tag }}</span>
                             {% endfor %}
                         </span>
-
                     </a>
                 </li>
             {% endunless %}
