@@ -2,10 +2,29 @@
 
 header {
 
-    .post-tag {
-        font-size: 0.8rem;
+    .post-title {
+        margin-top: 0;
+    }
+
+    .post-under-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .post-date, .post-tags {
         display: inline-block;
+        font-size: $font-size-caption;
         padding: 0.1rem;
+        bottom: 0;
+    }
+
+    .post-date {
+        color: $text-color;
+    }
+
+    .post-tag {
+        display: inline-block;
         border-radius: $figure-border-radius;
         color: $accent-color;
         border: 1px solid $accent-color;
@@ -17,7 +36,6 @@ header {
         }
     }
 }
-
 
 article {
 
