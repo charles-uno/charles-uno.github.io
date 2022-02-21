@@ -82,7 +82,7 @@ A year ago, we might have looked at the odds of casting [[Primeval Titan]] by tu
 | Scout  | Explore | Stirrings | 1%     | 22%    | 15%               |
 | Scout  | Explore | OUAT      | 2%     | 36%    | 15%               |
 
-<span class="table-caption">Statistical uncertainty ±1%. The difference between 25% and 26% is not significant, and the difference between 25% and 27% toes the line.</span>
+<span class="figure-caption">Statistical uncertainty ±1%. The difference between 25% and 26% is not significant, and the difference between 25% and 27% toes the line.</span>
 
 Above, columns `X`, `Y`, and `Z` show the different configurations of the deck, per the previous section. For each configuration, the value under `Turn 2` is the percent of seven-card hands that can cast [[Primeval Titan]] on turn two. Similarly, the `Turn 3` column shows the percent of seven-card hands that can cast [[Primeval Titan]] by turn three. Values for `Turn 2` and `Turn 3` assume a non-interactive opponent. The final column, `Turn 3 vs Removal`, assumes the opposite. For that case, the calculation is repeated assuming our opponent *always* has removal for our creatures, so we never get to untap with [[Azusa, Lost but Seeking:Azusa]], [[Dryad of the Ilysian Grove:Dryad]], or [[Sakura-Tribe Scout:Scout]]. This is particularly relevant when considering [[Dryad of the Ilysian Grove:Dryad]] as a potential replacement for [[Azusa, Lost but Seeeking:Azusa]]. [[Azusa, Lost but Seeking:Azusa]] ramps us from three mana to six on her own, even in the face of removal. [[Dryad of the Ilysian Grove:Dryad]] only gets us to five.
 

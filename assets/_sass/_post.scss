@@ -1,3 +1,54 @@
+
+
+header {
+
+}
+
+
+article {
+
+    a {
+        color: $accent-color;
+        &:hover {
+            color: $text-color;
+        }
+    }
+
+    // Consistent highlighting for blockquotes, code blocks, inline code
+    blockquote, div.highlight, pre, pre.highlight, code, img {
+        background-color: $shadow-color;
+    }
+
+    // Not a fan of the default table style
+    table, img {
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+        border-radius: $figure-border-radius;
+        overflow: hidden;
+        th, td {
+            border: 0;
+        }
+        tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, thead tr th {
+            background-color: $shadow-color;
+        }
+        tbody tr {
+            border-top: 0.1px solid $paper-color
+        }
+    }
+    // Caption following an image or table
+    .figure-caption {
+        margin: 0.4rem auto;
+        font-size: 0.8rem;
+        line-height: 1.3;
+        display: block;
+    }
+
+
+
+}
+
+
+
 /*
 header {
     width: 100%;
@@ -58,15 +109,7 @@ article {
 
     p { margin: 1.2*$font-size-body 0; }
 
-    a {
-        color: $accent-color;
-        &:hover { color: $text-color; }
-    }
 
-    // Highlight block quotes and code blocks
-    blockquote, div.highlight, pre, pre.highlight, code, img {
-        background-color: $shadow-color;
-    }
     blockquote, div.highlight, img {
         border-radius: 0.3*$font-size-body;
         overflow: hidden;
@@ -105,13 +148,6 @@ article {
         margin-bottom: 0px;
     }
 
-    // Caption following an image or table
-    .figure-caption {
-        margin: 0.5*$font-size-caption auto;
-        font-size: $font-size-caption;
-        line-height: $caption-line-height;
-        display: block;
-    }
 
     // Footnotes use smaller text but full width
     div.footnotes li {
@@ -148,7 +184,11 @@ article {
 
 }
 
+
+*/
+
 // Autocard handling
+
 
 .autocard-wrap {
     background-color: rgba(0, 0, 0, 0.8);
@@ -171,4 +211,3 @@ article {
     transform: translateY(-50%);
     margin: 0 auto;
 }
-*/
