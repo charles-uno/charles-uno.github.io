@@ -1,17 +1,16 @@
 
 .navbar {
     background-color: $accent-color;
-    width: 200px;
+    width: $navbar-width;
     position: fixed;
     height: 100%;
 }
 
 .main {
-    margin-left: 200px;
+    margin-left: $navbar-width;
     padding: 20px;
-
+    min-height: 100%;
 }
-
 
 @media (max-width: 800px) {
   .navbar {

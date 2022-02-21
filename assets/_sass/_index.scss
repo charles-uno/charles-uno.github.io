@@ -12,12 +12,10 @@
     padding: $tile-pad/2;
     width: 50%;
 
-
     // TODO: width thresholds need to depend on if the navbar is side or top
 
-
-    @media (min-width: 800px) { width: 33.33%; }
-    @media (min-width: 1200px) { width: 25%; }
+    @media (min-width: 1000px) { width: 33.33%; }
+    @media (min-width: 1400px) { width: 25%; }
     text-align: center;
 }
 
@@ -57,8 +55,6 @@
 
 .index-name {
     top: 45%;
-    // Try to force sensible text wrapping.
-    width: $index-name-width;
 }
 
 .index-tags {
