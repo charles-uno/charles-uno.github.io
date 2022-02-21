@@ -9,17 +9,28 @@
     {% endif %}
     <!-- Icon handling -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
     <!-- Make sure Google doesn't double-count index.html -->
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <!-- Font Awesome glyphs -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <!-- Google fonts -->
+
+
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Fredoka+One:100,400|Cutive+Mono|Cambo|Just+Me+Again+Down+Here" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+
+    <!-- serif, but pretty sans-y-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <!-- halfway to the old bubble font. but also weirdly small. -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+
+
+    <!-- This is a nice sans font for titles, but not much to do with it if we want sand body -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+
     <!-- Import CSS -->
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
     <!-- Jekyll SEO for Facebook and Twitter sharing. Also handles title, etc. -->
