@@ -2,6 +2,20 @@
 
 header {
 
+    .post-tag {
+        font-size: 0.8rem;
+        display: inline-block;
+        padding: 0.1rem;
+        border-radius: $figure-border-radius;
+        color: $accent-color;
+        border: 1px solid $accent-color;
+        &:hover {
+            cursor: pointer;
+            color: $text-color;
+            border: 1px solid $text-color;
+            background-color: $shadow-color;
+        }
+    }
 }
 
 
@@ -43,6 +57,12 @@ article {
         display: block;
     }
 
+    hr {
+        color: $shadow-color;
+        border-color: $shadow-color;
+        background-color: $shadow-color;
+        height: 0.1rem;
+    }
 
 
 }
@@ -83,20 +103,7 @@ header {
         margin-bottom: $font-size-subtitle;
     }
 
-    .post-tag {
-        display: inline-block;
-        padding: 0.15*$font-size-subtitle;
-        border-radius: 0.25*$font-size-subtitle;
-        color: $accent-color;
-        font-size: $font-size-subtitle;
-        border: 1px solid $accent-color;
-        &:hover {
-            cursor: pointer;
-            color: $text-color;
-            border: 1px solid $text-color;
-            background-color: $shadow-color;
-        }
-    }
+
 }
 
 article {
@@ -175,12 +182,6 @@ article {
         }
     }
 
-    hr {
-        color: $shadow-color;
-        border-color: $shadow-color;
-        background-color: $shadow-color;
-        height: $hr-height;
-    }
 
 }
 

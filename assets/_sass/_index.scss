@@ -65,7 +65,7 @@
 .index-tag {
     padding: 0.1rem;
     border: 1px solid $shadow-color;
-    border-radius: 0.25rem;
+    border-radius: $figure-border-radius;
     display: inline-block;
     &:hover {
         color: $text-color;
