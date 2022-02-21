@@ -7,14 +7,14 @@ $head-font: 'DM Serif Display', cursive;
 $mono-font: Menlo, Monaco, "Courier New", monospace;
 
 
-$head-font: 'Dongle';
+$head-font: 'Alata', 'Outfit', sans-serif;
 
 
 
 $text-color: #222;
 $paper-color: #ddd;
 $shadow-color: #fff;
-$accent-color: #069;
+$accent-color: #339;
 
 $navbar-width: 17rem;
 $content-width: 55rem;
@@ -24,24 +24,22 @@ $line-height-caption: 1.3;
 $figure-border-radius: 0.2rem;
 
 
-
-// Roboto
-
+// Adjust base font size based on viewer width. Other sizes are inherited
 html {
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: $text-color;
     line-height: 1.6;
     overscroll-behavior: none;
+        font-size: 14px;
 }
-@media (min-width: 48em) {
-    html {
-        font-size: 16px;
-    }
+@media (min-width: 40em) {
+    html { font-size: 16px; }
 }
-@media (min-width: 58em) {
-    html {
-        font-size: 20px;
-    }
+@media (min-width: 55em) {
+    html { font-size: 18px; }
+}
+@media (min-width: 70em) {
+    html { font-size: 20px; }
 }
 
 html, body {
@@ -58,6 +56,11 @@ img {
 
 a, a:focus, a:visited, a:hover {
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .index-name {
+    font-family: $head-font;
+    text-transform: lowercase;
 }
 
 .nowrap {
