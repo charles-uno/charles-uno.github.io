@@ -9,13 +9,8 @@
 
 .index-item-wrap {
     display: inline-block;
-    padding: 0.25rem;
-    width: 50%;
-
-    // TODO: width thresholds need to depend on if the navbar is side or top
-
-    @media (min-width: 60rem) { width: 33.33%; }
-    @media (min-width: 80rem) { width: 25%; }
+    padding: 0.4rem;
+    width: 33.3%;
     text-align: center;
 }
 

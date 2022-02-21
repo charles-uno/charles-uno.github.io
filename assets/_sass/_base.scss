@@ -22,17 +22,14 @@ $head-height: $font-size-glyph + 2*$head-pad;
 $copy-height: 5rem;
 
 // Big-picture layout
-$paper-width: 50rem;
-$navbar-width: 20rem;
-$text-width: 40rem;
+$navbar-width: 17rem;
+$content-width: 55rem;
 
 
 
 $font-size-caption: 0.8rem;
 $line-height-caption: 1.3;
-
 $figure-border-radius: 0.2rem;
-
 
 
 html {

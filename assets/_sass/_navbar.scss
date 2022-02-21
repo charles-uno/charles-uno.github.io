@@ -8,7 +8,9 @@
 
 .main {
     margin-left: $navbar-width;
-    padding: 20px;
+    margin-right: auto;
+    max-width: $content-width;
+    padding: 2rem;
     height: 100%;
     min-height: 100%;
 }
