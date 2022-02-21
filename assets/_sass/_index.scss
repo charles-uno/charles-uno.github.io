@@ -9,20 +9,20 @@
 
 .index-item-wrap {
     display: inline-block;
-    padding: $tile-pad/2;
+    padding: 0.25rem;
     width: 50%;
 
     // TODO: width thresholds need to depend on if the navbar is side or top
 
-    @media (min-width: 1000px) { width: 33.33%; }
-    @media (min-width: 1400px) { width: 25%; }
+    @media (min-width: 60rem) { width: 33.33%; }
+    @media (min-width: 80rem) { width: 25%; }
     text-align: center;
 }
 
 .index-item {
     position: relative;
-    border-radius: $tile-radius;
     overflow: hidden;
+    border-radius: $image-radius;
 }
 
 .index-link {
@@ -41,34 +41,32 @@
     }
 }
 
-.index-name, .index-date, .index-tags {
+.index-name, .index-tags {
     color: $shadow-color;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1;
     text-transform: lowercase;
-    font-size: $font-size-index;
-    font-family: $head-font;
     width: 100%;
 }
 
 .index-name {
     top: 45%;
+    font-family: $head-font;
+    font-size: 1.2rem;
 }
 
 .index-tags {
     top: 85%;
-    font-family: $base-font;
+    font-size: 0.8rem;
 }
 
 .index-tag {
-    display: inline-block;
-    padding: 0.15*$font-size-index;
-    border-radius: 0.25*$font-size-index;
-    color: $shadow-color;
-    font-size: 0.5*$font-size-index;
+    padding: 0.1rem;
     border: 1px solid $shadow-color;
+    border-radius: 0.25rem;
+    display: inline-block;
     &:hover {
         color: $text-color;
         border: 1px solid $text-color;
