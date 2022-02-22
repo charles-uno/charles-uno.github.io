@@ -8,7 +8,8 @@
         <meta http-equiv="refresh" content="0; URL='{{ page.redirect }}'" />
     {% endif %}
     <!-- Icon handling -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon" />
     <!-- Make sure Google doesn't double-count index.html -->
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <!-- Font Awesome glyphs -->
