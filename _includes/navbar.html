@@ -11,34 +11,30 @@
 <div class="navbar">
 
     <div class="navbar-top">
-        <div class="navbar-thumb">
+        <a class="navbar-thumb" href="{{ site.url }}">
             <img src="/assets/images/thumb/charles-hair.png">
             <div class="navbar-title">{{ site.title }}</div>
-        </div>
-<!--
-        <a href="{{ site.url }}" class="navbar-title">{{ site.title }}</a>
--->
+        </a>
     </div>
 
     <div class="navbar-bot">
-            <div class="navbar-link"><a href="{{ site.url }}">Home</a></div>
-            <div class="navbar-link"><a href="/about">About</a></div>
-
-            <div class="navbar-share-glyphs">
-                <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
-                    <i class="navbar-share-glyph fab fa-facebook-square"></i>
-                </a>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
-                    <i class="navbar-share-glyph fab fa-linkedin"></i>
-                </a>
-                <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
-                    <i class="navbar-share-glyph fab fa-reddit-square"></i>
-                </a>
-                <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
-                    <i class="navbar-share-glyph fab fa-twitter-square"></i>
-                </a>
-            </div>
-            <div class="copy">&copy; 2022 Charles Fyfe</div>
+        <div class="navbar-link"><a href="{{ site.url }}">Home</a></div>
+        <div class="navbar-link"><a href="/about">About</a></div>
+        <div class="navbar-share-glyphs">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
+                <i class="navbar-share-glyph fab fa-facebook-square"></i>
+            </a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
+                <i class="navbar-share-glyph fab fa-linkedin"></i>
+            </a>
+            <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
+                <i class="navbar-share-glyph fab fa-reddit-square"></i>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
+                <i class="navbar-share-glyph fab fa-twitter-square"></i>
+            </a>
+        </div>
+        <div class="copy">&copy; 2022 Charles Fyfe</div>
     </div>
 
 </div>

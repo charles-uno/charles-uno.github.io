@@ -21,9 +21,7 @@
         padding: 1rem;
     }
 
-    .navbar-top {
-        position: relative;
-    }
+    .navbar-top { position: relative; }
 
     .navbar-bot {
         text-align: right;
@@ -33,6 +31,7 @@
     }
 
     .navbar-thumb {
+        display: block;
         img {
             border-radius: 50%;
             overflow: hidden;
@@ -41,6 +40,7 @@
     }
 
     .navbar-title {
+        text-transform: none;
         font-family: $logo-font;
         color: $text-color;
         font-size: 2rem;
@@ -49,13 +49,9 @@
         margin-top: -0.5rem;
     }
 
-    .navbar-link {
-        font-size: 1.5rem;
-    }
+    .navbar-link { font-size: 1.5rem; }
 
-    .navbar-share-glyphs {
-        font-size: 2.5rem;
-    }
+    .navbar-share-glyphs { font-size: 2.5rem; }
 
     .copy {
         color: $text-color;
