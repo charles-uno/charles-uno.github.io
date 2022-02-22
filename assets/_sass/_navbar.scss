@@ -4,8 +4,13 @@
     width: $navbar-width;
     position: fixed;
     height: 100%;
-
     font: $head-font;
+
+    .navbar-thumb {
+        margin: 2rem;
+        border-radius: 50%;
+        overflow: hidden;
+    }
 
 }
 
