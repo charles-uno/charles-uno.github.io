@@ -10,13 +10,16 @@ $mono-font: Menlo, Monaco, "Courier New", monospace;
 $head-font: 'Alata', 'Outfit', sans-serif;
 
 
+$logo-font: 'Suez One';
+
+
 
 $text-color: #222;
 $paper-color: #ddd;
 $shadow-color: #fff;
-$accent-color: #339;
+$accent-color: #44a;
 
-$navbar-width: 17rem;
+$navbar-size: 17rem;
 $content-width: 55rem;
 
 $font-size-caption: 0.8rem;
@@ -30,7 +33,7 @@ html {
     color: $text-color;
     line-height: 1.6;
     overscroll-behavior: none;
-        font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 40em) {
     html { font-size: 16px; }
@@ -58,7 +61,7 @@ a, a:focus, a:visited, a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, .index-name {
+h1, h2, h3, h4, h5, h6, .index-name, .navbar {
     font-family: $head-font;
     text-transform: lowercase;
 }

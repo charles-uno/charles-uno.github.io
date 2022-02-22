@@ -1,41 +1,44 @@
+{% if page.title %}
+    {% assign share-url = page.url | prepend: site.url %}
+    {% assign share-title = page.title | url_encode %}
+    {% assign share-excerpt = page.description | url_encode %}
+{% else %}
+    {% assign share-url = site.url %}
+    {% assign share-title = site.title | url_encode %}
+    {% assign share-excerpt = site.description | url_encode %}
+{% endif %}
+
 <div class="navbar">
 
-
-    <div class="navbar-thumb">
-        <img src="/assets/images/thumb/charles-hair.png">
+    <div class="navbar-top">
+        <div class="navbar-thumb">
+            <img src="/assets/images/thumb/charles-hair.png">
+            <div class="navbar-title">{{ site.title }}</div>
+        </div>
+<!--
+        <a href="{{ site.url }}" class="navbar-title">{{ site.title }}</a>
+-->
     </div>
 
-    <div class="navbar-logo">
-        <a href="{{ site.url }}" id="logo">{{ site.title }}</a>
-    </div>
+    <div class="navbar-bot">
+            <div class="navbar-link"><a href="{{ site.url }}">Home</a></div>
+            <div class="navbar-link"><a href="/about">About</a></div>
 
-    <div class="navbar-links">
-
-        <p><a href="/about">About</a></p>
-
-        <p><a href="/privacy-policy">Privacy Policy</a></p>
-
-        <div class="navbar-share-glyphs">
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
-                <i class="navbar-share-glyph fab fa-facebook-square"></i>
-            </a>
-            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
-                <i class="navbar-share-glyph fab fa-linkedin"></i>
-            </a>
-            <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
-                <i class="navbar-share-glyph fab fa-reddit-square"></i>
-            </a>
-            <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
-                <i class="navbar-share-glyph fab fa-twitter-square"></i>
-            </a>
-        </div>
-
-
-
-        <div class="copy">
-            &copy; Charles Fyfe 2022 under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC-BY</a>
-        </div>
-
+            <div class="navbar-share-glyphs">
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
+                    <i class="navbar-share-glyph fab fa-facebook-square"></i>
+                </a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
+                    <i class="navbar-share-glyph fab fa-linkedin"></i>
+                </a>
+                <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
+                    <i class="navbar-share-glyph fab fa-reddit-square"></i>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
+                    <i class="navbar-share-glyph fab fa-twitter-square"></i>
+                </a>
+            </div>
+            <div class="copy">&copy; 2022 Charles Fyfe</div>
     </div>
 
 </div>

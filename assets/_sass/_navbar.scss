@@ -1,21 +1,71 @@
 
 .navbar {
     background-color: $accent-color;
-    width: $navbar-width;
+    width: $navbar-size;
     position: fixed;
     height: 100%;
-    font: $head-font;
+    font-family: $head-font;
+
+    a {
+        color: $shadow-color;
+        &:hover { color: $text-color; }
+    }
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .navbar-top, .navbar-bot {
+        width: 100%;
+        max-width: $navbar-size;
+        padding: 1rem;
+    }
+
+    .navbar-top {
+        position: relative;
+    }
+
+    .navbar-bot {
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
 
     .navbar-thumb {
-        margin: 2rem;
-        border-radius: 50%;
-        overflow: hidden;
+        img {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        position: relative;
+    }
+
+    .navbar-title {
+        font-family: $logo-font;
+        color: $text-color;
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        margin-top: -0.5rem;
+    }
+
+    .navbar-link {
+        font-size: 1.5rem;
+    }
+
+    .navbar-share-glyphs {
+        font-size: 2.5rem;
+    }
+
+    .copy {
+        color: $text-color;
+        font-size: $font-size-caption;
     }
 
 }
 
 .main {
-    margin-left: $navbar-width;
+    margin-left: $navbar-size;
     margin-right: auto;
     max-width: $content-width;
     padding: 1rem;
@@ -27,119 +77,8 @@
   .navbar {
     width: 100%;
     height: auto;
+    flex-direction: row;
     position: relative;
   }
-  .sidebar a {float: left;}
-  .main {margin-left: 0;}
+  .main { margin-left: 0; }
 }
-
-/*
-#logo, .head-glyph {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    color: $shadow-color;
-    &:hover {
-        cursor: pointer;
-        color: $text-color;
-    }
-}
-
-#logo {
-    font-size: $font-size-logo;
-    font-family: $logo-font;
-}
-
-.head-glyph {
-    font-size: $font-size-glyph;
-    margin: 0 0.2*$font-size-glyph;
-}
-
-div.head-logo {
-    display: inline-block;
-}
-*/
-
-/*
-
-.wrap-head, .head, .wrap-main, .main, .copy {
-    width: 100%;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    display: block;
-}
-
-.wrap-head {
-    background-color: $accent-color;
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 $shadow-size;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
-    box-shadow: rgba(0,0,0,0.8) 0 0 $shadow-size;
-    z-index: 99;
-    top: 0px;
-    position: fixed;
-}
-
-.head {
-    a, a:visited {
-        color: $shadow-color;
-    }
-    a:hover {
-        color: $text-color;
-    }
-    max-width: $paper-width;
-    padding: $tile-pad/2 $side-pad;
-    display: flex;
-    justify-content: space-between;
-    height: $head-height;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.wrap-main {
-    padding-top: $head-height;
-    height: 100%;
-    background-color: $shadow-color;
-}
-
-.main {
-    background-color: $paper-color;
-    margin: 0 auto;
-    min-height: 100%;
-    position: relative;
-    // Leave room for the copyright
-    padding-bottom: $copy-height + $tile-pad/2;
-    max-width: $paper-width;
-    padding-top: $side-pad;
-    padding-left: 2*$side-pad;
-    padding-right: 2*$side-pad;
-    text-align: justify;
-    header, article, footer {
-        border: 0;
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        max-width: $text-width;
-    }
-}
-
-.copy {
-    text-align: center;
-    font-size: $font-size-caption;
-    padding: ($copy-height - $font-size-caption)/2;
-    line-height: 1;
-    height: $copy-height;
-    vertical-align: middle;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    color: $text-color;
-    a {
-        color: $accent-color;
-        &:hover {
-            color: $text-color;
-        }
-    }
-}
-*/
