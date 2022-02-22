@@ -19,9 +19,8 @@ Sometimes my web development skills are just good enough to make a mess out of i
 ![Charles at AGU, December 2015](/assets/images/wide/charles-agu-16x9.png)
 
 The site is powered by [Jekyll](https://jekyllrb.com/) via [GitHub Pages](https://pages.github.com/).
-Some images are mine.
-The rest are from [Unsplash](https://unsplash.com/).
-Glyphs are from [Font Awesome](http://fontawesome.io/).
+Some images are mine, but if it looks nice it's probably from [Unsplash](https://unsplash.com/).
+Media glyphs are from [Font Awesome](http://fontawesome.io/).
 
 ## Privacy Policy
 

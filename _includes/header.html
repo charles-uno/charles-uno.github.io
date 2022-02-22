@@ -1,10 +1,10 @@
 
-<span class="post-under-title">
-
+<span class="post-links">
+<!--
     <span class="post-date">
         <span class="nowrap">{{ page.date | date_to_string }}</span>
     </span>
-
+-->
     <span class="post-tags">
         {% if page.tags %}
             {% assign sorted = page.tags | sort %}
@@ -13,6 +13,35 @@
             {% endfor %}
         {% endif %}
     </span>
+
+<!--
+
+{% if page.title %}
+    {% assign share-url = page.url | prepend: site.url %}
+    {% assign share-title = page.title | url_encode %}
+    {% assign share-excerpt = page.description | url_encode %}
+{% else %}
+    {% assign share-url = site.url %}
+    {% assign share-title = site.title | url_encode %}
+    {% assign share-excerpt = site.description | url_encode %}
+{% endif %}
+
+        <div class="media-glyphs">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
+                <i class="media-glyph fab fa-facebook-square"></i>
+            </a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share-url }}&amp;title={{ share-title }}&amp;summary={{ share-excerpt }}" title="LinkedIn" class="popup">
+                <i class="media-glyph fab fa-linkedin"></i>
+            </a>
+            <a href="http://www.reddit.com/submit?url={{ share-url }}&amp;title={{ share-title }}" title="Reddit" class="popup">
+                <i class="media-glyph fab fa-reddit-square"></i>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text={{ share-title }}&amp;via={{ site.author.twitter }}&amp;url={{ share-url }}" title="Twitter" class="popup">
+                <i class="media-glyph fab fa-twitter-square"></i>
+            </a>
+        </div>
+
+-->
 
 </span>
 

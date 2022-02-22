@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5, h6, .index-name, .navbar {
     text-transform: lowercase;
 }
 
-.nowrap {
-    white-space: nowrap;
+.copy {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: $font-size-caption;
 }
