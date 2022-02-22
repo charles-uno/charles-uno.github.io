@@ -49,6 +49,9 @@ article {
     blockquote, div.highlight, pre, pre.highlight, code, img {
         background-color: $shadow-color;
     }
+    blockquote {
+        border: 0;
+    }
 
     // Not a fan of the default table style
     table, img {
