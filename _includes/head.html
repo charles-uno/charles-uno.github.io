@@ -3,10 +3,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.description }}">
-    <!-- Some articles are actually redirects -->
-    {% if page.redirect %}
-        <meta http-equiv="refresh" content="0; URL='{{ page.redirect }}'" />
-    {% endif %}
     <!-- Icon handling -->
     <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/apple-touch-icon.png" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon" />
@@ -14,20 +10,9 @@
     <link href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
     <!-- Font Awesome glyphs -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- Google fonts -->
+    <!-- Google fonts. Might come back to the logo font especially -->
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Alata|Outfit" rel="stylesheet">
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-
-
-
-    <!-- thick serif -->
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand|Calistoga|Orelega+One|Suez+One&display=swap" rel="stylesheet">
     <!-- Import CSS -->
     <link href="{{ '/assets/app.css' | prepend: site.baseurl }}" rel="stylesheet">
     <!-- Jekyll SEO for Facebook and Twitter sharing. Also handles title, etc. -->

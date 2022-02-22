@@ -39,6 +39,7 @@ html {
 
 html, body {
     min-height: 100%;
+    color: $text-color;
     background-color: $paper-color;
     overscroll-behavior: none;
 }
@@ -60,9 +61,6 @@ h1, h2, h3, h4, h5, h6, .index-name, .navbar {
 }
 
 .copy {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 0;
     font-size: $font-size-caption;
 }
 
