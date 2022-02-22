@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: "About"
-image: "/assets/images/thumb/charles-close.png"
-tags: self
+description: About charles.uno, the personal website of Charles Fyfe
 ---
 
 Welcome!
