@@ -32,7 +32,6 @@ html {
     font-family: 'Roboto', sans-serif;
     color: $text-color;
     line-height: 1.6;
-    overscroll-behavior: none;
     font-size: 14px;
 }
 @media (min-width: 40em) {
@@ -48,6 +47,7 @@ html {
 html, body {
     min-height: 100%;
     background-color: $paper-color;
+    overscroll-behavior: none;
 }
 
 img {
