@@ -51,6 +51,7 @@ article {
     }
     blockquote {
         border: 0;
+        font-size: $font-size-caption;
     }
 
     // Not a fan of the default table style
@@ -76,6 +77,14 @@ article {
         font-size: $font-size-caption;
         line-height: $line-height-caption;
         display: block;
+    }
+
+    // Prevent margin weirdness after a figure with no caption. Kludgey. Note
+    // that this is needed only after tables, not images, since the img and
+    // caption are within the same <p>
+    .figure-nocaption {
+        // Match p margin-bottom
+        margin-top: 1rem;
     }
 
     hr {

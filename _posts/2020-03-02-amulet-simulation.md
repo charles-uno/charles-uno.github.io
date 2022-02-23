@@ -41,7 +41,6 @@ For the sake of brevity, we're not getting into the numbers for [[Castle Garenbr
 
 Simulations make use of the list below. The letter `X` represents [[Arboreal Grazer]] or [[Sakura-Tribe Scout]], `Y` is [[Azusa, Lost but Seeking:Azusa]] or [[Explore]], and `Z` is [[Ancient Stirrings]], [[Oath of Nissa]], or [[Once Upon a Time:OUAT]]. Put another way, we're looking at all possible combinations of a one-drop ramp creature, an additional ramp spell, and a cantrip.
 
-
 |   | Amulet Titan (March 2020) |
 |--:|:--------------------------|
 | 4 | X                         |
@@ -61,7 +60,7 @@ Simulations make use of the list below. The letter `X` represents [[Arboreal Gra
 | 4 | [[Simic Growth Chamber]]  |
 | 2 | [[Tolaria West]]          |
 
-Note that the above list does not include [[Cavern of Souls]] or [[Vesuva]] due to computational complexity. We're also not accounting for small variations between deck lists. Some people play [[Boros Garrison]], [[Crumbling Vestige]], a third [[Tolaria West]], and so on. Wiggle room in the mana base introduces a potential percent-level bias across the board, but should not affect our ability to make relative comparisons.
+<p class="figure-nocaption">Note that the above list does not include [[Cavern of Souls]] or [[Vesuva]] due to computational complexity. We're also not accounting for small variations between deck lists. Some people play [[Boros Garrison]], [[Crumbling Vestige]], a third [[Tolaria West]], and so on. Wiggle room in the mana base introduces a potential percent-level bias across the board, but should not affect our ability to make relative comparisons.</p>
 
 ## Crunching the Numbers
 

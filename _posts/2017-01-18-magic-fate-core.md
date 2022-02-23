@@ -35,7 +35,7 @@ For example, let's look at my dwarven barbarian (**Don't Hit First; Hit Last**) 
 | Kelp devils attack the boat | Jump into the water and roll Athletics to swim like a **Tor-pedo** | Take to the skies: roll Athletics for the advantage **Flying** |
 | Weapon of choice | His [hammer](https://www.youtube.com/watch?v=t7bdr6fjg-k), rolled with **Fight** | Fireballs, rolled with **Shoot** |
 
-A big selling point of this magic system (apart from its simplicity) is that it's great for compels. Compels are probably the trickiest element of Fate. New groups often have trouble getting the hang of them. But they're absolutely crucial: compels are Fate's way of making sure that the mechanics of Fate serve the narrative, not vice versa.
+<p class="figure-nocaption">A big selling point of this magic system (apart from its simplicity) is that it's great for compels. Compels are probably the trickiest element of Fate. New groups often have trouble getting the hang of them. But they're absolutely crucial: compels are Fate's way of making sure that the mechanics of Fate serve the narrative, not vice versa.</p>
 
 For example, suppose Nock ends up in an **Anti-Magic Field**, preventing him from shooting fireballs. In desperation, he picks up a crossbow. He still has an excellent Shoot score, so you might expect him to be just as effective with the crossbow as he was with fireballs... except that would make no sense in the story!
 

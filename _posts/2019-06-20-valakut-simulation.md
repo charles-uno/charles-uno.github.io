@@ -57,7 +57,7 @@ Let's start with [Titan Breach](https://www.mtggoldfish.com/archetype/modern-tit
 | 4 | [[Valakut, the Molten Pinnacle]] |
 | 4 | [[Wooded Foothills]]       |
 
-We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run the same model back using [[Shivan Oasis]][^4]. This allows us to disentangle the upside of cycling from the downside of always entering the battlefield tapped. The table below shows how the numbers shake out:
+<p class="figure-nocaption">We simulate four different variations of this deck to cover all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also run the same model back using [[Shivan Oasis]][^4]. This allows us to disentangle the upside of cycling from the downside of always entering the battlefield tapped. The table below shows how the numbers shake out:</p>
 
 [^4]: We would never actually play [[Shivan Oasis]], since it doesn't have the Mountain subtype (which is what makes [[Valakut, the Molten Pinnacle:Valakut]] tick). It's standing in for a [[Taiga]] that always enters the battlefield tapped.
 
@@ -116,7 +116,7 @@ With zero copies of [[Simian Spirit Guide]], only about one in thirty hands can 
 | 4 | [[Valakut, the Molten Pinnacle]] |
 | 4 | [[Wooded Foothills]]      |
 
-As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include [[Shivan Oasis]] as a control to disentangle cycling from entering the battlefield untapped. The numbers are below:
+<p class="figure-nocaption">As with Titan Breach, we simulate all combinations of [[Farseek]] vs [[Explore]] and [[Cinder Glade]] vs [[Sheltered Thicket]]. We also include [[Shivan Oasis]] as a control to disentangle cycling from entering the battlefield untapped. The numbers are below:</p>
 
 | Titan Shift Variation              | T4   | ≤ T4.5 | ≤ T5   | ≤ T5.5 |
 |:-----------------------------------|:----:|:------:|:------:|:------:|
