@@ -10,7 +10,8 @@
 .index-item-wrap {
     display: inline-block;
     padding: 0.4rem;
-    width: 33.3%;
+    width: 50%;
+    @media (min-width: 40em) { width: 33.3%; }
     text-align: center;
 }
 
