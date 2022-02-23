@@ -10,100 +10,35 @@ At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousan
 Then they marched on the capital city of Cusco, killing thousands more Incan warriors along the way.
 The Incan empire --- which at the time was [more populous than Spain][1500_populations] --- fell shortly thereafter.
 
-
-The conquistadors wore steel armor and rode horses, while the Incas wore cloth and fought on foot.
-The conquistadors were preceded by a smallpox epidemic.
-Written language allowed Pizarro to model his tactics after the victories of Cortés.
-Europe had the political structures and seafaring technology to send expeditions around the world in the first place.
-
-
-The horrors of the colonial era, in South America and elsewhere, are a grim testament to the technological disparities between civilizations on different continents.
-
-
-
-
-
- that developed between continents over the course of human history.
-
-laid bare the technological disparities between civilizations on
-
-
-
-
-
-
-The Spanish conquistadors had every advantage over the Incas.
-
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and pre-history) in order to explain
-
-The horrors of the colonial era, in South America and elsewhere, are a grim testament to the technological disparity between continents.
-
-Indigenous peoples in North America, Sub-Saharan Africa, and Australia were similarly devastated during the colonial era.
-
-
-
 [1500_populations]: https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1500
 
-The horrors of the colonial era, in South America and elsewhere, were enabled by
-The massacre, like countless others, is a grim testament to the technological disparities between continents leading into the colonial era.
+The Spanish invasion was so successful, in part, because the conquistadors wore steel armor and rode horses.
+They also carried (and were resistant to) deadly diseases such as smallpox.
+Written language allowed Pizarro to model his tactics after the victories of Cortés.
+And of course, Europe had the political structures to send expeditions around the world in the first place.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and prehistory) in order to explain why all these technologies[^1] developed in Eurasia[^2] but few or none of them developed on other continents.
 
+[^1]: For lack of a better word, "technology" is used broadly here. It includes agriculture, livestock domestication, politics, written language, resistance to diseases, and more.
 
-At the Battle of Cajamarca, a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
-The massacre can easily be explained in terms of proximate causes.
-Europe had the political structures and seafaring technology to send expeditions across the ocean;
-European soldiers rode horses and wore steel armor;
-Native Americans were devastated by European diseases such as smallpox;
-the written word allowed Pizarro to model his ambush on the successful tactics of Cortés;
-and so on.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history in search of a fundamental cause behind the many proximate causes: why did civilizations on different continents develop technology at such different rates?
+[^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
-It's more fundamental than that.
-The book is written from the perspective of a biologist studying the human species.
+He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
+Instead, Diamond writes from the perspective of a biologist studying the human species overall.
+The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
 
-Most of the action in this book takes place thousands of years before Moses or Buddha.
-In terms of biology, humans have all been pretty much the same for thousands of years.
-
-Instead, Diamond lays out his argument in terms of the environments that faced humans in different regions of the world.
-
-
-
-
-
-
-
-
-trace back the chain of causation, starting with immediate events
-why did smaller numbers triumph?
-why did the incas walk into the (in hindsight) obvious trap?
-
-
-
-
-
-
-
-at the end of the last ice age, humans worldwide lived in hunter-gatherer societies
-
-
-
-
-
-
-
-The last ice age ended about 13,000 years ago.
-Human populations were growing rapidly worldwide.
-
-Diamond traces the roots of technology back about 13,000 years, to the end of the last ice age.
-
-The big turning point for human technology, according to this book, started around 13k years ago.
-The last ice age was ending.
-Human populations were growing rapidly.
-And large species, such as mammoths and giant sloths, were going extinct worldwide[^6].
+At the end of the last ice age (about 13,000 years ago) humans worldwide lived in hunter-gatherer societies.
+Human populations grew as the climate warmed.
+Around that same time, mammoths and many other species of large animal [went extinct][extinction].
 With more mouths to feed, and less game to hunt, hunter-gatherer societies became increasingly dependent on plants for food.
 
-By about 10k years ago, human societies in several regions had moved away from the hunter-gatherer lifestyle in favor of agriculture.
+[extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
+
+
+
+
+By about 10,000 years ago, human societies in several regions had moved away from the hunter-gatherer lifestyle in favor of agriculture.
 Wheat and chickpeas were domesticated in the Middle East.
 Rice and soybeans were domesticated in China.
 
