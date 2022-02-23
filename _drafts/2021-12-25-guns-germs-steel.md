@@ -16,7 +16,7 @@ The Spanish invasion was so successful, in part, because the conquistadors wore 
 They also carried (and were resistant to) deadly diseases such as smallpox.
 Written language allowed Pizarro to model his tactics after the victories of Cortés.
 And of course, Europe had the political structures to send expeditions around the world in the first place.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and prehistory) in order to explain why all these technologies[^1] developed in Eurasia[^2] but few or none of them developed on other continents.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and prehistory) in order to explain why all these technologies[^1] developed in Eurasia[^2] but fewer or none of them developed on other continents.
 
 [^1]: For lack of a better word, "technology" is used broadly here. It includes agriculture, livestock domestication, politics, written language, resistance to diseases, and more.
 
@@ -27,32 +27,43 @@ He emphatically rejects the idea that people in Eurasia were innately superior t
 Instead, Diamond writes from the perspective of a biologist studying the human species overall.
 The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
 
-At the end of the last ice age (about 13,000 years ago) humans worldwide lived in hunter-gatherer societies.
-Human populations grew as the climate warmed.
-Around that same time, mammoths and many other species of large animal [went extinct][extinction].
-With more mouths to feed, and less game to hunt, hunter-gatherer societies became increasingly dependent on plants for food.
+At the end of the last ice age (about 13,000 years ago) humans worldwide lived in nomadic hunter-gatherer societies.
+Populations grew as the climate warmed.
+Around that same time, mammoths and many other large animals [went extinct][extinction].
+With more mouths to feed, and less game to hunt, humans became increasingly dependent on plants for food.
+Cereals and legumes were particularly important.
+Over thousands of years, humans in the Fertile Crescent domesticated wheat, barley, and peas.
+Rice and soybeans were domesticated in China around that same time.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
+![Grain](/assets/images/wheat-tomasz-filipek-unsplash.png)
+
+The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
+But once it was established, it snowballed.
+Food production allowed rapid population growth and large population density.
+Surplus food (and food storage) also freed up resources for specialized roles.
+Food producers were the first human societies to have full-time artisans and bookkeepers --- as well as soldiers.
+Neighboring hunter-gatherer societies were assimilated or displaced.
+By about 8,000 years ago, Eurasia was covered with sedentary population centers built around food production.
 
 
 
 
-By about 10,000 years ago, human societies in several regions had moved away from the hunter-gatherer lifestyle in favor of agriculture.
-Wheat and chickpeas were domesticated in the Middle East.
-Rice and soybeans were domesticated in China.
+So now the question becomes: why did food production arise in Eurasia 10,000 years ago, but much later or not at all elsewhere?
 
 
 
+animal domestication. diseases here too.
 
-Humans in the Middle East gradually[^7] moved away from the hunter-gatherer lifestyle in favor of farming wheat and chickpeas around 10,000 years ago.
-Agricultural development fed into itself.
+east-west continent. sahara, mexican desert
+
+
+Agriculture is incredibly important to the development of technology.
+Farming allows greater population density than hunter-gathering, and also frees up resources for art, science, and politics.
 
 Agriculture developed elsewhere much later (Africa, America) or not at all (Australia).
 this is 75 pages
-
-
-
 
 
 Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
@@ -64,14 +75,8 @@ No grains or beans in Australia.
 - Recent efforts have domesticated many new fruits and vegetables, but no new staple foods.
 - Corn was hard to domesticate. Millet far less productive.
 - One crop isn't enough. Apples are native to the Americas, but you can't live on just apples.
-
-
-
-
-Farming
-population density
-specialization
-displace or convert
+- Transition from hunter-gatherer to food production is really hard!
+- Animals. Only Eurasia has anything big enough to pull a plow. You can tame an elephant but it's still a dangerous wild animal.
 
 
 
@@ -81,10 +86,6 @@ displace or convert
 
 Agriculture is incredibly important to the development of technology. Farming allows greater population density than hunter-gathering, and also frees up resources for art, science, and politics.
 
-Starting 13000 years ago, around the end of the last ice age.
-Anatomically modern humans are widespread across the globe, including islands like New Guinea.
-Warming climate coincides with growing human populations.
-Large wild animals become less plentiful due to a combination of climate and hunting.
 Climate becomes more friendly to wild cereals, especially in mediterranean areas.
 
 fertile crescent is the largest and most varied mediterranean biome on the planet. no surprise that the most (and best) grasses would evolve there.
