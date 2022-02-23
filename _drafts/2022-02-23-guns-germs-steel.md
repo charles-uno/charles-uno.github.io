@@ -43,30 +43,27 @@ Rice and soybeans were domesticated in China[^3] around that same time.
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
 The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
-But once it was established, it snowballed.
+Archeological records suggest that early food producers worked harder and died younger than hunter-gatherers.
+But once food production was established, it snowballed.
 Food production allowed rapid population growth and large population density.
 Surplus food (and food storage) also freed up resources for specialized roles.
 Food producers were the first human societies to have full-time artisans and bookkeepers --- as well as soldiers.
 Neighboring hunter-gatherer societies were assimilated or displaced.
 By about 8,000 years ago, Eurasia was covered with sedentary population centers built around food production.
 
-
-
-
-
-
-
-
-Food production laid the groundwork for all the technologies mentioned up top.
+Diamond argues that food production was critically important to the development of each technology listed up top.
 Tracking and allocating bulk quantifies of food gave rise to writing and politics.
-War between armies demanded new weapons and armor.
-Close proximity to livestock (important for fertilizer and plowing tough soil) is a vector for new diseases.
-
-Diamond spends the second half of his book fleshing out each of these causal chains.
-Honestly, I skimmed some of it.
+Wars between professional armies demanded new weapons and armor.
+Close proximity to livestock was a vector for new diseases.
+The author spends hundreds of pages tracing these causal chains in a way that's clear and engaging.
 
 
 
+Finally zeroing in on (in my mind) the core question of the book:
+
+
+
+why did food production arise in Eurasia 10,000 years ago, much later in the Americas and Sub-Saharan Africa, and not at all in Australia?
 
 
 
@@ -74,17 +71,6 @@ Honestly, I skimmed some of it.
 
 [^4]: Diamond spends the second half of his book fleshing out the causal change between food production and various technologies. Honestly, I skimmed some of it. In my mind, jump from hunter-gatherer society to sedentary food production is
 
-
-
-I think the context is important
-Good place to pause and give him credit
-
-
-
-
-
-
-So now the big question becomes: why did food production arise in Eurasia 10,000 years ago, much later in the Americas and Sub-Saharan Africa, and not at all in Australia?
 
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
 <span class="">Teosinte, the wild ancestor of corn. Photo from [UW Libraries][uw_libraries]</span>
