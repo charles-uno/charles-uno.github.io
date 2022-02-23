@@ -33,13 +33,14 @@ Around that same time, mammoths and many other large animals [went extinct][exti
 With more mouths to feed, and less game to hunt, humans became increasingly dependent on plants for food.
 Cereals and legumes were particularly important.
 Over thousands of years, humans in the Fertile Crescent domesticated wheat, barley, and peas.
-Rice and soybeans were domesticated in China around that same time[^3].
+Rice and soybeans were domesticated in China[^3] around that same time.
 
-[^3]: Frustrating that the author spends so much time on the climate and early human history in the Fertile Crescent compared to China. Food production happened around the same time. Seems like archeological evidence may have been less available in the 1990s?
+[^3]: The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though crops were domesticated there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
-![Grain](/assets/images/wheat-tomasz-filipek-unsplash.png)
+![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
+<span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
 The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
 But once it was established, it snowballed.
@@ -49,19 +50,46 @@ Food producers were the first human societies to have full-time artisans and boo
 Neighboring hunter-gatherer societies were assimilated or displaced.
 By about 8,000 years ago, Eurasia was covered with sedentary population centers built around food production.
 
+
+
+
+
+
+
+
 Food production laid the groundwork for all the technologies mentioned up top.
-Tracking and allocating food storage gave rise to writing and politics.
-Standing armies, and war between armies, demanded new weapons and armor.
-Close proximity to livestock (important for manure and pulling plows) is a vector for new diseases.
+Tracking and allocating bulk quantifies of food gave rise to writing and politics.
+War between armies demanded new weapons and armor.
+Close proximity to livestock (important for fertilizer and plowing tough soil) is a vector for new diseases.
+
+Diamond spends the second half of his book fleshing out each of these causal chains.
+Honestly, I skimmed some of it.
+
+
+
+
+
+
+
+
+[^4]: Diamond spends the second half of his book fleshing out the causal change between food production and various technologies. Honestly, I skimmed some of it. In my mind, jump from hunter-gatherer society to sedentary food production is
+
+
+
+I think the context is important
+Good place to pause and give him credit
+
+
+
+
+
+
 So now the big question becomes: why did food production arise in Eurasia 10,000 years ago, much later in the Americas and Sub-Saharan Africa, and not at all in Australia?
 
+![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
+<span class="">Teosinte, the wild ancestor of corn. Photo from [UW Libraries][uw_libraries]</span>
 
-
-
-
-The author spends about half the book on the development of food production, and the other half explaining how food production led to various other technologies.
-In my mind, the former is much more interesting.
-
+[uw_libraries]: https://search.library.wisc.edu/digital/AQRLTP5XSTP4NH9D
 
 
 
@@ -97,6 +125,7 @@ fertile crescent is the largest and most varied mediterranean biome on the plane
 
 
 
+linguistics? used to show the spread of populations
 
 
 
@@ -107,7 +136,6 @@ fertile crescent is the largest and most varied mediterranean biome on the plane
 
 
 Incas were the "largest and most advanced state in the New World". p68
-
 
 map of food production. p99
 map of mediterraniean climates. p139

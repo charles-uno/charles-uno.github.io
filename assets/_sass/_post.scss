@@ -51,16 +51,23 @@ article {
     }
     blockquote {
         border: 0;
-        font-size: $font-size-caption;
+        padding: 1rem;
+        color: $text-color;
     }
-
-    // Not a fan of the default table style
-    table, img {
+    table, img, blockquote {
+        max-width: $figure-width;
+        margin-left: auto;
+        margin-right: auto;
         font-size: $font-size-caption;
         line-height: $line-height-caption;
-        margin-bottom: 0px;
         border-radius: $figure-border-radius;
         overflow: hidden;
+    }
+    img { margin-bottom: 0; }
+
+    // Not a fan of the default table style
+    table {
+        margin-bottom: 0px;
         th, td {
             border: 0;
         }
@@ -73,6 +80,7 @@ article {
     }
     // Caption following an image or table
     .figure-caption {
+        max-width: $figure-width;
         margin: 0.4rem auto;
         font-size: $font-size-caption;
         line-height: $line-height-caption;
