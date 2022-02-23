@@ -33,7 +33,9 @@ Around that same time, mammoths and many other large animals [went extinct][exti
 With more mouths to feed, and less game to hunt, humans became increasingly dependent on plants for food.
 Cereals and legumes were particularly important.
 Over thousands of years, humans in the Fertile Crescent domesticated wheat, barley, and peas.
-Rice and soybeans were domesticated in China around that same time.
+Rice and soybeans were domesticated in China around that same time[^3].
+
+[^3]: Frustrating that the author spends so much time on the climate and early human history in the Fertile Crescent compared to China. Food production happened around the same time. Seems like archeological evidence may have been less available in the 1990s?
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
@@ -47,20 +49,33 @@ Food producers were the first human societies to have full-time artisans and boo
 Neighboring hunter-gatherer societies were assimilated or displaced.
 By about 8,000 years ago, Eurasia was covered with sedentary population centers built around food production.
 
+Food production laid the groundwork for all the technologies mentioned up top.
+Tracking and allocating food storage gave rise to writing and politics.
+Standing armies, and war between armies, demanded new weapons and armor.
+Close proximity to livestock (important for manure and pulling plows) is a vector for new diseases.
+So now the big question becomes: why did food production arise in Eurasia 10,000 years ago, much later in the Americas and Sub-Saharan Africa, and not at all in Australia?
 
 
 
-So now the question becomes: why did food production arise in Eurasia 10,000 years ago, but much later or not at all elsewhere?
+
+
+The author spends about half the book on the development of food production, and the other half explaining how food production led to various other technologies.
+In my mind, the former is much more interesting.
+
+
+
+
+
+
+
+The author spends about 100 pages on this topic.
+
 
 
 
 animal domestication. diseases here too.
 
 east-west continent. sahara, mexican desert
-
-
-Agriculture is incredibly important to the development of technology.
-Farming allows greater population density than hunter-gathering, and also frees up resources for art, science, and politics.
 
 Agriculture developed elsewhere much later (Africa, America) or not at all (Australia).
 this is 75 pages
@@ -69,22 +84,12 @@ this is 75 pages
 Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
 No grains or beans in Australia.
 
-
-
 - Archeological evidence suggests that humans were familiar with native plant species.
 - Recent efforts have domesticated many new fruits and vegetables, but no new staple foods.
 - Corn was hard to domesticate. Millet far less productive.
 - One crop isn't enough. Apples are native to the Americas, but you can't live on just apples.
 - Transition from hunter-gatherer to food production is really hard!
 - Animals. Only Eurasia has anything big enough to pull a plow. You can tame an elephant but it's still a dangerous wild animal.
-
-
-
-[^6]: Hunting may have contributed to extinction, but it's not certain.
-[^7]: Domestication of crops began accidentally. Took lots of generations.
-
-
-Agriculture is incredibly important to the development of technology. Farming allows greater population density than hunter-gathering, and also frees up resources for art, science, and politics.
 
 Climate becomes more friendly to wild cereals, especially in mediterranean areas.
 
