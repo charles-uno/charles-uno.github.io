@@ -59,6 +59,18 @@ The author spends hundreds of pages tracing these causal chains in a way that's 
 
 
 
+The author spends the second half of the book on this stuff, but in my mind it's important because it lets us zero in on the most interesting part of the book:
+
+
+
+writing is clear and engaging
+shows off an impressive breadth of research
+but to me, it's an accessory to the best part of the book
+the part where the author gets to really flex as a biologist
+
+
+
+
 Finally zeroing in on (in my mind) the core question of the book:
 
 
@@ -187,134 +199,55 @@ chapter about which animals are suited for domestication. p157
 
 american large animals extinct around 13,000 years ago. p162
 
-
 disease prevented the spread of horses through more of africa. p164
 
+Same few species of animals were domesticated repeatedly (dna analysis). p166
 
----
+Significant modern effort to domesticate other large animals. eland (big african antelope) would be particularly valuable since it's resistant to african diseases. not much success. p168
 
-agriculture is great. but the transition from hunter-gatherer society to sedentary farming is hard. wheat is really high in calories and protein so there's more room for error. grasses native to other parts of the world are less good.
+conditions for domesticatability. p169
+- diet. mostly disqualifies carnivores
+- growth rate
+- difficult to breed in captivity
+- nasty disposition. grizzly bear mostly eats plants, 1700 lbs, grows fast. but suicidal to keep. hippos too
+- tendency to panic. batter themselves against the cage
+- social structure. submissive to a leader, comfortable around others, ok sharing territory
 
-Early conflicts with Europeans were similarly lopsided in Australia and Sub-Saharan Africa.
+spread of crops and livestock also allowed picking up new things. p177
 
-Compared to hunting and gathering, farming allows more people to live on the same amount of land. Some of those people can even take on non-farming roles.
+food production never reached california, despite good climate. also never spread from pacific islands to australia. p178
 
-larger society supports more specialized roles
-as the society grows larger, roles become specialized
+domestic animals from andes never spread to mesoamerica. p178
 
-Dedicated warriors secure resources.
-Dedicated bureaucrats allocate them.
+crops in america (beans, peppers, squash) were all domesticated repeatedly. asian crops were domesticated once and spread. spread was fast enough to preclude re-domestication. p179
 
-inventors
+crops all over europe by 7000 years ago. a bit later for the british isles. p181
 
-politicians need written language to handle resource allocation in a big society
-technological innovation to prevent being displaced by a more advanced neighbor
+plants are adapted by latitude. length of day, temperature, rainfall, disease. p184
 
-Warriors force neighboring societies to assimilate or be displaced.
+unclear if food production arose independently in sahel or if it was triggered by arrival of fertile crescent crops. p186
 
-artisans, leaders, and warriors. scientists. inventors
+cattle, sheep, goats failed to make it to south africa (mediterranean climate) due to diease near the equator. p186
 
-A farmer can grow enough wheat to feed their family, plus a surplus to feed others, all with less land than a band of hunter-gatherers would require to survive.
+highland mexico would have matches andes climate, but most crops and animals never made it. corn did eventually. potatoes, llamas, guinea pigs never did. p187
 
-Higher population density becomes possible, as do specialized roles such as leader and warrior.
+similarly, turkeys and sunflowers would have been good for the andes, but were stuck in eastern usa.
 
-Those neighbors can then take on other specialized roles like artisan, leader, or warrior.
-Any nearby hunter-gatherer societies, unable to compete with
+corn adapted for colder temperature reached north america around 900ad. p187
 
-Higher population density becomes feasible, as do specialized roles like artisan and warrior.
+corners of australia could not grow crops from pacific islands. waited for fertile crescent crops to arrive on boats. p188
 
-Farming allows a society higher population density than hunting and gathering.
+NS axis also slowed crop spread into malaysia, between pakistan and india. p188
 
-It also frees up resources to
+barrier in eurasia. indus valley (summer rainfall to winter rainfall). tibetan plateau. himalayas. overcome 4000 years ago when wheat, horses reached china. p189
 
-As a result,
-Farming societies can support higher population density than hunter-gatherer societies.
-Centralized food production also makes other specialized roles possible, such as artisans, leaders, and warriors.
+big chunks of america are hostile to agriculture. central america, texas. p189
 
-This makes higher population density possible, and also frees up resources for other members of that society to take on specialized roles like leader or
-In a hunter-gatherer society, everyone's job is a matter of survival: finding food, securing shelter, raising children, and so on.
+mesoamerican wheel, writing never reached the andes. wheel spread quickly east and west from fertile crescent. p190
 
-It becomes possible to support full-time artisans, leaders, and warriors.
+societies that traded crops and livestock ended up trading technology also. p190
 
-Wheat is native to the Middle East.
-It was domesticated first by accident, then intentionally as hunter-gatherer societies gradually became sedentary.
-
-Hunter-gatherer societies gradually became sedentary.
-
-Corn is native to the Americas.
-Africa has teff and millet.
-Europe and Asia were fortunate enough to have wheat.
-
-
-
-Modern researchers have attempted domestication of other native grasses
-
-
-
-
-
-
-
-
-
-
-
-
-. He brings together evolutionary biology, geography, and even linguistics to explain
-
-> in search of an ultimate cause: why did different civilizations on different continents develop technologies at different rates?
-
-
-
-
----
-
-
-
-
-
-our ultimate cause would have to explain why similar philosophies did not become dominant elsewhere!
-
-
-
-
-
-
-It's not Christianity or democracy, which are thousands of years too late to explain
-
-
-
-
-
-
-
-Diamond pulls together an impressive breadth of
-
-
-Diamond's ultimate cause is so elegant that it's almost disappointing.
-
-
-
-
-
-
-
-According to Diamond, the ultimate cause
-
-
-
-
-
-The ultimate cause of technological differences between civilizations far predates modern religions, or even written history.
-
-
-first empire 4300 years ago
-
-proto-writing 8000+ years ago
-
-
-
-
+smallpox, flu, tuberculosis, malaria, plague, measles, cholera originally from animals. p196
 
 
 
@@ -322,22 +255,6 @@ proto-writing 8000+ years ago
 <!--
 explains European advantages. does not excuse their cruelty
 -->
-
-
-
-
-
-
-
-In a word, the answer is wheat.
-Early humans in the americas domesticated corn.
-In africa, millet and teff
-
-
-
-
-
-
 
 
 
