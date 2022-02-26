@@ -319,6 +319,36 @@ polittical structure is necessary, one way or another, to make choices in a big 
 
 known example of chiefdoms consolidating into a state: cherokee confederacy. similarly, 13 colonies. consolidation of germany in 1871. p289
 
+meltiing of ice sheets about 12k-8k years ago freed up water, raised sea levels. p297
+
+comparing australia and new guinea.
+torres strait. easily crossed by canoe. filled in 10k years ago
+isolated genetically from south asia, mostly, for 30k+ years
+NG has good soil, lots of rain. australia has no mountains or glaciers or volcanoes or rivers. poor soil.
+linguistic analysis indicates minimal mixing with asian languages
+p302
+
+new guinea did develop food production, but had no good protein source. chickens and pigs eventually from asia. nothing big enough to pull a plow or cart. p306
+
+NG population was about a million, but fragmented by geographical barriers. no writing, central political authority.
+
+australia gad a smaller population than ng. 300k
+
+australia. not much seasonal variation. lots of el nińo. bad for crops. bad native plants in australia. modern science has only given the macadamia. p309
+
+australia was on the path to food production. domesticating or fermenting out the poison from seeds. eel canals. millet. p310
+
+tasmania was originally joined to the mainland. split off when sea levels rose. very small population. technological regression: bone tools. p311
+
+interactions between australia and NG went through small islands. not efficient for transferring technology. also very far from NG highlands to australian highlands. geographic barriers prevent technology from spreading. p317
+
+testing this theory with australia and NG. interesting because of the islands becoming isolated about 10k years ago. can trace the spread and interaction of people via genetics and linguistics. p317
+
+NG was exposed to germs via indonesia. people from western europe got clobbered by NG germs. people from indonesia didn't.
+
+australia better for european crops and livestock. 
+
+
 
 
 
