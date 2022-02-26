@@ -85,13 +85,13 @@ why did food production arise in Eurasia 10,000 years ago, much later in the Ame
 
 
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
-<span class="">Teosinte, the wild ancestor of corn. Photo from [UW Libraries][uw_libraries]</span>
+<span class="figure-caption">Teosinte, the wild ancestor of corn. It does not look very tasty. Photo from [UW Libraries][uw_libraries]</span>
 
 [uw_libraries]: https://search.library.wisc.edu/digital/AQRLTP5XSTP4NH9D
 
 
 
-
+Ancient peapods opened when ripe, dropping the seeds. A single mutation
 
 
 The author spends about 100 pages on this topic.
@@ -248,6 +248,81 @@ mesoamerican wheel, writing never reached the andes. wheel spread quickly east a
 societies that traded crops and livestock ended up trading technology also. p190
 
 smallpox, flu, tuberculosis, malaria, plague, measles, cholera originally from animals. p196
+
+explanation of epidemics. p202
+
+epidemic diseases can't develop in hunter-gatherer societies. smallpox will burn out in a population less than about half a million. p203
+
+hunter-gatherers move. farmers have to stay close to their own sewage. p205
+
+food storage attracts rodents. p205
+
+Table of diseases and similar version for animals. p207
+
+Why did Aztecs and Incas not develop epidemic diseases? Minimal trade across long distances maybe a factor. Population centers arose much later. domesticated animals. p213
+
+writing was created independently at least twice, maybe 4+ times. also a map. p218
+
+development of writing system took hundreds or thousands of years. p224
+
+alphabet arose only once. p226
+
+Cherokee writing system by idea diffusion. inventor knew of the idea of writing but was not literate. p229
+
+almost everyone was illiterate. just scribes. few enough to trace their individual handwriting (dozens) p234
+
+purpose of the first writing was to "enslave other humans." bookkeeping by the powerful, propaganda. p235
+
+first writing was carried out by full-time scribes. can't do that unless you have a food surplus to feed them. p236
+
+many societies with food production never gained writing. incas. island empires. subequatorial africa before islam. note: invention of language super rare, mostly needs to spread by traffic. p237
+
+individual geniuses are less important than you think for inventions. p245
+
+invention happens iteratively. first iterations are for fun, since they're not good enough to be useful. p245
+
+talking about why a society might accept or reject new things. p248
+
+WWI launched lots of technology, but war can also set innovation back. p251
+
+different sub-groups vary in receptiveness. the most receptive can gain an advantage. over a large time and area, there will be receptiveness to innovation. p253
+
+technology in general (as shown for writing, food production) is easier to borrow than to reinvent from scratch. trade helps. p255
+
+in the middle of europe, islam got its own inventions, plus inventions from india and china. p256
+
+moving away from an invention can happen in isolation. Japan had lots of guns in 1600, then pretty much got rid of them. but if one country in europe had tried to move away from guns it would have been conquered by its neighbors. p258
+
+metalworking. first, pure gold and copper out of the ground. soft enough to hammer without heat. then ovens for ceramics. then bronze (copper alloy). then iron. p259
+
+VERY NICE. technology compounds on itself. example with the printing press. p259
+
+inventions happen faster with lots of people, lots of competing subgroups. p261
+
+americas chopped up. incas in the andes split off by isthmus of panama. dense forest, never urbanized. aztecs in the mexican highlands were split from north america by north mexico desert. west coast of USA also isolated by desert, mountains
+
+terminology for the size of a society. table. p268
+
+chimps and gorillas live in bands (dozens of individuals, nomadic). most humans did too 11,000 years ago. p270
+
+"chiefdom" -- the chief is externally recognized, has a monopoly on force. p272
+
+bigger societies have numerical advantage. probably also technological advantage. centralized political power is an advantage when moving troops. also nationalism and religion. p283
+
+how do bands become tribes, how do chiefdoms become states? p284
+
+food production is seasonal work, which means you also have seasonal availability for war, building pyramids, etc. p285
+
+as a population becomes large, you have a growing risk of conflict between unrelated people. central authority is better than letting them murder each other. p286
+
+polittical structure is necessary, one way or another, to make choices in a big population. p286
+
+known example of chiefdoms consolidating into a state: cherokee confederacy. similarly, 13 colonies. consolidation of germany in 1871. p289
+
+
+
+
+
 
 
 
