@@ -46,8 +46,23 @@ Diamond argues that food production was critically important to the development 
 Tracking and allocating bulk quantifies of food gave rise to writing and politics.
 Wars between professional armies demanded new weapons and armor.
 Close proximity to livestock was a vector for new diseases.
-Spain's technological dominance over the Incas comes as no surprise when we consider that Spain was built on wheat (domesticated around 8,000 BCE) while the Inca Empire was built on corn (domesticated around 4,000 BCE).
+Spain's technological dominance over the Incas comes as no surprise when we consider that wheat (domesticated 8,000 BCE) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BCE).
+
+
+
+
 This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
+
+wheat and cows were domesticates thousands of miles apart
+
+syria to india is 3,000 miles
+mexico city to kansas city 2500 miles
+
+some species are better for domestication than others
+
+eurasia is the biggest and most temperate continent by far
+
+
 
 
 
@@ -59,21 +74,12 @@ Early evidence for food production in the Fertile Crescent dates to about 10,000
 By about 8,000 years ago, Eurasia was covered with sedentary population centers dependent on food production.
 Wheat and peas were domesticated in the Fertile Crescent by about 10,000 years ago, while corn and beans were domesticated in the Americas by about 6,000 years ago.
 
-The author traces a causal chain from food production to each of the technologies listed up top.
-
-
-two big questions
-- why did food production develop at such different times?
-- how did food production lead to technology?
-
-
 The first evidence of human food production is from the Fertile Crescent 10,000 years ago.
 Food production was developed independently in the Americas, but not until much later, about 6,000 years ago.
 Sub-Saharan Africa also developed it later.
 Australia didn't develop food production at all.
 
 Rice, soybeans, and pigs were domesticated in China[^3] around the same time.
-
 
 [^3]: The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though crops were domesticated there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
 
@@ -118,7 +124,6 @@ california has an ideal climate, but food production never showed up
 - A single crop doesn't do it. California has a perfect climate for food production, and apples are native to the area, but you can't build a civilization on just apples.
 - Animals are important for supplemental protein, cloth, manure, and (eventually) pulling plows and carts. minimal animals suitable for domestication outside eurasia.
 
-
 Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
 No grains or beans in Australia.
 
@@ -129,45 +134,19 @@ No grains or beans in Australia.
 ![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
-
-Diamond argues that food production was critically important to the development of each technology listed up top.
-Tracking and allocating bulk quantifies of food gave rise to writing and politics.
-Wars between professional armies demanded new weapons and armor.
-Close proximity to livestock was a vector for new diseases.
-The author spends hundreds of pages tracing these causal chains in a way that's clear and engaging.
-
-
-
-
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
 <span class="figure-caption">Teosinte, the wild ancestor of corn. It does not look very tasty. Photo from [UW Libraries][uw_libraries]</span>
 
 [uw_libraries]: https://search.library.wisc.edu/digital/AQRLTP5XSTP4NH9D
 
-
-
 Ancient peapods opened when ripe, dropping the seeds. A single mutation
-
-animal domestication. diseases here too.
-
-east-west continent. sahara, mexican desert
 
 Agriculture developed elsewhere much later (Africa, America) or not at all (Australia).
 this is 75 pages
 
-
 Climate becomes more friendly to wild cereals, especially in mediterranean areas.
 
 fertile crescent is the largest and most varied mediterranean biome on the planet. no surprise that the most (and best) grasses would evolve there.
-
-
-
-linguistics? used to show the spread of populations
-
-
-
-
-
 
 ---
 
