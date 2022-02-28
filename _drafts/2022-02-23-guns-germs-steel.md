@@ -7,7 +7,7 @@ tags: politics media
 ---
 
 At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
-Then they marched on the capital city of Cusco, killing thousands more Incan warriors along the way.
+Then they marched on the capital city of Cusco, killing thousands more warriors along the way.
 The Incan empire --- which at the time was [more populous than Spain][1500_populations] --- fell shortly thereafter.
 
 [1500_populations]: https://en.wikipedia.org/wiki/List_of_countries_by_population_in_1500
@@ -16,40 +16,119 @@ The Spanish invasion was so successful, in part, because the conquistadors wore 
 They also carried (and were resistant to) deadly diseases such as smallpox.
 Written language allowed Pizarro to model his tactics after the victories of Cortés.
 And of course, Europe had the political structures to send expeditions around the world in the first place.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and prehistory) in order to explain why all these technologies[^1] developed in Eurasia[^2] but fewer or none of them developed on other continents.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and pre-history) to explain why all these technologies[^1] developed in Eurasia[^2] but fewer or none of them developed on other continents.
 
-[^1]: For lack of a better word, "technology" is used broadly here. It includes agriculture, livestock domestication, politics, written language, resistance to diseases, and more.
+[^1]: For lack of a better word, "technology" is used broadly here. It includes agriculture, livestock domestication, written language, centralized political structures, diseases, and more.
 
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
 He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
 Instead, Diamond writes from the perspective of a biologist studying the human species overall.
-The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
+<!-- The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions. -->
 
 At the end of the last ice age (about 13,000 years ago) humans worldwide lived in nomadic hunter-gatherer societies.
 Populations grew as the climate warmed.
-Around that same time, mammoths and many other large animals [went extinct][extinction].
-With more mouths to feed, and less game to hunt, humans became increasingly dependent on plants for food.
-Cereals and legumes were particularly important.
-Over thousands of years, humans in the Fertile Crescent domesticated wheat, barley, and peas.
-Rice and soybeans were domesticated in China[^3] around that same time.
-
-[^3]: The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though crops were domesticated there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
+Around the same time, mammoths and many other large animals [went extinct][extinction] worldwide.
+With more mouths to feed, and less game to hunt, humans gradually abandoned hunting and gathering in favor of sedentary food production.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
-![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
-<span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
-
 The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
-Archeological records suggest that early food producers worked harder and died younger than hunter-gatherers.
+Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
 But once food production was established, it snowballed.
 Food production allowed rapid population growth and large population density.
 Surplus food (and food storage) also freed up resources for specialized roles.
 Food producers were the first human societies to have full-time artisans and bookkeepers --- as well as soldiers.
 Neighboring hunter-gatherer societies were assimilated or displaced.
-By about 8,000 years ago, Eurasia was covered with sedentary population centers built around food production.
+
+Diamond argues that food production was critically important to the development of each technology listed up top.
+Tracking and allocating bulk quantifies of food gave rise to writing and politics.
+Wars between professional armies demanded new weapons and armor.
+Close proximity to livestock was a vector for new diseases.
+Spain's technological dominance over the Incas comes as no surprise when we consider that Spain was built on wheat (domesticated around 8,000 BCE) while the Inca Empire was built on corn (domesticated around 4,000 BCE).
+This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
+
+
+
+
+
+
+
+Early evidence for food production in the Fertile Crescent dates to about 10,000 years ago; by 8,000 years ago, the Eurasian continent was covered with sedentary population centers dependent on food production.
+By about 8,000 years ago, Eurasia was covered with sedentary population centers dependent on food production.
+Wheat and peas were domesticated in the Fertile Crescent by about 10,000 years ago, while corn and beans were domesticated in the Americas by about 6,000 years ago.
+
+The author traces a causal chain from food production to each of the technologies listed up top.
+
+
+two big questions
+- why did food production develop at such different times?
+- how did food production lead to technology?
+
+
+The first evidence of human food production is from the Fertile Crescent 10,000 years ago.
+Food production was developed independently in the Americas, but not until much later, about 6,000 years ago.
+Sub-Saharan Africa also developed it later.
+Australia didn't develop food production at all.
+
+Rice, soybeans, and pigs were domesticated in China[^3] around the same time.
+
+
+[^3]: The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though crops were domesticated there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
+
+Food production was developed much later in the Americas (corn and beans) and Sub-Saharan Africa (millet and lentils), and was not developed at all in Australia.
+Diamond discusses this issue at length, and grounds his arguments in the geography and native species.
+
+- eurasia has the best species
+- also the best variety of species
+- also easiest spread of species
+
+Some species are better suited than others for food production.
+Diamond breaks down the important qualities for plants (such as ease of breeding[^4] and protein content) as well as animals (such as diet and social habits).
+
+He then argues that Eurasia presented early humans with the best native species, the best variety of native species, and the easiest spread of
+
+Eurasia is by far the largest continent on the planet.
+It's also largely temperate, and its temperate zones are well connected.
+It also has the largest and most contiguous temperate zones.
+Australia is mostly desert.
+Temperate zones in Africa and the Americas are small and disjoint in comparison, with deserts and rainforests between them.
+which is good for staple crops.
+
+Wheat is high in protein and easy to domesticate[^6].
+Millet is far less productive.
+Corn required extensive domestication, and now barely resembles its wild ancestor.
+
+[^6]: ancient peapods would rupture and spill the seeds when ripe.
+
+[^4]: humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
+
+llamas were domesticated in the andes, but never crossed the panama ithmus to mesoamerica
+corn and beans were domesticated in mesoamerica, but took thousands of years to cross the desert to the mississippi river valley
+california has an ideal climate, but food production never showed up
+
+
+- Wheat, barley, and peas are easy to domesticate. corn much more difficult. millet less productive
+- Fertile crescent is the largest and most varied mediterranean zone on the planet. no surprise that you have a good variety of grasses there.
+- You can't build a food production society with just one species.
+- east-west axis. plants are very sensitive to day length. easy to move them east-west but north-south is tougher
+- Eurasia is a huge continent with relatively few barriers. no sahara, no mexican desert
+- Wheat, barley, and peas are amazing crops. Large seeds, high protein, easy to domesticate. Compare to corn, millet.
+- A single crop doesn't do it. California has a perfect climate for food production, and apples are native to the area, but you can't build a civilization on just apples.
+- Animals are important for supplemental protein, cloth, manure, and (eventually) pulling plows and carts. minimal animals suitable for domestication outside eurasia.
+
+
+Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
+No grains or beans in Australia.
+
+- Archeological evidence suggests that humans were familiar with native plant species.
+- Recent efforts have domesticated many new fruits and vegetables, but no new staple foods.
+- Animals. Only Eurasia has anything big enough to pull a plow. You can tame an elephant but it's still a dangerous wild animal.
+
+![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
+<span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
+
 
 Diamond argues that food production was critically important to the development of each technology listed up top.
 Tracking and allocating bulk quantifies of food gave rise to writing and politics.
@@ -58,30 +137,6 @@ Close proximity to livestock was a vector for new diseases.
 The author spends hundreds of pages tracing these causal chains in a way that's clear and engaging.
 
 
-
-The author spends the second half of the book on this stuff, but in my mind it's important because it lets us zero in on the most interesting part of the book:
-
-
-
-writing is clear and engaging
-shows off an impressive breadth of research
-but to me, it's an accessory to the best part of the book
-the part where the author gets to really flex as a biologist
-
-
-
-
-Finally zeroing in on (in my mind) the core question of the book:
-
-
-
-why did food production arise in Eurasia 10,000 years ago, much later in the Americas and Sub-Saharan Africa, and not at all in Australia?
-
-
-
-
-
-[^4]: Diamond spends the second half of his book fleshing out the causal change between food production and various technologies. Honestly, I skimmed some of it. In my mind, jump from hunter-gatherer society to sedentary food production is
 
 
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
@@ -93,12 +148,6 @@ why did food production arise in Eurasia 10,000 years ago, much later in the Ame
 
 Ancient peapods opened when ripe, dropping the seeds. A single mutation
 
-
-The author spends about 100 pages on this topic.
-
-
-
-
 animal domestication. diseases here too.
 
 east-west continent. sahara, mexican desert
@@ -106,16 +155,6 @@ east-west continent. sahara, mexican desert
 Agriculture developed elsewhere much later (Africa, America) or not at all (Australia).
 this is 75 pages
 
-
-Staple foods domesticated elsewhere, such as sorghum in Africa and corn in the Americas, did not appear until much more recently.
-No grains or beans in Australia.
-
-- Archeological evidence suggests that humans were familiar with native plant species.
-- Recent efforts have domesticated many new fruits and vegetables, but no new staple foods.
-- Corn was hard to domesticate. Millet far less productive.
-- One crop isn't enough. Apples are native to the Americas, but you can't live on just apples.
-- Transition from hunter-gatherer to food production is really hard!
-- Animals. Only Eurasia has anything big enough to pull a plow. You can tame an elephant but it's still a dangerous wild animal.
 
 Climate becomes more friendly to wild cereals, especially in mediterranean areas.
 
@@ -202,6 +241,9 @@ american large animals extinct around 13,000 years ago. p162
 disease prevented the spread of horses through more of africa. p164
 
 Same few species of animals were domesticated repeatedly (dna analysis). p166
+
+table of when animals were domesticated. sheep, goats, pigs 10k years ago. cows 9k years ago. p167
+
 
 Significant modern effort to domesticate other large animals. eland (big african antelope) would be particularly valuable since it's resistant to african diseases. not much success. p168
 
@@ -346,7 +388,7 @@ testing this theory with australia and NG. interesting because of the islands be
 
 NG was exposed to germs via indonesia. people from western europe got clobbered by NG germs. people from indonesia didn't.
 
-australia better for european crops and livestock. 
+australia better for european crops and livestock.
 
 
 
