@@ -34,7 +34,8 @@ With more mouths to feed, and less game to hunt, humans gradually abandoned hunt
 Right off the bat, the author addresses the elephant in the room: it's not about race.
 He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
 Instead, Diamond writes from the perspective of a biologist studying the human species overall.
-The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions. -->
+The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
+-->
 
 The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
 Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
@@ -48,9 +49,7 @@ Diamond argues that food production was critically important to the development 
 Tracking and allocating bulk quantifies of food gave rise to writing and politics.
 Wars between professional armies demanded new weapons and armor.
 Close proximity to livestock was a vector for new diseases.
-Spain's technological dominance over the Incas comes as no surprise when we consider that wheat (domesticated 8,000 BCE) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BCE).
-
-
+Spain's technological advantages over the Incas come as no surprise when we consider that wheat (domesticated 8,000 BCE) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BCE).
 
 
 This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
@@ -67,6 +66,19 @@ Eurasia is the largest continent by far. It's also the most temperate, which is 
 
 
 
+
+
+Diamond's answer, in a word, is food.
+steel armor
+horses
+diseases
+writing
+political structures
+can all be traced back to humans transitioning from nomadic hunter-gatherers to sedentary food producers.
+
+The first food production was in the fertile crescent, shortly after the end of the last ice age.
+as the climate warmed, human populations grew
+mammoths went extinct
 
 
 
