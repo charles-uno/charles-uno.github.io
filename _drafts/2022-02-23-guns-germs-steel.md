@@ -22,17 +22,19 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
-Right off the bat, the author addresses the elephant in the room: it's not about race.
-He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
-Instead, Diamond writes from the perspective of a biologist studying the human species overall.
-<!-- The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions. -->
-
+Diamond's answer, in a word, is food.
 At the end of the last ice age (about 13,000 years ago) humans worldwide lived in nomadic hunter-gatherer societies.
 Populations grew as the climate warmed.
 Around the same time, mammoths and many other large animals [went extinct][extinction] worldwide.
 With more mouths to feed, and less game to hunt, humans gradually abandoned hunting and gathering in favor of sedentary food production.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
+
+<!--
+Right off the bat, the author addresses the elephant in the room: it's not about race.
+He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
+Instead, Diamond writes from the perspective of a biologist studying the human species overall.
+The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions. -->
 
 The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
 Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
@@ -53,6 +55,45 @@ Spain's technological dominance over the Incas comes as no surprise when we cons
 
 This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
 
+
+1. Native plants in Eurasia were better suited to food production than those found elsewhere. Wheat is high in protein and easy to domesticate[^6]. Millet (a grain native to Africa) is far less productive. Corn required such extensive domestication that it barely resembles its wild ancestor. Furthermore, it is very unlikely that early humans overlooked better candidates for domestication. Archeological evidence suggests humans were deeply familiar with nearby native plants. It also bears noting that modern efforts have domesticated many new fruits and vegetables (such as strawberries) but no new staple crops.
+
+
+Eurasia is the largest continent by far. It's also the most temperate, which is good for staple crops. It should come as no surprise that humans in Eurasia had the best options
+
+
+
+
+
+
+
+
+
+
+
+
+
+Diamond breaks down the important qualities for plants (such as ease of breeding[^4] and protein content) as well as animals (such as diet and social habits).
+
+
+
+
+
+
+archeological evidence suggests that early humans were very familiar with native plants
+modern attempts have domesticated many new fruits and vegetables, but no big staples
+
+
+
+
+[^6]: ancient peapods would rupture and spill the seeds when ripe.
+
+
+
+
+
+
+
 wheat and cows were domesticates thousands of miles apart
 
 syria to india is 3,000 miles
@@ -61,6 +102,10 @@ mexico city to kansas city 2500 miles
 some species are better for domestication than others
 
 eurasia is the biggest and most temperate continent by far
+
+
+
+
 
 
 
@@ -90,9 +135,6 @@ Diamond discusses this issue at length, and grounds his arguments in the geograp
 - also the best variety of species
 - also easiest spread of species
 
-Some species are better suited than others for food production.
-Diamond breaks down the important qualities for plants (such as ease of breeding[^4] and protein content) as well as animals (such as diet and social habits).
-
 He then argues that Eurasia presented early humans with the best native species, the best variety of native species, and the easiest spread of
 
 Eurasia is by far the largest continent on the planet.
@@ -102,11 +144,6 @@ Australia is mostly desert.
 Temperate zones in Africa and the Americas are small and disjoint in comparison, with deserts and rainforests between them.
 which is good for staple crops.
 
-Wheat is high in protein and easy to domesticate[^6].
-Millet is far less productive.
-Corn required extensive domestication, and now barely resembles its wild ancestor.
-
-[^6]: ancient peapods would rupture and spill the seeds when ripe.
 
 [^4]: humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
 
