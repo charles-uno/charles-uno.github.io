@@ -54,14 +54,12 @@ Wars between professional armies demanded new weapons and armor.
 Close proximity to livestock was a vector for new diseases.
 Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BCE) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BCE).
 
-
 This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
-
 
 Let's start with geography.
 Eurasia is the largest continent by far.
-It's also the most temperate, which is good for wild grasses and legumes.
-The other continents are smaller, and their temperate regions are divided by deserts and rainforests.
+It also has large and varied temperate regions, ideal for evolving a variety of wild grasses and legumes.
+The other continents are smaller, with much of their land area devoted to deserts and rainforests.
 As a result, Eurasia has the best selection of wild plant species suitable for domestication as staple crops.
 
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^6].
@@ -72,19 +70,32 @@ It's very unlikely that early humans in the Americas overlooked a better wild gr
 
 [^6]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. Harvesting the whole stalk was much easier, so the mutated wheat was more likely to be harvested (and spread).
 
-Eurasia also had the best native animals for livestock.
+Eurasia also has the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
 The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^5]).
-Only about a dozen species are well-suited to domestication, and almost all of them (camels, cows, donkeys, goats, horses, pigs, sheep, and water buffalo) are native to Eurasia.
+Only about a dozen species are well-suited to domestication, and almost all of them (camels, cows, donkeys, goats, horses, pigs, sheep, and water buffalo) are native to Eurasia[^7].
 Llamas and alpacas, native to the Americas, aren't strong enough to pull a plow.
 Dogs were domesticated by early humans worldwide, but only protein-starved societies ever resorted to eating them.
 
-
 [^5]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
+[^7]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
 
 
 
+In addition to better grasses and better herbivores, the author argues that Eurasia has a better shape for food production.
+
+Those species were spread across millions of square miles.
+
+Finally, Diamond argues that the layout of Eurasia was advantageous for the spread of food production.
+Plants are sensitive to climate and daylight hours.
+It's easier to move east-west rather than north-south.
+
+
+
+
+
+species for staple crops and the best native species for livestock, Eurasia's shape made it much easier for food producers to consolidate crops from different regions.
 
 
 
