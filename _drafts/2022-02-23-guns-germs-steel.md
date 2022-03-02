@@ -63,7 +63,7 @@ The other continents are smaller, with much of their land area devoted to desert
 As a result, Eurasia has the best selection of wild plant species suitable for domestication as staple crops.
 
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^6].
-Millet (a staple grain in Africa) produces far fewer calories for the same amount of effort.
+Millet (am African grain) produces far fewer calories for the same amount of effort.
 Corn required such extensive domestication that it barely resembles its wild ancestor.
 The author further argues (per archeological evidence) that hunter-gatherers were deeply familiar with nearby native plants.
 It's very unlikely that early humans in the Americas overlooked a better wild grass than corn.
@@ -73,13 +73,17 @@ It's very unlikely that early humans in the Americas overlooked a better wild gr
 Eurasia also has the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
 The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^5]).
-Only about a dozen species are well-suited to domestication, and almost all of them (camels, cows, donkeys, goats, horses, pigs, sheep, and water buffalo) are native to Eurasia[^7].
+Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^7].
 Llamas and alpacas, native to the Americas, aren't strong enough to pull a plow.
 Dogs were domesticated by early humans worldwide, but only protein-starved societies ever resorted to eating them.
 
 [^5]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
 [^7]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
+
+![Bighorn sheep](/assets/images/thumb/sheep-jody-confer-unsplash.png)
+<span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to domesticated Eurasian sheep.</span>
+
 
 
 
@@ -91,23 +95,13 @@ Finally, Diamond argues that the layout of Eurasia was advantageous for the spre
 Plants are sensitive to climate and daylight hours.
 It's easier to move east-west rather than north-south.
 
-
-
-
-
 species for staple crops and the best native species for livestock, Eurasia's shape made it much easier for food producers to consolidate crops from different regions.
-
-
-
-
 
 horse is native to Ukraine
 cow is native to India
 
 not every better species, but you can't build a civilization on just apples
 enough staples were enough better
-
-
 
 Not only were the native species in Eurasia better suited for domestication, but the geography made it easier for food production (as well as later technologies) to spread.
 plants are sensitive to day length
