@@ -52,11 +52,11 @@ Diamond argues that food production was critically important to the development 
 Tracking and allocating bulk quantifies of food gave rise to writing and politics.
 Wars between professional armies demanded new weapons and armor.
 Close proximity to livestock was a vector for new diseases.
-Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BCE) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BCE).
+Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC).
 
 This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
 
-Let's start with geography.
+According to Diamond, it's all about geography.
 Eurasia is the largest continent by far.
 It also has large and varied temperate regions, ideal for evolving a variety of wild grasses and legumes.
 The other continents are smaller, with much of their land area devoted to deserts and rainforests.
@@ -81,100 +81,32 @@ Dogs were domesticated by early humans worldwide, but only protein-starved socie
 
 [^7]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
 
-![Bighorn sheep](/assets/images/thumb/sheep-jody-confer-unsplash.png)
+![Bighorn sheep](/assets/images/sheep-jody-confer-unsplash.png)
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to domesticated Eurasian sheep.</span>
 
+Eurasia's traversability is important too.
+Wild wheat and wild cows started out thousands of miles apart, but both quickly spread across the enormous continent.
+A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India (more on China below).
+In contrast:
+- Llamas from the Andes never left South America in pre-colonial times. They were blocked by the Panama isthmus, a narrow strip of dense rainforest.
+- The [three sisters][three_sisters] were domesticated around 4,000BC but were not grown together in the Mississippi river valley until 900AD. The Mexican desert was in the way. Significant adaptations were also required due to the difference in climate.
+- The north and south coasts of Africa are good for food production, but they're separated from each other by the world's largest non-polar[^9] desert as well as the world's second-largest rainforest.
 
+[^9]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
 
-
-In addition to better grasses and better herbivores, the author argues that Eurasia has a better shape for food production.
-
-Those species were spread across millions of square miles.
-
-Finally, Diamond argues that the layout of Eurasia was advantageous for the spread of food production.
-Plants are sensitive to climate and daylight hours.
-It's easier to move east-west rather than north-south.
-
-species for staple crops and the best native species for livestock, Eurasia's shape made it much easier for food producers to consolidate crops from different regions.
-
-horse is native to Ukraine
-cow is native to India
-
-not every better species, but you can't build a civilization on just apples
-enough staples were enough better
-
-Not only were the native species in Eurasia better suited for domestication, but the geography made it easier for food production (as well as later technologies) to spread.
-plants are sensitive to day length
-wheat could grow from spain to the tibetan plateau
-meanwhile corn from mexico doesn't grow north of texas
-
-large connected biomes?
-llamas never made it past the ithmus of panama
-corn beans squash (the three sisters) were domesticated in central america around X, but did not spread to the north american plains until 900 AD
-CA climate is perfect but food production never arrived in pre-colonial times
+[three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
 
 ---
 
-llamas were domesticated in the andes, but never crossed the panama ithmus to mesoamerica
-corn and beans were domesticated in mesoamerica, but took thousands of years to cross the desert to the mississippi river valley
-california has an ideal climate, but food production never showed up
+CA climate is perfect but food production never arrived in pre-colonial times
 
-Diamond's answer, in a word, is food.
-steel armor
-horses
-diseases
-writing
-political structures
-can all be traced back to humans transitioning from nomadic hunter-gatherers to sedentary food producers.
+explains European advantages. does not excuse their cruelty
 
-The first food production was in the fertile crescent, shortly after the end of the last ice age.
-as the climate warmed, human populations grew
-mammoths went extinct
-
-wheat and cows were domesticates thousands of miles apart
-
-syria to india is 3,000 miles
-mexico city to kansas city 2500 miles
-
-Early evidence for food production in the Fertile Crescent dates to about 10,000 years ago; by 8,000 years ago, the Eurasian continent was covered with sedentary population centers dependent on food production.
-By about 8,000 years ago, Eurasia was covered with sedentary population centers dependent on food production.
-Wheat and peas were domesticated in the Fertile Crescent by about 10,000 years ago, while corn and beans were domesticated in the Americas by about 6,000 years ago.
-
-The first evidence of human food production is from the Fertile Crescent 10,000 years ago.
-Food production was developed independently in the Americas, but not until much later, about 6,000 years ago.
-Sub-Saharan Africa also developed it later.
-Australia didn't develop food production at all.
-
-Rice, soybeans, and pigs were domesticated in China[^3] around the same time.
-
-[^3]: The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though crops were domesticated there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
-
-Food production was developed much later in the Americas (corn and beans) and Sub-Saharan Africa (millet and lentils), and was not developed at all in Australia.
-Diamond discusses this issue at length, and grounds his arguments in the geography and native species.
-
-- eurasia has the best species
-- also the best variety of species
-- also easiest spread of species
-
-He then argues that Eurasia presented early humans with the best native species, the best variety of native species, and the easiest spread of
-
-Eurasia is by far the largest continent on the planet.
-It's also largely temperate, and its temperate zones are well connected.
-It also has the largest and most contiguous temperate zones.
-Australia is mostly desert.
-Temperate zones in Africa and the Americas are small and disjoint in comparison, with deserts and rainforests between them.
-which is good for staple crops.
+The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though food production developed there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
 
 [^4]: humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
 
-- Wheat, barley, and peas are easy to domesticate. corn much more difficult. millet less productive
-- Fertile crescent is the largest and most varied mediterranean zone on the planet. no surprise that you have a good variety of grasses there.
-- You can't build a food production society with just one species.
-- east-west axis. plants are very sensitive to day length. easy to move them east-west but north-south is tougher
-- Eurasia is a huge continent with relatively few barriers. no sahara, no mexican desert
-- Wheat, barley, and peas are amazing crops. Large seeds, high protein, easy to domesticate. Compare to corn, millet.
-- A single crop doesn't do it. California has a perfect climate for food production, and apples are native to the area, but you can't build a civilization on just apples.
-- Animals are important for supplemental protein, cloth, manure, and (eventually) pulling plows and carts. minimal animals suitable for domestication outside eurasia.
+<!--
 
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
 <span class="figure-caption">Teosinte, the wild ancestor of corn. It does not look very tasty. Photo from [UW Libraries][uw_libraries]</span>
@@ -401,22 +333,4 @@ NG was exposed to germs via indonesia. people from western europe got clobbered 
 
 australia better for european crops and livestock.
 
-
-
-
-
-
-
-
-
-
-<!--
-explains European advantages. does not excuse their cruelty
 -->
-
-
-
-
-
-
----
