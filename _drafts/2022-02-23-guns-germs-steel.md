@@ -62,49 +62,64 @@ It also has large and varied temperate regions, ideal for evolving a variety of 
 The other continents are smaller, with much of their land area devoted to deserts and rainforests.
 As a result, Eurasia has the best selection of wild plant species suitable for domestication as staple crops.
 
-Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^6].
+Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
 Millet (am African grain) produces far fewer calories for the same amount of effort.
 Corn required such extensive domestication that it barely resembles its wild ancestor.
 The author further argues (per archeological evidence) that hunter-gatherers were deeply familiar with nearby native plants.
 It's very unlikely that early humans in the Americas overlooked a better wild grass than corn.
 
-[^6]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. Harvesting the whole stalk was much easier, so the mutated wheat was more likely to be harvested (and spread).
+[^3]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. The mutated wheat is easier to harvest, and therefore more likely to be spread. Barley and peas were domesticated similarly.
 
 Eurasia also has the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
-The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^5]).
-Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^7].
+The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
+Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
 Llamas and alpacas, native to the Americas, aren't strong enough to pull a plow.
 Dogs were domesticated by early humans worldwide, but only protein-starved societies ever resorted to eating them.
 
-[^5]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
+[^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
-[^7]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
+[^5]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
 
 ![Bighorn sheep](/assets/images/sheep-jody-confer-unsplash.png)
-<span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to domesticated Eurasian sheep.</span>
+<span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
 
 Eurasia's traversability is important too.
 Wild wheat and wild cows started out thousands of miles apart, but both quickly spread across the enormous continent.
 A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India (more on China below).
 In contrast:
 - Llamas from the Andes never left South America in pre-colonial times. They were blocked by the Panama isthmus, a narrow strip of dense rainforest.
-- The [three sisters][three_sisters] were domesticated around 4,000BC but were not grown together in the Mississippi river valley until 900AD. The Mexican desert was in the way. Significant adaptations were also required due to the difference in climate.
-- The north and south coasts of Africa are good for food production, but they're separated from each other by the world's largest non-polar[^9] desert as well as the world's second-largest rainforest.
+- The [three sisters][three_sisters] were domesticated around 4,000BC but were not grown together in the Mississippi river valley until 900AD. Significant adaptations were required due to the difference in climate.
+- California has an ideal climate, but food production never arrived there in pre-colonial times due to the surrounding desert and mountains.
+- The north and south coasts of Africa are good for food production, but they're separated from each other by the world's largest non-polar[^6] desert as well as the world's second-largest rainforest.
+- Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
 
-[^9]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
+[^6]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
 
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
 
----
 
-CA climate is perfect but food production never arrived in pre-colonial times
+
+
+
+
+---
 
 explains European advantages. does not excuse their cruelty
 
 The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though food production developed there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
 
-[^4]: humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
+humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
+
+last part of the book is natural experiments
+
+australia, NZ, tasmania:
+- Australia, NG, Tasmania were connected until sea levels rose at the end of the ice age.
+- Contact with pacific islands well documented. Linguistic and genetic evidence.
+- NG domesticated sweet potatoes. no protein source, but enough to get to a million people. enough to develop diseases.
+- Australia had nothing worth domesticating. no diseases, no technology
+- Tasmania is very small. just as high density allows technology to compound on itself, very low population risks regression. loss of bone tools (?)
+
 
 <!--
 
