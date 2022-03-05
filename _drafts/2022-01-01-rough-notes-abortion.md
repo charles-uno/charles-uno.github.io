@@ -40,3 +40,44 @@ Half of all conceptions are naturally aborted by the body, usually before the wo
 https://medlineplus.gov/ency/article/001488.htm
 
 http://www.marchofdimes.org/complications/miscarriage.aspx
+
+---
+
+
+1967 paper estimating 800k abortions per year in the US:
+
+http://link.springer.com/article/10.2307/2060019
+
+
+population at that time was 200M.
+
+
+population now is 320M. so that would scale up to 1.3M
+
+just under 1M abortions in 2014, and falling
+
+https://www.guttmacher.org/fact-sheet/induced-abortion-united-states
+
+
+More restrictive abortion laws lead to higher incidence of abortion-related deaths
+
+http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)61786-8/abstract
+
+
+1958 book estimating 200k to 1.2M
+
+https://www.amazon.com/Abortion-United-States-Steichen-Calderone/dp/B000H7N1PW
+
+
+Nobody has outlawed abortion, but some states have gotten close. Hard to say what the abortion rate was before roe, but in those states there is evidence that DIY abortion is on the rise.
+
+https://www.nytimes.com/2016/03/06/opinion/sunday/the-return-of-the-diy-abortion.html
+
+data from 1990-1994, 2010-2014. in both cases, no statistically significant correlation between abortion rate and legality.
+
+6.9 women treated per 1000 women aged 15-44
+35 abortions per 1000 women aged 15-44
+
+(estimates, since they are illegal)
+
+https://www.guttmacher.org/fact-sheet/induced-abortion-worldwide

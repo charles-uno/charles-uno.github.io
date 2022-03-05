@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rock Paper Pokémon"
-image: "/assets/images/thumb/pokemon-graph.png"
+image: "/assets/images/thumb/miniature-dwarf-female.png"
 updated: 2017-01-09
 description: "Rock beats Ice. Bug beats Psychic. Fairy beats Dragon. What might the Pokémon type system look like if it hadn't jumped the shark?"
 tags: games
