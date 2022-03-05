@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker Jekyll and Mr Hyde"
-image: "/assets/images/thumb/guillaume-bolduc-containers.png"
+image: "/assets/images/thumb/guillaume-bolduc-containers-unsplash.png"
 description: "Setting up Jekyll is a pain in the ass. Let Docker take care of it for you."
 tags: code
 ---

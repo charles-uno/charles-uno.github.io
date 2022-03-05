@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step Up with Markdown"
-image: "/assets/images/thumb/pencils-amanda-jones.png"
+image: "/assets/images/thumb/pencils-amanda-jones-unsplash.png"
 description: Steam your pores, not your vegetables.
 tags: stem
 ---

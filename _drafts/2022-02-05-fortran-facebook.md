@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Validation and Visibility"
-image: "/assets/images/thumb/circuit-alexandre-debieve.png"
+image: "/assets/images/thumb/circuit-alexandre-debieve-unsplash.png"
 description: "A letter to myself after a year in the future"
 tags: code
 ---

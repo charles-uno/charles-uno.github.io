@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Senate Shouldn't Select SCOTUS"
-image: "/assets/images/thumb/claire-anderson-court.png"
+image: "/assets/images/thumb/claire-anderson-court-unsplash.png"
 description: "The Senate is America's aristocracy. The judges they choose will always undervalue civil rights."
 tags: politics
 ---

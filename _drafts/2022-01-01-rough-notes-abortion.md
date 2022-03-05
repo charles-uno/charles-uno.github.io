@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rough Notes: Abortion"
-image: "/assets/images/thumb/signpost-javier-allegue-barros.png"
+image: "/assets/images/thumb/signpost-javier-allegue-barros-unsplash.png"
 description: ""
 tags: politics
 ---

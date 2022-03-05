@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
-image: "/assets/images/thumb/chainmail-maria-lysenko.png"
+image: "/assets/images/thumb/chainmail-maria-lysenko-unsplash.png"
 description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
@@ -74,7 +74,7 @@ Eurasia also has the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
 The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
 Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
-Llamas and alpacas, native to the Americas, aren't strong enough to pull a plow.
+Llamas and alpacas, native to the Americas, aren't strong enough to carry a rider or pull a plow.
 Dogs were domesticated by early humans worldwide, but only protein-starved societies ever resorted to eating them.
 
 [^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
@@ -85,18 +85,61 @@ Dogs were domesticated by early humans worldwide, but only protein-starved socie
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
 
 Eurasia's traversability is important too.
-Wild wheat and wild cows started out thousands of miles apart, but both quickly spread across the enormous continent.
-A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India (more on China below).
-In contrast:
-- Llamas from the Andes never left South America in pre-colonial times. They were blocked by the Panama isthmus, a narrow strip of dense rainforest.
-- The [three sisters][three_sisters] were domesticated around 4,000BC but were not grown together in the Mississippi river valley until 900AD. Significant adaptations were required due to the difference in climate.
-- California has an ideal climate, but food production never arrived there in pre-colonial times due to the surrounding desert and mountains.
-- The north and south coasts of Africa are good for food production, but they're separated from each other by the world's largest non-polar[^6] desert as well as the world's second-largest rainforest.
-- Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
+A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India.
+In contrast, llamas[^7] never left South America in pre-colonial times; they were blocked by the Panama isthmus, a narrow strip of dense rainforest.
+The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
+And Africa's temperate north and south coasts are separated from each other by the world's largest non-polar[^6] desert as well as the world's second-largest rainforest.
+Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart
 
 [^6]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
 
+[^7]: Humans in South America domesticated llamas but never invented the wheel. Wheeled toys were invented in Mesoamerica, but carts were never invented without livestock to pull them.
+
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
+
+
+similar trends:
+- food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
+- food producers, once established, are less likely to be displaced. in particular, if they have enough density to have diseases that the new arrivals are not resistant to
+
+
+
+
+Most of the book is looking at the Americas vs Eurasia --- specifically Europe, the Middle East, and eastern Asia. Over to about the Himalayas.
+
+archeological evidence for origin of food production
+linguistic evidence for spread and displacement
+
+
+
+
+Diamond spends the last few chapters looking at prehistoric population shifts through the lens of food production.
+
+He focuses in particular on Australia and Pacific islands,
+
+
+He walks through the spread of food production through southeast Asia, as well as the Austronesian expansion through the Pacific.
+
+
+
+
+archeological, genetic, and linguistic[^7] evidence
+
+
+
+
+
+[^7]: Most modern speakers of germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in the Americas. But the greatest diversity of sub-languages is in Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent. Furthermore, looking at similar words between languages allows us to estimate when they diverged. Sheep (English) is similar to schaf (German) and schaap (Dutch) since sheep were domesticated before the languages diverged.
+
+
+llamas in the andes and wheels in mexico, but they never met.
+
+
+
+
+
+
+
 
 
 
@@ -104,6 +147,18 @@ In contrast:
 
 
 ---
+
+
+
+
+- California has an ideal climate, but food production never arrived there in pre-colonial times due to the surrounding desert and mountains.
+
+
+- Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
+
+
+
+llama. no INDUSTRIAL POWER. not a mount for war.
 
 explains European advantages. does not excuse their cruelty
 
@@ -119,6 +174,23 @@ australia, NZ, tasmania:
 - NG domesticated sweet potatoes. no protein source, but enough to get to a million people. enough to develop diseases.
 - Australia had nothing worth domesticating. no diseases, no technology
 - Tasmania is very small. just as high density allows technology to compound on itself, very low population risks regression. loss of bone tools (?)
+
+china, SE asia
+- food domesticated around the same time as the fertile crescent
+- pigs. likely source of plague and other diseases
+- Can track population spread by looking at linguistics
+- as technology spread from china, so did language
+- pretty much all modern languages in SE asia come from chinese. writing systems too.
+- genetically, small minority groups in SE asia suggest darker skin and curly hair like in indonesia. but those people were displaced as chinese language/technology/crops spread
+
+polynesia
+- ancient population waves
+- austronesian expansion. wave of people at 40k years ago, then 4k years ago, then 3600 years ago. why was each new wave able to displace the previous people? why did the waves never go the other way?
+- skin color. populations in the tropics for half a million years have dark skin. more recent immigrants have light skin
+- tracking movement using linguistics. german, dutch, english as an analogy
+- pottery, food remnants
+
+NEOLITHIC
 
 
 <!--
@@ -347,5 +419,19 @@ testing this theory with australia and NG. interesting because of the islands be
 NG was exposed to germs via indonesia. people from western europe got clobbered by NG germs. people from indonesia didn't.
 
 australia better for european crops and livestock.
+
+austronesian expansion map. p341
+
+proto-indo-european. many languages have similar words for sheep, since everyone had sheep 6000 years ago when the languages diverged. but words for gun are different. similarly, we can look at proto-austronesian languages. similar words for boat, bird, pig, dog. but different words for banana, yam, coconut. those foods were encountered after the populations started to spread. p343
+
+austronesian expansion wiped away original indonesians (hunter gatherers) but did not wipe out people in NG (food producers). instead, contact spread crops and mixed genes and languages.
+
+NZ is temperate. like australia. good fit for europeans. pacific islands mostly still populated by pacific islanders. they already had food production when europeans showed up, and so had enough population density to have tropical diseases. p353
+
+hunter gatherers and food producers happily adopted better crops when they showed up. p357
+
+large language groups in eurasia. food producers spread out, displacing hnter-gatherers, then local changes to the language. america has many smaller language families. suggests no sweeping displacement. small groups with sporadic interactions rather than well-connected population centers. p371
+
+Africa. Bantu expansion, Indonesian colonization of madagascar. p377
 
 -->
