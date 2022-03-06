@@ -16,61 +16,42 @@ The Spanish invasion was so successful, in part, because the conquistadors wore 
 They also carried (and were resistant to) deadly diseases such as smallpox.
 Written language allowed Pizarro to model his tactics after the victories of Cortés.
 And of course, Europe had the political structures to send expeditions around the world in the first place.
-In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and pre-history) to explain why all these technologies[^1] developed in Eurasia[^2] while humans on other continents developed fewer or none of them.
-
-[^1]: For lack of a better word, "technology" is used broadly here. It includes agriculture, livestock domestication, written language, centralized political structures, diseases, and more.
+In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human history (and pre-history) to explain why all these advantages developed in Eurasia[^2] while humans on other continents developed fewer or none of them.
 
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Diamond's answer, in a word, is food.
-At the end of the last ice age (about 13,000 years ago) humans worldwide lived in nomadic hunter-gatherer societies.
-Populations grew as the climate warmed.
-Around the same time, mammoths and many other large animals [went extinct][extinction].
-With more mouths to feed, and less game to hunt, humans gradually transitioned to sedentary societies reliant on food production.
+Following the end of the last ice age, humans gradually[^1] transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
+Centralized food production allowed rapid population growth, as well as greatly increased population density.
+Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
+Close proximity to livestock is also a vector for new diseases.
+<!-- trade? mostly crops but technology piggybacked -->
+
+[^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
 ![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
-<!--
-Right off the bat, the author addresses the elephant in the room: it's not about race.
-He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
-Instead, Diamond writes from the perspective of a biologist studying the human species overall.
-The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
--->
+Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC). That brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
 
-The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry.
-Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
-But once food production was established, it snowballed.
-Food production allowed rapid population growth and large population density.
-Surplus food (and food storage) also freed up resources for specialized roles.
-Food producers were the first human societies to have full-time artisans and bookkeepers --- as well as soldiers.
-Neighboring hunter-gatherer societies were assimilated or displaced.
-
-Diamond argues that food production was critically important to the development of each technology listed up top.
-Tracking and allocating bulk quantifies of food gave rise to writing and politics.
-Wars between professional armies demanded new weapons and armor.
-Close proximity to livestock was a vector for new diseases.
-Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC).
-
-This brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
-
-According to Diamond, it's all about geography.
+According to Diamond, geography is a big factor.
 Eurasia is the largest continent by far.
 It also has large and varied temperate regions, ideal for evolving a variety of wild grasses and legumes.
 The other continents are smaller, with much of their land area devoted to deserts and rainforests.
 As a result, Eurasia has the best selection of wild plant species suitable for domestication as staple crops.
 
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
-Millet (am African grain) produces far fewer calories for the same amount of effort.
+Millet in Africa produces far fewer calories for the same amount of effort.
 Corn required such extensive domestication that it barely resembles its wild ancestor.
-The author further argues (per archeological evidence) that hunter-gatherers were deeply familiar with nearby native plants.
-It's very unlikely that early humans in the Americas overlooked a better wild grass than corn.
+Furthermore, it's very unlikely that neolithic humans in the Americas overlooked a better grain than corn.
+Archeological evidence suggests that hunter-gatherers were deeply familiar with nearby native plants.
+And modern domestication efforts have produced many new fruits and vegetables (such as strawberries and blueberries) but no new staples.
 
 [^3]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. The mutated wheat is easier to harvest, and therefore more likely to be spread. Barley and peas were domesticated similarly.
 
-Eurasia also has the best native animals for livestock.
+In addition to the best native plants for staples, humans in Eurasia also had access to the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
 The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
 Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
@@ -93,7 +74,7 @@ Humans in Eurasia had the best access to native crop and livestock species, even
 
 [^6]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
 
-[^7]: Humans in South America domesticated llamas but never invented the wheel. Wheeled toys were invented in Mesoamerica, but carts were never invented without livestock to pull them.
+[^7]: Trade routes based on food production help propagate other technology as well. Wheeled toys were invented in Mesoamerica, but carts were never invented because there was no livestock to pull them.
 
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
 
@@ -101,6 +82,13 @@ Humans in Eurasia had the best access to native crop and livestock species, even
 similar trends:
 - food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
 - food producers, once established, are less likely to be displaced. in particular, if they have enough density to have diseases that the new arrivals are not resistant to
+
+
+
+
+
+large number of language families in america. suggests many groups developing in isolation. in eurasia, you have a small number of language families each containing many sub-families.
+suggests one group was dominant, spread out, then developed regionally
 
 
 
@@ -199,6 +187,11 @@ NEOLITHIC
 
 
 <!--
+
+Right off the bat, the author addresses the elephant in the room: it's not about race.
+He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
+Instead, Diamond writes from the perspective of a biologist studying the human species overall.
+The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
 
 ![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
 <span class="figure-caption">Teosinte, the wild ancestor of corn. It does not look very tasty. Photo from [UW Libraries][uw_libraries]</span>
