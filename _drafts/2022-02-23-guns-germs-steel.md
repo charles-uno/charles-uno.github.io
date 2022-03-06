@@ -29,8 +29,6 @@ Close proximity to livestock is also a vector for new diseases.
 
 [^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
 
-[extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
-
 ![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
@@ -60,7 +58,9 @@ Dogs were domesticated by early humans worldwide, but only protein-starved socie
 
 [^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
-[^5]: It's possible that the wave of extinctions around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
+[^5]: It's possible that the [wave of extinctions][extinction] around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
+
+[extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
 
 ![Bighorn sheep](/assets/images/sheep-jody-confer-unsplash.png)
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
