@@ -68,98 +68,53 @@ Dogs were domesticated by early humans worldwide, but only protein-starved socie
 Eurasia's traversability is important too.
 A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India.
 In contrast, llamas[^7] never left South America in pre-colonial times; they were blocked by the Panama isthmus, a narrow strip of dense rainforest.
+California has an ideal climate, but food production was not practiced there due to limited native species and the surrounding desert and mountains.
 The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
-And Africa's temperate north and south coasts are separated from each other by the world's largest non-polar[^6] desert as well as the world's second-largest rainforest.
 Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart
-
-[^6]: The arctic and antarctic regions are technically the world's largest deserts. The Sahara is next.
 
 [^7]: Trade routes based on food production help propagate other technology as well. Wheeled toys were invented in Mesoamerica, but carts were never invented because there was no livestock to pull them.
 
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
+
+Diamond's argument is mostly built on evidence from the Americas and the western half of Eurasia.
+In his last few chapters, he applies the same reasoning to neolithic population movements in Africa, Southeast Asia, and Oceania.
+He presents archeological evidence to identify
+
+
+sahel, possibly ethiopia
+new guinea
+north china
+
+
+
+
+
+archeological evidence for origin of food production
+linguistic evidence for spread and displacement
 
 
 similar trends:
 - food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
 - food producers, once established, are less likely to be displaced. in particular, if they have enough density to have diseases that the new arrivals are not resistant to
 
-
-
-
-
 large number of language families in america. suggests many groups developing in isolation. in eurasia, you have a small number of language families each containing many sub-families.
 suggests one group was dominant, spread out, then developed regionally
 
-
-
-Diamond's focus for most of the book
-Eurasia --- especially west of the Himalayas
-
-
-
-
-Most of the book is looking at the Americas vs Eurasia --- specifically Europe, the Middle East, and eastern Asia. Over to about the Himalayas.
-
-archeological evidence for origin of food production
-linguistic evidence for spread and displacement
-
-
-
-
-Diamond spends the last few chapters looking at prehistoric population shifts through the lens of food production.
-
-He focuses in particular on Australia and Pacific islands,
-
-
-He walks through the spread of food production through southeast Asia, as well as the Austronesian expansion through the Pacific.
-
-
-
+Austronesian expansion through the Pacific.
+Bantu expansion in Africa
+spread of
 
 archeological, genetic, and linguistic[^7] evidence
 
-
-
-
-
 [^7]: Most modern speakers of germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in the Americas. But the greatest diversity of sub-languages is in Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent. Furthermore, looking at similar words between languages allows us to estimate when they diverged. Sheep (English) is similar to schaf (German) and schaap (Dutch) since sheep were domesticated before the languages diverged.
-
-
-llamas in the andes and wheels in mexico, but they never met.
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
-
-
-
-- California has an ideal climate, but food production never arrived there in pre-colonial times due to the surrounding desert and mountains.
-
-
 - Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
-
-
-
-llama. no INDUSTRIAL POWER. not a mount for war.
 
 explains European advantages. does not excuse their cruelty
 
-The author devotes a lot of pages to the emergence of food production in the Fertile Crescent, including analysis of the climate and geography. Similar analysis is lacking for China, even though food production developed there around the same time. It's possible that archeological evidence from China was more difficult to access in the 1990s. This is my biggest frustration with the book.
-
 humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
-
-last part of the book is natural experiments
 
 australia, NZ, tasmania:
 - Australia, NG, Tasmania were connected until sea levels rose at the end of the ice age.
@@ -182,9 +137,6 @@ polynesia
 - skin color. populations in the tropics for half a million years have dark skin. more recent immigrants have light skin
 - tracking movement using linguistics. german, dutch, english as an analogy
 - pottery, food remnants
-
-NEOLITHIC
-
 
 <!--
 
@@ -271,7 +223,6 @@ disease prevented the spread of horses through more of africa. p164
 Same few species of animals were domesticated repeatedly (dna analysis). p166
 
 table of when animals were domesticated. sheep, goats, pigs 10k years ago. cows 9k years ago. p167
-
 
 Significant modern effort to domesticate other large animals. eland (big african antelope) would be particularly valuable since it's resistant to african diseases. not much success. p168
 
