@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Once Upon a (Prime) Time"
-image: "/assets/images/thumb/once-upon-a-time-matt-stewart.png"
+image: "/assets/images/thumb/pt-rix.png"
 description: "Play it while you can"
 hidden: true
 tags: games code math

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
-image: "/assets/images/thumb/chainmail-maria-lysenko-unsplash.png"
+image: "/assets/images/thumb/corn-markus-winkler-unsplash.png"
 description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
@@ -101,6 +101,11 @@ Humans in Eurasia had the best access to native crop and livestock species, even
 similar trends:
 - food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
 - food producers, once established, are less likely to be displaced. in particular, if they have enough density to have diseases that the new arrivals are not resistant to
+
+
+
+Diamond's focus for most of the book
+Eurasia --- especially west of the Himalayas
 
 
 
