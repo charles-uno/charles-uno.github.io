@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
-image: "/assets/images/thumb/corn-markus-winkler-unsplash.png"
+image: "/files/guns-germs-steel/corn-markus-winkler-thumb.png"
 description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
@@ -29,7 +29,7 @@ Livestock provided industrial power, mounts for war, and a vector for new human 
 
 [^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
 
-![Wheat field](/assets/images/wheat-tomasz-filipek-unsplash.png)
+![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
 Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC). That brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
@@ -63,7 +63,7 @@ California has an ideal climate, but food production was not practiced there due
 The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
 Not only were the native species in the Americas less favorable for domestication, but those species were also separated from each other by natural barriers, inhibiting the spread of food production and other technologies[^7].
 
-![Bighorn sheep](/assets/images/sheep-jody-confer-unsplash.png)
+![Bighorn sheep](/files/guns-germs-steel/sheep-jody-confer.png)
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
 
 <!-- Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart -->
@@ -78,7 +78,7 @@ He presents archeological evidence to identify the earliest sites of food produc
 He then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
-- 
+-
 
 
 
