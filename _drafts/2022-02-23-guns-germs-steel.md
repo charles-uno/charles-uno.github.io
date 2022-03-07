@@ -24,7 +24,7 @@ Diamond's answer, in a word, is food.
 Following the end of the last ice age, humans gradually[^1] transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
 Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
-Close proximity to livestock is also a vector for new diseases.
+Livestock provided industrial power, mounts for war, and a vector for new human diseases.
 <!-- trade? mostly crops but technology piggybacked -->
 
 [^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
@@ -37,19 +37,13 @@ Pizarro's technological advantage over Atahualpa comes as no surprise when we co
 According to Diamond, geography is a big factor.
 Eurasia is the largest continent by far.
 It also has large and varied temperate regions, ideal for evolving a variety of wild grasses and legumes.
-The other continents are smaller, with much of their land area devoted to deserts and rainforests.
-As a result, Eurasia has the best selection of wild plant species suitable for domestication as staple crops.
-
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
-Millet in Africa produces far fewer calories for the same amount of effort.
-Corn required such extensive domestication that it barely resembles its wild ancestor.
-Furthermore, it's very unlikely that neolithic humans in the Americas overlooked a better grain than corn.
-Archeological evidence suggests that hunter-gatherers were deeply familiar with nearby native plants.
-And modern domestication efforts have produced many new fruits and vegetables (such as strawberries and blueberries) but no new staples.
+Corn, on the other hand, is low in protein and required such extensive domestication that it barely resembles its wild ancestor.
+Diamond further argues that hunter-gatherers were deeply familiar with nearby native plants; it's very unlikely that neolithic humans in the Americas overlooked a better grain than corn.
 
 [^3]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. The mutated wheat is easier to harvest, and therefore more likely to be spread. Barley and peas were domesticated similarly.
 
-In addition to the best native plants for staples, humans in Eurasia also had access to the best native animals for livestock.
+Humans in Eurasia also had access to the best native animals for livestock.
 There are about 150 species of large plant-eating mammal on the planet.
 The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
 Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
@@ -58,40 +52,47 @@ Dogs were domesticated by early humans worldwide, but only protein-starved socie
 
 [^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
-[^5]: It's possible that the [wave of extinctions][extinction] around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas first encountered humans when humans were already deadly. The author admits this connection is not firmly established.
+[^5]: It's possible that the [wave of extinctions][extinction] around the end of the ice age was driven by the spread of human hunters. Eurasian animals coevolved with humans, while animals in the Americas were blindsided and quickly hunted to extinction. The author admits this connection is not firmly established.
 
 [extinction]: https://en.wikipedia.org/wiki/Quaternary_extinction
+
+Eurasia's traversability is important too.
+A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India.
+In contrast, llamas never left South America in pre-colonial times; they were blocked by the Panama isthmus, a narrow strip of dense rainforest.
+California has an ideal climate, but food production was not practiced there due to limited native species and the surrounding desert and mountains.
+The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
+Not only were the native species in the Americas less favorable for domestication, but those species were also separated from each other by natural barriers, inhibiting the spread of food production and other technologies[^7].
 
 ![Bighorn sheep](/assets/images/sheep-jody-confer-unsplash.png)
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
 
-Eurasia's traversability is important too.
-A crop native to the Fertile Crescent can grow pretty much anywhere from Spain to India.
-In contrast, llamas[^7] never left South America in pre-colonial times; they were blocked by the Panama isthmus, a narrow strip of dense rainforest.
-California has an ideal climate, but food production was not practiced there due to limited native species and the surrounding desert and mountains.
-The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
-Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart
+<!-- Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart -->
 
-[^7]: Trade routes based on food production help propagate other technology as well. Wheeled toys were invented in Mesoamerica, but carts were never invented because there was no livestock to pull them.
+[^7]: Trade based on food production helps propagate other technology as well. Foe example, wheels were invented in Mesoamerica, but carts were never invented because there was no livestock to pull them.
 
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
 
 Diamond's argument is mostly built on evidence from the Americas and the western half of Eurasia.
 In his last few chapters, he applies the same reasoning to neolithic population movements in Africa, Southeast Asia, and Oceania.
-He presents archeological evidence to identify
+He presents archeological evidence to identify the earliest sites of food production.
+He then compares that with population movements using linguistic[^8] and genetic evidence.
+The same patterns appear over and over:
+
+- 
+
+
+
+
+
+
+[^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
+
+
 
 
 sahel, possibly ethiopia
 new guinea
 north china
-
-
-
-
-
-archeological evidence for origin of food production
-linguistic evidence for spread and displacement
-
 
 similar trends:
 - food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
@@ -104,9 +105,8 @@ Austronesian expansion through the Pacific.
 Bantu expansion in Africa
 spread of
 
-archeological, genetic, and linguistic[^7] evidence
 
-[^7]: Most modern speakers of germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in the Americas. But the greatest diversity of sub-languages is in Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent. Furthermore, looking at similar words between languages allows us to estimate when they diverged. Sheep (English) is similar to schaf (German) and schaap (Dutch) since sheep were domesticated before the languages diverged.
+
 
 ---
 
