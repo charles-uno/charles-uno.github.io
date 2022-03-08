@@ -21,15 +21,16 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Diamond's answer, in a word, is food.
-Following the end of the last ice age, humans gradually[^1] transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
+Following the end of the last ice age, humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
 Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
 Livestock provided industrial power, mounts for war, and a vector for new human diseases.
-<!-- trade? mostly crops but technology piggybacked -->
 
+<!--
 [^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
+-->
 
-![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek.png)
+![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek-4x3.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
 Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC). That brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
@@ -63,12 +64,12 @@ California has an ideal climate, but food production was not practiced there due
 The [three sisters][three_sisters] were domesticated around 4,000BC but didn't cross the Mexican desert until 900AD.
 Not only were the native species in the Americas less favorable for domestication, but those species were also separated from each other by natural barriers, inhibiting the spread of food production and other technologies[^7].
 
-![Bighorn sheep](/files/guns-germs-steel/sheep-jody-confer.png)
+![Bighorn sheep](/files/guns-germs-steel/goat-paxson-woelber-4x3.png)
 <span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
 
 <!-- Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart -->
 
-[^7]: Trade based on food production helps propagate other technology as well. Foe example, wheels were invented in Mesoamerica, but carts were never invented because there was no livestock to pull them.
+[^7]: Trade based on food production helps propagate other technology as well. For example, neolithic Mesoamericans invented the wheel but only used it for toys. They had no livestock to pull a cart.
 
 [three_sisters]: https://en.wikipedia.org/wiki/Three_Sisters_(agriculture)
 
@@ -78,32 +79,74 @@ He presents archeological evidence to identify the earliest sites of food produc
 He then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
--
+- Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (which localized to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were assimilated or displaced. The surviving non-Sino-Tbetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
+- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel zone, evidenced by the [Niger-Congo language famly][africa_language] (Swahili, Xhosa, Zulu, etc). However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan hunter-gatherers until the arrival of Eurasian crops during the colonial era.
+- Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because food production was developed independently in New Guinea.
 
+<!-- khoisan herders? -->
 
+<!-- Food producers in the Pacific attained sufficient population density for deadly diseases. -->
 
-
-
+[africa_language]: https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages
+[se_asia_languages]: https://en.wikipedia.org/wiki/Classification_of_Southeast_Asian_languages
+[bantu_expansion]: https://en.wikipedia.org/wiki/Bantu_expansion
+[austronesian_expansion]: https://en.wikipedia.org/wiki/Austronesian_peoples#Austronesian_expansion
+[new_guinea_ethnic_group]: https://en.wikipedia.org/wiki/Melanesians
 
 [^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
+When discussing the spread and displacement of neolithic humans, as when discussing the colonial era, Diamond is careful with his wording.
+Bantu farmers displaced Khoisan hunter-gatherers due to superior technology such as agriculture and iron smelting.
+However, the Bantu *people* were not superior to the Khoisans.
 
 
 
-sahel, possibly ethiopia
-new guinea
-north china
+However, the author emphatically rejects the superiority of one group of *people* over another.
 
-similar trends:
-- food producers spread quickly into areas suitable for their food production. existing hunter-gatherers are displaced
-- food producers, once established, are less likely to be displaced. in particular, if they have enough density to have diseases that the new arrivals are not resistant to
 
-large number of language families in america. suggests many groups developing in isolation. in eurasia, you have a small number of language families each containing many sub-families.
-suggests one group was dominant, spread out, then developed regionally
 
-Austronesian expansion through the Pacific.
-Bantu expansion in Africa
-spread of
+
+more advanced technology, such as agriculture and iron smelting.
+However, the Bantu people themselves were not more advanced than the Khoisans
+
+
+
+
+When two societies first meet, one is often at a technological advantage.
+
+First contact between civilizations often has a disparity in technology.
+
+Conflicts between hunter-gatherers and food producers often coincide with differences in race, but race is not the underlying issue.
+
+When food producers come into contact with hunter-gatherers, the hunter-gatherers are typically killed.
+
+But the food producers' access to food production and other technology does not indicate superiority.
+
+
+
+
+
+
+
+
+Some regions of the world were much more favorable for food production, in terms of both geography and native species.
+
+These are conflicts between biologically-modern humans.
+The conquerors are not innately stronger, smarter, or otherwise superior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
