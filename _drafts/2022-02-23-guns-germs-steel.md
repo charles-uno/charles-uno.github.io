@@ -20,8 +20,12 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
-Diamond's answer, in a word, is food.
-Following the end of the last ice age, humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
+Right off the bat, the author addresses the elephant in the room: it's not about race.
+The book isn't about comparing different groups.
+It's written from the perspective of a biologist studying the human species overall.
+According to Diamond, the technological differences between continents in 1500 AD can be traced back to what our neolithic ancestors ate.
+
+Following the end of the last ice age (about 13,000 years ago) humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
 Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
 Livestock provided industrial power, mounts for war, and a vector for new human diseases.
@@ -33,23 +37,25 @@ Livestock provided industrial power, mounts for war, and a vector for new human 
 ![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek-4x3.png)
 <span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
 
-Pizarro's technological advantage over Atahualpa comes as no surprise when we consider that wheat (domesticated 8,000 BC) gave Spain a 4,000 year head start compared to the Inca Empire's corn (domesticated 4,000 BC). That brings us to the "real" question of the book: why did the rise and spread of food production differ between continents?
+Neolithic humans in the Fertile Crescent domesticated wheat and peas about 10,000 years ago.
+Corn and beans were domesticated in the Americas about 6,000 years ago.
+Pizarro's advantage over Atahualpa comes as no surprise when we realize that technology in Eurasia had a 4,000 year head start.
+The "real" question of the book then becomes: why did the rise and spread of food production differ between continents?
 
-According to Diamond, geography is a big factor.
+Diamond argues that geography is a big factor.
 Eurasia is the largest continent by far.
-It also has large and varied temperate regions, ideal for evolving a variety of wild grasses and legumes.
+It also has large and diverse temperate regions, ideal for evolving a variety of wild grasses and legumes.
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
-Corn, on the other hand, is low in protein and required such extensive domestication that it barely resembles its wild ancestor.
+Corn is low in protein and required such extensive domestication that it barely resembles its wild ancestor.
 Diamond further argues that hunter-gatherers were deeply familiar with nearby native plants; it's very unlikely that neolithic humans in the Americas overlooked a better grain than corn.
 
 [^3]: Wild wheat stalks shatter when ripe, dropping the kernels on the ground. A single mutation kept the stalks in tact. The mutated wheat is easier to harvest, and therefore more likely to be spread. Barley and peas were domesticated similarly.
 
-Humans in Eurasia also had access to the best native animals for livestock.
-There are about 150 species of large plant-eating mammal on the planet.
-The vast majority of them are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
+Neolithic humans in Eurasia also had access to the best native animals for livestock.
+The vast majority of large plant-eating mammals are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
 Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
 Llamas and alpacas, native to the Americas, aren't strong enough to carry a rider or pull a plow.
-Dogs were domesticated by early humans worldwide, but only protein-starved societies ever resorted to eating them.
+Dogs were available worldwide, but only protein-starved societies ever resorted to eating them.
 
 [^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
@@ -79,9 +85,12 @@ He presents archeological evidence to identify the earliest sites of food produc
 He then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
-- Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (which localized to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were assimilated or displaced. The surviving non-Sino-Tbetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
-- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel zone, evidenced by the [Niger-Congo language famly][africa_language] (Swahili, Xhosa, Zulu, etc). However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan hunter-gatherers until the arrival of Eurasian crops during the colonial era.
-- Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because food production was developed independently in New Guinea.
+- Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
+- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][africa_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
+- Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently (along with high population density and deadly diseases).
+
+![Map of modern Hmong-Mien language speakers](/files/guns-germs-steel/hmong-mien-language-map-4x3.png)
+<span class="figure-caption">Modern speakers of Hmong-Mien languages are geographically fragmented. This suggests that the language family was once widespread in the region, but that most of the speakers were displaced or assimilated. Figure by Sgnpkd via [Wikipedia][se_asia_languages], CC [BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=90824992)</span>
 
 <!-- khoisan herders? -->
 
@@ -95,91 +104,32 @@ The same patterns appear over and over:
 
 [^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
+Societies throughout history have killed, displaced, and assimilated their neighbors using superior technology and deadly diseases.
+These power imbalances have often fallen along racial lines, giving rise to the belief that some races are innately superior to others.
+In *Guns, Germs, and Steel*, Jared Diamond rejects that explanation and presents his own: food production.
+
+Neolithic humans in different regions had access to different native plant and animal species.
+Some of these species were well-suited to domestication.
+
+
+
+
+
+Spain's technology in the colonial era was superior to that of the Incas, just as neolithic Bantu technology was superior to that of the Khoisan people.
+
+These conflicts often fall along racial lines, giving rise to the belief that races possessing superior technology are also biologically superior.
+
+In *Guns, Germs, and Steel*, Jared Diamond forcefully disagrees.
+
 When discussing the spread and displacement of neolithic humans, as when discussing the colonial era, Diamond is careful with his wording.
 Bantu farmers displaced Khoisan hunter-gatherers due to superior technology such as agriculture and iron smelting.
 However, the Bantu *people* were not superior to the Khoisans.
 
-
-
 However, the author emphatically rejects the superiority of one group of *people* over another.
-
-
-
-
-more advanced technology, such as agriculture and iron smelting.
-However, the Bantu people themselves were not more advanced than the Khoisans
-
-
-
-
-When two societies first meet, one is often at a technological advantage.
-
-First contact between civilizations often has a disparity in technology.
-
-Conflicts between hunter-gatherers and food producers often coincide with differences in race, but race is not the underlying issue.
-
-When food producers come into contact with hunter-gatherers, the hunter-gatherers are typically killed.
-
-But the food producers' access to food production and other technology does not indicate superiority.
-
-
-
-
-
-
-
 
 Some regions of the world were much more favorable for food production, in terms of both geography and native species.
 
-These are conflicts between biologically-modern humans.
-The conquerors are not innately stronger, smarter, or otherwise superior.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-- Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
-
 explains European advantages. does not excuse their cruelty
-
-humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
-
-australia, NZ, tasmania:
-- Australia, NG, Tasmania were connected until sea levels rose at the end of the ice age.
-- Contact with pacific islands well documented. Linguistic and genetic evidence.
-- NG domesticated sweet potatoes. no protein source, but enough to get to a million people. enough to develop diseases.
-- Australia had nothing worth domesticating. no diseases, no technology
-- Tasmania is very small. just as high density allows technology to compound on itself, very low population risks regression. loss of bone tools (?)
-
-china, SE asia
-- food domesticated around the same time as the fertile crescent
-- pigs. likely source of plague and other diseases
-- Can track population spread by looking at linguistics
-- as technology spread from china, so did language
-- pretty much all modern languages in SE asia come from chinese. writing systems too.
-- genetically, small minority groups in SE asia suggest darker skin and curly hair like in indonesia. but those people were displaced as chinese language/technology/crops spread
-
-polynesia
-- ancient population waves
-- austronesian expansion. wave of people at 40k years ago, then 4k years ago, then 3600 years ago. why was each new wave able to displace the previous people? why did the waves never go the other way?
-- skin color. populations in the tropics for half a million years have dark skin. more recent immigrants have light skin
-- tracking movement using linguistics. german, dutch, english as an analogy
-- pottery, food remnants
 
 <!--
 
@@ -425,5 +375,32 @@ hunter gatherers and food producers happily adopted better crops when they showe
 large language groups in eurasia. food producers spread out, displacing hnter-gatherers, then local changes to the language. america has many smaller language families. suggests no sweeping displacement. small groups with sporadic interactions rather than well-connected population centers. p371
 
 Africa. Bantu expansion, Indonesian colonization of madagascar. p377
+
+
+Australia's temperate zones are small, with a poor selection of native grasses and legumes. Sweet potatoes were domesticated in nearby New Guinea, but do not grow well in Australia.
+
+humans on several continents eat acorns, but domestication efforts have repeatedly failed. trees are slow to grow, bad attributes depending on multiple genes, hard to compete with squirrels planting acorns everywhere
+
+australia, NZ, tasmania:
+- Australia, NG, Tasmania were connected until sea levels rose at the end of the ice age.
+- Contact with pacific islands well documented. Linguistic and genetic evidence.
+- NG domesticated sweet potatoes. no protein source, but enough to get to a million people. enough to develop diseases.
+- Australia had nothing worth domesticating. no diseases, no technology
+- Tasmania is very small. just as high density allows technology to compound on itself, very low population risks regression. loss of bone tools (?)
+
+china, SE asia
+- food domesticated around the same time as the fertile crescent
+- pigs. likely source of plague and other diseases
+- Can track population spread by looking at linguistics
+- as technology spread from china, so did language
+- pretty much all modern languages in SE asia come from chinese. writing systems too.
+- genetically, small minority groups in SE asia suggest darker skin and curly hair like in indonesia. but those people were displaced as chinese language/technology/crops spread
+
+polynesia
+- ancient population waves
+- austronesian expansion. wave of people at 40k years ago, then 4k years ago, then 3600 years ago. why was each new wave able to displace the previous people? why did the waves never go the other way?
+- skin color. populations in the tropics for half a million years have dark skin. more recent immigrants have light skin
+- tracking movement using linguistics. german, dutch, english as an analogy
+- pottery, food remnants
 
 -->
