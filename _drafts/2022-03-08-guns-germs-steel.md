@@ -6,6 +6,11 @@ description: "Twenty-five years later, it's still worth a read."
 tags: politics media
 ---
 
+TODO: tagline
+
+TODO: khoisan hunter-gatherers or herders?
+
+
 At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
 Then they marched on the capital city of Cusco, killing thousands more warriors along the way.
 The Incan empire --- which at the time was [more populous than Spain][1500_populations] --- fell shortly thereafter.
@@ -29,10 +34,6 @@ Following the end of the last ice age (about 13,000 years ago) humans gradually 
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
 Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
 Livestock provided industrial power, mounts for war, and a vector for new human diseases.
-
-<!--
-[^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
--->
 
 Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago.
 Corn and beans were domesticated in the Americas about 6,000 years ago.
@@ -71,9 +72,7 @@ The [three sisters][three_sisters] were domesticated around 4,000BC but didn't c
 Not only were the native species in the Americas less favorable for domestication, but those species were also separated from each other by natural barriers, inhibiting the spread of food production and other technologies[^7].
 
 ![Bighorn sheep](/files/guns-germs-steel/goat-paxson-woelber-4x3.png)
-<span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were domesticated 10,000 years ago.</span>
-
-<!-- Humans in Eurasia had the best access to native crop and livestock species, even though those species started out thousands of miles apart -->
+<span class="figure-caption">North American bighorn sheep have social behaviors that make them ill-suited for domestication. They are closely related to Eurasian sheep, which were among the first animals to be domesticated.</span>
 
 [^7]: Trade based on food production helps propagate other technology as well. For example, neolithic Mesoamericans invented the wheel but only used it for toys. They had no livestock to pull a cart.
 
@@ -86,21 +85,16 @@ He then compares that with population movements using linguistic[^8] and genetic
 The same patterns appear over and over:
 
 - Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
-- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][africa_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
+- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][niger_congo_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
 - Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently.
 
 ![Map of modern Hmong-Mien language speakers](/files/guns-germs-steel/hmong-mien-language-map-4x3.png)
 <span class="figure-caption">Modern speakers of Hmong-Mien languages are geographically fragmented. This suggests that the language family was once widespread in the region, but that most of the speakers were displaced or assimilated. Figure by Sgnpkd via [Wikipedia][se_asia_languages], CC [BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=90824992)</span>
 
-<!-- khoisan herders? -->
-
-<!-- Food producers in the Pacific attained sufficient population density for deadly diseases. -->
-
-[africa_language]: https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages
+[niger_congo_language]: https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages
 [se_asia_languages]: https://en.wikipedia.org/wiki/Classification_of_Southeast_Asian_languages
 [bantu_expansion]: https://en.wikipedia.org/wiki/Bantu_expansion
 [austronesian_expansion]: https://en.wikipedia.org/wiki/Austronesian_peoples#Austronesian_expansion
-[new_guinea_ethnic_group]: https://en.wikipedia.org/wiki/Melanesians
 
 [^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
@@ -113,7 +107,7 @@ The rest is history.
 
 <!--
 
-
+explains European advantages. does not excuse their cruelty
 
 FIGURES
 
@@ -149,17 +143,10 @@ Map: bantu expansion. p395
 Map: coastlines of china and europe. p414
 
 
-explains European advantages. does not excuse their cruelty
-
 Right off the bat, the author addresses the elephant in the room: it's not about race.
 He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
 Instead, Diamond writes from the perspective of a biologist studying the human species overall.
 The emphasis is not on individual people, or even groups, so much as the environments faced by early humans in different regions.
-
-![Teosinte, the wild ancestor of corn](/assets/images/teosinte-uw.png)
-<span class="figure-caption">Teosinte, the wild ancestor of corn. It does not look very tasty. Photo from [UW Libraries][uw_libraries]</span>
-
-[uw_libraries]: https://search.library.wisc.edu/digital/AQRLTP5XSTP4NH9D
 
 ---
 
