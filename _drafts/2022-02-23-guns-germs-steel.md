@@ -21,9 +21,9 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
-The book isn't about comparing different groups.
-It's written from the perspective of a biologist studying the human species overall.
-According to Diamond, the technological differences between continents in 1500 AD can be traced back to what our neolithic ancestors ate.
+The book isn't about comparing different groups of people.
+Instead, it's written from the perspective of a biologist studying the human species overall.
+According to Diamond, the technological differences in the sixteenth century can be traced back to what neolithic humans on each continent ate.
 
 Following the end of the last ice age (about 13,000 years ago) humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
@@ -34,15 +34,15 @@ Livestock provided industrial power, mounts for war, and a vector for new human 
 [^1]: The shift from hunter-gatherer society to sedentary food production was accidental, slow, and hungry. Archeological records suggest that early food producers ate less and died younger than hunter-gatherers.
 -->
 
-![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek-4x3.png)
-<span class="figure-caption">Wheat, barley, and peas were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
-
-Neolithic humans in the Fertile Crescent domesticated wheat and peas about 10,000 years ago.
+Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago.
 Corn and beans were domesticated in the Americas about 6,000 years ago.
 Pizarro's advantage over Atahualpa comes as no surprise when we realize that technology in Eurasia had a 4,000 year head start.
 The "real" question of the book then becomes: why did the rise and spread of food production differ between continents?
 
-Diamond argues that geography is a big factor.
+![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek-4x3.png)
+<span class="figure-caption">Wheat, barley, peas, and sheep were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
+
+Geography is a big factor.
 Eurasia is the largest continent by far.
 It also has large and diverse temperate regions, ideal for evolving a variety of wild grasses and legumes.
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
@@ -87,7 +87,7 @@ The same patterns appear over and over:
 
 - Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
 - [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][africa_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
-- Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently (along with high population density and deadly diseases).
+- Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently.
 
 ![Map of modern Hmong-Mien language speakers](/files/guns-germs-steel/hmong-mien-language-map-4x3.png)
 <span class="figure-caption">Modern speakers of Hmong-Mien languages are geographically fragmented. This suggests that the language family was once widespread in the region, but that most of the speakers were displaced or assimilated. Figure by Sgnpkd via [Wikipedia][se_asia_languages], CC [BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=90824992)</span>
@@ -107,31 +107,49 @@ The same patterns appear over and over:
 Societies throughout history have killed, displaced, and assimilated their neighbors using superior technology and deadly diseases.
 These power imbalances have often fallen along racial lines, giving rise to the belief that some races are innately superior to others.
 In *Guns, Germs, and Steel*, Jared Diamond rejects that explanation and presents his own: food production.
-
-Neolithic humans in different regions had access to different native plant and animal species.
-Some of these species were well-suited to domestication.
-
-
-
-
-
-Spain's technology in the colonial era was superior to that of the Incas, just as neolithic Bantu technology was superior to that of the Khoisan people.
-
-These conflicts often fall along racial lines, giving rise to the belief that races possessing superior technology are also biologically superior.
-
-In *Guns, Germs, and Steel*, Jared Diamond forcefully disagrees.
-
-When discussing the spread and displacement of neolithic humans, as when discussing the colonial era, Diamond is careful with his wording.
-Bantu farmers displaced Khoisan hunter-gatherers due to superior technology such as agriculture and iron smelting.
-However, the Bantu *people* were not superior to the Khoisans.
-
-However, the author emphatically rejects the superiority of one group of *people* over another.
-
-Some regions of the world were much more favorable for food production, in terms of both geography and native species.
-
-explains European advantages. does not excuse their cruelty
+Neolithic humans in some regions developed food production more easily due to geographical advantages and favorable native species.
+Food production led to high population density and surplus resources, which in turn led to technological innovation and political centralization.
+The rest is history.
 
 <!--
+
+
+
+FIGURES
+
+Map: the spread of humans around the world. p37
+Map: polynesian islands. p56
+Chart: Factors underlying the broadest pattern in history. p87
+Map: Centers of origin of food production. p99
+Table: Examples of species domesticated in each area. p100
+Table: Examples of early major crop types around the ancient world. p126
+Map: the fertile crescent. p135
+Map: mediterranean climate zones. p139
+Table: World distribution of large-seeded grass species. p140
+Table: the fourteen ancient species of big herbivorous domestic mammals. p160
+Table: mallilian candidates for domestication. p162
+Table: approximate dates of dirst domestication of animals. p167
+Map: major axes of the continents. p177
+Map: Spread of fertile crescent crops across eurasia. p181
+Table: deadly gifts from our animal friends. p207
+Map: locations of some scriptst mentioned in the text. p219
+Table: human populations of the continents. p263
+Table: types of societies. p268
+Map: southeast asia and australia. p299
+Map: language groups and political boundaries of se asia. p326-7
+Map: austronesian language family. p337
+Map: path of austronesian expansion. p341
+Table: historical trajectories of eurasia and the americas. p362
+Table: language expansions in the old world. p369
+Map: norse expansion from norway. p371
+Map: peoples of africa as of 1400. p379
+Map: language families of africa. p382
+Map: areas of origin of african crops. p387
+Map: bantu expansion. p395
+Map: coastlines of china and europe. p414
+
+
+explains European advantages. does not excuse their cruelty
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
 He emphatically rejects the idea that people in Eurasia were innately superior to those in Australia, the Americas, or Sub-Saharan Africa.
