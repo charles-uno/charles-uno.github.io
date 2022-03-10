@@ -3,13 +3,12 @@ layout: post
 title: "Book Report: Guns, Germs, and Steel"
 image: "/files/guns-germs-steel/corn-markus-winkler-thumb.png"
 description: "Twenty-five years later, it's still worth a read."
-tags: politics media
+tags: media
 ---
 
 TODO: tagline
 
-TODO: khoisan hunter-gatherers or herders?
-
+TODO: better first image?
 
 At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
 Then they marched on the capital city of Cusco, killing thousands more warriors along the way.
@@ -26,14 +25,13 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
-The book isn't about comparing different groups of people.
-Instead, it's written from the perspective of a biologist studying the human species overall.
-According to Diamond, the technological differences in the sixteenth century can be traced back to what neolithic humans on each continent ate.
+Diamond emphatically rejects the claim that some races are innately superior to others.
+Instead, he writes from the perspective of a biologist studying the human species overall, with a particular focus on the neolithic era.
 
 Following the end of the last ice age (about 13,000 years ago) humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
 Centralized food production allowed rapid population growth, as well as greatly increased population density.
 Surplus food (and food storage) freed up resources for specialized roles such as artisans, leaders, scribes, and soldiers.
-Livestock provided industrial power, mounts for war, and a vector for new human diseases.
+Livestock provided industrial power, mounts for war, and a vector for new diseases.
 
 Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago.
 Corn and beans were domesticated in the Americas about 6,000 years ago.
@@ -56,7 +54,7 @@ Neolithic humans in Eurasia also had access to the best native animals for lives
 The vast majority of large plant-eating mammals are mean (zebra), panicky (antelope), territorial (deer), slow to mature (elephant), or reluctant to breed in captivity (vicuña[^4]).
 Only about a dozen species are well-suited to domestication, and almost all of them (camel, cow, donkey, goat, horse, pig, sheep, and water buffalo) are native to Eurasia[^5].
 Llamas and alpacas, native to the Americas, aren't strong enough to carry a rider or pull a plow.
-Dogs were available worldwide, but only protein-starved societies ever resorted to eating them.
+Humans worldwide kept domesticated dogs, but only protein-starved societies ever resorted to eating them.
 
 [^4]: When this book was written, it was believed that llamas and alpacas were domesticated from the same species. More recent analysis suggests instead that the alpaca is descended from the vicuña.
 
@@ -84,9 +82,13 @@ He presents archeological evidence to identify the earliest sites of food produc
 He then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
+[^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
+
 - Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
-- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][niger_congo_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
+- [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][niger_congo_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well[^9] in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
 - Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently.
+
+[^9]: Most of Sub-Saharan Africa experiences rainy summers and dry winters. South Africa is the opposite. Bantu crops grow poorly in South Africa, but Eurasian crops grow well.
 
 ![Map of modern Hmong-Mien language speakers](/files/guns-germs-steel/hmong-mien-language-map-4x3.png)
 <span class="figure-caption">Modern speakers of Hmong-Mien languages are geographically fragmented. This suggests that the language family was once widespread in the region, but that most of the speakers were displaced or assimilated. Figure by Sgnpkd via [Wikipedia][se_asia_languages], CC [BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=90824992)</span>
@@ -95,8 +97,6 @@ The same patterns appear over and over:
 [se_asia_languages]: https://en.wikipedia.org/wiki/Classification_of_Southeast_Asian_languages
 [bantu_expansion]: https://en.wikipedia.org/wiki/Bantu_expansion
 [austronesian_expansion]: https://en.wikipedia.org/wiki/Austronesian_peoples#Austronesian_expansion
-
-[^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
 Societies throughout history have killed, displaced, and assimilated their neighbors using superior technology and deadly diseases.
 These power imbalances have often fallen along racial lines, giving rise to the belief that some races are innately superior to others.
