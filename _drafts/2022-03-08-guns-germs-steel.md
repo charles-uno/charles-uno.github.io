@@ -1,16 +1,12 @@
 ---
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
-image: "/files/guns-germs-steel/corn-markus-winkler-thumb.png"
-description: "Twenty-five years later, it's still worth a read."
+image: "/files/guns-germs-steel/pizarro-seizing-the-inca-of-peru-john-everett-millais.png"
+description: "A just-for-fun summary of the 1997 bestseller"
 tags: media
 ---
 
-TODO: tagline
-
-TODO: better first image?
-
-At the Massacre of Cajamarca, Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
+At the Massacre of Cajamarca, Francisco Pizarro and a few hundred Spaniards killed thousands of Incas and captured Emperor Atahualpa without suffering a single casualty.
 Then they marched on the capital city of Cusco, killing thousands more warriors along the way.
 The Incan empire --- which at the time was [more populous than Spain][1500_populations] --- fell shortly thereafter.
 
@@ -25,7 +21,7 @@ In his 1997 bestseller *Guns, Germs, and Steel*, Jared Diamond digs into human h
 [^2]: The author uses "Eurasia" to refer jointly to Europe, Asia, and the Middle East. The mediterranean coast of Africa is sometimes included as well. These regions have been linked by migration and trade for thousands of years.
 
 Right off the bat, the author addresses the elephant in the room: it's not about race.
-Diamond emphatically rejects the claim that some races are innately superior to others.
+Diamond emphatically rejects the idea that some races are innately superior to others.
 Instead, he writes from the perspective of a biologist studying the human species overall, with a particular focus on the neolithic era.
 
 Following the end of the last ice age (about 13,000 years ago) humans gradually transitioned from hunter-gatherer societies to sedentary societies dependent on domesticated crops and livestock.
@@ -38,8 +34,8 @@ Corn and beans were domesticated in the Americas about 6,000 years ago.
 Pizarro's advantage over Atahualpa comes as no surprise when we realize that technology in Eurasia had a 4,000 year head start.
 The "real" question of the book then becomes: why did the rise and spread of food production differ between continents?
 
-![Wheat field](/files/guns-germs-steel/wheat-tomasz-filipek-4x3.png)
-<span class="figure-caption">Wheat, barley, peas, and sheep were first domesticated in the Fertile Crescent about 10,000 years ago.</span>
+![Wheat field](/files/guns-germs-steel/staples-isiana-caballero-4x3.png)
+<span class="figure-caption">Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago. Rice and soy were domesticated in China about the same time. Corn and beans were domesticated in the Americas, but not until much more recently.</span>
 
 Geography is a big factor.
 Eurasia is the largest continent by far.
@@ -78,13 +74,12 @@ Not only were the native species in the Americas less favorable for domesticatio
 
 Diamond's argument is mostly built on evidence from the Americas and the western half of Eurasia.
 In his last few chapters, he applies the same reasoning to neolithic population movements in Africa, Southeast Asia, and Oceania.
-He presents archeological evidence to identify the earliest sites of food production.
-He then compares that with population movements using linguistic[^8] and genetic evidence.
+He presents archeological evidence to identify the earliest sites of food production, then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
 [^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
-- Rice, soy, and pigs were domesticated about 10,000 years ago in what is now China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
+- Rice, soy, and pigs were domesticated about 10,000 years ago in China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
 - [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][niger_congo_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well[^9] in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
 - Hunter-gatherers living on Pacific islands were displaced by food producers during the [Austronesian expansion][austronesian_expansion] out of Taiwan. Modern Austronesian languages include Malay, Indonesian, and Māori. Indigenous people in New Guinea were not displaced, likely because they developed food production independently.
 
