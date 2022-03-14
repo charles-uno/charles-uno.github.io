@@ -35,7 +35,7 @@ Pizarro's advantage over Atahualpa comes as no surprise when we realize that tec
 The "real" question of the book then becomes: why did the rise and spread of food production differ between continents?
 
 ![Wheat field](/files/guns-germs-steel/staples-isiana-caballero-4x3.png)
-<span class="figure-caption">Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago. Rice and soy were domesticated in China about the same time. Corn and beans were domesticated in the Americas, but not until much more recently.</span>
+<span class="figure-caption">Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago. Rice and soy were domesticated in China about the same time. Food production developed much later in the Americas and Sub-Saharan Africa.</span>
 
 Geography is a big factor.
 Eurasia is the largest continent by far.
@@ -77,7 +77,7 @@ In his last few chapters, he applies the same reasoning to neolithic population 
 He presents archeological evidence to identify the earliest sites of food production, then compares that with population movements using linguistic[^8] and genetic evidence.
 The same patterns appear over and over:
 
-[^8]: Most modern speakers of Germanic languages (English, German, Dutch, Yiddish, Afrikaans, etc) live in North America. But the greatest *diversity* of sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
+[^8]: The largest population of modern speakers of Germanic languages (Afrikaans, Dutch, English, German, Yiddish, etc) live in North America. But the greatest *diversity* of Germanic languages and sub-languages is in northwestern Europe. That correctly implies that the language family originated in Europe, and that the spread to America is relatively recent.
 
 - Rice, soy, and pigs were domesticated about 10,000 years ago in China. Food production then spread across Southeast Asia along with the Sino-Tibetan language (ancestor to Burmese, Mandarin, Tibetan, etc). Indigenous hunter-gatherers were mostly assimilated or displaced. Surviving non-Sino-Tibetan languages (such as Hmong, Lao, and Thai) are [geographically fragmented][se_asia_languages] as a result.
 - [Bantu][bantu_expansion] food producers in Sub-Saharan Africa spread across the continent from the Sahel, evidenced by the [Niger-Congo language famly][niger_congo_language] (Swahili, Xhosa, Zulu, etc). Bantu farmers had access to iron tools and weapons, which provided a significant advantage over their hunter-gatherer neighbors. However, Bantu crops do not grow well[^9] in what is now South Africa. That region remained populated by Khoisan people until the arrival of Eurasian crops during the colonial era.
