@@ -2,7 +2,7 @@
 layout: post
 title: "Book Report: Guns, Germs, and Steel"
 image: "/files/guns-germs-steel/pizarro-seizing-the-inca-of-peru-john-everett-millais.png"
-description: "A just-for-fun summary of the 1997 bestseller"
+description: "Four hundred pages of archeology, geology, and linguistics boiled down to a dozen paragraphs"
 tags: media
 ---
 
@@ -37,7 +37,7 @@ The "real" question of the book then becomes: why did the rise and spread of foo
 ![Wheat field](/files/guns-germs-steel/staples-isiana-caballero-4x3.png)
 <span class="figure-caption">Wheat and peas were domesticated in the Fertile Crescent about 10,000 years ago. Rice and soy were domesticated in China about the same time. Food production developed much later in the Americas and Sub-Saharan Africa.</span>
 
-Geography is a big factor.
+Diamond argues that geography is a big factor.
 Eurasia is the largest continent by far.
 It also has large and diverse temperate regions, ideal for evolving a variety of wild grasses and legumes.
 Wheat, native to the Fertile Crescent, is high in protein and easy to domesticate[^3].
