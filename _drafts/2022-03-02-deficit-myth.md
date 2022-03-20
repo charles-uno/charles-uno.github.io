@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Report: The Deficit Myth"
-image: "/assets/images/pennies-dan-dennis-unsplash.png"
+image: "/files/deficit-myth/pennies-dan-dennis-unsplash.png"
 description: ""
 tags: politics media
 ---
