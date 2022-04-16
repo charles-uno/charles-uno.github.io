@@ -8,21 +8,32 @@ tags: code
 
 I wrote a lot of code in grad school, but my development workflow was a mess.
 No version control, no validation, no visibility.
-Just thousands of lines of Fortran 77 --- edited in Notepad and circulated by email --- plus some Python scripts to build and run that questionable code as fast as possible.
+Just thousands of lines of Fortran 77 --- edited in Notepad and circulated by email --- plus some Python scripts to build and run that questionable code as fast as possible using supercomputers.
 
 Cray was a step up.
-I kept my code in Git repositories.
-I wrote unit tests, API tests, and CI/CD pipelines to run them on commit.
-I even put together a dashboard to two for metrics that seemed important.
-But the whole development workflow still never really *clicked*.
+I kept my code in Git repos, wrote tests, and even put dashboards with numbers that seemed important.
+But testing and metrics still didn't really *click* for me.
+My repos rarely saw merge conflicts, my tests rarely caught bugs, and my dashboards never really found an audience.
+I put time into them because books and blogs told me they were important, and to try to set a good example, but I had no particular expectation that they would ever be useful to me.
 
 Now I work at Facebook.
-We have thousands of hands on the [shared code base][fb_monorepo], and user traffic numbers are obscene.
-My code sees a one-in-a-million failure every minute.
-Validation and visibility are a matter of necessity.
+There's a strong culture behind testing and metrics, and for good reason.
+Thousands of hands touch the [shared code base][fb_monorepo] every day, including many engineers working on code they don't personally "own".
+And our traffic numbers are obscene.
+My code in particular sees a one-in-a-million failure every minute.
+
+
+
+
+
+Validation and visibility now feel natural and necessary.
+
+The whole thing would come crashing down without daily investment in testing and metrics.
+
 Below are a few lessons I wish I had known earlier.
 
 [fb_monorepo]: https://engineering.fb.com/2014/01/07/core-data/scaling-mercurial-at-facebook/
+
 
 ## Monorepos are good, actually
 
@@ -30,10 +41,11 @@ Below are a few lessons I wish I had known earlier.
 - No friction between versions (at least per node)
 - Function calls are faster and easier than API calls
 - Easier integration testing
-- Let most of your engineers take containerization for granted
+- Let most of your engineers take things for granted. docker config. repo web hook setup.
+- common tooling. make things less weird
 
 prevent duplicate code
-Easier to keep conventions consistent (logging, testing). not to mention domain-specific idioms
+Easier to keep conventions consistent (logging, testing, data access). not to mention domain-specific idioms
 explicit dependence is better than weird hacky workarounds.
 - git subrepos
 - pulling in dependencies (cloning other repos) as part of your build process
@@ -42,7 +54,6 @@ most code is far away from the boundary. not everyone needs to worry about docke
 
 A second repo for configs. Don't need to build it. Just pushing text files around. Super fast
 But all the "real" code in the same place
-
 
 ## Unit tests are so your coworkers don't break your stuff while you're on vacation
 
@@ -96,17 +107,7 @@ Managers don't need to know about your day to day work. don't need to attend sta
 - going to bat when you want a promotion
 - connecting you to mentors, mentees, opportunities, resources
 
-
-
-
-
-
-
-
 ---
-
-
-
 
 been writing code since a Pascal class in 2004
 Python since 2005
