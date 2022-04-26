@@ -8,31 +8,49 @@ tags: code
 
 I wrote a lot of code in grad school, but my development workflow was a mess.
 No version control, no validation, no visibility.
-Just thousands of lines of Fortran 77 --- edited in Notepad and circulated by email --- plus some Python scripts to build and run that questionable code as fast as possible using supercomputers.
+Just thousands of lines of Fortran 77 --- edited in Notepad and circulated by email --- plus some Python scripts to build and run that questionable code as fast as possible on supercomputers.
 
 Cray was a step up.
 I kept my code in Git repos, wrote tests, and even put dashboards with numbers that seemed important.
 But testing and metrics still didn't really *click* for me.
-My repos rarely saw merge conflicts, my tests rarely caught bugs, and my dashboards never really found an audience.
+My repos rarely saw merge conflicts, my tests rarely caught bugs, and my dashboards rarely found an audience.
 I put time into them because books and blogs told me they were important, and to try to set a good example, but I had no particular expectation that they would ever be useful to me.
 
 Now I work at Facebook.
-There's a strong culture behind testing and metrics, and for good reason.
-Thousands of hands touch the [shared code base][fb_monorepo] every day, including many engineers working on code they don't personally "own".
+Thousands of engineers edit the [shared code base][fb_monorepo] every day, including many working on code they don't personally "own".
 And our traffic numbers are obscene.
 My code in particular sees a one-in-a-million failure every minute.
-
-
-
-
-
-Validation and visibility now feel natural and necessary.
-
-The whole thing would come crashing down without daily investment in testing and metrics.
-
-Below are a few lessons I wish I had known earlier.
+The platform simply could not exist without robust testing and metrics.
+I create, maintain, and trust them on a daily basis.
 
 [fb_monorepo]: https://engineering.fb.com/2014/01/07/core-data/scaling-mercurial-at-facebook/
+
+Below are a few lessons, obvious to me now, that I wish I had understood years ago.
+
+
+
+- Testing protects your time from your team.
+  - Sometimes engineers work on code they aren't super familiar with
+  - Sometimes a new use case gets piggybacked onto your code without your knowledge
+
+
+
+- Testing
+  - Good testing means your team probably won't break your code while you're away
+  - Automated on commit
+  - Easier with a monorepo. Function calls vs calling out to a mystery endpoint
+  - By "good testing" I mean...
+
+- Metrics
+  - Good metrics means that when they do break something, they can fix it without calling you
+  - By "good metrics" I mean...
+
+
+
+
+---
+
+
 
 
 ## Monorepos are good, actually
@@ -75,7 +93,7 @@ can see when it happened, and isolate the cause. maybe even roll it back.
 What do I mean by good logging?
 - Anyone can easily create a new table to store structured data, and easily add a row to that table
 - Anyone can easily tick a counter or timer
-- Anyone can easily build a dashboard from their data
+- Anyone can easily build a dashboard or alert from their data
 
 - Good logging means other people can triage potential problems with your code. If something is wrong, your dashboard will show (1) where the problem is hitting you, and (2) when it started so you can look for what changed. in other words, ownership can be abstracted away from individuals and onto oncall rotations. Scalable. Less burnout. You can take a day off.
 - Good logging means you can see problems sooner. Regression in latency or validation rate. Solve them during business hours rather than waiting for them to become emergencies
