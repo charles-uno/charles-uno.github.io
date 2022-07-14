@@ -6,78 +6,48 @@ description: ""
 tags: politics
 ---
 
-organ donation. beautiful when given freely. horrifying when given under duress. we don't compel organ donation even in the case of a parent who could save their own child
+It's illegal to harvest blood or organs from a corpse, even to save the life of a child. As long as that remains true, any law restricting abortion is absurd on its face. A pregnant person deserves at least that same level of bodily autonomy as a corpse.
+
+Carrying a pregnancy to term comes with nontrivial risks for the pregnant person
 http://www.vox.com/2015/8/21/9183529/pregnancy-risks
 
-- long term consequences of giving a kidney
-- long term consequences of pregnancy. calcium in bones, etc
+TODO: long term rate of complications for pregnancy vs long term rate of complications for giving a kidney
+
+Abortion law in TN assumes guilt. Doctors have to mount an affirmative defense that the procedure was necessary. Chilling effect.
+https://www.timesfreepress.com/news/local/story/2022/jul/03/critics-tennessee-abortilaw-could-spur-crimin/572089/
 
 In the US, about 1% of abortions take place after 20 weeks gestation. Third-trimester abortion (after 26 weeks) almost never happen.
 https://www.richmond.com/news/plus/virginia-has-become-the-epicenter-of-the-third-trimester-abortion/article_c3c93e87-5db3-53a7-a1a5-7bddc0bfbeb7.html
 
 Virginia has good data, and Virginia's abortion rate is similar to the USA overall
-
 https://www.kff.org/womens-health-policy/state-indicator/abortion-rate/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
 
-Pretty much nobody saves it for marriage. A significant majority of Americans are sexually active before the end of high school
+CO offered free IUDs to everyone. Abortion rate fell by 42%
+https://www.nytimes.com/2015/07/06/science/colorados-push-against-teenage-pregnancies-is-a-startling-success.html
 
-Colorado contraception program. Free iuds are EXTREMELY effective at reducing the abortion rate.
+Half of all conceptions are naturally aborted, usually before the woman even knows she's pregnant. If anyone truly believed life begins at conception, there would be resources here.
+https://medlineplus.gov/ency/article/001488.htm
+http://www.marchofdimes.org/complications/miscarriage.aspx
 
-Women choose to have abortions. Supply and demand. You can attach the supply via restrictive legislation to increase the price... or you can reduce the supply by decreasing the number of unwanted pregnancies
-
-Best predictor of abortion rates is poverty
-
-Estimate of rates before roe v wade
+TODO: Estimate of rates before roe v wade
 
 Catholic church tolerates abortion in the case of ectopic pregnancy. Fetus grows in the fallopian tube instead of the womb. Dangerous for both -- but there are recorded cases of both surviving birth. Scholarly tradition. They have to admit that biology is complicated.
 
 "life begins at conception" has trouble with TWINS
 
-https://fivethirtyeight.com/features/democrats-arent-in-lockstep-over-abortion-thats-why-theyre-fighting/
-
-Half of all conceptions are naturally aborted by the body, usually before the woman even knows she's pregnant. Chromosomal issues.
-
-https://medlineplus.gov/ency/article/001488.htm
-
-http://www.marchofdimes.org/complications/miscarriage.aspx
-
----
-
-
-1967 paper estimating 800k abortions per year in the US:
-
+1967 paper estimating 800k abortions per year in the US. Note that the US population at the time was 200M
 http://link.springer.com/article/10.2307/2060019
 
-
-population at that time was 200M.
-
-
-population now is 320M. so that would scale up to 1.3M
-
-just under 1M abortions in 2014, and falling
-
+Abortion rate has been falling steadily for decades. It doesn't swing with administrations. It comes from long term improvements in health, education, etc
 https://www.guttmacher.org/fact-sheet/induced-abortion-united-states
-
-
-More restrictive abortion laws lead to higher incidence of abortion-related deaths
-
-http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)61786-8/abstract
-
-
 1958 book estimating 200k to 1.2M
-
 https://www.amazon.com/Abortion-United-States-Steichen-Calderone/dp/B000H7N1PW
 
+More restrictive abortion laws lead to higher incidence of abortion-related deaths
+http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)61786-8/abstract
 
-Nobody has outlawed abortion, but some states have gotten close. Hard to say what the abortion rate was before roe, but in those states there is evidence that DIY abortion is on the rise.
-
+State-level restrictions on abortion lead to increased attempts at (dangerous) self-induced abortion
 https://www.nytimes.com/2016/03/06/opinion/sunday/the-return-of-the-diy-abortion.html
 
-data from 1990-1994, 2010-2014. in both cases, no statistically significant correlation between abortion rate and legality.
-
-6.9 women treated per 1000 women aged 15-44
-35 abortions per 1000 women aged 15-44
-
-(estimates, since they are illegal)
-
+no statistically significant correlation between abortion rate and legality
 https://www.guttmacher.org/fact-sheet/induced-abortion-worldwide

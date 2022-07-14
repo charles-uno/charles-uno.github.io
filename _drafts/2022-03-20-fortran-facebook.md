@@ -47,6 +47,13 @@ Below are a few lessons, obvious to me now, that I wish I had understood years a
 
 
 
+- monorepo vs microservices
+  - friction between versions
+  - well-defined ownership
+  - performance of API calls vs function calls
+  - duplicate code
+  - mismatched conventions for style/testing/logging
+
 
 ---
 
