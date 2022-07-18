@@ -43,11 +43,31 @@ https://www.guttmacher.org/fact-sheet/induced-abortion-united-states
 1958 book estimating 200k to 1.2M
 https://www.amazon.com/Abortion-United-States-Steichen-Calderone/dp/B000H7N1PW
 
-More restrictive abortion laws lead to higher incidence of abortion-related deaths
+More restrictive abortion laws lead to worse healthcare for pregnant people
 http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)61786-8/abstract
+https://www.ajog.org/action/showPdf?pii=S0002-9378%2822%2900536-1
+https://www.washingtonpost.com/health/2022/07/16/abortion-miscarriage-ectopic-pregnancy-care/
+
+Abortion restrictions also restrict non-abortion healthcare. Because you don't know 100% who's pregnant
+https://www.npr.org/sections/health-shots/2022/05/10/1097734167/in-texas-abortion-laws-inhibit-care-for-miscarriages
+https://apnews.com/article/abortion-science-health-medication-lupus-e4042947e4cc0c45e38837d394199033
 
 State-level restrictions on abortion lead to increased attempts at (dangerous) self-induced abortion
 https://www.nytimes.com/2016/03/06/opinion/sunday/the-return-of-the-diy-abortion.html
 
 no statistically significant correlation between abortion rate and legality
 https://www.guttmacher.org/fact-sheet/induced-abortion-worldwide
+
+Women are jailed for miscarriage
+https://www.11alive.com/article/news/national/miscarriages-are-already-criminalized-roe-v-wade/85-7e78facf-b673-4775-8a09-9a45e3a794b2
+https://www.bbc.com/news/world-us-canada-59214544
+https://www.theguardian.com/us-news/2022/jun/03/california-stillborn-prosecution-roe-v-wade
+
+Pregnant women can't get divorced in some states, creating bad incentives
+https://www.riverfronttimes.com/news/pregnant-women-cant-get-divorced-in-missouri-38092512
+
+
+
+
+
+---
