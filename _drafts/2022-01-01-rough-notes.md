@@ -6,6 +6,11 @@ description:
 keywords:
 ---
 
+Fooling an image classifier
+http://karpathy.github.io/2015/03/30/breaking-convnets/
+
+---
+
 Obama was criticized for not getting Congress to ratify the Iran deal as a treaty. But GWB withdrew from the ABM treaty without Congress anyway.
 
 ---
@@ -22,5 +27,5 @@ How do you expect a person to find a job while living on the street? Or beat add
 
 ---
 
-CAHOOTS program in Oregon. Takes 17% of police calls with 1% of the budget. Saves the city $8M+ per year. Nobody has ever been seriously injured in 30+ years. 
+CAHOOTS program in Oregon. Takes 17% of police calls with 1% of the budget. Saves the city $8M+ per year. Nobody has ever been seriously injured in 30+ years.
 https://www.hcn.org/issues/52.7/public-health-theres-already-an-alternative-to-calling-the-police
