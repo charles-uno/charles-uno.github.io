@@ -8,5 +8,3 @@ gem 'jekyll'
 gem 'jekyll-watch'
 gem 'json'
 gem 'webrick'
-
-#	Homepage: https://github.com/jekyll/jekyll-watch
