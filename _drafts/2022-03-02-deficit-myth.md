@@ -6,6 +6,19 @@ description: ""
 tags: politics media
 ---
 
+the government does not spend tax dollars on programs. it prints dollars, then taxes them back
+
+so why tax? to avoid too much money in circulation. trying to have the "right" number of dollars
+
+the "right" number of dollars changes over time. population growth, increased productivity due to technology, plus trade with other countries means there are lots of dollars sitting around overseas. (this is good. it means we bought things. and it also means other countries like the dollar)
+
+if it's printed out of nothing, why does the dollar have value? because taxes have to be paid in dollars. 
+
+
+
+
+
+---
 
 The US government can print as many dollars as it needs to honor its promises. It can never default on its obligations as long as those obligations are denominated in US dollars.
 

@@ -6,6 +6,22 @@ description: Steam your pores, not your vegetables.
 tags: stem
 ---
 
+I'll be honest: I don't enjoy working in Microsoft word (or similar
+WYSIWYG
+
+too easy to accidentally mess up your formatting. extra blank line between paragraphs. ambiguous boundaries on text formatting.
+
+the defaults don't look good, and I don't want to fall down the rabbit hole of trying to make them look better.
+
+markdown lets you:
+- space things out with extra newlines
+- include comments in your text that are not included in the final document
+- track changes line-by-line
+
+
+
+
+
 If we're writing a document that'll be released to the public, Word (or similar) is probably the tool for the job. We can pull in your company letterhead, tweak fonts and colors, drop in some images, and wrap the text around them. With some finagling, Word's under-the-hood HTML/CSS[^2] has the horsepower to do basically whatever we want.
 
 [^2]: If you change the `.docx` extension to `.zip`, you can unzip a Word document and look at the HTML and style elements for yourself!
