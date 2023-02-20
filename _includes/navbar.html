@@ -1,11 +1,11 @@
 {% if page.title %}
-    {% assign share-url = page.url | prepend: site.url %}
-    {% assign share-title = page.title | url_encode %}
-    {% assign share-excerpt = page.description | url_encode %}
+{% assign share-url = page.url | prepend: site.url %}
+{% assign share-title = page.title | url_encode %}
+{% assign share-excerpt = page.description | url_encode %}
 {% else %}
-    {% assign share-url = site.url %}
-    {% assign share-title = site.title | url_encode %}
-    {% assign share-excerpt = site.description | url_encode %}
+{% assign share-url = site.url %}
+{% assign share-title = site.title | url_encode %}
+{% assign share-excerpt = site.description | url_encode %}
 {% endif %}
 
 <div class="navbar">
@@ -22,7 +22,7 @@
         <div class="navbar-link"><a href="/about">About</a></div>
         <div class="navbar-link"><a href="/files/resume/charles-fyfe.pdf">Résumé</a></div>
 
-<!--
+        <!--
         <div class="media-glyphs">
             <a href="https://www.facebook.com/sharer/sharer.php?u={{ share-url }}" title="Facebook" class="popup">
                 <i class="media-glyph fab fa-facebook-square"></i>
@@ -40,7 +40,7 @@
 
 -->
 
-        <div class="copy">&copy; 2022 All rights reserved</div>
+        <div class="copy">&copy; 2023 All rights reserved</div>
     </div>
 
 </div>
