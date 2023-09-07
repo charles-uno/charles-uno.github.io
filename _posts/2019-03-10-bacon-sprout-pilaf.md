@@ -21,8 +21,8 @@ tags: food
 
 Cook the bacon in a large skillet, low and slow, to render out as much fat as possible. Once the bacon is crispy, remove it from the pan. Leave the fat.
 
-Turn the heat up to medium and add the sprouts to the bacon fat. Season with black pepper to taste. Cook, stirring intermittently, until the sprouts brown and soften -- about 15 minutes.
+Turn the heat up to medium and add the sprouts to the bacon fat. Season with black pepper to taste. Cook, stirring intermittently, until the sprouts brown and soften, about 15 minutes.
 
-Return the bacon to the pan, then gently stir in the rice, cranberries, and almonds. (Depending on the size of your skillet, it may be necessary to do this one half at a time.)
+Return the bacon to the pan, then gently stir in the rice, cranberries, and almonds. Depending on the size of your skillet, it may be necessary to do this one half at a time.
 
 Makes five lunch-sized portions.

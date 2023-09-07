@@ -8,33 +8,33 @@ tags: food
 
 ![Shakshuka](/assets/images/wide/shakshuka-16x9.png)
 
-- 4 c onion, diced
-- 28 oz can [roasted tomatoes][muir_glen], diced or crushed
-- 1 c roasted[^1] red bell peppers, diced
-- 0.5 c feta cheese, cubed
+- 2 large onions, diced (about 6 cups)
+- 28 oz can [roasted diced tomatoes][muir_glen]
+- 2 red bell peppers, halved and seeded
+- 1 cup block feta cheese, cubed
 - 6 eggs
-- 1 t black pepper
-- 1 t cayenne
-- 1 t caraway
-- 1 t cumin
-- 1 t paprika
-- 1 t salt
-- 1 t turmeric
-- Olive oil
-- Pita or crusty bread
+- 1 tsp black pepper
+- 1 tsp cayenne
+- 1 tsp caraway seeds
+- 1 tsp cumin
+- 1 tsp paprika
+- 1 tsp salt
+- 1 tsp turmeric
+- olive oil
+- pita or crusty bread
 
 [muir_glen]: https://www.muirglen.com/products/fire-roasted-diced-tomatoes/
 
 ---
 
-[^1]: To [roast bell peppers](/farm-freezer): Cut them in half and remove the seeds and stems. Bake open-side-down on parchment paper for about an hour at 400°F, until the skin blackens and puffs up. Allow to cool, then remove the skin. Roasted peppers also keep well in the freezer.
+Preheat your oven to 425°F. 
 
-Start the onions and some olive oil in a large skillet. Cook them on medium-low heat until they caramelize to a deep brown. Stir them occasionally and add more olive oil if any corners start to scorch.
+Roast bell peppers open-side-down until the skin puffs and blackens, about 30 minutes. Remove from the oven. Once cool, remove and discard the skins. Dice the peppers and set them aside.
 
-Add the peppers and the spices. Stir completely into the onions. Everything should smell amazing. Then add the tomatoes. Bring to a simmer, stirring intermittently.
+In the meantime, start the onions with some olive oil in a large skillet. Cook on medium heat, stirring occasionally, for about 20 minutes. The onions should reduce in size by about half and begin to caramelize.
 
-Press the feta cubes gently into the sauce. Then use a spoon to hollow six craters into the sauce and crack an egg into each. Cover the skillet and let it simmer until the egg whites are just set, about 10 minutes. You can check them by poking gently with a chopstick.
+Add the roasted peppers to the skillet. Add the spices to the skillet. Stir until fragrant, about a minute. Then add the tomatoes. Stir to combine, bring to a simmer, then reduce the heat to low.
 
-Enjoy promptly with pita or crusty bread. Serves about four people.
+Press the feta cubes gently into the sauce. Then use a spoon to create six divots and crack an egg into each. Cover the skillet and simmer until the egg whites are set, about 10 minutes.
 
-Note that the tomato sauce reheats well, but the eggs don't. It's better to fry a fresh egg in the morning and put that on top!
+Enjoy promptly with bread. Serves four. 
