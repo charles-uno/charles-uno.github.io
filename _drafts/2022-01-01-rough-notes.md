@@ -23,8 +23,6 @@ Opponents of gun control claim that it won't work. If guns are criminal, only cr
 
 ---
 
-How do you expect a person to find a job while living on the street? Or beat addiction? How do you expect a kid to perform in school? Need to solve homelessness first. Housing first works in [Finland](https://scoop.me/housing-first-finland-homelessness/). Also was enormously successful in [Utah](https://www.npr.org/2015/12/10/459100751/utah-reduced-chronic-homelessness-by-91-percent-heres-how), though cuts to the program have cut into its results.
-
 ---
 
 CAHOOTS program in Oregon. Takes 17% of police calls with 1% of the budget. Saves the city $8M+ per year. Nobody has ever been seriously injured in 30+ years.
