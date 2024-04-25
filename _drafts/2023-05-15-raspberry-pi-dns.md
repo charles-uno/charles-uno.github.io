@@ -20,4 +20,6 @@ Honestly, this one is barely worth writing up.
 
 
 
+- set fixed DNS on the router
+- set port forwarding on the router. 22 internal and external for now. probably better for security to use a different external port later
 
