@@ -11,9 +11,7 @@ author:
     name: Charles Fyfe
 permalink: /:title/
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
-  - gh-pages
 sass:
   sass_dir: /assets/_sass
   style: :compressed
@@ -21,7 +19,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - vendor/
   - CNAME
 markdown: kramdown
 kramdown:

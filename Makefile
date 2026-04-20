@@ -1,39 +1,96 @@
-
+# Makefile for Jekyll site
 IMAGE := jekyll-image
 MOUNT := /workspace
 
-.PHONY: all serve drafts debug image refresh
+# Define Ruby version by reading .ruby-version file, ignoring comments/whitespace
+RUBY_VERSION := $(shell grep -v '^\#' .ruby-version)
+
+# Define Bundler version directly in the Makefile
+BUNDLER_VERSION := 2.6.8
+
+# Define base image using the determined Ruby version
+BASE_RUBY_IMAGE := ruby:$(RUBY_VERSION)
+
+# Get the current user's UID and GID to run Docker commands as the host user.
+# This prevents Docker from creating files (e.g., _site) as root.
+# We also set HOME=/tmp to give the user a writable home directory inside the
+# container, which prevents certain permission errors with Jekyll and Bundler.
+USER_ID := $(shell id -u)
+GROUP_ID := $(shell id -g)
+DOCKER_RUN_OPTS := --user $(USER_ID):$(GROUP_ID) -e HOME=/tmp
+
+# Define reusable Docker run command to reduce boilerplate
+DOCKER_RUN := docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE)
+
+# Tier 1: Daily drivers
+.PHONY: serve build clean debug
+
+# Tier 2: Domain operations
+.PHONY: image-build image-rebuild deps-lock
+
+# Internal targets
+.PHONY: all
+
+# Tier 3: Backward compatibility aliases
+.PHONY: image refresh lock
 
 all: serve
 
-# Serve the site as it will appear when published.
-serve: image
-	docker run --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve
+# Manual target to update Gemfile.lock using the correct base Docker image and Bundler version.
+deps-lock: .ruby-version
+	@echo "Updating and normalizing Gemfile.lock using Docker ($(BASE_RUBY_IMAGE) with Bundler $(BUNDLER_VERSION))..."
+	@echo "Running 'bundle lock --update --normalize-platforms' inside container..."
+	@docker run --rm \
+		$(DOCKER_RUN_OPTS) \
+		-v $(PWD):$(MOUNT) \
+		-w $(MOUNT) \
+		$(BASE_RUBY_IMAGE) \
+		/bin/bash -c "echo 'Installing Bundler $(BUNDLER_VERSION)...' && \
+		              gem install bundler -v $(BUNDLER_VERSION) --no-document && \
+		              echo 'Running bundle lock --update --normalize-platforms...' && \
+		              bundle lock --update --normalize-platforms"
+	@echo "Gemfile.lock updated and normalized successfully. Please commit Gemfile, Gemfile.lock, and .ruby-version."
 
-trace: image
-	docker run --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll build --trace
+# Build the Docker image using '.' as build context.
+image-build: Dockerfile Gemfile Gemfile.lock .ruby-version
+	@echo "Building Docker image $(IMAGE) using Ruby $(RUBY_VERSION) and Bundler $(BUNDLER_VERSION)..."
+	@docker build \
+		--build-arg RUBY_VERSION=$(RUBY_VERSION) \
+		--build-arg BUNDLER_VERSION=$(BUNDLER_VERSION) \
+		. -f Dockerfile -t $(IMAGE)
 
-# Serve the site but also publish drafts.
-drafts: image
-	docker run --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) bundle exec jekyll serve --drafts
+# Rebuild the Docker image without cache.
+image-rebuild: Dockerfile Gemfile Gemfile.lock .ruby-version
+	@echo "Rebuilding Docker image $(IMAGE) with --no-cache using Ruby $(RUBY_VERSION) and Bundler $(BUNDLER_VERSION)..."
+	@docker build \
+		--build-arg RUBY_VERSION=$(RUBY_VERSION) \
+		--build-arg BUNDLER_VERSION=$(BUNDLER_VERSION) \
+		--no-cache . -f Dockerfile -t $(IMAGE)
 
-# Interactive session within the image so you can poke around.
-debug: image
-	docker run -it --rm -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE)
+# Clean Jekyll build artifacts (_site directory and caches).
+clean: image-build
+	@echo "Cleaning Jekyll build artifacts..."
+	@$(DOCKER_RUN) bundle exec jekyll clean
 
-# Don't send the whole repo to Docker. All we need is the Gemfile.
-BUILDDIR := /tmp/jekyll-docker
+# Build the site for production.
+build: image-build clean
+	@echo "Building site for production..."
+	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -e JEKYLL_ENV=production $(IMAGE) \
+		bundle exec jekyll build
 
-image: Dockerfile Gemfile
-	rm -rf $(BUILDDIR)
-	mkdir -p $(BUILDDIR)
-	cp Gemfile $(BUILDDIR)
-	docker build $(BUILDDIR) -f Dockerfile -t $(IMAGE)
+# Serve the site for local development with live reloading.
+serve: image-build clean
+	@echo "Serving site at http://localhost:4000..."
+	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -p 4000:4000 -p 35729:35729 -e JEKYLL_ENV=docker $(IMAGE) \
+		bundle exec jekyll serve --config _config.yml,_config_docker.yml --watch --incremental --livereload
 
-# Rebuilding from halfway using a cached image can sometimes cause
-# problems. Use `make refresh` to rebuild the image from the ground up.
-refresh: Dockerfile Gemfile
-	rm -rf $(BUILDDIR)
-	mkdir -p $(BUILDDIR)
-	cp Gemfile $(BUILDDIR)
-	docker build $(BUILDDIR) -f Dockerfile -t $(IMAGE) --no-cache
+# Interactive session within the Docker container.
+debug: image-build
+	@echo "Starting interactive debug session in container..."
+	@docker run -it $(DOCKER_RUN_OPTS) -p 4000:4000 -v $(PWD):$(MOUNT) -w $(MOUNT) $(IMAGE) /bin/bash
+
+# --- Backward Compatibility Aliases ---
+# These aliases maintain backward compatibility for muscle memory.
+image: image-build
+refresh: image-rebuild
+lock: deps-lock
