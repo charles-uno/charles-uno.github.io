@@ -84,6 +84,11 @@ serve: image-build clean
 	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -p 4000:4000 -p 35729:35729 -e JEKYLL_ENV=docker $(IMAGE) \
 		bundle exec jekyll serve --config _config.yml,_config_docker.yml --watch --incremental --livereload
 
+drafts: image-build clean
+	@echo "Serving site plus drafts at http://localhost:4000..."
+	@docker run --rm $(DOCKER_RUN_OPTS) -v $(PWD):$(MOUNT) -w $(MOUNT) -p 4000:4000 -p 35729:35729 -e JEKYLL_ENV=docker $(IMAGE) \
+		bundle exec jekyll serve --drafts --config _config.yml,_config_docker.yml --watch --incremental --livereload
+
 # Interactive session within the Docker container.
 debug: image-build
 	@echo "Starting interactive debug session in container..."
