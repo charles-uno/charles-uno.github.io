@@ -1,6 +1,7 @@
 # Jekyll and Ruby specific.
 .sass-cache
 _site/
+.jekyll-metadata
 
 # Bundler related.
 .bundle/
