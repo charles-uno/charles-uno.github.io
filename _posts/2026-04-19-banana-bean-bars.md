@@ -11,17 +11,17 @@ My kids make these with me. They know there are beans in them. They happily eat 
 ## Wet Ingredients
 - 1 can chickpeas, drained and mashed
 - 4 overripe bananas
-- 3/4 cup peanut butter
+- 3/4 c peanut butter
 - 2 eggs
-- 2 tsp vanilla extract
+- 2 t vanilla extract
 
 ## Dry Ingredients
-- 2 cup oats, minced in a food processor
-- 2 tsp cinnamon
-- 3 tbsp chia seeds
-- 1/2 cup dark chocolate chips
-- 2 tsp baking powder
-- 1 tsp baking soda
+- 2 c oats, minced in a food processor
+- 2 t cinnamon
+- 3 T chia seeds
+- 1/2 c dark chocolate chips
+- 2 t baking powder
+- 1 t baking soda
 - salt[^salt]
 
 [^salt]: Canned beans are usually salted. Peanut butter is usually salted. Just a sprinkle is probably fine, if any. 
