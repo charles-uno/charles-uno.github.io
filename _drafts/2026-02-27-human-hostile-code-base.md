@@ -6,6 +6,7 @@ description: You would never write code in C and ask your peer to review the res
 tags: 
 ---
 
+
 Once upon a time, people wrote code in Assembly. The language is extremely efficient, but also tedious and error-prone. 
 
 Then came C, which is a layer up from Assembly. The compiler adds a bit of slop, so we're not quite as efficient at runtime. The convenience is worth it. Hardware got faster and humans stopped working in Assembly (with niche exceptions). 
