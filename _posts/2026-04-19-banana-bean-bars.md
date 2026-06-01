@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Banana Bean Breakfast Muffins"
+title: "Banana Bean Breakfast Buscuits"
 image: "/files/banana-bean-bars/closeup-thumb.png"
 description: "Looking for the sweet spot between tasty, healthy, and convenient"
 tags: food
@@ -33,10 +33,12 @@ My kids make these with me. They know there are beans in them. They happily eat 
 1. Preheat your oven to 350 F. 
 2. Mix your wet ingredients in a bowl.
 3. Mix your dry ingredients in another bowl.
-4. Add your dry ingredients into your wet ingredients.
-5. Line your pan with muffin cups. 
-6. Scoop the batter into the cups. You can fill them pretty full. They won't rise much.
+4. Mix your dry ingredients into your wet ingredients.
+5. Line your baking sheet with parchment paper[^muffins]. 
+6. Scoop lumps of batter onto your baking sheet. About a third of a cup each.
 7. Bake until done, about 20 minutes.
-8. Eat some right away for quality control. Save the rest in an airtight container.
+8. Eat some right away for quality control. Save the rest in the fridge or freezer.
 
-Makes about 18 muffins. Each muffin has about 8g sugar, 6g protein, 4g fiber, 9g fat. 
+Makes about 18 buscuits. Each has about 8g sugar, 6g protein, 4g fiber, 9g fat. 
+
+[^muffins]: Muffin cups work great too. You can fill them pretty full. This batter doesn't rise much.
