@@ -10,10 +10,12 @@ My kids make these with me. They know there are beans in them. They happily eat 
 
 ## Wet Ingredients
 - 1 can chickpeas, drained and mashed
-- 4 overripe bananas
+- 4 overripe bananas[^pumpkin]
 - 3/4 c peanut butter
 - 2 eggs
 - 2 t vanilla extract
+
+[^pumpkin]: Instead of bananas, you can use a can of pumpkin puree.
 
 ## Dry Ingredients
 - 2 c oats, minced in a food processor
@@ -39,6 +41,6 @@ My kids make these with me. They know there are beans in them. They happily eat 
 7. Bake until done, about 20 minutes.
 8. Eat some right away for quality control. Save the rest in the fridge or freezer.
 
-Makes about 18 buscuits. Each has about 8g sugar, 6g protein, 4g fiber, 9g fat. 
+Makes about 18 biscuits. Each has about 8g sugar, 6g protein, 4g fiber, 9g fat. 
 
 [^muffins]: Muffin cups work great too. You can fill them pretty full. This batter doesn't rise much.
