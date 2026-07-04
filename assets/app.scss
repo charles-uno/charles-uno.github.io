@@ -1,10 +1,12 @@
 ---
+layout: compress
 ---
 @charset 'utf-8';
 
 // Start from Poole. Sensible defaults and syntax highlighting
-@use 'poole';
+@import 'poole';
 
-@use 'navbar';
-@use 'index';
-@use 'post';
+@import 'base';
+@import 'navbar';
+@import 'index';
+@import 'post';
