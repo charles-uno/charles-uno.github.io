@@ -1,3 +1,5 @@
+@use 'base';
+
 #index-list {
     border: 0;
     padding: 0;
@@ -18,7 +20,7 @@
 .index-item {
     position: relative;
     overflow: hidden;
-    border-radius: $figure-border-radius;
+    border-radius: base.$figure-border-radius;
 }
 
 .index-link {
@@ -28,7 +30,7 @@
     height: 100%;
     width: 100%;
     // Shade the thumbnail so the text is legible.
-    background-color: rgba($text-color, 0.7);
+    background-color: rgba(base.$text-color, 0.7);
     // On hover, lose the shading and the text.
     &:hover {
         background: none;
@@ -38,7 +40,7 @@
 }
 
 .index-name, .index-tags {
-    color: $shadow-color;
+    color: base.$shadow-color;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -59,12 +61,12 @@
 
 .index-tag {
     padding: 0.1rem;
-    border: 1px solid $shadow-color;
-    border-radius: $figure-border-radius;
+    border: 1px solid base.$shadow-color;
+    border-radius: base.$figure-border-radius;
     display: inline-block;
     &:hover {
-        color: $text-color;
-        border: 1px solid $text-color;
-        background-color: $shadow-color;
+        color: base.$text-color;
+        border: 1px solid base.$text-color;
+        background-color: base.$shadow-color;
     }
 }
