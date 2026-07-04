@@ -1,15 +1,15 @@
-@use 'base';
+@use 'base' as *;
 
 .navbar {
-    background-color: base.$accent-color;
-    width: base.$navbar-size;
+    background-color: $accent-color;
+    width: $navbar-size;
     position: fixed;
     height: 100%;
-    font-family: base.$head-font;
+    font-family: $head-font;
 
     a {
-        color: base.$shadow-color;
-        &:hover { color: base.$text-color; }
+        color: $shadow-color;
+        &:hover { color: $text-color; }
     }
 
     display: flex;
@@ -18,7 +18,7 @@
 
     .navbar-top, .navbar-bot {
         width: 100%;
-        max-width: base.$navbar-size;
+        max-width: $navbar-size;
         padding: 0.5rem 1.5rem;
         max-height: 50%;
     }
@@ -43,8 +43,8 @@
 
     .navbar-title {
         text-transform: none;
-        font-family: base.$logo-font;
-        color: base.$text-color;
+        font-family: $logo-font;
+        color: $text-color;
         font-size: 1.9rem;
         position: absolute;
         top: 0;
@@ -58,9 +58,9 @@
 }
 
 .main {
-    margin-left: base.$navbar-size;
+    margin-left: $navbar-size;
     margin-right: auto;
-    max-width: base.$content-width;
+    max-width: $content-width;
     padding: 1rem 1.5rem;
     height: 100%;
     min-height: 100%;
