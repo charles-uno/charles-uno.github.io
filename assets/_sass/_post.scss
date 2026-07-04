@@ -1,3 +1,6 @@
+@use 'base';
+
+
 header {
 
     .post-title {
@@ -11,27 +14,27 @@ header {
 
     .post-date, .post-tags {
         display: inline-block;
-        font-size: $font-size-caption;
+        font-size: base.$font-size-caption;
         margin: 0;
         margin-bottom: -0.5rem;
     }
 
     .post-date {
-        color: $text-color;
+        color: base.$text-color;
     }
 
     .post-tag {
         display: inline-block;
         line-height: 1;
         padding: 0.1rem;
-        border-radius: $figure-border-radius;
-        color: $accent-color;
-        border: 1px solid $accent-color;
+        border-radius: base.$figure-border-radius;
+        color: base.$accent-color;
+        border: 1px solid base.$accent-color;
         &:hover {
             cursor: pointer;
-            color: $text-color;
-            border: 1px solid $text-color;
-            background-color: $shadow-color;
+            color: base.$text-color;
+            border: 1px solid base.$text-color;
+            background-color: base.$shadow-color;
         }
     }
 }
@@ -39,28 +42,28 @@ header {
 article {
 
     a {
-        color: $accent-color;
+        color: base.$accent-color;
         &:hover {
-            color: $text-color;
+            color: base.$text-color;
         }
     }
 
     // Consistent highlighting for blockquotes, code blocks, inline code
     blockquote, div.highlight, pre, pre.highlight, code, img {
-        background-color: $shadow-color;
+        background-color: base.$shadow-color;
     }
     blockquote {
         border: 0;
         padding: 1rem;
-        color: $text-color;
+        color: base.$text-color;
     }
     table, img, blockquote {
-        max-width: $figure-width;
+        max-width: base.$figure-width;
         margin-left: auto;
         margin-right: auto;
-        font-size: $font-size-caption;
-        line-height: $line-height-caption;
-        border-radius: $figure-border-radius;
+        font-size: base.$font-size-caption;
+        line-height: base.$line-height-caption;
+        border-radius: base.$figure-border-radius;
         overflow: hidden;
     }
     img { margin-bottom: 0; }
@@ -72,18 +75,18 @@ article {
             border: 0;
         }
         tbody tr:nth-child(odd) td, tbody tr:nth-child(even) td, thead tr th {
-            background-color: $shadow-color;
+            background-color: base.$shadow-color;
         }
         tbody tr {
-            border-top: 0.1px solid $paper-color
+            border-top: 0.1px solid base.$paper-color
         }
     }
     // Caption following an image or table
     .figure-caption {
-        max-width: $figure-width;
+        max-width: base.$figure-width;
         margin: 0.4rem auto;
-        font-size: $font-size-caption;
-        line-height: $line-height-caption;
+        font-size: base.$font-size-caption;
+        line-height: base.$line-height-caption;
         display: block;
     }
 
@@ -96,15 +99,15 @@ article {
     }
 
     hr {
-        color: $shadow-color;
-        border-color: $shadow-color;
-        background-color: $shadow-color;
+        color: base.$shadow-color;
+        border-color: base.$shadow-color;
+        background-color: base.$shadow-color;
         height: 0.1rem;
     }
 
     div.footnotes li {
-        font-size: $font-size-caption;
-        line-height: $line-height-caption;
+        font-size: base.$font-size-caption;
+        line-height: base.$line-height-caption;
     }
 
 }
