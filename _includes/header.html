@@ -1,7 +1,7 @@
 
 <span class="post-links">
     <span class="post-date">
-        <span class="nowrap">{{ page.date | date_to_string }}</span>
+        <span class="nowrap">{{ page.date | date: "%-d %B %Y" }}</span>
     </span>
     <span class="post-tags">
         {% if page.tags %}
