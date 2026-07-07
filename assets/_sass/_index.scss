@@ -1,24 +1,51 @@
 #index-list {
-    border: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
     padding: 0;
     margin: 0;
-    // Prevent gaps between tiles
-    font-size: 0;
-    line-height: 0;
+    list-style: none;
+
+    @media (min-width: 40em) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+    }
 }
 
 .index-item-wrap {
-    display: inline-block;
-    padding: 0.4rem;
-    width: 50%;
-    @media (min-width: 40em) { width: 33.3%; }
-    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .index-item {
     position: relative;
     overflow: hidden;
-    border-radius: $figure-border-radius;
+    border-radius: 0.6rem;
+    aspect-ratio: 1 / 1;
+    background-color: $shadow-color;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        
+        .index-link {
+            background-color: rgba($text-color, 0.35);
+        }
+        .index-name {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+    }
+}
+
+.index-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .index-link {
@@ -27,44 +54,47 @@
     top: 0;
     height: 100%;
     width: 100%;
+    padding: 1.2rem;
     // Shade the thumbnail so the text is legible.
-    background-color: rgba($text-color, 0.7);
-    // On hover, lose the shading and the text.
-    &:hover {
-        background: none;
-        .index-name { display: none; }
-        .index-date { display: none; }
-    }
-}
-
-.index-name, .index-tags {
-    color: $shadow-color;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1;
-    width: 90%;
-    margin: 0 auto;
+    background-color: rgba($text-color, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 .index-name {
-    top: 45%;
-    font-size: 1.4rem;
+    color: $shadow-color;
+    font-family: $head-font;
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    text-transform: lowercase;
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .index-tags {
-    top: 85%;
-    font-size: 0.8rem;
+    color: rgba($shadow-color, 0.8);
+    font-size: 0.75rem;
+    transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .index-tag {
-    padding: 0.1rem;
-    border: 1px solid $shadow-color;
-    border-radius: $figure-border-radius;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid rgba($shadow-color, 0.4);
+    border-radius: 2rem;
     display: inline-block;
+    font-size: 0.7rem;
+    margin: 0.15rem;
+    color: rgba($shadow-color, 0.9);
+    transition: all 0.2s ease;
+
     &:hover {
         color: $text-color;
-        border: 1px solid $text-color;
+        border-color: $shadow-color;
         background-color: $shadow-color;
     }
 }
