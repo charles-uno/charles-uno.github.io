@@ -15,6 +15,9 @@ plugins:
 sass:
   sass_dir: /assets/_sass
   style: :compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
 exclude:
   - Gemfile
   - Gemfile.lock
