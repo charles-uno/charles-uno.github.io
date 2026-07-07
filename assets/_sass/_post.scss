@@ -1,37 +1,49 @@
 header {
+    padding-top: 1.5rem;
 
     .post-title {
-        margin-top: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.6rem;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        font-weight: 700;
     }
 
     .post-links {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.2rem;
     }
 
     .post-date, .post-tags {
         display: inline-block;
         font-size: $font-size-caption;
         margin: 0;
-        margin-bottom: -0.5rem;
     }
 
     .post-date {
-        color: $text-color;
+        color: lighten($text-color, 20%);
+        font-weight: 500;
+        letter-spacing: 0.02em;
     }
 
     .post-tag {
         display: inline-block;
         line-height: 1;
-        padding: 0.1rem;
-        border-radius: $figure-border-radius;
+        padding: 0.25rem 0.75rem;
+        border-radius: 2rem;
         color: $accent-color;
-        border: 1px solid $accent-color;
+        background-color: rgba($accent-color, 0.08);
+        border: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+
         &:hover {
             cursor: pointer;
-            color: $text-color;
-            border: 1px solid $text-color;
-            background-color: $shadow-color;
+            color: $shadow-color;
+            background-color: $accent-color;
         }
     }
 }
@@ -45,25 +57,81 @@ article {
         }
     }
 
-    // Consistent highlighting for blockquotes, code blocks, inline code
-    blockquote, div.highlight, pre, pre.highlight, code, img {
+    // Consistent highlighting for blockquotes, code blocks, pre blocks, tables, and images
+    blockquote, div.highlight, pre, pre.highlight, img, table {
         background-color: $shadow-color;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        border-radius: 0.6rem;
     }
+
     blockquote {
         border: 0;
-        padding: 1rem;
-        color: $text-color;
+        border-left: 4px solid $accent-color;
+        padding: 1.2rem 1.5rem;
+        color: lighten($text-color, 15%);
+        font-style: italic;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
+
+    code {
+        font-family: $mono-font;
+        font-size: 85%;
+        color: #b33;
+        background-color: rgba($shadow-color, 0.6);
+        padding: 0.15rem 0.35rem;
+        border-radius: 0.3rem;
+    }
+
+    pre code {
+        color: inherit;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+        font-size: 100%;
+    }
+
     table, img, blockquote {
         max-width: $figure-width;
         margin-left: auto;
         margin-right: auto;
         font-size: $font-size-caption;
         line-height: $line-height-caption;
-        border-radius: $figure-border-radius;
         overflow: hidden;
     }
     img { margin-bottom: 0; }
+
+    // Headings within post body
+    h2, h3, h4, h5, h6 {
+        font-family: $head-font;
+        color: $text-color;
+        letter-spacing: -0.01em;
+    }
+
+    h2 {
+        margin-top: 2.8rem;
+        margin-bottom: 0.8rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        margin-top: 2.2rem;
+        margin-bottom: 0.6rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    // List styling for better breathing room
+    ul, ol {
+        margin-bottom: 1.5rem;
+        padding-left: 1.5rem;
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.65;
+        }
+    }
 
     // Not a fan of the default table style
     table {
@@ -78,13 +146,16 @@ article {
             border-top: 0.1px solid $paper-color
         }
     }
+
     // Caption following an image or table
     .figure-caption {
         max-width: $figure-width;
-        margin: 0.4rem auto;
+        margin: 0.5rem auto 1.5rem;
         font-size: $font-size-caption;
         line-height: $line-height-caption;
         display: block;
+        color: lighten($text-color, 25%);
+        text-align: center;
     }
 
     // Prevent margin weirdness after a figure with no caption. Kludgey. Note
@@ -96,15 +167,23 @@ article {
     }
 
     hr {
-        color: $shadow-color;
-        border-color: $shadow-color;
-        background-color: $shadow-color;
-        height: 0.1rem;
+        border: 0;
+        border-top: 1px solid rgba($text-color, 0.1);
+        background: transparent;
+        height: 0;
+        margin: 3rem 0;
     }
 
-    div.footnotes li {
-        font-size: $font-size-caption;
-        line-height: $line-height-caption;
+    div.footnotes {
+        margin-top: 3rem;
+        font-size: 0.85rem;
+        color: lighten($text-color, 20%);
+
+        li {
+            font-size: 0.85rem;
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
     }
 
 }
