@@ -7,5 +7,7 @@ layout: default
 </header>
 
 <article>
-    {{content | replace: '<div class="footnotes" role="doc-endnotes">', '<hr><div class="footnotes" role="doc-endnotes">'}}
+    {{content | replace: '<div class="footnotes" role="doc-endnotes">', '
+        <hr>
+        <div class="footnotes" role="doc-endnotes">'}}
 </article>
