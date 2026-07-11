@@ -21,17 +21,15 @@ Fix ONLY:
 - Punctuation errors
 - Typos
 
+Please also comment out (but do not remove) unused links
+
+Do NOT modify:
+- HTML comments: `<!-- ... -->`
+- Liquid tags: `{% ... %}`
+- Autocard tags: `[[ ... ]]`
+
 ## Output Format
 
 Change in place. 
 
 Also list the changes made so the author can review them.
-
-## Plugin Reference
-
-Do not modify:
-
-- HTML comments: `<!-- ... -->`
-- Liquid tags: `{% ... %}`
-- Autocard tags: `[[ ... ]]`
-
