@@ -57,6 +57,16 @@ article {
         }
     }
 
+    a.footnote {
+        text-decoration: none;
+        &::before {
+            content: "[";
+        }
+        &::after {
+            content: "]";
+        }
+    }
+
     // Consistent highlighting for blockquotes, code blocks, pre blocks, tables, and images
     blockquote, div.highlight, pre, pre.highlight, img, table {
         background-color: $shadow-color;
