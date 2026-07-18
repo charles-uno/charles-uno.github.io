@@ -64,7 +64,7 @@ But as the pandemic wound down, so did the hiring frenzy. Software was already i
 
 ## AI Has Already Redefined Software Engineering
 
-Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, cross-team bookkeeping, etc. Once in a while we get tagged in to prototype a new feature or debug a tricky issue. But once the path forward is clear, the bulk of the implementation is passed over to junior engineers. 
+Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, the bulk of the implementation is passed to junior engineers. 
 
 That's how things used to be at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much *much* faster than a human. Hobby projects may still be coded by hand, but at this point AI is the industry standard[^slopware] for line-by-line coding. 
 
@@ -149,7 +149,7 @@ If AI becomes a major part of the economy, there will be immense pressure for co
 
 ## Abstinence-Only Education Doesn't Work
 
-I do not care about the essays my students write or the diagrams they draw. What I care about is that they sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether or not they have absorbed the material. 
+I do not care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
 
 A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
 
