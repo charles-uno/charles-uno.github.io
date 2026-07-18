@@ -39,6 +39,7 @@ Fix:
 
 Also clean up footnotes and reference-style links:
 - The reference definition should follow the first paragraph that references it
+- If the reference is inside a list, table, etc, put it after the end of the current block (that is, wait for an empty line)
 - Same for footnotes
 - If a paragraph includes both references and footnotes, list the footnotes first
 - Move unused references and footnotes to the bottom of the document and comment them out. One big comment block, not line-by-line

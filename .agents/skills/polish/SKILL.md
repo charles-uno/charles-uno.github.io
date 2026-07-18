@@ -53,6 +53,8 @@ Key points:
 - **Oxford comma**: Yes
 - **Sentence length**: Prefer short sentences. It's ok to break sentences up for a better flow, even if it means starting with "and" or "but". Avoid consecutive long sentences
 
+Look at the comments. Comments often include phrases that I liked, but couldn't quite figure out how to fit them in. If you see a way to include them *nicely* then go for it
+
 Antipatterns (do not do these):
 - Don't add too many em-dashes (---)
 - Don't add emojis
