@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computer Science Education in the Era of AI"
+title: "Computer Science Education in the AI Era"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
 description: "'Computer' used to be a job title. Now it's the name of a machine."
 tags: stem
