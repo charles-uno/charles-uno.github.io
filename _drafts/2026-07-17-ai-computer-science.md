@@ -88,7 +88,7 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work won't be beautiful, and I often have to step in with corrections, but it's conspicuously faster than doing it myself or delegating it to another person. 
 
-Fiddly computer tasks exist in other industries too. Teachers and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. In time it will become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+Fiddly computer tasks exist in other industries too. Teachers and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to spoon-feed the relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
@@ -172,7 +172,7 @@ Some students intuitively know how to use AI in a positive way. Maybe more will 
 
 [^remote]: Remote learning seems extremely fucked
 
-Our students have access to AI whether we want them to or not. Teaching and assessment skills need to adjust. Otherwise many students will sabotage their own learning without even realizing it.
+Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
 
 <!--
 ## AI Needs Guardrails
