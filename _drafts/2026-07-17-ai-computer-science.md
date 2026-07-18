@@ -20,6 +20,8 @@ I don't know the future, of course, but I've got a pretty good view of the prese
 
 [zuck_ai]: https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/
 
+> TODO? To be clear: this is descriptive, not prescriptive. If you want to talk about AI ethics, check the footnotes...
+
 ## Demand for Coding Skills Was Dropping Before AI
 
 Over the course of the 2010s, [software ate the world][software_ate_the_world]. Tech companies hired aggressively as they expanded into brick-and-mortar markets. For example:
@@ -127,6 +129,8 @@ Roles focused on low-level systems will be less affected. This includes anyone w
 The other two-thirds of the industry is focused more on product behavior. This is pretty much anyone working on anything the user sees. I think these roles are at risk of being shaken up. Product engineers, by design, are insulated from the nitty-gritty details of the machine. As AI gets better and better at producing code, it becomes less and less important for product engineers to have a computer science degree at all. Instead of software engineers writing code for nurses and lawyers and architects, we may soon see those professions leveraging their own expertise to write it for themselves using AI as a software *engine*. 
 
 This puts computer science educators in a tricky position. On one hand, we can stick to the fundamentals and accept the likely enrollment drop. Computers are fundamental to modern society. Someone should probably know how they work! On the other hand, we can try to make the major more relevant by focusing on using AI to build things. Less emphasis on the machine itself. More emphasis on project management, responsible data handling, and agent orchestration. Time will tell which approach works out better. 
+
+> TODO? short section here: "Education Follows the Job Market"
 
 <!--
 ## Education Follows the Job Market
