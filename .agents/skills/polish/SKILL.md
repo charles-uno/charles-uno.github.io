@@ -19,6 +19,8 @@ Reword the post for clarity and coherence. Improve flow between ideas. Cut unnec
 
 I only want to worry about three paragraphs at a time. Identify all the paragraphs that could use work, then pick three at random. Make suggestions for how to improve those three only. Do not suggest edits elsewhere. 
 
+If you believe that a section or paragraph should be cut completely, say so. 
+
 A suggestion spanning more than one paragraph is allowed only if it *significantly* improves the flow. Call this out explicitly.
 
 Gotchas:
@@ -31,7 +33,7 @@ Gotchas:
 
 The mode is advisory: diagnose what isn't landing, brainstorm, and review what he slots in (the loop is advise → he edits → "take a look" → review). Do NOT silently rewrite paragraphs. 
 
-When suggesting changes to a paragraph, insert another copy of that paragraph immediately following. Apply changes to the copy only. Highlight changes in another color. 
+When suggesting changes to a paragraph, insert another copy of that paragraph immediately following. Apply changes to the copy only. 
 
 Make two versions of every suggestion. Number all suggestions for easy reference and discussion
 
