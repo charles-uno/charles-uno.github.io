@@ -21,7 +21,7 @@ I only want to worry about three paragraphs at a time. Identify all the paragrap
 
 If you believe that a section or paragraph should be cut completely, say so. 
 
-A suggestion spanning more than one paragraph is allowed only if it *significantly* improves the flow. Call this out explicitly.
+If you believe a transition between paragraphs is uncomfortably abrupt, say so. You may suggest a way to fix it, but it's also ok to just note the abruptness. 
 
 Gotchas:
 - Preserve the author's vocabulary. Don't upgrade "good" to "exceptional"

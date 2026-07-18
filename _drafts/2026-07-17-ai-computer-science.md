@@ -133,7 +133,7 @@ This puts computer science educators in a tricky position. On one hand, we can s
 
 [Fewer than 10%][1960_college] of Americans had a college degree in 1960. College was a place for wealthy men to network, party, and [launder priviledge into credentials][launder_priviledge]. [Grades][grades_didnt_matter] didn't particularly matter. There was little emphasis on [specific majors][no_pipelines] leading to specific careers. 
 
-These days, [almost half of Americans][college_stats] go to college. It's career prep. Colleges brag about their job placement rates to attract students. Software engineering job postings require applicants to have specific majors. 
+These days, [almost half of Americans][college_stats] go to college. It's a big investment. It's career prep. Colleges brag about their job placement rates to attract students. Software engineering job postings require applicants to have specific majors. 
 
 If AI becomes a major part of the economy, there will be immense pressure for colleges to fall in line. 
 
