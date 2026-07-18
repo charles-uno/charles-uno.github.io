@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computer Science Education in the AI Era"
+title: "Teaching Computer Science in the AI Era"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
 description: "'Computer' used to be a job title. Now it's the name of a machine."
 tags: stem
@@ -82,17 +82,27 @@ It's not just coding either. AI is increasingly good at the fiddly manual tasks 
 
 Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
 
+<!--
+Entry-level software engineering jobs are vanishing because, frankly, AI ate their lunch
+niche is smaller and shaped differently?
+
+- a third are low-level. still need CS expertise
+- two thirds are focused on the product. minimal dependence on CS fundamentals
+
+junior-to-senior pipeline for low-level work
+-->
+
 [Nobody is hiring][entry_level_collapse] junior software engineers because, frankly, they're not very useful right now. AI tools have taken their niche, and we haven't figured out a new niche for them yet. Fresh computer science grads are in a rough spot. I wish I could offer answers here. Instead I just have a big question: when today's senior engineers want to retire, who will replace them?
 
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
 ## AI is Bigger Than Software Engineering
 
-AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work won't be beautiful, and I often have to step in with corrections, but it's conspicuously faster than doing it myself or delegating it to another person. 
+AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 
 Fiddly computer tasks exist in other industries too. Teachers and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
-- Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to spoon-feed the relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
+- Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
 - AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. 
 - Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
@@ -121,7 +131,7 @@ Every step along the way, it has become cheaper and easier to outsource work to 
 
 I think AI will continue to broaden software engineering. I also think we'll see some turbulence along the way. Most software engineering roles today are held by people with a background in computer science. This won't necessarily be the case going forward. 
 
-Roles focused on low-level systems will be less affected. This includes anyone working on compilers, operating systems, devices, databases, site reliability, machine learning, and so on. A lot of [middleware][middleware] probably falls into this category too. Computer science fundamentals are deeply relevant to this part of the industry. They need to understand the ugly, tedious, and confusing parts of the machine -- their whole job is to engage with those parts and hide them from everyone else. Based on a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
+Roles focused on low-level systems will be disrupted the least. This includes anyone working on compilers, operating systems, devices, databases, site reliability, machine learning, and so on. A lot of [middleware][middleware] probably falls into this category too. Computer science fundamentals are deeply relevant to this part of the industry. They need to understand the ugly, tedious, and confusing parts of the machine because their whole job is to engage with those parts and hide them from everyone else. Based on a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
 
 [middleware]: https://en.wikipedia.org/wiki/Middleware
 [swe_breakdown]: https://survey.stackoverflow.co/2025
