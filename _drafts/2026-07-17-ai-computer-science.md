@@ -2,7 +2,7 @@
 layout: post
 title: "Computer Science, Software Engineering, and Generative AI"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
-description: "'Computer' used to be a job title. Now it's the name of a machine."
+description: "'Computer' used to be a job title. Now it's the name of a machine. Is 'programmer' next?"
 tags: stem
 ---
 
