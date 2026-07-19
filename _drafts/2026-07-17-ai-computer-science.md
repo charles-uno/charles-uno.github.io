@@ -72,6 +72,7 @@ That's how things used to be at least. These days, we delegate the mechanical wo
 
 [^slopware]: You can find a list of AI-contaminated software [here](https://codeberg.org/ethical-foss/open-slopware). It includes pretty much everything you've ever heard of. 
 
+<!--
 It's not just coding either. AI is increasingly good at the fiddly manual tasks that pop up during the day. For example:
 
 - Turning some bullet points into a presentable document
@@ -81,13 +82,14 @@ It's not just coding either. AI is increasingly good at the fiddly manual tasks 
 - Taking a bunch of old data and converting it to a more convenient format
 
 Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
+-->
 
 Fresh computer science grads are in a rough spot. Entry-level software engineering jobs are [few and far between][entry_level_collapse] because, frankly, that niche mostly belongs to AI now. That said, some parts of the industry are holding up better than others:
 
 - Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. Computer science expertise matters a lot here. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
 - The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad who understands what's happening under the hood. 
 
-AI is very good at writing code. It's hard to see the industry going back to writing code by hand. AI can do the other fiddly stuff too. You no longer need a computer science degree to convert product requirements into an app or website. but we still need that knowledge to build the infrastructure that holds it all together. 
+AI is very good at writing code. It's hard to see the industry going back to writing code by hand. <!--AI can do the other fiddly stuff too.--> You no longer need a computer science degree to convert product requirements into an app or website. but we still need that knowledge to build the infrastructure that holds it all together. 
 
 <!--
 software engineer -> ai as a software *engine*
@@ -119,13 +121,25 @@ junior-to-senior pipeline for low-level work
 
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
-## AI is Bigger Than Software Engineering
+## Other Industries will be Disrupted Too
 
 <!--
-## Other Industries will be Disrupted Too
+## AI is bigger than coding
 -->
 
+Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
+
+- Turning some bullet points into a presentable document
+- Parsing project timelines from half a dozen different docs into a flowchart
+- Finding a "good enough" answer to a vague question
+- Cleaning up an outdated wiki page
+- Taking a bunch of old data and converting it to a more convenient format
+
+Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
+
+<!--
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
+-->
 
 Fiddly computer tasks exist in other industries too. Teachers and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
@@ -166,8 +180,6 @@ The other two-thirds of the industry is focused more on product behavior. This i
 This puts computer science educators in a tricky position. On one hand, we can stick to the fundamentals and accept the likely enrollment drop. Computers are fundamental to modern society. Someone should probably know how they work! On the other hand, we can try to make the major more relevant by focusing on using AI to build things. Less emphasis on the machine itself. More emphasis on project management, responsible data handling, and agent orchestration. Time will tell which approach works out better. 
 -->
 
-> TODO? short section here: "Education Follows the Job Market"
-
 <!--
 ## Education Follows the Job Market
 
@@ -194,9 +206,9 @@ If AI becomes a major part of the economy, there will be immense pressure for co
 ## Sometimes the Busywork Was the Point
 -->
 
-AI tooling in software engineering has taken over the busywork. The disruption is painful, but ultimately it makes work more efficient. We can produce the same result with less human effort. 
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. The transition has made a big mess, but ultimately the change is good for efficiency. We can produce the same result with less human effort. 
 
-But sometimes the result isn't the point. I do not care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
+But sometimes the result isn't the point. As a professor, I do not care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
 
 A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
 
@@ -213,8 +225,8 @@ Some students intuitively know how to use AI in a positive way. Maybe more will 
 - Honesty. AI is excellent at correctly answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
 - Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
 - In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-- Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it.
-- Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. 
+<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
+<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
 - Curriculum updates. Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and the open-ended final project. 
 
 [^remote]: Remote learning seems extremely fucked
