@@ -22,8 +22,6 @@ I don't know the future, of course, but I've got a pretty good view of the prese
 
 [zuck_ai]: https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/
 
-> TODO? To be clear: this is descriptive, not prescriptive. If you want to talk about AI ethics, check the footnotes...
-
 ## Demand for Coding Skills Was Dropping Before AI
 
 Over the course of the 2010s, [software ate the world][software_ate_the_world]. Tech companies hired aggressively as they expanded into brick-and-mortar markets. For example:
