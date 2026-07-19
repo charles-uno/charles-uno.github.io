@@ -53,11 +53,13 @@ There were only so many software engineers to go around. Companies competed for 
 
 College students took notice. They learned to code. From 2010 to 2024, the number of students graduating with a computer science major [increased five-fold][fivefold_increase]. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
 
+Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of tech debt. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
+
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
 [2024_swe_count]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 
-But as the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping] closer to the other sciences. The pendulum was swinging away from computer science majors even before AI got good. 
+As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping] closer to the other sciences. The pendulum was swinging away from computer science majors even before AI got good. 
 
 [swe_jobs_dropping_post_covid]: https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE
 [swe_drop_by_seniority]: https://www.finalroundai.com/blog/entry-level-jobs-disappearing-fast-because-of-ai
@@ -84,12 +86,12 @@ It's not just coding either. AI is increasingly good at the fiddly manual tasks 
 Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
 -->
 
-Fresh computer science grads are in a rough spot. Entry-level software engineering jobs are [few and far between][entry_level_collapse] because, frankly, that niche mostly belongs to AI now. That said, some parts of the industry are holding up better than others:
+Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills.Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
 
-- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. Computer science expertise matters a lot here. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
-- The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad who understands what's happening under the hood. 
+- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
+- The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad, since the job just doesn't require knowledge of what's happening under the hood. 
 
-AI is very good at writing code. It's hard to see the industry going back to writing code by hand. <!--AI can do the other fiddly stuff too.--> You no longer need a computer science degree to convert product requirements into an app or website. but we still need that knowledge to build the infrastructure that holds it all together. 
+AI is very good at writing code. It's hard to see the industry going back to writing code by hand. <!--AI can do the other fiddly stuff too.--> You no longer need a computer science degree to convert product requirements into an app or website. but we still need infrastructure (both human and technical) to hold it all together. 
 
 <!--
 software engineer -> ai as a software *engine*
