@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Teaching Computer Science in the AI Era"
+title: "Computer Science, Software Engineering, and Generative AI"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
 description: "'Computer' used to be a job title. Now it's the name of a machine."
 tags: stem
@@ -64,7 +64,7 @@ But as the pandemic wound down, so did the hiring frenzy. Software was already i
 [2026_tech_layoffs]: https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years
 [swe_salary_dropping]: https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark/
 
-## AI Has Already Redefined Software Engineering
+## AI Has Redefined Software Engineering
 
 Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, the bulk of the implementation is passed to junior engineers. 
 
@@ -199,7 +199,7 @@ If AI becomes a major part of the economy, there will be immense pressure for co
 
 -->
 
-## Sometimes Busywork is the Point
+## We've Lost Busywork as a Teaching Tool
 
 <!--
 ## Abstinence-Only Education Doesn't Work
