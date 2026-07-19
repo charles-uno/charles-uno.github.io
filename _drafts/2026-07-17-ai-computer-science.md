@@ -82,21 +82,48 @@ It's not just coding either. AI is increasingly good at the fiddly manual tasks 
 
 Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
 
+Fresh computer science grads are in a rough spot. Entry-level software engineering jobs are [few and far between][entry_level_collapse] because, frankly, that niche mostly belongs to AI now. That said, some parts of the industry are holding up better than others:
+
+- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. Computer science expertise matters a lot here. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
+- The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad who understands what's happening under the hood. 
+
+AI is very good at writing code. It's hard to see the industry going back to writing code by hand. AI can do the other fiddly stuff too. You no longer need a computer science degree to convert product requirements into an app or website. but we still need that knowledge to build the infrastructure that holds it all together. 
+
 <!--
-Entry-level software engineering jobs are vanishing because, frankly, AI ate their lunch
+software engineer -> ai as a software *engine*
+-->
+
+[^infra]: cloud infrastructure, [devops][devops], security, observability, compilers, kernels, devices, machine learning. also probably a bunch of [distributed][distributed_system] [middleware][middleware]
+
+[devops]: https://en.wikipedia.org/wiki/DevOps
+[distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
+[infra_demand]: https://underdog.io/blog/tech-hiring-trends
+[middleware]: https://en.wikipedia.org/wiki/Middleware
+[swe_breakdown]: https://survey.stackoverflow.co/2025
+
+
+
+<!--
+Entry-level software engineering jobs are vanishing because, frankly, that niche belongs to AI now. we do not need humans to type our boilerplate anymore
+
 niche is smaller and shaped differently?
 
 - a third are low-level. still need CS expertise
 - two thirds are focused on the product. minimal dependence on CS fundamentals
 
 junior-to-senior pipeline for low-level work
--->
 
 [Nobody is hiring][entry_level_collapse] junior software engineers because, frankly, they're not very useful right now. AI tools have taken their niche, and we haven't figured out a new niche for them yet. Fresh computer science grads are in a rough spot. I wish I could offer answers here. Instead I just have a big question: when today's senior engineers want to retire, who will replace them?
+-->
+
 
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
 ## AI is Bigger Than Software Engineering
+
+<!--
+## Other Industries will be Disrupted Too
+-->
 
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 
@@ -115,6 +142,8 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
+
+<!--
 ## Fewer Jobs Need Computer Science Expertise
 
 In the early days of computing, people wrote programs in Assembly. The language is tedious, error-prone, and requires intimate knowledge of the hardware you're using. Then came C, which adds a layer of abstraction on top of the machine details, making it easier to focus on the logic of the program. The compiler turns C code into Assembly under the hood. Later, Python was built on top of C. Python syntax is much easier to read, and the language has built-in libraries for everything from [retro games][python_retro_games] to [robotics][circuitpython]. 
@@ -127,18 +156,15 @@ Every step along the way, it has become cheaper and easier to outsource work to 
 [shazam]: https://en.wikipedia.org/wiki/Shazam_(music_app)
 [grace_hopper]: https://en.wikipedia.org/wiki/Grace_Hopper
 
-<!-- Tetris, Shazam, Furby, Napster, Facebook -->
-
 I think AI will continue to broaden software engineering. I also think we'll see some turbulence along the way. Most software engineering roles today are held by people with a background in computer science. This won't necessarily be the case going forward. 
 
 Roles focused on low-level systems will be disrupted the least. This includes anyone working on compilers, operating systems, devices, databases, site reliability, machine learning, and so on. A lot of [middleware][middleware] probably falls into this category too. Computer science fundamentals are deeply relevant to this part of the industry. They need to understand the ugly, tedious, and confusing parts of the machine because their whole job is to engage with those parts and hide them from everyone else. Based on a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
 
-[middleware]: https://en.wikipedia.org/wiki/Middleware
-[swe_breakdown]: https://survey.stackoverflow.co/2025
 
 The other two-thirds of the industry is focused more on product behavior. This is pretty much anyone working on anything the user sees. I think these roles are at risk of being shaken up. Product engineers, by design, are insulated from the nitty-gritty details of the machine. As AI gets better and better at producing code, it becomes less and less important for product engineers to have a computer science degree at all. Instead of software engineers writing code for nurses and lawyers and architects, we may soon see those professions leveraging their own expertise to write it for themselves using AI as a software *engine*. 
 
 This puts computer science educators in a tricky position. On one hand, we can stick to the fundamentals and accept the likely enrollment drop. Computers are fundamental to modern society. Someone should probably know how they work! On the other hand, we can try to make the major more relevant by focusing on using AI to build things. Less emphasis on the machine itself. More emphasis on project management, responsible data handling, and agent orchestration. Time will tell which approach works out better. 
+-->
 
 > TODO? short section here: "Education Follows the Job Market"
 
@@ -161,9 +187,16 @@ If AI becomes a major part of the economy, there will be immense pressure for co
 
 -->
 
-## Abstinence-Only Education Doesn't Work
+## Sometimes Busywork is the Point
 
-I do not care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
+<!--
+## Abstinence-Only Education Doesn't Work
+## Sometimes the Busywork Was the Point
+-->
+
+AI tooling in software engineering has taken over the busywork. The disruption is painful, but ultimately it makes work more efficient. We can produce the same result with less human effort. 
+
+But sometimes the result isn't the point. I do not care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
 
 A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
 
