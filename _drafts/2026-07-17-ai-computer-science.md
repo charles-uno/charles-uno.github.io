@@ -73,18 +73,6 @@ That's how things used to be at least. These days, we delegate the mechanical wo
 
 [^slopware]: You can find a list of AI-contaminated software [here](https://codeberg.org/ethical-foss/open-slopware). It includes pretty much everything you've ever heard of. 
 
-<!--
-It's not just coding either. AI is increasingly good at the fiddly manual tasks that pop up during the day. For example:
-
-- Turning some bullet points into a presentable document
-- Parsing project timelines from half a dozen different docs into a flowchart
-- Finding a "good enough" answer to a vague question
-- Cleaning up an outdated wiki page
-- Taking a bunch of old data and converting it to a more convenient format
-
-Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
--->
-
 Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills. Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
 
 - Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers, largely concentrated in large companies and specialized industries. 
@@ -156,7 +144,7 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 -->
 
-Fiddly computer tasks exist in other industries too. Teachers and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
