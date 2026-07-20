@@ -93,7 +93,7 @@ Fresh computer science grads are in a rough spot. Many of them studied computer 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-Generative AI has taken over the niche previously filled by junior engineers. Many senior engineers spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that need their skills. And a lot of software is being produced by people who are not software engineers at all; their expertise is in the product rather than the tool. 
+Generative AI has taken over the niche previously filled by junior engineers. Senior engineers may spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that want their skills. And a lot of software is being produced by people who don't have a computer science background at all; their expertise is in the product rather than the tool. 
 
 [^infra]: cloud infrastructure, [devops][devops], security, observability, compilers, kernels, devices, machine learning. also probably a bunch of [distributed][distributed_system] [middleware][middleware]
 
@@ -109,9 +109,9 @@ Generative AI has taken over the niche previously filled by junior engineers. Ma
 <!--
 Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 -->
-Generative AI is very good at turning words into code. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
+Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 
-A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
+A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but that their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The study also notes that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
@@ -130,17 +130,11 @@ This aligns closely with my experience using AI for curriculum development. It's
 - Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
 - Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
 - In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
-<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
 - Curriculum updates. Coding skills are probably still valuable as scaffolding, but it seems hard to justify a course focused primarily on them. We should ensure that mechanical work always feeds into a bigger-picture skill like communication, judgment, or system thinking. 
-
-<!--
-Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and an open-ended final project. 
--->
 
 [^remote]: Remote learning seems extremely fucked
 
-Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
+Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
 
 ## AI Does More than Code
 
