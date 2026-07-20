@@ -89,7 +89,12 @@ Fresh computer science grads are in a rough spot. Many of them studied computer 
 - Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
 - The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad, since the job just doesn't require knowledge of what's happening under the hood. 
 
-AI is very good at writing code. It's hard to see the industry going back to writing code by hand. <!--AI can do the other fiddly stuff too.--> You no longer need a computer science degree to convert product requirements into an app or website. but we still need infrastructure (both human and technical) to hold it all together. 
+The other two-thirds of software engineer roles are focused on product behavior. This part of the industry has been hit hard. Now that AI can handle the coding, a lot of these roles no longer require computer science expertise. For example, instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, a company might prefer to hire a teacher ([$70k/year][teacher_salary]) who knows how to use AI as a software *engine*. 
+
+[swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
+[teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
+
+AI is very good at writing code. It's hard to see the industry going back to writing code by hand. You no longer need a computer science degree to convert product requirements into an app or website. going forward, computer science expertise is most important to large companies and specialized industries. 
 
 <!--
 software engineer -> ai as a software *engine*
@@ -132,7 +137,7 @@ This aligns closely with my experience using AI for curriculum development. It's
 - In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
 <!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
 <!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
-- Curriculum updates. Coding skills are probably still valuable as scaffolding, but it seems hard to justify a course focused primarily on coding. We should ensure that mechanical work always feeds into a bigger-picture skill like communication, judgment, or system thinking. 
+- Curriculum updates. Coding skills are probably still valuable as scaffolding, but it seems hard to justify a course focused primarily on them. We should ensure that mechanical work always feeds into a bigger-picture skill like communication, judgment, or system thinking. 
 
 <!--
 Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and an open-ended final project. 
