@@ -120,10 +120,37 @@ junior-to-senior pipeline for low-level work
 
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
+## We've Lost Coding Exercises as a Teaching Tool
+
+Generative AI is very good at turning words into code. In a professional setting, this is a good thing. Software engineers can produce the same result with less effort. In an educational setting, it's a disaster. When I ask my students to do coding exercises, I don't actually care about the code they produce. The exercise is just a way to force them to sit down and engage with the material. That whole way of teaching is out the window. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
+
+A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
+
+[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
+
+This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
+
+- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
+- "My chapter on CPU architecture is feeling a bit light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
+- "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
+
+Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. I think it also makes sense for us, as educators, to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
+
+- Honesty. AI is excellent at correctly answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
+- Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
+- In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
+<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
+<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
+- Curriculum updates. Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and the open-ended final project. 
+
+[^remote]: Remote learning seems extremely fucked
+
+Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
+
 ## Other Industries will be Disrupted Too
 
 <!--
-## AI is bigger than coding
+## AI does more than code
 -->
 
 Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
@@ -154,98 +181,6 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
-
-
-<!--
-## Fewer Jobs Need Computer Science Expertise
-
-In the early days of computing, people wrote programs in Assembly. The language is tedious, error-prone, and requires intimate knowledge of the hardware you're using. Then came C, which adds a layer of abstraction on top of the machine details, making it easier to focus on the logic of the program. The compiler turns C code into Assembly under the hood. Later, Python was built on top of C. Python syntax is much easier to read, and the language has built-in libraries for everything from [retro games][python_retro_games] to [robotics][circuitpython]. 
-
-[python_retro_games]: https://github.com/kitao/pyxel
-[circuitpython]: https://circuitpython.org/
-
-Every step along the way, it has become cheaper and easier to outsource work to the machine. As a result we've seen ever-more-abundant software, created by people with ever-more-diverse backgrounds, addressing ever-more-specific problems. Fifty years ago, [Shazam][shazam] would have been unfathomable to [Grace Hopper][grace_hopper]. These days, a hobbyist could write it in an afternoon. 
-
-[shazam]: https://en.wikipedia.org/wiki/Shazam_(music_app)
-[grace_hopper]: https://en.wikipedia.org/wiki/Grace_Hopper
-
-I think AI will continue to broaden software engineering. I also think we'll see some turbulence along the way. Most software engineering roles today are held by people with a background in computer science. This won't necessarily be the case going forward. 
-
-Roles focused on low-level systems will be disrupted the least. This includes anyone working on compilers, operating systems, devices, databases, site reliability, machine learning, and so on. A lot of [middleware][middleware] probably falls into this category too. Computer science fundamentals are deeply relevant to this part of the industry. They need to understand the ugly, tedious, and confusing parts of the machine because their whole job is to engage with those parts and hide them from everyone else. Based on a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
-
-
-The other two-thirds of the industry is focused more on product behavior. This is pretty much anyone working on anything the user sees. I think these roles are at risk of being shaken up. Product engineers, by design, are insulated from the nitty-gritty details of the machine. As AI gets better and better at producing code, it becomes less and less important for product engineers to have a computer science degree at all. Instead of software engineers writing code for nurses and lawyers and architects, we may soon see those professions leveraging their own expertise to write it for themselves using AI as a software *engine*. 
-
-This puts computer science educators in a tricky position. On one hand, we can stick to the fundamentals and accept the likely enrollment drop. Computers are fundamental to modern society. Someone should probably know how they work! On the other hand, we can try to make the major more relevant by focusing on using AI to build things. Less emphasis on the machine itself. More emphasis on project management, responsible data handling, and agent orchestration. Time will tell which approach works out better. 
--->
-
-<!--
-## Education Follows the Job Market
-
-[Fewer than 10%][1960_college] of Americans had a college degree in 1960. College was a place for wealthy men to network, party, and [launder priviledge into credentials][launder_priviledge]. [Grades][grades_didnt_matter] didn't particularly matter. There was little emphasis on [specific majors][no_pipelines] leading to specific careers. 
-
-These days, [almost half of Americans][college_stats] go to college. It's a big investment. It's career prep. Colleges brag about their job placement rates to attract students. Software engineering job postings require applicants to have specific majors. 
-
-If AI becomes a major part of the economy, there will be immense pressure for colleges to fall in line. 
-
-[college_stats]: https://www.bestcolleges.com/research/college-enrollment-statistics/
-
-[no_pipelines]: https://www.norc.org/content/dam/norc-org/pdfs/NORCRpt_82.pdf
-
-[grades_didnt_matter]: https://www.academia.edu/17179255/_The_1960s_and_the_Transformation_of_Campus_Cultures_History_of_Education_Quarterly_Spring_1986
-
-[1960_college]: https://www.statista.com/statistics/184260/educational-attainment-in-the-us/?srsltid=AfmBOoqWN1ZxoKOL3XMbXlT8FyTx5J6LhpmQyK9WxoJ6iYzfB6YXiJ9j
-
--->
-
-## We've Lost Busywork as a Teaching Tool
-
-<!--
-## Abstinence-Only Education Doesn't Work
-## Sometimes the Busywork Was the Point
--->
-
-Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. The transition has made a big mess, but ultimately the change is good for efficiency. We can produce the same result with less human effort. 
-
-But sometimes the result isn't the point. As a professor, I don't care about the essays my students write or the diagrams they draw. I just want them to sit down and engage with the material. In the past, mechanical homework assignments were a way to force them to do so. It doesn't really work that way anymore. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
-
-A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
-
-[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
-
-This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
-
-- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
-- "My chapter on CPU architecture is feeling a bit light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
-- "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
-
-Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. I think it also makes sense for us, as educators, to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
-
-- Honesty. AI is excellent at correctly answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
-- Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
-- In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
-<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
-- Curriculum updates. Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and the open-ended final project. 
-
-[^remote]: Remote learning seems extremely fucked
-
-Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
-
-<!--
-## AI Needs Guardrails
-
-- water
-- electricity
-- data centers
-- finding vulnerabilities and backdoors
-- slop
-- political disinformation
-- sexually explicit deepfakes
-- artist jobs
-- once the knowledge is out there, it can't really be unmade
-- training data IP theft. tax would be appropriate
--->
 
 ## Wrapup
 
