@@ -66,7 +66,7 @@ As the pandemic wound down, so did the hiring frenzy. Software was already integ
 [2026_tech_layoffs]: https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years
 [swe_salary_dropping]: https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark/
 
-## AI Has Redefined Software Engineering
+## AI has Transformed Software Engineering
 
 Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, the bulk of the implementation is passed to junior engineers. 
 
@@ -120,37 +120,10 @@ junior-to-senior pipeline for low-level work
 
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
-## We've Lost Coding Exercises as a Teaching Tool
-
-Generative AI is very good at turning words into code. In a professional setting, this is a good thing. Software engineers can produce the same result with less effort. In an educational setting, it's a disaster. When I ask my students to do coding exercises, I don't actually care about the code they produce. The exercise is just a way to force them to sit down and engage with the material. That whole way of teaching is out the window. AI allows students to turn in flawless homework regardless of whether they've actually absorbed anything. 
-
-A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
-
-[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
-
-This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
-
-- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
-- "My chapter on CPU architecture is feeling a bit light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
-- "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
-
-Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. I think it also makes sense for us, as educators, to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
-
-- Honesty. AI is excellent at correctly answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
-- Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
-- In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
-<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
-- Curriculum updates. Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and the open-ended final project. 
-
-[^remote]: Remote learning seems extremely fucked
-
-Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
-
-## Other Industries will be Disrupted Too
+## AI Does More than Code
 
 <!--
-## AI does more than code
+## other industries will be disrupted too
 -->
 
 Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
@@ -181,6 +154,33 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
+
+## We've Lost Busywork as a Teaching Tool
+
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
+
+A [big study about this][china_ai_study] came out recently. The authors show that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The authors also note that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
+
+[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
+
+This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
+
+- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
+- "My chapter on CPU architecture is feeling a bit light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
+- "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
+
+Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. As educators, we also need to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
+
+- Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
+- Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
+- In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
+<!-- - Temptation mitigation. If homework is worth half your grade, there's a big incentive to use AI to ensure you get it "right". If it's just practice for what you might see on the test, the only incentive is to learn it. -->
+<!-- - Freedom to flex. I'm adding an open-ended final project to my course. I ask students to engage creatively with the material beyond what we cover in class. AI use is explicitly allowed, along with a challenge to build something appropriately ambitious. -->
+- Curriculum updates. Mechanical skills are probably still valuable as scaffolding, but it seems hard to justify a course that's entirely focused on them. It probably makes sense to move curriculum around to ensure that the mechanical work in every course always feeds into a human skill like curiosity, communication, judgment, or system thinking. I'm specifically planning to spend much less time on programming syntax. I'll be using that time to instead focus on privacy/security and an open-ended final project. 
+
+[^remote]: Remote learning seems extremely fucked
+
+Our students have access to AI whether we want them to or not. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
 
 ## Wrapup
 
