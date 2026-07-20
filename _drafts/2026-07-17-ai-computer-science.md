@@ -10,7 +10,7 @@ Computers are impossibly good at math. They crunch numbers a million times faste
 
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
 
-Recent advances in generative AI have thrown the software engineering industry for a loop. Coding via AI agent has gone from novelty to industry-standard within less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. A decent chunk of computer science curriculum is out the window, which has left students and educators are scrambling to figure out what the future looks like. 
+Recent advances in generative AI have thrown the software engineering industry for a loop. <!-- Coding via AI agent has gone from novelty to industry-standard within less than a year. -->Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. <!-- CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. -->A decent chunk of computer science curriculum is out the window, which has left students and educators are scrambling to figure out what the future looks like. 
 
 [vibecode]: https://en.wikipedia.org/wiki/Vibe_coding
 [block_layoffs]: https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
@@ -51,13 +51,14 @@ There were only so many software engineers to go around. Companies competed for 
 
 College students took notice. They learned to code. From 2010 to 2024, the number of students graduating with a computer science major [increased five-fold][fivefold_increase]. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
 
-Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of tech debt. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
+Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
 
+[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
 [2024_swe_count]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 
-As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping] closer to the other sciences. The pendulum was swinging away from computer science majors even before AI got good. 
+As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. The pendulum was swinging away from computer science majors even before AI got good. 
 
 [swe_jobs_dropping_post_covid]: https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE
 [swe_drop_by_seniority]: https://www.finalroundai.com/blog/entry-level-jobs-disappearing-fast-because-of-ai
@@ -86,19 +87,13 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 
 Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills. Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
 
-- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers. 
-- The other two-thirds of software engineers are focused on product behavior. These roles are getting hit hard. AI is very good at creating websites and apps. A vibecoder with expertise in the product may do this work better than a computer science grad, since the job just doesn't require knowledge of what's happening under the hood. 
-
-The other two-thirds of software engineer roles are focused on product behavior. This part of the industry has been hit hard. Now that AI can handle the coding, a lot of these roles no longer require computer science expertise. For example, instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, a company might prefer to hire a teacher ([$70k/year][teacher_salary]) who knows how to use AI as a software *engine*. 
+- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers, largely concentrated in large companies and specialized industries. 
+- The other two-thirds of software engineer roles are focused on product behavior. This part of the industry has been hit hard. Now that AI can handle the coding, a lot of these roles no longer require computer science expertise at all. For example, instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, a company might prefer to hire a teacher ([$70k/year][teacher_salary]) who knows how to use AI as a software *engine*. 
 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-AI is very good at writing code. It's hard to see the industry going back to writing code by hand. You no longer need a computer science degree to convert product requirements into an app or website. going forward, computer science expertise is most important to large companies and specialized industries. 
-
-<!--
-software engineer -> ai as a software *engine*
--->
+Generative AI has taken over the niche previously filled by junior engineers. Many senior engineers spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that need their skills. And a lot of software is being produced by people who are not software engineers at all; their expertise is in the product rather than the tool. 
 
 [^infra]: cloud infrastructure, [devops][devops], security, observability, compilers, kernels, devices, machine learning. also probably a bunch of [distributed][distributed_system] [middleware][middleware]
 
@@ -211,7 +206,6 @@ Amid the upheaval, I think there's room for optimism. Humans are the source of c
 [launder_priviledge]: https://www.insidehighered.com/opinion/views/2023/07/10/education-privilege-laundering-opinion
 [senior_skills]: https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html
 [telemetry]: https://en.wikipedia.org/wiki/Website_monitoring
-[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
 [bls_2024]: https://www.newyorkfed.org/research/college-labor-market#--:explore:outcomes-by-major
 [xkcd_manual_steps]: https://xkcd.com/2565/
 [s_type_e_type]: https://microservices.io/post/architecture/2023/08/06/lehmans-laws-of-software-evolution.html
