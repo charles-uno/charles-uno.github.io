@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computer Science, Software Engineering, and Generative AI"
+title: "On Computer Science, Software Engineering, and Generative AI"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
 description: "'Computer' used to be a job title. Now it's the name of a machine. Is 'programmer' next?"
 tags: stem
@@ -69,7 +69,7 @@ As the pandemic wound down, so did the hiring frenzy. Software was already integ
 
 Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, the bulk of the implementation is passed to junior engineers. 
 
-That's how things used to be at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much *much* faster than a human. Hobby projects may still be coded by hand, but at this point AI is the industry standard[^slopware] for line-by-line coding. 
+That's how things used to be at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much *much* faster than a human. Hobby projects may still be coded by hand, but at this point generative AI is the industry standard[^slopware] for line-by-line coding. 
 
 [^slopware]: You can find a list of AI-contaminated software [here](https://codeberg.org/ethical-foss/open-slopware). It includes pretty much everything you've ever heard of. 
 
@@ -83,7 +83,7 @@ Fresh computer science grads are in a rough spot. Many of them studied computer 
 
 Generative AI has taken over the niche previously filled by junior engineers. Senior engineers may spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that want their skills. And a lot of software is being produced by people who don't have a computer science background at all; their expertise is in the product rather than the tool. 
 
-[^infra]: cloud infrastructure, [devops][devops], security, observability, compilers, kernels, devices, machine learning. also probably a bunch of [distributed][distributed_system] [middleware][middleware]
+[^infra]: Infrastructure-focused software engineering roles include [DevOps][devops], security, compilers, kernels, devices, machine learning, and site reliability engineering. A lot of [middleware][middleware] on [distributed systems][distributed_systems] probably counts too. 
 
 [devops]: https://en.wikipedia.org/wiki/DevOps
 [distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
@@ -92,16 +92,14 @@ Generative AI has taken over the niche previously filled by junior engineers. Se
 [swe_breakdown]: https://survey.stackoverflow.co/2025
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
-## We've Lost Busywork as a Teaching Tool
+## We've Lost Coding Exercises as a Teaching Tool
 
 <!--
 Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 -->
-Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
+Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!--Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. -->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but that their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
-A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but that their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. The study also notes that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers.
-
-[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
+That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
 
 <!--
 This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
@@ -113,7 +111,9 @@ This aligns closely with my experience using AI for curriculum development. It's
 Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. As educators, we also need to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
 -->
 
-This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
+As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
+
+[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
 - Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
 - Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
@@ -144,7 +144,7 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 -->
 
-Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is undeniably better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
