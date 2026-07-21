@@ -9,6 +9,7 @@ baseurl: ''
 github: 'https://github.com/charles-uno'
 author:
     name: Charles Fyfe
+google_analytics: 'G-FQT93GWL1H'
 permalink: /:title/
 plugins:
   - jekyll-seo-tag
