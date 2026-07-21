@@ -7,26 +7,15 @@ description: About charles.uno, the personal website of Charles Fyfe
 
 Welcome!
 
-I'm Charles.
-I like figuring out how things work --- and how they could be tweaked to work a little bit better.
-My background is in [plasma physics](https://conservancy.umn.edu/handle/11299/181780), and I currently work as a software engineer at Instagram.
-
-This site is, in part, a portfolio.
-I use it to show off content I've created and projects I'm proud of.
-It's also, in part, a sandbox.
-Sometimes my web development skills are just good enough to make a mess out of it.
+I'm Charles. I like figuring out how things work, as well as how they could be tweaked to work a little bit better. My background is in [plasma physics](https://conservancy.umn.edu/handle/11299/181780). Now I work as a software engineer at Instagram. I also moonlight as a computer science professor at St Olaf College. 
 
 ![Charles at AGU, December 2015](/assets/images/wide/charles-agu-16x9.png)
 
-The site is powered by [Jekyll](https://jekyllrb.com/) via [GitHub Pages](https://pages.github.com/).
-Some images are mine, but if it looks nice it's probably from [Unsplash](https://unsplash.com/).
-Media glyphs are from [Font Awesome](http://fontawesome.io/).
+The site is powered by [Jekyll](https://jekyllrb.com/) via [GitHub Pages](https://pages.github.com/). Some images are mine, but if it looks nice it's probably from [Unsplash](https://unsplash.com/). <!-- Media glyphs are from [Font Awesome](http://fontawesome.io/). -->
 
 ## Privacy Policy
 
-I use [Google Analytics][google_analytics] as well as [Google Fonts][google_fonts].
-That means Google knows you're here.
-They measure information including:
+I use [Google Analytics][google_analytics] as well as [Google Fonts][google_fonts]. That means Google knows you're here. They measure information including:
 
 - Where you came from (web search, social media, etc)
 - How long you stay on each page
