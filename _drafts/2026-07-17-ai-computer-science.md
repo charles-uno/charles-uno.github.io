@@ -6,6 +6,50 @@ description: "'Computer' used to be a job title. Now it's the name of a machine.
 tags: stem
 ---
 
+
+
+<!--
+I work in big tech. Here's what computer science professors should know. 
+-->
+
+
+
+
+
+<!--
+
+## AI Coding is the Industry Standard
+
+## Computer Science Jobs are Critical but Few
+
+Speaking very generally, software engineering can be split into two buckets. About half of engineers fit into each:
+
+- Product engineers are focused on user-facing behavior. They make the app actually *do* the thing that users care about. 
+- Infrastructure engineers are focused on machine behavior. They build nice abstractions on top of the ugly, tedious, and confusing parts of the system. This makes it possible for product engineers to focus on the product. 
+
+Product roles are getting clobbered. Some jobs have vanished with the cooling market. Others have been replaced by AI. But more fundamentally, I think this part of the industry is blurring into vibecoding. AI is extremely good at writing boilerplate for websites and apps. A lot of product engineering roles just don't need coding skills anymore. And without the need for coding skills, there's not much reason to need computer science expertise at all. If you're building a teaching app, instead of a software engineer ($130k/year) you may want to hire a teacher ($70k/year) with relevant expertise who can use AI as a software *engine*. 
+
+As an analogy, look at graphic design. It's hard to justify hiring an expert when AI can produce a decent[^art] result for a fraction of the price. 
+
+[^art]: I'm not here to gatekeep. AI can probably be used to create art. But I'm not interested in going to a museum full of cookie-cutter AI-generated engagement bait. 
+
+Infra roles, on the other hand, are still in demand. There are lots of new data centers popping up. Lots of new vibecoded projects. Someone has to keep the lights on. System-level understanding. They deal with problems that are emergent from the complexity of the system, which is very different from syntax bugs. These roles actually care about computer science expertise more generally, not just coding skills. 
+
+
+
+
+## It's Not Just About Coding
+
+## Abstinence-Only Education Doesn't Work
+
+
+-->
+
+
+
+
+
+
 Computers are impossibly good at math. They crunch numbers a million times faster, cheaper, and more accurately than any human. This creates a sizable incentive to turn all sorts of problems into math problems. As soon as you've turned something into a math problem, you can outsource it to a computer, which will solve it quickly and reliably.
 
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
@@ -58,7 +102,9 @@ Computer science and software engineering aren't even the same thing! Computer s
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
 [2024_swe_count]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 
-As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. The pendulum was swinging away from computer science majors even before AI got good. 
+As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. 
+
+Today's computer science grads are in a rough spot. They chose their major when demand for coding skills was at its peak. While they studied, the market cooled. The emergence of AI coding tools adds insult to injury. 
 
 [swe_jobs_dropping_post_covid]: https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE
 [swe_drop_by_seniority]: https://www.finalroundai.com/blog/entry-level-jobs-disappearing-fast-because-of-ai
