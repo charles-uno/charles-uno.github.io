@@ -47,7 +47,7 @@ Recent advances in generative AI have thrown the software engineering industry f
 [vibecode]: https://en.wikipedia.org/wiki/Vibe_coding
 [block_layoffs]: https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
 
-I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in tech. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's what my academic colleagues should know. 
+I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in industry. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's what my academic colleagues might not know.
 
 [zuck_ai]: https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/
 
@@ -119,12 +119,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time, for a
 <!--
 Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills. Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
 
-- Infrastructure-focused[^infra] roles are [still in demand][infra_demand]. These engineers engage with the ugly, tedious, and confusing parts of the machine because their whole job is to hide those details from everyone else. These jobs want computer science majors for their computer science knowledge overall, not just the coding skills. According to a [recent industry survey][swe_breakdown], this accounts for about a third of software engineers, concentrated in large companies and specialized industries. 
-- The other two-thirds of software engineer roles are focused on product behavior. This part of the industry has been hit hard. Now that AI can handle the coding, a lot of these roles no longer require computer science expertise at all. For example, instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, a company might prefer to hire a teacher ([$70k/year][teacher_salary]) who knows how to use AI as a software *engine*. 
-
 Generative AI has taken over the niche previously filled by junior engineers. Senior engineers may spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that want their skills. And a lot of software is being produced by people who don't have a computer science background at all; their expertise is in the product rather than the tool. 
-
-[^infra]: Infrastructure-focused software engineering roles include [DevOps][devops], security, compilers, kernels, devices, machine learning, and site reliability engineering. A lot of [middleware][middleware] on [distributed systems][distributed_systems] probably counts too. 
 
 Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
 -->
@@ -146,14 +141,14 @@ Demand for infrastructure engineers is [holding up][infra_demand] despite (or ev
 [infra_demand]: https://underdog.io/blog/tech-hiring-trends
 [more_apps]: https://9to5mac.com/2026/07/20/report-app-store-added-nearly-as-many-new-apps-in-h1-2026-as-in-all-of-2025/
 
-The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads because they needed the coding skills. Now that AI does most of the coding, a computer science degree may not be worth[^graphic_design] the price. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and knows how to use AI as a software *engine*. 
+The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads because they needed the coding skills. Now that AI does most of the coding, a computer science degree may not be worth the price[^graphic_design]. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and can use AI as a software *engine*. 
 
 [^graphic_design]: Tough to justify hiring a professional when AI can do a passable job for a fraction of the price. Sometimes passable is all you need.
 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites are built by people who may not even consider themselves software engineers at all. Infrastructure jobs are still there and are hungry for talent, though graduates from coding-focused programs may have a tough time gaining traction.
+Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills, and who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go deeper than coding.
 
 <!--
 computer science programs might keep focus on the fundamentals. important but niche.
