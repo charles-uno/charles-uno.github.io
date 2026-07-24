@@ -130,7 +130,7 @@ Software engineers can be broadly divided into two buckets: infrastructure and p
 
 [swe_breakdown]: https://survey.stackoverflow.co/2025
 
-Infrastructure jobs include site reliability engineering, [DevOps][devops], machine learning, databases, compilers, devices, kernels, and [distributed][distributed_system] [middleware][middleware]. Each of these areas requires knowledge of computer science overall, not just coding skills. Problems are often emergent from the scale and complexity of the system. In order to solve them, an engineer has to understand many puzzle pieces and how they fit together.
+Infrastructure jobs include site reliability engineering, [DevOps][devops], machine learning, databases, compilers, devices, kernels, and [distributed][distributed_system] [middleware][middleware]. Each of those areas requires knowledge far beyond coding skills. Problems are often emergent from the scale and complexity of the system. In order to solve them, an engineer has to understand many puzzle pieces and how they fit together.
 
 [devops]: https://en.wikipedia.org/wiki/DevOps
 [distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
@@ -148,15 +148,17 @@ The product side is a different story. Product engineers are insulated from the 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills, and who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go deeper than coding.
+Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills, and who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go much deeper than coding.
 
 <!--
+In the past, computer science curriculum covered a combination of product skills and infrastructure skills. Coding was the glue that held the two together. Programs may need to pivot one way or the other. Infrastructure engineering jobs are critical and well-paid, but there are only so many of them. There are lots of jobs out there using AI to make product code, though those jobs probably won't pay at historical software engineering levels.
+
 computer science programs might keep focus on the fundamentals. important but niche.
 they might pivot into "how to build cool stuff with AI". gives them a shot at holding onto a bigger student base.
 time will tell which works out
 -->
 
-## AI is Bigger Than Coding
+## AI Does More Than Write Code
 
 Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
 
@@ -190,7 +192,30 @@ Other industries will catch up. AI-friendly integration points will be added to 
 ## We've Lost Coding Exercises as a Teaching Tool
 
 <!--
-Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
+## We can do Better than Abstinence-Only Education
+-->
+
+
+<!--
+AI allows us to produce the same results with less effort
+arguably good in a professional setting
+bad for education. results aren't the point. we want time spent
+study showed students outsourcing learning to AI
+
+we can adjust somewhat to mitigate the risk of cheating.
+in-person assessment
+early testing as a wake-up call
+
+also worth calling out that the above study showed some students defying the average
+AI as a learning tool rather than an answer machine
+I think that's worth learning
+
+
+-->
+
+
+<!--
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is (at least arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 -->
 
 Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!-- That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned.-->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
@@ -229,7 +254,7 @@ AI is a cheating risk. we can do better than just mitigating that risk. we can h
 
 Generative AI has significantly decreased the cost of outsourcing work to the computer. It can write programming code better, faster, and cheaper than a college graduate. It's also good with spreadsheets, flowcharts, calendars, and emails. 
 
-Junior software engineers can't find jobs because AI took their niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" enough to disrupt other white-collar professions as well. 
+There are fewer jobs for junior software engineers because AI took their former niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" enough to disrupt other white-collar professions as well. 
 
 Amid the upheaval, I think there's room for optimism. Humans are the source of creativity, curiosity, and judgment. That's ultimately the important thing. AI just does the mechanical follow-through.
 
