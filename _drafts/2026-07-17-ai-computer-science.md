@@ -1,14 +1,10 @@
 ---
 layout: post
-title: "On Computer Science, Software Engineering, and Generative AI"
+title: "Computer Science Education in the AI Era"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
-description: "'Computer' used to be a job title. Now it's the name of a machine. Is 'programmer' next?"
+description: "I work in big tech. Here's what computer science professors should know."
 tags: stem
 ---
-
-<!--
-I work in big tech. Here's what computer science professors should know. 
--->
 
 <!--
 ## Demand for Coding Skills was Dropping Before AI
@@ -120,7 +116,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time, for a
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes we can quickly switch back to the previous logic. 
 
-Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
+> TODO: wrap this up
 
 <!--
 Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills. Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
@@ -131,6 +127,8 @@ Fresh computer science grads are in a rough spot. Many of them studied computer 
 Generative AI has taken over the niche previously filled by junior engineers. Senior engineers may spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that want their skills. And a lot of software is being produced by people who don't have a computer science background at all; their expertise is in the product rather than the tool. 
 
 [^infra]: Infrastructure-focused software engineering roles include [DevOps][devops], security, compilers, kernels, devices, machine learning, and site reliability engineering. A lot of [middleware][middleware] on [distributed systems][distributed_systems] probably counts too. 
+
+Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
 -->
 
 [devops]: https://en.wikipedia.org/wiki/DevOps
@@ -158,6 +156,12 @@ The product side is a different story. Product engineers are insulated from the 
 [^graphic_design]: tough to justify hiring a professional when AI can do a passable job for a fraction of the price. sometimes passable is all you need.
 
 Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites are built by people who may not even consider themselves software engineers at all. Infrastructure jobs are still there, and are hungry for talent, though graduates from coding-focused programs may have a tough time gaining traction.
+
+<!--
+computer science programs might keep focus on the fundamentals. important but niche.
+they might pivot into "how to build cool stuff with AI". gives them a shot at holding onto a bigger student base.
+time will tell which works out
+-->
 
 ## AI is Bigger then Coding
 
@@ -190,13 +194,12 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
-
-
 ## We've Lost Coding Exercises as a Teaching Tool
 
 <!--
 Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 -->
+
 Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!-- That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned.-->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but that their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
 That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. <!-- It can find answers even when I'm not sure exactly what I'm looking for. -->Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
@@ -223,6 +226,11 @@ As educators, we have both carrots and sticks at our disposal to help students l
 [^remote]: Remote learning seems extremely fucked
 
 Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
+
+
+<!--
+AI is a cheating risk. we can do better than just mitigating that risk. we can helpstudents use AI as a learning tool rather than an answer machine. a way to increase their own impact, rather than a substitute for it
+-->
 
 ## Wrapup
 
