@@ -33,8 +33,6 @@ even if the prices go up in the short term, generative AI (or something else lik
 costs would have to go up BY A LOT to get software engineers to stop using it
 -->
 
-
-
 <!--
 Computers are impossibly good at math. They crunch numbers a million times faster, cheaper, and more accurately than any human. This creates a sizable incentive to turn all sorts of problems into math problems. As soon as you've turned something into a math problem, you can outsource it to a computer, which will solve it quickly and reliably.
 
@@ -42,7 +40,7 @@ That's what software engineers do. They take a problem, break it into computer-f
 -->
 
 
-When I graduated from St Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to about *sixty*. The tech industry grew fast throughout the 2010s and COVID. Students flocked to computer science to secure lucrative jobs in software engineering. 
+When I graduated from St Olaf College, there were about a dozen computer science majors per year. Fifteen years later I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
 
 Recent advances in generative AI have thrown the software engineering industry for a loop. AI-based coding has gone from novelty to industry-standard in less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. Computer science educators and students are scrambling to figure out what the future looks like. 
 
