@@ -39,14 +39,13 @@ Computers are impossibly good at math. They crunch numbers a million times faste
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
 -->
 
-
-When I graduated from St Olaf College, there were about a dozen computer science majors per year. Fifteen years later I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
+When I graduated from St Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
 
 Recent advances in generative AI have thrown the software engineering industry for a loop. AI-based coding has gone from novelty to industry-standard in less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. Computer science educators and students are scrambling to figure out what the future looks like. 
 
+[ai_faster_work]: https://metr.org/blog/2026-02-24-uplift-update/#other-means-of-measuring-productivity
 [vibecode]: https://en.wikipedia.org/wiki/Vibe_coding
 [block_layoffs]: https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
-[ai_faster_work]: https://metr.org/blog/2026-02-24-uplift-update/#other-means-of-measuring-productivity
 
 I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in tech. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's what my academic colleagues should know. 
 
@@ -67,11 +66,11 @@ Over the course of the 2010s, [software ate the world][software_ate_the_world]. 
 [uber_taxis]: https://www.businessinsider.com/bofa-chart-uber-lyft-killing-traditional-taxis-2016-10
 [spotify_cds]: https://www.theguardian.com/music/2016/apr/12/streaming-revenues-bring-big-boost-to-global-music-industry
 
-Then came the COVID pandemic. People were home all day glued to their smartphones. This was more money in tech company pockets, which further fueled the demand for software engineers:
+Then came the COVID pandemic. People were home all day glued to their smartphones. This meant more money in tech company pockets, which further fueled the demand for software engineers:
 
 - [Ad spending on social media][covid_online_ads] saw double-digit growth at the expense of print media
 - App-based food delivery [tripled][covid_food_delivery]
-- Video call apps saw usage increase [*thirty*-fold][covid_video_calls]. 
+- Video call apps saw usage increase [*thirty*-fold][covid_video_calls]
 
 [covid_online_ads]: https://www.weforum.org/stories/2020/06/coronavirus-advertising-marketing-covid19-pandemic-business/
 [covid_food_delivery]: https://www.ers.usda.gov/publications/106521
@@ -83,27 +82,28 @@ There were only so many software engineers to go around. Companies competed for 
 
 College students took notice. They learned to code. From 2010 to 2024, the number of students graduating with a computer science major [increased five-fold][fivefold_increase]. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
 
-Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
-
-[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
 [2024_swe_count]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 
-As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. 
+Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
 
-Today's computer science grads are in a rough spot. They chose their major when demand for coding skills was at its peak. While they studied, the market cooled. The emergence of AI coding tools adds insult to injury. 
+[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
+
+As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. 
 
 [swe_jobs_dropping_post_covid]: https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE
 [swe_drop_by_seniority]: https://www.finalroundai.com/blog/entry-level-jobs-disappearing-fast-because-of-ai
 [2026_tech_layoffs]: https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years
 [swe_salary_dropping]: https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark/
 
+Today's computer science grads are in a rough spot. They chose their major when demand for coding skills was at its peak. While they studied, the market cooled. The emergence of AI coding tools adds insult to injury.
+
 ## AI-Based Coding is the Industry Standard
 
-Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, we pass the bulk of the implementation over to junior engineers. 
+Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while, we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, we pass the bulk of the implementation over to junior engineers. 
 
-That's how things used to be at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much *much* faster than a human. Hobby projects may still be coded by hand, but coding by hand is dead at the corporate[^slopware] level.
+That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much, *much* faster than a human. Hobby projects may still be coded by hand, but coding by hand is dead at the corporate[^slopware] level.
 
 [^slopware]: You can find a list of AI-contaminated software [here](https://codeberg.org/ethical-foss/open-slopware). It includes pretty much everything you've ever heard of. 
 
@@ -112,7 +112,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time, for a
 - Static analysis and automated tests. We have tools to check code for style, self-consistency, and compatibility with existing behavior. An engineer or agent can look at the failures and iterate before submitting code changes for review. 
 - Code review. Code changes are vetted, generally by senior engineers, before the change goes live. Code may be sent back to the author if it needs work. 
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
-- Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes we can quickly switch back to the previous logic. 
+- Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
 > TODO: wrap this up
 
@@ -129,31 +129,31 @@ Generative AI has taken over the niche previously filled by junior engineers. Se
 Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
 -->
 
-[devops]: https://en.wikipedia.org/wiki/DevOps
-[distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
-[infra_demand]: https://underdog.io/blog/tech-hiring-trends
-[middleware]: https://en.wikipedia.org/wiki/Middleware
-[swe_breakdown]: https://survey.stackoverflow.co/2025
-[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
-
 ## Fewer Jobs Need Computer Science Expertise
 
 Software engineers can be broadly divided into two buckets: infrastructure and product. It's roughly a [fifty-fifty][swe_breakdown] split. Infrastructure engineers build nice abstractions to hide the nitty-gritty details of the machine. Product engineers use those abstractions to create the apps and websites that actually *do* the stuff that users care about. 
 
+[swe_breakdown]: https://survey.stackoverflow.co/2025
+
 Infrastructure jobs include site reliability engineering, [DevOps][devops], machine learning, databases, compilers, devices, kernels, and [distributed][distributed_system] [middleware][middleware]. Each of these areas requires knowledge of computer science overall, not just coding skills. Problems are often emergent from the scale and complexity of the system. In order to solve them, an engineer has to understand many puzzle pieces and how they fit together.
+
+[devops]: https://en.wikipedia.org/wiki/DevOps
+[distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
+[middleware]: https://en.wikipedia.org/wiki/Middleware
 
 Demand for infrastructure engineers is [holding up][infra_demand] despite (or even because of) AI coding tools. We're seeing [more apps][more_apps] and data centers every day. Infrastructure engineers are the ones who keep the lights on. 
 
+[infra_demand]: https://underdog.io/blog/tech-hiring-trends
 [more_apps]: https://9to5mac.com/2026/07/20/report-app-store-added-nearly-as-many-new-apps-in-h1-2026-as-in-all-of-2025/
 
 The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads because they needed the coding skills. Now that AI does most of the coding, a computer science degree may not be worth[^graphic_design] the price. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and knows how to use AI as a software *engine*. 
 
+[^graphic_design]: Tough to justify hiring a professional when AI can do a passable job for a fraction of the price. Sometimes passable is all you need.
+
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-[^graphic_design]: tough to justify hiring a professional when AI can do a passable job for a fraction of the price. sometimes passable is all you need.
-
-Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites are built by people who may not even consider themselves software engineers at all. Infrastructure jobs are still there, and are hungry for talent, though graduates from coding-focused programs may have a tough time gaining traction.
+Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites are built by people who may not even consider themselves software engineers at all. Infrastructure jobs are still there and are hungry for talent, though graduates from coding-focused programs may have a tough time gaining traction.
 
 <!--
 computer science programs might keep focus on the fundamentals. important but niche.
@@ -161,7 +161,7 @@ they might pivot into "how to build cool stuff with AI". gives them a shot at ho
 time will tell which works out
 -->
 
-## AI is Bigger then Coding
+## AI is Bigger Than Coding
 
 Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
 
@@ -177,7 +177,7 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 -->
 
-Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+Fiddly computer tasks exist in other industries, too. Architects, bankers, and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
@@ -186,7 +186,7 @@ Fiddly computer tasks exist in other industries too. Architects and bankers and 
 
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
 
-Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or for worse, it's just a matter of time before they get plugged in. 
+Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or worse, it's just a matter of time before they get plugged in. 
 
 [healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
@@ -198,7 +198,9 @@ Other industries will catch up. AI-friendly integration points will be added to 
 Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
 -->
 
-Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!-- That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned.-->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but that their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!-- That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned.-->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+
+[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
 That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. <!-- It can find answers even when I'm not sure exactly what I'm looking for. -->Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
 
@@ -214,31 +216,30 @@ Some students intuitively know how to use AI in a positive way. Maybe more will 
 
 As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
 
-[china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
-
 - Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
 - Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
 - In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
 - Curriculum updates. Coding skills are probably still valuable as scaffolding, but it seems hard to justify a course focused primarily on them. We should ensure that mechanical work always feeds into a bigger-picture skill like communication, judgment, or system thinking. 
 
-[^remote]: Remote learning seems extremely fucked
+[^remote]: Remote learning seems extremely fucked.
 
-Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
+Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise, many students will sabotage their own learning without even realizing it.
 
 
 <!--
 AI is a cheating risk. we can do better than just mitigating that risk. we can helpstudents use AI as a learning tool rather than an answer machine. a way to increase their own impact, rather than a substitute for it
 -->
 
-## Wrapup
+## Wrap-Up
 
 Generative AI has significantly decreased the cost of outsourcing work to the computer. It can write programming code better, faster, and cheaper than a college graduate. It's also good with spreadsheets, flowcharts, calendars, and emails. 
 
-Junior software engineers can't find jobs because AI took their niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" to disrupt other white-collar professions as well. 
+Junior software engineers can't find jobs because AI took their niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" enough to disrupt other white-collar professions as well. 
 
 Amid the upheaval, I think there's room for optimism. Humans are the source of creativity, curiosity, and judgment. That's ultimately the important thing. AI just does the mechanical follow-through.
 
 <!--
+[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 [fire]: https://en.wikipedia.org/wiki/FIRE_movement
 [system_design]: https://en.wikipedia.org/wiki/Systems_design
 [iac]: https://en.wikipedia.org/wiki/Infrastructure_as_code
