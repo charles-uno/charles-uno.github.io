@@ -118,7 +118,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time, for a
 - Static analysis and automated tests. We have tools to check code for style, self-consistency, and compatibility with existing behavior. An engineer or agent can look at the failures and iterate before submitting code changes for review. 
 - Code review. Code changes are vetted, generally by senior engineers, before the change goes live. Code may be sent back to the author if it needs work. 
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
-- Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, or a sudden decrease in messages delivered, we can quickly switch back to the previous logic. 
+- Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes we can quickly switch back to the previous logic. 
 
 Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
 
@@ -159,6 +159,36 @@ The product side is a different story. Product engineers are insulated from the 
 
 Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites are built by people who may not even consider themselves software engineers at all. Infrastructure jobs are still there, and are hungry for talent, though graduates from coding-focused programs may have a tough time gaining traction.
 
+## AI is Bigger then Coding
+
+Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
+
+- Turning some bullet points into a presentable document
+- Parsing project timelines from half a dozen different docs into a flowchart
+- Finding a "good enough" answer to a vague question
+- Cleaning up an outdated wiki page
+- Taking a bunch of old data and converting it to a more convenient format
+
+Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
+
+<!--
+AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
+-->
+
+Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+
+- Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
+- Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
+- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. 
+- Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
+
+[big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
+
+Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or for worse, it's just a matter of time before they get plugged in. 
+
+[healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
+[moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
+[reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
 
 
@@ -193,41 +223,6 @@ As educators, we have both carrots and sticks at our disposal to help students l
 [^remote]: Remote learning seems extremely fucked
 
 Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise many students will sabotage their own learning without even realizing it.
-
-## AI Does More than Code
-
-<!--
-## other industries will be disrupted too
--->
-
-Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
-
-- Turning some bullet points into a presentable document
-- Parsing project timelines from half a dozen different docs into a flowchart
-- Finding a "good enough" answer to a vague question
-- Cleaning up an outdated wiki page
-- Taking a bunch of old data and converting it to a more convenient format
-
-Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
-
-<!--
-AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
--->
-
-Fiddly computer tasks exist in other industries too. Architects and bankers and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
-
-- Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
-- Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
-- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. 
-- Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
-
-[big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
-
-Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or for worse, it's just a matter of time before they get plugged in. 
-
-[healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
-[moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
-[reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
 ## Wrapup
 
