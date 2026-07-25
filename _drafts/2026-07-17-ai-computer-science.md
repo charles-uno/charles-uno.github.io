@@ -189,50 +189,39 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
-## We've Lost Coding Exercises as a Teaching Tool
-
-<!--
 ## We can do Better than Abstinence-Only Education
--->
 
-
-<!--
-AI allows us to produce the same results with less effort
-arguably good in a professional setting
-bad for education. results aren't the point. we want time spent
-study showed students outsourcing learning to AI
-
-we can adjust somewhat to mitigate the risk of cheating.
-in-person assessment
-early testing as a wake-up call
-
-also worth calling out that the above study showed some students defying the average
-AI as a learning tool rather than an answer machine
-I think that's worth learning
-
-
--->
-
-
-<!--
-Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, translation, summary, and even some analysis. In a professional setting, this is (at least arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the underlying concepts. Now that's out the window. AI allows students to turn in flawless work regardless of whether they've actually absorbed anything. 
--->
-
-Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. <!-- That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned.-->A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: coding, translation, summary, and even some analysis. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a mess. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
-That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. <!-- It can find answers even when I'm not sure exactly what I'm looking for. -->Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
+One way to mitigate this issue is to focus on in-person assessment. Student grades can be primarily based on tests and presentations where students are physically present. I try to do the first test as early in the term as possible. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
+
+I also believe we can do better than just mitigating self-destructive habits. These students have easy access to AI whether we like it or not. They'll likely have access to it for their entire adult lives. We can teach them how to use it as a learning tool rather than an answer machine. 
+
+Some students seem to figure it out on their own. The above study shows that about one in five students using AI spends just as much time on their studies as their non-AI-using peers. These students saw their test scores *increase*. The idea is that they are using AI as an infinitely-patient tutor, willing to climb down any rabbit hole the student cares to explore. 
+
+This aligns closely with my experience using AI for curriculum development. It's a powerful tool for digging into new material. Chatting with a bot is both faster and more engaging than reading a textbook or Wikipedia page. It can piece together answers even when I'm not exactly sure what I'm asking for. It can pause at any time to clear up a point of confusion. I've found it to be particularly useful when adding new content to an existing module, for example:
+
+- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
+- "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
+- "My course outline has nine modules, but ten would line up better with the calendar. Can you propose a few different ways to divvy things up?"
+
+> TODO: wrap this up. build curiosity and critical thinking rather than circumventing those skills
 
 <!--
+Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+
+
+That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
+
 This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
 
 - "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
-- "My chapter on CPU architecture is feeling a bit light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
+- "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
 - "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
 
 Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. As educators, we also need to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
--->
 
 As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
 
@@ -244,7 +233,7 @@ As educators, we have both carrots and sticks at our disposal to help students l
 [^remote]: Remote learning seems extremely fucked.
 
 Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise, many students will sabotage their own learning without even realizing it.
-
+-->
 
 <!--
 AI is a cheating risk. we can do better than just mitigating that risk. we can helpstudents use AI as a learning tool rather than an answer machine. a way to increase their own impact, rather than a substitute for it
