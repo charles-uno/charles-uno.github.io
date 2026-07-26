@@ -162,11 +162,7 @@ Generative AI is very good at outsourcing fiddly white-collar tasks to the machi
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
-One way to mitigate this issue is to focus on in-person assessment. Student grades can be primarily based on tests and presentations where students are physically present. I try to do the first test as early in the term as possible. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-
-I also believe we can do better than just mitigating self-destructive habits. These students have easy access to AI whether we like it or not. They'll likely have access to it for their entire adult lives. We can teach them how to use it as a learning tool rather than an answer machine. 
-
-Some students seem to figure it out on their own. The same study from above shows that about one in five students using AI spends just as much time on their studies as their non-AI-using peers. These students saw their test scores *increase*. The idea is that they are using AI as an infinitely-patient tutor, willing to climb down any rabbit hole the student cares to explore. 
+That same study found that some students defied the average. About one in five AI-using students spent just as much time studying as their non-AI-using peers. In this case, the AI users saw *higher* test scores. The idea is that these students are using AI as a learning tool rather than an answer machine. They treat their AI agents as infinitely-patient tutors, willing to climb down any rabbit hole the student cares to explore. 
 
 This aligns closely with my experience using AI for curriculum development. It's a powerful tool for digging into new material. Chatting with a bot is both faster and more engaging than reading a textbook or Wikipedia page. It can piece together answers even when I'm not exactly sure what I'm asking for. It will tolerate a detour at any time to clear up a point of confusion. I've found it to be particularly useful when adding new content to an existing module, for example:
 
@@ -174,20 +170,11 @@ This aligns closely with my experience using AI for curriculum development. It's
 - "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
 - "My course outline has nine modules, but ten would line up better with the calendar. Can you propose a few different ways to divvy things up?"
 
-> TODO: wrap this up. build curiosity and critical thinking rather than circumventing those skills
+Our students have easy access to AI whether we like it or not. We are obliged to make sensible choices to push students away from self-destructive AI use. For example, we can prioritize in-person[^remote] tests and presentations rather than homework. Even better if the first test is very early in the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI; early feedback gives them a chance to course-correct.
 
-<!--
-As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
-
-- Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
-- Modeling. I demonstrate "good" AI use to my students by using it interactively to dig into points of confusion. I also give them time to do the same during lab exercises (while I am present to answer questions). 
-- In-person assessment[^remote]. My grading leans heavily on closed-book exams and live presentations. The first assessment is just a few weeks into the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI. I want to maximize their chance to course-correct.
-- Curriculum updates. Coding skills are probably still valuable as scaffolding, but it seems hard to justify a course focused primarily on them. We should ensure that mechanical work always feeds into a bigger-picture skill like communication, judgment, or system thinking. 
+I also believe we can do better than just mitigating bad AI usage. We can teach good usage. With our help, students can use AI to exercise (rather than circumvent) their curiosity and critical thinking skills.
 
 [^remote]: Remote learning seems extremely fucked.
-
-Our students have access to AI whether we want them to or not. Cookie-cutter homework assignments no longer force them to actually engage with the material. We need to update how we teach and how we test. Otherwise, many students will sabotage their own learning without even realizing it.
--->
 
 <!--
 ## AI isn't going away
