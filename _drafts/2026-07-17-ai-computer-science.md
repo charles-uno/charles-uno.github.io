@@ -191,7 +191,7 @@ Other industries will catch up. AI-friendly integration points will be added to 
 
 ## We can do Better than Abstinence-Only Education
 
-Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: coding, translation, summary, and even some analysis. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a mess. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, coding, and more. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a mess. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
@@ -203,7 +203,7 @@ Some students seem to figure it out on their own. The above study shows that abo
 
 This aligns closely with my experience using AI for curriculum development. It's a powerful tool for digging into new material. Chatting with a bot is both faster and more engaging than reading a textbook or Wikipedia page. It can piece together answers even when I'm not exactly sure what I'm asking for. It can pause at any time to clear up a point of confusion. I've found it to be particularly useful when adding new content to an existing module, for example:
 
-- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
+- "I'm writing a lecture about the TCP/IP model of networking. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
 - "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
 - "My course outline has nine modules, but ten would line up better with the calendar. Can you propose a few different ways to divvy things up?"
 
