@@ -7,33 +7,6 @@ tags: stem
 ---
 
 <!--
-## Demand for Coding Skills was Dropping Before AI
-
-## AI-Based Coding is the Industry Standard
-
-## Fewer Jobs Need Computer Science Expertise
-
-## It's Not Just About Coding
-
-## Abstinence-Only Education Doesn't Work
-## AI can be a teaching tool
-
-we can switch to in-person assessment. this gets around the cheating
-
-but should we also be modeling good usage? this is probably a lifelong skill
-
-## AI isn't going away
-
-- maybe the advances have already hit their plateau. maybe it will get no better
-- we are already seeing some public backlash due to the bad parts of AI. maybe it will be taxes or regulated in a way that makes it more expensive
-
-even in that case, the technology exists and is useful.
-compute costs always drop in the long run.
-even if the prices go up in the short term, generative AI (or something else like it) will come back
-costs would have to go up BY A LOT to get software engineers to stop using it
--->
-
-<!--
 Computers are impossibly good at math. They crunch numbers a million times faster, cheaper, and more accurately than any human. This creates a sizable incentive to turn all sorts of problems into math problems. As soon as you've turned something into a math problem, you can outsource it to a computer, which will solve it quickly and reliably.
 
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
@@ -210,19 +183,6 @@ This aligns closely with my experience using AI for curriculum development. It's
 > TODO: wrap this up. build curiosity and critical thinking rather than circumventing those skills
 
 <!--
-Generative AI is very good at turning words into code. In a professional setting, this is (arguably) a good thing. People can produce the same results with less effort. In an educational setting, on the other hand, it's a nightmare. The purpose of homework isn't to produce code. The purpose is to force students to sit down and engage with the underlying concepts. That's out the window now that students can use AI to produce flawless homework regardless of what they've actually learned. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
-
-
-That same study shows that some students defied the average. About 20% of AI-using students spent just as much time on the material as their non-AI-using peers. Those students saw their test scores *increase*. The idea is that they are using AI as a tutor, rather than as a machine that spits out the answers. This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. 
-
-This aligns closely with my experience using AI for curriculum development. It's an incredible resource for exploring new material. It can find answers even when I'm not sure exactly what I'm looking for. Chatting with an agent is both faster and more engaging than reading Wikipedia pages from top to bottom. For example:
-
-- "I'm developing a lecture about the TCP/IP model of networking for an undergraduate computer science course. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
-- "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
-- "We're covering stack frames in Aarch64. I'm worried that pre-indexing syntax will unnecessarily confuse my students. Can you mock up an example where we stick to basic commands and update the stack pointer manually?"
-
-Some students intuitively know how to use AI in a positive way. Maybe more will figure it out naturally as they gain experience. As educators, we also need to confront the issue head-on. We can use both carrots and sticks to nudge our students away from self-destructive AI use. Here's what I've got so far: 
-
 As educators, we have both carrots and sticks at our disposal to help students learn to view AI as a learning tool rather than an answer machine. For example:
 
 - Honesty. AI is excellent at writing code and answering questions about computer science. I'm not going to exaggerate the risk of hallucination to scare them away. I *am* going to explicitly call out the risk of short-circuiting their own learning. 
@@ -236,7 +196,15 @@ Our students have access to AI whether we want them to or not. Cookie-cutter hom
 -->
 
 <!--
-AI is a cheating risk. we can do better than just mitigating that risk. we can helpstudents use AI as a learning tool rather than an answer machine. a way to increase their own impact, rather than a substitute for it
+## AI isn't going away
+
+- maybe the advances have already hit their plateau. maybe it will get no better
+- we are already seeing some public backlash due to the bad parts of AI. maybe it will be taxes or regulated in a way that makes it more expensive
+
+even in that case, the technology exists and is useful.
+compute costs always drop in the long run.
+even if the prices go up in the short term, generative AI (or something else like it) will come back
+costs would have to go up BY A LOT to get software engineers to stop using it
 -->
 
 ## Wrap-Up
