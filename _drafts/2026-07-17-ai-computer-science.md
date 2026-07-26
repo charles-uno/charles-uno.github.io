@@ -12,7 +12,7 @@ Computers are impossibly good at math. They crunch numbers a million times faste
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
 -->
 
-When I graduated from St Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
+When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
 
 Recent advances in generative AI have thrown the software engineering industry for a loop. AI-based coding has gone from novelty to industry-standard in less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. Computer science educators and students are scrambling to figure out what the future looks like. 
 
@@ -78,8 +78,6 @@ Senior software engineers don't actually write that much code. We spend a lot of
 
 That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things faster, cheaper, and better than a human. 
 
-[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
-
 AI-written code is by no means perfect. Agents make mistakes all the time. But so do humans. The software engineering industry has well-established strategies for mitigating the risk of bad code. For example:
 
 - Static analysis and automated tests. We have tools to check code for style, self-consistency, and compatibility with existing behavior. An engineer or agent can look at the failures and iterate before submitting code changes. 
@@ -87,7 +85,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time. But s
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-Ever so often I'll run into social media content suggesting that AI only produces slop, or that we should boycott AI-contaminated projects. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI now. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
+Every so often I'll run into social media content suggesting that AI only produces slop, or that we should boycott AI-contaminated projects. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI now. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
 
 [slopware]: https://codeberg.org/ethical-foss/open-slopware
 
@@ -115,7 +113,7 @@ The product side is a different story. Product engineers are insulated from the 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills, and who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go much deeper than coding.
+Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go much deeper than coding.
 
 <!--
 In the past, computer science curriculum covered a combination of product skills and infrastructure skills. Coding was the glue that held the two together. Programs may need to pivot one way or the other. Infrastructure engineering jobs are critical and well-paid, but there are only so many of them. There are lots of jobs out there using AI to make product code, though those jobs probably won't pay at historical software engineering levels.
@@ -156,25 +154,25 @@ Other industries will catch up. AI-friendly integration points will be added to 
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
 [reduced_subsidies]: https://dev.to/shrsv/the-subsidy-era-is-over-a-reality-check-on-ai-powered-dev-tool-pricing-51dn
 
-## We can do Better than Abstinence-Only Education
+## We Can Do Better Than Abstinence-Only Education
 
 Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, coding, and more. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a mess. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
-That same study found that some students defied the average. About one in five AI-using students spent just as much time studying as their non-AI-using peers. In this case, the AI users saw *higher* test scores. The idea is that these students are using AI as a learning tool rather than an answer machine. They treat their AI agents as infinitely-patient tutors, willing to climb down any rabbit hole the student cares to explore. 
+That same study found that some students defied the average. About one in five AI-using students spent just as much time studying as their non-AI-using peers. In this case, the AI users saw *higher* test scores. The idea is that these students are using AI as a learning tool rather than an answer machine. They treat their AI agents as infinitely patient tutors, willing to climb down any rabbit hole the student cares to explore. 
 
 This aligns closely with my experience using AI for curriculum development. It's a powerful tool for digging into new material. Chatting with a bot is both faster and more engaging than reading a textbook or Wikipedia page. It can piece together answers even when I'm not exactly sure what I'm asking for. It will tolerate a detour at any time to clear up a point of confusion. I've found it to be particularly useful when adding new content to an existing module, for example:
 
 - "I'm writing a lecture about the TCP/IP model of networking. I'd like to talk about security. Can you list some important network vulnerabilities for each layer?"
-- "My chapter on CPU architecture is feeling a light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
+- "My chapter on CPU architecture is feeling a little light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
 - "My course outline has nine modules, but ten would line up better with the calendar. Can you propose a few different ways to divvy things up?"
 
 Our students have easy access to AI whether we like it or not. We are obliged to make sensible choices to push students away from self-destructive AI use. For example, we can prioritize in-person[^remote] tests and presentations rather than homework. Even better if the first test is very early in the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI; early feedback gives them a chance to course-correct.
 
-I also believe we can do better than just mitigating bad AI usage. We can teach good usage. With our help, students can use AI to exercise (rather than circumvent) their curiosity and critical thinking skills.
-
 [^remote]: Remote learning seems extremely fucked.
+
+I also believe we can do better than just mitigating bad AI usage. We can teach good usage. With our help, students can use AI to exercise (rather than circumvent) their curiosity and critical thinking skills.
 
 <!--
 ## AI isn't going away
@@ -197,6 +195,7 @@ There are fewer jobs for junior software engineers because AI took their former 
 Amid the upheaval, I think there's room for optimism. Humans are the source of creativity, curiosity, and judgment. That's ultimately the important thing. AI just does the mechanical follow-through.
 
 <!--
+[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 [fire]: https://en.wikipedia.org/wiki/FIRE_movement
 [system_design]: https://en.wikipedia.org/wiki/Systems_design
 [iac]: https://en.wikipedia.org/wiki/Infrastructure_as_code
