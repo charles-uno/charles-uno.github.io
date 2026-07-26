@@ -186,6 +186,8 @@ costs would have to go up BY A LOT to get software engineers to stop using it
 
 ## Wrap-Up
 
+> TODO: wrap this up better in light of above updates
+
 Generative AI has significantly decreased the cost of outsourcing work to the computer. It can write programming code better, faster, and cheaper than a college graduate. It's also good with spreadsheets, flowcharts, calendars, and emails. 
 
 There are fewer jobs for junior software engineers because AI took their former niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" enough to disrupt other white-collar professions as well. 
