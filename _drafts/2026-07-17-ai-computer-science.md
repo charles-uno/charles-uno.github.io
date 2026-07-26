@@ -85,7 +85,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time. But s
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-Ever so often I'll hear a non-software-engineer friend say that AI produces only slop, or that we should avoid anything created using AI. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
+Ever so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
 
 [slopware]: https://codeberg.org/ethical-foss/open-slopware
 
