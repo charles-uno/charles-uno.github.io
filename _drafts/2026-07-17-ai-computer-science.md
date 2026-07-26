@@ -20,7 +20,7 @@ Recent advances in generative AI have thrown the software engineering industry f
 [vibecode]: https://en.wikipedia.org/wiki/Vibe_coding
 [block_layoffs]: https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
 
-I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in industry. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's what my academic colleagues might not know.
+I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in industry. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's the important stuff that my academic colleagues might not be able to see. 
 
 [zuck_ai]: https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/
 
