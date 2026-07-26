@@ -14,6 +14,10 @@ That's what software engineers do. They take a problem, break it into computer-f
 
 When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed in the intervening years. Students flocked to computer science in pursuit of lucrative software engineering jobs. 
 
+To be clear: computer science and software engineering aren't the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
+
+[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
+
 Recent advances in generative AI have thrown the software engineering industry for a loop. AI-based coding has gone from novelty to industry-standard in less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. Computer science educators and students are scrambling to figure out what the future looks like. 
 
 [ai_faster_work]: https://metr.org/blog/2026-02-24-uplift-update/#other-means-of-measuring-productivity
@@ -58,10 +62,6 @@ College students took notice. They learned to code. From 2010 to 2024, the numbe
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
 [2024_swe_count]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
-
-Computer science and software engineering aren't even the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work or how memory gets allocated. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
-
-[tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
 
 As the pandemic wound down, so did the hiring frenzy. Software was already integrated into every part of daily life, so there was less room left to expand. Job postings have been [trending down][swe_jobs_dropping_post_covid] for the past few years, with entry-level positions [hit hardest][swe_drop_by_seniority]. Layoffs are [rising][2026_tech_layoffs]. Salaries for new computer science grads are [dropping][swe_salary_dropping]. 
 
