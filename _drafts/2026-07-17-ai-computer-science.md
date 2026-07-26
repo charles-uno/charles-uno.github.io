@@ -12,7 +12,7 @@ Computers are impossibly good at math. They crunch numbers a million times faste
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
 -->
 
-When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed while I was gone. Students had flocked to computer science in pursuit of lucrative software engineering jobs. 
+When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed in the intervening years. Students flocked to computer science in pursuit of lucrative software engineering jobs. 
 
 Recent advances in generative AI have thrown the software engineering industry for a loop. AI-based coding has gone from novelty to industry-standard in less than a year. Experienced engineers can use AI tools to [work faster][ai_faster_work]. Non-engineers can use these tools to "[vibecode][vibecode]" software with minimal knowledge of the underlying machine. CEOs are eager to save money by [cutting engineers][block_layoffs] and using AI to fill the gaps. Computer science educators and students are scrambling to figure out what the future looks like. 
 
