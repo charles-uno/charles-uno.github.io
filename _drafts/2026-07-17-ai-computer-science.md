@@ -160,6 +160,11 @@ Generative AI is very good at outsourcing fiddly white-collar tasks to the machi
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
+> - open-ended projects
+> - in-person exams and presentations
+> - we've lost busywork as a tool for teaching and assessment
+> - But it's not all bad!
+
 That same study found that some students defied the average. About one in five AI-using students spent just as much time studying as their non-AI-using peers. In this case, the AI users saw *higher* test scores. The idea is that these students are using AI as a learning tool rather than an answer machine. They treat their AI agents as infinitely patient tutors, willing to climb down any rabbit hole the student cares to explore. 
 
 This aligns closely with my experience using AI for curriculum development. It's a powerful tool for digging into new material. Chatting with a bot is both faster and more engaging than reading a textbook or Wikipedia page. It can piece together answers even when I'm not exactly sure what I'm asking for. It will tolerate a detour at any time to clear up a point of confusion. I've found it to be particularly useful when adding new content to an existing module, for example:
@@ -168,11 +173,13 @@ This aligns closely with my experience using AI for curriculum development. It's
 - "My chapter on CPU architecture is feeling a little light. We already cover the ALU, instruction pipelining, and hazards. Could you suggest some other topics I could add to flesh it out?"
 - "My course outline has nine modules, but ten would line up better with the calendar. Can you propose a few different ways to divvy things up?"
 
-Our students have easy access to AI whether we like it or not. We are obliged to make sensible choices to push students away from self-destructive AI use. For example, we can prioritize in-person[^remote] tests and presentations rather than homework. Even better if the first test is very early in the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI; early feedback gives them a chance to course-correct.
+> Our students have easy access to AI whether we like it or not. We are obliged to make sensible choices to push students away from self-destructive AI use. For example, we can prioritize in-person[^remote] tests and presentations rather than homework. Even better if the first test is very early in the term. Students may not realize how much they've glossed over until they sit down to take an exam without AI; early feedback gives them a chance to course-correct.
 
 [^remote]: Remote learning seems extremely fucked.
 
 I also believe we can do better than just mitigating bad AI usage. We can teach good usage. With our help, students can use AI to exercise (rather than circumvent) their curiosity and critical thinking skills.
+
+> Harvard wrote something very similar: https://bokcenter.harvard.edu/courses-and-assignments-in-age-of-ai
 
 <!--
 ## AI isn't going away
