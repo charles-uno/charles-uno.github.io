@@ -12,9 +12,9 @@ Computers are impossibly good at math. They crunch numbers a million times faste
 That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
 -->
 
-When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed in the intervening years. Students flocked to computer science in pursuit of lucrative software engineering jobs. 
+When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed in the intervening years. Students flocked to computer science in pursuit of lucrative software engineering jobs[^cs_vs_swe]. 
 
-To be clear: computer science and software engineering aren't the same thing! Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work. Your average computer science major has never heard of [tech debt][tech_debt]. But the market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
+[^cs_vs_swe]: Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work. Your average computer science major has never heard of [tech debt][tech_debt]. But the 2010s job market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
 
 [tech_debt]: https://en.wikipedia.org/wiki/Technical_debt
 
