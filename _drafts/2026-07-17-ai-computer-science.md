@@ -85,7 +85,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time. But s
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-Ever so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
+Every so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
 
 [slopware]: https://codeberg.org/ethical-foss/open-slopware
 
@@ -143,7 +143,7 @@ Fiddly computer tasks exist in other industries, too. Architects, bankers, and s
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
-- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferrable.
+- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferable.
 - Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
 
 [problem_decomposition]: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
