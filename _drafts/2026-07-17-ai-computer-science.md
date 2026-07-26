@@ -143,9 +143,10 @@ Fiddly computer tasks exist in other industries, too. Architects, bankers, and s
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
-- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. 
+- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferrable.
 - Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
 
+[problem_decomposition]: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
 
 Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or worse, it's just a matter of time before they get plugged in. 
@@ -199,7 +200,6 @@ Amid the upheaval, I think there's room for optimism. Humans are the source of c
 [fire]: https://en.wikipedia.org/wiki/FIRE_movement
 [system_design]: https://en.wikipedia.org/wiki/Systems_design
 [iac]: https://en.wikipedia.org/wiki/Infrastructure_as_code
-[problem_decomposition]: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
 [furlexa]: https://www.raspberrypi.com/news/raspberry-pi-furby-furlexa-voice-assistant/
 [craigslist]: https://www.craigslist.org/area/minneapolis
 [project_based_learning]: https://en.wikipedia.org/wiki/Project-based_learning
