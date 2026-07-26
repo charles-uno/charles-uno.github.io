@@ -76,26 +76,20 @@ Today's computer science grads are in a rough spot. They chose their major when 
 
 Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while, we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, we pass the bulk of the implementation over to junior engineers. 
 
-That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things much, *much* faster than a human. Hobby projects may still be coded by hand, but coding by hand is dead at the corporate[^slopware] level.
+That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things faster, cheaper, and better than a human. 
 
-[^slopware]: You can find a list of AI-contaminated software [here](https://codeberg.org/ethical-foss/open-slopware). It includes pretty much everything you've ever heard of. 
+[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 
-AI-written code is by no means perfect. Agents make mistakes all the time, for all sorts of reasons. But so do humans. The software engineering industry has well-established strategies for mitigating the risk of bad code. For example:
+AI-written code is by no means perfect. Agents make mistakes all the time. But so do humans. The software engineering industry has well-established strategies for mitigating the risk of bad code. For example:
 
-- Static analysis and automated tests. We have tools to check code for style, self-consistency, and compatibility with existing behavior. An engineer or agent can look at the failures and iterate before submitting code changes for review. 
-- Code review. Code changes are vetted, generally by senior engineers, before the change goes live. Code may be sent back to the author if it needs work. 
+- Static analysis and automated tests. We have tools to check code for style, self-consistency, and compatibility with existing behavior. An engineer or agent can look at the failures and iterate before submitting code changes. 
+- Code review. Code changes are vetted, generally by senior engineers, before they go live. Code may be sent back to the author if it needs work. 
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-> TODO: wrap this up
+Ever so often I'll run into social media content suggesting that AI only produces slop, or that we should boycott AI-contaminated projects. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI now. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
 
-<!--
-Fresh computer science grads are in a rough spot. Many of them studied computer science for the coding skills, but now AI has undercut the demand for those skills. Entry-level software engineering jobs are [few and far between][entry_level_collapse], though some parts of the industry are holding up better than others:
-
-Generative AI has taken over the niche previously filled by junior engineers. Senior engineers may spend more time talking to AI agents than they do to their human team members. Computer science grads are seeing fewer jobs that want their skills. And a lot of software is being produced by people who don't have a computer science background at all; their expertise is in the product rather than the tool. 
-
-Fresh grads are facing a [sparse][entry_level_collapse] job market because, frankly, nobody knows that to do with them. They studied computer sciene for the coding skills. AI made coding skills moot. And now we're seeing that the broader computer science expertise is more niche than we realized. 
--->
+[slopware]: https://codeberg.org/ethical-foss/open-slopware
 
 ## Fewer Jobs Need Computer Science Expertise
 
@@ -216,7 +210,6 @@ There are fewer jobs for junior software engineers because AI took their former 
 Amid the upheaval, I think there's room for optimism. Humans are the source of creativity, curiosity, and judgment. That's ultimately the important thing. AI just does the mechanical follow-through.
 
 <!--
-[entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
 [fire]: https://en.wikipedia.org/wiki/FIRE_movement
 [system_design]: https://en.wikipedia.org/wiki/Systems_design
 [iac]: https://en.wikipedia.org/wiki/Infrastructure_as_code
