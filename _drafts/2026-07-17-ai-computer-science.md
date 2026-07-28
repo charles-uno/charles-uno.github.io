@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Computer Science Education in the AI Era"
+title: "Making Friends with the Machine"
 image: "/files/cs-swe-ai/motherboard-alexandre-debieve-thumb.png"
-description: "I work in big tech. Here's what computer science professors should know."
+description: "I work in big tech. Here's what computer science professors should know about AI."
 tags: stem
 ---
 
