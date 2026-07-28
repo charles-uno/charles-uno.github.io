@@ -57,7 +57,7 @@ There were only so many software engineers to go around. Companies competed for 
 
 [perks]: https://www.businessinsider.com/tech-workers-office-perks-ski-trips-massages-meals-list-2023-2
 
-College students took notice. They learned to code. Between 2010 and 2024, the number of students graduating with a computer science major [increased five-fold][fivefold_increase]. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
+College students took notice. They learned to code. The number of students graduating with a computer science major [increased five-fold][fivefold_increase] since 2010. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
 
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
@@ -113,7 +113,7 @@ The product side is a different story. Product engineers are insulated from the 
 [swe_salary]: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 [teacher_salary]: https://www.bls.gov/oes/2023/may/oes253099.htm
 
-Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills who may not consider themselves to be software engineers at all. Infrastructure jobs are still there and are hungry for computer science skills that go much deeper than coding.
+Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills. Demand for infrastructure engineers is still high, but applicants will need to bring a lot more to the table than just coding skills. 
 
 <!--
 In the past, computer science curriculum covered a combination of product skills and infrastructure skills. Coding was the glue that held the two together. Programs may need to pivot one way or the other. Infrastructure engineering jobs are critical and well-paid, but there are only so many of them. There are lots of jobs out there using AI to make product code, though those jobs probably won't pay at historical software engineering levels.
@@ -187,7 +187,42 @@ costs would have to go up BY A LOT to get software engineers to stop using it
 
 ## Wrap-Up
 
-> TODO: wrap this up better in light of above updates
+Today's computer science majors started college when tech jobs were at their peak. 
+Now they're graduating into a hostile job market. 
+Hiring slowed as the pandemic receded. 
+Generative AI tooling undercut the demand for coding skills. 
+Fewer jobs now want a computer science degree, and those that remain require deep technical roots. 
+
+Computer science educators aren't doing much better. 
+Enrollment is dropping. 
+A decent fraction of the curriculum is moot. 
+
+
+
+
+Disruption is spreading in all directions. 
+- Senior software engineers
+- CS curriculum
+- other industries
+- teaching strategies
+
+Things will get worse before they get better. 
+white-collar bookkeeping
+
+Computer science educators are having a rough time. 
+Curriculum needs to be updated to meet the 
+AI as an answer machine tempts students into self-destructive behavior. 
+
+The entry-level coding niche belongs to AI now. 
+
+Fewer jobs care about computer science expertise, and those that remain want deep technical roots. 
+
+It's not just entry-level engineers, and it's not just coding skills. 
+
+
+Today's computer science majors started college when software engineering was at its peak. Demand for coding skills tumbled in the meantime, first due to a cooling market, then due to the rise of generative AI tools. 
+
+A decent chunk of computer science curriculum and teaching strategies are out the window. New grads face a job market with fewer openings and higher requirements. Senior engineers have seen their jobs transform beneath their feet; many now spend more time talking to AI agents than human teammates. 
 
 Generative AI has significantly decreased the cost of outsourcing work to the computer. It can write programming code better, faster, and cheaper than a college graduate. It's also good with spreadsheets, flowcharts, calendars, and emails. 
 
