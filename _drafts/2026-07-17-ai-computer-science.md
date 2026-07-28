@@ -187,48 +187,25 @@ costs would have to go up BY A LOT to get software engineers to stop using it
 
 ## Wrap-Up
 
-Today's computer science majors started college when tech jobs were at their peak. 
+
+
+Today's computer science majors started college when demand for coding skills was at an all-time high. 
 Now they're graduating into a hostile job market. 
-Hiring slowed as the pandemic receded. 
-Generative AI tooling undercut the demand for coding skills. 
-Fewer jobs now want a computer science degree, and those that remain require deep technical roots. 
+Fewer jobs today care about a computer science degree, and those that remain require deep technical roots. 
+Entry-level coding jobs just don't exist anymore.
+Generative AI has absorbed that niche. 
 
-Computer science educators aren't doing much better. 
-Enrollment is dropping. 
-A decent fraction of the curriculum is moot. 
+Coding is just the tip of the iceberg. 
+As a senior engineer, I now spend more time chatting with AI bots than with my own peers. 
+As a professor, I have to worry about the AI devil on every student's shoulder tempting them with "free" answers. 
+Other industries will be impacted soon enough. 
+AI tools are plenty "smart" to take on all sorts of white-collar bookkeeping. 
 
-
-
-
-Disruption is spreading in all directions. 
-- Senior software engineers
-- CS curriculum
-- other industries
-- teaching strategies
-
-Things will get worse before they get better. 
-white-collar bookkeeping
-
-Computer science educators are having a rough time. 
-Curriculum needs to be updated to meet the 
-AI as an answer machine tempts students into self-destructive behavior. 
-
-The entry-level coding niche belongs to AI now. 
-
-Fewer jobs care about computer science expertise, and those that remain want deep technical roots. 
-
-It's not just entry-level engineers, and it's not just coding skills. 
-
-
-Today's computer science majors started college when software engineering was at its peak. Demand for coding skills tumbled in the meantime, first due to a cooling market, then due to the rise of generative AI tools. 
-
-A decent chunk of computer science curriculum and teaching strategies are out the window. New grads face a job market with fewer openings and higher requirements. Senior engineers have seen their jobs transform beneath their feet; many now spend more time talking to AI agents than human teammates. 
-
-Generative AI has significantly decreased the cost of outsourcing work to the computer. It can write programming code better, faster, and cheaper than a college graduate. It's also good with spreadsheets, flowcharts, calendars, and emails. 
-
-There are fewer jobs for junior software engineers because AI took their former niche. Senior software engineers now spend more time talking to AI than they do to other people. Years of computer science curriculum and teaching strategies are suddenly moot. And that's just one industry. These same tools are plenty "smart" enough to disrupt other white-collar professions as well. 
-
-Amid the upheaval, I think there's room for optimism. Humans are the source of creativity, curiosity, and judgment. That's ultimately the important thing. AI just does the mechanical follow-through.
+Amid the upheaval, I think there's room for optimism.
+This isn't the first time a new tool has turned an industry inside-out. 
+Our ancestors lost jobs to the printing press, the steam engine, and the assembly line. 
+Now we take those technologies underpin our daily lives. 
+Tomorrow's workers will spend a bit less time clicking through chores on a computer, and a bit more time exercising their creativity and judgment. 
 
 <!--
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
