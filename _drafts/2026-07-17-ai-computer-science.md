@@ -24,7 +24,7 @@ Recent advances in generative AI have thrown the software engineering industry f
 [vibecode]: https://en.wikipedia.org/wiki/Vibe_coding
 [block_layoffs]: https://www.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey
 
-I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in industry. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's the important stuff that my academic colleagues may not be able to see. 
+I don't know the future, of course, but I've got a pretty good view of the present. I've got one foot in academia as a part-time computer science professor. My other foot is in industry. I've been a software engineer for ten years; I currently work at Meta, which is [all-in on AI][zuck_ai]. I have grudgingly become a regular AI user for both coding and curriculum development. Here's the important context that my academic colleagues may not be able to see. 
 
 [zuck_ai]: https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/
 
@@ -139,7 +139,7 @@ Sometimes AI can shoehorn these tasks into an existing piece of software. Someti
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
 -->
 
-Fiddly computer tasks exist in other industries, too. Architects, bankers, and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
+Fiddly computer tasks exist in other domains, too. Architects, bankers, students, and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
@@ -148,7 +148,7 @@ Fiddly computer tasks exist in other industries, too. Architects, bankers, and s
 
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
 
-Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or worse, it's just a matter of time before they get plugged in. 
+Other use cases will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb all sorts of different tasks on a computer. For better or worse, it's only a matter of time before every student and professional is plugged in. 
 
 [healthcare_regulations]: https://www.sciencedirect.com/science/article/pii/S3050708126000273
 [moores_law]: https://en.wikipedia.org/wiki/Moore%27s_law
