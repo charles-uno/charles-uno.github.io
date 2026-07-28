@@ -85,7 +85,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time. But s
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-Every so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. AI tooling has already redefined software engineering. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
+Every so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. <!--AI tooling has already redefined software engineering. -->Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. The open question at this point is: when today's senior engineers retire, who will replace them?
 
 [slopware]: https://codeberg.org/ethical-foss/open-slopware
 
@@ -95,7 +95,7 @@ Software engineers can be broadly divided into two buckets: infrastructure and p
 
 [swe_breakdown]: https://survey.stackoverflow.co/2025
 
-Infrastructure jobs include site reliability engineering, [DevOps][devops], machine learning, databases, compilers, devices, kernels, and [distributed][distributed_system] [middleware][middleware]. Each of those areas requires knowledge far beyond coding skills. Problems are often emergent from the scale and complexity of the system. In order to solve them, an engineer has to understand many puzzle pieces and how they fit together.
+Infrastructure jobs include site reliability engineering, [DevOps][devops], machine learning, databases, compilers, devices, kernels, and [distributed][distributed_system] [middleware][middleware]. Each of those areas requires computer science knowledge far beyond coding skills. Problems are often emergent from the scale and complexity of the system. In order to solve them, an engineer has to understand many puzzle pieces and how they fit together.
 
 [devops]: https://en.wikipedia.org/wiki/DevOps
 [distributed_system]: https://en.wikipedia.org/wiki/Distributed_computing
@@ -106,7 +106,7 @@ Demand for infrastructure engineers is [holding up][infra_demand] despite (or ev
 [infra_demand]: https://underdog.io/blog/tech-hiring-trends
 [more_apps]: https://9to5mac.com/2026/07/20/report-app-store-added-nearly-as-many-new-apps-in-h1-2026-as-in-all-of-2025/
 
-The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads because they needed the coding skills. Now that AI does most of the coding, a computer science degree may not be worth the price[^graphic_design]. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and can use AI as a software *engine*. 
+The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads for their coding skills. Now that AI does most of the coding, a computer science degree may not be worth the price[^graphic_design]. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and can use AI as a software *engine*. 
 
 [^graphic_design]: Creative fields are getting clobbered in a similar way to software engineering. Compared to a professional illustrator or graphic designer, AI can do a passable job for a fraction of the price. Sometimes passable is all you need. 
 
