@@ -6,12 +6,6 @@ description: "I work in big tech. Here's what computer science professors should
 tags: stem
 ---
 
-<!--
-Computers are impossibly good at math. They crunch numbers a million times faster, cheaper, and more accurately than any human. This creates a sizable incentive to turn all sorts of problems into math problems. As soon as you've turned something into a math problem, you can outsource it to a computer, which will solve it quickly and reliably.
-
-That's what software engineers do. They take a problem, break it into computer-friendly pieces, and plug it into a computer using programming code. Software engineering is a well-paid profession that has seen consistent growth over the past few decades. Many college students study computer science with the intention of becoming software engineers. 
--->
-
 When I graduated from St. Olaf College, there were about a dozen computer science majors per year. Fifteen years later, I came back to teach, and that number had grown to *sixty*. The tech industry boomed in the intervening years. Students flocked to computer science in pursuit of lucrative software engineering jobs[^cs_vs_swe]. 
 
 [^cs_vs_swe]: Computer science is about the fundamental logic, math, and physics of computation. Software engineering is about using the computer as a tool to create a product. Your average software engineer doesn't care how compilers work. Your average computer science major has never heard of [tech debt][tech_debt]. But the 2010s job market was ferociously hungry for coding skills, and computer science programs teach those skills, so we ended up with a pipeline from computer science to software engineering. 
@@ -85,7 +79,7 @@ AI-written code is by no means perfect. Agents make mistakes all the time. But s
 - Mentorship. An important part of a senior engineer's job is helping junior engineers get better. AI agents don't learn per se, but we can update prompts and context to improve future behavior. 
 - Telemetry and feature flags. We have all sorts of tools for keeping track of app health. If we see a sudden increase in crashes, we can quickly switch back to the previous logic. 
 
-Every so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. <!--AI tooling has already redefined software engineering. -->Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. In fact, when today's senior engineers retire, many of them may be replaced by people who never studied computer science at all. 
+Every so often I'll hear a friend in another industry suggest that AI produces only slop, or that we should avoid brands that use AI. It's like we're living in different worlds. Pretty much [every piece of software you've ever heard of][slopware] is using AI. I do not see any plausible situation where we go back to coding by hand. In fact, when today's senior engineers retire, many of them may be replaced by people who never studied computer science at all. 
 
 [slopware]: https://codeberg.org/ethical-foss/open-slopware
 
@@ -115,14 +109,6 @@ The product side is a different story. Product engineers are insulated from the 
 
 Ten years ago, computer science grads had their pick of product-facing jobs and infrastructure-facing jobs. Product jobs are now blurring into vibecoding. New apps and websites can be built by people without coding skills. Demand for infrastructure engineers is still high, but applicants will need to bring a lot more to the table than just coding skills. 
 
-<!--
-In the past, computer science curriculum covered a combination of product skills and infrastructure skills. Coding was the glue that held the two together. Programs may need to pivot one way or the other. Infrastructure engineering jobs are critical and well-paid, but there are only so many of them. There are lots of jobs out there using AI to make product code, though those jobs probably won't pay at historical software engineering levels.
-
-computer science programs might keep focus on the fundamentals. important but niche.
-they might pivot into "how to build cool stuff with AI". gives them a shot at holding onto a bigger student base.
-time will tell which works out
--->
-
 ## AI Does More Than Write Code
 
 Software engineering adopted AI because of its coding skills. As we've gotten familiar with it, we've found that it can also handle all sorts of fiddly manual tasks that pop up during the day. For example:
@@ -135,15 +121,11 @@ Software engineering adopted AI because of its coding skills. As we've gotten fa
 
 Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Sometimes the work happens within the agent itself. In any case, AI has significantly decreased the cost of outsourcing work to the machine. 
 
-<!--
-AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
--->
-
 Fiddly computer tasks exist in other domains, too. Architects, bankers, students, and salespeople spend plenty of time reading emails and writing spreadsheets. It will soon become clear that AI is better than humans at all sorts of white-collar bookkeeping. The forward march of AI isn't unique to software engineering; it just hit us first. This makes sense for a few reasons:
 
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
-- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. <!-- I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferable. -->
+- AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. 
 - Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us to spend our time copy-pasting data from Excel into PowerPoint.
 
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
@@ -171,18 +153,6 @@ This aligns closely with my experience using AI for curriculum development. It's
 Our students have easy access to AI whether we like it or not. There are [plenty of strategies][ai_teaching] out there to mitigate the risk of bad usage. I think we can do better than just mitigation. We can teach good usage. With our help, students can use AI to exercise (rather than circumvent) their curiosity and critical thinking skills.
 
 [ai_teaching]: https://bokcenter.harvard.edu/courses-and-assignments-in-age-of-ai
-
-<!--
-## AI isn't going away
-
-- maybe the advances have already hit their plateau. maybe it will get no better
-- we are already seeing some public backlash due to the bad parts of AI. maybe it will be taxes or regulated in a way that makes it more expensive
-
-even in that case, the technology exists and is useful.
-compute costs always drop in the long run.
-even if the prices go up in the short term, generative AI (or something else like it) will come back
-costs would have to go up BY A LOT to get software engineers to stop using it
--->
 
 ## Wrap-Up
 
