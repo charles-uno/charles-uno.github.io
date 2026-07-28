@@ -57,7 +57,7 @@ There were only so many software engineers to go around. Companies competed for 
 
 [perks]: https://www.businessinsider.com/tech-workers-office-perks-ski-trips-massages-meals-list-2023-2
 
-College students took notice. They learned to code. The number of students graduating with a computer science major [increased five-fold][fivefold_increase] since 2010. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million in 2024][2024_swe_count]. 
+College students took notice. They learned to code. The number of students graduating with a computer science major has [increased five-fold][fivefold_increase] since 2010. The total number of software engineers in the USA, in turn, went from [one million in 2010][2010_swe_count] to [nearly two million][2024_swe_count] today. 
 
 [fivefold_increase]: https://www.yahoo.com/news/articles/hottest-college-major-hit-wall-140231155.html
 [2010_swe_count]: https://www.bls.gov/opub/btn/volume-2/careers-in-growing-field-of-information-technology-services.htm
@@ -70,13 +70,13 @@ As the pandemic wound down, so did the hiring frenzy. Software was already integ
 [2026_tech_layoffs]: https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years
 [swe_salary_dropping]: https://www.reveliolabs.com/news/social/computer-science-has-hit-its-high-water-mark/
 
-Today's computer science grads are in a rough spot. They chose their major when demand for coding skills was at its peak. While they studied, the market cooled. The emergence of AI coding tools adds insult to injury.
+Today's computer science grads are in a rough spot. They chose their major when demand for coding skills was at its peak. While they studied, the market cooled. The rapid emergence of AI coding tools adds insult to injury.
 
 ## AI-Based Coding is the Industry Standard
 
 Senior software engineers don't actually write that much code. We spend a lot of time on product roadmaps, system design, and cross-team bookkeeping. Once in a while, we get to prototype a new feature or debug a tricky issue. But once the path forward is clear, we pass the bulk of the implementation over to junior engineers. 
 
-That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things faster, cheaper, and better than a human. 
+That's how things used to be, at least. These days, we delegate the mechanical work to AI agents instead. AI is good at learning a new codebase. It's good at breaking up medium-sized goals into actionable steps. It's good at turning those steps into code. It's even good at writing up a summary of what it's done. And it can do all of those things faster, cheaper, and better than a college graduate. 
 
 AI-written code is by no means perfect. Agents make mistakes all the time. But so do humans. The software engineering industry has well-established strategies for mitigating the risk of bad code. For example:
 
@@ -106,7 +106,7 @@ Demand for infrastructure engineers is [holding up][infra_demand] despite (or ev
 [infra_demand]: https://underdog.io/blog/tech-hiring-trends
 [more_apps]: https://9to5mac.com/2026/07/20/report-app-store-added-nearly-as-many-new-apps-in-h1-2026-as-in-all-of-2025/
 
-The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, companies hired computer science grads for their coding skills. Now that AI does most of the coding, a computer science degree may not be worth the price[^graphic_design]. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and can use AI as a software *engine*. 
+The product side is a different story. Product engineers are insulated from the inner workings of the machine. In the past, these jobs needed computer science grads for their coding skills. Now that AI does most of the coding, a computer science degree may not be worth the price[^graphic_design]. Instead of hiring a software engineer ([$130k/year][swe_salary]) to build a teaching app, some companies might prefer to hire a teacher ([$70k/year][teacher_salary]) who brings product expertise and can use AI as a software *engine*. 
 
 [^graphic_design]: Creative fields are getting clobbered in a similar way to software engineering. Compared to a professional illustrator or graphic designer, AI can do a passable job for a fraction of the price. Sometimes passable is all you need. 
 
@@ -133,7 +133,7 @@ Software engineering adopted AI because of its coding skills. As we've gotten fa
 - Cleaning up an outdated wiki page
 - Taking a bunch of old data and converting it to a more convenient format
 
-Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Either way, AI has significantly decreased the cost of outsourcing work to the machine. 
+Sometimes AI can shoehorn these tasks into an existing piece of software. Sometimes it writes new code on the fly. Sometimes the work happens within the agent itself. In any case, AI has significantly decreased the cost of outsourcing work to the machine. 
 
 <!--
 AI has taken on much of the mechanical work from software engineering. It can convert a flowchart to a design document, break a design document into tickets, implement a ticket as code, then schedule a meeting to keep stakeholders in the loop. The work isn't beautiful, and I often have to step in with corrections, but it's appreciably faster than doing it myself or delegating it to another person. 
@@ -144,7 +144,7 @@ Fiddly computer tasks exist in other domains, too. Architects, bankers, students
 - Big tech is investing a lot of money into AI. We have whole teams of engineers figuring out how to cram every bit of relevant context into an AI chatbot. This means our in-house tooling is a step or two ahead of what you'd see from that same model fresh out of the box. 
 - Pretty much every tool used by software engineers has a text interface via the Linux terminal. We use this interface to write little programs to automate tedious parts of our jobs. This same interface is very convenient for AI integrations. Buttons and dropdowns and other "pretty" interfaces are trickier to use programmatically.
 - AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. <!-- I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferable. -->
-- Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
+- Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us to spend our time copy-pasting data from Excel into PowerPoint.
 
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
 
@@ -156,7 +156,7 @@ Other use cases will catch up. AI-friendly integration points will be added to p
 
 ## We Can Do Better Than Abstinence-Only Education
 
-Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, coding, and more. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a mess. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
+Generative AI is very good at outsourcing fiddly white-collar tasks to the machine: reading, writing, coding, and more. In a professional setting, this is (arguably) a good thing. Similar results can be produced with less human effort. In an educational setting, on the other hand, it's a disaster. The purpose of homework isn't to produce code and essays. The purpose is to force students to sit down and engage with the concepts. A [recent study][china_ai_study] showed that the average student is completing homework faster and better, but their test scores are dropping. In other words, they're outsourcing the homework to AI and learning less themselves. 
 
 [china_ai_study]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
 
@@ -186,13 +186,11 @@ costs would have to go up BY A LOT to get software engineers to stop using it
 
 ## Wrap-Up
 
-
-
 Today's computer science majors started college when demand for coding skills was at an all-time high. Now they're graduating into a hostile job market. Fewer jobs today care about a computer science degree, and those that remain require deep technical roots. Entry-level coding jobs just don't exist anymore. Generative AI has absorbed that niche. 
 
 Coding is just the tip of the iceberg. As a senior engineer, I now spend more time chatting with AI bots than with my own peers. As a professor, I have to worry about the AI devil on every student's shoulder tempting them with "free" answers. Other industries will be impacted soon enough. AI tools are plenty "smart" to take on all sorts of white-collar bookkeeping. 
 
-Amid the upheaval, I think there's room for optimism. This isn't the first time a new tool has turned an industry inside-out. Our ancestors lost jobs to the printing press, the steam engine, and the assembly line. Now those technologies underpin our daily lives. Tomorrow's workers will spend a bit less time clicking through chores on a computer, and a bit more time exercising their creativity and judgment. 
+Amid the upheaval, I think there's room for optimism. This isn't the first time a new tool has turned an industry inside-out. Past generations lost jobs to the printing press, the steam engine, and the assembly line. Now those technologies underpin our daily lives. Tomorrow's workers will spend a bit less time clicking through chores on a computer, and a bit more time exercising their creativity and judgment. 
 
 <!--
 [entry_level_collapse]: https://hakia.com/news/junior-developer-crisis-2026/
