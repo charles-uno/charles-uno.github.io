@@ -146,7 +146,6 @@ Fiddly computer tasks exist in other industries, too. Architects, bankers, and s
 - AI can respond very differently depending on how a prompt is phrased. We've had a lot of practice at it because our bosses [pushed us to adopt AI tooling][big_tech_early_ai] early. <!-- I'd also guess that some software engineering skills (like [problem decomposition][problem_decomposition]) are transferable. -->
 - Software engineers are expensive! Six-figure salaries are the norm. For that price, companies do not want us spending our time copy-pasting data from Excel into PowerPoint.
 
-[problem_decomposition]: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
 [big_tech_early_ai]: https://www.economist.com/business/2023/03/26/big-tech-and-the-pursuit-of-ai-dominance
 
 Other industries will catch up. AI-friendly integration points will be added to proprietary software. AI tooling will be tweaked to abide by industry-specific [regulations][healthcare_regulations]. Computers are getting [cheaper and faster all the time][moores_law] (though AI costs specifically may [go up in the near term][reduced_subsidies]). AI models today are fundamentally "smart" enough to absorb the mechanical work from all sorts of different white-collar professions. For better or worse, it's just a matter of time before they get plugged in. 
@@ -204,7 +203,7 @@ AI tools are plenty "smart" to take on all sorts of white-collar bookkeeping.
 Amid the upheaval, I think there's room for optimism.
 This isn't the first time a new tool has turned an industry inside-out. 
 Our ancestors lost jobs to the printing press, the steam engine, and the assembly line. 
-Now we take those technologies underpin our daily lives. 
+Now those technologies underpin our daily lives. 
 Tomorrow's workers will spend a bit less time clicking through chores on a computer, and a bit more time exercising their creativity and judgment. 
 
 <!--
@@ -235,4 +234,5 @@ Tomorrow's workers will spend a bit less time clicking through chores on a compu
 [git_and_grep_survive]: https://steve-yegge.medium.com/software-survival-3-0-97a2a6255f7b
 [meta_leaks]: https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering
 [creative_jobs]: https://www.brookings.edu/articles/is-generative-ai-a-job-killer-evidence-from-the-freelance-market/
+[problem_decomposition]: https://en.wikipedia.org/wiki/Decomposition_(computer_science)
 -->
