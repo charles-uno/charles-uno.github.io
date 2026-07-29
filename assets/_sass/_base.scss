@@ -22,15 +22,9 @@ html {
     font-family: $base-font;
     color: $text-color;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 16px;
 }
-@media (min-width: 40em) {
-    html { font-size: 16px; }
-}
-@media (min-width: 55em) {
-    html { font-size: 18px; }
-}
-@media (min-width: 70em) {
+@media (min-width: 38em) {
     html { font-size: 20px; }
 }
 

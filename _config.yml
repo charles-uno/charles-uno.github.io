@@ -14,7 +14,7 @@ permalink: /:title/
 plugins:
   - jekyll-seo-tag
 sass:
-  sass_dir: /assets/_sass
+  sass_dir: assets/_sass
   style: :compressed
   quiet_deps: true
   silence_deprecations:

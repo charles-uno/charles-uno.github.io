@@ -13,6 +13,10 @@ I'm Charles. I like figuring out how things work, as well as how they could be t
 
 The site is powered by [Jekyll](https://jekyllrb.com/) via [GitHub Pages](https://pages.github.com/). Some images are mine, but if it looks nice it's probably from [Unsplash](https://unsplash.com/). <!-- Media glyphs are from [Font Awesome](http://fontawesome.io/). -->
 
+## AI Use
+
+I use generative AI tools for proofreading, brainstorming, and site maintenance. 
+
 ## Privacy Policy
 
 I use [Google Analytics][google_analytics] as well as [Google Fonts][google_fonts]. That means Google knows you're here. They measure information including:
