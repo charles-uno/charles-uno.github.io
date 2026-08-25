@@ -1,0 +1,191 @@
+// Print stylesheet for printer-friendly posts and pages
+
+.print-header,
+.print-references,
+.print-link-num {
+  display: none;
+}
+
+@media print {
+  // Page margin controls
+  @page {
+    margin: 2cm 2cm;
+  }
+
+  // Reset colors and background for ink efficiency
+  html, body, .main, article, header {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  // Hide UI and interactive elements
+  .navbar,
+  .autocard-wrap,
+  .print-btn,
+  .copy {
+    display: none !important;
+  }
+
+  // Display print header
+  .print-header {
+    display: block !important;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: #444444;
+
+    .print-site-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #000000;
+
+      &::after {
+        content: " — Printer Friendly Edition";
+        font-weight: normal;
+        font-size: 0.9rem;
+        color: #666666;
+      }
+    }
+
+    .print-url {
+      font-size: 0.8rem;
+      word-break: break-all;
+      color: #555555;
+    }
+  }
+
+  // Full-width layout
+  .main {
+    margin: 0 !important;
+    padding: 0 0.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+  }
+
+  header {
+    padding-top: 0 !important;
+
+    .post-title {
+      font-size: 2.2rem !important;
+      color: #000000 !important;
+      margin-top: 0 !important;
+    }
+
+    .post-date {
+      color: #333333 !important;
+    }
+
+    .post-tag {
+      border: 1px solid #ccc !important;
+      background-color: transparent !important;
+      color: #333333 !important;
+      padding: 0.15rem 0.5rem !important;
+    }
+  }
+
+  article {
+    font-size: 11pt !important;
+    line-height: 1.55 !important;
+    color: #000000 !important;
+
+    a {
+      color: #000000 !important;
+      text-decoration: underline !important;
+    }
+
+    // Numbered superscript for print links
+    .print-link-num {
+      display: inline !important;
+      font-size: 0.75em !important;
+      font-weight: normal !important;
+      color: #444444 !important;
+      margin-left: 1px !important;
+    }
+
+    // Printed footnotes section for links at bottom of article
+    .print-references {
+      display: block !important;
+      margin-top: 2.5rem !important;
+      padding-top: 1rem !important;
+      border-top: 1px solid #cccccc !important;
+      page-break-inside: avoid;
+      break-inside: avoid;
+
+      h3 {
+        font-size: 1rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 0.5rem !important;
+        color: #222222 !important;
+      }
+
+      ol {
+        padding-left: 1.2rem !important;
+        margin-bottom: 0 !important;
+        list-style-type: lower-alpha !important;
+
+        li {
+
+          font-size: 8.5pt !important;
+          line-height: 1.4 !important;
+          word-break: break-all;
+          color: #444444 !important;
+          margin-bottom: 0.3rem !important;
+        }
+      }
+    }
+
+    // Code blocks & quotes in print mode
+    blockquote, div.highlight, pre, pre.highlight, table {
+      box-shadow: none !important;
+      background-color: #f8f8f8 !important;
+      border: 1px solid #dddddd !important;
+    }
+
+    blockquote {
+      border-left: 4px solid #333333 !important;
+      color: #222222 !important;
+    }
+
+    code {
+      background-color: #f0f0f0 !important;
+      color: #000000 !important;
+      border: 1px solid #e0e0e0 !important;
+    }
+
+    pre code {
+      border: none !important;
+      background-color: transparent !important;
+    }
+
+    table {
+      border-collapse: collapse !important;
+      width: 100% !important;
+
+      th, td {
+        border: 1px solid #cccccc !important;
+        background-color: transparent !important;
+        padding: 0.4rem 0.6rem !important;
+      }
+    }
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+      box-shadow: none !important;
+    }
+  }
+
+  // Page break controls
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  blockquote, pre, div.highlight, img, table, figure, .footnotes {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

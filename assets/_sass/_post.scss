@@ -29,6 +29,12 @@ header {
         letter-spacing: 0.02em;
     }
 
+    .post-meta-right {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
     .post-tag {
         display: inline-block;
         line-height: 1;
@@ -46,7 +52,30 @@ header {
             background-color: $accent-color;
         }
     }
+
+    .print-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: $font-size-caption;
+        line-height: 1;
+        padding: 0.25rem 0.75rem;
+        border-radius: 2rem;
+        color: lighten($text-color, 20%);
+        background-color: rgba($accent-color, 0.08);
+        border: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+
+        &:hover {
+            cursor: pointer;
+            color: $shadow-color;
+            background-color: $accent-color;
+        }
+    }
 }
+
+
 
 article {
 
