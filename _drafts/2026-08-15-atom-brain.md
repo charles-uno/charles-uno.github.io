@@ -6,6 +6,29 @@ description: ""
 tags: code
 ---
 
+
+
+
+a grain of sand in the desert doesn't have any agency. it moves according to the forces that act on it. it may be blown into the air by the wind, then pulled back to earth by gravity. it may collide with other grains in a sandstorm. it may get stuck to the foot of a lizard. but ultimately, whatever path is takes, it follows the laws of physics
+
+this doesn't mean we can perfectly predict the path of every grain of sand. we can only measure so much
+
+things can also get weird when we zoom out. a lot of ink has been spilled studying the movement of sand dunes across the desert. the math gets really complicated. this is an emergent property that is *not* obvious from looking at the fundamental laws for a single grain of sand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Atoms don't go rogue
 
 Everything is made of fundamental particles

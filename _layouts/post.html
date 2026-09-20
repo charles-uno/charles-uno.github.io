@@ -10,23 +10,24 @@ layout: default
     </div>
 
     <span class="post-links">
-        <span class="post-date">
-            <span class="nowrap">{{ page.date | date: "%-d %B %Y" }}</span>
-        </span>
-        <span class="post-meta-right">
-            {% if page.tags %}
-            <span class="post-tags">
-                {% assign sorted = page.tags | sort %}
-                {% for tag in sorted %}
-                <a class="post-tag" href="/#{{ tag }}">#{{ tag }}</a>
-                {% endfor %}
+        <span class="post-meta-left">
+            <span class="post-date">
+                <span class="nowrap">{{ page.date | date: "%-d %B %Y" }}</span>
             </span>
-            {% endif %}
             <a href="#" onclick="window.print(); return false;" class="print-btn" title="Print this post">
-                <i class="fas fa-print"></i> Print
+                <i class="fas fa-print"></i> print
             </a>
         </span>
+        {% if page.tags %}
+        <span class="post-tags">
+            {% assign sorted = page.tags | sort %}
+            {% for tag in sorted %}
+            <a class="post-tag" href="/#{{ tag }}">#{{ tag }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
     </span>
+
 
     <h1 class="post-title">{{ page.title }}</h1>
 </header>
