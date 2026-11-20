@@ -13,6 +13,7 @@ gem 'jekyll-feed', '~> 0.17.0'
 gem 'webrick', '~> 1.8'
 
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
 
 # Tests and development tools can be added here later.
 group :development, :test do
